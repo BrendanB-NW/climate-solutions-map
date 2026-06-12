@@ -1,0 +1,927 @@
+{
+ "sector": "transport",
+ "bucket": "Commercial, Heavy-Duty & Off-Road EVs",
+ "census": {
+  "bucket": "Commercial, Heavy-Duty & Off-Road EVs",
+  "variations": [
+   {
+    "name": "Heavy-duty electric trucks, semis & electric freight services",
+    "description": "Battery-electric Class 8 tractors and rigid trucks (plus freight-as-a-service operators that sell electric trucking capacity) replace diesel in regional haul, drayage and increasingly long-haul \u2014 the single largest diesel fuel pool in road freight.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "BYD",
+      "role": "incumbent",
+      "what": "Vertically integrated (cells-to-vehicle) Chinese giant selling 8TT/Q1 Class 8 tractors and a full e-truck range in China, North American ports and Latin America.",
+      "signal": "China accounts for the vast majority of global e-truck sales; BYD among top sellers with global plants",
+      "status": "operating",
+      "source": "https://www.iea.org/reports/global-ev-outlook-2025/trends-in-heavy-duty-electric-vehicles"
+     },
+     {
+      "name": "Volvo Trucks",
+      "role": "incumbent",
+      "what": "Broadest western heavy BEV lineup (FH/FM/FMX/VNR Electric); new FH Aero Electric does 700 km per charge; long-time EU/NA electric HDT share leader.",
+      "signal": "Thousands of heavy e-trucks delivered across ~50 markets since 2019; led EU share until Mercedes overtook in 2025",
+      "status": "operating",
+      "source": "https://evmagazine.com/news/volvos-electric-heavy-duty-truck-with-700-km-of-range"
+     },
+     {
+      "name": "Daimler Truck",
+      "role": "incumbent",
+      "what": "eActros 600 long-hauler (500+ km, megawatt-charging-ready) in Europe and Freightliner eCascadia in US drayage/regional haul.",
+      "signal": "Became the EU's largest zero-emission heavy truck seller in 2025 (~1,400 units; ~5% of its EU sales by Q4)",
+      "status": "operating",
+      "source": "https://www.iea.org/reports/global-ev-outlook-2025/trends-in-heavy-duty-electric-vehicles"
+     },
+     {
+      "name": "Tesla",
+      "role": "incumbent",
+      "what": "Semi Class 8 tractor with ~500-mile range; dedicated factory at Giga Nevada reached high-volume production in 2026 after PepsiCo and other fleet pilots.",
+      "signal": "965 of 1,067 California voucher requests in the Dec 2025 window were for Tesla Semis; volume production started 2026",
+      "status": "operating",
+      "source": "https://www.canarymedia.com/articles/clean-fleets/tesla-semis-hit-the-road"
+     },
+     {
+      "name": "Traton (Scania / MAN)",
+      "role": "incumbent",
+      "what": "Series-production 40-44t BEV tractors (Scania battery-electric R/S, MAN eTGX) built on main European lines since 2024-25.",
+      "signal": "MAN began series eTGX production in 2025; Scania scaling BEV output at S\u00f6dert\u00e4lje",
+      "status": "operating",
+      "source": "https://www.iea.org/reports/global-ev-outlook-2025/trends-in-heavy-duty-electric-vehicles"
+     },
+     {
+      "name": "Windrose Technology",
+      "role": "startup",
+      "what": "Belgium-headquartered, China-engineered aerodynamic long-haul e-tractor (670 km at 49t GCW, 800V); US assembly via partner Xos.",
+      "signal": "$110M Series B (2025, HSBC/HITE) plus ~$100M strategic; targeting NYC IPO mid-2026 and first US deliveries 2025-26",
+      "status": "operating",
+      "source": "https://www.electrive.com/2025/12/18/windrose-sets-sights-on-powering-5-of-the-worlds-trucks-by-2030/"
+     },
+     {
+      "name": "Einride",
+      "role": "scaleup",
+      "what": "Swedish electric freight-as-a-service operator (sells freight capacity, not trucks) with driver-operated e-fleets plus cab-less autonomous pods for Amazon, AB InBev and others.",
+      "signal": "Completed $1.35B SPAC merger and began Nasdaq trading June 10, 2026 (ENRD); shares rose ~74% on debut",
+      "status": "operating",
+      "source": "https://www.cnbc.com/2026/06/10/einride-autonomous-freight-truck-first-trade-nasdaq-spac.html"
+     },
+     {
+      "name": "WattEV",
+      "role": "startup",
+      "what": "Trucks-as-a-service drayage carrier pairing its own Class 8 BEV fleet with public megawatt charging plazas (incl. solar-powered Bakersfield depot) in California.",
+      "signal": "~$109M in federal/state grants for charging corridor build-out; dozens of electric trucks in revenue service",
+      "status": "operating",
+      "source": "https://wattev.com/wattev-secures-record-breaking-75-6-million-in-federal-grants-to-expand-west-coast-electric-truck-charging-corridor/"
+     },
+     {
+      "name": "Nikola",
+      "role": "scaleup",
+      "what": "BEV/FCEV Class 8 pioneer that delivered a few hundred trucks; filed Chapter 11 in February 2025 after cash burn and recalls.",
+      "signal": "Lucid bought its Arizona factory and HQ lease for ~$30M at the April 2025 bankruptcy auction; truck business not continued",
+      "status": "bankrupt-shutdown",
+      "source": "https://techcrunch.com/2025/04/10/lucid-motors-wins-bankruptcy-auction-for-nikolas-arizona-factory-and-other-assets/"
+     },
+     {
+      "name": "Volta Trucks",
+      "role": "startup",
+      "what": "Purpose-built 16t urban Volta Zero with central driving position; first bankruptcy Oct 2023 after battery supplier Proterra's collapse, relaunched under Luxor Capital, then failed again.",
+      "signal": "Second insolvency announced May 2025 after an investor pulled out; staff unpaid for 8 weeks; liquidation likely",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.electrive.com/2025/05/06/volta-trucks-announces-another-insolvency/"
+     }
+    ]
+   },
+   {
+    "name": "Medium-duty & vocational trucks (incl. refuse and utility)",
+    "description": "Class 4-7 box trucks, step-van chassis, refuse and utility trucks have predictable depot-based routes that suit batteries, making them the most economically rational early segment for fleet electrification.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Harbinger",
+      "role": "startup",
+      "what": "Purpose-built Class 4-6 strip chassis with in-house 800V powertrain priced near diesel; also a hybrid-electric RV chassis line.",
+      "signal": "$100M Series B (Jan 2025); serial production started Apr 2025; 4,690-vehicle order book worth ~$500M",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/electric-vehicle-company-harbinger-raises-100-million-in-series-b-funding-co-led-by-capricorns-technology-impact-fund-and-leitmotif-302350035.html"
+     },
+     {
+      "name": "Xos",
+      "role": "scaleup",
+      "what": "Nasdaq-listed step-van/stripped-chassis OEM for parcel and uniform fleets (FedEx Ground, UPS, Cintas), plus mobile charging units; US assembly partner for Windrose semis.",
+      "signal": "1,000+ vehicles delivered cumulatively; 328 units in 2025",
+      "status": "operating",
+      "source": "https://www.globenewswire.com/news-release/2026/06/04/3307110/0/en/Xos-Makes-Its-GFX-Debut-with-Electric-Vehicles-Powertrain-Technology-and-Mobile-Charging-for-Public-Fleets.html"
+     },
+     {
+      "name": "Battle Motors",
+      "role": "scaleup",
+      "what": "Successor to Crane Carrier building EV (and diesel) cabover refuse and vocational trucks with in-house LFP packs in Ohio.",
+      "signal": "Raised $150M+ (Series B, 2023); EV refuse trucks deployed with US municipal fleets",
+      "status": "operating",
+      "source": "https://battlemotors.com"
+     },
+     {
+      "name": "Mack Trucks (Volvo Group)",
+      "role": "incumbent",
+      "what": "LR Electric Class 8 refuse chassis purpose-built for curbside collection, paired with McNeilus/Heil bodies.",
+      "signal": "First major-OEM electric refuse truck in North America; in service with NYC DSNY, Republic Services and others",
+      "status": "operating",
+      "source": "https://www.macktrucks.com/trucks/lr-electric/"
+     },
+     {
+      "name": "Daimler Truck (Fuso / Rizon)",
+      "role": "incumbent",
+      "what": "Fuso eCanter light-medium cabover sold in 40+ markets since 2017 (3rd generation), plus the Rizon brand of Class 4-5 e-trucks for North America.",
+      "signal": "Thousands of eCanters in service globally; Rizon launched in the US in 2023",
+      "status": "operating",
+      "source": "https://rizonusa.com"
+     },
+     {
+      "name": "Isuzu",
+      "role": "incumbent",
+      "what": "NRR-EV Class 5 cabover with modular battery options \u2014 the electric version of America's best-selling low-cab-forward work truck.",
+      "signal": "Production launched 2024 for US fleets",
+      "status": "operating",
+      "source": "https://www.isuzucv.com"
+     },
+     {
+      "name": "Oshkosh Corporation",
+      "role": "incumbent",
+      "what": "Fully integrated electric vocational vehicles: McNeilus Volterra ZSL/ZFL refuse trucks, Pierce Volterra fire apparatus, and USPS Next Generation BEV mail trucks.",
+      "signal": "Volterra ZFL front-loader debuted at CES 2025; USPS BEV deliveries ramping",
+      "status": "operating",
+      "source": "https://www.wastetodaymagazine.com/news/mcneilus-unveils-volterra-zfl-refuse-recycling-colleciton-vehicle-ces-2025/"
+     },
+     {
+      "name": "Bollinger Motors",
+      "role": "startup",
+      "what": "Class 4 B4 cab-forward electric chassis (production launched Sept 2024 under Mullen Automotive ownership).",
+      "signal": "Receivership Mar-Jun 2025, shut down Nov 2025, second receivership Dec 2025; assets and remaining trucks auctioned May 2026",
+      "status": "bankrupt-shutdown",
+      "source": "https://tfltruck.com/2026/04/bollinger-motors-court-ordered-auction-news/"
+     },
+     {
+      "name": "Tevva",
+      "role": "startup",
+      "what": "UK maker of 7.5t battery-electric trucks (with hydrogen range-extender variants) supplied to Royal Mail and Travis Perkins.",
+      "signal": "Entered administration June 2024 after a failed merger with ElectraMeccanica; production ceased",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.electrive.com/2024/05/15/british-electric-truck-manufacturer-tevva-is-insolvent/"
+     }
+    ]
+   },
+   {
+    "name": "Electric delivery & step vans",
+    "description": "Purpose-built electric cargo vans and step vans serve last-mile parcel and trade fleets where stop-start urban duty cycles maximize the efficiency and brake-regen advantages of EVs.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Rivian",
+      "role": "scaleup",
+      "what": "Purpose-built EDV/RCV delivery vans co-designed with Amazon, now also sold to non-Amazon fleets.",
+      "signal": "Amazon's Rivian fleet grew 50% in 2025 to 30,000+ vans in the US; 100,000-van target by 2030",
+      "status": "operating",
+      "source": "https://www.cleantrucking.com/battery-electric/article/15817664/amazon-boosts-rivian-ev-van-fleet-50-in-2025"
+     },
+     {
+      "name": "Ford Pro",
+      "role": "incumbent",
+      "what": "E-Transit \u2014 the best-selling electric cargo van in the US and a leader in Europe, bundled with Ford Pro charging and telematics.",
+      "signal": "Tens of thousands delivered since 2022; US e-van segment leader",
+      "status": "operating",
+      "source": "https://media.ford.com"
+     },
+     {
+      "name": "Mercedes-Benz Vans",
+      "role": "incumbent",
+      "what": "eSprinter and eVito built on dedicated lines in Germany/US; major supplier to Amazon's European electric fleet.",
+      "signal": "Amazon's EU fleet topped 10,000 e-vans in 2025, with ~5,000 Mercedes vans added that year",
+      "status": "operating",
+      "source": "https://insideevs.com/news/797914/amazon-ev-delivery-fleet-2026-update/"
+     },
+     {
+      "name": "GM BrightDrop",
+      "role": "incumbent",
+      "what": "Purpose-built Zevo 400/600 vans from CAMI, Ontario; GM ended production in Oct 2025 citing weak demand after US incentives were eliminated (GM itself continues, the van line is dead).",
+      "signal": "Q3 2025 sales of 2,384 (+869% YoY) still not enough; line discontinued with no relocation",
+      "status": "bankrupt-shutdown",
+      "source": "https://electrek.co/2025/10/21/gm-kills-brightdrop-electric-van-production/"
+     },
+     {
+      "name": "Flexis",
+      "role": "startup",
+      "what": "Software-defined 800V electric van family (Step-in, Cargo, Panel) for urban logistics, founded as Renault-Volvo-CMA CGM JV; Renault moved to take 100% ownership in Feb 2026.",
+      "signal": "\u20ac350M+ invested; serial production starts at Renault Sandouville in 2026",
+      "status": "operating",
+      "source": "https://media.renaultgroup.com/flexis-enters-new-phase-as-renault-group-takes-full-ownership/?lang=eng"
+     },
+     {
+      "name": "Farizon (Geely)",
+      "role": "scaleup",
+      "what": "Geely's new-energy commercial vehicle arm; drive-by-wire SV electric supervan exporting to Europe and Asia-Pacific.",
+      "signal": "SV shortlisted for International Van of the Year 2026; European launch 2025",
+      "status": "operating",
+      "source": "https://global.geelycv.com/vehicles/van/"
+     },
+     {
+      "name": "Workhorse",
+      "role": "scaleup",
+      "what": "W56 Class 5/6 electric step vans built in Union City, Indiana (5,000+/yr single-shift capacity); consolidated the US step-van EV niche by merging with Motiv in Dec 2025.",
+      "signal": "Post-merger cost reductions enabled price cuts up to $61,000 per van in 2026 to spur demand",
+      "status": "operating",
+      "source": "https://www.globenewswire.com/news-release/2026/04/07/3269274/0/en/Workhorse-Launches-Pricing-Promotion-on-W56-Electric-Step-Vans.html"
+     },
+     {
+      "name": "Motiv Electric Trucks",
+      "role": "startup",
+      "what": "EPIC chassis and Argo step-van electrification pioneer with hundreds of vehicles at fleets like Bimbo Bakeries and Purolator.",
+      "signal": "Merged into Workhorse in December 2025",
+      "status": "acquired",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001425287/000121390025077078/ea025346601ex99-1_workhorse.htm"
+     },
+     {
+      "name": "Arrival",
+      "role": "scaleup",
+      "what": "UK 'microfactory' electric van startup once valued at $13B via SPAC with a 10,000-van UPS order.",
+      "signal": "Entered UK administration Feb 2024; assets sold off piecemeal",
+      "status": "bankrupt-shutdown",
+      "source": "https://en.wikipedia.org/wiki/Arrival_(company)"
+     },
+     {
+      "name": "Canoo",
+      "role": "scaleup",
+      "what": "Skateboard-platform LDV/LV electric delivery vans, including a USPS pilot and NASA crew transport vehicles.",
+      "signal": "Filed Chapter 7 liquidation January 2025",
+      "status": "bankrupt-shutdown",
+      "source": "https://en.wikipedia.org/wiki/Canoo"
+     }
+    ]
+   },
+   {
+    "name": "Transit buses & coaches",
+    "description": "Battery-electric city buses are the most mature heavy EV segment \u2014 fixed routes, depot charging and high diesel displacement per vehicle made them cost-competitive on TCO first, with China's fleet already majority electric and EU new sales approaching half zero-emission.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "BYD",
+      "role": "incumbent",
+      "what": "World's most prolific e-bus maker with tens of thousands delivered (Shenzhen's 16,000-bus fleet onward) and assembly plants on three continents.",
+      "signal": "~80,000+ e-buses delivered globally since 2011",
+      "status": "operating",
+      "source": "https://www.iea.org/reports/global-ev-outlook-2025/trends-in-heavy-duty-electric-vehicles"
+     },
+     {
+      "name": "Yutong",
+      "role": "incumbent",
+      "what": "World's largest bus manufacturer; dominant in Chinese e-buses and the top exporter to Latin America, Central Asia and Europe.",
+      "signal": "~190,000 new-energy buses delivered cumulatively (company figure)",
+      "status": "operating",
+      "source": "https://en.yutong.com"
+     },
+     {
+      "name": "New Flyer (NFI Group)",
+      "role": "incumbent",
+      "what": "North America's largest transit bus maker; Xcelsior CHARGE NG battery buses and MCI electric coaches.",
+      "signal": "Record orders/backlog in 2024-25 as US transit agencies electrify",
+      "status": "operating",
+      "source": "https://www.nfigroup.com"
+     },
+     {
+      "name": "GILLIG",
+      "role": "incumbent",
+      "what": "Private US transit bus builder with a growing battery-electric line; bought Lightning eMotors' Colorado assets (2024) to in-source EV powertrain work.",
+      "signal": "Hundreds of BEBs delivered to US agencies",
+      "status": "operating",
+      "source": "https://www.gillig.com"
+     },
+     {
+      "name": "Solaris (CAF)",
+      "role": "incumbent",
+      "what": "Polish-built Urbino Electric family; perennial #1 or #2 in European zero-emission city bus deliveries.",
+      "signal": "Thousands of e-buses in 30+ countries; ~20% EU ZE-bus share",
+      "status": "operating",
+      "source": "https://www.solarisbus.com"
+     },
+     {
+      "name": "Ebusco",
+      "role": "scaleup",
+      "what": "Dutch maker of lightweight composite-body e-buses (Ebusco 3.0); serial liquidity crises since 2024 despite restructuring.",
+      "signal": "Workforce halved to 282 FTE in 2025; \u20ac32M debt restructured; exploring sale of controlling stake in bus division (Apr 2026)",
+      "status": "uncertain",
+      "source": "https://www.sustainable-bus.com/news/ebusco-2025-risk-insolvency/"
+     },
+     {
+      "name": "Wrightbus",
+      "role": "incumbent",
+      "what": "Northern Irish builder of electric (and hydrogen) double-deckers; revived after 2019 administration by Jo Bamford and growing rapidly in UK/EU/APAC.",
+      "signal": "Record order intake 2024-25; one of UK's fastest-growing manufacturers",
+      "status": "operating",
+      "source": "https://wrightbus.com"
+     },
+     {
+      "name": "Olectra Greentech",
+      "role": "incumbent",
+      "what": "India's largest electric bus maker (BYD-licensed technology) supplying state transport undertakings under FAME/PM-eBus Sewa schemes.",
+      "signal": "Thousands of e-buses delivered or on order across Indian cities",
+      "status": "operating",
+      "source": "https://olectra.com"
+     },
+     {
+      "name": "Proterra",
+      "role": "scaleup",
+      "what": "US e-bus and battery pioneer that filed Chapter 11 in Aug 2023; transit bus business sold to Phoenix Motor, battery business to Volvo.",
+      "signal": "Cautionary tale: ~$1B+ raised, 1,000+ buses delivered, still failed on cost/contracts",
+      "status": "bankrupt-shutdown",
+      "source": "https://en.wikipedia.org/wiki/Proterra"
+     },
+     {
+      "name": "Van Hool",
+      "role": "incumbent",
+      "what": "124-year-old Belgian bus and coach maker (incl. CX45E electric coaches for North America) that went bankrupt April 2024; VDL bought the bus/coach operations.",
+      "signal": "One of Europe's largest coach makers; collapse shifted EU e-coach work to VDL/Schmitz",
+      "status": "bankrupt-shutdown",
+      "source": "https://en.wikipedia.org/wiki/Van_Hool"
+     }
+    ]
+   },
+   {
+    "name": "Electric school buses",
+    "description": "Electric school buses pair short, predictable routes with long midday/overnight dwell times \u2014 ideal for charging and V2G \u2014 and remove diesel exhaust from children's commutes; US adoption is driven by the EPA Clean School Bus Program and state subsidies.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Blue Bird",
+      "role": "incumbent",
+      "what": "Only US pure-play school bus OEM (publicly listed); its EV line is profitable and built in Georgia.",
+      "signal": "Record 901 electric buses delivered in FY2025 (of 9,409 total); record $221M adj. EBITDA",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20251124098457/en/Blue-Bird-Reports-Fiscal-2025-Fourth-Quarter-and-Full-Year-Results-Beats-Guidance-With-Record-Results"
+     },
+     {
+      "name": "Thomas Built Buses (Daimler Truck)",
+      "role": "incumbent",
+      "what": "Saf-T-Liner C2 'Jouley' Type C electric bus using Accelera (ex-Proterra) powertrains.",
+      "signal": "1,500+ electric buses delivered across North America",
+      "status": "operating",
+      "source": "https://www.schoolbusfleet.com/articles/the-state-of-electric-school-buses-where-we-are-and-where-were-going"
+     },
+     {
+      "name": "IC Bus (Navistar/Traton)",
+      "role": "incumbent",
+      "what": "Electric CE Series school bus plus new full-service zero-emission contracts (charging + uptime).",
+      "signal": "~1,500 electric school buses on the road",
+      "status": "operating",
+      "source": "https://www.schoolbusfleet.com/articles/the-state-of-electric-school-buses-where-we-are-and-where-were-going"
+     },
+     {
+      "name": "Micro Bird",
+      "role": "incumbent",
+      "what": "Blue Bird-Girardin JV building the G5e Type A (small) electric school bus in Quebec.",
+      "signal": "Leading Type A electric supplier in US/Canada",
+      "status": "operating",
+      "source": "https://www.microbird.com"
+     },
+     {
+      "name": "LION (ex-Lion Electric)",
+      "role": "scaleup",
+      "what": "Former North American e-school-bus volume leader (~2,500 delivered); collapsed under CCAA in Dec 2024 and was sold for C$6M to a Quebec investor group in May 2025, restarting as a Quebec-only school bus maker.",
+      "signal": "US plants and truck lines abandoned; ~1,000 buses kept running in Quebec backed by ~$500M provincial subsidy renewal",
+      "status": "acquired",
+      "source": "https://electricautonomy.ca/fleets/school-buses/2025-05-22/lion-electric-investors-quebec-school-bus/"
+     },
+     {
+      "name": "GreenPower Motor",
+      "role": "scaleup",
+      "what": "Purpose-built BEAST Type D and Nano BEAST Type A electric school buses assembled in West Virginia and California.",
+      "signal": "Laid off workers and paused WV production May 2025 citing tariffs; small volumes and weak balance sheet",
+      "status": "uncertain",
+      "source": "https://www.wowktv.com/news/west-virginia/kanawha-county-wv/greenpower-motor-company-announces-layoffs-at-south-charleston-manufacturing-plant-due-to-tariffs/"
+     },
+     {
+      "name": "Highland Electric Fleets",
+      "role": "scaleup",
+      "what": "Electrification-as-a-service: owns buses/chargers and sells districts a per-mile contract including V2G revenue and maintenance.",
+      "signal": "$253M Series B (2023); 1,000+ buses under contract across 30+ states/provinces",
+      "status": "operating",
+      "source": "https://www.highlandfleets.com"
+     },
+     {
+      "name": "Zum",
+      "role": "scaleup",
+      "what": "Tech-enabled student transportation operator converting district fleets to electric with V2G (delivered Oakland USD, the first major-district 100% electric fleet, 2024).",
+      "signal": "~$140M Series E (2024) at ~$1.3B valuation; multi-district CA/CO contracts",
+      "status": "operating",
+      "source": "https://www.ridezum.com"
+     }
+    ]
+   },
+   {
+    "name": "Construction & compact equipment",
+    "description": "Battery-electric excavators, loaders and compact machines eliminate diesel use and noise on jobsites; China's electric wheel loaders crossed 25% monthly sales penetration in 2025 while western OEMs commercialize compact and mid-size machines for urban/indoor work.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "XCMG",
+      "role": "incumbent",
+      "what": "Largest electric construction equipment range (33 BEV loader models plus excavators, mixers, dump trucks); #1 in China's booming electric loader market.",
+      "signal": "China electric loader penetration hit 26.6% in July 2025 (16,344 units Jan-Jul, +154% YoY); XCMG market leader",
+      "status": "operating",
+      "source": "https://minetruck.com/why-xcmgs-electric-wheel-loader-has-overtaken-traditional-manufacturers-like-liugong/"
+     },
+     {
+      "name": "SANY",
+      "role": "incumbent",
+      "what": "21+ electric models across loaders, excavators, mixer trucks and dump trucks with in-house battery integration.",
+      "signal": "Top-3 in Chinese zero-emission construction machinery output",
+      "status": "operating",
+      "source": "https://theicct.org/publication/zero-emission-construction-machinery-in-china-2025-sept25/"
+     },
+     {
+      "name": "LiuGong",
+      "role": "incumbent",
+      "what": "Neck-and-neck with XCMG in battery-electric loaders (the two hold ~50% of China BEV loader production); exporting 856H-E MAX loaders globally.",
+      "signal": "~Half of China's BEV loader output together with XCMG",
+      "status": "operating",
+      "source": "https://theicct.org/publication/zero-emission-construction-machinery-in-china-2025-sept25/"
+     },
+     {
+      "name": "Volvo CE",
+      "role": "incumbent",
+      "what": "Broadest western electric lineup from 2.5t compact machines to the 23t EC230 Electric excavator and L120 Electric loader.",
+      "signal": "EC230 Electric commercially available in North America early 2025; L120 Electric deliveries from 2026",
+      "status": "operating",
+      "source": "https://www.volvoce.com/united-states/en-us/about-us/news/2025/volvo-ce-debuts-two-mid-size-electric-machines-in-north-america/"
+     },
+     {
+      "name": "Komatsu",
+      "role": "incumbent",
+      "what": "PC210E 20t lithium-ion electric excavator (Europe/Japan) plus electric minis and compact models.",
+      "signal": "First major Japanese OEM with a 20t-class production electric excavator (2023-24)",
+      "status": "operating",
+      "source": "https://www.constructionequipment.com/earthmoving/article/55371682/electric-equipment-survey"
+     },
+     {
+      "name": "Bobcat (Doosan)",
+      "role": "incumbent",
+      "what": "T7X/S7X all-electric compact track and skid-steer loaders that replace hydraulics entirely with electric actuation, plus electric mini-excavators.",
+      "signal": "T7X launched 2022 with Sunbelt Rentals placement; S7X following",
+      "status": "operating",
+      "source": "https://www.bobcat.com"
+     },
+     {
+      "name": "Caterpillar",
+      "role": "incumbent",
+      "what": "Battery-electric prototypes across four machine families with battery production in-house; reportedly acquired collapsed Monarch Tractor's electric/autonomy technology in 2026.",
+      "signal": "Demonstration-stage machines at customer sites; cautious commercial rollout",
+      "status": "operating",
+      "source": "https://www.caterpillar.com"
+     },
+     {
+      "name": "Wacker Neuson",
+      "role": "incumbent",
+      "what": "'Zero emission' compact line \u2014 electric mini-excavators, wheel loaders, dumpers and rammers \u2014 widely sold for EU urban and indoor jobsites.",
+      "signal": "One of the largest zero-emission compact portfolios in Europe",
+      "status": "operating",
+      "source": "https://www.wackerneuson.com"
+     },
+     {
+      "name": "Firstgreen Industries",
+      "role": "startup",
+      "what": "Czech manufacturer of fully electric skid-steer loaders (ROCKEAT, MiniZ) sold into European and US niche/indoor markets.",
+      "signal": "Niche exporter; one of few pure-play electric earthmoving startups",
+      "status": "operating",
+      "source": "https://www.firstgreenindustries.com"
+     }
+    ]
+   },
+   {
+    "name": "Mining trucks & underground equipment",
+    "description": "Battery-electric haul trucks and underground loaders/drills cut diesel (a top-2 mine operating cost), eliminate ventilation-driven energy demand underground, and are moving from underground commercial fleets to first ultraclass surface deployments.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Epiroc",
+      "role": "incumbent",
+      "what": "Underground BEV pioneer (battery loaders, 42t Minetruck, drill rigs) with batteries-as-a-service financing model.",
+      "signal": "Hundreds of battery units delivered; repeat full-fleet orders in Canada and Australia since 2021",
+      "status": "operating",
+      "source": "https://www.epiroc.com/en-us/newsroom/2021/epiroc-supports-new-world-standard-in-sustainable-underground-mining-with-yet-another-battery-electric-order"
+     },
+     {
+      "name": "Sandvik",
+      "role": "incumbent",
+      "what": "Underground BEV leader via its Artisan acquisition; TH665B 65t battery truck and LH518iB loader.",
+      "signal": "Largest-ever BEV order (~SEK 750M) from South32's Hermosa project booked Q2 2025; repeat Eldorado Gold orders Q3/Q4 2025",
+      "status": "operating",
+      "source": "https://www.home.sandvik/en/news-and-media/news/2025/04/sandvik-wins-record-order-for-battery-electric-mining-equipment/"
+     },
+     {
+      "name": "Liebherr",
+      "role": "incumbent",
+      "what": "T 264 240t battery-electric haul trucks (3.2 MWh pack) with 6 MW DC fast chargers, built around Fortescue Zero power systems; ~360-truck autonomous fleet for Fortescue.",
+      "signal": "US$2.8B partnership (Sept 2024) \u2014 the largest zero-emission mining equipment order to date; first truck fitted out May 2026",
+      "status": "operating",
+      "source": "https://thedriven.io/2026/05/25/fortescue-fits-out-first-240-tonne-electric-haul-truck-and-rolls-out-first-6-mw-fast-charger/"
+     },
+     {
+      "name": "Fortescue Zero",
+      "role": "scaleup",
+      "what": "Mining major's own OEM arm building battery power systems, MW-class fast chargers and electric drivetrains for its 'Real Zero 2030' diesel exit.",
+      "signal": "Electrifying ~$400M/yr of diesel spend; first 6 MW charger deployed 2026",
+      "status": "operating",
+      "source": "https://electrek.co/2026/04/26/electric-haul-trucks-could-save-fortescue-over-400-million-in-fuel-per-year/"
+     },
+     {
+      "name": "XCMG Mining",
+      "role": "incumbent",
+      "what": "Chinese OEM contracted to supply up to half of Fortescue's next 300-400 zero-emission 240t haul trucks \u2014 first ultraclass BEV export deal from China.",
+      "signal": "Up to 400-truck agreement (Sept 2025); deliveries 2028-2030",
+      "status": "operating",
+      "source": "https://www.electrive.com/2025/09/26/fortescue-orders-up-to-400-giant-electric-dump-trucks-from-xcmg/"
+     },
+     {
+      "name": "Caterpillar",
+      "role": "incumbent",
+      "what": "793 battery-electric 'early learner' ultraclass trucks in trials with BHP, Rio Tinto and Teck, plus the R1700 XE underground battery loader and dynamic/trolley charging concepts.",
+      "signal": "Multi-site early-learner program 2024-26; commercial launch staged",
+      "status": "operating",
+      "source": "https://www.caterpillar.com"
+     },
+     {
+      "name": "Komatsu",
+      "role": "incumbent",
+      "what": "'Power-agnostic' 930E-class haul truck platform (battery, trolley, future H2) unveiled at MINExpo 2024 plus underground battery equipment.",
+      "signal": "Demonstrators with anchor customers; full launch later this decade",
+      "status": "operating",
+      "source": "https://www.komatsu.com"
+     },
+     {
+      "name": "MEDATech",
+      "role": "startup",
+      "what": "Canadian engineering firm whose ALTDRIVE battery conversions electrify Western Star haul/utility trucks and drills for mines, with MW charging.",
+      "signal": "Multiple mine-site BEV deployments in Canada",
+      "status": "operating",
+      "source": "https://medatech.ca"
+     },
+     {
+      "name": "MacLean Engineering",
+      "role": "incumbent",
+      "what": "Underground support vehicles (bolters, graders, boom trucks) offered as a full EV Series line.",
+      "signal": "Fleet has accumulated millions of electric operating kilometres at customer mines",
+      "status": "operating",
+      "source": "https://macleanengineering.com"
+     },
+     {
+      "name": "First Mode",
+      "role": "startup",
+      "what": "Anglo American-backed developer of hybrid hydrogen-battery retrofits for ultraclass haul trucks (nuGen).",
+      "signal": "Filed Chapter 11 Dec 2024 after Anglo pulled funding; Cummins acquired assets and IP Feb 2025",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.cummins.com/en-na/news/releases/2025/02/11/cummins-acquires-first-mode-assets-decarbonization-leadership-mining"
+     }
+    ]
+   },
+   {
+    "name": "Agricultural tractors & farm equipment",
+    "description": "Battery-electric tractors replace diesel in compact and specialty farm work (orchards, vineyards, dairy, municipal), where fixed depots and shorter duty cycles fit current battery energy density; large row-crop horsepower remains out of reach.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Monarch Tractor",
+      "role": "startup",
+      "what": "MK-V 70hp driver-optional electric tractor (Foxconn-built) targeting vineyards and dairies; raised ~$240M including a $133M Series C (2024).",
+      "signal": "Warned of shutdown and filed WARN layoffs Nov 2025; wound down by early 2026; tech reportedly sold to Caterpillar Apr 2026",
+      "status": "bankrupt-shutdown",
+      "source": "https://techcrunch.com/2025/11/19/monarch-tractor-preps-for-layoffs-and-warns-employees-it-may-shut-down/"
+     },
+     {
+      "name": "Solectrac",
+      "role": "startup",
+      "what": "California compact electric tractors (e25, e70N) for vineyards and small farms.",
+      "signal": "Parent Ideanomics filed Chapter 11 Dec 2024; Solectrac assets sold to Tillou Management; operations minimal",
+      "status": "acquired",
+      "source": "https://www.electrive.com/2024/12/05/ideanomics-plans-chapter-11-reorganisation/"
+     },
+     {
+      "name": "AGCO / Fendt",
+      "role": "incumbent",
+      "what": "e107 Vario 75-90hp battery tractor \u2014 the first full-size production e-tractor from a major, aimed at specialty/municipal users.",
+      "signal": "On sale in UK/EU (~\u00a3200k list); narrow-track e107 V variant for vineyards",
+      "status": "operating",
+      "source": "https://www.fwi.co.uk/machinery/tractors/fendt-puts-200k-price-on-base-spec-75hp-e100-vario-electric-tractor"
+     },
+     {
+      "name": "John Deere",
+      "role": "incumbent",
+      "what": "130hp E-Power utility tractor (built on acquired Kreisel battery tech) plus electric compact equipment and a battery backhoe.",
+      "signal": "Early customer production units in 2026; commercial production to follow",
+      "status": "operating",
+      "source": "https://www.deere.com/en/electric-equipment/"
+     },
+     {
+      "name": "Kubota",
+      "role": "incumbent",
+      "what": "Compact electric tractors (LXe-261) and utility vehicles offered via leases in Japan and pilots in Europe.",
+      "signal": "Cautious staged rollout in compact segment",
+      "status": "operating",
+      "source": "https://www.kubota.com"
+     },
+     {
+      "name": "New Holland (CNH)",
+      "role": "incumbent",
+      "what": "T4 Electric Power \u2014 75hp utility e-tractor with autonomy features, developed initially with Monarch technology.",
+      "signal": "Limited production for North American specialty/utility customers since 2024",
+      "status": "operating",
+      "source": "https://agriculture.newholland.com"
+     },
+     {
+      "name": "Sonalika",
+      "role": "incumbent",
+      "what": "Tiger Electric \u2014 low-cost compact e-tractor sold in India since 2020 for smallholder and haulage duty.",
+      "signal": "One of the only e-tractors selling in a volume emerging market",
+      "status": "operating",
+      "source": "https://www.sonalika.com"
+     }
+    ],
+    "white_space": "Field agriculture is brutally hard for batteries (multi-day harvest peaks at 200+ hp, remote fields, thin dealer/service networks), and the VC route just failed publicly \u2014 Monarch and Solectrac both collapsed despite ~$300M combined raised \u2014 leaving incumbents to stage 75-130hp launches. The opening is depot-based specialty fleets (orchard, vineyard, dairy, municipal) with swappable packs, autonomy-bundled TCO, and low-cost compacts for India/Africa rather than head-on row-crop competition."
+   },
+   {
+    "name": "Port/terminal tractors, airport GSE & material handling",
+    "description": "Yard/terminal tractors, airport ground support equipment and forklifts run short repetitive cycles near fixed power \u2014 electric forklifts are already the mature majority of sales, and electric terminal tractors/GSE are the fastest-scaling beachhead for Class 8-weight EVs.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Orange EV",
+      "role": "scaleup",
+      "what": "US pure-play electric terminal truck OEM selling turnkey trucks-plus-charging; claims the largest deployed heavy-duty EV base in the country.",
+      "signal": "1,600+ trucks across 300+ fleets in 40 states; fleet passed 10 million operating hours Oct 2025",
+      "status": "operating",
+      "source": "https://www.morningstar.com/news/pr-newswire/20251001cg88067/orange-ev-fleet-surpasses-10-million-hours-of-zero-emission-operation"
+     },
+     {
+      "name": "Kalmar",
+      "role": "incumbent",
+      "what": "Ottawa T2E+ electric terminal tractors plus electric reachstackers, straddle carriers and forklifts for ports.",
+      "signal": "Largest western port-equipment maker; fully-electric portfolio target",
+      "status": "operating",
+      "source": "https://www.kalmarglobal.com"
+     },
+     {
+      "name": "Terberg",
+      "role": "incumbent",
+      "what": "Dutch family-owned yard tractor leader; YT203-EV electric terminal tractors at DCs and ports across Europe and North America.",
+      "signal": "Electric YT in serial production since 2020",
+      "status": "operating",
+      "source": "https://www.terbergspecialvehicles.com"
+     },
+     {
+      "name": "Toyota Material Handling",
+      "role": "incumbent",
+      "what": "World's #1 forklift maker; the majority of counterbalance/warehouse trucks it sells are already electric, increasingly lithium-ion.",
+      "signal": "Electric is the mature default in Class 1-3 material handling globally",
+      "status": "operating",
+      "source": "https://www.toyota-forklifts.eu"
+     },
+     {
+      "name": "Jungheinrich",
+      "role": "incumbent",
+      "what": "German intralogistics pure-play; ~98% of trucks sold are electric and it pioneered factory-fit li-ion forklifts.",
+      "signal": "One of the top-3 global forklift makers, effectively 100% electric",
+      "status": "operating",
+      "source": "https://www.jungheinrich.com"
+     },
+     {
+      "name": "Hyster-Yale",
+      "role": "incumbent",
+      "what": "Electric 'big trucks' \u2014 laden container handlers, reachstackers and terminal tractors for ports (alongside hydrogen options).",
+      "signal": "Electric laden container handler pilots at LA/Long Beach",
+      "status": "operating",
+      "source": "https://www.hyster.com"
+     },
+     {
+      "name": "ITW GSE",
+      "role": "incumbent",
+      "what": "Electric ground power units (eGPU) and point-of-use power replacing diesel GPUs at airport gates worldwide.",
+      "signal": "Battery eGPU 7400 deployed at major hubs",
+      "status": "operating",
+      "source": "https://itwgse.com"
+     },
+     {
+      "name": "TLD Group",
+      "role": "incumbent",
+      "what": "World's largest GSE maker with a full electric line \u2014 baggage tractors, belt loaders, pushbacks (e-GSE).",
+      "signal": "e-GSE now a large share of new orders as airlines decarbonize ground ops",
+      "status": "operating",
+      "source": "https://www.tld-group.com"
+     },
+     {
+      "name": "Mototok",
+      "role": "startup",
+      "what": "German remote-controlled electric aircraft pushback tugs that remove diesel tractors from the gate.",
+      "signal": "Adopted at scale by Lufthansa, British Airways and others",
+      "status": "operating",
+      "source": "https://www.mototok.com"
+     },
+     {
+      "name": "Gaussin",
+      "role": "scaleup",
+      "what": "French electric/hydrogen terminal tractor and airport logistics vehicle maker (ATM, AGVs) once slated to supply Amazon-bound trucks.",
+      "signal": "Judicial liquidation Nov 2024 with ~\u20ac140M debt after failed 355-vehicle North American contract; takeover bids rejected",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.worldcargonews.com/news/2024/12/end-of-the-road-for-gaussin/"
+     }
+    ]
+   },
+   {
+    "name": "Truck & bus repower/retrofit conversions",
+    "description": "Converting existing diesel trucks and buses to battery-electric drive reuses the chassis (cutting cost and embodied carbon) and can electrify fleets faster than new-build supply \u2014 but certification costs and falling new-EV prices have bankrupted most players.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "pepper motion",
+      "role": "startup",
+      "what": "German retrofit kits ('etrofit') converting Mercedes buses and trucks to electric; pivoted to technology supplier before failing.",
+      "signal": "Insolvent Feb 2024; bought by a Turkish investor, then folded into Haller Group alongside Quantron with a 2026 relaunch",
+      "status": "acquired",
+      "source": "https://www.electrive.com/2026/01/14/haller-group-announces-quantron-and-pepper-comeback/"
+     },
+     {
+      "name": "Lightning eMotors",
+      "role": "startup",
+      "what": "Colorado electrifier of Class 3-7 shuttles, school buses and Ford/GM chassis (~600 vehicles deployed).",
+      "signal": "Ceased operations Dec 2023 after NYSE delisting; GILLIG bought the assets in 2024",
+      "status": "bankrupt-shutdown",
+      "source": "https://en.wikipedia.org/wiki/Lightning_eMotors"
+     },
+     {
+      "name": "SEA Electric",
+      "role": "startup",
+      "what": "SEA-Drive electric drive systems fitted to new glider truck chassis (Hino partnership) across Australia, NZ and the US.",
+      "signal": "Acquired by Exro Technologies in Feb 2024 amid financial strain",
+      "status": "acquired",
+      "source": "https://en.wikipedia.org/wiki/SEA_Electric"
+     },
+     {
+      "name": "Evolectric",
+      "role": "startup",
+      "what": "California 'CircularEV' kits converting used Class 4-8 diesel trucks, targeting US fleets and Latin American markets where new BEVs are unaffordable.",
+      "signal": "Seed-stage; pilot fleets in US and emerging markets",
+      "status": "operating",
+      "source": "https://www.evolectric.com"
+     },
+     {
+      "name": "BEDEO",
+      "role": "scaleup",
+      "what": "UK/Turkish van electrifier (owns Protean in-wheel motors) converting Stellantis large vans to electric or range-extended 'reborn electric' drive.",
+      "signal": "Thousands of van conversions delivered to EU fleets and post services",
+      "status": "operating",
+      "source": "https://www.bedeo.co.uk"
+     },
+     {
+      "name": "UEV (ex-Lunaz Applied Technologies)",
+      "role": "startup",
+      "what": "Upcycles diesel refuse trucks into remanufactured EVs at Silverstone (David Beckham-backed Lunaz brand).",
+      "signal": "Entered administration 2024; relaunched as 'Upcycled Electric Vehicle' after restructuring \u2014 viability unproven",
+      "status": "uncertain",
+      "source": "https://www.freightcarbonzero.com/vehicles/lunaz-is-back-in-the-truck-business-with-a-new-name-upcycled-electric-vehicle/18883.article"
+     },
+     {
+      "name": "Magtec",
+      "role": "scaleup",
+      "what": "Sheffield-based veteran repower house converting refuse trucks and specialist vehicles for UK councils and defence.",
+      "signal": "Decades of drive system deployments; UK council refuse EV conversions",
+      "status": "operating",
+      "source": "https://www.magtec.co.uk"
+     },
+     {
+      "name": "Janus Electric",
+      "role": "startup",
+      "what": "Australian conversions of Class 8 prime movers to electric with 4-minute swappable batteries and its own charge-and-change station network.",
+      "signal": "ASX-listed May 2025 (A$8.8M raise); 23 trucks converted, 155 confirmed orders, 9 swap stations",
+      "status": "operating",
+      "source": "https://smallcaps.com.au/article/janus-electric-quick-swap-battery-decarbonise-heavy-transport-industry"
+     }
+    ],
+    "white_space": "The graveyard here (pepper, Lightning eMotors, Lunaz, SEA, e-troFit) shows the economics: one-off engineering and certification on aging chassis can't beat falling new-BEV prices in rich markets. The credible openings are standardized kits for captive high-utilization fleets whose chassis outlive powertrains (refuse, terminal tractors, transit buses), retrofit-friendly regulatory regimes (France's d\u00e9cret r\u00e9trofit, India), and battery-swap conversions like Janus where charging infrastructure is the binding constraint."
+   },
+   {
+    "name": "Electrified trailers & range-extending add-ons",
+    "description": "Powered e-axles, battery dollies and electric trailer hubs add traction or power to the trailer itself, cutting a diesel tractor's fuel 20-40% or extending a BEV tractor's range \u2014 electrifying freight without replacing the truck.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Range Energy",
+      "role": "startup",
+      "what": "Powered eTrailer with a force-sensing smart kingpin that assists any tractor \u2014 no truck modification \u2014 cutting fuel use roughly a third.",
+      "signal": "$31.5M raised (incl. $23.5M round Feb 2024 with Yamaha, UP.Partners); fleet pilots moving to production",
+      "status": "operating",
+      "source": "https://www.ttnews.com/articles/range-energy-new-financing"
+     },
+     {
+      "name": "Revoy",
+      "role": "startup",
+      "what": "Swappable-battery 'EV dolly' inserted between tractor and trailer with corridor swap stations, sold per-mile so diesel trucks run as near-EVs on set lanes.",
+      "signal": "Venture-backed; commercial corridor service live in the US South-Central since 2024",
+      "status": "operating",
+      "source": "https://www.crunchbase.com/organization/revoy"
+     },
+     {
+      "name": "ConMet eMobility",
+      "role": "incumbent",
+      "what": "PreSet Plus eHub in-wheel motors on trailer axles that regenerate braking energy to power electric refrigeration units (TRUs).",
+      "signal": "Commercial pilots with major reefer fleets",
+      "status": "operating",
+      "source": "https://conmet.com"
+     },
+     {
+      "name": "ZF",
+      "role": "incumbent",
+      "what": "Trailer e-axles (AxTrax LF) and eTrailer systems supplied to trailer OEMs for recuperation and traction assist.",
+      "signal": "Tier-1 scale supplier bringing trailer electrification to series production",
+      "status": "operating",
+      "source": "https://www.zf.com"
+     }
+    ],
+    "white_space": "Very few credible players because powered trailers sit in a regulatory grey zone (weight allowances, braking rules) and the industry splits incentives \u2014 tractor owners buy fuel while trailer owners buy trailers. An opening exists for per-mile leased range-extension that leaves the tractor and its warranty untouched, bridging fleets to electrification years before Class 8 BEVs and megawatt charging are ubiquitous."
+   },
+   {
+    "name": "Battery-swap heavy trucks & swap ecosystems",
+    "description": "Heavy trucks with standardized swappable packs decouple the battery from the vehicle purchase and refuel in ~5 minutes, which is why roughly a third of China's surging electric heavy-truck sales are swap-capable \u2014 the fastest route to diesel parity in 24/7 freight.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "CATL (Qiji Energy)",
+      "role": "incumbent",
+      "what": "Built the #75 standardized swappable heavy-truck pack and a national swap-station network, including a 1,250 km Chengdu-Shanghai corridor opened Dec 2025.",
+      "signal": "Stations compatible with 95% of mainstream Chinese HDT models; 300-station target; CEO projects 50% HDT electrification by 2028",
+      "status": "operating",
+      "source": "https://carnewschina.com/2025/12/23/catl-launched-longest-1250-km-battery-swap-route-in-china/"
+     },
+     {
+      "name": "SPIC (Qiyuan)",
+      "role": "incumbent",
+      "what": "State Power Investment Corp arm that pioneered battery-as-a-service financing and operates one of China's largest swap-truck/station fleets.",
+      "signal": "Battery-swap models were ~32% of China's Q1 2025 new-energy heavy truck sales",
+      "status": "operating",
+      "source": "https://english.news.cn/20250528/c9dfae07666647ebb347f0e1abdb6583/c.html"
+     },
+     {
+      "name": "XCMG",
+      "role": "incumbent",
+      "what": "Among the top sellers of new-energy heavy trucks in China, including swap-capable tractors for mines, ports and steel logistics.",
+      "signal": "China NEV heavy truck sales hit ~25% penetration mid-2025 and >30% by Nov 2025 (28,000 units that month)",
+      "status": "operating",
+      "source": "https://thedriven.io/2025/08/05/sales-of-battery-electric-heavy-trucks-surge-in-china-to-nearly-one-quarter-of-market/"
+     },
+     {
+      "name": "SANY",
+      "role": "incumbent",
+      "what": "Leading electric heavy truck OEM offering both charge and swap variants plus its own swap stations.",
+      "signal": "Consistently top-3 in China NEV HDT sales",
+      "status": "operating",
+      "source": "https://thedriven.io/2025/08/05/sales-of-battery-electric-heavy-trucks-surge-in-china-to-nearly-one-quarter-of-market/"
+     },
+     {
+      "name": "FAW Jiefang",
+      "role": "incumbent",
+      "what": "China's biggest truck maker; J6-based swap-capable e-tractors integrated with the Qiji standardized-pack ecosystem.",
+      "signal": "Among a dozen OEMs with 30+ truck models compatible with CATL's 75# pack",
+      "status": "operating",
+      "source": "https://govt.chinadaily.com.cn/s/202505/28/WS6836d6d5498eec7e1f737f84/next-generation-battery-swap-ecosystem-empowers-chinas-heavy-duty-truck-sector.html"
+     }
+    ],
+    "white_space": "Outside China this approach is nearly empty (Australia's Janus Electric is the lone notable player) because swap needs pack standardization across OEMs \u2014 a chicken-and-egg no western truck maker will start. The opening is corridor consortia (drayage lanes, mining/port shuttles) adopting a standard pack with battery-as-a-service financing, potentially importing CATL's proven 75# model."
+   }
+  ],
+  "sources": [
+   "https://www.iea.org/reports/global-ev-outlook-2025/trends-in-heavy-duty-electric-vehicles",
+   "https://theicct.org/publication/zero-emission-construction-machinery-in-china-2025-sept25/",
+   "https://electricschoolbusinitiative.org/state-electric-school-bus-adoption-us",
+   "https://thedriven.io/2025/08/05/sales-of-battery-electric-heavy-trucks-surge-in-china-to-nearly-one-quarter-of-market/",
+   "https://www.cnbc.com/2026/06/10/einride-autonomous-freight-truck-first-trade-nasdaq-spac.html",
+   "https://www.electrive.com/2025/12/18/windrose-sets-sights-on-powering-5-of-the-worlds-trucks-by-2030/",
+   "https://techcrunch.com/2025/04/10/lucid-motors-wins-bankruptcy-auction-for-nikolas-arizona-factory-and-other-assets/",
+   "https://www.electrive.com/2025/05/06/volta-trucks-announces-another-insolvency/",
+   "https://www.sustainable-bus.com/news/ebusco-2025-risk-insolvency/",
+   "https://electricautonomy.ca/fleets/school-buses/2025-05-22/lion-electric-investors-quebec-school-bus/",
+   "https://www.canarymedia.com/articles/clean-fleets/tesla-semis-hit-the-road",
+   "https://www.home.sandvik/en/news-and-media/news/2025/04/sandvik-wins-record-order-for-battery-electric-mining-equipment/",
+   "https://thedriven.io/2026/05/25/fortescue-fits-out-first-240-tonne-electric-haul-truck-and-rolls-out-first-6-mw-fast-charger/",
+   "https://www.electrive.com/2025/10/22/gm-halts-brightdrop-production-at-cami-assembly/",
+   "https://techcrunch.com/2025/11/19/monarch-tractor-preps-for-layoffs-and-warns-employees-it-may-shut-down/",
+   "https://www.worldcargonews.com/news/2024/12/end-of-the-road-for-gaussin/",
+   "https://www.morningstar.com/news/pr-newswire/20251001cg88067/orange-ev-fleet-surpasses-10-million-hours-of-zero-emission-operation",
+   "https://www.businesswire.com/news/home/20251124098457/en/Blue-Bird-Reports-Fiscal-2025-Fourth-Quarter-and-Full-Year-Results-Beats-Guidance-With-Record-Results",
+   "https://carnewschina.com/2025/12/23/catl-launched-longest-1250-km-battery-swap-route-in-china/",
+   "https://www.cummins.com/en-na/news/releases/2025/02/11/cummins-acquires-first-mode-assets-decarbonization-leadership-mining",
+   "https://media.renaultgroup.com/flexis-enters-new-phase-as-renault-group-takes-full-ownership/?lang=eng",
+   "https://www.cleantrucking.com/battery-electric/article/15817664/amazon-boosts-rivian-ev-van-fleet-50-in-2025",
+   "https://www.electrive.com/2026/01/14/haller-group-announces-quantron-and-pepper-comeback/",
+   "https://www.prnewswire.com/news-releases/electric-vehicle-company-harbinger-raises-100-million-in-series-b-funding-co-led-by-capricorns-technology-impact-fund-and-leitmotif-302350035.html",
+   "https://www.schoolbusfleet.com/articles/the-state-of-electric-school-buses-where-we-are-and-where-were-going",
+   "https://minetruck.com/why-xcmgs-electric-wheel-loader-has-overtaken-traditional-manufacturers-like-liugong/",
+   "https://smallcaps.com.au/article/janus-electric-quick-swap-battery-decarbonise-heavy-transport-industry",
+   "https://www.ttnews.com/articles/range-energy-new-financing"
+  ]
+ }
+}

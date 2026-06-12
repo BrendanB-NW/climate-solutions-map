@@ -1,0 +1,537 @@
+{
+ "sector": "food",
+ "bucket": "Forests & Deforestation-Free Supply Chains",
+ "census": {
+  "bucket": "Forests & Deforestation-Free Supply Chains",
+  "variations": [
+   {
+    "name": "Reforestation / afforestation tech (drone seeding, seed & nursery tech, native species)",
+    "description": "Companies that plant or re-establish forests faster and cheaper using drone/aerial seeding, industrialized native-seed banking and nurseries, and (in a few cases) biotech-enhanced trees, so degraded and burned land can be restored at the scale climate goals require.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Mast Reforestation (DroneSeed)",
+      "role": "scaleup",
+      "what": "End-to-end post-wildfire reforestation: owns Silvaseed and Cal Forest nurseries plus DroneSeed aerial seeding, funded by selling verified carbon credits",
+      "signal": "$25M Series B Feb 2025 co-led by Social Capital and Pulse Fund; pivoting into biomass-burial (BiCRS) carbon removal",
+      "status": "operating",
+      "source": "https://www.geekwire.com/2025/mast-reforestation-lands-25m/"
+     },
+     {
+      "name": "Dendra Systems",
+      "role": "scaleup",
+      "what": "Oxford UK drone seeding carrying 50+ native species at once plus an AI ecology/monitoring platform for large-scale restoration",
+      "signal": "~$15.7M raised; April 2025 World Bank partnership for Sahel RESILAND aerial reforestation",
+      "status": "operating",
+      "source": "https://planettools.org/8-drone-planting-systems-2026/"
+     },
+     {
+      "name": "Flash Forest",
+      "role": "startup",
+      "what": "Canadian drone seeding with pneumatic seed-pod launchers focused on wildfire burn zones",
+      "signal": "2.9M+ trees across 52 projects; 2025 agreement with Chile to reforest Valparaiso and Maule",
+      "status": "operating",
+      "source": "https://planettools.org/is-drone-tree-planting-in-2026-really-changing-reforestation/"
+     },
+     {
+      "name": "Land Life Company",
+      "role": "scaleup",
+      "what": "Netherlands tech-driven reforestation using drones, AI monitoring and planting tech across degraded land worldwide",
+      "signal": "~95 staff; 10M+ trees / 11,250 ha restored; ABN AMRO Clearing 5-yr program; ~$2M top-up Jan 2025",
+      "status": "operating",
+      "source": "https://landlifecompany.com/en-us"
+     },
+     {
+      "name": "Terraformation",
+      "role": "scaleup",
+      "what": "Hawaii-based native-seed banking at scale plus the open-source Terraware forest-management platform, enabling locally-led native reforestation",
+      "signal": "139M seeds stored, 68 projects across 18 countries; cut ~half of staff in 2023 then repositioned to project finance and grants",
+      "status": "operating",
+      "source": "https://www.terraformation.com/blog/terraformation-closes-30-million-funding-round"
+     },
+     {
+      "name": "Living Carbon",
+      "role": "startup",
+      "what": "Plants biotech 'photosynthesis-enhanced' fast-growing poplars and reforests former mine lands in Appalachia for carbon credits",
+      "signal": "$36M+ raised (Temasek, Lowercarbon); Microsoft 1.4M-tonne deal (2025) and Octopus Energy $500M deal (2026); gene-trait efficacy still scientifically contested",
+      "status": "operating",
+      "source": "https://www.livingcarbon.com/"
+     },
+     {
+      "name": "Morfo",
+      "role": "startup",
+      "what": "French restoration-tech company combining drone seeding of native species with ARR project development, Brazil-focused",
+      "signal": "Launched a call for ARR projects in Brazil (Feb 2025) to aggregate developer pipeline for carbon buyers",
+      "status": "operating",
+      "source": "https://www.morfo.rest/article/morfo-launches-a-call-for-arr-projects-to-support-large-scale-reforestation-in-brazil"
+     }
+    ],
+    "white_space": "Pure drone-seeding remains seed-efficiency- and survival-limited (DroneSeed's original credits 'failed to materialize', pushing Mast toward biomass burial), so the durable economics sit in seed/nursery supply and credit-funded full-service planting rather than the aircraft themselves."
+   },
+   {
+    "name": "Restoration project developers & forest carbon project origination (ARR)",
+    "description": "Developers that originate, finance and operate afforestation/reforestation/revegetation (ARR) carbon-removal projects on degraded land, turning long-dated corporate offtakes into upfront capital for tree planting.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Mombak",
+      "role": "scaleup",
+      "what": "Buys degraded Brazilian Amazon pasture and replants 100+ native species, selling durable carbon removals to hyperscalers",
+      "signal": "$30M USV-led Series A (Apr 2025), ~$200M raised since 2021; $150M+ removal offtakes with Google, Microsoft, Meta, McLaren; R$160M New Climate Fund deal",
+      "status": "operating",
+      "source": "https://money.usnews.com/investing/news/articles/2025-04-29/brazil-reforestation-startup-mombak-raises-30-million-in-usv-led-round"
+     },
+     {
+      "name": "re.green",
+      "role": "scaleup",
+      "what": "Large-scale Brazilian Atlantic Forest and Amazon ARR restoration developer",
+      "signal": "R$80M from BNDES plus R$100M more via BNDES/Santander Climate Fund in 2025",
+      "status": "operating",
+      "source": "https://energynews.oedigital.com/environment/2025/05/19/brazil-reforestation-company-regreen-receives-fresh-funding-in-deal-with-bndes-and-bradesco"
+     },
+     {
+      "name": "Chestnut Carbon",
+      "role": "scaleup",
+      "what": "US-Southeast afforestation developer planting 35M+ native hardwood/softwood trees on ~60,000 acres for durable removals",
+      "signal": "$160M Series B (CPPIB-led, Feb 2025) plus $210M JPMorgan-led non-recourse facility (Jul 2025); two Microsoft offtakes (~7M and ~7.4M tonnes)",
+      "status": "operating",
+      "source": "https://www.jpmorgan.com/insights/sustainability/climate/chestnut-carbon-deal"
+     },
+     {
+      "name": "Reforest'Action",
+      "role": "scaleup",
+      "what": "France-based developer/financier of certified (VCS, Gold Standard) reforestation and agroforestry projects funded by corporate buyers",
+      "signal": "Operates a global certified-project portfolio and corporate funding marketplace",
+      "status": "operating",
+      "source": "https://www.reforestaction.com/en/developing-certified-carbon-projects"
+     },
+     {
+      "name": "American Forests",
+      "role": "incumbent",
+      "what": "Century-old US conservation nonprofit running the Reforest America Carbon Program (RACP) to connect climate-smart reforestation to carbon finance",
+      "signal": "RACP active in 2025 to bridge high upfront cost / long tree-growth timelines for landowners",
+      "status": "operating",
+      "source": "https://www.americanforests.org/project/racp/"
+     }
+    ],
+    "white_space": "Capital is now abundant for marquee Brazilian/US developers, but ARR still carries 30-60 year delivery risk and thin track records; the gap is bankable insurance/guarantee structures and standardized non-recourse project finance (Chestnut's JPMorgan facility is a first-of-kind) that let mid-size developers scale without dilutive equity."
+   },
+   {
+    "name": "Forest / biomass carbon MRV (satellite, lidar, AI)",
+    "description": "Measurement, reporting and verification firms that use satellite imagery, airborne/terrestrial lidar and machine learning to estimate forest carbon stocks and change, replacing slow and expensive field plots and underpinning credit integrity.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Pachama",
+      "role": "startup",
+      "what": "Satellite + lidar + AI MRV platform that verifies forest conservation and reforestation projects",
+      "signal": "~$79M raised (Breakthrough, Amazon, Lowercarbon); ACQUIRED by Carbon Direct in Nov 2025 to bolster its MRV stack",
+      "status": "acquired",
+      "source": "https://www.esgtoday.com/carbon-direct-acquires-carbon-project-mrv-platform-pachama/"
+     },
+     {
+      "name": "Chloris Geospatial",
+      "role": "startup",
+      "what": "Satellite-based measurement of forest carbon stock-change and ecosystem change for project and portfolio MRV",
+      "signal": "$8.5M Series A (Jul 2025) led by Future Energy Ventures, with AXA IM Alts, At One Ventures, Cisco Foundation",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/chloris-geospatial-raises-8-5-million-series-a-to-scale-satellite-based-forest-carbon-monitoring-302498338.html"
+     },
+     {
+      "name": "CTrees",
+      "role": "startup",
+      "what": "Science nonprofit using AI + satellite + lidar to estimate carbon in every tree on Earth and run an open jurisdictional MRV (JMRV) tool",
+      "signal": "AWS Imagine Grant (2024); released open aboveground-biomass data 2000-2025; widely cited as reference layer",
+      "status": "operating",
+      "source": "https://ctrees.org/"
+     },
+     {
+      "name": "Kanop",
+      "role": "startup",
+      "what": "Paris startup measuring forest carbon and ecosystem services from high-res satellite + AI for project developers",
+      "signal": "Early stage (~$1.15M raised); selected for the EU CASSINI space accelerator in 2025",
+      "status": "operating",
+      "source": "https://www.kanop.io/"
+     },
+     {
+      "name": "Space Intelligence",
+      "role": "scaleup",
+      "what": "Edinburgh firm producing high-accuracy global forest-cover and biomass maps (Habitat/Carbon mapping) for project MRV and nature monitoring",
+      "signal": "Series A (2024) led by AzurX Space Ventures with Intercontinental Exchange participating",
+      "status": "operating",
+      "source": "https://spaceinsider.tech/2024/08/21/space-intelligence-secures-series-a-funding-to-expand-global-forest-mapping-efforts/"
+     }
+    ]
+   },
+   {
+    "name": "Deforestation & conversion monitoring (incl. EUDR compliance)",
+    "description": "Platforms that detect deforestation and land conversion via radar/optical satellite and turn it into supply-chain due-diligence, especially for EU Deforestation Regulation (EUDR) compliance where importers must prove goods are deforestation-free.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Satelligence",
+      "role": "scaleup",
+      "what": "Netherlands radar+optical (Sentinel-1/2, Landsat) deforestation and land-use monitoring positioned as Europe's largest EUDR data provider",
+      "signal": "Grew from 3 to ~40 staff in 5 years; engaged in EU pilots; Fairtrade and Prewave partnerships",
+      "status": "operating",
+      "source": "https://satelligence.com/eudr/"
+     },
+     {
+      "name": "osapiens",
+      "role": "scaleup",
+      "what": "Germany EUDR compliance SaaS automating due diligence, traceability, DDS generation and TRACES submission",
+      "signal": "Trusted by 700+ industry leaders for EUDR",
+      "status": "operating",
+      "source": "https://osapiens.com/solutions/eudr/"
+     },
+     {
+      "name": "IntegrityNext",
+      "role": "scaleup",
+      "what": "Germany ESG/supplier platform with an EUDR module running supplier-data upload through DDS and direct TRACES submission",
+      "signal": "Large supplier ESG network targeting the Dec 2025 EUDR deadline",
+      "status": "operating",
+      "source": "https://www.integritynext.com/esg-solutions/eudr-deforestation-regulation"
+     },
+     {
+      "name": "Prewave",
+      "role": "scaleup",
+      "what": "Austria AI supply-chain risk platform automating supplier engagement and EUDR monitoring (built with Satelligence and Taylor Wessing)",
+      "signal": "~\u20ac63M Series B (2024)",
+      "status": "operating",
+      "source": "https://supplychaindigital.com/sustainability/supply-chain-transparency-tools-tackling-eudr"
+     },
+     {
+      "name": "Global Forest Watch (WRI)",
+      "role": "incumbent",
+      "what": "WRI-run open platform whose GLAD/RADD deforestation alerts are the free data backbone under many commercial EUDR tools",
+      "signal": "Foundational, free near-real-time alert layer used industry-wide",
+      "status": "operating",
+      "source": "https://www.globalforestwatch.org/"
+     },
+     {
+      "name": "Orbify",
+      "role": "startup",
+      "what": "No-code Earth-observation platform offering EUDR deforestation-monitoring and due-diligence SaaS",
+      "signal": "Featured in 2025 EUDR-SaaS roundups; early-stage geospatial player",
+      "status": "operating",
+      "source": "https://orbify.com/blog/navigating-eudr-compliance-the-best-saas-solutions-for-deforestation-monitoring"
+     }
+    ],
+    "white_space": "Demand is almost entirely regulation-driven, so repeated EUDR timeline slippage and political 'simplification' pressure (application now phased from Dec 2025 for large operators) is the key risk; vendors that diversify into voluntary deforestation-free sourcing and Scope-3 monitoring are less exposed than pure compliance plays."
+   },
+   {
+    "name": "Supply-chain traceability & sourcing platforms",
+    "description": "Software that maps multi-tier agricultural supply chains down to plot/origin and attaches verifiable chain-of-custody and claims data, enabling deforestation-free sourcing for commodities like cocoa, coffee, palm, soy and timber.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Sourcemap",
+      "role": "scaleup",
+      "what": "MIT-born platform mapping products to raw-material origin with transaction-level traceability and EUDR-grade due diligence",
+      "signal": "Used by large global brands (e.g. AG1); 2024 partnership with Provenance for end-to-end traceability",
+      "status": "operating",
+      "source": "https://www.sourcemap.com/"
+     },
+     {
+      "name": "Provenance",
+      "role": "startup",
+      "what": "UK platform producing verified product claims (regenerative, low-carbon, fair trade) backed by chain-of-custody evidence",
+      "signal": "Strong food/beauty adoption via retailer supplier-engagement programs; Sourcemap partnership",
+      "status": "operating",
+      "source": "https://www.sourcemap.com/blog/supply-chain-mapping-meets-blockchain-tracking-provenance-partners-with-sourcemap-to-power-end-to-end-robust-traceability-for-consumer-goods"
+     },
+     {
+      "name": "TraceX",
+      "role": "startup",
+      "what": "India blockchain agri-supply-chain traceability connecting participants and supporting EUDR, ESPR, CSRD and DPP",
+      "signal": "Users include Rainforest Alliance and Organic India; listed on the FAO STI innovations portal",
+      "status": "operating",
+      "source": "https://sti-portal.fao.org/innovations/tracex-supply-chain-traceability-platform"
+     },
+     {
+      "name": "Rainforest Alliance",
+      "role": "incumbent",
+      "what": "NGO certifier whose deforestation-free standard and farm/cooperative traceability underpin cocoa, coffee and tea sourcing",
+      "signal": "Global certification scheme integrating satellite partners (e.g. Satelligence) for risk assessment",
+      "status": "operating",
+      "source": "https://www.fairtrade.net/en/why-fairtrade/why-we-do-it/deforestation.html"
+     },
+     {
+      "name": "osapiens",
+      "role": "scaleup",
+      "what": "Also serves as a traceability layer, bundling multi-tier mapping with EUDR due-diligence and reporting in one platform",
+      "signal": "700+ customers spanning compliance and traceability use cases",
+      "status": "operating",
+      "source": "https://osapiens.com/solutions/eudr/"
+     }
+    ],
+    "white_space": "The hard, unsolved layer is reliable first-mile/plot-level origin data from millions of smallholders who lack resources to collect and own it; affordable producer-side data capture (not just importer-side dashboards) is the opening, otherwise traceability stays approximate at the farm gate."
+   },
+   {
+    "name": "Forest carbon credit ratings, registries & marketplaces",
+    "description": "The integrity-and-transactions layer: independent rating agencies that score credit quality, the standards/registries that issue and track credits, and marketplaces that let buyers procure them.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Sylvera",
+      "role": "scaleup",
+      "what": "UK carbon-credit rating agency (AAA-D scale) combining satellite, lidar and project data, plus market analytics",
+      "signal": "~$96M raised (Index Ventures, Balderton); publishes State of Carbon Credits",
+      "status": "operating",
+      "source": "https://www.sylvera.com/state-of-carbon-credits"
+     },
+     {
+      "name": "BeZero Carbon",
+      "role": "scaleup",
+      "what": "UK rating agency scoring VCM credits (AAA-D) and expanding into CORSIA and Article 6 compliance markets",
+      "signal": "$32M Series C; ~$90M+ raised total",
+      "status": "operating",
+      "source": "https://carbonherald.com/carbon-ratings-agency-bezero-will-boost-its-efforts-with-a-new-32m-funding/"
+     },
+     {
+      "name": "Calyx Global",
+      "role": "startup",
+      "what": "US rating agency that moved to the AAA-D scale in Jan 2025 and absorbed the Renoster team to deepen forestry coverage",
+      "signal": "VC-backed; converged on market-standard methodology and scale in 2025",
+      "status": "operating",
+      "source": "https://calyxglobal.com/research-hub/commentary/ratings-differences-1-categorization-of-risks/"
+     },
+     {
+      "name": "Verra",
+      "role": "incumbent",
+      "what": "Runs the Verified Carbon Standard (VCS), the world's largest credit registry and the dominant forestry/REDD+ standard",
+      "signal": "Largest issuer of credits; ARR methodology VM0047 v1.1 received ICVCM CCP approval Oct 2025",
+      "status": "operating",
+      "source": "https://verra.org/programs/verified-carbon-standard/"
+     },
+     {
+      "name": "Gold Standard",
+      "role": "incumbent",
+      "what": "WWF-founded Swiss non-profit standard and registry certifying high-integrity carbon and SDG-impact projects",
+      "signal": "One of the two leading global certification/registry bodies alongside Verra",
+      "status": "operating",
+      "source": "https://www.marketsandmarkets.com/ResearchInsight/carbon-credit-validation-verification-certification-market.asp"
+     },
+     {
+      "name": "Patch",
+      "role": "startup",
+      "what": "API/enterprise carbon-procurement marketplace for buyers to access, evaluate and buy credits",
+      "signal": "~$55M raised (a16z-led Series B); 2025 strategic partnership with Cloverly",
+      "status": "operating",
+      "source": "https://carbonherald.com/patch-and-cloverly-partner-to-streamline-carbon-credit-procurement/"
+     },
+     {
+      "name": "Cloverly",
+      "role": "startup",
+      "what": "Self-serve carbon marketplace and API for procuring and retiring credits, including forestry",
+      "signal": "Partnered with Patch in 2025 to streamline corporate buyer access",
+      "status": "operating",
+      "source": "https://cloverly.com/blog/the-ultimate-guide-to-carbon-project-registries"
+     }
+    ]
+   },
+   {
+    "name": "Peatland & wetland conservation / restoration",
+    "description": "Protecting and rewetting carbon-dense peat swamp forests, mangroves and wetlands, whose disproportionate carbon stocks make them high-value but high-risk credit sources prone to reversal and tenure disputes.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Permian Global",
+      "role": "scaleup",
+      "what": "UK developer managing tropical peatland REDD+, including the 149,800 ha Katingan Mentaya peat-swamp project in Central Kalimantan",
+      "signal": "Katingan averages ~7.5M VCUs/year; triple-gold VCS+CCB rated",
+      "status": "operating",
+      "source": "https://permianglobal.com/projects/katingan-mentaya-project/"
+     },
+     {
+      "name": "PT Rimba Makmur Utama (Katingan)",
+      "role": "scaleup",
+      "what": "Indonesian project owner/developer of the Katingan peatland conservation project (with Permian Global)",
+      "signal": "41M+ Verra credits issued since 2013",
+      "status": "operating",
+      "source": "https://www2.cifor.org/redd-case-book/case-reports/indonesia/katingan-peatland-restoration-conservation-project-central-kalimantan-indonesia/"
+     },
+     {
+      "name": "PT Rimba Raya Conservation",
+      "role": "scaleup",
+      "what": "Developer of the Rimba Raya peat-swamp REDD+ project, once the world's largest avoided-deforestation project",
+      "signal": "33.6M credits issued, but Indonesia revoked its license Mar 2024; a Jakarta court voided the revocation Jul 2024 (under appeal), leaving CCB status in legal limbo",
+      "status": "uncertain",
+      "source": "https://www.spglobal.com/commodity-insights/en/news-research/latest-news/energy-transition/051024-wide-swathe-of-carbon-market-exposed-to-indonesias-rimba-raya-project-revocation-risks"
+     },
+     {
+      "name": "Carbon Streaming Corp",
+      "role": "incumbent",
+      "what": "Carbon-credit streaming/financier that prepaid for Rimba Raya volumes and absorbed the fallout from its revocation",
+      "signal": "Issued multiple investor updates / write-down risk on Rimba Raya through 2024",
+      "status": "operating",
+      "source": "https://www.carbonstreaming.com/news/carbon-streaming-announces-further-update-on-rimba-raya-project/"
+     },
+     {
+      "name": "IUCN Peatland Carbon Code",
+      "role": "incumbent",
+      "what": "Standard for temperate/non-tropical degraded-peatland restoration (rewetting), opening a new credit class beyond the tropics",
+      "signal": "First ex-post credits expected to verify around June 2025; still nascent issuance",
+      "status": "operating",
+      "source": "https://bezerocarbon.com/insights/could-non-tropical-peatlands-create-some-of-the-most-valuable-nature-based-credits-for-the-vcm-a-dive-into-the-iucn-peatland-carbon-code"
+     }
+    ],
+    "white_space": "Credible supply is concentrated in a handful of Indonesian mega-projects exposed to political tenure and reversal risk (Rimba Raya's license fight), while temperate-peat MRV (water-table and flux measurement) is immature; the opening is robust rewetting MRV plus aggregation of many small parcels into financeable temperate-peatland portfolios."
+   },
+   {
+    "name": "Wildfire-resilience forest management & post-fire reforestation",
+    "description": "Technology to reduce wildfire risk to forests, the carbon they store and the grid that runs through them, plus replanting after fires, addressing wildfire as both a forest-loss and emissions driver.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Vibrant Planet",
+      "role": "startup",
+      "what": "'Land Tender' SaaS that fuses data to map wildfire risk and co-develop mitigation plans with land managers, utilities and tribes",
+      "signal": "Venture-backed (~$30M+); state contracts; early Tahoe Fund backing for Land Tender",
+      "status": "operating",
+      "source": "https://www.breakthroughenergy.org/newsroom/articles/tech-startups-innovate-to-snuff-out-wildfires/"
+     },
+     {
+      "name": "BurnBot",
+      "role": "startup",
+      "what": "Robotic prescribed-burn / mechanical fuel-treatment machines that clear hazardous fuel loads safely",
+      "signal": "$20M VC + $30M in fuel-treatment contracts; targeting ~15 machines and 3,000 acres treated by end of 2025",
+      "status": "operating",
+      "source": "https://techcrunch.com/2025/01/29/climate-change-ignited-las-wildfire-risk-these-startups-want-to-extinguish-it/"
+     },
+     {
+      "name": "Kodama Systems",
+      "role": "startup",
+      "what": "Retrofits forestry equipment for remote/autonomous thinning to cut fuel loads, and buries felled timber for durable carbon credits",
+      "signal": "$5.95M seed (Tahoe Fund and others); selling biomass-burial removals to Frontier/Stripe",
+      "status": "operating",
+      "source": "https://www.canarymedia.com/articles/climate-crisis/a-new-wave-of-startups-is-tackling-a-huge-emissions-source-wildfires"
+     },
+     {
+      "name": "Mast Reforestation",
+      "role": "scaleup",
+      "what": "Restores severely burned forestland and buries unmerchantable fire-killed trees (BiCRS), selling removal credits to fund replanting",
+      "signal": "$25M Series B (2025); first Mast Wood Preserve biomass-burial project in central Montana (~900 acres post-fire)",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/mast-announces-market-first-restorative-carbon-removal-project-and-25-million-in-series-b-funding-302374345.html"
+     },
+     {
+      "name": "Overstory",
+      "role": "scaleup",
+      "what": "AI vegetation-intelligence from satellite imagery for wildfire prevention and grid/vegetation-management for utilities",
+      "signal": "$43M Series B (Nov 2025) led by Blume Equity with Energy Impact Partners",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/overstory-closes-43m-series-b-to-scale-ai-driven-wildfire-prevention-and-grid-resilience-302625548.html"
+     },
+     {
+      "name": "Pano AI",
+      "role": "startup",
+      "what": "AI-powered mountaintop camera network for ultra-early wildfire detection and situational awareness",
+      "signal": "Series B (2024); deployments across western US and Australia, featured among LA-fire response startups",
+      "status": "operating",
+      "source": "https://techcrunch.com/2025/01/29/climate-change-ignited-las-wildfire-risk-these-startups-want-to-extinguish-it/"
+     }
+    ],
+    "white_space": "The category splits into detection (Pano, Overstory), fuel treatment (BurnBot, Kodama) and post-fire replanting (Mast) with little integration; the gap is a single risk-to-remediation loop and, critically, durable revenue beyond episodic state/utility grants, since most fuel-treatment economics still lean on credits or public money."
+   },
+   {
+    "name": "REDD+ avoided-deforestation & improved forest management (IFM) developers",
+    "description": "Developers that earn credits by keeping standing forests standing (REDD+) or improving harvest regimes on managed forests (IFM) \u2014 the single largest forestry credit category, and the one most damaged by over-crediting and baseline scandals.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "South Pole",
+      "role": "scaleup",
+      "what": "Once the world's largest carbon developer/trader; originated and marketed REDD+ at scale",
+      "signal": "Kariba REDD+ over-crediting scandal led it to terminate the contract (Oct 2023), overhaul leadership (new CEO May 2024) and restructure",
+      "status": "operating",
+      "source": "https://www.ftm.eu/articles/south-pole-kariba-carbon-emission"
+     },
+     {
+      "name": "Wildlife Works",
+      "role": "scaleup",
+      "what": "Community-based REDD+ pioneer (e.g. the Kasigau Corridor, Kenya) tying avoided deforestation to local livelihoods",
+      "signal": "Long-running Verra-registered REDD+ portfolio; a defining template for the model",
+      "status": "operating",
+      "source": "https://www.wildlifeworks.com/"
+     },
+     {
+      "name": "Everland",
+      "role": "incumbent",
+      "what": "Marketing/distribution arm for REDD+ credits (including Wildlife Works projects) and a vocal defender of REDD+ integrity",
+      "signal": "Issued public rebuttals to 2023 REDD+ over-crediting criticism",
+      "status": "operating",
+      "source": "https://www.southpole.com/blog/south-pole-reaction-to-criticisms-of-redd-and-the-vcm"
+     },
+     {
+      "name": "Permian Global",
+      "role": "scaleup",
+      "what": "Tropical forest + peat REDD+ developer (Katingan Mentaya) emphasizing high-integrity avoided-deforestation",
+      "signal": "Katingan ~7.5M VCUs/year, triple-gold rated",
+      "status": "operating",
+      "source": "https://permianglobal.com/projects/katingan-mentaya-project/"
+     },
+     {
+      "name": "Finite Carbon",
+      "role": "incumbent",
+      "what": "North America's leading forest carbon developer, mostly IFM projects on private and tribal land",
+      "signal": "60+ projects since 2009; majority-owned by bp",
+      "status": "operating",
+      "source": "https://www.finitecarbon.com/"
+     },
+     {
+      "name": "Anew Climate",
+      "role": "incumbent",
+      "what": "Large US carbon-project originator (formed from Bluesource + Element Markets) active in IFM and environmental commodities since 2001",
+      "signal": "One of the largest US offset suppliers/originators",
+      "status": "operating",
+      "source": "https://northeastforestcarbon.org/forest-carbon-financial-markets/"
+     },
+     {
+      "name": "EFM (Ecotrust Forest Management)",
+      "role": "scaleup",
+      "what": "US forestland investment manager running improved-forest-management funds that generate carbon removals",
+      "signal": "Microsoft agreed to purchase ~3M IFM carbon-removal credits from EFM",
+      "status": "operating",
+      "source": "https://www.datacenterdynamics.com/en/news/microsoft-to-purchase-3m-carbon-removal-credits-from-forest-management-firm-efm/"
+     }
+    ],
+    "white_space": "Although crowded and high-volume, avoided-deforestation baselines were systematically over-credited (Kariba, multiple Verra REDD+ projects), collapsing buyer trust and prices; the reset opportunity is jurisdictional REDD+ (ART/TREES) and re-issuance under Verra's consolidated allocated-baseline methodology (VM0048) with third-party ratings baked in, rather than project-by-project self-reported baselines."
+   }
+  ],
+  "sources": [
+   "https://www.geekwire.com/2025/mast-reforestation-lands-25m/",
+   "https://planettools.org/8-drone-planting-systems-2026/",
+   "https://landlifecompany.com/en-us",
+   "https://www.terraformation.com/blog/terraformation-closes-30-million-funding-round",
+   "https://www.livingcarbon.com/",
+   "https://money.usnews.com/investing/news/articles/2025-04-29/brazil-reforestation-startup-mombak-raises-30-million-in-usv-led-round",
+   "https://energynews.oedigital.com/environment/2025/05/19/brazil-reforestation-company-regreen-receives-fresh-funding-in-deal-with-bndes-and-bradesco",
+   "https://www.jpmorgan.com/insights/sustainability/climate/chestnut-carbon-deal",
+   "https://www.esgtoday.com/carbon-direct-acquires-carbon-project-mrv-platform-pachama/",
+   "https://www.prnewswire.com/news-releases/chloris-geospatial-raises-8-5-million-series-a-to-scale-satellite-based-forest-carbon-monitoring-302498338.html",
+   "https://ctrees.org/",
+   "https://www.kanop.io/",
+   "https://spaceinsider.tech/2024/08/21/space-intelligence-secures-series-a-funding-to-expand-global-forest-mapping-efforts/",
+   "https://satelligence.com/eudr/",
+   "https://osapiens.com/solutions/eudr/",
+   "https://www.integritynext.com/esg-solutions/eudr-deforestation-regulation",
+   "https://www.globalforestwatch.org/",
+   "https://www.sourcemap.com/",
+   "https://sti-portal.fao.org/innovations/tracex-supply-chain-traceability-platform",
+   "https://www.sylvera.com/state-of-carbon-credits",
+   "https://carbonherald.com/carbon-ratings-agency-bezero-will-boost-its-efforts-with-a-new-32m-funding/",
+   "https://verra.org/programs/verified-carbon-standard/",
+   "https://carbonherald.com/patch-and-cloverly-partner-to-streamline-carbon-credit-procurement/",
+   "https://permianglobal.com/projects/katingan-mentaya-project/",
+   "https://www.spglobal.com/commodity-insights/en/news-research/latest-news/energy-transition/051024-wide-swathe-of-carbon-market-exposed-to-indonesias-rimba-raya-project-revocation-risks",
+   "https://bezerocarbon.com/insights/could-non-tropical-peatlands-create-some-of-the-most-valuable-nature-based-credits-for-the-vcm-a-dive-into-the-iucn-peatland-carbon-code",
+   "https://techcrunch.com/2025/01/29/climate-change-ignited-las-wildfire-risk-these-startups-want-to-extinguish-it/",
+   "https://www.canarymedia.com/articles/climate-crisis/a-new-wave-of-startups-is-tackling-a-huge-emissions-source-wildfires",
+   "https://www.prnewswire.com/news-releases/overstory-closes-43m-series-b-to-scale-ai-driven-wildfire-prevention-and-grid-resilience-302625548.html",
+   "https://www.ftm.eu/articles/south-pole-kariba-carbon-emission",
+   "https://www.finitecarbon.com/",
+   "https://www.datacenterdynamics.com/en/news/microsoft-to-purchase-3m-carbon-removal-credits-from-forest-management-firm-efm/"
+  ]
+ }
+}

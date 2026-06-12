@@ -1,0 +1,641 @@
+{
+ "sector": "energy",
+ "bucket": "Grid & Transmission Hardware",
+ "census": {
+  "bucket": "Grid & Transmission Hardware",
+  "variations": [
+   {
+    "name": "HVDC converter stations & interconnectors",
+    "description": "Power-electronic converter stations turn AC into high-voltage DC so bulk renewable power can travel thousands of kilometers over land or under sea with low losses, forming the backbone for offshore wind and inter-regional grid links.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Hitachi Energy",
+      "role": "incumbent",
+      "what": "Market leader in voltage-source-converter HVDC (HVDC Light) stations for offshore wind and interconnectors",
+      "signal": "Disclosed ~$4.2B HVDC backlog incl. Dogger Bank and North Sea links; top-3 vendors held ~60-65% of 2025 order intake",
+      "status": "operating",
+      "source": "https://www.researchandmarkets.com/articles/key-companies-in-high-voltage-direct-current-converter"
+     },
+     {
+      "name": "Siemens Energy",
+      "role": "incumbent",
+      "what": "HVDC PLUS converter technology for offshore grid connections and energy islands",
+      "signal": "Booked ~$3.8B in 2025 across Bornholm, East Anglia THREE and Middle East schemes",
+      "status": "operating",
+      "source": "https://www.researchandmarkets.com/articles/key-companies-in-high-voltage-direct-current-converter"
+     },
+     {
+      "name": "GE Vernova",
+      "role": "incumbent",
+      "what": "HVDC converter systems; re-entered offshore HVDC after a four-year hiatus",
+      "signal": "$1.4B Ostwind 4 offshore HVDC award in 2025",
+      "status": "operating",
+      "source": "https://www.researchandmarkets.com/articles/key-companies-in-high-voltage-direct-current-converter"
+     },
+     {
+      "name": "Mitsubishi Electric",
+      "role": "incumbent",
+      "what": "HVDC converter and frequency-converter stations, especially for Japan's 50/60 Hz interties",
+      "signal": "Ranked among top global HVDC transmission suppliers in 2025",
+      "status": "operating",
+      "source": "https://www.sphericalinsights.com/blogs/top-15-companies-in-hvdc-transmission-market-worldwide-in-2025-market-research-report-2024-2035"
+     },
+     {
+      "name": "NR Electric",
+      "role": "incumbent",
+      "what": "Chinese converter-valve and control supplier expanding internationally with 20-30% price discounts vs Western OEMs",
+      "signal": "Part of Chinese vendor push (with C-EPRI, Xian XD) into export HVDC markets in 2025",
+      "status": "operating",
+      "source": "https://www.researchandmarkets.com/articles/key-companies-in-high-voltage-direct-current-converter"
+     },
+     {
+      "name": "Sun Cable",
+      "role": "scaleup",
+      "what": "Developing AAPowerLink, a ~4,300 km Australia-Singapore HVDC link exporting Northern Territory solar",
+      "signal": "Entered administration Jan 2023, relaunched under Grok Ventures; Australian major-project status renewed July 2025 and Singapore conditional import approval for 1.75 GW; FID expected 2027",
+      "status": "operating",
+      "source": "https://www.pv-magazine-australia.com/2025/07/07/federal-government-keeps-faith-in-suncable-project/"
+     },
+     {
+      "name": "Xlinks",
+      "role": "startup",
+      "what": "Proposed 3.6 GW, 3,800 km Morocco-UK HVDC interconnector delivering Saharan solar and wind to Britain",
+      "signal": "UK government declined CfD support in June 2025 calling the megaproject too risky; company exploring private routes",
+      "status": "uncertain",
+      "source": "https://www.newcivilengineer.com/latest/developer-bitterly-disappointed-as-government-calls-off-25bn-uk-morocco-interconnector-27-06-2025/"
+     }
+    ],
+    "white_space": "Western converter supply is a three-firm oligopoly sold out into the 2030s with 24+ month converter-transformer lead times, while Chinese rivals face security barriers in Western markets \u2014 the opening is standardized/modular converter designs, valve components, and new factory capacity rather than yet another merchant-link developer (Xlinks' rejection shows mega-project FOAK risk)."
+   },
+   {
+    "name": "High-voltage submarine & underground cable systems",
+    "description": "Extruded XLPE and mass-impregnated cables rated up to 525 kV carry offshore wind and interconnector power under seas and cities, and global decarbonization plans hinge on a handful of factories that make them.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Prysmian",
+      "role": "incumbent",
+      "what": "World's largest cable maker; supplies HVDC submarine and underground systems with its own installation vessels",
+      "signal": "Record ~EUR 18B subsea backlog and EUR 3.8B submarine revenue (+22% YoY); cancelled its planned Massachusetts subsea plant in 2025 amid US offshore-wind uncertainty",
+      "status": "operating",
+      "source": "https://neomarketdata.com/best-subsea-power-cable-companies-for-offshore-wind-investors"
+     },
+     {
+      "name": "NKT",
+      "role": "incumbent",
+      "what": "Danish pioneer of 525 kV extruded HVDC cable for European interconnectors and German corridor projects",
+      "signal": "Record high-voltage backlog with ~45% from offshore wind; one of three Europeans controlling ~75% of HVDC cable supply",
+      "status": "operating",
+      "source": "https://www.offshore-mag.com/renewable-energy/article/55240474/shortage-of-submarine-power-cables-poses-threat-to-offshore-wind-market"
+     },
+     {
+      "name": "Nexans",
+      "role": "incumbent",
+      "what": "French HV subsea cable maker (Halden, Norway and Charleston, SC plants) plus cable-laying vessels",
+      "signal": "Among the top-3 suppliers holding ~75% of the HVDC cable market; multi-year sold-out backlog",
+      "status": "operating",
+      "source": "https://www.offshore-mag.com/renewable-energy/article/55240474/shortage-of-submarine-power-cables-poses-threat-to-offshore-wind-market"
+     },
+     {
+      "name": "LS Cable & System",
+      "role": "incumbent",
+      "what": "Korean cable giant building LS Greenlink in Chesapeake, Virginia \u2014 slated to be the largest HVDC subsea cable plant in the US",
+      "signal": "~$680M plant, construction from 2025, completion expected 2027, supported by IRA 48C credits",
+      "status": "operating",
+      "source": "https://www.offshore-mag.com/renewable-energy/article/55240474/shortage-of-submarine-power-cables-poses-threat-to-offshore-wind-market"
+     },
+     {
+      "name": "Sumitomo Electric",
+      "role": "incumbent",
+      "what": "Japanese cable maker building the UK's first HVDC cable factory at Port of Nigg, Scotland",
+      "signal": "\u00a3350M factory broke ground May 2024 with production from ~Q3 2026; preferred bidder for SSEN's Shetland 2 525 kV cable",
+      "status": "operating",
+      "source": "https://sumitomoelectric.com/press/2024/05/prs018"
+     },
+     {
+      "name": "XLCC",
+      "role": "startup",
+      "what": "UK startup attempting a greenfield HVDC cable factory at Hunterston, Scotland, originally anchored to the Xlinks project",
+      "signal": "Plant plans stalled after the Morocco-UK project lost government backing in 2025",
+      "status": "uncertain",
+      "source": "https://www.moroccoworldnews.com/2025/11/267293/morocco-uk-project-halt-stalls-xlcc-cable-plant/"
+     }
+    ],
+    "white_space": "Backlogs quoted at 10+ years and ~75% of HVDC cable capacity in three European firms; $500M-class plants plus decade-long qualification track records deter entrants, so the realistic opening is regional factories anchored by national grid programs (the LS Greenlink and Sumitomo Nigg model) and specialist installation vessels \u2014 XLCC's stall shows the risk of anchoring a plant to a single merchant project."
+   },
+   {
+    "name": "Advanced conductors & reconductoring",
+    "description": "Replacing steel-core conductors with carbon-composite-core wires on existing towers can roughly double a line's capacity with no new right-of-way, making reconductoring the fastest, cheapest way to expand transmission for clean energy.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "TS Conductor",
+      "role": "scaleup",
+      "what": "Makes encapsulated carbon-core aluminum conductors (AECC) that install with standard hardware and crews",
+      "signal": "$60M growth round led by Wellington (July 2024) with Quanta, NextEra, Edison, BEV and National Grid Partners; building a $134M South Carolina plant with DOE backing",
+      "status": "operating",
+      "source": "https://www.prweb.com/releases/ts-conductor-raises-60-million-from-industry-leading-investors-to-expand-us-production-of-high-capacity-power-lines-302207238.html"
+     },
+     {
+      "name": "CTC Global",
+      "role": "scaleup",
+      "what": "Inventor of the ACCC composite-core conductor, the most widely deployed advanced conductor globally",
+      "signal": "Raised growth capital from Endeavour and Greenbelt Capital Partners (2025); chosen technology for Google's 2025 utility reconductoring partnership program",
+      "status": "operating",
+      "source": "https://pv-magazine-usa.com/2025/06/30/google-aims-to-boost-transmission-capacity-with-advanced-conductor-upgrades/"
+     },
+     {
+      "name": "Southwire",
+      "role": "incumbent",
+      "what": "Largest North American wire and cable maker; manufactures and distributes high-capacity and composite-core conductor products at scale",
+      "signal": "Key domestic manufacturing partner as US reconductoring demand accelerates",
+      "status": "operating",
+      "source": "https://www.southwire.com/"
+     },
+     {
+      "name": "3M",
+      "role": "incumbent",
+      "what": "Pioneered the ACCR aluminum-matrix composite conductor, an early high-temperature low-sag design",
+      "signal": "Legacy advanced-conductor line deployed by utilities since the 2000s",
+      "status": "operating",
+      "source": "https://www.3m.com/3M/en_US/p/c/b/accr/"
+     },
+     {
+      "name": "Quanta Services",
+      "role": "incumbent",
+      "what": "Largest US T&D contractor performing live-line reconductoring; strategic investor in TS Conductor",
+      "signal": "Participated in TS Conductor's 2024 round to lock up advanced-conductor installation capability",
+      "status": "operating",
+      "source": "https://www.renewableenergyworld.com/power-grid/grid-conductor-company-raises-60-million-for-second-us-production-facility/"
+     }
+    ],
+    "white_space": "Only two pure-play composite-core makers (CTC Global, TS Conductor) face a DOE-identified opportunity to roughly double capacity on existing corridors; the binding constraints are core manufacturing capacity and utility incentives that favor rate-based new builds, so openings exist for new core suppliers, installation tooling, and third-party financing models like Google's 2025 reconductoring program."
+   },
+   {
+    "name": "Superconducting cables & fault current limiters",
+    "description": "High-temperature superconducting (HTS) wire carries 5-10x more current than copper in a tiny footprint and can self-limit fault currents, letting utilities push huge power through dense cities or constrained rights-of-way.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "VEIR",
+      "role": "startup",
+      "what": "Passively nitrogen-cooled overhead HTS lines delivering 5-10x capacity at distribution voltages, now also targeting AI data-center power delivery",
+      "signal": "$75M Series B led by Munich Re Ventures (Jan 2025); pilots planned with utilities and data centers",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20250128084337/en/VEIR-Closes-$75M-Series-B-to-Deliver-Superconducting-Solutions-for-AI-Data-Centers-and-High-Capacity-Power-Lines-Driving-Grid-Resilience-and-Global-Decarbonization"
+     },
+     {
+      "name": "MetOx International",
+      "role": "startup",
+      "what": "Scaling US manufacturing of Xeus HTS wire, the key feedstock for superconducting cables, FCLs and fusion magnets",
+      "signal": "$25M Series B extension (Sep 2024) plus selection for $80M DOE funding for a new HTS wire plant breaking ground in 2025",
+      "status": "operating",
+      "source": "https://www.manufacturing.net/operations/news/22924307/metox-secures-80m-in-doe-funding-to-build-advanced-hts-wire-facility-in-us"
+     },
+     {
+      "name": "AMSC (American Superconductor)",
+      "role": "incumbent",
+      "what": "Amperium HTS wire, resilient electric grid (REG) city cables, superconducting fault current limiters and D-VAR systems",
+      "signal": "NASDAQ-listed; installed an SFCL in a US military-grade power system in Feb 2025; REG system operating in Chicago's grid",
+      "status": "operating",
+      "source": "https://www.custommarketinsights.com/report/fault-current-limiter-market/"
+     },
+     {
+      "name": "Nexans",
+      "role": "incumbent",
+      "what": "Builds turnkey superconducting cable systems and HTS fault current limiters (using AMSC wire)",
+      "signal": "Released an HTS fault current limiter for offshore wind platforms in Feb 2025 after North Sea testing",
+      "status": "operating",
+      "source": "https://www.custommarketinsights.com/report/fault-current-limiter-market/"
+     },
+     {
+      "name": "THEVA",
+      "role": "scaleup",
+      "what": "German HTS tape producer supplying the Munich SuperLink, the world's longest planned urban superconducting cable",
+      "signal": "Expanding German tape production alongside US HTS capacity growth",
+      "status": "operating",
+      "source": "https://www.modernpowersystems.com/analysis/hts-technology-expands-in-usa-and-germany/"
+     },
+     {
+      "name": "SuperNode",
+      "role": "startup",
+      "what": "Irish developer of superconducting cable systems aimed at bulk offshore-wind grid connections",
+      "signal": "Privately backed (founded by Mainstream Renewable's Eddie O'Connor); still pre-commercial",
+      "status": "operating",
+      "source": "https://supernode.energy/"
+     },
+     {
+      "name": "GridON",
+      "role": "startup",
+      "what": "Israeli developer of pre-saturated core fault current limiters",
+      "signal": "Listed among FCL market players but with little publicly visible activity since the early 2020s",
+      "status": "uncertain",
+      "source": "https://www.fortunebusinessinsights.com/fault-current-limiter-market-102150"
+     }
+    ],
+    "white_space": "Physics is proven but HTS tape supply (a handful of producers, high $/kA-m cost) and cryogenic O&M keep deployments at demonstration scale; near-term openings are tape capacity scale-up (MetOx's DOE-backed plant) and right-of-way-impossible niches \u2014 dense cities, substation interties, and AI data-center campuses \u2014 where conventional conductors simply cannot fit."
+   },
+   {
+    "name": "Dynamic line rating & transmission monitoring sensors",
+    "description": "Sensors on or near power lines measure real conductor temperature, sag and weather so operators can safely run lines 20-40% above static ratings and spot failures before they spark outages or wildfires.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "LineVision",
+      "role": "scaleup",
+      "what": "Non-contact LiDAR/electromagnetic sensors plus analytics for dynamic line ratings and asset health",
+      "signal": "Largest single US DLR deployment with AES (Indiana/Ohio); National Grid expanding UK use to 585 km after a successful 275 kV trial",
+      "status": "operating",
+      "source": "https://www.aes.com/newsroom/aes-and-linevision-release-results-study-assessing-largest-single-deployment-dynamic-line"
+     },
+     {
+      "name": "Heimdall Power",
+      "role": "scaleup",
+      "what": "Norwegian maker of drone-installed 'magic ball' Neuron sensors clamped directly on conductors",
+      "signal": "$25M raise (2024); 52 sensors at Great River Energy delivered avg 42.8% capacity gain \u2014 largest US DLR install at the time; TIME Best Inventions 2025",
+      "status": "operating",
+      "source": "https://www.renewableenergyworld.com/power-grid/transmission/startup-behind-magic-ball-for-boosting-transmission-capacity-raises-25-million/"
+     },
+     {
+      "name": "Ampacimon",
+      "role": "scaleup",
+      "what": "Belgian pioneer of sag/vibration-based DLR sensors, deployed on Elia's grid since 2008",
+      "signal": "Longest-running commercial DLR vendor; 2025 partnership with AP Sensing and new drone-installed HV sensors",
+      "status": "operating",
+      "source": "https://www.ampacimon.com/"
+     },
+     {
+      "name": "Gridware",
+      "role": "startup",
+      "what": "Pole-mounted Gridscope sensors detecting mechanical/electrical faults for wildfire prevention and outage response",
+      "signal": "$55M Series B (Nov 2025) led by Tiger Global and Generation IM; tens of thousands of poles deployed, utility partners serving ~40% of US customers",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20251117004576/en/Gridware-Raises-$55-Million-Growth-Round-to-Accelerate-U.S.-Deployments-and-Support-Global-Expansion"
+     },
+     {
+      "name": "Prisma Photonics",
+      "role": "startup",
+      "what": "Turns existing fiber (OPGW) on transmission lines into a distributed sensor \u2014 no on-line hardware needed",
+      "signal": "PG&E trial in California and statewide Great River Energy deployment in Minnesota (2025)",
+      "status": "operating",
+      "source": "https://www.powermag.com/prisma-photonics-deploys-grid-monitoring-equipment-in-california/"
+     },
+     {
+      "name": "Reactive Technologies",
+      "role": "scaleup",
+      "what": "GridMetrix measures grid inertia in real time by injecting signals via grid-connected modulator hardware",
+      "signal": "\u00a325M Series D (May 2024) led by M&G, BGF and Breakthrough Energy Ventures; NYISO and Taiwan Power deployments",
+      "status": "operating",
+      "source": "https://reactive-technologies.com/news/reactive-technologies-raises-25m/"
+     }
+    ]
+   },
+   {
+    "name": "Power-flow control devices (FACTS, SSSC, modular power flow controllers)",
+    "description": "Power-electronic devices push or pull power between parallel lines, rerouting flows around congested circuits so existing grids carry more renewables without new wires; classic FACTS is mature while modular, redeployable units are the fast-growing wave.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Smart Wires",
+      "role": "scaleup",
+      "what": "Created the modular static synchronous series compensator (SmartValve) category \u2014 truck-delivered, redeployable power-flow control",
+      "signal": "$65M raised to scale 2025 operations; PG&E San Jose data-center project adding 100+ MW, 24-device Eles (Slovenia) deployment, first Brazil project with ISA",
+      "status": "operating",
+      "source": "https://investor.pgecorp.com/news-events/press-releases/press-release-details/2025/PGE-and-Smart-Wires-Enhance-Grid-Reliability-Capacity-for-Data-Centers-in-San-Jose/default.aspx"
+     },
+     {
+      "name": "Hitachi Energy",
+      "role": "incumbent",
+      "what": "Full FACTS portfolio \u2014 SVCs, series compensation and STATCOMs \u2014 for transmission operators worldwide",
+      "signal": "Decades-deep installed base; FACTS demand surging with renewables and data-center load",
+      "status": "operating",
+      "source": "https://www.hitachienergy.com/products-and-solutions/facts"
+     },
+     {
+      "name": "Siemens Energy",
+      "role": "incumbent",
+      "what": "SVC PLUS and UPFC-class series/shunt compensation systems",
+      "signal": "Major FACTS supplier with growing grid-stabilization order book",
+      "status": "operating",
+      "source": "https://www.siemens-energy.com/global/en/home/products-services/product-offerings/grid-forming.html"
+     },
+     {
+      "name": "GE Vernova",
+      "role": "incumbent",
+      "what": "FACTS and series compensation systems integrated with its grid solutions business",
+      "signal": "One of three Western FACTS majors",
+      "status": "operating",
+      "source": "https://www.gevernova.com/grid-solutions/systems/flexible-ac-transmission-systems-facts/synchronous-condenser"
+     },
+     {
+      "name": "AMSC (American Superconductor)",
+      "role": "incumbent",
+      "what": "Transportable D-VAR dynamic reactive power (STATCOM) systems popular for wind/solar interconnection",
+      "signal": "Hundreds of D-VAR installations; profitable grid segment driving record revenue",
+      "status": "operating",
+      "source": "https://www.amsc.com/gridtec/"
+     }
+    ],
+    "white_space": "Smart Wires is essentially the only pure-play modular series-compensation vendor (Faraday Grid's 2019 collapse thinned the field); the barrier is not physics but utility rate-base incentives that reward large capital builds over cheap grid-enhancing fixes \u2014 shared-savings business models, distribution-level flow control, and FERC-mandated GET consideration are the openings."
+   },
+   {
+    "name": "Grid-forming inverters, STATCOMs & synchronous condensers",
+    "description": "As coal and gas plants retire, these devices replace the voltage, inertia and fault current that spinning generators once provided \u2014 via grid-forming battery inverters, power-electronic STATCOMs, or spinning synchronous condensers \u2014 keeping renewable-heavy grids stable.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Tesla",
+      "role": "incumbent",
+      "what": "Made grid-forming control standard across utility-scale Megapack storage",
+      "signal": "12.5 GWh storage deployed in Q3 2025 alone; ~4.5 GW of grid-forming batteries expected operating in Australia by end-2026",
+      "status": "operating",
+      "source": "https://halcolenergy.com.au/solar-news/grid-forming-inverters-what-they-mean-for-your-home-energy/"
+     },
+     {
+      "name": "Sungrow",
+      "role": "incumbent",
+      "what": "PowerTitan 3.0 storage with 'Stem-Cell' grid-forming tech supporting GW-scale black start and seamless mode transitions",
+      "signal": "Shipped 43 GWh of BESS globally in 2025 (~$5.4B storage revenue)",
+      "status": "operating",
+      "source": "https://www.battery-energy-storage-system.com/news/sungrow-replus-2025-inverter-ess.html"
+     },
+     {
+      "name": "SMA Solar Technology",
+      "role": "incumbent",
+      "what": "Utility-scale grid-forming battery inverters (Sunny Central Storage) deployed in Australian and European stability projects",
+      "signal": "Among the first OEMs with commercially deployed grid-forming PCS fleets",
+      "status": "operating",
+      "source": "https://halcolenergy.com.au/solar-news/grid-forming-inverters-what-they-mean-for-your-home-energy/"
+     },
+     {
+      "name": "Siemens Energy",
+      "role": "incumbent",
+      "what": "E-STATCOMs, synchronous condensers and hybrid stability plants",
+      "signal": "Energized world-first supercapacitor E-STATCOM with TenneT (Mehrum, Dec 2025); building syncon+flywheel+160 MWh BESS hybrid at Shannonbridge, Ireland",
+      "status": "operating",
+      "source": "https://www.tdworld.com/reliability-and-resiliency/article/55361853/virtual-inertia-in-the-real-world"
+     },
+     {
+      "name": "GE Vernova",
+      "role": "incumbent",
+      "what": "Synchronous condenser systems and rotating stabilizers for inertia and short-circuit strength",
+      "signal": "Contracted for synchronous condensers at five Transgrid sites stabilizing the New South Wales grid",
+      "status": "operating",
+      "source": "https://www.gevernova.com/news/press-releases/ge-vernova-provide-grid-stabilizing-technology-transgrid-support-renewables-rollout"
+     },
+     {
+      "name": "Hitachi Energy",
+      "role": "incumbent",
+      "what": "Grid-forming STATCOM portfolio (SVC Light Enhanced) plus synchronous condensers",
+      "signal": "Grid-forming STATCOM offerings commercialized as STATCOM market grows from ~$1.26B (2025) toward $2.69B by 2033",
+      "status": "operating",
+      "source": "https://www.hitachienergy.com/products-and-solutions/facts/statcom/grid-forming-technology"
+     },
+     {
+      "name": "ABB",
+      "role": "incumbent",
+      "what": "One of the leading global synchronous condenser suppliers via its large motors and generators business",
+      "signal": "Named a synchronous condenser market leader alongside Siemens Energy and GE Vernova",
+      "status": "operating",
+      "source": "https://www.marketsandmarkets.com/ResearchInsight/synchronous-condenser-market.asp"
+     },
+     {
+      "name": "WEG",
+      "role": "incumbent",
+      "what": "Brazilian electrical OEM supplying synchronous condensers and large rotating machines",
+      "signal": "Among top-5 syncon vendors as the market grows to ~$840M by 2030",
+      "status": "operating",
+      "source": "https://www.marketsandmarkets.com/ResearchInsight/synchronous-condenser-market.asp"
+     }
+    ],
+    "white_space": "High-inertia (flywheel-coupled) synchronous condenser supply is limited to a few OEMs with stretched lead times just as Australia, Ireland and ERCOT ramp orders; openings include clutch retrofits of retired thermal plants, standardized grid-forming firmware certification, and startups packaging inertia-as-a-service \u2014 no pure-play startup currently competes in this hardware class."
+   },
+   {
+    "name": "Transformers (conventional supply, mobile/modular, solid-state)",
+    "description": "Transformers step voltage up and down at every grid interface; a global shortage with multi-year lead times is now the single biggest hardware bottleneck for connecting clean energy and data centers, driving new factories plus mobile and solid-state alternatives.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Hitachi Energy",
+      "role": "incumbent",
+      "what": "World's largest transformer maker, racing to add capacity",
+      "signal": "$250M additional investment (Mar 2025) plus a $457M South Boston, Virginia plant \u2014 set to be the largest US transformer factory by 2028; >$1B total US expansion",
+      "status": "operating",
+      "source": "https://www.hitachienergy.com/us/en/news-and-events/press-releases/2025/03/hitachi-energy-invests-additional-250-million-usd-to-address-global-transformer-shortage"
+     },
+     {
+      "name": "Siemens Energy",
+      "role": "incumbent",
+      "what": "Large power transformers; building new US capacity",
+      "signal": "Broke ground on a $150M Charlotte, NC transformer plant in 2025, production by early 2027",
+      "status": "operating",
+      "source": "https://www.powermag.com/transformers-in-2026-shortage-scramble-or-self-inflicted-crisis/"
+     },
+     {
+      "name": "Prolec GE",
+      "role": "incumbent",
+      "what": "Xignux-GE Vernova JV making power and distribution transformers across Mexico and the US",
+      "signal": "Investing >$300M in new/expanded plants (Goldsboro NC, Shreveport LA, Mexico)",
+      "status": "operating",
+      "source": "https://www.powermag.com/transformers-in-2026-shortage-scramble-or-self-inflicted-crisis/"
+     },
+     {
+      "name": "Eaton",
+      "role": "incumbent",
+      "what": "Major US supplier of distribution and dry-type transformers and substation equipment",
+      "signal": "Listed among leaders of the ~$1.5B US transformer market with capacity expansions underway",
+      "status": "operating",
+      "source": "https://finance.yahoo.com/news/u-transformers-industry-research-report-080100983.html"
+     },
+     {
+      "name": "Delta Star",
+      "role": "incumbent",
+      "what": "Premier North American maker of mobile transformers and mobile substations used for emergency restoration and bridging long lead times",
+      "signal": "800+ mobile substations fielded across North America; employee-owned with three plants",
+      "status": "operating",
+      "source": "https://www.deltastar.com/mobile-transformers/"
+     },
+     {
+      "name": "Ionate",
+      "role": "startup",
+      "what": "UK maker of the Hybrid Intelligent Transformer \u2014 solid-state control wrapped around conventional magnetics for power-flow control and grid visibility without full-SST fragility",
+      "signal": "$17M Series A (Feb 2025) led by AlbionVC with In-Q-Tel and JGC; launching US operations targeting data-center constraints",
+      "status": "operating",
+      "source": "https://www.eu-startups.com/2025/02/deeptech-ionate-raises-e16-3-million-to-modernise-global-power-systems/"
+     },
+     {
+      "name": "Faraday Grid",
+      "role": "startup",
+      "what": "Edinburgh startup that promised the 'Faraday Exchanger' power-flow-controlling transformer replacement",
+      "signal": "Raised ~\u00a325M from Adam Neumann's family office (Jan 2019), then collapsed into administration by August 2019 after overexpansion",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.greentechmedia.com/articles/read/transformer-technology-hopeful-faraday-grid-goes-bust"
+     }
+    ],
+    "white_space": "Wood Mackenzie pegged the 2025 supply deficit near 100% (shrinking below 10% only by 2030), with large power transformer lead times of 3-5 years; openings are new domestic capacity (grain-oriented steel remains scarce), amorphous-core efficiency plays, standardized modular substations, and solid-state designs for data-center/EV duty \u2014 though Faraday Grid's collapse shows how capital-unforgiving novel transformer ventures can be."
+   },
+   {
+    "name": "SF6-free switchgear & substation equipment",
+    "description": "SF6, the insulating gas in conventional switchgear, is the most potent greenhouse gas known (~25,000x CO2), so vendors are replacing it with clean air, fluoronitrile blends and vacuum interrupters as EU F-gas rules phase SF6 out from 2026 onward.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Hitachi Energy",
+      "role": "incumbent",
+      "what": "EconiQ SF6-free portfolio spanning GIS, breakers and gas-insulated lines",
+      "signal": "Delivering the world's first SF6-free 550 kV GIS to State Grid of China (announced May 2025); first EconiQ units for ElectraNet Australia in 2026",
+      "status": "operating",
+      "source": "https://www.hitachienergy.com/news-and-events/press-releases/2025/05/hitachi-energy-to-deliver-the-world-s-first-sf6-free-550-kv-gas-insulated-switchgear"
+     },
+     {
+      "name": "GE Vernova",
+      "role": "incumbent",
+      "what": "g3 fluoronitrile-based SF6-free GIS with the same footprint as SF6 equipment, 72.5 kV and up",
+      "signal": "g3 substations operating across Europe; full SF6-free HV range commercialized",
+      "status": "operating",
+      "source": "https://www.gevernova.com/grid-solutions/hvmv_equipment/catalog/sf6-free-hv-switchgear/"
+     },
+     {
+      "name": "Siemens Energy",
+      "role": "incumbent",
+      "what": "Blue portfolio using clean air insulation plus vacuum interrupters \u2014 zero F-gas at all",
+      "signal": "Blue GIS commercially deployed up to transmission voltages",
+      "status": "operating",
+      "source": "https://www.siemens-energy.com/global/en/home/products-services/product-offerings/gas-insulated-switchgear.html"
+     },
+     {
+      "name": "Schneider Electric",
+      "role": "incumbent",
+      "what": "SM AirSeT and related pure-air medium-voltage switchgear for distribution networks",
+      "signal": "MV SF6-free range scaling across utility and commercial installs as EU F-gas regulation bites",
+      "status": "operating",
+      "source": "https://www.se.com/ww/en/work/products/product-launch/sf6-free-switchgear/"
+     },
+     {
+      "name": "Nuventura",
+      "role": "startup",
+      "what": "Berlin startup that commercialized the first SF6-free 36 kV GIS using dry air",
+      "signal": "\u20ac25M Series A (>\u20ac35M total) led by Mirova; acquired by UK's Lucy Group in April 2026 to scale globally",
+      "status": "acquired",
+      "source": "https://www.enlit.world/library/lucy-group-acquires-nuventura-to-expand-into-primary-sf6-free-switchgear"
+     }
+    ],
+    "white_space": "High-voltage SF6-free is locked up by incumbents because type-testing costs and utility installed-base trust create steep barriers \u2014 Nuventura, the lone notable VC-backed entrant, exited to an incumbent in April 2026; remaining startup ground is medium-voltage/secondary distribution, retrofit and SF6 leak-monitoring niches as EU bans phase in 2026-2032."
+   },
+   {
+    "name": "Microgrids & islanding systems",
+    "description": "Local generation, storage and controls that can disconnect ('island') from the main grid keep hospitals, bases, industry and remote communities powered through outages while adding clean capacity at the grid edge.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Scale Microgrids",
+      "role": "scaleup",
+      "what": "Develops, owns and operates full-stack commercial/industrial microgrids and distributed generation",
+      "signal": ">$1B in project financing including a $275M close (Jan 2025); acquired by EQT's Transition Infrastructure arm",
+      "status": "acquired",
+      "source": "https://www.microgridknowledge.com/microgrid-financing/news/55296982/scale-microgrids-bolstered-by-1b-funding-to-deploy-ders-across-us"
+     },
+     {
+      "name": "Enchanted Rock",
+      "role": "scaleup",
+      "what": "Resiliency-as-a-service microgrids running renewable natural gas generators, increasingly for data centers",
+      "signal": "Built California's largest RNG microgrid for Microsoft; positioned to tap the $1.8B Texas Energy Fund finalized June 2025",
+      "status": "operating",
+      "source": "https://www.microgridknowledge.com/editors-choice/article/11427227/enchanted-rock-to-build-californias-largest-rng-microgrid-for-microsoft"
+     },
+     {
+      "name": "Mainspring Energy",
+      "role": "scaleup",
+      "what": "Fuel-flexible linear generators (gas/hydrogen/ammonia) anchoring dispatchable microgrids",
+      "signal": ">$150M Series E first close led by Lightrock with Khosla Ventures and Bill Gates participating",
+      "status": "operating",
+      "source": "https://microgridknowledge.com/mainspring-energy-funding/"
+     },
+     {
+      "name": "Husk Power Systems",
+      "role": "scaleup",
+      "what": "Largest operator of community solar minigrids across rural India and Africa (~400 sites)",
+      "signal": "$103M Series D (2023); first investment under IFC's $200M DARES platform (May 2025); seeking $400M to scale (Nov 2025)",
+      "status": "operating",
+      "source": "https://www.ifc.org/en/pressroom/2025/ifc-and-canada-invest-in-husk-to-catalyze-solar-powered-economic-growth-in-rural-n"
+     },
+     {
+      "name": "BoxPower",
+      "role": "startup",
+      "what": "Containerized solar+storage microgrids that let utilities replace fire-prone remote distribution lines",
+      "signal": "Supplies PG&E's remote grid program in California",
+      "status": "operating",
+      "source": "https://boxpower.io/"
+     },
+     {
+      "name": "Schneider Electric",
+      "role": "incumbent",
+      "what": "Microgrid controllers and EPC, plus energy-as-a-service microgrids via its AlphaStruxure JV with Carlyle",
+      "signal": "One of the largest global microgrid integrators",
+      "status": "operating",
+      "source": "https://www.se.com/us/en/work/solutions/microgrids/"
+     },
+     {
+      "name": "PowerSecure",
+      "role": "incumbent",
+      "what": "Southern Company subsidiary that is among the largest US microgrid designers/installers",
+      "signal": "Multi-GW fleet of distributed energy and microgrid installations",
+      "status": "operating",
+      "source": "https://powersecure.com/"
+     },
+     {
+      "name": "Heila Technologies",
+      "role": "startup",
+      "what": "MIT-spinout decentralized microgrid/DER controller using game-theory optimization",
+      "signal": "Acquired by Kohler Co. (Jan 2022) to anchor its clean energy management offering",
+      "status": "acquired",
+      "source": "https://www.canarymedia.com/articles/grid-edge/kohler-power-buys-startup-that-uses-game-theory-math-to-manage-microgrids"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.researchandmarkets.com/articles/key-companies-in-high-voltage-direct-current-converter",
+   "https://www.newcivilengineer.com/latest/developer-bitterly-disappointed-as-government-calls-off-25bn-uk-morocco-interconnector-27-06-2025/",
+   "https://www.pv-magazine-australia.com/2025/07/07/federal-government-keeps-faith-in-suncable-project/",
+   "https://www.offshore-mag.com/renewable-energy/article/55240474/shortage-of-submarine-power-cables-poses-threat-to-offshore-wind-market",
+   "https://neomarketdata.com/best-subsea-power-cable-companies-for-offshore-wind-investors",
+   "https://sumitomoelectric.com/press/2024/05/prs018",
+   "https://www.moroccoworldnews.com/2025/11/267293/morocco-uk-project-halt-stalls-xlcc-cable-plant/",
+   "https://www.prweb.com/releases/ts-conductor-raises-60-million-from-industry-leading-investors-to-expand-us-production-of-high-capacity-power-lines-302207238.html",
+   "https://pv-magazine-usa.com/2025/06/30/google-aims-to-boost-transmission-capacity-with-advanced-conductor-upgrades/",
+   "https://www.renewableenergyworld.com/power-grid/grid-conductor-company-raises-60-million-for-second-us-production-facility/",
+   "https://www.businesswire.com/news/home/20250128084337/en/VEIR-Closes-$75M-Series-B-to-Deliver-Superconducting-Solutions-for-AI-Data-Centers-and-High-Capacity-Power-Lines-Driving-Grid-Resilience-and-Global-Decarbonization",
+   "https://www.manufacturing.net/operations/news/22924307/metox-secures-80m-in-doe-funding-to-build-advanced-hts-wire-facility-in-us",
+   "https://www.modernpowersystems.com/analysis/hts-technology-expands-in-usa-and-germany/",
+   "https://www.custommarketinsights.com/report/fault-current-limiter-market/",
+   "https://www.renewableenergyworld.com/power-grid/transmission/startup-behind-magic-ball-for-boosting-transmission-capacity-raises-25-million/",
+   "https://www.aes.com/newsroom/aes-and-linevision-release-results-study-assessing-largest-single-deployment-dynamic-line",
+   "https://www.businesswire.com/news/home/20251117004576/en/Gridware-Raises-$55-Million-Growth-Round-to-Accelerate-U.S.-Deployments-and-Support-Global-Expansion",
+   "https://www.powermag.com/prisma-photonics-deploys-grid-monitoring-equipment-in-california/",
+   "https://reactive-technologies.com/news/reactive-technologies-raises-25m/",
+   "https://www.power-technology.com/news/smart-wires-growth-capital/",
+   "https://investor.pgecorp.com/news-events/press-releases/press-release-details/2025/PGE-and-Smart-Wires-Enhance-Grid-Reliability-Capacity-for-Data-Centers-in-San-Jose/default.aspx",
+   "https://www.tdworld.com/reliability-and-resiliency/article/55361853/virtual-inertia-in-the-real-world",
+   "https://www.energy-storage.news/siemens-energy-to-deploy-first-synchronous-condenser-bess-hybrid-project-in-ireland/",
+   "https://www.gevernova.com/news/press-releases/ge-vernova-provide-grid-stabilizing-technology-transgrid-support-renewables-rollout",
+   "https://www.marketsandmarkets.com/ResearchInsight/synchronous-condenser-market.asp",
+   "https://www.powermag.com/transformers-in-2026-shortage-scramble-or-self-inflicted-crisis/",
+   "https://www.hitachienergy.com/us/en/news-and-events/press-releases/2025/03/hitachi-energy-invests-additional-250-million-usd-to-address-global-transformer-shortage",
+   "https://www.eu-startups.com/2025/02/deeptech-ionate-raises-e16-3-million-to-modernise-global-power-systems/",
+   "https://www.greentechmedia.com/articles/read/transformer-technology-hopeful-faraday-grid-goes-bust",
+   "https://www.hitachienergy.com/news-and-events/press-releases/2025/05/hitachi-energy-to-deliver-the-world-s-first-sf6-free-550-kv-gas-insulated-switchgear",
+   "https://www.enlit.world/library/lucy-group-acquires-nuventura-to-expand-into-primary-sf6-free-switchgear",
+   "https://www.gevernova.com/grid-solutions/hvmv_equipment/catalog/sf6-free-hv-switchgear/",
+   "https://www.microgridknowledge.com/microgrid-financing/news/55296982/scale-microgrids-bolstered-by-1b-funding-to-deploy-ders-across-us",
+   "https://microgridknowledge.com/mainspring-energy-funding/",
+   "https://www.ifc.org/en/pressroom/2025/ifc-and-canada-invest-in-husk-to-catalyze-solar-powered-economic-growth-in-rural-n",
+   "https://www.canarymedia.com/articles/grid-edge/kohler-power-buys-startup-that-uses-game-theory-math-to-manage-microgrids",
+   "https://halcolenergy.com.au/solar-news/grid-forming-inverters-what-they-mean-for-your-home-energy/",
+   "https://www.battery-energy-storage-system.com/news/sungrow-replus-2025-inverter-ess.html",
+   "https://www.ampacimon.com/",
+   "https://www.deltastar.com/mobile-transformers/"
+  ]
+ }
+}

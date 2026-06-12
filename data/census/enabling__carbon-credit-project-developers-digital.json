@@ -1,0 +1,774 @@
+{
+ "sector": "enabling",
+ "bucket": "Carbon Credit Project Developers & Digital MRV",
+ "census": {
+  "bucket": "Carbon Credit Project Developers & Digital MRV",
+  "sources": [
+   "https://carbon-pulse.com/304355/",
+   "https://finance.yahoo.com/news/google-microsoft-meta-mclaren-back-154348553.html",
+   "https://www.prnewswire.com/news-releases/chestnut-carbon-inks-deal-with-microsoft-for-groundbreaking-new-carbon-removal-project-302363922.html",
+   "https://www.prnewswire.com/news-releases/chestnut-carbon-announces-pioneering-non-recourse-project-financing-for-us-afforestation-in-the-voluntary-carbon-market-302509925.html",
+   "https://trellis.net/article/indigo-ag-boomitra-soil-carbon-credits/",
+   "https://www.geekwire.com/2024/nori-a-seattle-based-carbon-removal-marketplace-that-raised-17m-shuts-down-after-7-years/",
+   "https://www.climatechangenews.com/2025/03/07/most-cookstove-carbon-credits-ruled-out-of-quality-scheme-in-push-for-high-integrity/",
+   "https://www.qcintel.com/carbon/article/analysis-how-clean-cookstoves-firm-koko-went-bankrupt-57813.html",
+   "https://carbonherald.com/zefiro-completes-first-sale-of-orphan-well-carbon-offsets/",
+   "https://naturalrefrigerants.com/news/google-buys-250000-carbon-credits-to-support-hfc-recovery-and-destruction-in-indonesia/",
+   "https://techcrunch.com/2025/11/12/kering-backed-fund-mirova-pours-30-5m-into-indias-varaha-for-regenerative-farming-push/",
+   "https://www.naturetechmemos.com/p/top-10-mrv-startups-revolutionizing-nature-based-solutions-in-2025",
+   "https://verra.org/worlds-largest-carbon-program-pilots-digital-measuring-of-forest-carbon/",
+   "https://www.globenewswire.com/news-release/2025/11/10/3184352/0/en/Carbon-Streaming-Announces-Financial-Results-for-the-Three-and-Nine-Months-Ended-September-30-2025.html",
+   "https://www.globenewswire.com/news-release/2026/04/01/3266277/0/en/Base-Carbon-Reports-Year-End-2025-Operating-and-Financial-Results.html",
+   "https://bondoro.com/catona-climate/",
+   "https://www.spglobal.com/commodity-insights/en/news-research/latest-news/energy-transition/051024-wide-swathe-of-carbon-market-exposed-to-indonesias-rimba-raya-project-revocation-risks",
+   "https://aurorasustainablelands.com/microsoft-ifm",
+   "https://carbon-pulse.com/376442/",
+   "https://www.zawya.com/en/press-release/companies-news/uaes-blue-forest-launches-200mln-mangrove-reforestation-project-in-mozambique-c6xcxsve",
+   "https://carboncredits.com/carbonpool-raises-12m-in-seed-funding-from-climate-focused-investors/",
+   "https://www.opb.org/article/2025/06/08/mast-reforestation-whistleblower-lawsuit/",
+   "https://carbonherald.com/upenergy-issues-africas-first-ever-electric-cooking-carbon-credits-under-gold-standards-new-metered-methodology/",
+   "https://shellfoundation.org/press-release/sistema-bio-raises-53m-to-launch-farmcarbon-an-innovative-funding-vehicle-aimed-at-expanding-climate-finance-for-smallholder-farmers-and-accelerating-methane-mitigation/",
+   "https://www.climatechangenews.com/2025/09/30/zimbabwe-forest-carbon-megaproject-generated-millions-of-junk-credits/",
+   "https://carbon-pulse.com/456921/",
+   "https://www.qcintel.com/carbon/article/ncx-cuts-staff-by-further-40-steps-back-from-new-projects-13508.html"
+  ],
+  "variations": [
+   {
+    "name": "Avoided deforestation / REDD+ developers (project & jurisdictional)",
+    "description": "Developers contract with forest communities or governments to stop expected deforestation and sell the avoided emissions as credits \u2014 historically the largest nature-based credit category, now rebuilding trust after over-crediting scandals via new Verra/ART-TREES baselines and jurisdictional programs.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Wildlife Works",
+      "role": "incumbent",
+      "what": "Pioneer of community-based REDD+ (Kasigau Corridor, Kenya; Mai Ndombe, DRC) and co-author of new risk-based baseline-allocation methods for nested projects.",
+      "signal": "Operating 25+ years; published BAAR baseline method with Everland in Nature Scientific Reports (2025)",
+      "status": "operating",
+      "source": "https://carbon-pulse.com/304355/"
+     },
+     {
+      "name": "Everland",
+      "role": "scaleup",
+      "what": "Specialist marketer/financier representing the largest portfolio of community REDD+ projects (Kasigau, Mai Ndombe) under its 'Forest Plan'.",
+      "signal": "Targets 25M ha conserved and 50M VERs/yr by 2030; spun out of Wildlife Works",
+      "status": "operating",
+      "source": "https://everland.earth/the-forest-plan/"
+     },
+     {
+      "name": "Permian Global",
+      "role": "scaleup",
+      "what": "Develops and operates large tropical forest protection projects, best known as partner on Katingan Mentaya (Indonesia), one of the world's biggest REDD+ supplies.",
+      "signal": "Multi-million tCO2e/yr issuance from flagship Indonesian project",
+      "status": "operating",
+      "source": "https://permianglobal.com/"
+     },
+     {
+      "name": "BioCarbon Partners",
+      "role": "scaleup",
+      "what": "Zambia-based developer of the Luangwa Community Forests Project, one of Africa's largest community-benefit REDD+ projects.",
+      "signal": "Covers ~1M ha; long-running USAID-supported model",
+      "status": "operating",
+      "source": "https://biocarbonpartners.com/"
+     },
+     {
+      "name": "Carbon Tanzania",
+      "role": "startup",
+      "what": "Community-owned forest conservation credits based on indigenous land rights in Tanzania (Hadza, Maasai rangelands).",
+      "signal": "Multiple Plan Vivo/VCS projects; frequently cited high-integrity smallholder model",
+      "status": "operating",
+      "source": "https://carbontanzania.com/"
+     },
+     {
+      "name": "South Pole",
+      "role": "incumbent",
+      "what": "Zurich-based developer/retailer with 800+ projects whose Kariba (Zimbabwe) REDD+ became the market's defining over-crediting scandal.",
+      "signal": "Exited Kariba Oct 2023; Verra later found ~57% of Kariba's ~27M credits over-issued; ~200 staff (~20%) laid off; still operating globally",
+      "status": "operating",
+      "source": "https://www.climatechangenews.com/2025/09/30/zimbabwe-forest-carbon-megaproject-generated-millions-of-junk-credits/"
+     },
+     {
+      "name": "InfiniteEARTH (Rimba Raya)",
+      "role": "scaleup",
+      "what": "Developer of the Rimba Raya Biodiversity Reserve (Borneo), one of the oldest and largest REDD+ projects.",
+      "signal": "Indonesia revoked concession license Mar 2024 (overturned in court Jul 2024); Verra suspended its registry account; ongoing disputes with concession holder",
+      "status": "uncertain",
+      "source": "https://www.spglobal.com/commodity-insights/en/news-research/latest-news/energy-transition/051024-wide-swathe-of-carbon-market-exposed-to-indonesias-rimba-raya-project-revocation-risks"
+     },
+     {
+      "name": "Emergent (LEAF Coalition)",
+      "role": "scaleup",
+      "what": "Nonprofit intermediary administering the LEAF Coalition, channeling corporate/sovereign money into jurisdictional ART-TREES REDD+ credits from national and state governments.",
+      "signal": "$1B+ mobilized from buyers incl. Amazon, US/UK/Norway governments",
+      "status": "operating",
+      "source": "https://emergentclimate.com/"
+     }
+    ]
+   },
+   {
+    "name": "Afforestation, reforestation & restoration (ARR) developers",
+    "description": "Developers acquire or partner on degraded land and plant native or commercial forests to generate carbon removal credits \u2014 the segment buyers (Microsoft, Google) now favor over avoidance, driving record offtakes and the first non-recourse project finance.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Mombak",
+      "role": "startup",
+      "what": "Buys/partners on degraded Amazon cattle pasture in Brazil and reforests with native species at industrial scale.",
+      "signal": "$30M Series A (2025) backed by Google/Microsoft/Meta-linked buyers; ~$150M in credit offtake contracts; $17.8M BNDES partnership",
+      "status": "operating",
+      "source": "https://finance.yahoo.com/news/google-microsoft-meta-mclaren-back-154348553.html"
+     },
+     {
+      "name": "re.green",
+      "role": "startup",
+      "what": "Brazilian native-forest restoration company restoring Atlantic Forest and Amazon land at scale.",
+      "signal": "25-year Microsoft offtake for ~3.5M removal credits; one of the largest ARR deals signed",
+      "status": "operating",
+      "source": "https://carboncredits.com/arr-carbon-credits-the-next-gold-rush-backed-by-google-and-microsoft/"
+     },
+     {
+      "name": "Chestnut Carbon",
+      "role": "scaleup",
+      "what": "US afforestation developer (Kimmeridge-backed) converting marginal farmland in the US Southeast into Gold Standard forest carbon projects.",
+      "signal": "Microsoft deal for 7M+ tonnes (Jan 2025); first-of-kind $210M non-recourse project finance facility led by J.P. Morgan (2025)",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/chestnut-carbon-inks-deal-with-microsoft-for-groundbreaking-new-carbon-removal-project-302363922.html"
+     },
+     {
+      "name": "Terraformation",
+      "role": "startup",
+      "what": "Hawaii-based company that accelerates third-party native reforestation projects with seed banks, training and its Terraware forestry software, taking a share of future credits.",
+      "signal": "Raised $30M (2021); 2,155 ha restored in 2025 (2x YoY), 5.4M native trees; first projects entering Verra validation",
+      "status": "operating",
+      "source": "https://terraformation.com/press-posts/terraformation-scales-a-locally-led-native-reforestation-model-as-nature-finance-comes-of-age"
+     },
+     {
+      "name": "Mast Reforestation",
+      "role": "startup",
+      "what": "Post-wildfire reforestation developer (ex-DroneSeed) combining seed supply, replanting and 'buried biomass' durable credits to finance restoration.",
+      "signal": "$25M Series B (2024) + $15M Carbon Streaming investment; whistleblower lawsuit alleging misrepresentation filed Jun 2025",
+      "status": "operating",
+      "source": "https://www.opb.org/article/2025/06/08/mast-reforestation-whistleblower-lawsuit/"
+     },
+     {
+      "name": "Living Carbon",
+      "role": "startup",
+      "what": "Biotech ARR developer planting photosynthesis-enhanced (and conventional) trees on degraded US land, incl. abandoned mine sites.",
+      "signal": "~$36M raised (Lowercarbon, Temasek); announced $500M land-restoration agreement with Octopus Energy Generation; team downsized to ~25-35",
+      "status": "operating",
+      "source": "https://www.livingcarbon.com/"
+     },
+     {
+      "name": "Land Life Company",
+      "role": "scaleup",
+      "what": "Netherlands-based tech-enabled reforestation developer (cocoon planting tech) operating in Spain, US, Australia for corporate buyers.",
+      "signal": "10k+ ha planted; recovered after 2022 Spain wildfire incident; corporate offtake model",
+      "status": "operating",
+      "source": "https://landlifecompany.com/"
+     }
+    ]
+   },
+   {
+    "name": "Improved forest management (IFM) & agroforestry programs",
+    "description": "Programs pay forest owners to harvest less or manage longer rotations (IFM) or pay smallholders to add trees to farmland (agroforestry), turning incremental carbon stock into credits \u2014 the US IFM segment is consolidating around dynamic-baseline methodologies after academic criticism of old baselines.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Anew Climate",
+      "role": "incumbent",
+      "what": "Largest US environmental-credit developer (ex-Bluesource/Element Markets, TPG-backed) running IFM at scale with its remote-sensing 'Epoch' dynamic-baseline platform.",
+      "signal": "10-year deal with Microsoft for 4.8M IFM removal credits (2025); first ACR IFM v2.1 issuances",
+      "status": "operating",
+      "source": "https://aurorasustainablelands.com/microsoft-ifm"
+     },
+     {
+      "name": "Aurora Sustainable Lands",
+      "role": "scaleup",
+      "what": "Anew/Oak Hill-backed timberland owner that bought ~1.65M acres of US forest specifically to manage for carbon rather than maximum harvest.",
+      "signal": "~$1.8B land portfolio; first credits issued under ACR's new IFM 2.1 methodology (2025)",
+      "status": "operating",
+      "source": "https://aurorasustainablelands.com/news/acr21"
+     },
+     {
+      "name": "Finite Carbon",
+      "role": "incumbent",
+      "what": "Largest US forest carbon offset developer (3M+ acres under management), majority-acquired by BP in 2020.",
+      "signal": "Divested by BP to a new owner; mass layoffs during restructuring reported Mar 2025",
+      "status": "acquired",
+      "source": "https://carbon-pulse.com/376442/"
+     },
+     {
+      "name": "NCX (ex-SilviaTerra)",
+      "role": "startup",
+      "what": "Ran a satellite-inventory 'harvest deferral' micro-IFM marketplace for small landowners; methodology was rejected and it stepped back from carbon projects.",
+      "signal": "Raised ~$77M (J.P. Morgan, Marc Benioff); two rounds of ~40% layoffs after Verra methodology refusal; pivoted to natural-capital software",
+      "status": "uncertain",
+      "source": "https://www.qcintel.com/carbon/article/ncx-cuts-staff-by-further-40-steps-back-from-new-projects-13508.html"
+     },
+     {
+      "name": "EFM",
+      "role": "scaleup",
+      "what": "Forest investment manager acquiring Pacific Northwest timberland and managing it under climate-smart, credit-generating strategies for institutional LPs.",
+      "signal": "Hundreds of millions in forestland AUM; multiple climate-smart forestry funds",
+      "status": "operating",
+      "source": "https://www.efmi.com/"
+     },
+     {
+      "name": "Acorn (Rabobank)",
+      "role": "incumbent",
+      "what": "Bank-run program converting smallholder agroforestry growth into ex-post 'Carbon Removal Units', passing 80-90% of proceeds to farmers.",
+      "signal": "Backed by a \u20ac100-250M blended facility (USAID, FMO, BII et al.); targets millions of smallholders",
+      "status": "operating",
+      "source": "https://acorn.rabobank.com/en/"
+     },
+     {
+      "name": "Propagate",
+      "role": "startup",
+      "what": "US agroforestry platform (software + project development) helping farms add tree crops and monetize carbon/ecosystem value.",
+      "signal": "~$10M+ venture funding; USDA Climate-Smart Commodities partner",
+      "status": "operating",
+      "source": "https://www.propagateag.com/"
+     },
+     {
+      "name": "reNature",
+      "role": "startup",
+      "what": "Dutch agroforestry developer producing some of the first dedicated agroforestry carbon credits with Microsoft and Rabobank.",
+      "signal": "First agroforestry credit round announced with Microsoft/Rabobank (2024)",
+      "status": "operating",
+      "source": "https://agfundernews.com/renature-microsoft-rabobank-announce-first-round-of-carbon-credits-with-agroforestry-startup"
+     }
+    ]
+   },
+   {
+    "name": "Soil carbon & regenerative agriculture credit programs",
+    "description": "Programs enroll farmers to adopt cover crops, reduced tillage and regenerative grazing, then quantify the soil organic carbon gain (sampling + models + satellites) and sell removal credits \u2014 issuances finally accelerated in 2024-25 after years of MRV skepticism.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Indigo Ag",
+      "role": "scaleup",
+      "what": "Largest US cropland carbon program; pays farmers per practice-verified tonne and has issued five consecutive 'carbon crops'.",
+      "signal": "2M+ tonnes verified across 5 issuances; 12-year Microsoft deal for 2.85M soil carbon removal credits (2025); raised >$1B historically",
+      "status": "operating",
+      "source": "https://www.indigoag.com/pages/news/indigo-to-sell-2.85-million-tonnes-of-carbon-removal-to-microsoft"
+     },
+     {
+      "name": "Agreena",
+      "role": "scaleup",
+      "what": "European soil carbon program (AgreenaCarbon) covering regenerative cropland across 10+ countries.",
+      "signal": "~4.5M ha enrolled; 2.3M Verra-verified credits released; buyers incl. Ryanair, Radisson; \u20ac46M Series B",
+      "status": "operating",
+      "source": "https://trellis.net/article/soil-carbon-credit-release-attracts-ryanair-radisson-singapore/"
+     },
+     {
+      "name": "Boomitra",
+      "role": "startup",
+      "what": "Satellite+AI soil carbon MRV and credit program for smallholder ranchers/farmers across Global South rangelands, avoiding costly physical sampling.",
+      "signal": "~$40M raised; Earthshot Prize winner; 625k-credit deal with Singapore's government (2026-31, Paraguay grasslands)",
+      "status": "operating",
+      "source": "https://trellis.net/article/indigo-ag-boomitra-soil-carbon-credits/"
+     },
+     {
+      "name": "Loam Bio",
+      "role": "scaleup",
+      "what": "Australian microbial seed-inoculant company that increases stable soil carbon formation and runs its own credit program (SecondCrop).",
+      "signal": "~$99.7M raised \u2014 Australia's most-funded agritech",
+      "status": "operating",
+      "source": "https://www.naturetechmemos.com/p/top-10-soil-carbon-sequestration-startups-in-2026"
+     },
+     {
+      "name": "Soil Capital",
+      "role": "startup",
+      "what": "Belgian program paying European arable farmers per certified tonne via ISO-certified payment scheme tied to food-company insetting.",
+      "signal": "1M+ ha enrolled across Europe; food-value-chain buyers",
+      "status": "operating",
+      "source": "https://www.soilcapital.com/"
+     },
+     {
+      "name": "Nori",
+      "role": "startup",
+      "what": "Seattle blockchain-based soil carbon removal marketplace paying US row-crop farmers.",
+      "signal": "Raised $17.25M (Toyota Ventures, M13); shut down Sept 2024 citing stagnant VCM demand",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.geekwire.com/2024/nori-a-seattle-based-carbon-removal-marketplace-that-raised-17m-shuts-down-after-7-years/"
+     },
+     {
+      "name": "Bayer ForGround",
+      "role": "incumbent",
+      "what": "Agri-input incumbent's regenerative ag platform enrolling US farmers in practice change and carbon programs tied to its digital ag stack.",
+      "signal": "Millions of acres enrolled via Climate FieldView ecosystem",
+      "status": "operating",
+      "source": "https://www.bayerforground.com/"
+     },
+     {
+      "name": "Cargill (RegenConnect)",
+      "role": "incumbent",
+      "what": "Agribusiness incumbent paying farmers per tonne of soil carbon outcome and insetting it into its grain supply chain.",
+      "signal": "Program live across millions of US and EU acres",
+      "status": "operating",
+      "source": "https://www.cargill.com/sustainability/regenconnect"
+     }
+    ]
+   },
+   {
+    "name": "Blue carbon (mangrove, seagrass, wetland) developers",
+    "description": "Developers restore or protect coastal ecosystems \u2014 mangroves especially \u2014 whose sediments store carbon at 3-5x forest density, producing premium-priced credits, but tenure, hydrology and decades-long timelines keep supply scarce.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Indus Delta Capital (Delta Blue Carbon)",
+      "role": "scaleup",
+      "what": "Developer of the world's largest blue carbon project: 350,000 ha of Indus Delta mangroves (Sindh, Pakistan) under a 60-year public-private partnership.",
+      "signal": "Targets ~124M tonnes over project life; buyers/investors include Microsoft, Trafigura, Respira, Carbon Growth Partners",
+      "status": "operating",
+      "source": "https://www.trafigura.com/news-and-insights/case-studies/carbon-trading/delta-blue/"
+     },
+     {
+      "name": "Blue Forest",
+      "role": "startup",
+      "what": "UAE-based mangrove restoration developer running 'MozBlue' in Mozambique, billed as Africa's largest mangrove reforestation project (200M mangroves).",
+      "signal": "Phase 1 financed by French developer/investor Removall; ~20.4M tCO2 targeted",
+      "status": "operating",
+      "source": "https://www.zawya.com/en/press-release/companies-news/uaes-blue-forest-launches-200mln-mangrove-reforestation-project-in-mozambique-c6xcxsve"
+     },
+     {
+      "name": "Vlinder Climate",
+      "role": "startup",
+      "what": "Mangrove restoration developer (Kenya 'Papariko', Indonesia, Sri Lanka, Myanmar) sharing 50%+ of credits with local communities and using third-party dMRV.",
+      "signal": "1,600+ ha restored, 5M+ trees, 35,000 ha pipeline",
+      "status": "operating",
+      "source": "https://vlinderclimate.com/"
+     },
+     {
+      "name": "Worldview International Foundation",
+      "role": "scaleup",
+      "what": "Nonprofit that is one of the largest blue carbon credit issuers globally from Myanmar mangrove projects (with Malaysia expansion).",
+      "signal": "81M+ mangroves planted; six Verra projects; royalty/financing partnership with Key Carbon; BeZero 'AA'-rated credits",
+      "status": "operating",
+      "source": "https://wif.foundation/"
+     },
+     {
+      "name": "Conservation International",
+      "role": "incumbent",
+      "what": "NGO incumbent that pioneered verified blue carbon (Vida Manglar, Colombia) and co-develops methodologies and sovereign blue carbon programs.",
+      "signal": "Operates the first verified mangrove conservation credit project; partner on multiple national blue carbon initiatives",
+      "status": "operating",
+      "source": "https://www.conservation.org/"
+     }
+    ],
+    "white_space": "Buyer appetite (credits price at $20-40+, multiples of REDD+) far exceeds credible supply because coastal land tenure, hydrological restoration skill and 30-60 year permanence horizons make origination slow \u2014 and speculative sovereign-scale land MOUs (e.g., UAE's Blue Carbon LLC across African states) show capital chasing scarce projects; the opening is developers who pair secured community tenure with rigorous wetland dMRV and staged hydrological restoration."
+   },
+   {
+    "name": "Household device programs (clean cookstoves, water purification)",
+    "description": "Developers distribute efficient stoves, clean cooking fuels, biodigesters or water filters subsidized by the carbon credits from displaced wood/charcoal burning \u2014 the highest-volume avoidance category, now in an integrity reckoning (ICVCM rejected legacy methodologies; leaders went bankrupt) that is shifting the market to metered, IoT-verified credits.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "BURN Manufacturing",
+      "role": "scaleup",
+      "what": "Kenya-based vertically integrated stove manufacturer (Africa's largest) financing distribution through its own carbon projects, increasingly metered/electric.",
+      "signal": "Millions of stoves across Africa; government partnership in Nigeria targeting 5M+ credits; carbon-backed bond issuer",
+      "status": "operating",
+      "source": "https://impactalpha.com/the-brief-clean-cookstoves-face-challenges-in-the-markets-for-carbon-credits/"
+     },
+     {
+      "name": "KOKO Networks",
+      "role": "scaleup",
+      "what": "Built a bioethanol cooking-fuel network (smart dispensers + stoves) in Kenya monetized via carbon credits.",
+      "signal": "1.3M+ households served and $100M+ raised; collapsed into bankruptcy after its carbon revenue-sharing deal with the Kenyan government fell apart",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.qcintel.com/carbon/article/analysis-how-clean-cookstoves-firm-koko-went-bankrupt-57813.html"
+     },
+     {
+      "name": "C-Quest Capital",
+      "role": "scaleup",
+      "what": "Was one of the world's largest cookstove credit developers across Africa/Asia.",
+      "signal": "Founder Ken Newcombe criminally charged with carbon fraud (Oct 2024); Verra found 5M+ over-issued credits; filed Chapter 7 in Feb 2025",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.climatechangenews.com/2025/03/07/most-cookstove-carbon-credits-ruled-out-of-quality-scheme-in-push-for-high-integrity/"
+     },
+     {
+      "name": "Sistema.bio",
+      "role": "scaleup",
+      "what": "Manufactures and carbon-finances household biodigesters (manure-to-biogas cooking) for smallholder farmers in Latin America, Africa, India.",
+      "signal": "$53M FarmCarbon carbon-finance vehicle closed (BNP Paribas AM, BII, Shell Foundation) to deploy 90,000+ biodigesters",
+      "status": "operating",
+      "source": "https://shellfoundation.org/press-release/sistema-bio-raises-53m-to-launch-farmcarbon-an-innovative-funding-vehicle-aimed-at-expanding-climate-finance-for-smallholder-farmers-and-accelerating-methane-mitigation/"
+     },
+     {
+      "name": "UpEnergy",
+      "role": "scaleup",
+      "what": "East Africa project developer that issued the world's first metered electric-cooking carbon credits with real-time usage monitoring.",
+      "signal": "First Gold Standard metered e-cooking credits in Africa (2025); 100% of its e-cookstoves usage-tracked",
+      "status": "operating",
+      "source": "https://carbonherald.com/upenergy-issues-africas-first-ever-electric-cooking-carbon-credits-under-gold-standards-new-metered-methodology/"
+     },
+     {
+      "name": "ATEC",
+      "role": "startup",
+      "what": "IoT electric cookstoves and biodigesters with per-household 'Cook-to-Earn' data-auditable carbon credits across Asia/Africa.",
+      "signal": "$15.5M raised (Lightrock, TRIREC, Sep 2025) to roll out 200,000 eCook stoves in Bangladesh, Cambodia, Malawi, Nepal",
+      "status": "operating",
+      "source": "https://www.atecglobal.io/news/atec-raises-15m-to-scale-tech-driven-clean-cooking-and-emissions-reduction-across-asia-africa"
+     },
+     {
+      "name": "DelAgua",
+      "role": "scaleup",
+      "what": "Runs one of the world's largest household carbon programs distributing water filters and improved stoves in Rwanda in partnership with the government.",
+      "signal": "Millions of households reached; long-running government-partnered program",
+      "status": "operating",
+      "source": "https://www.delagua.org/"
+     }
+    ]
+   },
+   {
+    "name": "Methane destruction projects (landfill gas, coal-mine methane, ODS/refrigerant destruction)",
+    "description": "Developers capture and flare or destroy super-pollutants \u2014 landfill methane, coal-mine methane, and ozone-depleting refrigerants with thousands-fold GWP \u2014 generating cheap, highly measurable avoidance credits used in both voluntary and compliance (e.g., CARB) markets.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Tradewater",
+      "role": "scaleup",
+      "what": "Global leader in collecting and destroying stockpiled ODS refrigerants and halons (and plugging orphan gas wells), selling the destruction credits.",
+      "signal": "10M+ tCO2e prevented to date; B Corp operating across Americas, Africa, Asia",
+      "status": "operating",
+      "source": "https://tradewater.us/"
+     },
+     {
+      "name": "A-Gas",
+      "role": "incumbent",
+      "what": "Refrigerant lifecycle-management incumbent whose recovery/reclamation network generates ODS and HFC destruction credits in the US and beyond.",
+      "signal": "Decades-old global operations; major US destruction-credit supplier",
+      "status": "operating",
+      "source": "https://www.agas.com/"
+     },
+     {
+      "name": "Recoolit",
+      "role": "startup",
+      "what": "Indonesian startup paying HVAC technicians to recover HFC refrigerants in the Global South, with serialized digital proof of destruction.",
+      "signal": "Multi-year Google deal for 250,000 super-pollutant credits (May 2025)",
+      "status": "operating",
+      "source": "https://naturalrefrigerants.com/news/google-buys-250000-carbon-credits-to-support-hfc-recovery-and-destruction-in-indonesia/"
+     },
+     {
+      "name": "Zefiro Methane",
+      "role": "startup",
+      "what": "Plugs orphaned oil & gas wells and monetizes the avoided methane as ACR credits on top of a paid well-plugging services business.",
+      "signal": "Public (Cboe Canada); first orphan-well credit sales; $24.4M services revenue in first 3 quarters of 2025",
+      "status": "operating",
+      "source": "https://carbonherald.com/zefiro-completes-first-sale-of-orphan-well-carbon-offsets/"
+     },
+     {
+      "name": "ClimeCo",
+      "role": "incumbent",
+      "what": "Diversified US environmental-commodity developer with large ODS destruction, industrial N2O abatement and methane portfolios.",
+      "signal": "One of the largest US voluntary credit developers; 15+ years operating",
+      "status": "operating",
+      "source": "https://climeco.com/"
+     },
+     {
+      "name": "Anew Climate",
+      "role": "incumbent",
+      "what": "Operates one of the largest US landfill-gas and coal-mine methane credit portfolios alongside its forestry business.",
+      "signal": "Hundreds of LFG/CMM projects registered across US registries",
+      "status": "operating",
+      "source": "https://www.anewclimate.com/"
+     }
+    ]
+   },
+   {
+    "name": "Agricultural methane credit programs (rice cultivation, livestock)",
+    "description": "Programs pay rice farmers to adopt alternate wetting & drying (cutting paddy methane ~50%) or livestock operators to use feed additives/digesters, then credit the avoided methane \u2014 methodologies (Verra VM0051, Gold Standard) only matured in 2024-25, so first issuances are just landing.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Rize",
+      "role": "startup",
+      "what": "Singapore-based platform paying SE Asian rice farmers to adopt AWD and monetizing methane reductions as credits shared with farmers.",
+      "signal": "$14M Series A (Breakthrough Energy Ventures, GenZero, Temasek, Wavemaker Impact)",
+      "status": "operating",
+      "source": "https://www.japantimes.co.jp/environment/2024/05/09/sustainability/rice-methane-problem-startup/"
+     },
+     {
+      "name": "Mitti Labs",
+      "role": "startup",
+      "what": "Runs rice-methane projects across India with remote-sensing MRV; among the first Gold Standard rice methane issuances.",
+      "signal": "$3M seed (Lightspeed, Voyager); Gold Standard Tier 3 issuance; 30,000+ ha across first five projects",
+      "status": "operating",
+      "source": "https://agfundernews.com/mitti-labs-raises-3m-seed-round-to-tackle-methane-emissions-in-rice-farming"
+     },
+     {
+      "name": "Varaha",
+      "role": "startup",
+      "what": "Indian developer aggregating hundreds of thousands of smallholders across rice methane (AWD/DSR), regenerative ag and biochar credits.",
+      "signal": "$30.5M from Mirova (Nov 2025) on top of $8.7M Series A; Google biochar offtake of 100k tonnes",
+      "status": "operating",
+      "source": "https://techcrunch.com/2025/11/12/kering-backed-fund-mirova-pours-30-5m-into-indias-varaha-for-regenerative-farming-push/"
+     },
+     {
+      "name": "Athian",
+      "role": "startup",
+      "what": "First livestock carbon-inset marketplace: certifies on-farm methane cuts (feed, manure, productivity) and sells credits within the dairy/beef value chain.",
+      "signal": "First verified livestock inset credits sold to Dairy Farmers of America; Elanco partnership",
+      "status": "operating",
+      "source": "https://www.athian.ai/knowledge-hub/post/dfa-purchases-first-verified-carbon-credits-in-livestock-inset-marketplace"
+     },
+     {
+      "name": "CH4 Global",
+      "role": "startup",
+      "what": "Produces Asparagopsis seaweed feed additive ('Methane Tamer') for feedlot cattle, partnering with corporates to monetize enteric methane cuts.",
+      "signal": "~$29M Series B; Mitsubishi partnership to expand methane-reducing cattle feed",
+      "status": "operating",
+      "source": "https://www.agriculturedive.com/news/agtech-seedlings-ch4-global-to-expand-methane-reducing-cattle-feed-with-mi/738259/"
+     },
+     {
+      "name": "Mootral",
+      "role": "startup",
+      "what": "Swiss garlic/citrus feed additive generating 'CowCredits' \u2014 among the first enteric-methane carbon credits.",
+      "signal": "Early Verra-approach pioneer; limited public traction since 2023",
+      "status": "uncertain",
+      "source": "https://mootral.com/"
+     }
+    ],
+    "white_space": "Sparse because crediting methodologies only just matured (Verra's rice VM0051 became CORSIA-eligible in 2025; enteric protocols still contested by EDF and scientists) and per-smallholder MRV cost is brutal at <2 tCO2e/ha \u2014 the opening is cheap field-level methane quantification (satellite + sensor fusion) and aggregation platforms for Asia's 200M+ rice farms, plus insetting rails for dairy majors."
+   },
+   {
+    "name": "Digital MRV & remote-sensing verification platforms",
+    "description": "Satellite, LiDAR, AI and in-field sensor platforms that measure biomass, soil carbon and project performance continuously \u2014 replacing manual plot sampling, enabling dynamic baselines, and becoming mandatory infrastructure as Verra and buyers pilot digital crediting.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Pachama",
+      "role": "scaleup",
+      "what": "Leading forest-carbon verification and originations platform using satellite/LiDAR ML to evaluate and originate ARR/REDD projects for corporate buyers.",
+      "signal": "~$79M raised (Lowercarbon-led); used by Microsoft, Shopify, Salesforce; digital reforestation verification partnership with registry Isometric",
+      "status": "operating",
+      "source": "https://www.naturetechmemos.com/p/top-10-mrv-startups-revolutionizing-nature-based-solutions-in-2025"
+     },
+     {
+      "name": "Treefera",
+      "role": "startup",
+      "what": "AI 'data layer' for nature-based assets, monitoring forest cover, biomass and supply-chain (EUDR) claims for credit buyers and banks.",
+      "signal": "$12M Series A (2024) + $30M Series B (2025, Notion Capital)",
+      "status": "operating",
+      "source": "https://www.naturetechmemos.com/p/top-10-mrv-startups-revolutionizing-nature-based-solutions-in-2025"
+     },
+     {
+      "name": "Chloris Geospatial",
+      "role": "startup",
+      "what": "Direct satellite measurement of above-ground biomass change (back to 2000) giving annual/sub-annual carbon stock updates for projects and raters.",
+      "signal": "Venture-backed; data used by investors, raters and developers",
+      "status": "operating",
+      "source": "https://www.chloris.earth/"
+     },
+     {
+      "name": "Space Intelligence",
+      "role": "startup",
+      "what": "Edinburgh-based supplier of peer-reviewed satellite habitat and carbon maps used for REDD+/ARR baselining and verification in 25+ countries.",
+      "signal": "Venture-backed; maps underpin major registry-listed forest projects",
+      "status": "operating",
+      "source": "https://www.spaceintelligence.ai/"
+     },
+     {
+      "name": "CTrees",
+      "role": "startup",
+      "what": "Nonprofit from NASA JPL scientists providing free/open global forest carbon stock and activity data at policy and project scale.",
+      "signal": "Tracks carbon for every country and 100M+ land parcels; used by jurisdictional programs",
+      "status": "operating",
+      "source": "https://ctrees.org/"
+     },
+     {
+      "name": "Regrow Ag",
+      "role": "scaleup",
+      "what": "Agricultural MRV platform (DNDC-based modeling + satellite practice detection) powering corporate Scope 3 insetting and cropland credit programs.",
+      "signal": "$38M Series B; used by major food companies (General Mills, Cargill ecosystem)",
+      "status": "operating",
+      "source": "https://www.regrow.ag/"
+     },
+     {
+      "name": "Perennial",
+      "role": "startup",
+      "what": "Remote-sensing soil organic carbon quantification platform for ag carbon programs, reducing reliance on physical sampling.",
+      "signal": "Venture-backed (ex-Cloud Agronomics); used by major soil carbon programs",
+      "status": "operating",
+      "source": "https://www.crunchbase.com/organization/cloud-agronomics"
+     },
+     {
+      "name": "Yard Stick PBC",
+      "role": "startup",
+      "what": "Handheld VisNIR spectral probe measuring in-field soil carbon to 45cm instantly, slashing soil MRV cost vs lab cores.",
+      "signal": "~$30M raised (Breakthrough Energy, Microsoft Climate Fund, Toyota); peer-reviewed Geoderma validation (2025)",
+      "status": "operating",
+      "source": "https://agfundernews.com/yard-stick-lands-18m-to-equip-agrifood-with-faster-cheaper-soil-carbon-measurement-tools"
+     },
+     {
+      "name": "Isometric",
+      "role": "startup",
+      "what": "Science-first registry doing data-rich digital verification, expanding from engineered CDR into reforestation (with Pachama) and super-pollutant credits.",
+      "signal": "$25M+ raised (Lowercarbon, Plural); Google/Microsoft-endorsed crediting",
+      "status": "operating",
+      "source": "https://isometric.com/writing-articles/isometric-and-pachama-partner-on-digital-verification-for-reforestation-credits"
+     },
+     {
+      "name": "Planet Labs",
+      "role": "incumbent",
+      "what": "Public satellite-imaging incumbent whose Forest Carbon Diligence product (3m canopy height/biomass) underpins many third-party MRV stacks.",
+      "signal": "NYSE: PL; daily global imaging constellation; carbon data products launched 2023-24",
+      "status": "operating",
+      "source": "https://www.planet.com/"
+     }
+    ]
+   },
+   {
+    "name": "Carbon project finance, streaming & origination platforms",
+    "description": "Specialist financiers provide upfront capital to credit projects in exchange for credit streams, royalties, offtakes or fund equity \u2014 the 2021-vintage streaming model cracked in the VCM downturn (write-downs, bankruptcies), and capital is shifting to offtake-backed project debt and institutional natural-capital funds.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Carbon Streaming Corporation",
+      "role": "scaleup",
+      "what": "First publicly listed carbon credit streaming company (Rimba Raya and cookstove streams), now restructured after portfolio impairments.",
+      "signal": "Cboe CA: NETZ; aggressive cost cuts, stream settlements and strategic review since 2023; positive operating cash flow Q3 2025",
+      "status": "operating",
+      "source": "https://www.globenewswire.com/news-release/2025/11/10/3184352/0/en/Carbon-Streaming-Announces-Financial-Results-for-the-Three-and-Nine-Months-Ended-September-30-2025.html"
+     },
+     {
+      "name": "Base Carbon",
+      "role": "scaleup",
+      "what": "Toronto-listed financier funding household-device and ARR projects (Rwanda cookstoves, Vietnam, India ARR) for credit-share returns.",
+      "signal": "$108.9M total assets; break-even FY2025; Rwanda project gained CORSIA Phase 1 eligibility; 6.5M trees planted in India ARR",
+      "status": "operating",
+      "source": "https://www.globenewswire.com/news-release/2026/04/01/3266277/0/en/Base-Carbon-Reports-Year-End-2025-Operating-and-Financial-Results.html"
+     },
+     {
+      "name": "Key Carbon",
+      "role": "startup",
+      "what": "Vancouver-based carbon finance house (ex-Carbon Neutral Royalty) funding cookstove and blue carbon developers via royalties/streams.",
+      "signal": "Partnerships with BURN Manufacturing and Worldview International Foundation",
+      "status": "operating",
+      "source": "https://key-carbon.com/our-partnerships/worldview/"
+     },
+     {
+      "name": "Catona Climate",
+      "role": "scaleup",
+      "what": "Carbon asset manager (renamed from Aspiration) selling forward nature-based offtakes to corporates like Meta and Microsoft.",
+      "signal": "Filed Chapter 11 on March 30, 2025 amid the Aspiration fraud fallout (co-founder charged); continuation unclear",
+      "status": "uncertain",
+      "source": "https://bondoro.com/catona-climate/"
+     },
+     {
+      "name": "Climate Asset Management",
+      "role": "incumbent",
+      "what": "HSBC AM/Pollination JV running institutional natural-capital and nature-based carbon funds that finance project development at scale.",
+      "signal": "$1B+ in commitments across Natural Capital and Nature Based Carbon strategies",
+      "status": "operating",
+      "source": "https://climateassetmanagement.com/"
+     },
+     {
+      "name": "Respira International",
+      "role": "scaleup",
+      "what": "Impact carbon finance firm providing offtakes/portfolio management that de-risk projects like Delta Blue Carbon for institutional buyers.",
+      "signal": "Long-term offtake on world's largest blue carbon project; B Corp",
+      "status": "operating",
+      "source": "https://www.respira-international.com/portfolio/delta-blue-carbon/"
+     },
+     {
+      "name": "Carbon Growth Partners",
+      "role": "scaleup",
+      "what": "Australian carbon investment manager buying and financing high-integrity credit portfolios ahead of compliance-demand growth.",
+      "signal": "$200M+ raised across carbon funds; early buyer of Delta Blue credits",
+      "status": "operating",
+      "source": "https://www.carbongrowthpartners.com/"
+     },
+     {
+      "name": "Mirova (Natixis)",
+      "role": "incumbent",
+      "what": "European asset-management incumbent deploying land-degradation-neutrality and carbon funds directly into developers like Varaha.",
+      "signal": "$30.5M into Varaha (2025); multi-hundred-million-euro nature funds",
+      "status": "operating",
+      "source": "https://techcrunch.com/2025/11/12/kering-backed-fund-mirova-pours-30-5m-into-indias-varaha-for-regenerative-farming-push/"
+     }
+    ]
+   },
+   {
+    "name": "Carbon credit insurance & guarantees (extension)",
+    "description": "Insurers underwrite delivery failure, reversal (fire/drought) and invalidation/fraud risk on carbon credits, converting project risk into an investable asset class \u2014 a prerequisite for institutional capital entering the supply side.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Kita",
+      "role": "startup",
+      "what": "UK pioneer of carbon-specific insurance (delivery risk on forward credit purchases), writing via Lloyd's as a coverholder.",
+      "signal": "~$5M+ raised; expanded underwriting capacity in 2024-25",
+      "status": "operating",
+      "source": "https://www.kita.earth/"
+     },
+     {
+      "name": "Oka, The Carbon Insurance Company",
+      "role": "startup",
+      "what": "US insurer covering post-issuance invalidation and reversal risk so buyers are made whole if credits are clawed back.",
+      "signal": "$10M+ seed (Aquiline); products distributed via marketplaces",
+      "status": "operating",
+      "source": "https://coverager.com/company/oka/"
+     },
+     {
+      "name": "CarbonPool",
+      "role": "startup",
+      "what": "Zurich firm building the first insurance balance sheet that pays claims in carbon credits (in-kind) for shortfalls and reversals.",
+      "signal": "$12M seed (Heartcore, Vorwerk) \u2014 largest European climate seed of its year; Swiss FINMA license application in process (approval expected 2025)",
+      "status": "operating",
+      "source": "https://carboncredits.com/carbonpool-raises-12m-in-seed-funding-from-climate-focused-investors/"
+     },
+     {
+      "name": "Howden (with CFC and other syndicates)",
+      "role": "incumbent",
+      "what": "Incumbent broker/underwriters that launched the first carbon credit invalidation covers and are building dedicated carbon insurance facilities.",
+      "signal": "Multiple carbon products live with Lloyd's capacity since 2022; category formalizing into distinct product lines",
+      "status": "operating",
+      "source": "https://www.slipcase.com/view/sustainable-insurer-in-full-carbon-insurance-distinct-product-categories-emerge-as-market-expands/3"
+     }
+    ],
+    "white_space": "Almost no licensed balance-sheet capacity exists because reversal and invalidation risks have no actuarial history and are highly correlated (wildfire, registry decisions) \u2014 first movers that win regulatory licenses and rating-agency-credible models (CarbonPool's FINMA bid, Kita's Lloyd's route) will define the category, and buffer-pool replacement insurance for registries is wide open."
+   },
+   {
+    "name": "Grid renewable energy & community infrastructure avoidance credits (legacy, extension)",
+    "description": "Developers register grid-connected wind/solar/hydro and similar infrastructure to sell avoided-emission credits \u2014 still among the highest-volume VCM categories (and CORSIA supply), but shrinking as additionality is discredited in middle-income grids and ICVCM withheld CCP labels.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "EKI Energy Services",
+      "role": "incumbent",
+      "what": "Indian BSE-listed credit developer/trader that became one of the world's largest renewable-energy credit suppliers during the 2021 boom.",
+      "signal": "Named a top-5 global RE credit supplier (Abatable 2026 report) but revenue collapsed ~75% YoY with continuing quarterly losses",
+      "status": "operating",
+      "source": "https://carbon-pulse.com/456921/"
+     },
+     {
+      "name": "EcoSecurities",
+      "role": "incumbent",
+      "what": "The original CDM project developer (relaunched 2017), originating renewable, forestry and community projects across Latin America, Africa, Asia.",
+      "signal": "20+ year track record; hundreds of CDM/VCM projects",
+      "status": "operating",
+      "source": "https://www.ecosecurities.com/"
+     },
+     {
+      "name": "ALLCOT",
+      "role": "scaleup",
+      "what": "Geneva-based developer originating renewable, cookstove and AFOLU projects and advising governments on Article 6 pipelines.",
+      "signal": "Active multi-continent project pipeline; Article 6 pilot work",
+      "status": "operating",
+      "source": "https://allcot.com/"
+     },
+     {
+      "name": "3Degrees",
+      "role": "incumbent",
+      "what": "US climate solutions firm developing and transacting renewable energy certificates and carbon credits for corporates.",
+      "signal": "20+ years; serves Fortune 500 renewable/carbon portfolios",
+      "status": "operating",
+      "source": "https://3degreesinc.com/"
+     }
+    ],
+    "white_space": "A shrinking legacy niche rather than an opening: ICVCM denied the CCP integrity label to most renewable-energy methodologies and corporate buyers have fled, so credible new supply is viable only in least-developed-country grids and off-grid/community infrastructure where financial additionality still holds \u2014 incumbents with CORSIA-eligible inventory are mainly managing run-off."
+   }
+  ]
+ }
+}

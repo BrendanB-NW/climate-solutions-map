@@ -1,0 +1,138 @@
+{
+ "buckets": [
+  {
+   "name": "Direct Air Capture",
+   "scope": "Engineered systems capturing CO2 from ambient air, across all capture chemistries and form factors",
+   "variations": [
+    "liquid solvent DAC (hydroxide capture + calciner regeneration)",
+    "liquid amino-acid / non-caustic solvent DAC",
+    "solid amine sorbent DAC (temperature-vacuum swing)",
+    "advanced/novel sorbent DAC (MOFs, zeolites, thin-film structured sorbents)",
+    "electrochemical pH-swing DAC (bipolar membrane electrodialysis, acid-base regeneration)",
+    "electro-swing adsorption DAC (redox-active quinone electrodes)",
+    "moisture-swing DAC and hybrid atmospheric-water-harvesting systems",
+    "calcium/lime-looping DAC (limestone carbonation-calcination)",
+    "passive and piggyback contactors (mineralizing surfaces, HVAC/cooling-tower air streams)",
+    "integrated DAC-to-fuel/material plants; early-stage membrane and cryogenic DAC"
+   ]
+  },
+  {
+   "name": "Biochar & Bio-oil",
+   "scope": "Pyrolysis and hydrothermal conversion of biomass into stable carbon (char, bio-oil) for soils, storage, or materials",
+   "variations": [
+    "industrial slow-pyrolysis biochar plants (continuous reactors, heat/power co-products)",
+    "gasification-route biochar with syngas/electricity co-generation",
+    "mobile and village-scale pyrolysis units for distributed agricultural residues",
+    "hydrothermal carbonization of wet wastes (hydrochar)",
+    "bio-oil deep-well injection for permanent storage",
+    "biochar soil-application networks and credit aggregators",
+    "biochar-embedded materials (concrete, asphalt, plastics, filtration media)",
+    "pyrolysis reactor OEMs and technology licensors"
+   ]
+  },
+  {
+   "name": "Biomass Storage & BECCS",
+   "scope": "Harvested biomass stored on land or converted to energy with biogenic CO2 capture (burial, BECCS, waste-to-energy, fermentation)",
+   "variations": [
+    "engineered terrestrial biomass burial (dry casks, vaults, trenches)",
+    "subsurface slurry injection of organic wastes",
+    "BECCS retrofits on biomass power and district-heat plants",
+    "purpose-built biomass carbon removal and storage (gasification to hydrogen/power + CO2 storage)",
+    "waste-to-energy CO2 capture (biogenic fraction)",
+    "ethanol and fermentation biogenic CO2 capture and storage",
+    "biogas/RNG upgrading CO2 capture for removal credits",
+    "pulp & paper and other biogenic industrial BECCS",
+    "carbon-storing engineered biomass building materials (fast-growing fiber panels, structural timber products)"
+   ]
+  },
+  {
+   "name": "Enhanced Weathering & Mineralization (land)",
+   "scope": "Reacting CO2 with alkaline rocks and industrial wastes on land, via field spreading, tailings carbonation, and in-situ/ex-situ mineral storage",
+   "variations": [
+    "cropland enhanced rock weathering (crushed basalt spreading)",
+    "alternative ERW feedstocks (olivine, wollastonite, brucite, returned-concrete fines)",
+    "mine tailings carbonation (ultramafic mining waste)",
+    "alkaline industrial residue carbonation for storage (steel slag, ashes, brines)",
+    "in-situ mineralization via dissolved CO2 injection into basalt",
+    "in-situ mineralization in peridotite/ultramafic formations",
+    "ex-situ accelerated carbonation reactors (acid-recycle loops, pressurized carbonation to storable or cementitious minerals)",
+    "microbial/biotic acceleration of soil mineral weathering"
+   ]
+  },
+  {
+   "name": "Ocean-Based CDR",
+   "scope": "Marine pathways that shift seawater chemistry, strip CO2 from seawater, or sink biomass into the deep ocean",
+   "variations": [
+    "electrochemical ocean alkalinity enhancement (acid extraction from seawater)",
+    "mineral ocean alkalinity enhancement (lime/olivine/carbonate dosing at outfalls and from vessels)",
+    "river and watershed liming",
+    "coastal enhanced weathering (olivine sand placement)",
+    "direct ocean capture (seawater CO2 stripping via electrodialysis/vacuum)",
+    "brine-based capture and mineralization (desalination brine alkalinity loops)",
+    "macroalgae/sargassum cultivation and deep-ocean sinking",
+    "terrestrial biomass sinking in anoxic basins",
+    "microalgae and ecosystem approaches (coastal pond cultivation with desert storage, iron fertilization, artificial upwelling/downwelling)"
+   ]
+  },
+  {
+   "name": "Point-Source Capture",
+   "scope": "Capture equipment for fossil and industrial flue/process gases, from giant plants to small and mobile emitters",
+   "variations": [
+    "amine solvent capture (incumbent licensors plus next-gen low-energy amines)",
+    "non-amine solvents (potassium carbonate, chilled ammonia, amino acids, ionic liquids, enzyme-catalyzed)",
+    "solid sorbent capture (MOF/zeolite filter beds, VPSA/TSA cycles)",
+    "membrane separation (polymeric and hybrid membrane-cryogenic)",
+    "cryogenic capture (CO2 desublimation/frost)",
+    "oxy-fuel combustion and Allam-Fetvedt supercritical CO2 power cycles",
+    "pre-combustion and inherent-capture routes (gasification, chemical looping, molten carbonate fuel cells)",
+    "calcium looping and indirect calcination for cement/lime kilns",
+    "modular small-emitter capture (containerized units, building exhaust, gensets)",
+    "mobile and maritime onboard capture (ships, trucks, locomotives)"
+   ]
+  },
+  {
+   "name": "CO2 Transport & Geologic Storage",
+   "scope": "Moving CO2 and securing it underground: pipelines, ships, hubs, wells, and storage monitoring",
+   "variations": [
+    "CO2 trunk pipelines and regional aggregation networks",
+    "CO2 shipping (liquefied CO2 carriers) with port liquefaction/buffer terminals",
+    "rail, barge, and truck CO2 logistics",
+    "onshore saline aquifer storage developers (Class VI projects)",
+    "offshore storage hubs (subsea saline formations and depleted fields)",
+    "depleted oil/gas field storage and CO2-EOR transition projects",
+    "storage site characterization, modeling, and monitoring tech (seismic, fiber-optic, downhole, satellite)",
+    "CO2 injection well services and specialty well engineering",
+    "novel storage media (CO2 hydrates, enhanced coal-bed storage, engineered caverns) \u2014 early stage"
+   ]
+  },
+  {
+   "name": "CO2 Utilization: Fuels, Chemicals & Bio-products",
+   "scope": "Converting captured CO2 into energy carriers, chemicals, food, and solid carbon products",
+   "variations": [
+    "thermocatalytic e-fuels (reverse water-gas shift + Fischer-Tropsch SAF and e-diesel)",
+    "CO2-to-methanol and methanol derivatives",
+    "power-to-methane (synthetic natural gas)",
+    "direct CO2/CO electrolysis to syngas and chemical intermediates",
+    "solar thermochemical fuel synthesis",
+    "gas fermentation and microbial CO2/CO conversion (ethanol, acetate, PHAs)",
+    "CO2-to-food (single-cell proteins, synthesized fats and ingredients)",
+    "CO2-derived polymers and polyols",
+    "CO2-to-solid-carbon products (carbon black, graphite, nanotubes, diamonds)",
+    "CO2-to-specialty chemicals (formic acid, oxalates, surfactants) and flue-gas-fed algae products"
+   ]
+  },
+  {
+   "name": "CO2 Utilization: Built Materials",
+   "scope": "Locking CO2 permanently into concrete, aggregates, cements, and salable mineral products",
+   "variations": [
+    "CO2 mineral curing/injection in ready-mix concrete and precast",
+    "carbonation of recycled concrete and demolition fines",
+    "synthetic aggregates from carbonated industrial residues (slags, ashes, air-pollution-control residues)",
+    "cement-free slag-based blocks cured with CO2",
+    "carbonated supplementary cementitious materials and recarbonated low-carbon cements",
+    "flue-gas direct mineralization to salable minerals (sodium bicarbonate, precipitated calcium carbonate, magnesium carbonates)",
+    "CO2-absorbing cement additives and coatings"
+   ]
+  }
+ ]
+}

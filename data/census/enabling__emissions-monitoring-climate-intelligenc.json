@@ -1,0 +1,647 @@
+{
+ "sector": "enabling",
+ "bucket": "Emissions Monitoring & Climate Intelligence",
+ "census": {
+  "bucket": "Emissions Monitoring & Climate Intelligence",
+  "sources": [
+   "https://www.wastedive.com/news/ghgsat-methane-satellite-launch-cop30/806773/",
+   "https://www.edf.org/media/methanesat-loses-contact-satellite",
+   "https://carbonmapper.org/articles/tanager-1-one-year-in-space",
+   "https://www.planet.com/pulse/carbon-mapper-data-from-the-tanager-1-satellite-reveals-methane-and-carbon-dioxide-super-emitter-activity-around-the-world/",
+   "https://techcrunch.com/2024/03/13/orbio-earth-seed-round/",
+   "https://tracxn.com/d/companies/kayrros/__cqSgBve9ASoVtknvgdnG_ta29cspvgHgcAeX-ndxMOE",
+   "https://www.businesswire.com/news/home/20250114727850/en/Bridger-Photonics%E2%80%99-Aerial-Methane-Detection-Technology-Approved-by-EPA-for-Regulatory-Use",
+   "https://www.dcvc.com/news-insights/kairos-aerospace-raises-52-million-series-d-to-reduce-methane-emissions/",
+   "https://www.prnewswire.com/news-releases/project-canary-publishes-three-peer-reviewed-studies-establishing-scientific-benchmark-for-continuous-methane-monitoring-302612302.html",
+   "https://calgary.tech/2025/03/17/qube-technologies-continuous-methane-monitoring/",
+   "https://www.businesswire.com/news/home/20241023202204/en/LongPath-Technologies-Finalizes-%24162.4-Million-DOE-Loan-to-Expand-Nationwide-Methane-Emissions-Monitoring-Network",
+   "https://www.alleywatch.com/2024/11/andium-remote-field-monitoring-emissions-communication-platform-oil-and-gas-industrial-iot-jory-schwach/",
+   "https://www.endress.com/en/endress-hauser-group/press-center/news-and-press-releases/EHS-2025",
+   "https://climatetrace.org/about",
+   "https://techcrunch.com/2024/05/06/electricity-maps-calculates-the-carbon-intensity-of-electricity-consumption-to-optimize-usage-at-scale/",
+   "https://www.canarymedia.com/articles/emissions-reduction/miso-carbon-tracking-data-singularity",
+   "https://www.prnewswire.com/news-releases/chloris-geospatial-raises-8-5-million-series-a-to-scale-satellite-based-forest-carbon-monitoring-302498338.html",
+   "https://www.globenewswire.com/news-release/2025/06/16/3099902/0/en/Wildfire-Tech-Comes-of-Age-Pano-AI-Raises-44M-Series-B-Led-by-Giant-Ventures-to-Scale-Early-Detection-Infrastructure.html",
+   "https://blog.google/innovation-and-ai/products/inside-firesat-launch-muon-space/",
+   "https://www.kpler.com/product/energy-transition/emissions",
+   "https://www.htgf.de/en/variolytics-growth-financing/",
+   "https://aclima.earth/smmi-cars-on-the-road",
+   "https://carbonspace.tech/carbonspacevision",
+   "https://alliedoffsets.com/wp-content/uploads/2025/04/AlliedOffsets_Planet2050_SF6-Report-2025.pdf",
+   "https://www.transitionzero.org/press/transitionzero-to-partner-the-carbon-trusts-greenprint-initiative"
+  ],
+  "variations": [
+   {
+    "name": "Satellite methane & GHG detection and quantification",
+    "description": "Purpose-built and public satellites image methane (and increasingly CO2) plumes from individual facilities and basins, making invisible leaks visible globally and underpinning regulator, investor, and UNEP super-emitter alert programs.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "GHGSat",
+      "role": "scaleup",
+      "what": "Operates the largest commercial GHG-sensing constellation (~16 satellites) delivering facility-level methane and CO2 plume detection as a subscription service to oil & gas, mining, and governments.",
+      "signal": "16 satellites in orbit after two launches around COP30 (Nov 2025); roughly a decade of commercial operations",
+      "status": "operating",
+      "source": "https://www.wastedive.com/news/ghgsat-methane-satellite-launch-cop30/806773/"
+     },
+     {
+      "name": "Planet Labs",
+      "role": "incumbent",
+      "what": "Builds and operates the Tanager-1 hyperspectral satellite (with Carbon Mapper) and sells Tanager methane/CO2 data products alongside its daily-imaging fleet.",
+      "signal": "Tanager data products generally available Sep 2025; 5,500+ plumes detected in first year on orbit",
+      "status": "operating",
+      "source": "https://www.planet.com/pulse/carbon-mapper-data-from-the-tanager-1-satellite-reveals-methane-and-carbon-dioxide-super-emitter-activity-around-the-world/"
+     },
+     {
+      "name": "Carbon Mapper",
+      "role": "startup",
+      "what": "Philanthropically funded nonprofit that designs the detection/quantification science for Tanager-1 and publishes open facility-level methane and CO2 plume data.",
+      "signal": "~3,200 sources and 5,500+ plumes published in Tanager-1's first year; first documented mitigation wins in 2024-2025",
+      "status": "operating",
+      "source": "https://carbonmapper.org/articles/tanager-1-one-year-in-space"
+     },
+     {
+      "name": "Kayrros",
+      "role": "scaleup",
+      "what": "Analyzes public satellite data (Sentinel-5P/2/3, Landsat) with AI to flag and quantify methane super-emitters in near real time for UNEP IMEO, banks like BNP Paribas, and energy operators \u2014 no satellites of its own.",
+      "signal": "~$84M raised (incl. \u20ac40M round 2022); acquired by market-intelligence firm Energy Aspects, completed May 2026",
+      "status": "acquired",
+      "source": "https://tracxn.com/d/companies/kayrros/__cqSgBve9ASoVtknvgdnG_ta29cspvgHgcAeX-ndxMOE"
+     },
+     {
+      "name": "Orbio Earth",
+      "role": "startup",
+      "what": "Software-only methane analytics derived from free Sentinel-2 imagery, ranked #1 for accuracy/sensitivity in a Stanford single-blind satellite test, sold to O&G operators and investors.",
+      "signal": "$4M seed (Mar 2024) from ESA, Initialized Capital and Y Combinator",
+      "status": "operating",
+      "source": "https://techcrunch.com/2024/03/13/orbio-earth-seed-round/"
+     },
+     {
+      "name": "MethaneSAT (EDF)",
+      "role": "startup",
+      "what": "EDF's nonprofit satellite built to map total basin-wide oil & gas methane (diffuse sources, not just super-emitters) with open data.",
+      "signal": "~$88M philanthropic mission; launched Mar 2024, lost power 20 Jun 2025 and declared irrecoverable \u2014 mission ended after 15 of 60 planned months",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.edf.org/media/methanesat-loses-contact-satellite"
+     },
+     {
+      "name": "Scepter",
+      "role": "startup",
+      "what": "Multi-sensor (ground/aerial/satellite) methane data-fusion platform that partnered with ExxonMobil and AWS to plan real-time Permian Basin monitoring from a future satellite constellation.",
+      "signal": "ExxonMobil/AWS partnership announced 2022; constellation timeline slipped and little public traction news since 2024",
+      "status": "uncertain",
+      "source": "https://www.scepterair.com/"
+     }
+    ],
+    "white_space": "Crowded for methane point sources, but MethaneSAT's loss shows single-satellite missions are fragile and left a gap in open basin-wide diffuse-emissions measurement; CO2 point-source quantification from space (only GHGSat Vanguard and Tanager-1 attempt it) and non-O&G sectors (agriculture, landfills coverage is partial) remain underserved."
+   },
+   {
+    "name": "Aerial, drone & flyover plume surveys",
+    "description": "Aircraft- and drone-mounted spectrometers and LiDAR fly over oil & gas basins, landfills, and offshore platforms to find and quantify leaks at far lower detection thresholds than satellites, now formally accepted by US EPA as a compliance alternative to ground inspections.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Bridger Photonics",
+      "role": "scaleup",
+      "what": "Gas Mapping LiDAR flown on small aircraft (and since 2025 drones) that maps methane leaks to specific equipment with quantified rates; first aerial tech EPA-approved at all scan-matrix levels.",
+      "signal": "EPA approval for regulatory use Jan 2025; offshore drone-based GML launched Jun 2025; scans a large share of US production basins",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20250114727850/en/Bridger-Photonics%E2%80%99-Aerial-Methane-Detection-Technology-Approved-by-EPA-for-Regulatory-Use"
+     },
+     {
+      "name": "Insight M (formerly Kairos Aerospace)",
+      "role": "scaleup",
+      "what": "Plane-mounted solar-absorption spectrometers that survey entire basins (~100 sq mi per plane per day) cheaply and frequently, sold as a leak-finding subscription.",
+      "signal": "$52M Series D led by BlackRock funds; claims 140 Bcf methane prevented and >$500M gas value saved; cited in Permian's ~50% emissions drop",
+      "status": "operating",
+      "source": "https://www.dcvc.com/news-insights/kairos-aerospace-raises-52-million-series-d-to-reduce-methane-emissions/"
+     },
+     {
+      "name": "SeekOps",
+      "role": "startup",
+      "what": "Miniaturized TDLAS methane sniffer sensors flown on drones for site-level detection and quantification, including offshore platforms.",
+      "signal": "Backed by Equinor Ventures and Chevron Technology Ventures; used by international majors for OGMP 2.0 site measurements",
+      "status": "operating",
+      "source": "https://seekops.com/"
+     },
+     {
+      "name": "Sniffer Robotics",
+      "role": "startup",
+      "what": "EPA-approved SnifferDRONE that replaces human walking surveys for landfill surface emissions monitoring (Method 21 alternative).",
+      "signal": "Partnership with Project Canary (Apr 2025) to pair drone SEM data with quantification models",
+      "status": "operating",
+      "source": "https://www.wastetodaymagazine.com/news/project-canary-sniffer-robotics-partner-to-develop-methane-emissions-monitoring-tools/"
+     },
+     {
+      "name": "Scientific Aviation",
+      "role": "startup",
+      "what": "Pioneer of aircraft mass-balance flux quantification for whole facilities; its team also built the SOOFIE continuous-monitor line under ChampionX.",
+      "signal": "Acquired by ChampionX in 2021; ChampionX itself absorbed into SLB in 2025",
+      "status": "acquired",
+      "source": "https://scientificaviation.com/"
+     },
+     {
+      "name": "Flylogix",
+      "role": "startup",
+      "what": "Long-range uncrewed aircraft flying methane sensors (with SeekOps) beyond visual line of sight to measure offshore North Sea platform emissions without helicopters.",
+      "signal": "Routine offshore campaigns for North Sea operators including bp and TotalEnergies",
+      "status": "operating",
+      "source": "https://www.flylogix.com/"
+     }
+    ]
+   },
+   {
+    "name": "Ground-based continuous emissions sensors at facilities (laser, IoT)",
+    "description": "Fixed sensor pods, laser open-path systems, and AI cameras sit at well pads and plants watching for methane 24/7, catching the short-lived events that drive most emissions and feeding EPA OOOOb/Super-Emitter-Program compliance.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Project Canary",
+      "role": "scaleup",
+      "what": "Solar-powered multi-gas sensor pods plus an emissions-intelligence SaaS platform that quantifies site-level methane and certifies responsibly sourced gas.",
+      "signal": "$111M Series B (2021); EPA approval of Canary X system (Apr 2025); three peer-reviewed validation studies published Nov 2025 (<4% cumulative mass error at METEC)",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/project-canary-publishes-three-peer-reviewed-studies-establishing-scientific-benchmark-for-continuous-methane-monitoring-302612302.html"
+     },
+     {
+      "name": "Qube Technologies",
+      "role": "scaleup",
+      "what": "Low-cost IoT continuous emissions monitors with cloud analytics, positioned as the cheapest path to continuous coverage across large well-site fleets.",
+      "signal": "Series B from Riverbend Energy Group plus TC Energy and Bain ventures (2023); US EPA approval for continuous methane monitoring Mar 2025",
+      "status": "operating",
+      "source": "https://calgary.tech/2025/03/17/qube-technologies-continuous-methane-monitoring/"
+     },
+     {
+      "name": "LongPath Technologies",
+      "role": "scaleup",
+      "what": "Nobel-derived frequency-comb laser towers that sweep tens of square miles per node, building a subscription methane-monitoring network across US basins.",
+      "signal": "$162.4M DOE LPO loan finalized Oct 2024 to deploy 1,000+ nodes covering up to 24,000 sq mi",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20241023202204/en/LongPath-Technologies-Finalizes-%24162.4-Million-DOE-Loan-to-Expand-Nationwide-Methane-Emissions-Monitoring-Network"
+     },
+     {
+      "name": "Andium",
+      "role": "startup",
+      "what": "AI-powered camera and IoT field monitoring (flare monitoring, tank watching, leak alerts) that replaces routine truck rolls at remote oil & gas sites.",
+      "signal": "$21.7M Series B (Nov 2024); deployed with supermajors",
+      "status": "operating",
+      "source": "https://www.alleywatch.com/2024/11/andium-remote-field-monitoring-emissions-communication-platform-oil-and-gas-industrial-iot-jory-schwach/"
+     },
+     {
+      "name": "Kuva Systems",
+      "role": "startup",
+      "what": "Low-cost shortwave-IR optical gas imaging cameras that autonomously photograph and flag methane plumes around facilities around the clock.",
+      "signal": "Venture-backed; cameras deployed across US/Canadian upstream sites",
+      "status": "operating",
+      "source": "https://www.kuvasystems.com/"
+     },
+     {
+      "name": "MIRICO",
+      "role": "startup",
+      "what": "UK (RAL Space) spinout using laser dispersion spectroscopy for open-path fenceline gas measurement that keeps working in fog, rain, and dust.",
+      "signal": "Deployments with energy and industrial operators; ORION methane product commercialized",
+      "status": "operating",
+      "source": "https://www.mirico.co.uk/"
+     },
+     {
+      "name": "Honeywell",
+      "role": "incumbent",
+      "what": "Gas-cloud-imaging cameras from its 2019 Rebellion Photonics acquisition integrated into industrial fire-and-gas and emissions monitoring suites.",
+      "signal": "Global industrial installed base; Rebellion acquired 2019",
+      "status": "operating",
+      "source": "https://www.honeywell.com/"
+     },
+     {
+      "name": "Sensirion Connected Solutions",
+      "role": "incumbent",
+      "what": "Swiss sensor manufacturer's Nubo Sphere continuous methane monitoring nodes, sold as hardware-plus-cloud for oil & gas sites.",
+      "signal": "Partnership with Project Canary (2025) pairing its sensors with quantification analytics",
+      "status": "operating",
+      "source": "https://sensirion-connected.com/company/news/press-releases-and-news/article/pc-scs"
+     }
+    ]
+   },
+   {
+    "name": "Facility CEMS and industrial stack-monitoring software",
+    "description": "Regulated continuous emissions monitoring systems (analyzers in stacks plus data-acquisition software) measure SO2, NOx, CO2, mercury, and particulates for compliance reporting \u2014 the decades-old measured-data backbone for power plants and heavy industry.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Endress+Hauser SICK",
+      "role": "incumbent",
+      "what": "50/50 joint venture (from Mar 2025) combining SICK's market-leading stack gas analyzers and flowmeters with Endress+Hauser's global sales channel.",
+      "signal": "JV operational 1 Mar 2025 with ~730 employees; E+H exclusively markets SICK gas analysis worldwide since Jan 2025",
+      "status": "operating",
+      "source": "https://www.endress.com/en/endress-hauser-group/press-center/news-and-press-releases/EHS-2025"
+     },
+     {
+      "name": "ABB",
+      "role": "incumbent",
+      "what": "Continuous gas analyzer systems (e.g., ACF5000 FTIR) used for multi-component stack compliance monitoring in power and waste-to-energy plants worldwide.",
+      "signal": "One of the largest global installed bases of CEMS analyzers",
+      "status": "operating",
+      "source": "https://new.abb.com/products/measurement-products/analytical"
+     },
+     {
+      "name": "Emerson",
+      "role": "incumbent",
+      "what": "Rosemount quantum-cascade-laser hybrid analyzers (CT5100/CT5800) measuring many gases simultaneously in stack and process streams.",
+      "signal": "Major automation incumbent; QCL analyzers displacing legacy multi-analyzer racks",
+      "status": "operating",
+      "source": "https://www.emerson.com/en-us/automation/measurement-instrumentation/gas-analysis"
+     },
+     {
+      "name": "Thermo Fisher Scientific",
+      "role": "incumbent",
+      "what": "Long-standing supplier of SO2/NOx/mercury CEMS analyzers widely installed across the North American power fleet.",
+      "signal": "Decades-old installed base tied to US EPA Part 75 acid rain reporting",
+      "status": "operating",
+      "source": "https://www.thermofisher.com/"
+     },
+     {
+      "name": "AMETEK Land",
+      "role": "incumbent",
+      "what": "Opacity, dust, and gas analyzers plus mercury monitors for stack compliance in cement, steel, and power.",
+      "signal": "Global emissions-monitoring product line within AMETEK's process instruments division",
+      "status": "operating",
+      "source": "https://www.ametek-land.com/"
+     },
+     {
+      "name": "Durag Group",
+      "role": "incumbent",
+      "what": "German specialist in dust/particulate monitors, flame sensors, and D-EMS environmental data-management software for plants.",
+      "signal": "Thousands of regulated installations across Europe and Asia",
+      "status": "operating",
+      "source": "https://www.durag.com/"
+     },
+     {
+      "name": "ESC Spectrum",
+      "role": "scaleup",
+      "what": "US leader in CEMS data acquisition and handling systems (StackVision DAHS) plus field services that turn analyzer signals into EPA-ready reports.",
+      "signal": "PE-backed; DAHS installed at thousands of US emission sources",
+      "status": "operating",
+      "source": "https://www.escspectrum.com/"
+     },
+     {
+      "name": "VIM Technologies",
+      "role": "scaleup",
+      "what": "CEMS/DAHS and predictive emissions monitoring (PEMS) software focused on regulatory reporting automation for industrial plants.",
+      "signal": "Established US customer base across refining and power",
+      "status": "operating",
+      "source": "https://www.vimtechnologies.com/"
+     }
+    ]
+   },
+   {
+    "name": "AI-derived global asset-level emissions inventories (power plants, steel, cement)",
+    "description": "Machine learning fused with satellite imagery and public data estimates emissions for every individual power plant, steel mill, ship, and field worldwide \u2014 independent of self-reporting \u2014 giving regulators, investors, and campaigners a checkable global ledger.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Climate TRACE",
+      "role": "startup",
+      "what": "Al Gore-convened coalition publishing a free, independent inventory of 745M+ emitting assets, updated monthly since 2025, plus decarbonization-roadmap and PM2.5 dispersion tools.",
+      "signal": "Asset-level coverage of sectors representing ~75% of global emissions; monthly data releases through 2025",
+      "status": "operating",
+      "source": "https://climatetrace.org/about"
+     },
+     {
+      "name": "WattTime",
+      "role": "startup",
+      "what": "Nonprofit that pioneered satellite/ML estimation of individual power-plant emissions and co-founded Climate TRACE.",
+      "signal": "Power-sector modeling underpins Climate TRACE's plant-level data globally",
+      "status": "operating",
+      "source": "https://watttime.org/about-us/climate-trace/"
+     },
+     {
+      "name": "TransitionZero",
+      "role": "startup",
+      "what": "London analytics nonprofit producing satellite-derived steel and power asset data and open energy-system models for emerging markets.",
+      "signal": "Partnered with Carbon Trust's Greenprint initiative (Jun 2025); Climate TRACE coalition member",
+      "status": "operating",
+      "source": "https://www.transitionzero.org/press/transitionzero-to-partner-the-carbon-trusts-greenprint-initiative"
+     },
+     {
+      "name": "Global Energy Monitor",
+      "role": "incumbent",
+      "what": "Nonprofit maintaining the canonical open trackers of every coal/gas plant, steel mill, and pipeline that most AI inventories build on.",
+      "signal": "Trackers cited across IEA, finance, and Climate TRACE workflows",
+      "status": "operating",
+      "source": "https://globalenergymonitor.org/"
+     },
+     {
+      "name": "Asset Impact (ex-Asset Resolution)",
+      "role": "scaleup",
+      "what": "Asset-based company emissions and production data for financial institutions' portfolio alignment (PACTA-style analysis).",
+      "signal": "Acquired by ESG benchmarker GRESB in 2023",
+      "status": "acquired",
+      "source": "https://www.gresb.com/"
+     }
+    ],
+    "white_space": "Measured-vs-modeled asset inventories are dominated by philanthropy-funded nonprofits (Climate TRACE, GEM, WattTime), and the commercial pure-plays keep getting absorbed (Kayrros into Energy Aspects 2026, Asset Impact into GRESB 2023) \u2014 evidence that standalone monetization is hard; the opening is verticalized compliance-grade products (CBAM import intensity, procurement-grade steel/cement footprints, sovereign-risk emissions verification) rather than general inventories."
+   },
+   {
+    "name": "Real-time grid carbon intensity data & APIs for carbon-aware computing/loadshifting",
+    "description": "APIs publish the carbon intensity of each grid region in real time and forecast, letting data centers, EV chargers, and smart devices shift load to cleaner hours and letting buyers prove 24/7 clean-power matching.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Electricity Maps",
+      "role": "startup",
+      "what": "The most widely used global grid carbon-intensity API (real-time, historical, forecast across 200+ zones), powering carbon-aware features at Google and other hyperscalers.",
+      "signal": "$5.4M round (2024) from Transition and Revent; free Carbon Intensity Level API launched for grid-aware software",
+      "status": "operating",
+      "source": "https://techcrunch.com/2024/05/06/electricity-maps-calculates-the-carbon-intensity-of-electricity-consumption-to-optimize-usage-at-scale/"
+     },
+     {
+      "name": "WattTime",
+      "role": "startup",
+      "what": "Nonprofit providing marginal operating emissions rate (MOER) signals so devices and EVs automatically run when the next megawatt is cleanest.",
+      "signal": "Automated Emissions Reduction embedded in thermostats, EVs and utility programs across North America",
+      "status": "operating",
+      "source": "https://watttime.org/"
+     },
+     {
+      "name": "Singularity Energy",
+      "role": "startup",
+      "what": "Harvard-spinout carbon-intelligence platform (Carbonara, Open Grid Emissions) that built the first grid-operator-level carbon tracking with MISO.",
+      "signal": "~$6.4M raised; MISO partnership made it the largest US grid operator with hourly carbon tracking (2025 Canary Media coverage)",
+      "status": "operating",
+      "source": "https://www.canarymedia.com/articles/emissions-reduction/miso-carbon-tracking-data-singularity"
+     },
+     {
+      "name": "REsurety",
+      "role": "scaleup",
+      "what": "Locational Marginal Emissions data quantifying the avoided-carbon value of specific wind/solar projects for PPA buyers and clean-energy finance.",
+      "signal": "LME data licensed across US ISOs by major corporate clean-power buyers",
+      "status": "operating",
+      "source": "https://resurety.com/"
+     },
+     {
+      "name": "FlexiDAO",
+      "role": "startup",
+      "what": "24/7 carbon-free-energy tracking software matching consumption to granular generation certificates for corporates and utilities.",
+      "signal": "Backed by Google and Microsoft's climate fund; supports Google's 24/7 CFE pilots in Europe",
+      "status": "operating",
+      "source": "https://www.flexidao.com/"
+     },
+     {
+      "name": "Granular Energy",
+      "role": "startup",
+      "what": "Hourly energy-certificate management and trading platform that lets utilities offer time-stamped clean power products.",
+      "signal": "Venture-backed; working with European utilities as hourly certificate standards (EnergyTag) gain adoption",
+      "status": "operating",
+      "source": "https://www.granular-energy.com/"
+     },
+     {
+      "name": "Cleartrace",
+      "role": "startup",
+      "what": "Hourly energy-and-carbon provenance ledger for buildings and corporate portfolios, used to evidence 24/7 claims to auditors.",
+      "signal": "~$20M raised (2022); customers include major real-estate and financial firms",
+      "status": "operating",
+      "source": "https://www.cleartrace.io/"
+     }
+    ]
+   },
+   {
+    "name": "Land-use change, deforestation & wildfire emissions monitoring",
+    "description": "Satellites, AI cameras, and biomass models track forest loss, degradation, and fires in near real time, quantifying land-sector carbon flux for EUDR supply-chain compliance, carbon-credit integrity, and earlier wildfire response.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Planet Labs",
+      "role": "incumbent",
+      "what": "Daily 3m global imaging plus Forest Carbon Diligence products (30m canopy height/carbon time series) that anchor most commercial deforestation monitoring.",
+      "signal": "Public company; forest carbon data licensed by raters, registries, and governments",
+      "status": "operating",
+      "source": "https://www.planet.com/products/forest-carbon/"
+     },
+     {
+      "name": "Chloris Geospatial",
+      "role": "startup",
+      "what": "Direct measurement of aboveground biomass change (not just land-cover proxies) from multi-sensor satellite fusion and ML, back to year 2000 for any acre.",
+      "signal": "$8.5M Series A (Jul 2025) led by Future Energy Ventures with AXA IM Alts, At One Ventures",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/chloris-geospatial-raises-8-5-million-series-a-to-scale-satellite-based-forest-carbon-monitoring-302498338.html"
+     },
+     {
+      "name": "Satelligence",
+      "role": "startup",
+      "what": "Deforestation-free supply chain monitoring (palm, cocoa, rubber) that maps commodity plots for EUDR compliance at FMCG buyers.",
+      "signal": "Used by major consumer-goods companies; demand pulled forward by EU Deforestation Regulation",
+      "status": "operating",
+      "source": "https://satelligence.com/"
+     },
+     {
+      "name": "Space Intelligence",
+      "role": "startup",
+      "what": "High-integrity national habitat and forest-carbon maps (Edinburgh, ex-academia) used by carbon project developers and credit raters.",
+      "signal": "Maps delivered across 35+ countries; supplier to leading registries and raters",
+      "status": "operating",
+      "source": "https://www.space-intelligence.com/"
+     },
+     {
+      "name": "CTrees",
+      "role": "startup",
+      "what": "JPL-scientist-founded nonprofit tracking carbon in every tree globally, including degradation and selective logging that optical alerts miss.",
+      "signal": "Free global datasets launched 2022; used by jurisdictional REDD+ programs",
+      "status": "operating",
+      "source": "https://ctrees.org/"
+     },
+     {
+      "name": "Global Forest Watch (WRI)",
+      "role": "incumbent",
+      "what": "The free public deforestation-alert platform (GLAD/RADD alerts) that corporate and NGO monitoring workflows are built around.",
+      "signal": "De facto global standard since 2014; integrated into commodity-trader compliance systems",
+      "status": "operating",
+      "source": "https://www.globalforestwatch.org/"
+     },
+     {
+      "name": "OroraTech",
+      "role": "scaleup",
+      "what": "Munich-based thermal-infrared nanosatellite constellation delivering ~30-minute-revisit wildfire detection and monitoring 395M+ acres.",
+      "signal": "Series B extended to \u20ac37M; eight satellites launched on a dedicated Rocket Lab mission Mar 2025",
+      "status": "operating",
+      "source": "https://techfundingnews.com/wildfire-tech-at-a-crossroads-pano-ais-44m-raise-and-the-future-of-early-detection/"
+     },
+     {
+      "name": "Pano AI",
+      "role": "scaleup",
+      "what": "AI-on-camera mountaintop networks that spot smoke in minutes and feed confirmed alerts to first responders and utilities.",
+      "signal": "$44M Series B (Jun 2025) led by Giant Ventures; $89M total; 250+ agencies across 10 US states, BC, and Australia",
+      "status": "operating",
+      "source": "https://www.globenewswire.com/news-release/2025/06/16/3099902/0/en/Wildfire-Tech-Comes-of-Age-Pano-AI-Raises-44M-Series-B-Led-by-Giant-Ventures-to-Scale-Early-Detection-Infrastructure.html"
+     },
+     {
+      "name": "Muon Space",
+      "role": "scaleup",
+      "what": "Builds and operates the FireSat constellation with Google Research and Earth Fire Alliance to detect 5x5m fires globally within ~20 minutes.",
+      "signal": "First FireSat prototype launched Mar 2025; 50+ satellite constellation planned by 2030 with Google.org funding",
+      "status": "operating",
+      "source": "https://blog.google/innovation-and-ai/products/inside-firesat-launch-muon-space/"
+     }
+    ]
+   },
+   {
+    "name": "Commodity-flow and trade emissions intelligence",
+    "description": "Ship-tracking, trade-flow, and asset data are fused to attach a carbon footprint to physical cargoes and supply chains, so traders, banks, and importers can price carbon (CBAM, IMO rules) into every shipment rather than annual averages.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "CarbonChain",
+      "role": "startup",
+      "what": "Per-shipment, cradle-to-customer carbon accounting for metals and energy commodities, built on asset-level models of 11,000+ suppliers, sold to traders and trade-finance banks.",
+      "signal": "$10M Series A led by Union Square Ventures (2023); methodology validated against GHG Protocol by SGS",
+      "status": "operating",
+      "source": "https://www.carbonchain.com/"
+     },
+     {
+      "name": "Kpler",
+      "role": "incumbent",
+      "what": "Dominant cargo/vessel-tracking intelligence firm now selling cargo-level emissions and carbon-intensity analytics across 40+ commodities.",
+      "signal": "Insight Partners-backed; acquired MarineTraffic and FleetMon (2023); emissions product launched 2024-2025",
+      "status": "operating",
+      "source": "https://www.kpler.com/product/energy-transition/emissions"
+     },
+     {
+      "name": "Vortexa",
+      "role": "scaleup",
+      "what": "Real-time energy cargo and freight analytics with emissions layers on tanker/LNG flows for traders and shipowners.",
+      "signal": "$34M Series C (2022); analytics adopted across oil/gas trading desks",
+      "status": "operating",
+      "source": "https://www.vortexa.com/"
+     },
+     {
+      "name": "Siglar Carbon",
+      "role": "startup",
+      "what": "Pre-fixture CO2 estimates and post-voyage carbon analytics that let charterers pick lower-emission vessels and settle carbon clauses.",
+      "signal": "Used by major commodity charterers; Oslo-based bootstrap/seed-stage",
+      "status": "operating",
+      "source": "https://www.siglarcarbon.com/"
+     },
+     {
+      "name": "Searoutes",
+      "role": "startup",
+      "what": "API-first vessel- and route-specific CO2e calculation engine (GLEC-accredited) embedded in freight forwarders' booking tools.",
+      "signal": "Marseille-based; API adopted by logistics platforms for shipment-level footprints",
+      "status": "operating",
+      "source": "https://www.searoutes.com/"
+     },
+     {
+      "name": "Altana",
+      "role": "scaleup",
+      "what": "AI supply-chain knowledge graph mapping multi-tier trade relationships, extended to value-chain emissions and CBAM exposure for enterprises and governments.",
+      "signal": "$200M Series C (Jul 2024) at ~$1B valuation",
+      "status": "operating",
+      "source": "https://altana.ai/"
+     }
+    ],
+    "white_space": "Most cargo footprints are still modeled from emission factors, not measured; nobody yet fuses satellite-observed facility emissions (e.g., flaring, mine methane) with shipment-level trade flows to give importers measured upstream intensity \u2014 CBAM's 2026 definitive phase and IMO's net-zero framework make that fusion a near-term commercial opening."
+   },
+   {
+    "name": "Super-pollutant tracking beyond CO2/CH4 (N2O, SF6, HFCs)",
+    "description": "Sensors and analytics quantify the high-GWP gases \u2014 nitrous oxide from wastewater and fertilizer industries, SF6 from switchgear, HFCs from refrigerants \u2014 that punch far above their tonnage but are mostly invisible to satellites and rarely measured directly.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Variolytics",
+      "role": "startup",
+      "what": "Real-time mass-spectrometry N2O measurement plus AI process control (EmiCo) that cuts wastewater-treatment-plant N2O emissions up to 50% within a year.",
+      "signal": "Growth round (Jan 2025) led by Nordic Alpha Partners with HTGF and EIC; only turnkey N2O measure-and-control offer in Europe",
+      "status": "operating",
+      "source": "https://www.htgf.de/en/variolytics-growth-financing/"
+     },
+     {
+      "name": "Unisense Environment",
+      "role": "incumbent",
+      "what": "Danish maker of the de facto standard in-situ electrochemical N2O sensors used by wastewater utilities worldwide for direct emissions measurement.",
+      "signal": "Sensors deployed at treatment plants across Europe, North America, and Asia as N2O reporting mandates emerge",
+      "status": "operating",
+      "source": "https://www.unisense-environment.com/"
+     },
+     {
+      "name": "Aclima",
+      "role": "scaleup",
+      "what": "Fleet of sensor-equipped vehicles mapping greenhouse gases and air toxics block-by-block, the largest hyperlocal GHG/air-quality measurement programs in the US.",
+      "signal": "$27M California Statewide Mobile Monitoring Initiative rolling since Jun 2025 across 64 communities; New York statewide program live",
+      "status": "operating",
+      "source": "https://aclima.earth/smmi-cars-on-the-road"
+     },
+     {
+      "name": "DILO",
+      "role": "incumbent",
+      "what": "German specialist in SF6 gas handling, leak detection, and inventory management equipment that utilities rely on to track switchgear gas losses.",
+      "signal": "Global service network; demand rising with CARB/NY SF6 phaseout rules from 2025-2027",
+      "status": "operating",
+      "source": "https://www.dilo-gmbh.com/"
+     },
+     {
+      "name": "Teledyne FLIR",
+      "role": "incumbent",
+      "what": "GF306 optical gas imaging cameras that visualize SF6 leaks at energized substations without outages.",
+      "signal": "Standard OGI tool across transmission utilities globally",
+      "status": "operating",
+      "source": "https://www.flir.com/products/gf306/"
+     },
+     {
+      "name": "WIKA",
+      "role": "incumbent",
+      "what": "SF6 gas density monitors and online telemetry (GDHT-20) giving grid operators continuous leak-rate visibility across gas-insulated switchgear fleets.",
+      "signal": "Instrumentation installed across global GIS fleets as 1%-leakage caps take effect",
+      "status": "operating",
+      "source": "https://www.wika.com/"
+     }
+    ],
+    "white_space": "Physics keeps satellites out: N2O/SF6/HFC point sources are too small and spectrally weak against background, so tracking depends on public flask networks (NOAA/AGAGE) and bottom-up inventories with huge error bars \u2014 top-down studies routinely find HFC and SF6 emissions far above reported figures. Tightening rules (EU F-gas regulation, CARB/NY SF6 phaseouts, EU urban-wastewater directive, N2O carbon-credit methodologies) are creating the first paid MRV demand; facility-level N2O monitoring for nitric/adipic acid and wastewater, fleet-wide SF6 telemetry analytics, and HFC supply-chain leak intelligence are all essentially unowned by startups."
+   },
+   {
+    "name": "Atmospheric flux networks & inversion modeling analytics",
+    "description": "Tower, ground, and satellite concentration measurements are run through atmospheric transport models ('inversions') to infer what regions, cities, or landscapes actually emitted \u2014 the top-down truth-check on every reported inventory.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "LI-COR Environmental",
+      "role": "incumbent",
+      "what": "Maker of the standard eddy-covariance gas analyzers and flux instrumentation behind FLUXNET/AmeriFlux/ICOS tower networks worldwide.",
+      "signal": "Acquired by Battery Ventures (2023); instruments anchor hundreds of flux towers globally",
+      "status": "acquired",
+      "source": "https://www.licor.com/"
+     },
+     {
+      "name": "Picarro",
+      "role": "incumbent",
+      "what": "Cavity ring-down spectrometers that power national GHG observation networks, urban monitoring, and vehicle-based gas-utility leak quantification.",
+      "signal": "Analyzers used by NOAA/WMO-class networks and major gas utilities' advanced leak detection programs",
+      "status": "operating",
+      "source": "https://www.picarro.com/"
+     },
+     {
+      "name": "Aerodyne Research",
+      "role": "incumbent",
+      "what": "High-end tunable-infrared laser spectrometers (TILDAS) for research-grade N2O, CH4, and isotope flux measurements.",
+      "signal": "Instrument supplier of record for atmospheric chemistry and flux research community",
+      "status": "operating",
+      "source": "https://www.aerodyne.com/"
+     },
+     {
+      "name": "CarbonSpace",
+      "role": "startup",
+      "what": "Satellite-based CO2 flux monitoring calibrated against the global FLUXNET tower network, sold to food, agri, and forestry companies for land-portfolio carbon tracking.",
+      "signal": "70+ projects across 40 countries and 3M+ hectares monitored; ISO 14064-certified methods",
+      "status": "operating",
+      "source": "https://carbonspace.tech/carbonspacevision"
+     },
+     {
+      "name": "Origins.earth",
+      "role": "startup",
+      "what": "Suez-backed venture running city-scale CO2 sensor networks with inversion modeling (Paris region) to track urban emissions trends for local governments.",
+      "signal": "Paris metropolitan CO2 monitoring network operational since 2019",
+      "status": "operating",
+      "source": "https://www.origins.earth/"
+     }
+    ],
+    "white_space": "Top-down inversion is scientifically mature (NOAA, ICOS, NASA OCO-2 all run it) but commercially thin because no one has been obliged to reconcile reported inventories against atmospheric observations; EU methane import rules, UNEP IMEO notifications, and national inventory reviews are starting to force that reconciliation, opening room for a paid 'emissions assurance' layer that owns calibrated sensor networks plus transport models \u2014 today only instrument makers and a couple of city/land pilots occupy the space."
+   }
+  ]
+ }
+}

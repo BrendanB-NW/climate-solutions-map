@@ -1,0 +1,367 @@
+{
+ "sector": "food",
+ "bucket": "Regenerative Agriculture & Soil Carbon",
+ "census": {
+  "bucket": "Regenerative Agriculture & Soil Carbon",
+  "sources": [
+   "https://trellis.net/article/indigo-ag-boomitra-soil-carbon-credits/",
+   "https://www.geekwire.com/2024/nori-a-seattle-based-carbon-removal-marketplace-that-raised-17m-shuts-down-after-7-years/",
+   "https://agfundernews.com/soil-carbon-startup-agreena-lands-50m-to-tear-down-the-financial-barriers-to-regen-ag",
+   "https://agfundernews.com/propagate-raises-10m-to-help-more-farmers-reap-the-benefits-of-agroforestry",
+   "https://www.carbonfuture.com/magazine/exomad-green-announces-worlds-largest-biochar-carbon-removal-agreement-with-microsoft-tracked-by-carbonfuture-mrv",
+   "https://www.axios.com/2025/01/16/google-carbon-removal-charm-industrial-biochar",
+   "https://grassrootscarbon.com/",
+   "https://savory.global/land-to-market/",
+   "https://landinstitute.org/our-work/perennial-crops/kernza/",
+   "https://www.science.org/content/article/perennial-rice-saves-time-and-money-comes-risks",
+   "https://carbonherald.com/yard-stick-secures-10-6m-for-innovative-soil-carbon-measurement-technology/",
+   "https://en.ain.ua/2025/05/02/lithuanian-heavyfinance-becomes-insoil/",
+   "https://www.cdr.fyi/blog/biochar-carbon-removal-market-snapshot-2025",
+   "https://agfundernews.com/klim-raises-massively-oversubscribed-series-a-adds-financial-services-layer-to-its-insetting-platform",
+   "https://www.esgdive.com/news/cdr-varaha-nabs-20m-investment-launches-biochar-partnership/811604/",
+   "https://agfundernews.com/indigo-ag-cuts-80-jobs-across-us-signs-new-carbon-credits-buyers"
+  ],
+  "variations": [
+   {
+    "name": "Regenerative practice enablement & transition-financing platforms",
+    "description": "Lenders and fintechs that front the cash, agronomy, and supply-chain 'insetting' deals farmers need to bridge the multi-year income dip when switching from conventional to regenerative practices, de-risking a transition that otherwise stalls on the grower's balance sheet.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Steward",
+      "role": "startup",
+      "what": "Mission-driven marketplace that originates business loans to regenerative farms and ag businesses, funded by retail/accredited lenders seeking 5-10% returns",
+      "signal": "Operating lending platform; live project pipeline of regenerative producers",
+      "status": "operating",
+      "source": "https://gosteward.com/"
+     },
+     {
+      "name": "InSoil (formerly HeavyFinance)",
+      "role": "scaleup",
+      "what": "Lithuanian climate fintech offering P2P green farm loans plus carbon-farming services to European SMEs transitioning to regenerative practices",
+      "signal": "Launched EUR50M private credit fund with EIF (EUR20M cornerstone); signed EUR100M facility with Key Carbon; rebranded from HeavyFinance Apr 2025",
+      "status": "operating",
+      "source": "https://en.ain.ua/2025/05/02/lithuanian-heavyfinance-becomes-insoil/"
+     },
+     {
+      "name": "Klim",
+      "role": "startup",
+      "what": "German carbon-insetting platform that pays farmers for regenerative practices and resells the Scope 3 reductions to food companies, now with an added financial-services/loan layer",
+      "signal": "$22M Series A (Nov 2024), led by BNP Paribas with Rabobank, AgFunder, Norinchukin; 'massively oversubscribed'",
+      "status": "operating",
+      "source": "https://agfundernews.com/klim-raises-massively-oversubscribed-series-a-adds-financial-services-layer-to-its-insetting-platform"
+     },
+     {
+      "name": "Mad Capital",
+      "role": "startup",
+      "what": "Connects organic and regenerative farmers/ranchers to patient capital from HNW investors and foundations via tailored transition loans",
+      "signal": "Backed by Builders Vision and The Rockefeller Foundation; active organic-transition lending",
+      "status": "operating",
+      "source": "https://onland.westernlandowners.org/2024/bottom-lines/financing-the-regenerative-transition/"
+     },
+     {
+      "name": "Mirova",
+      "role": "incumbent",
+      "what": "Natixis-affiliated impact asset manager deploying nature-based-solutions capital into regenerative-ag project developers and land funds at institutional scale",
+      "signal": "Decade-plus NbS track record; e.g. EUR26.4M (~$30M) into Varaha for soil-carbon scale-up",
+      "status": "operating",
+      "source": "https://www.wbcsd.org/resources/how-mirova-is-financing-regenerative-agriculture-at-scale/"
+     },
+     {
+      "name": "Lloyds Banking Group",
+      "role": "incumbent",
+      "what": "UK high-street bank offering a dedicated Agricultural Transition Finance loan with interest-free periods, flexible drawdowns, and fee waivers for the regenerative switch",
+      "signal": "Product launched Dec 2025; large incumbent ag-lending book",
+      "status": "operating",
+      "source": "https://www.agtechnavigator.com/Article/2025/12/15/lloyds-bets-on-regenerative-agriculture-with-new-transition-finance-loan/"
+     }
+    ]
+   },
+   {
+    "name": "Cover cropping, no-till & conservation-agriculture programs",
+    "description": "Programs that pay row-crop growers per acre to adopt no-till/strip-till and cover crops, the foundational practices that cut erosion and emissions and start building soil carbon, usually bundled with carbon-credit or supply-chain payments.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Indigo Ag",
+      "role": "scaleup",
+      "what": "Runs a registry-based carbon program paying growers for no-till and cover-crop adoption, originating and verifying cropland soil-carbon credits",
+      "signal": "Surpassed 2M MT verified credits across 5 issuances; signed Microsoft 2.85M-tonne deal; but cut ~80 jobs and split carbon/crop-protection businesses after 3 layoff rounds",
+      "status": "operating",
+      "source": "https://agfundernews.com/indigo-ag-cuts-80-jobs-across-us-signs-new-carbon-credits-buyers"
+     },
+     {
+      "name": "Truterra (Land O'Lakes)",
+      "role": "incumbent",
+      "what": "Ag-retailer-network sustainability program paying farmers up to $25/ac (strip/no-till), $55/ac (cover crop), or $80/ac (both), now channeled through Indigo's registry",
+      "signal": "2025 Truterra Registered Carbon Program live across Land O'Lakes co-op network; strategic collab with Indigo from Nov 2024",
+      "status": "operating",
+      "source": "https://www.truterraag.com/Articles/truterra-teams-up-with-indigo"
+     },
+     {
+      "name": "Agoro Carbon Alliance (Yara)",
+      "role": "incumbent",
+      "what": "Yara-backed program with a US agronomist network giving one-on-one support to farmers adopting conservation practices on cropland and pasture",
+      "signal": "Nationwide agronomist field network; backed by fertilizer major Yara",
+      "status": "operating",
+      "source": "https://agorocarbonalliance.com/"
+     },
+     {
+      "name": "Agreena",
+      "role": "scaleup",
+      "what": "European platform paying farmers to adopt no-till/cover crops and converting the outcomes into verified soil-carbon certificates",
+      "signal": "EUR46M (~$50M) Series B led by HV Capital; AgreenaCarbon registered under Verra VM0042",
+      "status": "operating",
+      "source": "https://agfundernews.com/soil-carbon-startup-agreena-lands-50m-to-tear-down-the-financial-barriers-to-regen-ag"
+     },
+     {
+      "name": "Nori",
+      "role": "startup",
+      "what": "Seattle blockchain carbon marketplace that paid US growers for no-till/cover-crop soil sequestration and sold credits (partly in crypto)",
+      "signal": "Raised $17.25M; cut 37% of staff in 2023, then shut down Sept 2024 amid stagnant voluntary carbon market",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.geekwire.com/2024/nori-a-seattle-based-carbon-removal-marketplace-that-raised-17m-shuts-down-after-7-years/"
+     }
+    ]
+   },
+   {
+    "name": "Soil carbon measurement, dMRV & agricultural carbon-credit programs",
+    "description": "The measurement, reporting and verification layer (satellites, AI, biogeochemical models, and low-cost field probes) that quantifies how much carbon regenerative practices actually store, plus the developers that turn those measurements into sellable credits, which is the make-or-break bottleneck for the whole bucket's credibility.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Agreena",
+      "role": "scaleup",
+      "what": "Field-level digital MRV combining satellite remote sensing, soil sampling, and machine learning to certify soil-carbon outcomes",
+      "signal": "AgreenaCarbon registered under Verra VM0042; EUR46M Series B; SustainCERT-verified Scope 3 project",
+      "status": "operating",
+      "source": "https://netzerocompare.com/software/agreena"
+     },
+     {
+      "name": "Boomitra",
+      "role": "startup",
+      "what": "Satellite + AI soil-carbon MRV focused on smallholder cropland and rangelands in the Global South, partnering with local orgs to issue credits",
+      "signal": "Issued 3.03M credits from the largest Verra-approved soil-carbon project to date; 500K-credit deal with Restoration Climate/Ethereum Climate Platform",
+      "status": "operating",
+      "source": "https://carbonherald.com/boomitra-issues-an-eyecatching-3-03m-credits-from-the-largest-verra-approved-soil-carbon-project-to-date/"
+     },
+     {
+      "name": "Yard Stick PBC",
+      "role": "startup",
+      "what": "Handheld in-situ spectroscopy probe that measures soil-carbon stocks in the field at a fraction of dry-combustion lab cost",
+      "signal": "~$30M raised total ($10.6M Series A led by Toyota Ventures); ARPA-E backed; peer-reviewed with Soil Health Institute",
+      "status": "operating",
+      "source": "https://carbonherald.com/yard-stick-secures-10-6m-for-innovative-soil-carbon-measurement-technology/"
+     },
+     {
+      "name": "Regrow Ag",
+      "role": "scaleup",
+      "what": "Biogeochemical-model (DNDC) MRV platform quantifying agricultural emissions and soil-carbon change for corporate Scope 3 and credit programs",
+      "signal": "~$63.6M raised; widely used by food/ag corporates for supply-shed accounting",
+      "status": "operating",
+      "source": "https://www.naturetechmemos.com/p/top-10-mrv-startups-revolutionizing-nature-based-solutions-in-2025"
+     },
+     {
+      "name": "Perennial (formerly Cloud Agronomics)",
+      "role": "startup",
+      "what": "Hyperspectral-imagery analytics that detect spectral signatures of soil carbon for non-invasive monitoring across large landscapes",
+      "signal": "Listed among 2025 top MRV startups; hyperspectral approach for landscape-scale soil-carbon mapping",
+      "status": "operating",
+      "source": "https://www.naturetechmemos.com/p/top-10-mrv-startups-revolutionizing-nature-based-solutions-in-2025"
+     },
+     {
+      "name": "ChrysaLabs",
+      "role": "startup",
+      "what": "Canadian in-field soil probe with AI spectral models that reads soil organic carbon and nutrients without lab combustion",
+      "signal": "Active soil-carbon MRV player frequently cited alongside Yard Stick",
+      "status": "operating",
+      "source": "https://www.useyardstick.com/press-coverage"
+     }
+    ]
+   },
+   {
+    "name": "Managed / rotational grazing & rangeland carbon",
+    "description": "Programs that move cattle in tight rotations to mimic wild herd impact, restoring perennial grassland cover and building soil carbon on rangeland, monetized through soil-carbon credits or outcome-verified regenerative sourcing.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Grassroots Carbon",
+      "role": "startup",
+      "what": "Works with ranchers on rotational/adaptive grazing, samples soil, and sells the resulting soil-carbon storage to corporate buyers",
+      "signal": "1.9M tons carbon removed/stored, >1.5M credits retired; buyers include Nestle, Microsoft, Chevron; prices above 2025 CCA floor",
+      "status": "operating",
+      "source": "https://trellis.net/article/regenerative-ranching-1-9m-tons-removed-carbon/"
+     },
+     {
+      "name": "Savory Institute (Land to Market)",
+      "role": "startup",
+      "what": "Runs Ecological Outcome Verification (EOV), an outcome-based grassland monitoring protocol, and the Land to Market verified-regenerative sourcing seal for meat/dairy/wool/leather",
+      "signal": "EOV used on 4M+ acres; 70+ brands incl. Burberry, Timberland, Applegate; 2.5M+ acres actively monitored",
+      "status": "operating",
+      "source": "https://savory.global/land-to-market/"
+     },
+     {
+      "name": "Agoro Carbon Alliance (Yara)",
+      "role": "incumbent",
+      "what": "Extends its agronomist-supported carbon program to pasture and rangeland grazing management, not just cropland",
+      "signal": "US-wide field network; backed by Yara",
+      "status": "operating",
+      "source": "https://agorocarbonalliance.com/"
+     },
+     {
+      "name": "Indigo Ag",
+      "role": "scaleup",
+      "what": "Includes grazing-land management within its registry-based soil-carbon program alongside cropland practices",
+      "signal": "Part of 2M+ MT verified credit base; Microsoft/large-corporate offtake",
+      "status": "operating",
+      "source": "https://www.indigoag.com/carbon-credits"
+     }
+    ],
+    "white_space": "Rangeland soil-carbon credit science is contested (high spatial variability, reversal risk, slow accrual) and 2025 deal activity in the sector fell ~21%, so few developers can underwrite grazing credits buyers trust; an opening exists for cheaper, denser in-situ measurement (e.g. probe networks) paired with outcome-based contracts that pay for verified ecological improvement rather than modeled tonnes."
+   },
+   {
+    "name": "Agroforestry, silvopasture & tree intercropping",
+    "description": "Integrating fruit, nut, and timber trees into croplands and pastures (and animals into orchards) to stack carbon, biodiversity, and diversified farm income on the same acre, which is one of the highest per-acre carbon strategies but requires patient capital for the years before trees yield.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Propagate",
+      "role": "startup",
+      "what": "Software-plus-services-plus-financing platform that designs, develops, and funds agroforestry conversions (fruit/nut/timber) and runs regional agroforestry hubs",
+      "signal": "$10M round (Jan 2025) from AgFunder and others; advises 20,000+ acres / 760,000 trees, manages 480+ commercial acres",
+      "status": "operating",
+      "source": "https://agfundernews.com/propagate-raises-10m-to-help-more-farmers-reap-the-benefits-of-agroforestry"
+     },
+     {
+      "name": "The Nature Conservancy (Expanding Agroforestry)",
+      "role": "incumbent",
+      "what": "NGO program providing training, planning, and grant funds to establish tens of thousands of acres of new US agroforestry plantings, prioritizing underserved farmers",
+      "signal": "Targets 30,000 acres / 200+ farmers; reactivated under USDA's Accelerating Markets for Producers program",
+      "status": "operating",
+      "source": "https://www.nature.org/en-us/what-we-do/our-priorities/provide-food-and-water-sustainably/expanding-agroforestry-production/"
+     },
+     {
+      "name": "Rizoma Agro",
+      "role": "startup",
+      "what": "Brazilian regenerative-organic operator using crop rotation, agroforestry, and crop-livestock/silvopastoral systems to produce certified grain",
+      "signal": "Cited among notable regenerative-ag operators; commercial Brazilian acreage",
+      "status": "operating",
+      "source": "https://www.startus-insights.com/innovators-guide/discover-5-top-agritech-startups-working-on-regenerative-farming/"
+     }
+    ],
+    "white_space": "Capital stays thin because trees impose a multi-year biological lag before any return, split incentives plague leased/rented land, and there's no standardized, high-integrity agroforestry carbon methodology, so most activity is grant- or NGO-funded rather than venture-scale; an opening exists for de-risked establishment financing bundled with guaranteed timber/nut + carbon offtake that lets landowners borrow against future tree cash flows."
+   },
+   {
+    "name": "Biochar production & soil application",
+    "description": "Pyrolyzing crop and forestry residue into a stable charcoal that locks carbon away for centuries when buried in soil, simultaneously improving water retention and fertility, currently the most-delivered form of durable carbon removal by volume.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Exomad Green",
+      "role": "scaleup",
+      "what": "Bolivian producer turning sawmill/forestry residue into biochar carbon-removal credits at industrial scale",
+      "signal": "Signed largest biochar CDR deal in history: 1.24M tonnes CO2 to Microsoft over 10 years (tracked by Carbonfuture)",
+      "status": "operating",
+      "source": "https://www.carbonfuture.com/magazine/exomad-green-announces-worlds-largest-biochar-carbon-removal-agreement-with-microsoft-tracked-by-carbonfuture-mrv"
+     },
+     {
+      "name": "Charm Industrial",
+      "role": "scaleup",
+      "what": "US CDR company that added biochar (from forest-management biomass) to its bio-oil sequestration line",
+      "signal": "Google contract for 100,000 tons CO2 through 2030, Charm's first biochar deal (Jan 2025)",
+      "status": "operating",
+      "source": "https://www.axios.com/2025/01/16/google-carbon-removal-charm-industrial-biochar"
+     },
+     {
+      "name": "Varaha",
+      "role": "startup",
+      "what": "India-based developer combining regenerative-ag soil carbon with a biochar production line for smallholder-residue feedstock",
+      "signal": "Google bought 100,000 t of credits; $20M round led by WestBridge (seeking ~$45M) plus prior $30M from Mirova",
+      "status": "operating",
+      "source": "https://www.esgdive.com/news/cdr-varaha-nabs-20m-investment-launches-biochar-partnership/811604/"
+     },
+     {
+      "name": "Carbo Culture",
+      "role": "startup",
+      "what": "Builds commercial biochar facilities for permanent carbon removal that also generate renewable energy from biomass",
+      "signal": "Announced ARC Middenmeer commercial facility in the Netherlands",
+      "status": "operating",
+      "source": "https://www.cdr.fyi/blog/cdr-monthly-recap-october-2025"
+     },
+     {
+      "name": "Airex Energy",
+      "role": "scaleup",
+      "what": "Canadian biochar producer scaling pyrolysis capacity and selling voluntary-market carbon credits",
+      "signal": "Raised CAD 38M to expand production capacity",
+      "status": "operating",
+      "source": "https://www.geoengineeringmonitor.org/geo-map-biochar-apr25"
+     },
+     {
+      "name": "Standard Biocarbon",
+      "role": "startup",
+      "what": "Maine-based producer of bulk biochar engineered for soil mixes, rootzones, and filtration media (commercial/industrial use first)",
+      "signal": "Operating commercial production; bulk-biochar product line for soil and materials markets",
+      "status": "operating",
+      "source": "https://www.standardbiocarbon.com/our-biochar/bulk-biochar/"
+     },
+     {
+      "name": "Restord",
+      "role": "startup",
+      "what": "UK biochar developer producing durable carbon-removal credits and soil amendment",
+      "signal": "First UK CDR company to secure a commercial loan: GBP1M from Oxbury Bank",
+      "status": "operating",
+      "source": "https://www.bioenergy-news.com/news/uk-biochar-developer-secures-first-commercial-loan-as-new-cdr-finance-initiative-launches/"
+     },
+     {
+      "name": "Planboo",
+      "role": "startup",
+      "what": "Sweden-based biochar MRV and production model working with smallholder producers (notably bamboo-residue feedstock)",
+      "signal": "$1.1M+ raised (Katapult, Silverstrand, Rockstart); Shopify offtake among 2024 buyers",
+      "status": "operating",
+      "source": "https://biochartoday.com/2025/01/24/shopifys-investment-in-biochar-and-carbon-removal-grows-in-2024/"
+     }
+    ]
+   },
+   {
+    "name": "Perennial & cover-crop seed/genetics (e.g., perennial grains)",
+    "description": "Breeding grain crops that live for years instead of being replanted annually, so deep permanent roots build soil carbon, prevent erosion, and cut tillage/input costs, a genetics-led path to making working croplands themselves regenerative.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "The Land Institute",
+      "role": "startup",
+      "what": "Nonprofit plant-breeding institute that developed Kernza (perennial intermediate wheatgrass) and is breeding perennial rice, sorghum, and wheat",
+      "signal": "~4,000 acres of Kernza across 15 US states and 10 countries; multi-decade breeding program",
+      "status": "operating",
+      "source": "https://landinstitute.org/our-work/perennial-crops/kernza/"
+     },
+     {
+      "name": "Yunnan University / Yunnan Academy of Agricultural Sciences (perennial rice PR23)",
+      "role": "incumbent",
+      "what": "Public research program that bred and commercialized perennial rice PR23, harvestable for 3-4 years without re-tilling or replanting",
+      "signal": "Commercial since 2018; 8,400+ ha by 2020 with 11,000+ smallholder farms; on China's MARA recommended-variety list; Science 2022 Breakthrough",
+      "status": "operating",
+      "source": "https://www.science.org/content/article/perennial-rice-saves-time-and-money-comes-risks"
+     },
+     {
+      "name": "Patagonia Provisions",
+      "role": "incumbent",
+      "what": "Food brand creating demand-pull for perennial grain by commercializing Kernza in beer, cereal, and other products",
+      "signal": "Long-running Kernza product line; anchor early buyer creating market for growers",
+      "status": "operating",
+      "source": "https://www.patagonia.com/stories/provisions/learn/kernza-perennial-grain/story-168529.html"
+     },
+     {
+      "name": "General Mills (Cascadian Farm)",
+      "role": "incumbent",
+      "what": "CPG major incorporating Kernza into mainstream cereals to scale farmer demand for the perennial grain",
+      "signal": "Nov 2025: quadrupled Kernza use, adding it (~1% of mix) to four top-selling flake cereals",
+      "status": "operating",
+      "source": "https://landinstitute.org/why-perennial/kernza-a-success-story/"
+     }
+    ],
+    "white_space": "Perennial-grain genetics remain pre-commercial in the West: yields still lag annual crops, breeding cycles run decades, and the work sits almost entirely with nonprofit/academic breeders plus a handful of demand-pull food brands, with no venture-scale seed-genetics company productizing the trait. An opening exists for a gene-editing/genomics-driven perennial-grain breeder that closes the yield gap and pairs varieties with guaranteed offtake and seed-licensing economics, mirroring how China's public sector already commercialized perennial rice."
+   }
+  ]
+ }
+}

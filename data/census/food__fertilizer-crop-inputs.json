@@ -1,0 +1,388 @@
+{
+ "sector": "food",
+ "bucket": "Fertilizer & Crop Inputs",
+ "census": {
+  "bucket": "Fertilizer & Crop Inputs",
+  "variations": [
+   {
+    "name": "Nitrogen-fixing microbes / biological nitrogen fixation",
+    "description": "Engineered or naturally-selected bacteria applied to seeds or roots pull nitrogen from the air and feed it to non-legume crops like corn and wheat, replacing 20-50 lbs/acre of synthetic nitrogen and cutting the N2O and CO2 footprint of fertilizer manufacture and field loss.",
+    "maturity": "scaling",
+    "white_space": "Despite ~$1B cumulative VC, no product reliably replaces more than ~25% of nitrogen; biological N is dosage-limited by microbe colonization and oxygen sensitivity of nitrogenase, and farmers won't pay for an input they must still backstop with urea. Opening: strains that fix N even under high soil-nitrate conditions (the ammonia 'switch-off' problem) and verifiable yield-or-money-back guarantees to overcome trust gap.",
+    "companies": [
+     {
+      "name": "Pivot Bio",
+      "role": "scaleup",
+      "what": "Gene-edits soil microbes (e.g. Kosakonia, Klebsiella) so they keep fixing nitrogen even when fertilizer is present; on-seed PROVEN line for corn, sorghum, spring wheat.",
+      "signal": "$430M Series D (DCVC, Temasek) bringing total to ~$1B+; deployed on millions of acres; cut research footprint by exiting Berkeley and consolidating to St. Louis (2025).",
+      "status": "operating",
+      "source": "https://www.berkeleyside.org/2025/06/18/pivot-bio-leaving-berkeley"
+     },
+     {
+      "name": "Kula Bio",
+      "role": "startup",
+      "what": "Uses Xanthobacter autotrophicus charged with an energy reserve, sold as shelf-stable soluble powders (Kula-NSP, Kula-NextSP) delivered to the root zone.",
+      "signal": "Raised >$70M; commercial launch of shelf-stable powder line; claims up to 65% greater fixation efficiency vs conventional diazotrophs.",
+      "status": "operating",
+      "source": "https://www.cottongrower.com/cotton-news/kula-bio-launches-new-line-of-nitrogen-fixing-biological-products/"
+     },
+     {
+      "name": "Azotic Technologies",
+      "role": "scaleup",
+      "what": "Envita product uses Gluconacetobacter diazotrophicus, an endophyte that colonizes inside plant cells across many crops to fix atmospheric nitrogen.",
+      "signal": "7 years of US sales growth, millions of acres treated; 3rd most-recognized biological brand in North America per company; new CEO appointed June 2025 to accelerate global commercialization.",
+      "status": "operating",
+      "source": "https://agnewswire.com/2025/06/04/new-azotic-ceo-positioned-to-accelerate-companys-global-commercial-success/"
+     },
+     {
+      "name": "Corteva Agriscience (Utrisha N)",
+      "role": "incumbent",
+      "what": "Foliar biostimulant using a licensed strain of Methylobacterium symbioticum (SB23) that colonizes leaves and fixes airborne nitrogen into ammonium inside the plant.",
+      "signal": "Globally registered and sold by a major agrochem incumbent; delivers ~30 kg N/ha per season; backed by Corteva's distribution scale.",
+      "status": "operating",
+      "source": "https://www.corteva.co.uk/products-and-solutions/biologicals/utrisha-n.html"
+     },
+     {
+      "name": "Andes",
+      "role": "startup",
+      "what": "Microprime seed-treatment combines seeds with a microbe library that colonizes the root structure to boost biological nitrogen fixation; also pursuing soil carbon removal.",
+      "signal": "$15M Series A co-led by Leaps by Bayer and Cavallo Ventures (Wilbur-Ellis) in early 2025; first-gen corn product targets 30-50 lbs N/acre.",
+      "status": "operating",
+      "source": "https://agfundernews.com/andes-scores-15m-series-a-funding-from-bayer-wilbur-ellis"
+     },
+     {
+      "name": "Ginkgo Bioworks (Joyn Bio legacy, Bayer alliance)",
+      "role": "scaleup",
+      "what": "Applies AI-driven cell programming to engineer next-gen nitrogen-fixing microbes for Bayer, building on assets of the former Joyn Bio JV folded into Ginkgo in 2022.",
+      "signal": "Bayer-Ginkgo partnership renewed/extended Nov 2025 to develop field-ready N-fixing biologicals with improved efficacy, stability and cost.",
+      "status": "operating",
+      "source": "https://www.agtechnavigator.com/Article/2025/11/10/ginkgo-and-bayer-double-down-on-microbial-nitrogen-fixation-in-renewed-alliance/"
+     },
+     {
+      "name": "BioConsortia",
+      "role": "startup",
+      "what": "Uses directed-selection of microbial communities to develop nitrogen-fixing strains for cereal crops; partnered with fertilizer major Mosaic on commercialization.",
+      "signal": "Mosaic-BioConsortia collaboration announced to bring nitrogen-fixing microbial products to market; backs lab-to-field strain discovery platform.",
+      "status": "operating",
+      "source": "https://bioconsortia.com/mosaic-and-bioconsortia-to-collaborate-on-new-nitrogen-fixing-microbial-products/"
+     },
+     {
+      "name": "Switch Bioworks",
+      "role": "startup",
+      "what": "Engineers microbes that first establish on plant roots, then 'switch on' nitrogen fertilizer production \u2014 designed to solve colonization-vs-fixation tradeoff.",
+      "signal": "Early-stage; profiled Nov 2025 as a novel approach to the root-colonization bottleneck in microbial N.",
+      "status": "operating",
+      "source": "https://agfundernews.com/inside-ginkgo-and-bayers-quest-to-rewrite-the-fertilizer-rulebook-the-race-to-create-next-gen-nitrogen-fixing-biologicals"
+     }
+    ]
+   },
+   {
+    "name": "Enhanced-efficiency fertilizers, coatings & nitrification/urease inhibitors",
+    "description": "Polymer coatings, urease inhibitors (e.g. NBPT) and nitrification inhibitors (e.g. pronitridine, DMPP) slow the conversion of fertilizer nitrogen into leachable nitrate and volatile ammonia, keeping more N in the root zone and directly suppressing N2O emissions \u2014 the single largest near-term lever on fertilizer climate impact.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Koch Agronomic Services (Koch Industries)",
+      "role": "incumbent",
+      "what": "Market-leading inhibitor portfolio: AGROTAIN (NBPT urease inhibitor), CENTURO/CENTURO A-PRO (pronitridine nitrification inhibitor for anhydrous ammonia/UAN), ANVOL, and SUPERU dual-inhibitor stabilized urea.",
+      "signal": "25+ years of NBPT field data on millions of acres; CENTURO A-PRO offers 3x active-ingredient concentration at lower use rate; EPA-approved pronitridine technology.",
+      "status": "operating",
+      "source": "https://kochagronomicservices.com/centuro"
+     },
+     {
+      "name": "Nutrien (ESN)",
+      "role": "incumbent",
+      "what": "ESN (Environmentally Smart Nitrogen) is a polymer-coated controlled-release urea; Nutrien also distributes inhibitor-treated products through its retail network.",
+      "signal": "Record upstream fertilizer sales volumes in 9 months of 2025; ESN is a flagship controlled-release product in the world's largest ag-retail network.",
+      "status": "operating",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001725964/000119312525267372/d42678dex991.htm"
+     },
+     {
+      "name": "Yara International",
+      "role": "incumbent",
+      "what": "Global nitrogen major offering nitrate-based and inhibitor-enhanced fertilizers (e.g. YaraVera/YaraBela lines) plus DMPP-type nitrification inhibitor products to lower N losses.",
+      "signal": "One of the world's largest nitrogen fertilizer producers; positions enhanced-efficiency and low-carbon fertilizer as core decarbonization strategy.",
+      "status": "operating",
+      "source": "https://www.croplife.com/special-reports/biologicals/biologicals-continue-to-grow/"
+     },
+     {
+      "name": "Verdesian Life Sciences",
+      "role": "scaleup",
+      "what": "Specialty nutrient-use-efficiency additives including NutriSphere-N (urease/nitrification management polymer) and a portfolio of biostimulant and fertilizer-coating chemistries.",
+      "signal": "Established specialty player focused exclusively on nutrient-efficiency and biological additives; broad distribution across US row crops.",
+      "status": "operating",
+      "source": "https://www.croplife.com/special-reports/biologicals/biologicals-continue-to-grow/"
+     },
+     {
+      "name": "Corteva Agriscience (Instinct / N-Serve)",
+      "role": "incumbent",
+      "what": "Sells the nitrapyrin-based nitrification inhibitors N-Serve (for anhydrous ammonia) and Instinct (for UAN/manure), among the longest-running EEF chemistries in the US.",
+      "signal": "Nitrapyrin franchise long established in US corn; backed by Corteva's crop-protection distribution and field-trial network.",
+      "status": "operating",
+      "source": "https://www.ndsu.edu/agriculture/ag-hub/ag-topics/crop-production/soil-health/soil-fertility/considerations-use-enhanced-efficiency"
+     }
+    ]
+   },
+   {
+    "name": "Green, distributed & on-farm ammonia / nitrogen production (ag-side)",
+    "description": "Modular, renewable-powered electrolysis-plus-Haber-Bosch (or novel electrochemical) units make ammonia or nitrate fertilizer at or near the farm from air, water and clean electricity, eliminating the fossil-gas feedstock that gives synthetic nitrogen most of its CO2 footprint and cutting import/logistics dependence.",
+    "maturity": "demonstration",
+    "white_space": "Economics are brutal at small scale: distributed green ammonia only pencils where renewable power is cheap and fertilizer imports are expensive (sub-Saharan Africa, remote Midwest, Brazil). Electrochemical 'ammonia without Haber-Bosch' remains pilot-stage on energy efficiency. Opening: hybrid models that co-locate with existing ethanol/renewable plants (Tsubame-Atvos) or convert almond/biomass waste to fertilizer (Nitricity), sidestepping pure-play electrolysis cost.",
+    "companies": [
+     {
+      "name": "Talus Renewables",
+      "role": "startup",
+      "what": "Modular, containerized zero-carbon green ammonia systems (TalusOne) for on-site/regional fertilizer; first US commercial unit with farmer co-op Landus in Iowa.",
+      "signal": "Opened first-of-a-kind commercial distributed green ammonia facility with Landus (Iowa); farmers able to use green anhydrous ammonia from spring 2025.",
+      "status": "operating",
+      "source": "https://rmi.org/seeding-a-new-pathway-the-opportunity-for-distributed-green-ammonia/"
+     },
+     {
+      "name": "Nitricity",
+      "role": "startup",
+      "what": "Uses renewable electricity and a plasma/electrochemical process plus recycled almond-shell biomass to make 'Ash Tea,' a liquid organic nitrogen fertilizer at point-of-use.",
+      "signal": "$50M Series B (Sept 2025; World Fund, Khosla, Chipotle's Cultivate Next); first commercial plant in Delhi, CA breaking ground, output sold out through 2028; claims up to 92% emissions cut.",
+      "status": "operating",
+      "source": "https://www.esgtoday.com/nitricity-raises-50-million-to-scale-sustainable-low-carbon-fertilizer-technology/"
+     },
+     {
+      "name": "Atlas Agro",
+      "role": "scaleup",
+      "what": "Builds industrial-scale green nitrogen fertilizer plants producing green hydrogen, ammonia and ammonium nitrate from renewables; Richland WA (US) and Uberaba (Brazil) projects.",
+      "signal": "Commenced engineering on first Brazil plant; selected KBR green ammonia tech; signed low-carbon fertilizer supply agreement with Tereos; FID expected ~2025, production ~2027-28.",
+      "status": "operating",
+      "source": "https://www.atlasagro.ag/atlas-agro-commences-engineering-for-the-first-green-nitrogen-fertilizer-plant-in-brazil/"
+     },
+     {
+      "name": "Tsubame BHB",
+      "role": "startup",
+      "what": "Japanese firm with a low-temperature/low-pressure catalytic process enabling small-scale on-site ammonia synthesis in distributed locations.",
+      "signal": "Raised \u00a55.3B Series C; signed LOI with Atvos (Brazil) for a 20,000 t/yr renewable-powered aqueous ammonia plant co-located with an ethanol facility to replace fossil fertilizers.",
+      "status": "operating",
+      "source": "https://tsubame-bhb.co.jp/en/news-en/6347/"
+     },
+     {
+      "name": "FuelPositive",
+      "role": "startup",
+      "what": "Decentralized on-farm green ammonia systems (FP300, ~300 kg ammonia/day) for Canadian farmers, running on hydroelectric grid power.",
+      "signal": "Partnered with Stantec on Canada's first farmer-owned green ammonia system; publicly traded (TSXV); FP300 targets farms of hundreds-to-thousands of acres.",
+      "status": "operating",
+      "source": "https://www.stantec.com/en/news/2025/stantec-partners-fuelpositive-canadas-first-farmer-owned-green-ammonia-system"
+     },
+     {
+      "name": "Nitricity / Atmonia",
+      "role": "startup",
+      "what": "Atmonia (Iceland) is developing an electrochemical catalyst to make ammonia directly from air and water at ambient conditions, bypassing Haber-Bosch.",
+      "signal": "Partnered with Fujitsu on materials-informatics catalyst discovery; remains lab/pilot stage on energy efficiency.",
+      "status": "uncertain",
+      "source": "https://www.cleantech.com/green-ammonia-whats-new/"
+     }
+    ]
+   },
+   {
+    "name": "Microbial biostimulants, biofertilizers & mycorrhizae",
+    "description": "Living microbes \u2014 plant-growth-promoting rhizobacteria, mycorrhizal fungi, and bacterial 'microbiome activators' \u2014 applied to seed, soil or foliage improve nutrient uptake and stress tolerance so crops need less synthetic N and P, while mycorrhizae can also store soil carbon.",
+    "maturity": "scaling",
+    "white_space": "Funding to the category fell ~86% from its 2023 peak; efficacy is highly variable across soils and seasons, and many products are sold on agronomic 'activation' claims that are hard to verify, eroding farmer trust. Opening: outcome-based pricing (paying growers to cut fertilizer) and pairing biostimulants with carbon-credit revenue (mycorrhizae) to monetize beyond yield.",
+    "companies": [
+     {
+      "name": "Sound Agriculture",
+      "role": "scaleup",
+      "what": "SOURCE is a small-molecule 'microbiome activator' that stimulates native soil microbes to free up nitrogen and phosphorus; BLUEPRINT delivers arbuscular mycorrhizal fungi.",
+      "signal": "~$195M raised over 8 rounds; $25M Series D extension (Dec 2024, BMO/S2G, Leaps by Bayer, Syngenta Ventures); now pays growers to replace N and P.",
+      "status": "operating",
+      "source": "https://agfundernews.com/biostimulant-maker-sound-agriculture-bags-additional-25m-will-pay-growers-to-replace-nitrogen-and-phosphorus"
+     },
+     {
+      "name": "Groundwork BioAg",
+      "role": "scaleup",
+      "what": "Manufactures Rootella mycorrhizal inoculants at scale for broad-acre crops, improving nutrient/water uptake and enabling soil-carbon storage.",
+      "signal": "~$29M raised over 3 rounds; latest Series C+ (Nov 2025); partnered with Indigo Ag to combine mycorrhizae with microbial endophytes.",
+      "status": "operating",
+      "source": "https://pitchbook.com/profiles/company/98827-57"
+     },
+     {
+      "name": "Indigo Ag",
+      "role": "scaleup",
+      "what": "Microbial seed treatments (Biotrinsic line) using endophytes to boost yield and stress tolerance; also runs a carbon program; partnered on mycorrhizae with Groundwork BioAg.",
+      "signal": "Raised a $270M round in 2023 (one of the largest biologicals deals); large microbial endophyte collection and broad US commercial footprint.",
+      "status": "operating",
+      "source": "https://www.indigoag.com/biological-solutions"
+     },
+     {
+      "name": "Loam Bio",
+      "role": "startup",
+      "what": "Microbial seed inoculum (CarbonBuilder) using fungi to increase stable soil-carbon storage; SecondCrop monetizes soil-carbon credits for farmers.",
+      "signal": "A$105M (~$73M) Series B co-led by Lowercarbon Capital and Wollemi; ~$120M total; commercially launched in Australia.",
+      "status": "operating",
+      "source": "https://agfundernews.com/loam-bio-raises-75m-series-b-from-lowercarbon-acre-others-to-boost-soil-carbon"
+     },
+     {
+      "name": "Biobest",
+      "role": "incumbent",
+      "what": "Belgian biologicals major spanning biocontrol and biostimulants/beneficial microbes; a consolidating buyer in the sector.",
+      "signal": "Raised ~$391M in 2023, one of the two mega-rounds that drove the category's funding peak; broad European/global commercial scale.",
+      "status": "operating",
+      "source": "https://agfundernews.com/interest-in-biostimulants-extraordinary-despite-86-funding-drop-to-category"
+     },
+     {
+      "name": "Corteva Agriscience",
+      "role": "incumbent",
+      "what": "Major agrochem incumbent that has built/acquired a biologicals portfolio (biostimulants and microbial nutrient-efficiency products such as Utrisha N).",
+      "signal": "Publicly committed to scaling biologicals as a growth segment; global distribution and field-development infrastructure.",
+      "status": "operating",
+      "source": "https://www.corteva.co.uk/products-and-solutions/biologicals/utrisha-n.html"
+     }
+    ]
+   },
+   {
+    "name": "Biopesticides, biocontrol & RNAi crop protection",
+    "description": "Naturally-derived or precision tools \u2014 microbial biopesticides, insect pheromones, and sprayable RNA interference that silences a specific pest gene \u2014 replace broad-spectrum synthetic chemistry, reducing the manufacturing and field emissions and ecological harm of conventional pesticides while preserving yield.",
+    "maturity": "scaling",
+    "white_space": "RNAi sprays are at most demonstration-stage commercially (one registered foliar product), constrained by RNA stability, delivery cost, and slow EPA pathways; pheromones only recently became cheap enough for row crops. Opening: low-cost biomanufacturing (Provivi-style biocatalysis) and platform RNAi to compress the cost-per-acre that has blocked broad-acre adoption.",
+    "companies": [
+     {
+      "name": "GreenLight Biosciences",
+      "role": "scaleup",
+      "what": "Cell-free biomanufacturing of double-stranded RNA for sprayable RNAi pesticides; Calantha (ledprona) is the first EPA-registered foliar RNA crop-protection product, targeting Colorado potato beetle.",
+      "signal": "Survived a failed SPAC and 2023 take-private by Fall Line Capital (~$45.5M); \u20ac35M EIB loan (Feb 2025) + $25M Series C extension; pipeline of ~10 EU products; aims to register 7 ag products by end-2026.",
+      "status": "operating",
+      "source": "https://www.eib.org/en/press/all/2025-048-eib-finances-greenlight-biosciences-with-eur35-million-to-invest-in-research-and-production-of-rna-based-biological-pesticides"
+     },
+     {
+      "name": "Provivi",
+      "role": "scaleup",
+      "what": "Uses biocatalysis/fermentation to make insect mating-disruption pheromones cheaply enough for row crops (corn, rice, soy); Pheron line targets fall armyworm and stem borers.",
+      "signal": "Raised >$230M (Gates Foundation, BASF VC, Temasek); in 2025 signed 5 regional partnerships (UPL, Koppert do Brasil, AgNova, Andermatt, Susbin) to scale globally.",
+      "status": "operating",
+      "source": "https://agfundernews.com/provivi-sees-major-expansion-of-pheromone-based-crop-protection-via-corporate-partnerships"
+     },
+     {
+      "name": "AgBiome",
+      "role": "scaleup",
+      "what": "Genesis platform screens environmental microbes to discover biocontrol agents; lead product Howler is a microbial fungicide for soil-borne and foliar diseases.",
+      "signal": "Raised ~$233M total including a $116M Series D (Blue Horizon, Novalis; with Bayer, Mosaic, ARCH); broad microbial discovery library.",
+      "status": "operating",
+      "source": "https://agfundernews.com/agbiome-raises-116m-in-series-d-funding"
+     },
+     {
+      "name": "Koppert",
+      "role": "incumbent",
+      "what": "Global biocontrol major supplying beneficial insects, microbials and pheromones; partnering with innovators (e.g. Provivi in Brazil) to distribute next-gen biocontrol.",
+      "signal": "Long-established global leader in biological crop protection with deep grower distribution; active commercialization partner in 2025 deals.",
+      "status": "operating",
+      "source": "https://www.provivi.com/en/news-articles/provivi-accelerates-global-expansion-with-major-new-partnerships-and-advances-in-sustainable-crop-protection"
+     },
+     {
+      "name": "Bayer Crop Science",
+      "role": "incumbent",
+      "what": "Major agrochem developing RNAi-based crop protection (sprayable and trait-based) and a biologicals portfolio; partners with Ginkgo and others on the technology.",
+      "signal": "Active RNAi and biologicals R&D programs; positions precision biologicals as part of its crop-protection pipeline and Ginkgo alliance.",
+      "status": "operating",
+      "source": "https://agfundernews.com/inside-ginkgo-and-bayers-quest-to-rewrite-the-fertilizer-rulebook-the-race-to-create-next-gen-nitrogen-fixing-biologicals"
+     },
+     {
+      "name": "Andermatt Group",
+      "role": "scaleup",
+      "what": "Swiss biocontrol specialist (baculoviruses, microbials, biostimulants) expanding in emerging markets; regional partner for novel pheromone and RNAi products.",
+      "signal": "Named a 2025 East Africa partner in Provivi's pheromone rollout; established global biocontrol manufacturer and distributor.",
+      "status": "operating",
+      "source": "https://agfundernews.com/provivi-sees-major-expansion-of-pheromone-based-crop-protection-via-corporate-partnerships"
+     }
+    ]
+   },
+   {
+    "name": "Recovered / circular nutrients (struvite, nutrient recapture)",
+    "description": "Wastewater treatment plants, manure digesters and food/biomass waste streams are mined to precipitate struvite (magnesium-ammonium-phosphate) and recover nitrogen and phosphorus as slow-release fertilizer, closing the nutrient loop and displacing energy-intensive mined phosphate and Haber-Bosch nitrogen.",
+    "maturity": "scaling",
+    "white_space": "Recovery only captures a slice of nutrients (Ostara cites ~45-50% of inflow P) and depends on host wastewater/digester economics, so it is a complement, not a replacement, for mined/synthetic supply. Pure-play bio-based fertilizer makers that tried to scale on waste upcycling (Anuvia) failed on cost. Opening: tighter integration with utilities' phosphorus-discharge compliance needs and manure/agri-waste streams where disposal cost subsidizes the fertilizer.",
+    "companies": [
+     {
+      "name": "Ostara",
+      "role": "scaleup",
+      "what": "Pearl reactor precipitates struvite from municipal wastewater (with WASSTRIP enhancement) into Crystal Green, a root-activated slow-release P fertilizer.",
+      "signal": "WASSTRIP/Crystal Green operating at ~12 wastewater plants worldwide, recovering ~45-50% of inflow phosphorus; partnered with Evoqua for sales/delivery.",
+      "status": "operating",
+      "source": "https://www.ostara.com/nutrient-recovery/nutrient-recovery-solutions/"
+     },
+     {
+      "name": "NuReSys",
+      "role": "scaleup",
+      "what": "Belgian controlled struvite-crystallization technology recovering P (and N) from digested sludge and agro-industrial wastewater into pelletized Bio-Stru fertilizer.",
+      "signal": "9 operational units across Europe on municipal sludge and agro-industrial streams; positioned as a major phosphorus-recovery technology provider.",
+      "status": "operating",
+      "source": "https://nuresys.com/"
+     },
+     {
+      "name": "CNP (Centrisys/CNP)",
+      "role": "scaleup",
+      "what": "Provides AirPrex and related struvite-recovery/biosolids systems that precipitate struvite to improve sludge dewaterability and recover phosphorus as fertilizer.",
+      "signal": "Named among the leading struvite-recovery technology providers; commercial installations at wastewater resource-recovery facilities.",
+      "status": "operating",
+      "source": "https://dataintelo.com/report/struvite-fertilizer-market"
+     },
+     {
+      "name": "Multiform Harvest",
+      "role": "startup",
+      "what": "Cone-reactor struvite recovery process designed for smaller/medium wastewater plants, recovering phosphorus and ammonia as fertilizer.",
+      "signal": "Cited among key struvite recovery companies; technology deployed alongside Ostara/WASSTRIP in utility projects.",
+      "status": "uncertain",
+      "source": "https://www.hazenandsawyer.com/projects/nutrient-recovery-using-ostara-with-wasstrip-multiform-harvest"
+     },
+     {
+      "name": "Fyto",
+      "role": "startup",
+      "what": "Grows duckweed in nitrogen-rich dairy wastewater; harvested biomass becomes cattle feed or is converted into plant-based fertilizer, recapturing manure nutrients.",
+      "signal": "Granted a fertilizer license; promising early trial results; plans to begin selling plant-based fertilizer products (2025).",
+      "status": "operating",
+      "source": "https://news.mit.edu/2025/fyto-helps-farmers-grow-plant-based-feed-and-fertilizer-using-wastewater-0506"
+     },
+     {
+      "name": "Anuvia Plant Nutrients",
+      "role": "startup",
+      "what": "Made SymTRX bio-based enhanced-efficiency fertilizer by upcycling recycled organic waste into a nutrient-dense granule at a repurposed Mosaic phosphate site.",
+      "signal": "Raised ~$307M (incl. $65.5M Series D, 2022) but suspended operations and liquidated assets effective May 2023 \u2014 a marquee failure on cost/scale.",
+      "status": "bankrupt-shutdown",
+      "source": "https://informaconnect.com/anuvia-plant-nutrients-suspends-operations-and-will-liquidate-assets/"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.berkeleyside.org/2025/06/18/pivot-bio-leaving-berkeley",
+   "https://agritechdigest.com/pivot-bio-cuts-workforce-exits-berkeley-amid-restructuring/",
+   "https://www.cottongrower.com/cotton-news/kula-bio-launches-new-line-of-nitrogen-fixing-biological-products/",
+   "https://agnewswire.com/2025/06/04/new-azotic-ceo-positioned-to-accelerate-companys-global-commercial-success/",
+   "https://agfundernews.com/andes-scores-15m-series-a-funding-from-bayer-wilbur-ellis",
+   "https://www.agtechnavigator.com/Article/2025/11/10/ginkgo-and-bayer-double-down-on-microbial-nitrogen-fixation-in-renewed-alliance/",
+   "https://agfundernews.com/inside-ginkgo-and-bayers-quest-to-rewrite-the-fertilizer-rulebook-the-race-to-create-next-gen-nitrogen-fixing-biologicals",
+   "https://bioconsortia.com/mosaic-and-bioconsortia-to-collaborate-on-new-nitrogen-fixing-microbial-products/",
+   "https://kochagronomicservices.com/centuro",
+   "https://kochagronomicservices.com/superu",
+   "https://www.ndsu.edu/agriculture/ag-hub/ag-topics/crop-production/soil-health/soil-fertility/considerations-use-enhanced-efficiency",
+   "https://rmi.org/seeding-a-new-pathway-the-opportunity-for-distributed-green-ammonia/",
+   "https://www.esgtoday.com/nitricity-raises-50-million-to-scale-sustainable-low-carbon-fertilizer-technology/",
+   "https://www.atlasagro.ag/atlas-agro-commences-engineering-for-the-first-green-nitrogen-fertilizer-plant-in-brazil/",
+   "https://tsubame-bhb.co.jp/en/news-en/6347/",
+   "https://www.stantec.com/en/news/2025/stantec-partners-fuelpositive-canadas-first-farmer-owned-green-ammonia-system",
+   "https://www.cleantech.com/green-ammonia-whats-new/",
+   "https://agfundernews.com/biostimulant-maker-sound-agriculture-bags-additional-25m-will-pay-growers-to-replace-nitrogen-and-phosphorus",
+   "https://agfundernews.com/interest-in-biostimulants-extraordinary-despite-86-funding-drop-to-category",
+   "https://pitchbook.com/profiles/company/98827-57",
+   "https://agfundernews.com/loam-bio-raises-75m-series-b-from-lowercarbon-acre-others-to-boost-soil-carbon",
+   "https://www.mixingbowlhub.com/landscape/2025-crop-biostimulant-landscape",
+   "https://www.eib.org/en/press/all/2025-048-eib-finances-greenlight-biosciences-with-eur35-million-to-invest-in-research-and-production-of-rna-based-biological-pesticides",
+   "https://spudman.com/news/epa-approves-greenlight-bio-bioinsecticide-targeting-colorado-potato-beetle/",
+   "https://agfundernews.com/provivi-sees-major-expansion-of-pheromone-based-crop-protection-via-corporate-partnerships",
+   "https://agfundernews.com/agbiome-raises-116m-in-series-d-funding",
+   "https://www.marketsandmarkets.com/Market-Reports/biopesticides-267.html",
+   "https://www.ostara.com/nutrient-recovery/nutrient-recovery-solutions/",
+   "https://nuresys.com/",
+   "https://dataintelo.com/report/struvite-fertilizer-market",
+   "https://www.hazenandsawyer.com/projects/nutrient-recovery-using-ostara-with-wasstrip-multiform-harvest",
+   "https://news.mit.edu/2025/fyto-helps-farmers-grow-plant-based-feed-and-fertilizer-using-wastewater-0506",
+   "https://informaconnect.com/anuvia-plant-nutrients-suspends-operations-and-will-liquidate-assets/",
+   "https://www.corteva.co.uk/products-and-solutions/biologicals/utrisha-n.html"
+  ]
+ }
+}

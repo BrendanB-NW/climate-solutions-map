@@ -1,0 +1,611 @@
+{
+ "sector": "cdr",
+ "bucket": "Direct Air Capture",
+ "census": {
+  "bucket": "Direct Air Capture",
+  "variations": [
+   {
+    "name": "Liquid solvent DAC (hydroxide capture + calciner regeneration)",
+    "description": "Giant fan-driven contactors absorb CO2 into a potassium hydroxide solution that is regenerated through a 900C calcium-looping calciner, favoring very large centralized plants that can leverage oil-and-gas engineering and economies of scale.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "1PointFive (Occidental)",
+      "role": "scaleup",
+      "what": "Operates Stratos in Ector County, TX \u2014 the world's largest DAC plant (up to 500 ktpa design) using Carbon Engineering's hydroxide/calciner process \u2014 and develops the South Texas DAC hub on King Ranch.",
+      "signal": "Stratos started up mid-2025; first-ever EPA Class VI permits for DAC storage; leads DAC market with ~1.3 Mt credits sold (52% of all DAC tonnes contracted 2020-H1 2025) to Microsoft, Airbus, AT&T and others",
+      "status": "operating",
+      "source": "https://www.1pointfive.com/projects/stratos"
+     },
+     {
+      "name": "Carbon Engineering",
+      "role": "startup",
+      "what": "Invented the KOH-capture/calcium-loop DAC process and air-to-fuels variant, proven at its Squamish, BC pilot since 2015 before becoming Oxy's technology engine.",
+      "signal": "Acquired by Occidental for $1.1B (Aug 2023) \u2014 the largest DAC exit to date",
+      "status": "acquired",
+      "source": "https://carbonengineering.com"
+     },
+     {
+      "name": "Occidental / Oxy Low Carbon Ventures",
+      "role": "incumbent",
+      "what": "Oil major rolling up DAC technology (Carbon Engineering 2023, Holocene 2025) and bankrolling plant buildout, pairing capture with its CO2 sequestration and EOR infrastructure.",
+      "signal": "DOE confirmed retention of South Texas DAC hub funding (part of $1.2B, Apr 2026); BlackRock invested $550M in Stratos JV",
+      "status": "operating",
+      "source": "https://heatmap.news/climate-tech/occidental-buys-holocene"
+     },
+     {
+      "name": "Worley",
+      "role": "incumbent",
+      "what": "Global EPC firm that delivered engineering, procurement and construction for Stratos, making it the de facto constructor for gigascale liquid-solvent DAC.",
+      "signal": "Completed Stratos EPC 2025; positioned for follow-on DAC hub work",
+      "status": "operating",
+      "source": "https://www.worley.com"
+     }
+    ],
+    "white_space": "The 900C calciner loop only pencils at mega-scale, so entry requires billions and oil-major balance sheets \u2014 effectively an Oxy monopoly today; openings are in component/EPC supply, licensing efficiency improvements to operators, and lower-temperature regeneration chemistries rather than new vertically integrated entrants."
+   },
+   {
+    "name": "Liquid amino-acid / non-caustic solvent DAC",
+    "description": "Benign liquid solvents (amino acid salts, carbonate solutions) absorb CO2 at ambient conditions and are regenerated at low temperature (80-120C) or electrochemically, avoiding caustic chemicals and enabling use of waste heat instead of high-grade energy.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Holocene",
+      "role": "startup",
+      "what": "Amino-acid solution capture combined with guanidine crystallization so CO2 is released from a solid at just 80-120C, based on ORNL chemistry.",
+      "signal": "Signed $10M/100kt deal with Google at ~$100/t (Sept 2024) \u2014 lowest disclosed DAC price \u2014 then acquired by Occidental in April 2025",
+      "status": "acquired",
+      "source": "https://techcrunch.com/2025/04/17/carbon-removal-startup-holocene-bought-by-oil-and-gas-giant-occidental/"
+     },
+     {
+      "name": "AirMyne",
+      "role": "startup",
+      "what": "Berkeley YC-backed developer of a low-temperature-regenerable liquid sorbent designed for replication with off-the-shelf industrial equipment and supplying CO2 to local users (including air-captured beverage CO2).",
+      "signal": "Strategic investment from Japan's ENEOS (Mar 2026); California Energy Commission-backed commercial pilot planned; ~18 employees",
+      "status": "operating",
+      "source": "https://carbonherald.com/airmyne-eneos-direct-air-capture/"
+     },
+     {
+      "name": "Greenlyte Carbon Technologies",
+      "role": "startup",
+      "what": "Potassium-based liquid sorbent that precipitates bicarbonate and releases CO2 via electrolysis while co-producing hydrogen, feeding an integrated DAC-to-methanol plant at the Marl chemical park.",
+      "signal": "Raised >$40M total; 60+ employees; NRW/EU grant for FOAK DAC-to-e-methanol facility (2025); pre-study with Evonik and Max Planck Institute",
+      "status": "operating",
+      "source": "https://partechpartners.com/news/greenlyte-secures-multi-million-euro-funding-to-reach-commercial-inflection-point-by-building-its-foak-1-facility"
+     }
+    ],
+    "white_space": "ORNL-derived amino-acid chemistry regenerates with low-grade heat, but Holocene's quick sale to Oxy despite a landmark Google deal shows the venture-funded path is thin; the opening is co-locating with industrial waste heat or geothermal and selling sub-$200/t removals, or licensing solvent chemistry to existing liquid-solvent operators (exactly what Oxy is now doing with hybrid Holocene-Carbon Engineering systems)."
+   },
+   {
+    "name": "Solid amine sorbent DAC (temperature-vacuum swing)",
+    "description": "Air is blown through amine-functionalized solid filters that grab CO2 and release it when heated under vacuum to ~100C; the dominant modular DAC architecture because units can be factory-made and deployed incrementally.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Climeworks",
+      "role": "scaleup",
+      "what": "Built the world's first and largest operating solid-sorbent DAC plants (Orca 2021, Mammoth 2024, with Carbfix basalt storage in Iceland) and launched Gen-3 structured sorbents claiming 2x capacity at half the energy.",
+      "signal": ">$1B raised including $162M equity (2025), but cut 106 jobs (~20%) May 2025 and Mammoth (36 ktpa nameplate) captured well under 10% of capacity in its first year",
+      "status": "operating",
+      "source": "https://www.cnn.com/2025/05/30/climate/climeworks-pollution-carbon-capture-layoffs"
+     },
+     {
+      "name": "Global Thermostat",
+      "role": "startup",
+      "what": "Pioneer of amine-on-monolith DAC (founded 2010) whose technology was widely benchmarked but which stalled commercially after ~$70M raised.",
+      "signal": "Acquired by Zero Carbon Systems (May 2024) after years of drift",
+      "status": "acquired",
+      "source": "https://www.prnewswire.com/news-releases/zero-carbon-systems-acquires-global-thermostat-and-its-best-in-class-technology-to-capture-carbon-dioxide-from-the-air-302153089.html"
+     },
+     {
+      "name": "Zero Carbon Systems",
+      "role": "startup",
+      "what": "Acquired Global Thermostat's capture technology and is pairing it with large-scale plant engineering, targeting a 2,500 tpa demonstration plant then 50 ktpa commercial units.",
+      "signal": "Demo plant planned 2025-2026; 50 ktpa commercial plant targeted ~2 years later",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/zero-carbon-systems-acquires-global-thermostat-and-its-best-in-class-technology-to-capture-carbon-dioxide-from-the-air-302153089.html"
+     },
+     {
+      "name": "CarbonCapture Inc.",
+      "role": "scaleup",
+      "what": "Mass-manufactures modular sorbent-cartridge DAC machines ('Leo' series) at the first US DAC factory in Mesa, AZ (4,000 modules/yr \u2248 2 Mtpa at full rate), with sorbent-agnostic swappable cartridges.",
+      "signal": "$80M Series A (2023, Prime Movers Lab, Amazon); paused flagship Project Bison in Wyoming (late 2024) after data centers outbid it for renewable power",
+      "status": "operating",
+      "source": "https://carbonherald.com/carboncapture-inc-pauses-development-of-project-bison-in-wyoming/"
+     },
+     {
+      "name": "Skytree",
+      "role": "startup",
+      "what": "ESA life-support spinout selling decentralized DAC units that supply CO2 to greenhouses and beverage makers \u2014 proving DAC revenue in utilization niches rather than removal credits.",
+      "signal": "Commercial Stratus system scaling to 7,200 tpa across 10 Dutch greenhouses by 2027; GreenTech Innovation Award 2025; validated 99.98%-pure beverage-grade liquid CO2 (Oct 2025)",
+      "status": "operating",
+      "source": "https://www.gasworld.com/story/skytree-to-deploy-direct-air-capture-system-for-dutch-greenhouse-co2-supply/2251367.article/"
+     },
+     {
+      "name": "Octavia Carbon",
+      "role": "startup",
+      "what": "Kenyan DAC builder running sorbent machines on Rift Valley geothermal waste heat (85% of energy needs), the Global South's first DAC company.",
+      "signal": "$5M seed (Oct 2024, Lateral Frontiers + E4E Africa); Project Hummingbird with Cella \u2014 first DAC+basalt-storage plant in the Global South (250 \u2192 1,000 tpa)",
+      "status": "operating",
+      "source": "https://carbonherald.com/octavia-carbon-locks-in-5m-in-seed-funding-to-scale-dac-technology-in-kenya/"
+     },
+     {
+      "name": "Aircapture",
+      "role": "startup",
+      "what": "Builds onsite modular DAC machines that sell CO2 as a utility to industrial and beverage customers, displacing trucked-in fossil CO2.",
+      "signal": "~$35M Series A (2021); commercial onsite units with US customers",
+      "status": "operating",
+      "source": "https://www.aircapture.com"
+     },
+     {
+      "name": "Deep Sky",
+      "role": "scaleup",
+      "what": "Technology-agnostic DAC project developer whose Deep Sky Alpha test center (Innisfail, Alberta) hosts up to 10 vendors' units (Skyrenu, Airhive, Mission Zero, Airbus) on shared power and storage infrastructure.",
+      "signal": "Alpha operational Aug 2025 with North America's first CO2 storage from DAC; backed by Breakthrough Energy Catalyst (~$40M, 2024) on top of ~C$75M; offtakes incl. Microsoft and RBC",
+      "status": "operating",
+      "source": "https://www.deepskyclimate.com/blog/history-made-deep-sky-alpha-begins-operations-with-north-americas-first-co2-storage-via-direct-air-capture-2"
+     },
+     {
+      "name": "Airbus",
+      "role": "incumbent",
+      "what": "Adapted its ISS life-support solid-amine temperature-swing scrubbers into a 250 tpa terrestrial DAC unit, aiming at future SAF feedstock supply.",
+      "signal": "Unit launched at Deep Sky Alpha (2025); technology brought to market 2023 from Airbus Defence and Space",
+      "status": "operating",
+      "source": "https://www.newswire.ca/news-releases/deep-sky-launches-operations-of-airbus-direct-air-capture-technology-at-canadian-facility-824731831.html"
+     },
+     {
+      "name": "Sustaera",
+      "role": "startup",
+      "what": "Sodium-carbonate-on-ceramic-monolith DAC with all-electric regeneration, designed to ride the renewables cost curve.",
+      "signal": "$10M Series A (2021, Breakthrough Energy Ventures); little public activity since ~2023",
+      "status": "uncertain",
+      "source": "https://www.businesswire.com/news/home/20211216005309/en/Sustaera-Closes-$10-million-Series-A-Financing-to-Develop-Low-Cost-Direct-Air-Capture-Technology"
+     }
+    ]
+   },
+   {
+    "name": "Advanced/novel sorbent DAC (MOFs, zeolites, thin-film structured sorbents)",
+    "description": "Next-generation engineered materials \u2014 metal-organic frameworks, zeolites, and thin-film structured laminates \u2014 promise faster CO2 uptake, lower regeneration energy, and longer sorbent life than first-generation amines, attacking the single biggest DAC cost driver.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Svante",
+      "role": "scaleup",
+      "what": "Manufactures structured laminate filter cartridges coated with the CALF-20 MOF at its Vancouver 'Redwood' gigafactory, supplying both point-source and DAC developers as a picks-and-shovels sorbent platform.",
+      "signal": "$318M Series E led by Chevron (Dec 2022); commercial-scale filter factory opened 2024",
+      "status": "operating",
+      "source": "https://www.svanteinc.com"
+     },
+     {
+      "name": "Mosaic Materials",
+      "role": "startup",
+      "what": "Berkeley spinout behind diamine-appended MOFs with step-shaped isotherms enabling sharp, low-energy swing capture.",
+      "signal": "Acquired by Baker Hughes (2022)",
+      "status": "acquired",
+      "source": "https://www.bakerhughes.com"
+     },
+     {
+      "name": "Baker Hughes",
+      "role": "incumbent",
+      "what": "Energy-services major industrializing Mosaic's MOF DAC, including an agreement to supply DAC units for HIF Global's e-fuel plants.",
+      "signal": "Mosaic acquisition 2022; HIF Global DAC partnership announced 2024",
+      "status": "operating",
+      "source": "https://www.bakerhughes.com"
+     },
+     {
+      "name": "Carbyon",
+      "role": "startup",
+      "what": "Dutch developer of thin-film activated-carbon/amine sorbent on fast roll-to-roll membranes, swinging in minutes instead of hours to shrink machine size and capex.",
+      "signal": "XPRIZE Carbon Removal Milestone winner ($1M, 2022); ~\u20ac15M+ raised; bench-to-field prototypes",
+      "status": "operating",
+      "source": "https://carbyon.com"
+     },
+     {
+      "name": "Removr",
+      "role": "startup",
+      "what": "Norwegian startup industrializing steam-regenerated zeolite DAC (amine-free, degradation-resistant) developed with SINTEF.",
+      "signal": "NOK 56M 'Genesis' pilot at TCM Mongstad with first demo fall 2025; roadmap to 30 ktpa by 2027 and million-ton design by 2029",
+      "status": "operating",
+      "source": "https://tcmda.com/News/Norway-Backing-Removrs-Efforts-to-Industrialise-Direct-Air-Capture-Finances-Pilot-at-World-Leading-Technology-Test-Centre"
+     },
+     {
+      "name": "Airhive",
+      "role": "startup",
+      "what": "UK startup using a fluidized-bed contactor with a nanostructured mineral sorbent for very fast capture kinetics and cheap, abundant materials.",
+      "signal": "Frontier prepurchase; first 50t-class unit commissioning at Deep Sky Alpha (2025)",
+      "status": "operating",
+      "source": "https://carbonherald.com/deep-sky-alpha-is-now-live-and-operational-in-canada/"
+     },
+     {
+      "name": "AspiraDAC",
+      "role": "startup",
+      "what": "Australian developer of solar-integrated modular MOF-sorbent DAC units with the MOF synthesized at module scale.",
+      "signal": "Frontier prepurchase (2022) \u2014 among the first MOF DAC purchases; early pilot deployments",
+      "status": "operating",
+      "source": "https://www.aspiradac.com"
+     },
+     {
+      "name": "W. L. Gore & Associates",
+      "role": "incumbent",
+      "what": "Materials giant co-developing structured sorbent laminates for CarbonCapture Inc.'s mass-produced DAC modules.",
+      "signal": "Sorbent partnership disclosed with CarbonCapture's 2024 US-manufactured system unveiling",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/carboncapture-inc-unveils-first-us-direct-air-capture-system-designed-for-mass-production-modular-units-to-be-manufactured-at-new-high-volume-facility-in-mesa-arizona-302179051.html"
+     }
+    ],
+    "white_space": "Sorbent lifetime under real humid, oxidizing, SO2-laden air is the unsolved moat \u2014 most MOFs degrade or cost too much per kg; the opening is for chemical majors (BASF already supplies sorbents to the AirJoule JV) to commoditize robust sorbents and sell them across all DAC OEMs, decoupling materials risk from machine risk."
+   },
+   {
+    "name": "Electrochemical pH-swing DAC (bipolar membrane electrodialysis, acid-base regeneration)",
+    "description": "Electricity, not heat, drives capture: electrodialysis or electrolyzer stacks swing a solution between basic (absorbs CO2) and acidic (releases CO2), enabling all-electric, modular, renewables-friendly DAC that piggybacks on the falling cost curves of electrolyzers.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Mission Zero Technologies",
+      "role": "startup",
+      "what": "Electrodialysis-based pH-swing recovering CO2 from a carbonated solution at room temperature; first DAC company with three operating plants across different industrial uses (SAF at Sheffield, carbon-negative aggregates at O.C.O Norfolk, storage at Deep Sky).",
+      "signal": "\u00a321.8M Series A (Mar 2024, Breakthrough Energy Ventures, World Fund, Fortescue, Siemens FS); UK government FEED for 10 ktpa system; 250 tpa Norfolk plant opened 2025",
+      "status": "operating",
+      "source": "https://tech.eu/2025/05/02/mission-zero-technologies-opens-first-direct-air-capture-plant-in-norfolk-uk/"
+     },
+     {
+      "name": "Phlair",
+      "role": "startup",
+      "what": "Munich startup whose 'hydrolyzer' electrochemical acid/base cycle runs DAC entirely on intermittent renewable electricity.",
+      "signal": "\u20ac14.5M seed (2024, Extantia); $30.6M Frontier offtake (2025) \u2014 first electrochemical DAC deal by Frontier buyers; deployment at Deep Sky and German BIK federal grant",
+      "status": "operating",
+      "source": "https://frontierclimate.com/writing/phlair"
+     },
+     {
+      "name": "Capture6",
+      "role": "startup",
+      "what": "Splits waste desalination brine via electrodialysis into NaOH capture solvent plus fresh water, bundling carbon removal with water utilities' brine-disposal problem.",
+      "signal": "$27.5M Series A + project funding (Mar 2025, Tetrad, Hyundai ZER01NE); Project Monarch demo in Palmdale, CA (~25 ktpa at Phase 2); largest CEC grant in its round (>$8M); follow-on project financing 2026",
+      "status": "operating",
+      "source": "https://capture6.com/news/capture6-completes-27-5-million-series-a-and-project-funding-round/"
+     },
+     {
+      "name": "Parallel Carbon",
+      "role": "startup",
+      "what": "Combines iridium-free water electrolysis with a mineral pH-swing loop so every unit co-produces green hydrogen and captured CO2.",
+      "signal": "~$3.6M seed (2023) incl. Aramco Ventures; Frontier prepurchase reported",
+      "status": "operating",
+      "source": "https://www.parallelcarbon.com"
+     },
+     {
+      "name": "Carbon Atlantis",
+      "role": "startup",
+      "what": "Munich startup using PEM-electrolyzer-style stacks for acid/base swing capture, supplying CO2 to Paebbl for mineralized building materials.",
+      "signal": "Seed-stage (~\u20ac5-6M); 'Alpha' pilot plant delivering CO2 to industrial offtakers",
+      "status": "operating",
+      "source": "https://www.carbonatlantis.com"
+     },
+     {
+      "name": "Ucaneo",
+      "role": "startup",
+      "what": "Berlin startup with a biomimetic electrochemical membrane (enzyme-inspired) capture cell targeting high energy efficiency.",
+      "signal": "\u20ac6.75M seed (Sep 2024); German federal BIK funding for a Berlin demonstration plant operating by 2027",
+      "status": "operating",
+      "source": "https://techfundingnews.com/ucaneo-6-75m-seed-funding-co2-removal-technology/"
+     }
+    ]
+   },
+   {
+    "name": "Electro-swing adsorption DAC (redox-active quinone electrodes)",
+    "description": "Battery-like cells with redox-active electrodes (quinones) that chemically grab CO2 when charged and release it when discharged, promising near-thermodynamic-minimum energy use with no heat, water, or solvent losses.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Verdox",
+      "role": "startup",
+      "what": "MIT spinout commercializing quinone electro-swing capture; uniquely effective on very dilute streams, demonstrated on 1%-CO2 aluminum smelter exhaust with Hydro before full DAC.",
+      "signal": "$80M raised (2022, Breakthrough Energy Ventures, Prelude, Lowercarbon); pilot-scale unit commissioned Oct 2025; customer pilots 2026, demo unit 2027, commercial target 2029",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20251110789998/en/Verdox-Demonstrates-Electrochemical-Carbon-Capture-From-Aluminum-Smelting"
+     },
+     {
+      "name": "RepAir Carbon",
+      "role": "startup",
+      "what": "Israeli startup with a battery-like electrochemical cell shuttling carbonate ions between electrodes for continuous capture at ~600 kWh/t with no thermal step.",
+      "signal": "Venture-backed Series A (~$15M, 2024); pilot-scale stacks; partnerships incl. geothermal/energy players",
+      "status": "operating",
+      "source": "https://www.crunchbase.com/organization/repair-carbon-capture"
+     }
+    ],
+    "white_space": "Effectively a Verdox monopoly built on MIT's quinone patent estate; the physics barrier is that redox sorbents degrade in oxygen-rich ambient air \u2014 which is why Verdox is wedging in via 1-4% industrial streams first \u2014 so an O2-tolerant redox chemistry that survives millions of cycles in real air would reopen the field."
+   },
+   {
+    "name": "Moisture-swing DAC and hybrid atmospheric-water-harvesting systems",
+    "description": "Sorbents that bind CO2 when dry and release it when wetted (or that co-harvest water from air) eliminate most regeneration energy, trading thermal input for water flux \u2014 uniquely suited to arid regions and water-co-product business models.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Avnos",
+      "role": "startup",
+      "what": "'Hybrid DAC' using moisture-swing sorbents that need no external heat and produce ~2 tons of clean water per ton of CO2 captured \u2014 the only water-positive DAC.",
+      "signal": ">$100M in combined funding secured incl. up to $17M Shell + Mitsubishi project financing (Nov 2025) for Project Cedar (3 ktpa CO2 + 6 kt water, online end-2026); Bakersfield pilot since 2023; US Navy ONR demo 2026",
+      "status": "operating",
+      "source": "https://www.axios.com/2025/11/06/avnos-direct-air-capture-shell-mitsubishi"
+     },
+     {
+      "name": "Carbon Collect",
+      "role": "startup",
+      "what": "Commercializes Klaus Lackner's passive 'MechanicalTree' \u2014 wind-fed sorbent discs using moisture-swing regeneration, no fans required.",
+      "signal": "Gen-II MechanicalTree installed 2025 at ASU; partner in $11.2M Southwest regional DAC hub grant (Jan 2025)",
+      "status": "operating",
+      "source": "https://carboncollect.com/mechanical-tree/"
+     },
+     {
+      "name": "AirJoule Technologies",
+      "role": "scaleup",
+      "what": "Public company (NASDAQ: AIRJ) making MOF-coated-contactor sorbent systems that harvest water and dehumidify air at low energy \u2014 sold as the water/dehumidification front end for DAC and data-center cooling.",
+      "signal": "50/50 JV with GE Vernova closed Mar 2024 with BASF sorbent supply agreement; $15M follow-on GE Vernova investment",
+      "status": "operating",
+      "source": "https://www.gevernova.com/news/press-releases/ge-vernova-and-montana-technologies-close-joint-venture-to-manufacture"
+     },
+     {
+      "name": "GE Vernova",
+      "role": "incumbent",
+      "what": "Contributes proprietary sorbent materials and manufacturing scale to the AirJoule JV, its beachhead in sorbent-based air harvesting.",
+      "signal": "JV closed 2024; exclusive manufacturing rights for the Americas, Africa, Australia",
+      "status": "operating",
+      "source": "https://www.gevernova.com/news/press-releases/ge-vernova-and-montana-technologies-close-joint-venture-to-manufacture"
+     },
+     {
+      "name": "Carbominer",
+      "role": "startup",
+      "what": "Ukrainian startup using humidity-swing sorbents to capture field CO2 for greenhouse enrichment, operating through wartime.",
+      "signal": "Grant/angel-funded; pilot units delivered to greenhouse customers",
+      "status": "operating",
+      "source": "https://carbominer.com"
+     }
+    ],
+    "white_space": "Moisture-swing regeneration is nearly free energetically but works poorly in humid climates, consumes water in dry ones, and yields dilute CO2 \u2014 which is why VCs stayed away and Lackner's concept took 20 years to field; the credible wedge is water-positive hybrids (Avnos) selling water and dehumidification value alongside carbon, especially for data centers and arid-region utilities."
+   },
+   {
+    "name": "Calcium/lime-looping DAC (limestone carbonation-calcination)",
+    "description": "Cheap, abundant lime or limestone passively carbonates in air and is then calcined to release pure CO2 and regenerate the sorbent \u2014 swapping exotic chemistry for the world's most commoditized mineral and existing kiln industry know-how.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Heirloom",
+      "role": "scaleup",
+      "what": "Spreads calcium hydroxide on stacked trays that carbonate in days, regenerated in Calix-derived electric kilns; opened the first US commercial DAC facility (Tracy, CA, Nov 2023).",
+      "signal": "$150M Series B (Dec 2024, Future Positive + Lowercarbon, with JAL, Mitsubishi, Mitsui, Siemens FS); two Louisiana plants \u2014 17 ktpa operational from 2026 and a 100 ktpa Project Cypress phase for 2027; DOE hub funding ($1.2B combined) retained Apr 2026; Microsoft offtakes",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20241204489244/en/Heirloom-Raises-%24150-Million-Series-B-to-Rapidly-Scale-Commercial-Direct-Air-Capture"
+     },
+     {
+      "name": "8 Rivers (Calcite)",
+      "role": "scaleup",
+      "what": "Calcite process reacts hydrated lime with air in low-energy contactors and regenerates it in an oxy-fired kiln; anchor technology of the Southeast DAC hub.",
+      "signal": "DOE DAC hub FEED for 50 ktpa in Mobile County, AL; Project Cardinal first commercial deployment FEED from 2025; JX Nippon strategic investment; majority-owned by SK Inc.",
+      "status": "operating",
+      "source": "https://8rivers.com/portfolio/calcite/"
+     },
+     {
+      "name": "Origen",
+      "role": "startup",
+      "what": "UK developer of ZerCaL flash oxy-calcination producing zero-carbon lime as the consumable for DAC and ocean/enhanced-weathering removals, partnered with 8 Rivers on calcite air contactors.",
+      "signal": "Pilot-scale calciner demos in UK; 8 Rivers partnership",
+      "status": "operating",
+      "source": "https://energiesmedia.com/8-rivers-moves-forward-with-calcite-direct-air-capture-technology/"
+     },
+     {
+      "name": "Heimdal",
+      "role": "startup",
+      "what": "Ultra-cheap DAC from off-the-shelf kit plus crushed limestone, sited next to CO2 users; built Bantam in Osage County, OK \u2014 largest constructed US DAC at launch (~5 ktpa).",
+      "signal": "YC and Sam Altman-backed; Bantam launched Aug 2024 with CapturePoint taking CO2 for EOR; claims path to hundreds of kilotons before 2030",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/heimdal-celebrates-launch-of-bantam-americas-largest-operational-direct-air-capture-facility-302220498.html"
+     },
+     {
+      "name": "Calix / Leilac",
+      "role": "incumbent",
+      "what": "ASX-listed calciner technology company whose indirectly-electrically-heated kilns are the regeneration backbone for Heirloom's plants.",
+      "signal": "Heirloom partnership spanning Tracy and Louisiana projects",
+      "status": "operating",
+      "source": "https://www.leilac.com/news/leilac-partner-heirloom-announces-major-us-direct-air-capture-dac-projects/"
+     }
+    ]
+   },
+   {
+    "name": "Passive and piggyback contactors (mineralizing surfaces, HVAC/cooling-tower air streams)",
+    "description": "Instead of paying for fans, these systems borrow air that is already moving \u2014 through cooling towers, building HVAC, or wind across passive sorbent structures \u2014 cutting capture capex and energy at the cost of small, distributed volumes per site.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Spiritus",
+      "role": "startup",
+      "what": "Passive 'carbon orchard' sorbent structures that soak up CO2 with no forced air, plus a low-cost desorption chamber, targeting $100/t.",
+      "signal": "$30M Series A (Mar 2025) led by Aramco Ventures with Khosla, Mitsubishi Heavy Industries America, TDK Ventures; Aramco partnership for Saudi deployment; New Mexico pilot",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20250306128973/en/Spiritus-Unleashes-a-Golden-Era-of-Carbon-Removal-to-Power-Americas-Explosive-Growth-%2430M-Series-A-to-Scale-Direct-Air-Capture"
+     },
+     {
+      "name": "Noya",
+      "role": "startup",
+      "what": "YC-backed pioneer of retrofitting industrial cooling towers into DAC devices, later pivoted to standalone activated-carbon DAC.",
+      "signal": "Raised ~$14.5M (YC, Union Square Ventures); ceased operations in 2025 amid DAC funding collapse",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.qcintel.com/carbon/article/us-based-direct-air-capture-developer-ceases-operations-46385.html"
+     },
+     {
+      "name": "NeoCarbon",
+      "role": "startup",
+      "what": "Berlin startup retrofitting DAC kits inside operating industrial cooling towers, using their airflow and waste heat to cut DAC costs up to 10x.",
+      "signal": "\u20ac1.25M pre-seed (2022) + \u20ac3.2M seed (2023, Speedinvest, PT1); pilots with German industrials",
+      "status": "operating",
+      "source": "https://techcrunch.com/2022/09/14/neocarbon-pre-seed/"
+     },
+     {
+      "name": "Soletair Power",
+      "role": "startup",
+      "what": "Finnish, W\u00e4rtsil\u00e4-backed maker of building-HVAC-integrated DAC that scrubs CO2 from ventilation air and feeds utilization (including demonstration synthetic fuel chains).",
+      "signal": "Units deployed in office buildings in Finland and Germany; W\u00e4rtsil\u00e4 strategic investor",
+      "status": "operating",
+      "source": "https://www.soletairpower.fi"
+     },
+     {
+      "name": "Carbon Reform",
+      "role": "startup",
+      "what": "'Carbon Capsule' retrofit for commercial HVAC that captures CO2 from indoor air and mineralizes it to calcium carbonate while cutting ventilation energy.",
+      "signal": "Seed-stage; pilot installations in US commercial buildings",
+      "status": "operating",
+      "source": "https://www.carbonreform.com"
+     },
+     {
+      "name": "enVerid",
+      "role": "scaleup",
+      "what": "Sells sorbent-based HVAC Load Reduction modules that scrub CO2/VOCs from indoor air so buildings can slash outside-air intake \u2014 proving the only currently profitable business model for air-scrubbing hardware (energy savings, not removal credits).",
+      "signal": "Deployed in hundreds of buildings globally; >$40M raised",
+      "status": "operating",
+      "source": "https://enverid.com"
+     }
+    ],
+    "white_space": "Borrowed airflow slashes contactor cost but each site yields only tens to hundreds of tons a year, so MRV, logistics, and sales overhead swamp the unit economics \u2014 Noya's shutdown after $14.5M is the cleanest evidence; the surviving opening is bundling capture with paid co-benefits (HVAC energy savings like enVerid, or onsite CO2 supply), where carbon revenue is gravy rather than the business."
+   },
+   {
+    "name": "Integrated DAC-to-fuel/material plants",
+    "description": "Vertically integrated systems that capture CO2 from air and immediately convert it \u2014 with green hydrogen or solar heat \u2014 into gasoline, methane, jet fuel, methanol, or building materials, selling a product rather than a removal credit.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Aircela",
+      "role": "startup",
+      "what": "Fridge-sized machine integrating DAC, electrolysis, and methanol-to-gasoline synthesis to make ~1 gallon/day of fossil-free gasoline onsite.",
+      "signal": "First working US air-to-gasoline demo (Manhattan rooftop, May 2025); initial off-grid/commercial deployments from fall 2025; backed by Maersk Growth and Chris Larsen",
+      "status": "operating",
+      "source": "https://www.globenewswire.com/news-release/2025/05/15/3082353/0/en/Aircela-Unveils-Machine-That-Turns-Air-into-Fossil-Free-Gasoline.html"
+     },
+     {
+      "name": "Terraform Industries",
+      "role": "startup",
+      "what": "Containerized 'Terraformer' converting cheap solar power plus DAC CO2 and electrolytic H2 into pipeline-grade synthetic natural gas.",
+      "signal": "~$38M seed at $150M valuation; delivered carbon-neutral synthetic methane to two utility partners (2024) earning a green premium",
+      "status": "operating",
+      "source": "https://terraformindustries.com"
+     },
+     {
+      "name": "Sora Fuel",
+      "role": "startup",
+      "what": "Captures CO2 into bicarbonate and electrochemically converts it to syngas in one integrated step, claiming <$50/t captured carbon en route to <$5/gal SAF.",
+      "signal": "$14.6M round (closed 2025/2026) to build a pilot scaling SAF output from gallons to barrels per day within ~18-24 months; earlier $6M seed (2024)",
+      "status": "operating",
+      "source": "https://www.sorafuel.com/news/sora-fuel-closes-14-6m-round-to-scale-air-to-jet-fuel-technology"
+     },
+     {
+      "name": "Synhelion",
+      "role": "scaleup",
+      "what": "Swiss solar-thermochemical fuel producer whose concentrated-solar reactors turn CO2 and water into syngas/fuels; built the DAWN industrial demonstration plant.",
+      "signal": "DAWN plant operating in J\u00fclich, Germany (2024); >CHF 70M raised; partnerships with SWISS/Lufthansa and Climeworks heritage on DAC-sourced CO2",
+      "status": "operating",
+      "source": "https://synhelion.com"
+     },
+     {
+      "name": "HIF Global",
+      "role": "scaleup",
+      "what": "Largest e-fuels project developer (Haru Oni demo in Chile); contracted Baker Hughes' Mosaic MOF DAC to supply atmospheric CO2 for its planned Matagorda, TX e-gasoline plant.",
+      "signal": ">$1B raised (Porsche, EIG, others); Haru Oni producing since 2022; Matagorda in development with DAC integration",
+      "status": "operating",
+      "source": "https://www.hifglobal.com"
+     },
+     {
+      "name": "Prometheus Fuels",
+      "role": "startup",
+      "what": "Promised direct air-to-gasoline via aqueous CO2 electroreduction and carbon-nanotube membrane separation at fossil-parity prices.",
+      "signal": "Raised at a $1.5B valuation (2021, BMW i Ventures, Maersk); no verified product deliveries since, public communications gone dark",
+      "status": "uncertain",
+      "source": "https://www.prometheusfuels.com"
+     }
+    ],
+    "white_space": "Stacking DAC, hydrogen, and synthesis multiplies capex and failure modes \u2014 Prometheus's $1.5B-valuation silence is the cautionary tale \u2014 and air-captured fuel can't yet compete with point-source or biogenic CO2 feedstocks; the openings are price-insensitive niches (off-grid sites, islands, military, motorsport) and EU e-fuel mandates (ReFuelEU) that explicitly reward atmospheric CO2 feedstock."
+   },
+   {
+    "name": "Early-stage membrane and cryogenic DAC",
+    "description": "Membranes that passively filter CO2 from air and cryogenic systems that freeze it out promise solvent-free, chemical-free capture, but at 420 ppm both fight brutal thermodynamics and remain at lab/early-pilot stage.",
+    "maturity": "lab",
+    "companies": [
+     {
+      "name": "Carbon Xtract",
+      "role": "startup",
+      "what": "Kyushu University spinout commercializing m-DAC nano-separation membranes \u2014 the first claimed membrane-only system to capture and concentrate atmospheric CO2 \u2014 initially for greenhouses and urban installations.",
+      "signal": "Founded May 2023 by Sojitz; Kyushu University's first-ever direct business investment; Tokyo Metropolitan GX demonstration installation; joint development with Tokyo Ohka Kogyo; Japan Moonshot program targets devices by 2030",
+      "status": "operating",
+      "source": "https://c-xtract.com/en/news/340/"
+     },
+     {
+      "name": "Sojitz",
+      "role": "incumbent",
+      "what": "Japanese trading house incubating and commercializing m-DAC, lining up agriculture co-ops and MUFG for greenhouse and distributed deployments.",
+      "signal": "Co-founded Carbon Xtract (2023); MOU with Kyushu Electric for DAC-utilization systems",
+      "status": "operating",
+      "source": "https://www.sojitz.com/en/news/article/20231124.html"
+     },
+     {
+      "name": "Revcoo",
+      "role": "startup",
+      "what": "French startup freezing CO2 out of gas streams by cryogenic reverse-sublimation using only electricity and nitrogen cold \u2014 today on lime-kiln flue gas, the nearest commercial stepping stone toward cryogenic air capture.",
+      "signal": "Pilot running since late 2024 at an Eiffage lime kiln; seeking growth funding",
+      "status": "operating",
+      "source": "https://carbonherald.com/revcoo-pushes-solvent-free-carbon-capture-toward-industrial-scale/"
+     },
+     {
+      "name": "Air Liquide",
+      "role": "incumbent",
+      "what": "Owns the industrial cryogenic CO2 capture toolkit (Cryocap) and air-separation expertise any cryogenic DAC would be built on; has not productized ambient-air capture.",
+      "signal": "Cryocap operating at hydrogen plants since 2015; active CCUS portfolio",
+      "status": "operating",
+      "source": "https://www.digitalrefining.com/news/1003771/air-liquide-inaugurates-its-co2-cold-capture-system-cryoca"
+     },
+     {
+      "name": "NuAria",
+      "role": "startup",
+      "what": "US early-stage developer of sorbent-filled membrane DAC modules cited in 2025 startup scouting reports.",
+      "signal": "Pre-seed/seed stage; minimal public verification",
+      "status": "uncertain",
+      "source": "https://www.startus-insights.com/innovators-guide/direct-air-capture-companies/"
+     }
+    ],
+    "white_space": "Physics keeps this lane empty: at 420 ppm a membrane needs extraordinary selectivity-permeance plus multistage vacuum/compression, and freezing CO2 from air means refrigerating ~2,500x its volume of N2/O2 \u2014 so no Western pure-play has been venture-funded and Japan's consortium model (university + Sojitz + Moonshot money) is the only serious bet; openings are membrane pre-concentrators feeding sorbent systems, and cryo-DAC piggybacking on free cold from LNG regasification or cold-climate winters."
+   }
+  ],
+  "sources": [
+   "https://www.cdr.fyi/blog/direct-air-capture-market-snapshot-2025",
+   "https://carbonherald.com/top-20-direct-air-capture-companies/",
+   "https://www.technologyreview.com/2025/10/07/1125207/the-us-is-set-to-cancel-funding-for-two-major-direct-air-capture-plants/",
+   "https://decarbonfuse.com/posts/doe-restores-1-2b-for-dac-hubs-and-5-hydrogen-projects",
+   "https://www.cnn.com/2025/05/30/climate/climeworks-pollution-carbon-capture-layoffs",
+   "https://www.1pointfive.com/projects/stratos",
+   "https://techcrunch.com/2025/04/17/carbon-removal-startup-holocene-bought-by-oil-and-gas-giant-occidental/",
+   "https://www.prnewswire.com/news-releases/zero-carbon-systems-acquires-global-thermostat-and-its-best-in-class-technology-to-capture-carbon-dioxide-from-the-air-302153089.html",
+   "https://www.qcintel.com/carbon/article/us-based-direct-air-capture-developer-ceases-operations-46385.html",
+   "https://www.deepskyclimate.com/blog/history-made-deep-sky-alpha-begins-operations-with-north-americas-first-co2-storage-via-direct-air-capture-2",
+   "https://www.newswire.ca/news-releases/deep-sky-launches-operations-of-airbus-direct-air-capture-technology-at-canadian-facility-824731831.html",
+   "https://frontierclimate.com/writing/phlair",
+   "https://tech.eu/2025/05/02/mission-zero-technologies-opens-first-direct-air-capture-plant-in-norfolk-uk/",
+   "https://www.businesswire.com/news/home/20241204489244/en/Heirloom-Raises-%24150-Million-Series-B-to-Rapidly-Scale-Commercial-Direct-Air-Capture",
+   "https://www.prnewswire.com/news-releases/heimdal-celebrates-launch-of-bantam-americas-largest-operational-direct-air-capture-facility-302220498.html",
+   "https://8rivers.com/portfolio/calcite/",
+   "https://www.businesswire.com/news/home/20250306128973/en/Spiritus-Unleashes-a-Golden-Era-of-Carbon-Removal-to-Power-Americas-Explosive-Growth-%2430M-Series-A-to-Scale-Direct-Air-Capture",
+   "https://www.axios.com/2025/11/06/avnos-direct-air-capture-shell-mitsubishi",
+   "https://www.businesswire.com/news/home/20251110789998/en/Verdox-Demonstrates-Electrochemical-Carbon-Capture-From-Aluminum-Smelting",
+   "https://carbonherald.com/airmyne-eneos-direct-air-capture/",
+   "https://capture6.com/news/capture6-completes-27-5-million-series-a-and-project-funding-round/",
+   "https://carbonherald.com/octavia-carbon-locks-in-5m-in-seed-funding-to-scale-dac-technology-in-kenya/",
+   "https://www.gasworld.com/story/skytree-to-deploy-direct-air-capture-system-for-dutch-greenhouse-co2-supply/2251367.article/",
+   "https://carbonherald.com/carboncapture-inc-pauses-development-of-project-bison-in-wyoming/",
+   "https://tcmda.com/News/Norway-Backing-Removrs-Efforts-to-Industrialise-Direct-Air-Capture-Finances-Pilot-at-World-Leading-Technology-Test-Centre",
+   "https://c-xtract.com/en/news/340/",
+   "https://www.gevernova.com/news/press-releases/ge-vernova-and-montana-technologies-close-joint-venture-to-manufacture",
+   "https://www.globenewswire.com/news-release/2025/05/15/3082353/0/en/Aircela-Unveils-Machine-That-Turns-Air-into-Fossil-Free-Gasoline.html",
+   "https://www.sorafuel.com/news/sora-fuel-closes-14-6m-round-to-scale-air-to-jet-fuel-technology",
+   "https://partechpartners.com/news/greenlyte-secures-multi-million-euro-funding-to-reach-commercial-inflection-point-by-building-its-foak-1-facility",
+   "https://techcrunch.com/2022/09/14/neocarbon-pre-seed/",
+   "https://techfundingnews.com/ucaneo-6-75m-seed-funding-co2-removal-technology/",
+   "https://www.leilac.com/news/leilac-partner-heirloom-announces-major-us-direct-air-capture-dac-projects/",
+   "https://carbonherald.com/revcoo-pushes-solvent-free-carbon-capture-toward-industrial-scale/",
+   "https://www.iea.org/energy-system/carbon-capture-utilisation-and-storage/direct-air-capture"
+  ]
+ }
+}

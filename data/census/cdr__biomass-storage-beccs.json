@@ -1,0 +1,362 @@
+{
+ "sector": "cdr",
+ "bucket": "Biomass Storage & BECCS",
+ "census": {
+  "bucket": "Biomass Storage & BECCS",
+  "sources": [
+   "https://www.wri.org/insights/biomass-carbon-removal-storage-companies-fight-climate-change",
+   "https://frontierclimate.com/pathway/biomass-carbon-removal-and-storage",
+   "https://www.graphyte.com/",
+   "https://www.eenews.net/articles/exclusive-worlds-largest-carbon-removal-plant-is-about-to-open/",
+   "https://www.renewableenergymagazine.com/biomass/mast-reforestation-sells-out-mt1-biomass-burial-20260415",
+   "https://vaulteddeep.com/technology/",
+   "https://www.canarymedia.com/articles/emissions-reduction/frontier-bets-58.3m-on-carbon-removal-startup-vaulted-deep",
+   "https://www.prnewswire.com/news-releases/vaulted-deep-wins-8m-in-xprize-carbon-removal-competition-302435118.html",
+   "https://charmindustrial.com/",
+   "https://www.axios.com/2025/11/14/boeing-carbon-removal-charm-industrial-startup",
+   "https://www.stockholmexergi.se/en/beccs/",
+   "https://www.prnewswire.com/news-releases/stockholm-exergi-takes-final-investment-decision-on-worlds-first-large-scale-beccs-project-using-capsols-carbon-capture-technology-302413617.html",
+   "https://www.drax.com/bioenergy-with-carbon-capture-and-storage-beccs/",
+   "https://www.edie.net/drax-scales-back-carbon-capture-funding-and-staffing/",
+   "https://www.motehydrogen.com/",
+   "https://www.businesswire.com/news/home/20250304282371/en/Mote-Secures-$7-Million-Funding-in-First-Close-of-Series-A-Round-to-Advance-Companys-Carbon-Negative-Biomass-to-Energy-Technology",
+   "https://www.datacenterdynamics.com/en/news/microsoft-signs-15-year-675m-ton-carbon-removal-agreement-with-atmosclear-in-louisiana/",
+   "https://carbonherald.com/exxonmobil-to-transport-store-co2-from-the-atmosclear-beccs-project-in-louisiana/",
+   "https://frontierclimate.com/writing/hafslundcelsio",
+   "https://esgnews.com/frontier-hafslund-celsio-launch-europes-first-carbon-removing-waste-to-energy-plant/",
+   "https://www.prnewswire.com/news-releases/co280-signs-landmark-3-69-million-tonne-agreement-with-microsoft-to-scale-up-carbon-dioxide-removal-in-the-us-pulp-and-paper-industry-302426170.html",
+   "https://www.technologyreview.com/2025/10/15/1125715/big-techs-big-bet-on-a-controversial-carbon-removal-tactic/",
+   "https://www.storaenso.com/en/newsroom/news/2024/4/capturing-carbon-skutskar-mill",
+   "https://www.paperadvance.com/news/sustainability/metsa-group-pilots-carbon-capture-at-rauma-mill.html",
+   "https://www.neustark.com/en/news/neustark-secures--69-million-in-funding-to-expand-carbon-removal-solution-globally",
+   "https://mercermasstimber.com/",
+   "https://sterlingstructural.com/",
+   "https://bioenergyinternational.com/adm-and-tallgrass-inaugurate-worlds-largest-ethanol-carbon-capture-facility/",
+   "https://southdakotasearchlight.com/2025/04/22/south-dakota-regulators-deny-summit-carbon-solutions-permit-application-summit-carbon-solutions-vows-reapply/",
+   "https://cleantechnica.com/2025/01/03/illinois-carbon-capture-project-captures-almost-no-carbon/",
+   "https://www.cdr.fyi/blog/2025-q2-durable-cdr-market-update-biggest-quarter-ever"
+  ],
+  "variations": [
+   {
+    "name": "Engineered terrestrial biomass burial (dry casks, vaults, trenches)",
+    "description": "Waste biomass (forestry/ag residues, wildfire-killed wood) is dried below the moisture threshold for decomposition, compressed and sealed in impermeable barriers, then buried in engineered underground chambers so its carbon cannot return to the atmosphere for centuries.",
+    "maturity": "demonstration",
+    "white_space": "",
+    "companies": [
+     {
+      "name": "Graphyte",
+      "role": "startup",
+      "what": "Carbon Casting: dries and compresses timber/ag residue into sealed blocks buried in monitored underground sites; first BiCRS firm to earn a BeZero 'AA' rating.",
+      "signal": "Breakthrough Energy-backed; ~$30M raised; first commercial Pine Bluff AR plant operating (250k t/yr target), ~6,000 t sequestered year one, ~50k t capacity by early 2026; expanding to BC, Canada.",
+      "status": "operating",
+      "source": "https://www.eenews.net/articles/exclusive-worlds-largest-carbon-removal-plant-is-about-to-open/"
+     },
+     {
+      "name": "Mast Reforestation (Mast Wood Preserve)",
+      "role": "startup",
+      "what": "Buries wildfire-killed trees in engineered underground chambers as part of post-wildfire restoration, pairing reforestation with biomass burial credits.",
+      "signal": "Sold out 100% of its 4,277-credit MT1 Montana project within ~6 weeks of issuance; >10M lbs of biomass buried.",
+      "status": "operating",
+      "source": "https://www.renewableenergymagazine.com/biomass/mast-reforestation-sells-out-mt1-biomass-burial-20260415"
+     },
+     {
+      "name": "Boomitra",
+      "role": "startup",
+      "what": "Selectively removes invasive woody species, dries and seals biomass into dense bales, then buries them at secure sites for 100+ year storage.",
+      "signal": "Operating biomass-burial program alongside its soil-carbon MRV business; XPRIZE-recognized soil carbon team.",
+      "status": "operating",
+      "source": "https://boomitra.com/biomass-carbon-removal/"
+     },
+     {
+      "name": "Carbon Sequestration Inc.",
+      "role": "startup",
+      "what": "Markets terrestrial storage and biomass burial as durable sequestration solutions.",
+      "signal": "Early-stage; limited public traction disclosed.",
+      "status": "uncertain",
+      "source": "https://www.carbonsequestration-inc.com/"
+     }
+    ]
+   },
+   {
+    "name": "Subsurface slurry / bio-oil injection of organic wastes",
+    "description": "Non-hazardous organic wastes (biosolids, paper-mill sludge, manure, crop residue) or biomass-derived bio-oil are pumped thousands of feet underground into porous rock or salt formations, locking biogenic carbon away permanently while solving a waste-disposal problem.",
+    "maturity": "demonstration",
+    "white_space": "",
+    "companies": [
+     {
+      "name": "Vaulted Deep",
+      "role": "startup",
+      "what": "Injects organic-waste slurry (biosolids, sludge, manure, crop residue) >3,000 ft underground using established geologic-disposal engineering.",
+      "signal": "$32.3M Series A; won $8M as XPRIZE Carbon Removal second runner-up (Apr 2025); $58.3M Frontier offtake; delivered ~9,986 net tonnes in demo; processed waste up 225% 2024-2025.",
+      "status": "operating",
+      "source": "https://www.canarymedia.com/articles/emissions-reduction/frontier-bets-58.3m-on-carbon-removal-startup-vaulted-deep"
+     },
+     {
+      "name": "Charm Industrial",
+      "role": "scaleup",
+      "what": "Pyrolyzes biomass into stable bio-oil, then injects it into Class-I disposal wells; also delivering biochar removals.",
+      "signal": "$100M Series B (General Catalyst); $20M JPMorgan venture debt; Boeing offtake up to 100k t; TD Bank 10-yr deal; ~12,000 t sequestered to date.",
+      "status": "operating",
+      "source": "https://www.axios.com/2025/11/14/boeing-carbon-removal-charm-industrial-startup"
+     }
+    ]
+   },
+   {
+    "name": "BECCS retrofits on biomass power and district-heat plants",
+    "description": "Existing biomass-fired power and combined-heat-and-power plants are retrofitted with post-combustion CO2 capture so the biogenic CO2 they emit is permanently stored geologically, turning renewable heat/power into net carbon removal.",
+    "maturity": "demonstration",
+    "white_space": "",
+    "companies": [
+     {
+      "name": "Stockholm Exergi",
+      "role": "incumbent",
+      "what": "Building the world's first large-scale BECCS plant on its V\u00e4rtan biomass CHP, using hot-potassium-carbonate (Capsol) capture; CO2 stored via Northern Lights in the North Sea.",
+      "signal": "FID taken 2025; ~800k t CO2/yr; >SEK 20bn Swedish reverse-auction support + EUR180M EU Innovation Fund + EUR260M EIB loan; Microsoft 5.08M-t offtake; construction started June 2025, ops ~2028.",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/stockholm-exergi-takes-final-investment-decision-on-worlds-first-large-scale-beccs-project-using-capsols-carbon-capture-technology-302413617.html"
+     },
+     {
+      "name": "Drax Group",
+      "role": "incumbent",
+      "what": "Plans to retrofit BECCS onto its converted biomass power station (planning permission for two units, phased conversion of four).",
+      "signal": "Scaled back BECCS spend and cut roles in 2025 amid UK policy uncertainty (~GBP1M H1 2025 vs GBP2M prior); Ember estimates up to GBP30bn subsidy could exceed entire UK CCUS budget; timeline slipped to early 2030s.",
+      "status": "uncertain",
+      "source": "https://www.edie.net/drax-scales-back-carbon-capture-funding-and-staffing/"
+     },
+     {
+      "name": "Capsol Technologies",
+      "role": "scaleup",
+      "what": "Supplies the hot-potassium-carbonate (CapsolEoP/HPC) capture technology selected for Stockholm Exergi's BECCS.",
+      "signal": "Tech selected for world's first large-scale BECCS; Oslo-listed; multiple BECCS/WtE feasibility contracts.",
+      "status": "operating",
+      "source": "https://www.stockholmexergi.se/en/beccs/"
+     },
+     {
+      "name": "Svante",
+      "role": "startup",
+      "what": "Solid-sorbent filter (structured adsorbent) capture modules marketed for BECCS and industrial point sources.",
+      "signal": "Signed major BECCS carbon-removal deal with Microsoft; Series E-stage; commercial filter manufacturing facility in Vancouver.",
+      "status": "operating",
+      "source": "https://carbonherald.com/microsoft-signs-major-beccs-carbon-removal-deal-with-svante/"
+     }
+    ]
+   },
+   {
+    "name": "Purpose-built biomass carbon removal & storage (gasification to hydrogen/power + CO2 storage)",
+    "description": "New-build plants gasify or combust biomass specifically to co-produce energy (hydrogen, power, or fuels) and a concentrated biogenic CO2 stream that is captured and geologically stored, designed from the ground up to be carbon-negative rather than retrofitted.",
+    "maturity": "demonstration",
+    "white_space": "",
+    "companies": [
+     {
+      "name": "AtmosClear (Fidelis New Energy)",
+      "role": "scaleup",
+      "what": "Purpose-built BECCS plant at the Port of Greater Baton Rouge burning sugarcane bagasse and forest trimmings, with onsite capture and ExxonMobil-handled geological storage.",
+      "signal": "Microsoft 15-yr, 6.75M-t deal (~$800M project, record permanent CDR purchase); ExxonMobil to store up to 680k t/yr; construction targeted 2026, ops 2029.",
+      "status": "operating",
+      "source": "https://www.datacenterdynamics.com/en/news/microsoft-signs-15-year-675m-ton-carbon-removal-agreement-with-atmosclear-in-louisiana/"
+     },
+     {
+      "name": "Mote",
+      "role": "startup",
+      "what": "Novel gasification of wood/ag waste into carbon-negative hydrogen, capturing and storing the CO2 in saline aquifers.",
+      "signal": "$7M DOE BiCRS grant; closed first tranche of Series A (~$7M, Mar 2025); part of California H2 hub; construction targeted 2025, ops ~2027-2028; second NorCal project underway.",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20250304282371/en/Mote-Secures-$7-Million-Funding-in-First-Close-of-Series-A-Round-to-Advance-Companys-Carbon-Negative-Biomass-to-Energy-Technology"
+     },
+     {
+      "name": "C2X",
+      "role": "scaleup",
+      "what": "Developing a Louisiana BECCS plant capturing biogenic CO2 for permanent storage.",
+      "signal": "Microsoft investment toward capturing ~3.6M tons of CO2.",
+      "status": "operating",
+      "source": "https://carboncredits.com/microsoft-invests-in-louisiana-based-c2xs-beccs-plant-to-capture-3-6-million-tons-of-co%E2%82%82/"
+     }
+    ]
+   },
+   {
+    "name": "Waste-to-energy CO2 capture (biogenic fraction)",
+    "description": "Municipal waste-to-energy (energy-from-waste) plants add CO2 capture so that roughly the half of their emissions that are biogenic (food, garden, waste wood) become net carbon removal, while the fossil-plastic half is captured as avoided emissions.",
+    "maturity": "demonstration",
+    "white_space": "Few movers because WtE-CDR depends on accurate biogenic-fraction accounting, CO2 transport/storage networks (e.g. Northern Lights), and willingness to retrofit municipal utilities; an opening exists for capture-tech vendors and aggregators who can standardize biogenic MRV and bundle many mid-size municipal plants.",
+    "companies": [
+     {
+      "name": "Hafslund Oslo Celsio",
+      "role": "incumbent",
+      "what": "First-ever carbon-capture retrofit on a WtE plant (Oslo Klemetsrud), capturing both biogenic and fossil CO2 for Northern Lights storage.",
+      "signal": "Up to 350k t CO2/yr (175k biogenic); world's first commercial WtE-CDR offtake (Frontier, $31.6M / 100k t 2029-2030, Apr 2025); capture construction from spring 2026, ops Q3 2029.",
+      "status": "operating",
+      "source": "https://frontierclimate.com/writing/hafslundcelsio"
+     },
+     {
+      "name": "Encyclis",
+      "role": "incumbent",
+      "what": "UK/European energy-from-waste operator developing carbon capture across its WtE fleet (e.g. Protos) under the UK CCUS cluster programme.",
+      "signal": "Part of UK HyNet/track-1 CCUS plans; multiple WtE capture projects in development.",
+      "status": "operating",
+      "source": "https://www.ieabioenergy.com/wp-content/uploads/2025/10/IEA-Bioenergy_Intertask_BECCUS_Phase2_Oslo_WtE_final-report.pdf"
+     },
+     {
+      "name": "Cory",
+      "role": "incumbent",
+      "what": "London riverside energy-from-waste operator planning capture on its Riverside facilities, transporting CO2 by barge on the Thames.",
+      "signal": "Riverside CCS development within UK cluster sequencing.",
+      "status": "operating",
+      "source": "https://www.ieabioenergy.com/wp-content/uploads/2025/10/IEA-Bioenergy_Intertask_BECCUS_Phase2_Oslo_WtE_final-report.pdf"
+     }
+    ]
+   },
+   {
+    "name": "Ethanol & fermentation biogenic CO2 capture and storage",
+    "description": "Corn-ethanol and other fermentation plants emit a nearly pure biogenic CO2 stream that is cheap to compress and inject underground, making fermentation-source CCS among the lowest-cost biogenic carbon storage available.",
+    "maturity": "scaling",
+    "white_space": "",
+    "companies": [
+     {
+      "name": "Archer Daniels Midland (ADM)",
+      "role": "incumbent",
+      "what": "Operates the first US commercial-scale CCS at an ethanol plant (Decatur, IL), injecting CO2 into the Mt. Simon sandstone; new Tallgrass-partnered Nebraska facility.",
+      "signal": "Decatur Illinois Industrial CCS designed for >1M t/yr (though 2024-25 reporting showed it captured far below capacity); Nov 10 2025 ribbon-cutting on 'world's largest' ethanol CCS in Columbus, NE with Tallgrass.",
+      "status": "operating",
+      "source": "https://bioenergyinternational.com/adm-and-tallgrass-inaugurate-worlds-largest-ethanol-carbon-capture-facility/"
+     },
+     {
+      "name": "Summit Carbon Solutions",
+      "role": "scaleup",
+      "what": "Building a multi-state CO2 pipeline to aggregate biogenic CO2 from ~50 Midwest ethanol plants for North Dakota geological storage.",
+      "signal": "~$8.9bn project; South Dakota PUC denied its permit a second time (Apr 2025) and a state law bars eminent-domain use; vowed to reapply with reduced scope; Iowa construction blocked pending SD permit.",
+      "status": "uncertain",
+      "source": "https://southdakotasearchlight.com/2025/04/22/south-dakota-regulators-deny-summit-carbon-solutions-permit-application-summit-carbon-solutions-vows-reapply/"
+     },
+     {
+      "name": "Tallgrass Energy",
+      "role": "incumbent",
+      "what": "Provides CO2 transport and sequestration infrastructure (Trailblazer conversion) for ethanol-plant CCS, partnering with ADM in Nebraska.",
+      "signal": "Co-inaugurated 'world's largest' ethanol CCS facility with ADM, Nov 2025.",
+      "status": "operating",
+      "source": "https://bioenergyinternational.com/adm-and-tallgrass-inaugurate-worlds-largest-ethanol-carbon-capture-facility/"
+     },
+     {
+      "name": "Wabash Valley Resources",
+      "role": "scaleup",
+      "what": "Developing large-scale CO2 sequestration co-located with an ammonia/syngas plant (biogenic + industrial CO2) in Indiana.",
+      "signal": "OGCI Climate Investments-backed; designed to sequester ~1.5-1.75M t CO2/yr; among the largest US sequestration projects.",
+      "status": "operating",
+      "source": "https://advancedbiofuelsusa.info/the-largest-us-carbon-capture-and-sequestration-project-to-be-developed-by-wabash-valley-resoureces-with-funding-support-from-ogci-climate-investments"
+     }
+    ]
+   },
+   {
+    "name": "Biogas/RNG upgrading CO2 capture for removal credits",
+    "description": "When raw biogas from anaerobic digestion is upgraded to pipeline-quality renewable natural gas, the separated biogenic CO2 (normally vented) is instead captured and permanently stored or mineralized, generating durable carbon-removal credits on top of the RNG.",
+    "maturity": "pilot",
+    "white_space": "The vented CO2 is biogenic and already separated, so capture is technically easy, but each digester emits only small, dispersed volumes that are uneconomic to truck to storage individually; the opening is aggregation models and onsite mineralization (e.g. into concrete) that avoid long-distance CO2 transport.",
+    "companies": [
+     {
+      "name": "neustark",
+      "role": "scaleup",
+      "what": "Liquefies biogenic CO2 captured at biogas/RNG-upgrading plants and mineralizes it into recycled demolition-concrete granules and mineral wastes for permanent storage.",
+      "signal": "$69M round led by BlackRock/Temasek's Decarbonization Partners (Holcim, Siemens backing); targeting 1M t CO2 removed by 2030; CHF50M Swiss climate-fund awards; aiming for 4,000 t/yr UK projects from 2025.",
+      "status": "operating",
+      "source": "https://www.neustark.com/en/news/neustark-secures--69-million-in-funding-to-expand-carbon-removal-solution-globally"
+     },
+     {
+      "name": "Green Gas / RNG project developers (sector)",
+      "role": "incumbent",
+      "what": "RNG producers increasingly monetize the biogenic CO2 byproduct of biomethane upgrading as carbon-removal credits.",
+      "signal": "US RNG facilities grew from ~30 (2011) to >300 by 2023, expanding the addressable biogenic-CO2 base; ADBA/CCC flag engineered removal as a new biogas-sector revenue stream.",
+      "status": "operating",
+      "source": "https://adbioresources.org/newsroom/engineered-removal-of-carbon-is-creating-opportunities-for-the-biogas-sector/"
+     }
+    ]
+   },
+   {
+    "name": "Pulp & paper and other biogenic industrial BECCS",
+    "description": "Kraft pulp mills and similar biogenic-heavy industries capture the large, concentrated biogenic CO2 streams from their recovery boilers and lime kilns for permanent storage, leveraging existing biomass supply chains and large point sources.",
+    "maturity": "demonstration",
+    "white_space": "",
+    "companies": [
+     {
+      "name": "CO280",
+      "role": "scaleup",
+      "what": "Retrofits existing US pulp & paper mills to capture biogenic CO2 from boiler-stack emissions for permanent geological storage (capture by partner SLB Capturi).",
+      "signal": "Microsoft 3.685M-t / 12-yr deal (Apr 2025) plus JPMorgan agreements (~4.13M t total); completed a US mill field pilot Nov 2025; >10 projects in development, 5 high-priority by 2030.",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/co280-signs-landmark-3-69-million-tonne-agreement-with-microsoft-to-scale-up-carbon-dioxide-removal-in-the-us-pulp-and-paper-industry-302426170.html"
+     },
+     {
+      "name": "Stora Enso",
+      "role": "incumbent",
+      "what": "Running a world-first carbon-capture pilot installed on a recovery boiler at its Skutsk\u00e4r (Sweden) pulp mill via the EU ACCSESS project.",
+      "signal": "Pilot operating since 2024; first project globally to mount capture on a pulp recovery boiler; pursuing climate-positive production roadmap.",
+      "status": "operating",
+      "source": "https://www.storaenso.com/en/newsroom/news/2024/4/capturing-carbon-skutskar-mill"
+     },
+     {
+      "name": "Mets\u00e4 Group",
+      "role": "incumbent",
+      "what": "Piloting carbon capture at its Rauma (Finland) mill and assessing a 30,000-100,000 t/yr demo at another site.",
+      "signal": "Pilot testing energy use, capture volumes and product quality through autumn 2025; feasibility of large demo plant under study.",
+      "status": "operating",
+      "source": "https://www.paperadvance.com/news/sustainability/metsa-group-pilots-carbon-capture-at-rauma-mill.html"
+     },
+     {
+      "name": "SLB Capturi",
+      "role": "incumbent",
+      "what": "Aker/SLB joint-venture supplying the amine capture technology for CO280's pulp-mill projects and other BECCS.",
+      "signal": "Capture-tech supplier for the record Microsoft-CO280 pulp & paper deal; multiple operating capture references (incl. Hafslund Celsio engagement).",
+      "status": "operating",
+      "source": "https://www.technologyreview.com/2025/10/15/1125715/big-techs-big-bet-on-a-controversial-carbon-removal-tactic/"
+     }
+    ]
+   },
+   {
+    "name": "Carbon-storing engineered biomass building materials (fiber panels, structural timber)",
+    "description": "Fast-growing wood is manufactured into mass-timber products (cross-laminated timber, glulam) and engineered fiber panels that lock biogenic carbon into long-lived buildings while displacing carbon-intensive concrete and steel.",
+    "maturity": "scaling",
+    "white_space": "",
+    "companies": [
+     {
+      "name": "Mercer Mass Timber (Mercer International)",
+      "role": "incumbent",
+      "what": "Largest North American mass-timber manufacturer producing CLT and glulam at scale (operates the largest CLT press in North America).",
+      "signal": "Acquired Structurlam, expanding capacity to ~255,000 m3/yr of CLT and glulam across multiple factories.",
+      "status": "operating",
+      "source": "https://mercermasstimber.com/"
+     },
+     {
+      "name": "Sterling Structural",
+      "role": "scaleup",
+      "what": "High-speed, high-volume CLT manufacturer (TerraLam line) targeting affordable, prefabricated mass-timber floor/roof systems.",
+      "signal": "Positions itself as the world's largest CLT manufacturer by production capacity; TerraLam competitively priced for horizontal-plate applications.",
+      "status": "operating",
+      "source": "https://sterlingstructural.com/"
+     },
+     {
+      "name": "Cross-laminated timber sector (market)",
+      "role": "incumbent",
+      "what": "Broad CLT/glulam manufacturing base storing ~75% of a mass-timber building's carbon in floor/roof slabs.",
+      "signal": "Global CLT market ~$1.81bn in 2025, projected ~$3.59bn by 2030 (~14.7% CAGR); rising US/EU adoption.",
+      "status": "operating",
+      "source": "https://www.marketsandmarkets.com/Market-Reports/cross-laminated-timber-clt-market-192075256.html"
+     }
+    ]
+   },
+   {
+    "name": "Biogenic CO2 mineralization into building materials (added)",
+    "description": "Concentrated biogenic CO2 from biogas or other biomass sources is permanently fixed as carbonate minerals inside recycled concrete granules, demolition aggregate, and mineral wastes, giving durable removal that doubles as a low-carbon construction input.",
+    "maturity": "demonstration",
+    "white_space": "Still a thin field: it requires both a biogenic CO2 source and nearby mineral-waste/recycling feedstock, and credit volumes per site are small; the opening is co-locating mineralization at construction-and-demolition recycling hubs in dense urban markets where CO2 transport distance is minimal.",
+    "companies": [
+     {
+      "name": "neustark",
+      "role": "scaleup",
+      "what": "Injects liquefied biogenic CO2 into recycled-concrete granules and mineral waste (slag, slurry) for permanent mineral storage, also yielding a construction material.",
+      "signal": "$69M BlackRock/Temasek-led round; backing from Holcim and Siemens; goal of 1M t CO2 removed by 2030.",
+      "status": "operating",
+      "source": "https://carbonherald.com/neustark-secures-69m-to-scale-promising-carbon-removal-technology/"
+     }
+    ]
+   }
+  ]
+ }
+}

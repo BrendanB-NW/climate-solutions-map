@@ -1,0 +1,205 @@
+{
+ "energy": {
+  "title": "Clean Energy Supply",
+  "taxonomy_buckets": [
+   "Solar",
+   "Wind",
+   "Geothermal",
+   "Hydro & Marine Energy",
+   "Nuclear Fission",
+   "Fusion",
+   "Electrochemical Storage",
+   "Thermal & Mechanical Long-Duration Storage",
+   "Grid & Transmission Hardware"
+  ],
+  "census_done": [
+   "Electrochemical Storage",
+   "Fusion",
+   "Geothermal",
+   "Grid & Transmission Hardware",
+   "Hydro & Marine Energy",
+   "Nuclear Fission",
+   "Solar",
+   "Thermal & Mechanical Long-Duration Storage",
+   "Wind"
+  ],
+  "census_extra_not_in_taxonomy": [],
+  "missing": [],
+  "companies": 574,
+  "audit": true
+ },
+ "transport": {
+  "title": "Transport",
+  "taxonomy_buckets": [
+   "Passenger & Light-Duty EVs",
+   "Electric Two/Three-Wheelers & Micromobility",
+   "Commercial, Heavy-Duty & Off-Road EVs",
+   "EV Charging & Grid Integration",
+   "Battery Cells & Next-Gen Chemistries",
+   "Battery Materials, Components, Powertrain & Recycling",
+   "Aviation Decarbonization",
+   "Maritime Decarbonization",
+   "Rail, Hydrogen for Transport & E-fuels"
+  ],
+  "census_done": [
+   "Aviation Decarbonization",
+   "Battery Cells & Next-Gen Chemistries",
+   "Battery Materials, Components, Powertrain & Recycling",
+   "Commercial, Heavy-Duty & Off-Road EVs",
+   "EV Charging & Grid Integration",
+   "Electric Two/Three-Wheelers & Micromobility",
+   "Maritime Decarbonization",
+   "Passenger & Light-Duty EVs",
+   "Rail, Hydrogen for Transport & E-fuels"
+  ],
+  "census_extra_not_in_taxonomy": [],
+  "missing": [],
+  "companies": 710,
+  "audit": false
+ },
+ "buildings": {
+  "title": "Buildings",
+  "taxonomy_buckets": [
+   "Air-Source Heat Pumps & Electrified HVAC",
+   "Geothermal, Thermal Networks & District Energy",
+   "Water Heating & Appliance Electrification",
+   "Building Envelope: Insulation, Air Sealing & Roofs",
+   "Windows, Glazing & Solar Control",
+   "Retrofit Delivery, Electrification Platforms & Financing",
+   "Smart Controls, Demand Flexibility & Thermal Storage",
+   "Low-Carbon Structural Materials & Industrialized Construction",
+   "Refrigerants & Commercial Refrigeration"
+  ],
+  "census_done": [
+   "Air-Source Heat Pumps & Electrified HVAC",
+   "Building Envelope: Insulation, Air Sealing & Roofs",
+   "Geothermal, Thermal Networks & District Energy",
+   "Low-Carbon Structural Materials & Industrialized Construction",
+   "Refrigerants & Commercial Refrigeration",
+   "Retrofit Delivery, Electrification Platforms & Financing",
+   "Smart Controls, Demand Flexibility & Thermal Storage",
+   "Water Heating & Appliance Electrification",
+   "Windows, Glazing & Solar Control"
+  ],
+  "census_extra_not_in_taxonomy": [],
+  "missing": [],
+  "companies": 613,
+  "audit": false
+ },
+ "industry": {
+  "title": "Industry & Manufacturing",
+  "taxonomy_buckets": [
+   "Green Iron, Steel & Metals",
+   "Low-Carbon Cement & Concrete",
+   "Clean Hydrogen Production",
+   "Green Ammonia & Fertilizers",
+   "Green Chemicals & Bio/CO2-Based Materials",
+   "Plastics & Polymer Circularity",
+   "Industrial Heat & Process Electrification",
+   "Critical Minerals Extraction & Refining",
+   "Battery & Materials Recycling"
+  ],
+  "census_done": [
+   "Battery & Materials Recycling",
+   "Clean Hydrogen Production",
+   "Critical Minerals Extraction & Refining",
+   "Green Ammonia & Fertilizers",
+   "Green Chemicals & Bio/CO2-Based Materials",
+   "Green Iron, Steel & Metals",
+   "Industrial Heat & Process Electrification",
+   "Low-Carbon Cement & Concrete",
+   "Plastics & Polymer Circularity"
+  ],
+  "census_extra_not_in_taxonomy": [],
+  "missing": [],
+  "companies": 600,
+  "audit": false
+ },
+ "food": {
+  "title": "Food, Agriculture & Land Use",
+  "taxonomy_buckets": [
+   "Plant-Based & Fermentation Proteins",
+   "Cultivated Meat & Novel Protein Sources",
+   "Livestock & Rice Methane",
+   "Fertilizer & Crop Inputs",
+   "Precision Ag, Robotics & Controlled-Environment Ag",
+   "Regenerative Agriculture & Soil Carbon",
+   "Food Loss & Waste",
+   "Forests & Deforestation-Free Supply Chains",
+   "Blue Carbon & Coastal Ecosystems"
+  ],
+  "census_done": [
+   "Blue Carbon & Coastal Ecosystems",
+   "Cultivated Meat & Novel Protein Sources",
+   "Fertilizer & Crop Inputs",
+   "Food Loss & Waste",
+   "Forests & Deforestation-Free Supply Chains",
+   "Livestock & Rice Methane",
+   "Plant-Based & Fermentation Proteins",
+   "Precision Ag, Robotics & Controlled-Environment Ag",
+   "Regenerative Agriculture & Soil Carbon"
+  ],
+  "census_extra_not_in_taxonomy": [],
+  "missing": [],
+  "companies": 445,
+  "audit": false
+ },
+ "cdr": {
+  "title": "Carbon Removal & Capture",
+  "taxonomy_buckets": [
+   "Direct Air Capture",
+   "Biochar & Bio-oil",
+   "Biomass Storage & BECCS",
+   "Enhanced Weathering & Mineralization (land)",
+   "Ocean-Based CDR",
+   "Point-Source Capture",
+   "CO2 Transport & Geologic Storage",
+   "CO2 Utilization: Fuels, Chemicals & Bio-products",
+   "CO2 Utilization: Built Materials"
+  ],
+  "census_done": [
+   "Biochar & Bio-oil",
+   "Biomass Storage & BECCS",
+   "CO2 Transport & Geologic Storage",
+   "CO2 Utilization: Built Materials",
+   "CO2 Utilization: Fuels, Chemicals & Bio-products",
+   "Direct Air Capture",
+   "Enhanced Weathering & Mineralization (land)",
+   "Ocean-Based CDR",
+   "Point-Source Capture"
+  ],
+  "census_extra_not_in_taxonomy": [],
+  "missing": [],
+  "companies": 437,
+  "audit": false
+ },
+ "enabling": {
+  "title": "Enabling Layers",
+  "taxonomy_buckets": [
+   "Corporate Carbon Accounting & Disclosure Software",
+   "Emissions Monitoring & Climate Intelligence",
+   "Carbon Market Infrastructure & Services",
+   "Carbon Credit Project Developers & Digital MRV",
+   "VPPs, DERMS & Demand-Side Flexibility",
+   "Grid Operations, Planning & Network AI",
+   "Energy Markets, Forecasting & Trading Software",
+   "Climate Fintech",
+   "Supply Chain Decarbonization & Green Procurement"
+  ],
+  "census_done": [
+   "Carbon Credit Project Developers & Digital MRV",
+   "Carbon Market Infrastructure & Services",
+   "Climate Fintech",
+   "Corporate Carbon Accounting & Disclosure Software",
+   "Emissions Monitoring & Climate Intelligence",
+   "Energy Markets, Forecasting & Trading Software",
+   "Grid Operations, Planning & Network AI",
+   "Supply Chain Decarbonization & Green Procurement",
+   "VPPs, DERMS & Demand-Side Flexibility"
+  ],
+  "census_extra_not_in_taxonomy": [],
+  "missing": [],
+  "companies": 690,
+  "audit": false
+ }
+}

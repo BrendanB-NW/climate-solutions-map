@@ -1,0 +1,390 @@
+{
+ "sector": "food",
+ "bucket": "Livestock & Rice Methane",
+ "census": {
+  "bucket": "Livestock & Rice Methane",
+  "variations": [
+   {
+    "name": "Enteric feed additives \u2014 seaweed / Asparagopsis",
+    "description": "Feeding cattle small amounts of red seaweed (Asparagopsis), whose active compound bromoform inhibits the methanogen enzyme that makes methane in the rumen, can cut enteric methane by 50-90% and matters because enteric fermentation is agriculture's single largest methane source.",
+    "maturity": "scaling",
+    "white_space": "Hyped as a gamechanger but delivery has lagged: bromoform stability/safety, seaweed cultivation cost, and unclear who pays the on-farm cost premium are slowing adoption. Opening: cheaper land-based or synthesized-bromoform formulations and bankable carbon/insetting revenue to cover the farmer cost gap.",
+    "companies": [
+     {
+      "name": "CH4 Global",
+      "role": "scaleup",
+      "what": "Produces freeze-dried Asparagopsis 'Methane Tamer' supplement from pond-grown seaweed at its South Australia EcoPark; launched first low-methane Methane Tamer Wagyu beef in 2025.",
+      "signal": "~$100M raised (Chipotle-backed); EcoPark phase one with 10 ponds (2M litres), targeting 100 ponds / 45,000 cattle/day; accepting orders for 10,000+ head",
+      "status": "operating",
+      "source": "https://www.innovationnewsnetwork.com/the-seaweed-solution-how-ch4-global-is-scaling-natures-methane-busting-powerhouse/55724/"
+     },
+     {
+      "name": "Sea Forest",
+      "role": "scaleup",
+      "what": "Grows Asparagopsis in Tasmania and sells both oil-based (SeaFeed) and freeze-dried formulations; partnered with Fonterra on the Kowbucha-branded additive.",
+      "signal": "Raised AUD ~$34M (2021); listed on ASX; product commercially available to beef producers",
+      "status": "operating",
+      "source": "https://www.beefcentral.com/news/methane-feed-additive-news-long-payout-product-launched-sea-forest-lists-on-asx/"
+     },
+     {
+      "name": "Symbrosia",
+      "role": "startup",
+      "what": "Hawaii-based grower of red seaweed for its SeaGraze/Seaable livestock supplement using a low-cost cultivation method; submitted efficacy data to FDA.",
+      "signal": "$5.8M raise (Dec 2025) from Idemitsu and One Small Planet; scaling from 2,500 to 22,000 head capacity by April 2026; targeting US approval mid-2026",
+      "status": "operating",
+      "source": "https://agfundernews.com/symbrosia-nets-5-8m-to-scale-most-cost-effective-cultivation-method-for-methane-busting-seaweed-additive"
+     },
+     {
+      "name": "Blue Ocean Barns",
+      "role": "startup",
+      "what": "California-based producer of 'Brominata', a red-seaweed feed additive that was approved for sale in California and also supplies iodine and amino acids.",
+      "signal": "Backed by Breakthrough Energy Ventures; California state approval secured; commercial supply to dairies",
+      "status": "operating",
+      "source": "https://thefishsite.com/articles/startup-with-seaweed-based-methane-reduction-tech-gets-funding-from-gates-breakthrough-energy-ventures"
+     },
+     {
+      "name": "SeaStock",
+      "role": "startup",
+      "what": "Western Australia grower/processor licensed by FutureFeed selling an oil-based Asparagopsis product; vertically integrated cultivation-to-extract.",
+      "signal": "FutureFeed license; accepting pre-orders for oil-based product",
+      "status": "operating",
+      "source": "https://www.beefcentral.com/news/methane-reducing-seaweed-additive-now-commercially-available-for-beef-producers/"
+     },
+     {
+      "name": "Volta Greentech",
+      "role": "startup",
+      "what": "Swedish firm that originally produced Asparagopsis-based Lome feed and ran the 'Climate Cattle' farm; now developing a new product with the same bromoform mode of action seeking EU technical-feed-additive approval.",
+      "signal": "Pivoting away from pure Asparagopsis cultivation; targeting EU dossier submission and market entry by 2026",
+      "status": "uncertain",
+      "source": "https://agfundernews.com/red-seaweed-was-billed-as-a-gamechanger-for-livestock-methane-reduction-so-when-will-it-deliver"
+     },
+     {
+      "name": "FutureFeed",
+      "role": "incumbent",
+      "what": "CSIRO/Meat & Livestock Australia-owned IP holder that licenses the Asparagopsis-for-methane patent globally rather than producing additive itself.",
+      "signal": "Holds the foundational Asparagopsis patent; licenses CH4 Global, Sea Forest, SeaStock; named a TIME Best Invention 2025",
+      "status": "operating",
+      "source": "https://time.com/collections/best-inventions-2025/7318232/futurefeed-asparagopsis-supplement/"
+     }
+    ]
+   },
+   {
+    "name": "Enteric feed additives \u2014 synthetic (3-NOP), oils, tannins, probiotics/enzymes",
+    "description": "Non-seaweed feed additives \u2014 chiefly the synthetic molecule 3-nitrooxypropanol (3-NOP) plus garlic/citrus extracts, oils, tannins and bromoform-mimicking compounds \u2014 directly inhibit rumen methanogenesis, offering a more shelf-stable and regulator-friendly path than seaweed to cut enteric methane ~30%.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "dsm-firmenich (Bovaer / 3-NOP)",
+      "role": "incumbent",
+      "what": "Developer and manufacturer of Bovaer (3-NOP), the leading synthetic methane inhibitor, after a decade-plus of R&D; sells ~12-15 g/cow/day dosed into feed.",
+      "signal": "Regulatory approval in 65+ countries incl. EU and FDA/US (via Elanco); cuts dairy methane ~30%, beef up to 45%; commercially shipping at scale",
+      "status": "operating",
+      "source": "https://our-company.dsm-firmenich.com/en/our-company/news/press-releases/2024/methane-reducing-feed-ingredient-bovaer-ready-for-us-market-launch.html"
+     },
+     {
+      "name": "Elanco Animal Health",
+      "role": "incumbent",
+      "what": "Holds exclusive US marketing and distribution rights for Bovaer and bundles it with on-farm carbon-program/insetting offerings for dairy and beef.",
+      "signal": "NYSE-listed animal health major; US launch of Bovaer underway following FDA clearance",
+      "status": "operating",
+      "source": "https://farmanimal.elanco.com/us/dairy/bovaer"
+     },
+     {
+      "name": "Rumin8",
+      "role": "startup",
+      "what": "Australian startup synthesizing stabilized bromoform-analog compounds (toll-manufactured, not seaweed-grown) delivered as a feed/water supplement; acquired ROAM Agricultural in 2025.",
+      "signal": "~$18M+ raised incl. Breakthrough Energy Ventures and Bill Gates / Andrew Forrest; Brazil feed-ingredient approval (Oct 2024); multi-country trials",
+      "status": "operating",
+      "source": "https://cen.acs.org/articles/101/i5/Rumin8-raises-12-million-methane.html"
+     },
+     {
+      "name": "Mootral",
+      "role": "startup",
+      "what": "Swiss/UK firm selling a garlic-plus-citrus-extract natural supplement (allicin) that inhibits methanogens, paired with a 'CowCredits' carbon program.",
+      "signal": "Completed Enterix Advanced development phase; reported ~23% methane reduction; in vivo trials of next-gen product",
+      "status": "operating",
+      "source": "https://trellis.net/article/5-feed-companies-could-relieve-cow-burp-methane-problem/"
+     },
+     {
+      "name": "Blue Ocean Barns (Brominata)",
+      "role": "startup",
+      "what": "Also competes here with a standardized bromoform-delivery additive positioned alongside synthetic inhibitors for feedlot/dairy rations.",
+      "signal": "California regulatory approval; Breakthrough Energy Ventures backing",
+      "status": "operating",
+      "source": "https://www.wri.org/technical-perspective/cattle-methane-inhibitors-early-adoption-next-steps"
+     }
+    ]
+   },
+   {
+    "name": "Methane-reducing vaccines",
+    "description": "A vaccine that prompts the animal's immune system to produce antibodies in saliva that suppress rumen methanogens is seen as the 'holy grail' because, unlike daily feed additives, a periodic shot could work across all farming systems including extensive grazing at very low cost.",
+    "maturity": "lab",
+    "white_space": "Very few credible players because the science is hard: antibodies must survive the rumen and durably suppress methanogens without harming the animal or digestion, and no candidate has yet shown large, lasting reductions in field trials. Opening is enormous (it is the only solution that scales to pasture-based herds), so the first team to demonstrate durable 20%+ reductions in animals captures a huge market \u2014 but it is still pre-commercial (best estimates put launch at 2027-2028+).",
+    "companies": [
+     {
+      "name": "ArkeaBio",
+      "role": "startup",
+      "what": "Boston-based startup developing a vaccine targeting rumen methanogens designed to be low-cost and globally scalable across cattle and other ruminants.",
+      "signal": "$26.5M Series A (2024) plus $7M Series A1 (Aug 2025) co-led by Breakthrough Energy Ventures and AgriZeroNZ; animal studies showing 10-15% reduction; field trials targeted 2026, market ~2027-2028",
+      "status": "operating",
+      "source": "https://climatesolutions.news/business/arkeabio-raises-26-5-million-to-develop-methane-reducing-vaccine-for-cattle"
+     },
+     {
+      "name": "Lucidome Bio",
+      "role": "startup",
+      "what": "New Zealand venture spun out of AgResearch's immunology/microbiology IP, formed by AgriZeroNZ to commercialize the country's pioneering methane-vaccine research.",
+      "signal": "NZD $13.5M from AgriZeroNZ ($8.5M) and NZAGRC ($5M); building team and progressing to animal field trials",
+      "status": "operating",
+      "source": "https://www.agrizero.nz/news/new-kiwi-methane-venture-receives-13-5m-boost"
+     },
+     {
+      "name": "AgResearch (NZ)",
+      "role": "incumbent",
+      "what": "New Zealand Crown research institute that produced the foundational methane-vaccine science and IP now carried forward by Lucidome Bio.",
+      "signal": "Decades of immunology research; vaccine IP licensed into Lucidome Bio (2024)",
+      "status": "operating",
+      "source": "https://beeflambnz.com/news/methane-vaccine-becoming-viable-option-new-company-formation"
+     }
+    ]
+   },
+   {
+    "name": "Low-methane breeding, genetics & genomics",
+    "description": "Because individual animals vary genetically in how much methane they emit, measuring methane on reference animals and building genomic breeding values lets farmers select bulls/sires whose offspring permanently emit less methane, delivering compounding, low-cost reductions with no daily intervention.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "LIC (Livestock Improvement Corporation)",
+      "role": "incumbent",
+      "what": "NZ farmer-owned breeding co-op measuring methane from young bulls to develop low-methane genetic selection for the national dairy herd.",
+      "signal": "NZAGRC-funded programme; year-one data on 281 bulls found lowest emitters ~15-20% below average; co-developing with CRV",
+      "status": "operating",
+      "source": "https://www.lic.co.nz/news/farmers-are-one-step-closer-to-breeding-more-climate-friendly-cows/"
+     },
+     {
+      "name": "CRV",
+      "role": "incumbent",
+      "what": "Global cattle-genetics company that, with WUR and FrieslandCampina, built a breeding programme to lower methane in dairy cows and partners with LIC in NZ.",
+      "signal": "Targeting 25% methane cut over 25 years via genomics; programme operational in NZ and Netherlands",
+      "status": "operating",
+      "source": "https://www.wur.nl/en/news/methane-emissions-cows-and-sheep-can-be-reduced-25-using-breeding-programmes.htm"
+     },
+     {
+      "name": "Low Methane Beef (LMB) project / AbacusBio consortium",
+      "role": "scaleup",
+      "what": "Industry consortium that released the first genomic Research Breeding Values (RBVs) for methane in beef cattle under both feedlot and pasture conditions.",
+      "signal": "First methane RBVs released early December 2025, enabling commercial sire selection for low-methane beef",
+      "status": "operating",
+      "source": "https://www.beefcentral.com/genetics/low-methane-beef-project-delivers-first-genomic-insights-to-help-reduce-emissions-in-cattle/"
+     },
+     {
+      "name": "AgResearch / Beef + Lamb NZ (sheep genetics)",
+      "role": "incumbent",
+      "what": "Made low-methane selection commercially available to sheep breeders via measured breeding values for ram selection.",
+      "signal": "Low-methane selection now offered to NZ sheep breeders",
+      "status": "operating",
+      "source": "https://subsites.wur.nl/en/news-5/methane-emissions-from-cows-and-sheep-can-be-reduced-by-25-using-breeding-programmes.htm"
+     }
+    ]
+   },
+   {
+    "name": "Manure management, slurry treatment & livestock biogas digesters",
+    "description": "Capturing manure methane in anaerobic digesters (to make biogas/renewable natural gas or electricity) and treating stored slurry via acidification or other additives prevents methane that would otherwise vent from lagoons and storage, and matters because manure is the second-largest livestock methane source after enteric fermentation.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Vanguard Renewables",
+      "role": "scaleup",
+      "what": "Develops and operates Farm Powered anaerobic digesters co-digesting dairy manure with food waste to produce RNG, owned by BlackRock.",
+      "signal": "Plans 100+ anaerobic digestion facilities by 2028; nationwide US expansion",
+      "status": "operating",
+      "source": "https://www.vanguardrenewables.com/insights/demystifying-farm-powered-r-anaerobic-digestion-harnessing-the-power-of-waste"
+     },
+     {
+      "name": "Brightmark RNG",
+      "role": "scaleup",
+      "what": "Builds and operates dairy-manure RNG projects across the US Midwest; joint venture with Chevron USA.",
+      "signal": "Owns/operates 15 dairy RNG projects; achieved first gas at 10 farms; a leading dairy RNG producer",
+      "status": "operating",
+      "source": "https://www.energytech.com/renewables/article/55262191/brightmark-rng-achieves-first-gas-at-10-dairy-farms"
+     },
+     {
+      "name": "Clean Energy Fuels Corp.",
+      "role": "incumbent",
+      "what": "NASDAQ-listed RNG producer/fuel supplier developing dairy RNG projects and dispensing the gas as vehicle fuel through its fueling network.",
+      "signal": "Five new dairy RNG projects under construction per Q3 2025 report; operating dairy projects ramping volumes",
+      "status": "operating",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001368265/000110465925106289/clne-20251104xex99d1.htm"
+     },
+     {
+      "name": "Gevo (incl. Gevo RNG / formerly Verity/NW Renewable)",
+      "role": "incumbent",
+      "what": "Collects manure from partner dairies, runs it through anaerobic digesters and injects purified RNG into the natural-gas pipeline.",
+      "signal": "NASDAQ-listed; operating dairy-manure RNG assets in the US Midwest",
+      "status": "operating",
+      "source": "https://gevo.com/product/generating-rng/"
+     },
+     {
+      "name": "Calgren Dairy Fuels",
+      "role": "scaleup",
+      "what": "Aggregates biogas from 12 Tulare County, California dairies and upgrades it to pipeline-quality RNG injected into the SoCalGas system.",
+      "signal": "Cluster of 12 dairies feeding a central RNG upgrade/injection hub in California",
+      "status": "operating",
+      "source": "https://www.dairycares.com/dairy-digesters"
+     },
+     {
+      "name": "HoSt North America",
+      "role": "incumbent",
+      "what": "Designs and builds turnkey dairy biogas plants with integrated biogas-upgrading-to-RNG technology for farmers and developers.",
+      "signal": "Established EPC supplier of dairy biogas + upgrading systems across North America",
+      "status": "operating",
+      "source": "https://www.host-bioenergy.com/us/solutions/biogas-plants-dairy/"
+     },
+     {
+      "name": "N2 Applied",
+      "role": "startup",
+      "what": "Norwegian startup whose plasma ('lightning bolt') unit treats slurry on-farm to cut methane and ammonia while fixing nitrogen into fertilizer.",
+      "signal": "Commercializing on-farm plasma slurry-treatment units in Europe",
+      "status": "operating",
+      "source": "https://phys.org/news/2021-10-startup-manure-sustainable-fertilizer-greenhouse.html"
+     },
+     {
+      "name": "Regenis",
+      "role": "incumbent",
+      "what": "US firm that consults, permits, builds and maintains on-farm anaerobic digesters and nutrient-recovery systems.",
+      "signal": "~20 years building/maintaining farm biodigesters in the US",
+      "status": "operating",
+      "source": "https://regenis.net/"
+     }
+    ]
+   },
+   {
+    "name": "Rice paddy methane reduction (alternate wetting/drying, direct seeding, microbials, low-CH4 varieties)",
+    "description": "Periodically draining flooded rice fields (alternate wetting and drying), direct dry seeding, microbial treatments and low-methane rice varieties starve the anaerobic microbes that produce methane in waterlogged paddies, cutting paddy methane ~30-65% \u2014 significant because rice cultivation is one of the largest single anthropogenic methane sources.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Mitti Labs",
+      "role": "startup",
+      "what": "Builds a digital MRV system (satellite imagery, IoT sensors, ML) achieving ~95% accuracy to verify AWD adoption and methane cuts, and trains farmers at scale to generate rice carbon credits.",
+      "signal": "$3M seed (Jan 2025, Lightspeed/Voyager) plus NASA SBIR Phase II $850k; 40,000+ farmers across 6 Indian states; TNC partnership",
+      "status": "operating",
+      "source": "https://techcrunch.com/2025/08/26/how-one-ai-startup-is-helping-rice-farmers-battle-climate-change/"
+     },
+     {
+      "name": "Green Carbon Inc.",
+      "role": "startup",
+      "what": "Japanese developer originating large-scale AWD rice carbon projects across Southeast Asia and registering them under Gold Standard, T-VER and Japan's JCM.",
+      "signal": "First Gold Standard rice paddy project in Vietnam (~2.5M credits/10 yrs); '1.5 Million Hectares' Thailand project; partnered with Shell on 50,000 ha in the Philippines",
+      "status": "operating",
+      "source": "https://green-carbon.co.jp/en/enjapans-first-gold-standard-rice-paddy-project/"
+     },
+     {
+      "name": "Shell (Nature-Based Solutions)",
+      "role": "incumbent",
+      "what": "Energy major funding AWD rice methane projects in the Philippines (with Green Carbon) to generate carbon credits for its offset portfolio.",
+      "signal": "50,000 ha AWD project on Mindoro Island with Green Carbon",
+      "status": "operating",
+      "source": "https://carboncredits.com/shells-initiative-to-cut-methane-in-rice-farming-in-the-philippines-and-create-carbon-credits/"
+     },
+     {
+      "name": "Gold Standard",
+      "role": "incumbent",
+      "what": "Carbon-standard body that issued the first-ever rice methane reduction credits under its GS4GG registry, providing the crediting rails for AWD projects.",
+      "signal": "Issued first rice methane credits 17 December 2025; updated rice methodology (2023)",
+      "status": "operating",
+      "source": "https://www.sarawaktribune.com/first-rice-methane-reduction-credits-issued-by-gs/"
+     },
+     {
+      "name": "Verra",
+      "role": "incumbent",
+      "what": "Largest voluntary carbon registry; released an updated, more rigorous improved-rice-cultivation methodology in early 2025 to re-enable credible AWD crediting.",
+      "signal": "Updated rice methodology released early 2025, rejoining CAR and Gold Standard with active methodologies",
+      "status": "operating",
+      "source": "https://rmi.org/technical-explainer-carbon-credits-for-improved-rice-cultivation/"
+     },
+     {
+      "name": "Sylvera",
+      "role": "startup",
+      "what": "Carbon-credit ratings/data firm that assesses AWD rice project quality, providing the diligence layer buyers use to trust rice methane credits.",
+      "signal": "Publishes AWD project ratings/analysis; venture-backed carbon data platform",
+      "status": "operating",
+      "source": "https://www.sylvera.com/blog/alternate-wetting-and-drying-awd-tech-rice-cultivation-climate-impact"
+     }
+    ]
+   },
+   {
+    "name": "Livestock & herd emissions monitoring / MRV",
+    "description": "Hardware and software that actually measure enteric methane from individual animals \u2014 feeder-based gas-sampling stations, in-rumen sensors, and modeling/MRV platforms \u2014 provide the data needed to validate feed additives, breeding, and carbon-credit claims, and matter because no mitigation can be financed or verified without trustworthy measurement.",
+    "maturity": "scaling",
+    "white_space": "Outside the dominant feeder-station incumbent the field is thin: continuous, low-cost per-animal measurement (especially on pasture) is physically hard, so direct in-vivo sensors and proxy/model-based MRV are still early. Opening: a cheap, durable wearable or in-rumen sensor plus a credit-grade modeling layer that works at herd scale on grazing systems.",
+    "companies": [
+     {
+      "name": "C-Lock Inc. (GreenFeed)",
+      "role": "incumbent",
+      "what": "Manufactures the patented GreenFeed feeder-station that measures methane/CO2 from individual ruminants in short bouts and processes the data remotely; the de facto research and MRV standard.",
+      "signal": "Commercial global install base; in 2025 expanding GreenFeed into a multi-functional health/nutrition data hub",
+      "status": "operating",
+      "source": "https://www.agtechnavigator.com/Article/2025/04/23/c-locks-greenfeed-system-goes-beyond-basic-methane-monitoring/"
+     },
+     {
+      "name": "Zelp",
+      "role": "startup",
+      "what": "Develops a wearable cattle face-mounted device that captures and oxidizes exhaled methane while also sensing emissions and animal health data.",
+      "signal": "Cargill-backed; piloting wearable methane-capture/monitoring masks on cattle",
+      "status": "uncertain",
+      "source": "https://www.wri.org/technical-perspective/cattle-methane-inhibitors-early-adoption-next-steps"
+     },
+     {
+      "name": "Agersens / Halter (virtual fencing + monitoring)",
+      "role": "scaleup",
+      "what": "Provides smart cattle collars (GPS/virtual fencing plus behavior sensing) increasingly used as the data layer for grazing-herd emissions and management MRV.",
+      "signal": "Halter is venture-backed and scaling across NZ/Australia/US; collars deployed on hundreds of farms",
+      "status": "operating",
+      "source": "https://globalresearchalliance.org/research/livestock/collaborative-activities/livestock-emissions-measurement/"
+     },
+     {
+      "name": "SCOUT (in-vivo rumen sensor, research-stage)",
+      "role": "startup",
+      "what": "An in-vivo methane sensing system that captures continuous real-time data directly from the rumen headspace at high temporal resolution for per-animal emission profiling.",
+      "signal": "Published ex-vivo-validated prototype (Aug 2025); research/pre-commercial stage",
+      "status": "uncertain",
+      "source": "https://arxiv.org/pdf/2508.04056"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   "https://agfundernews.com/symbrosia-nets-5-8m-to-scale-most-cost-effective-cultivation-method-for-methane-busting-seaweed-additive",
+   "https://agfundernews.com/red-seaweed-was-billed-as-a-gamechanger-for-livestock-methane-reduction-so-when-will-it-deliver",
+   "https://www.innovationnewsnetwork.com/the-seaweed-solution-how-ch4-global-is-scaling-natures-methane-busting-powerhouse/55724/",
+   "https://www.beefcentral.com/news/methane-feed-additive-news-long-payout-product-launched-sea-forest-lists-on-asx/",
+   "https://time.com/collections/best-inventions-2025/7318232/futurefeed-asparagopsis-supplement/",
+   "https://our-company.dsm-firmenich.com/en/our-company/news/press-releases/2024/methane-reducing-feed-ingredient-bovaer-ready-for-us-market-launch.html",
+   "https://www.wri.org/technical-perspective/cattle-methane-inhibitors-early-adoption-next-steps",
+   "https://cen.acs.org/articles/101/i5/Rumin8-raises-12-million-methane.html",
+   "https://trellis.net/article/5-feed-companies-could-relieve-cow-burp-methane-problem/",
+   "https://climatesolutions.news/business/arkeabio-raises-26-5-million-to-develop-methane-reducing-vaccine-for-cattle",
+   "https://www.synbiobeta.com/read/arkeabio-names-dr-zach-serber-as-chief-technology-officer-to-propel-methane-reducing-livestock-vaccine-development",
+   "https://www.agrizero.nz/news/new-kiwi-methane-venture-receives-13-5m-boost",
+   "https://beeflambnz.com/news/methane-vaccine-becoming-viable-option-new-company-formation",
+   "https://www.lic.co.nz/news/farmers-are-one-step-closer-to-breeding-more-climate-friendly-cows/",
+   "https://www.wur.nl/en/news/methane-emissions-cows-and-sheep-can-be-reduced-25-using-breeding-programmes.htm",
+   "https://www.beefcentral.com/genetics/low-methane-beef-project-delivers-first-genomic-insights-to-help-reduce-emissions-in-cattle/",
+   "https://www.vanguardrenewables.com/insights/demystifying-farm-powered-r-anaerobic-digestion-harnessing-the-power-of-waste",
+   "https://www.energytech.com/renewables/article/55262191/brightmark-rng-achieves-first-gas-at-10-dairy-farms",
+   "https://www.sec.gov/Archives/edgar/data/0001368265/000110465925106289/clne-20251104xex99d1.htm",
+   "https://gevo.com/product/generating-rng/",
+   "https://www.epa.gov/agstar/anaerobic-digestion-dairy-farms",
+   "https://phys.org/news/2021-10-startup-manure-sustainable-fertilizer-greenhouse.html",
+   "https://techcrunch.com/2025/08/26/how-one-ai-startup-is-helping-rice-farmers-battle-climate-change/",
+   "https://green-carbon.co.jp/en/enjapans-first-gold-standard-rice-paddy-project/",
+   "https://carboncredits.com/shells-initiative-to-cut-methane-in-rice-farming-in-the-philippines-and-create-carbon-credits/",
+   "https://rmi.org/technical-explainer-carbon-credits-for-improved-rice-cultivation/",
+   "https://www.sarawaktribune.com/first-rice-methane-reduction-credits-issued-by-gs/",
+   "https://www.sylvera.com/blog/alternate-wetting-and-drying-awd-tech-rice-cultivation-climate-impact",
+   "https://www.agtechnavigator.com/Article/2025/04/23/c-locks-greenfeed-system-goes-beyond-basic-methane-monitoring/",
+   "https://globalresearchalliance.org/research/livestock/collaborative-activities/livestock-emissions-measurement/",
+   "https://arxiv.org/pdf/2508.04056"
+  ]
+ }
+}

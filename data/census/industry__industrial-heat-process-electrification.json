@@ -1,0 +1,751 @@
+{
+ "sector": "industry",
+ "bucket": "Industrial Heat & Process Electrification",
+ "census": {
+  "bucket": "Industrial Heat & Process Electrification",
+  "sources": [
+   "https://www.rondo.com/news-press/rondo-powers-up-worlds-largest-industrial-heat-battery",
+   "https://www.canarymedia.com/articles/energy-storage/innovation-antora-massive-heat-battery",
+   "https://www.energy-storage.news/mga-thermal-raises-au17-million-as-thermal-energy-storage-startup-enters-commercial-scale-up-phase/",
+   "https://www.kyotogroup.no/customers/kall-ingredients",
+   "https://techcrunch.com/2024/12/19/after-raising-26m-hyme-energy-signs-global-deal-to-scale-thermal-storage/",
+   "https://www.canarymedia.com/articles/long-duration-energy-storage/is-azelios-abrupt-bankruptcy-a-bad-omen-for-long-duration-energy-storage",
+   "https://www.canarymedia.com/articles/heat-pumps/colorado-factory-atmoszero-industrial-decarbonization",
+   "https://www.canarymedia.com/articles/heat-pumps/skyven-industrial-decarbonization-pilot-cost-effective",
+   "https://www.manufacturingdive.com/news/brewery-heat-pump-new-belgium-diageo-atmoszero-skyven/803028/",
+   "https://www.parat.no/en/products/industry/parat-ieh-high-voltage-electrode-boiler/",
+   "https://coolbrook.com/news/adani-cement-and-coolbrook-to-deploy-worlds-first-commercial-rotodynamic-heater-to-advance-cement-decarbonisation/",
+   "https://www.basf.com/global/en/media/news-releases/2024/04/p-24-177",
+   "https://www.saltxtechnology.com/cision/saltx-partner-sma-mineral-invests-in-the-worlds-first-electric-and-zero-emission-quicklime-plant-in-norway/",
+   "https://www.fivesgroup.com/glass/glass-melting/all-electric-furnaces",
+   "https://www.glasspoint.com/projects/maaden-solar",
+   "https://pv-magazine-usa.com/2025/05/29/residential-solar-installer-zeo-to-acquire-thermal-storage-specialist-heliogen/",
+   "https://www.thinkgeoenergy.com/geothermal-district-heating-in-aarhus-denmark-officially-starts-operations/",
+   "https://www.thinkgeoenergy.com/vulcan-resumes-geothermal-district-heating-supply-in-landau-germany/",
+   "https://www.turboden.com/company/media/press/press-releases/4863/turboden-to-deliver-32-mwe-geothermal-power-plant-for-vulcan-energys-phase-one-lionheart-project-in-germany-for-the-extraction-of-sustainable-lithium",
+   "https://www.gradyent.ai/resources/news/gradyent-secures-euro28-million-to-optimise-and-transform-heating-and-cooling-grids",
+   "https://www.prnewswire.com/news-releases/collaborative-fund-leads-phaidras-50m-series-b-to-build-the-ai-factories-of-the-future-302572418.html",
+   "https://goinfinitum.com/press/",
+   "https://sustainabletechpartner.com/topics/ma/ma-sustainable-building-specialist-brainbox-ai-acquires-turntide-technologies-automation-division/",
+   "https://www.energy-storage.news/thermal-energy-storage-tech-analysis-rondo-antora-malta-inc-mga-1414-energynest-polar-night-and-brenmiller/"
+  ],
+  "variations": [
+   {
+    "name": "Solid-media heat batteries delivering steam and hot air",
+    "description": "Electric resistance elements heat cheap solid media (firebrick, carbon blocks, slag granulate, sand, rock, alloy blocks) to 400-1,800C when renewable power is cheap, then discharge continuous steam or hot air (or power via thermophotovoltaics), letting factories run on intermittent electricity without boilers.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Rondo Energy",
+      "role": "startup",
+      "what": "Refractory-brick heat battery (RHB) charged resistively, discharging high-pressure steam and hot air for fuels, food, chemicals and cement plants.",
+      "signal": "World's largest 100 MWh heat battery in daily commercial operation in California (Oct 2025); EUR 75M project funding from Breakthrough Energy Catalyst + EIB; 100 MWh Heineken/EDP brewery deal in Portugal.",
+      "status": "operating",
+      "source": "https://www.rondo.com/news-press/rondo-powers-up-worlds-largest-industrial-heat-battery"
+     },
+     {
+      "name": "Antora Energy",
+      "role": "startup",
+      "what": "Solid carbon-block thermal batteries that emit heat as radiant light, plus thermophotovoltaic heat-to-power modules.",
+      "signal": "$150M Series B (Decarbonization Partners), >$230M total; ARPA-E $14.5M SCALEUP; 5 GWh system commissioning at POET ethanol plant, South Dakota; novel Otter Tail Power tariff.",
+      "status": "operating",
+      "source": "https://www.canarymedia.com/articles/energy-storage/innovation-antora-massive-heat-battery"
+     },
+     {
+      "name": "Kraftblock",
+      "role": "startup",
+      "what": "Granulate storage made from recycled steel-slag handling up to ~1,300C, packaged into power-to-heat systems.",
+      "signal": "EUR 20M Series B (Shell Ventures, 2023); 9 MW / 70 MWh system electrifying PepsiCo's Netherlands fryer lines with Eneco; Tata Steel pilot.",
+      "status": "operating",
+      "source": "https://www.canarymedia.com/articles/green-steel/global-giant-tata-steel-using-heat-battery"
+     },
+     {
+      "name": "MGA Thermal",
+      "role": "startup",
+      "what": "Miscibility-gap-alloy blocks (graphite + aluminum) storing latent heat and discharging steam directly via integrated steam generation.",
+      "signal": "AU$17M raised 2025 (>AU$50M total) entering commercial scale-up; 5 MWh steam-integrated demonstrator commissioned April 2025; ARENA-funded FEED studies and 180 MWh prefeasibility.",
+      "status": "operating",
+      "source": "https://www.energy-storage.news/mga-thermal-raises-au17-million-as-thermal-energy-storage-startup-enters-commercial-scale-up-phase/"
+     },
+     {
+      "name": "Brenmiller Energy",
+      "role": "scaleup",
+      "what": "Crushed-rock bGen modules charged electrically or by waste heat, discharging steam for factories and hospitals.",
+      "signal": "NASDAQ-listed (BNRG); ~32 MWh bGen operating at Tempo/Heineken beverage plant in Israel; additional units in Europe and US pipeline.",
+      "status": "operating",
+      "source": "https://www.energy-storage.news/thermal-energy-storage-tech-analysis-rondo-antora-malta-inc-mga-1414-energynest-polar-night-and-brenmiller/"
+     },
+     {
+      "name": "Electrified Thermal Solutions",
+      "role": "startup",
+      "what": "Electrically conductive firebrick (Joule Hive) that is both heating element and storage, delivering air up to ~1,800C for cement, glass and steel.",
+      "signal": "$19M Series A (Jan 2025) plus >$40M in DOE awards; first commercial-scale Joule Hive thermal battery energized (announced Feb 2026).",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/industrial-heat-goes-electric-electrified-thermal-solutions-turns-on-first-commercial-scale-joule-hive-thermal-battery-302668926.html"
+     },
+     {
+      "name": "Polar Night Energy",
+      "role": "startup",
+      "what": "Sand batteries storing electricity as ~500C heat in low-grade sand/crushed soapstone for district and industrial heat.",
+      "signal": "1 MW / 100 MWh commercial sand battery operating in Pornainen, Finland; 2 MW / 250 MWh unit for Lahti Energia's Vaaksy network under construction.",
+      "status": "operating",
+      "source": "https://polarnightenergy.com/sand-battery/"
+     },
+     {
+      "name": "Magaldi Green Energy",
+      "role": "incumbent",
+      "what": "Fluidized sand-bed thermal storage (MGTES) from a century-old Italian bulk-materials-handling group, discharging steam for industry.",
+      "signal": "MW-scale MGTES demonstrator operating in Italy; partnerships to supply industrial green steam leveraging parent group's manufacturing base.",
+      "status": "operating",
+      "source": "https://www.magaldigreenenergy.com/"
+     }
+    ]
+   },
+   {
+    "name": "Molten-salt, molten-hydroxide, and phase-change industrial heat storage",
+    "description": "Stores off-peak electricity in molten salts, hydroxides, concrete or phase-change materials at 250-700C and discharges on demand as process steam - more engineering complexity than bricks but compact, pumpable, and able to deliver steady isothermal output.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Kyoto Group",
+      "role": "scaleup",
+      "what": "Heatcube modular molten-salt battery delivering industrial steam, sold partly as heat-as-a-service.",
+      "signal": "Euronext Growth Oslo-listed; Heatcube #2 inaugurated at KALL Ingredients (Hungary) Oct 2025; EUR 4M Nefco loan for international scale-up.",
+      "status": "operating",
+      "source": "https://www.kyotogroup.no/customers/kall-ingredients"
+     },
+     {
+      "name": "Hyme Energy",
+      "role": "startup",
+      "what": "Molten hydroxide salt storage above 500C (Seaborg spinout) with patented corrosion control, targeting 24/7 industrial steam.",
+      "signal": "$26M raised; global agreement with Arla incl. planned 200 MWh system at Holstebro dairy (target 2029); commercialization partnership with Sulzer (Mar 2025).",
+      "status": "operating",
+      "source": "https://techcrunch.com/2024/12/19/after-raising-26m-hyme-energy-signs-global-deal-to-scale-thermal-storage/"
+     },
+     {
+      "name": "EnergyNest",
+      "role": "scaleup",
+      "what": "Modular concrete (Heatcrete) thermal batteries for steam and heat at industrial sites, offered as financed turnkey systems.",
+      "signal": "EUR 110M Infracapital investment; 10 MW / 40 MWh power-to-heat system at tesa Hamburg; Avery Dennison Belgium operating since 2023; new CEO Feb 2025.",
+      "status": "operating",
+      "source": "https://energy-nest.com/"
+     },
+     {
+      "name": "1414 Degrees",
+      "role": "scaleup",
+      "what": "Molten-silicon phase-change storage (SiBox) discharging very high-temperature clean heat.",
+      "signal": "ASX-listed; SiBox demonstration module testing; progress slow and funding-constrained relative to brick rivals.",
+      "status": "operating",
+      "source": "https://1414degrees.com.au/"
+     },
+     {
+      "name": "Azelio",
+      "role": "startup",
+      "what": "Aluminum-alloy PCM storage at 600C discharged through Stirling engines (TES.POD) for distributed heat and power.",
+      "signal": "Filed for bankruptcy July 2023 after failing to secure financing; Stirling and TES assets bought by TEXEL Energy.",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.canarymedia.com/articles/long-duration-energy-storage/is-azelios-abrupt-bankruptcy-a-bad-omen-for-long-duration-energy-storage"
+     }
+    ],
+    "white_space": "Salts and PCMs carry corrosion, freeze-protection and balance-of-plant costs that dirt-cheap brick/rock/sand systems avoid - Azelio's 2023 bankruptcy and 1414 Degrees' slow grind show the squeeze; the defensible niche is compact isothermal discharge and direct >500C steam where solid media and steam quality struggle (Hyme's hydroxide bet), plus retrofit of existing CSP salt supply chains."
+   },
+   {
+    "name": "Industrial and steam-generating heat pumps, MVR, and chemical heat transformers",
+    "description": "Compresses ambient or waste heat - via mechanical heat pumps, vapor recompression, or absorption chemistry - to deliver 100-200C hot water and steam at 2-6x boiler efficiency, the workhorse route for electrifying low- and mid-temperature process heat in food, beverage, paper and chemicals.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "AtmosZero",
+      "role": "startup",
+      "what": "Standardized air-source 'Boiler 2.0' modular heat pump producing 150 psig steam as a drop-in boiler replacement.",
+      "signal": "$28.5M raised; first unit delivering steam at New Belgium Brewing (Fort Collins) in 2025; awarded up to $24.3M in 48C federal tax credits; Loveland, CO factory.",
+      "status": "operating",
+      "source": "https://www.canarymedia.com/articles/heat-pumps/colorado-factory-atmoszero-industrial-decarbonization"
+     },
+     {
+      "name": "Skyven Technologies",
+      "role": "startup",
+      "what": "Arcturus steam-generating heat pump upgrading factory waste heat to steam, installed at no capex under a steam-as-a-service model.",
+      "signal": "First pilot measured COP ~6.5 (2025) with target of 8; DOE-backed; shared-savings deployments alongside existing gas boilers.",
+      "status": "operating",
+      "source": "https://www.canarymedia.com/articles/heat-pumps/skyven-industrial-decarbonization-pilot-cost-effective"
+     },
+     {
+      "name": "Karman Industries",
+      "role": "startup",
+      "what": "Rocket-turbomachinery-derived high-speed centrifugal heat pumps for industrial steam (team ~1/3 ex-SpaceX/Rocket Lab).",
+      "signal": "$31.5M raised across three rounds (Riot, Space VC, 8090 Industries); emerged from stealth Sept 2024.",
+      "status": "operating",
+      "source": "https://techcrunch.com/2024/09/19/karman-industries-hopes-its-spacex-inspired-heat-pumps-will-replace-industrial-boilers/"
+     },
+     {
+      "name": "Heaten",
+      "role": "startup",
+      "what": "Norwegian piston-compressor HeatBooster HTHP delivering up to ~165C+ sink temperatures from industrial waste heat.",
+      "signal": "Commercial pilots in Europe and US; cited among the leading steam-producing heat pump makers entering factories in 2025-26.",
+      "status": "operating",
+      "source": "https://www.manufacturingdive.com/news/brewery-heat-pump-new-belgium-diageo-atmoszero-skyven/803028/"
+     },
+     {
+      "name": "Olvondo Technology",
+      "role": "startup",
+      "what": "HighLift 750 kW helium reverse-Stirling heat pump making 200C steam from low-grade waste heat (pharma references incl. AstraZeneca).",
+      "signal": "Global distribution partnership with Tetra Pak (2025) for food & beverage; multiple operating European installations.",
+      "status": "operating",
+      "source": "https://olvondotech.no/tetra-pak-to-offer-highlift-by-olvondo/"
+     },
+     {
+      "name": "Futraheat",
+      "role": "startup",
+      "what": "TurboClaw oil-free low-speed turbo-compressor heat pump recovering 70C waste heat to deliver up to 150C/steam.",
+      "signal": "UK field pilots; 500 kW-1 MW units unveiled 2024; grant-backed early commercial stage.",
+      "status": "operating",
+      "source": "https://www.pv-magazine.com/2024/10/09/uk-startup-unveils-industrial-heat-pump-for-hot-water-steam-generation/"
+     },
+     {
+      "name": "Qpinch",
+      "role": "scaleup",
+      "what": "Chemical heat transformer (phosphoric-acid cycle mimicking ATP/ADP) upgrading industrial waste heat ~100C without large compressors.",
+      "signal": "Industrial units at major chemical/port sites in Antwerp cluster; claims ~50% heat-consumption savings; IEA heat-pump conference featured.",
+      "status": "operating",
+      "source": "https://heatpumpingtechnologies.org/publications/o-3-9-2-new-industrial-chemical-heat-pump-from-qpinch/"
+     },
+     {
+      "name": "GEA",
+      "role": "incumbent",
+      "what": "Global process-equipment incumbent supplying large ammonia/CO2 industrial heat pumps and MVR evaporators, dominant in dairy and food.",
+      "signal": "Hundreds of industrial heat-pump and MVR references worldwide; named among proven steam-HP suppliers scaling US/EU installs.",
+      "status": "operating",
+      "source": "https://www.gea.com/"
+     },
+     {
+      "name": "MAN Energy Solutions",
+      "role": "incumbent",
+      "what": "Multi-MW industrial and district heat pumps and ETES (e.g., ~50 MW seawater CO2 heat pump at Esbjerg, Denmark).",
+      "signal": "Operating utility-scale heat pump references; order book across European district and industrial heat.",
+      "status": "operating",
+      "source": "https://www.man-es.com/"
+     },
+     {
+      "name": "Piller Blowers & Compressors",
+      "role": "incumbent",
+      "what": "High-performance MVR blowers/compressors for steam recompression in evaporation and drying processes.",
+      "signal": "Long-established German manufacturer; named among key suppliers proving steam-producing heat pump technology.",
+      "status": "operating",
+      "source": "https://www.manufacturingdive.com/news/brewery-heat-pump-new-belgium-diageo-atmoszero-skyven/803028/"
+     }
+    ]
+   },
+   {
+    "name": "Electric resistance and electrode boilers for process steam",
+    "description": "Resistance and high-voltage electrode boilers convert electricity directly to steam or hot water at up to ~75 MW per unit with near-instant ramping - mature, low-capex hardware that pairs naturally with volatile power prices and hybrid gas-electric operation.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "PARAT Halvorsen",
+      "role": "incumbent",
+      "what": "Norwegian leader in high-voltage electrode boilers (IEH) up to 75 MW / 85 barg steam with 30-second standby-to-full-load for grid-interactive operation.",
+      "signal": "3x50 MW hot-water electrode boilers delivered to Vattenfall (NL); 10 MW steam unit at Fujifilm Europe; North Sea platform electrification orders.",
+      "status": "operating",
+      "source": "https://www.parat.no/en/products/industry/parat-ieh-high-voltage-electrode-boiler/"
+     },
+     {
+      "name": "Vapor Power International",
+      "role": "incumbent",
+      "what": "US manufacturer of electrode and electric resistance steam boilers and generators for industrial process steam.",
+      "signal": "Decades-installed base across North American industry; part of Thermon Group since 2021 acquisition.",
+      "status": "operating",
+      "source": "https://www.vaporpower.com/"
+     },
+     {
+      "name": "Cleaver-Brooks",
+      "role": "incumbent",
+      "what": "Major US boiler maker offering electric and electrode boiler lines alongside conventional packaged boilers for hybrid fleets.",
+      "signal": "Broad installed base and dealer network; electric line expanding as US sites hedge gas exposure.",
+      "status": "operating",
+      "source": "https://cleaverbrooks.com/"
+     },
+     {
+      "name": "Chromalox",
+      "role": "incumbent",
+      "what": "Electric process heating specialist (Spirax Group) supplying medium-voltage electrode steam boilers and immersion process heaters.",
+      "signal": "Part of Spirax Group since 2017; supplies DirectConnect medium-voltage electrification systems globally.",
+      "status": "operating",
+      "source": "https://www.chromalox.com/"
+     },
+     {
+      "name": "Precision Boilers",
+      "role": "incumbent",
+      "what": "US manufacturer of electric steam boilers and storage water heaters for industrial and institutional steam loads.",
+      "signal": "Long-running US installed base; benefitting from electrification retrofits.",
+      "status": "operating",
+      "source": "https://precisionboilers.com/"
+     }
+    ],
+    "white_space": "The hardware is commoditized century-old technology held by a handful of boiler makers, so differentiation has moved to economics: the open ground is grid-interactive 'boiler-as-battery' dispatch software, demand-charge management, and heat-as-a-service wrappers that make electric steam pencil against cheap gas - not new steel."
+   },
+   {
+    "name": "Advanced electric heating: induction, infrared, microwave, plasma, e-beam, and rotodynamic heaters",
+    "description": "Puts electric heat precisely where it is needed at up to 1,700C+ via electromagnetic induction, infrared emitters, microwaves, plasma torches, electron beams, or turbomachinery that converts shaft power to heat through shock waves - replacing burners inside existing furnaces, kilns and reactors.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Coolbrook",
+      "role": "startup",
+      "what": "RotoDynamic Heater/Reactor using supersonic turbomachinery to heat process gas to ~1,700C for cement, steel and chemicals.",
+      "signal": "World's first commercial RotoDynamic Heater deal with Adani Cement (Nov 2025, ~60,000 tCO2/yr); pilot operating at Brightlands (NL); Nefco financing; partners incl. ABB, CRH, UltraTech.",
+      "status": "operating",
+      "source": "https://coolbrook.com/news/adani-cement-and-coolbrook-to-deploy-worlds-first-commercial-rotodynamic-heater-to-advance-cement-decarbonisation/"
+     },
+     {
+      "name": "PyroGenesis",
+      "role": "scaleup",
+      "what": "TSX-listed plasma-torch maker replacing natural-gas burners in aluminum remelting furnaces and iron-ore pelletizing.",
+      "signal": "Constellium industrial contract (Aug 2025) with torch system delivered Mar 2026; 2025 furnace-electrification trials with Rio Tinto; 4.5 MW torch delivered to US defense client.",
+      "status": "operating",
+      "source": "https://www.globenewswire.com/news-release/2026/03/06/3250956/0/en/pyrogenesis-completes-plasma-torch-system-build-for-constellium-commences-delivery-and-installation-phase.html"
+     },
+     {
+      "name": "Tetronics Technologies",
+      "role": "scaleup",
+      "what": "Veteran UK DC plasma-arc furnace supplier for metals recovery, hazardous waste and decarbonized high-temperature processing.",
+      "signal": "86 plasma installations globally; customer PGM-recovery plasma plant reached full operation Dec 2024; UK NDA nuclear-waste-treatment award Jan 2025.",
+      "status": "operating",
+      "source": "https://tetronics.com/"
+     },
+     {
+      "name": "Pyrowave",
+      "role": "startup",
+      "what": "Industrial microwave platform for electrified chemistry, notably microwave depolymerization of polystyrene with Michelin.",
+      "signal": "Michelin partnership and commercial demonstration units in Canada/Europe; positioning microwave as precise electrification of chemical process heat.",
+      "status": "operating",
+      "source": "https://www.pyrowave.com/"
+     },
+     {
+      "name": "Inductotherm Group",
+      "role": "incumbent",
+      "what": "World's largest supplier of induction melting and heating systems for metals industries.",
+      "signal": "Thousands of induction furnaces installed globally; the mature baseline for electric melting.",
+      "status": "operating",
+      "source": "https://www.inductotherm.com/"
+     },
+     {
+      "name": "ENRX",
+      "role": "incumbent",
+      "what": "Induction heating and contactless power specialist formed from EFD Induction + Radyne merger (2023).",
+      "signal": "Global installed base across automotive, tube/pipe and forging heat treatment.",
+      "status": "operating",
+      "source": "https://www.enrx.com/"
+     },
+     {
+      "name": "Kanthal",
+      "role": "incumbent",
+      "what": "Electric heating elements, modules and MW-class electric process-gas heaters (Alleima group) enabling furnace electrification to 1,000C+.",
+      "signal": "Supplies resistive heating technology into e-cracker, calciner and TES projects industry-wide.",
+      "status": "operating",
+      "source": "https://www.kanthal.com/"
+     }
+    ],
+    "white_space": "Beyond mature induction/IR niches, plasma, microwave and e-beam stay confined to high-value applications because capex per MW, electrode/magnetron lifetime, and RF coupling physics limit general-purpose heat; the wedge that is working is drop-in burner-replacement retrofits inside existing furnaces (PyroGenesis' aluminum play, Coolbrook's kiln heater) rather than whole-furnace rebuilds."
+   },
+   {
+    "name": "Electrified steam crackers, calciners, and glass/metal furnaces",
+    "description": "Rebuilds the hottest core equipment of heavy industry - steam crackers, lime/cement calciners, and glass melting furnaces - around electric heating, eliminating the largest point-source combustion emissions in chemicals and minerals while enabling pure CO2 capture streams.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "BASF",
+      "role": "incumbent",
+      "what": "Operates the world's first MW-scale electrically heated steam-cracking furnace demo (with SABIC and Linde) at Ludwigshafen, cutting cracker CO2 ~90%.",
+      "signal": "Demo plant in operation since April 2024 testing direct and indirect heating concepts at 6 MW.",
+      "status": "operating",
+      "source": "https://www.basf.com/global/en/media/news-releases/2024/04/p-24-177"
+     },
+     {
+      "name": "Linde Engineering",
+      "role": "incumbent",
+      "what": "Built the BASF/SABIC e-cracker demo and is commercializing electrified furnace technology under the STARBRIDGE brand.",
+      "signal": "EPC of the world-first e-furnace demo; licensing pipeline to petrochemical operators.",
+      "status": "operating",
+      "source": "https://www.thechemicalengineer.com/news/world-first-electric-steam-cracker-demo-starts-operations-in-push-to-slash-emissions-by-90/"
+     },
+     {
+      "name": "Dow-Shell e-cracker program",
+      "role": "incumbent",
+      "what": "Joint development of e-cracking furnace technology; experimental unit started 2022 targeting a multi-megawatt pilot.",
+      "signal": "No public progress updates since the 2022 experimental startup; program status unclear - evidence of how hard e-cracking economics are.",
+      "status": "uncertain",
+      "source": "https://industrydecarbonization.com/news/basf-starts-the-worlds-first-electric-cracker-furnace.html"
+     },
+     {
+      "name": "SaltX Technology",
+      "role": "scaleup",
+      "what": "Stockholm-listed developer of the Electric Arc Calciner for zero-emission quicklime/cement with inherent CO2 capture.",
+      "signal": "ZEQL venture with SMA Mineral building world's first electric zero-emission quicklime plant at Mo i Rana, Norway (kiln by thyssenkrupp Polysius, factory target 2027); EAC lime used in steelmaking trial Q1 2025.",
+      "status": "operating",
+      "source": "https://www.saltxtechnology.com/cision/saltx-partner-sma-mineral-invests-in-the-worlds-first-electric-and-zero-emission-quicklime-plant-in-norway/"
+     },
+     {
+      "name": "Fives",
+      "role": "incumbent",
+      "what": "French engineering group supplying Prium E-Melt all-electric glass melting furnaces.",
+      "signal": "Delivered world's largest all-electric container-glass furnace (160-180 tpd, with Verallia, ~60% CO2 cut); strategic e-furnace deal with Pochet for luxury glass.",
+      "status": "operating",
+      "source": "https://www.fivesgroup.com/glass/glass-melting/all-electric-furnaces"
+     },
+     {
+      "name": "Verallia",
+      "role": "incumbent",
+      "what": "Glass packaging maker operating the world's first 100% electric furnace for flint container glass at commercial scale.",
+      "signal": "180 t/day all-electric furnace producing ~300,000 bottles/day in France.",
+      "status": "operating",
+      "source": "https://www.fivesgroup.com/newspress/detail-view/accelerate-the-decarbonization-of-glass-packaging-with-verallia-fives-at-allice-congress"
+     },
+     {
+      "name": "Coolbrook (RDR e-cracking)",
+      "role": "startup",
+      "what": "RotoDynamic Reactor replacing gas-fired cracking furnaces with electric shock-wave heating for olefins.",
+      "signal": "Large-scale pilot at Brightlands since 2022 with petrochemical partners; commercial cement-side deployment de-risks the platform.",
+      "status": "operating",
+      "source": "https://coolbrook.com/news/rotodynamic-technology-in-decarbonizing-petrochemical-industry/"
+     }
+    ],
+    "white_space": "Only deep-pocketed incumbent consortia can fund e-cracker and e-furnace demos, and each design is a bespoke one-off tied to a single site; the open ground is licensable modular electric furnace/calciner packages (SaltX's licensing model) and grid-integration layers that let multi-MW furnaces flex against power prices."
+   },
+   {
+    "name": "Concentrated solar industrial heat and steam",
+    "description": "Mirrors, enclosed troughs, Fresnel lines and vacuum flat-plate collectors concentrate sunlight into 100-400C+ steam and heat for factories, displacing fuel directly where land and sunshine are abundant - a sector with strong physics but a brutal commercial track record.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "GlassPoint",
+      "role": "startup",
+      "what": "Greenhouse-enclosed trough solar steam at oilfield/mining scale; relaunched 2021 after its 2020 bankruptcy (Miraah Oman legacy).",
+      "signal": "$1.5B Ma'aden Solar I in Saudi Arabia - world's largest planned industrial solar-steam project (target 65% of alumina refinery steam, ~600 kt CO2/yr) - in demonstration/pilot phase with MISA backing.",
+      "status": "operating",
+      "source": "https://www.glasspoint.com/projects/maaden-solar"
+     },
+     {
+      "name": "Absolicon",
+      "role": "scaleup",
+      "what": "Swedish-listed maker of T160 concentrating collectors (160C) sold with turnkey robotized production lines licensed to partners worldwide.",
+      "signal": "Spotlight-listed; production-line license model across multiple countries; positioning for the EU's EUR 1B industrial heat auction.",
+      "status": "operating",
+      "source": "https://www.absolicon.com/"
+     },
+     {
+      "name": "Naked Energy",
+      "role": "startup",
+      "what": "UK developer of VirtuHOT/VirtuPVT vacuum-tube hybrid solar thermal + PV collectors for commercial and industrial roofs.",
+      "signal": "Distribution partnerships (incl. E.ON) and C&I installs across Europe, US and Asia.",
+      "status": "operating",
+      "source": "https://www.nakedenergy.com/products"
+     },
+     {
+      "name": "TVP Solar",
+      "role": "startup",
+      "what": "Swiss high-vacuum flat-plate collectors producing steam to ~180C without tracking, for industrial sites and district heat.",
+      "signal": "Commissioned solar steam plant (2.2 barg, ~135C) at Shell & Vivo Lubricants blending plant, Casablanca, Oct 2025, cutting propane use ~30%.",
+      "status": "operating",
+      "source": "https://www.cbinsights.com/company/tvp-solar"
+     },
+     {
+      "name": "Azteq",
+      "role": "startup",
+      "what": "Belgian developer of linear Fresnel solar steam installations for chemical and tank-storage sites in low-DNI northern Europe.",
+      "signal": "Operating Fresnel steam plants at Belgian industrial sites (e.g., ADPO logistics); EU demonstration funding.",
+      "status": "operating",
+      "source": "https://azteq.be/"
+     },
+     {
+      "name": "newHeat",
+      "role": "startup",
+      "what": "French developer-financier of large flat-plate solar thermal farms supplying factories and district networks under heat-purchase agreements.",
+      "signal": "Multiple of France's largest solar industrial heat plants (food, malting, dairy) operating under long-term heat contracts.",
+      "status": "operating",
+      "source": "https://newheat.com/en/"
+     },
+     {
+      "name": "Sunvapor",
+      "role": "startup",
+      "what": "California developer of solar steam with storage for food processing and desalination (Horizon collector).",
+      "signal": "DOE-supported pilots circa 2018-2022; little public commercial activity since - viability unclear.",
+      "status": "uncertain",
+      "source": "https://www.crunchbase.com/organization/sunvapor"
+     },
+     {
+      "name": "Heliogen",
+      "role": "startup",
+      "what": "AI-aimed heliostat towers for high-temperature heat, steam and power, once hyped for cement and green hydrogen.",
+      "signal": "SPAC'd at ~$2B (2021), burned cash, delisted; acquired by residential installer Zeo Energy for ~$10M all-stock, completed Aug 2025.",
+      "status": "acquired",
+      "source": "https://pv-magazine-usa.com/2025/05/29/residential-solar-installer-zeo-to-acquire-thermal-storage-specialist-heliogen/"
+     }
+    ],
+    "white_space": "Serial failures - GlassPoint 1.0's 2020 bankruptcy, Heliogen's ~$10M fire-sale off a ~$2B SPAC - show that land, capex and intermittency rarely beat cheap PV feeding electric heat batteries; the surviving opening is very high-DNI geographies with expensive fuel and giant steady steam loads (Saudi alumina, MENA mining/desalination), and heat-purchase-agreement business models that remove customer capex."
+   },
+   {
+    "name": "Geothermal direct-use heat for industrial and district process loads",
+    "description": "Taps hot water from conventional hydrothermal wells or engineered closed loops to feed district networks and low-temperature industrial processes with 24/7 carbon-free heat, avoiding the conversion losses of geothermal power.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Eavor Technologies",
+      "role": "scaleup",
+      "what": "Closed-loop 'Eavor-Loop' conduction radiators in deep rock, dispatchable heat and power anywhere without fracking or aquifers.",
+      "signal": "First commercial project at Geretsried, Germany (district heat + power); backed by bp Ventures, Chevron Tech Ventures and EIB debt; deep multilateral test wells to 250C rock.",
+      "status": "operating",
+      "source": "https://eavor.com/technology/"
+     },
+     {
+      "name": "Innargi",
+      "role": "startup",
+      "what": "A.P. Moller Holding-backed developer that finances, builds and operates large geothermal heat plants for district heating utilities.",
+      "signal": "110 MW Aarhus plant - EU's largest new geothermal district heating - began supplying heat 2025 (target ~20% of city demand by 2030); expansion agreements in Poland.",
+      "status": "operating",
+      "source": "https://www.thinkgeoenergy.com/geothermal-district-heating-in-aarhus-denmark-officially-starts-operations/"
+     },
+     {
+      "name": "Vulcan Energy Resources",
+      "role": "scaleup",
+      "what": "Upper Rhine geothermal brine projects co-producing lithium and renewable heat for utilities and industry.",
+      "signal": "Resumed Landau geothermal heat supply to utility ESW (2025); EUR 250M EIB financing for Phase One Lionheart; all permits for combined geothermal-lithium plant.",
+      "status": "operating",
+      "source": "https://www.thinkgeoenergy.com/vulcan-resumes-geothermal-district-heating-supply-in-landau-germany/"
+     },
+     {
+      "name": "GreenFire Energy",
+      "role": "startup",
+      "what": "GreenLoop closed-loop retrofits that convert idle or marginal wells into heat and power producers.",
+      "signal": "DOE-supported closed-loop demonstrations (incl. Coso, California); early commercial agreements.",
+      "status": "operating",
+      "source": "https://www.greenfireenergy.com/"
+     }
+    ],
+    "white_space": "Physics keeps this thin: most accessible hydrothermal resources sit below ~120C while industrial steam needs >150C, and heat cannot be shipped, so projects only work where industry happens to sit on the resource and drilling capex is front-loaded; the openings are closed-loop wells serving low-temperature food/drying/aquaculture loads on sedimentary basins, co-production economics (lithium + heat, a la Vulcan), and develop-finance-operate models that take drilling risk off industrial hosts (a la Innargi)."
+   },
+   {
+    "name": "Waste-heat recovery and upgrading: ORC, sCO2, thermoelectric and thermoacoustic conversion",
+    "description": "Captures exhaust and cooling-stream heat and either reuses it or converts it to electricity via organic Rankine cycle or supercritical-CO2 turbines (with thermoelectric and thermoacoustic routes still niche), cutting fuel and power demand without touching the core process.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Echogen Power Systems",
+      "role": "startup",
+      "what": "Supercritical-CO2 heat-to-power cycles (EPS100) for industrial exhaust and gas-turbine bottoming, plus pumped-thermal storage variants.",
+      "signal": "DOE/ARPA-E-backed Ohio developer; licensing-led model with utility and industrial partners; sCO2 remains at demonstration scale.",
+      "status": "operating",
+      "source": "https://www.echogen.com/"
+     },
+     {
+      "name": "Climeon",
+      "role": "scaleup",
+      "what": "Swedish-listed modular HeatPower 300 ORC converting 80-120C waste heat to power for ships and industry.",
+      "signal": "Commissioned HeatPower 300 on a containership (2025); NEO Group PET plant unit generating ~2,700 MWh/yr; restructured 2022-23 around maritime focus.",
+      "status": "operating",
+      "source": "https://www.marinelog.com/technology/climeon-completes-commissioning-of-waste-heat-recovery-solution-on-containership/"
+     },
+     {
+      "name": "Orcan Energy",
+      "role": "scaleup",
+      "what": "Munich maker of mass-produced modular ORC 'efficiency PACKs' for engines, industry and geothermal.",
+      "signal": "Launched MW-class eP 1000 (Jul 2025); Howden turbomachinery collaboration (Nov 2025); large deployed fleet across marine and industrial sites.",
+      "status": "operating",
+      "source": "https://www.orcan-energy.com/en/"
+     },
+     {
+      "name": "Turboden",
+      "role": "incumbent",
+      "what": "Mitsubishi Heavy Industries' ORC house: utility-scale waste-heat, biomass and geothermal ORC plus large heat pumps.",
+      "signal": "Hundreds of ORC references; 32 MWe geothermal ORC contract for Vulcan's Lionheart lithium-heat project (2025).",
+      "status": "operating",
+      "source": "https://www.turboden.com/company/media/press/press-releases/4863/turboden-to-deliver-32-mwe-geothermal-power-plant-for-vulcan-energys-phase-one-lionheart-project-in-germany-for-the-extraction-of-sustainable-lithium"
+     },
+     {
+      "name": "Ormat Technologies",
+      "role": "incumbent",
+      "what": "NYSE-listed geothermal major whose Recovered Energy Generation ORC units harvest gas-pipeline compressor and industrial waste heat.",
+      "signal": "Decades of REG plants operating across North America; ~GW-scale total generation fleet.",
+      "status": "operating",
+      "source": "https://www.ormat.com/"
+     },
+     {
+      "name": "Enogia",
+      "role": "scaleup",
+      "what": "French Euronext Growth-listed maker of compact micro-ORC turbines for engine and industrial waste heat.",
+      "signal": "Listed 2021; small-scale ORC and fuel-cell compressor lines; niche but active.",
+      "status": "operating",
+      "source": "https://enogia.com/"
+     },
+     {
+      "name": "Alphabet Energy",
+      "role": "startup",
+      "what": "Thermoelectric generator modules converting engine/industrial exhaust heat directly to power.",
+      "signal": "Raised ~$50M+ in VC; shut down in 2018 when thermoelectric $/W never approached parity - the cautionary tale for solid-state waste-heat conversion.",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.crunchbase.com/organization/alphabet-energy"
+     }
+    ],
+    "white_space": "Heat-exchanger reuse is mature and MW-scale ORC is crowded, but conversion below ~1 MW and all solid-state routes (thermoelectric, thermoacoustic) remain uneconomic - Alphabet Energy's shutdown closed that chapter; openings are zero-capex heat-to-power-as-a-service for mid-size factories and proving sCO2 at >10 MW where its compactness beats steam."
+   },
+   {
+    "name": "Fuel-flexible decarbonized combustion: hydrogen-ready and biogas burners, oxyfuel",
+    "description": "Keeps combustion but decarbonizes it - burners engineered to fire hydrogen, biogas and low-grade fuels, plus oxygen-enriched (oxyfuel) firing that cuts fuel use 20-30% and concentrates CO2 for capture - the pragmatic bridge for heat beyond electrification's current reach.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Zeeco",
+      "role": "incumbent",
+      "what": "Major US burner/flare/incineration maker offering process burners rated for up to 100% hydrogen firing in refinery and chemical heaters.",
+      "signal": "Global installed base across refining/petrochem; H2-capable burner retrofits a growth line.",
+      "status": "operating",
+      "source": "https://www.zeeco.com/"
+     },
+     {
+      "name": "John Zink Hamworthy (Koch)",
+      "role": "incumbent",
+      "what": "Koch Engineered Solutions' combustion arm supplying hydrogen-ready process burners and large retrofit/aftermarket programs.",
+      "signal": "One of the two dominant process-burner franchises worldwide.",
+      "status": "operating",
+      "source": "https://www.johnzink.com/"
+     },
+     {
+      "name": "ClearSign Technologies",
+      "role": "scaleup",
+      "what": "NASDAQ-listed (CLIR) developer of ultra-low-NOx, hydrogen-capable process burners for refinery heaters and boilers.",
+      "signal": "Microcap with slow multi-year commercial ramp; installs with US refiners and boiler OEM partnerships - evidence of how hard burner disruption is.",
+      "status": "operating",
+      "source": "https://www.clearsign.com/"
+     },
+     {
+      "name": "SAACKE",
+      "role": "incumbent",
+      "what": "German industrial/marine combustion specialist firing hydrogen, biogas, lean gases and multi-fuel mixes.",
+      "signal": "Long-standing global burner installed base; H2 and low-CV fuel lines commercial.",
+      "status": "operating",
+      "source": "https://www.saacke.com/"
+     },
+     {
+      "name": "WS Warmeprozesstechnik",
+      "role": "incumbent",
+      "what": "Inventor of FLOX flameless-oxidation recuperative burners, hydrogen-capable, for high-temperature furnace efficiency and near-zero NOx.",
+      "signal": "FLOX technology deployed across heat-treatment and steel furnaces; H2-FLOX demonstrations.",
+      "status": "operating",
+      "source": "https://www.flox.com/"
+     },
+     {
+      "name": "Linde",
+      "role": "incumbent",
+      "what": "Industrial-gas major supplying oxyfuel combustion systems (e.g., OPTIMELT regenerative) that cut glass/metal furnace fuel use and enable CO2 capture.",
+      "signal": "Commercial oxyfuel references across glass and metals worldwide.",
+      "status": "operating",
+      "source": "https://www.linde-gas.com/"
+     }
+    ],
+    "white_space": "The burner market is locked up by incumbents and a burner swap is cheap insurance compared to full electrification, leaving startups little room - ClearSign's decade-long struggle as a listed microcap is the proof; the realistic openings are certified 100%-hydrogen retrofit packages, combustion sensing/AI tuning layers, and oxyfuel-plus-capture integration rather than new burner hardware."
+   },
+   {
+    "name": "AI process-heat optimization and digital-twin software",
+    "description": "Closed-loop AI, reinforcement learning and physics-based digital twins continuously retune furnaces, boilers, steam systems and heat networks, typically shaving 5-15% of fuel and emissions with zero new process hardware - the fastest-payback decarbonization lever.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Imubit",
+      "role": "startup",
+      "what": "Closed-loop reinforcement-learning optimization that directly writes setpoints for refinery and petrochemical units.",
+      "signal": "~$50M raised; deployed at dozens of US refining/petrochemical plants in closed loop.",
+      "status": "operating",
+      "source": "https://imubit.com/"
+     },
+     {
+      "name": "Phaidra",
+      "role": "startup",
+      "what": "Ex-DeepMind team building autonomous AI control agents for industrial cooling and thermal plants, now centered on data-center 'AI factories'.",
+      "signal": "$50M+ Series B (Oct 2025) led by Collaborative Fund with NVIDIA and Index participation.",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/collaborative-fund-leads-phaidras-50m-series-b-to-build-the-ai-factories-of-the-future-302572418.html"
+     },
+     {
+      "name": "Gradyent",
+      "role": "startup",
+      "what": "Real-time physics + AI digital twins optimizing district and industrial heating/cooling grids end to end.",
+      "signal": "EUR 28M Series B (Apr 2025, Blue Earth Capital); customers incl. Veolia, Shell and Helen; revenue tripled in under three years.",
+      "status": "operating",
+      "source": "https://www.gradyent.ai/resources/news/gradyent-secures-euro28-million-to-optimise-and-transform-heating-and-cooling-grids"
+     },
+     {
+      "name": "AspenTech",
+      "role": "incumbent",
+      "what": "Industry-standard advanced process control and optimization suite (Aspen DMC3, GDOT) across refining and chemicals; majority-owned by Emerson.",
+      "signal": "Thousands of plant deployments; the incumbent layer new AI entrants must beat or integrate with.",
+      "status": "operating",
+      "source": "https://www.aspentech.com/"
+     },
+     {
+      "name": "Honeywell",
+      "role": "incumbent",
+      "what": "Forge/UOP process optimization, APC and connected thermal/combustion services spanning its huge controls installed base.",
+      "signal": "Global DCS+APC incumbency gives default distribution for heat-optimization software.",
+      "status": "operating",
+      "source": "https://www.honeywell.com/"
+     }
+    ]
+   },
+   {
+    "name": "High-efficiency motors and drives",
+    "description": "Ultra-efficient motor architectures (PCB-stator axial-flux, synchronous reluctance, switched reluctance) paired with variable-frequency drives cut the electricity wasted by the pumps, fans, compressors and conveyors that consume most industrial power - freeing grid headroom and budget for electrified heat.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Infinitum",
+      "role": "startup",
+      "what": "Axial-flux 'Aircore' motors with printed-circuit-board stators and integrated VFDs, ~50% smaller/lighter at IE5+ efficiency.",
+      "signal": "$220M total Series E (led by Just Climate, extended 2025 with Marunouchi); DOE clean-manufacturing award; Fast Company #1 energy innovator 2025.",
+      "status": "operating",
+      "source": "https://goinfinitum.com/press/"
+     },
+     {
+      "name": "Turntide Technologies",
+      "role": "scaleup",
+      "what": "Switched-reluctance smart motor systems; refocused on electrification powertrains and battery systems after divesting building automation.",
+      "signal": "Former unicorn (> $600M raised) hit repeated layoffs 2022-24; automation division sold to BrainBox AI (May 2024); Hitachi Rail LFP battery contract (Jul 2025).",
+      "status": "operating",
+      "source": "https://sustainabletechpartner.com/topics/ma/ma-sustainable-building-specialist-brainbox-ai-acquires-turntide-technologies-automation-division/"
+     },
+     {
+      "name": "ECM PCB Stator Tech",
+      "role": "startup",
+      "what": "Design platform and licensing for PCB-stator electric motors enabling compact high-efficiency machines for OEMs.",
+      "signal": "Venture-backed; OEM design wins across HVAC, marine and robotics niches.",
+      "status": "operating",
+      "source": "https://www.pcbstator.com/"
+     },
+     {
+      "name": "ABB",
+      "role": "incumbent",
+      "what": "Global motors/drives leader; IE5 ultra-premium synchronous-reluctance motor + VFD packages with massive service network.",
+      "signal": "Mature, widely deployed IE5 SynRM line; benchmark for industrial efficiency retrofits.",
+      "status": "operating",
+      "source": "https://www.abb.com/"
+     },
+     {
+      "name": "WEG",
+      "role": "incumbent",
+      "what": "Brazilian motors giant shipping high-efficiency IE4/IE5 motors and drives at global scale and aggressive cost points.",
+      "signal": "One of the world's largest motor manufacturers with growing energy-efficiency portfolio.",
+      "status": "operating",
+      "source": "https://www.weg.net/"
+     },
+     {
+      "name": "Danfoss",
+      "role": "incumbent",
+      "what": "VFD powerhouse (VLT/Vacon) plus system-level decarbonization engineering for motor-driven loads.",
+      "signal": "Among the largest global drives installed bases; drives attach directly to heat-pump and electrification projects.",
+      "status": "operating",
+      "source": "https://www.danfoss.com/"
+     }
+    ]
+   }
+  ]
+ }
+}

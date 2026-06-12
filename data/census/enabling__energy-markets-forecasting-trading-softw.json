@@ -1,0 +1,905 @@
+{
+ "sector": "enabling",
+ "bucket": "Energy Markets, Forecasting & Trading Software",
+ "census": {
+  "bucket": "Energy Markets, Forecasting & Trading Software",
+  "variations": [
+   {
+    "name": "Renewable generation forecasting services (solar, wind)",
+    "description": "Satellite, sky-imager and numerical-weather data feed ML models that predict the output of wind and solar plants minutes to days ahead, cutting balancing costs, imbalance penalties and curtailment for traders and grid operators.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Solcast",
+      "role": "startup",
+      "what": "Global satellite-derived solar irradiance actuals and forecasts via API, the de facto data source for solar nowcasting.",
+      "signal": "Acquired by DNV in February 2023; serves thousands of PV users globally",
+      "status": "acquired",
+      "source": "https://www.dnv.com/news/2023/dnv-expands-solar-forecasting-expertise-with-the-acquisition-of-solar-data-specialist-solcast-238386/"
+     },
+     {
+      "name": "Solargis",
+      "role": "scaleup",
+      "what": "Bankable solar resource database plus operational forecasts; reference dataset for solar project finance.",
+      "signal": "Data used across 200+ countries; long-standing standard in solar due diligence",
+      "status": "operating",
+      "source": "https://solargis.com/"
+     },
+     {
+      "name": "Whiffle",
+      "role": "startup",
+      "what": "GPU-based large-eddy simulation (LES) weather models delivering hyperlocal wind-farm forecasts beyond standard NWP resolution.",
+      "signal": "TU Delft spin-out; commercial forecasts for European wind operators and traders",
+      "status": "operating",
+      "source": "https://whiffle.nl/"
+     },
+     {
+      "name": "Steadysun",
+      "role": "startup",
+      "what": "Intraday solar forecasting blending ground sky imagers, satellite imagery and NWP for plants and microgrids.",
+      "signal": "French specialist serving utilities and IPPs internationally",
+      "status": "operating",
+      "source": "https://www.steadysun.com/"
+     },
+     {
+      "name": "Reuniwatt",
+      "role": "startup",
+      "what": "Cloud-cover observation and solar forecasting from sky cameras and satellites, from minutes to days ahead.",
+      "signal": "Deployed on island grids, defense sites and utility-scale PV",
+      "status": "operating",
+      "source": "https://reuniwatt.com/"
+     },
+     {
+      "name": "energy & meteo systems",
+      "role": "scaleup",
+      "what": "Wind and solar power forecasts plus virtual power plant software sold to utilities and TSOs worldwide.",
+      "signal": "Oldenburg-based pioneer; forecasts tens of GW of renewables across dozens of markets",
+      "status": "operating",
+      "source": "https://www.energymeteo.com/"
+     },
+     {
+      "name": "Vaisala",
+      "role": "incumbent",
+      "what": "Weather measurement instruments plus renewable resource assessment and forecasting (via its 3TIER acquisition).",
+      "signal": "Listed Finnish incumbent; renewable energy data services globally",
+      "status": "operating",
+      "source": "https://www.vaisala.com/en/industries-applications/renewable-energy"
+     },
+     {
+      "name": "Meteologica",
+      "role": "scaleup",
+      "what": "Power generation and demand forecasts for renewables portfolios, sold to utilities and traders.",
+      "signal": "Madrid-based; forecasts well over 100 GW of renewable capacity globally",
+      "status": "operating",
+      "source": "https://www.meteologica.com/"
+     },
+     {
+      "name": "Open Climate Fix",
+      "role": "startup",
+      "what": "Non-profit product lab building open-source solar nowcasting used by the GB electricity system operator.",
+      "signal": "Solar forecasts deployed in National Grid ESO control room; Google.org-funded",
+      "status": "operating",
+      "source": "https://openclimatefix.org/"
+     }
+    ]
+   },
+   {
+    "name": "Power price forecasting & market analytics",
+    "description": "Market simulation and data platforms forecast wholesale power prices from minutes to decades ahead, underpinning plant investment decisions, PPA pricing, financing and daily trading.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Aurora Energy Research",
+      "role": "scaleup",
+      "what": "Subscription long-term power market forecasts and scenario analytics that banks require for renewable project financing.",
+      "signal": "Hundreds of subscriber organizations across 20+ markets; Oxford-founded, global offices",
+      "status": "operating",
+      "source": "https://auroraer.com/"
+     },
+     {
+      "name": "Energy Exemplar",
+      "role": "incumbent",
+      "what": "PLEXOS market simulation software, the standard for capacity-expansion and dispatch modeling used by ISOs and utilities.",
+      "signal": "Acquired by Blackstone and Vista Equity Partners (2023) in a deal reported around $1.6B",
+      "status": "acquired",
+      "source": "https://www.energyexemplar.com/"
+     },
+     {
+      "name": "Volue",
+      "role": "incumbent",
+      "what": "Oslo-listed energy-software group providing short-term price forecasting, intraday algorithmic trading and portfolio management to European utilities.",
+      "signal": "Hundreds of European utility customers; listed on Oslo B\u00f8rs",
+      "status": "operating",
+      "source": "https://www.volue.com/"
+     },
+     {
+      "name": "Montel Group",
+      "role": "incumbent",
+      "what": "Pan-European energy market news, fundamentals data and Energy Quantified forecast analytics.",
+      "signal": "Operating since 1989; widely used data terminal in European power trading",
+      "status": "operating",
+      "source": "https://montelnews.com/"
+     },
+     {
+      "name": "Yes Energy",
+      "role": "incumbent",
+      "what": "US nodal power market data platform (PowerSignals/DataSignals) covering all seven ISOs for traders.",
+      "signal": "Acquired TESLA Forecasting and Live Power; integrated Amperon AI forecasts via 2025 partnership",
+      "status": "operating",
+      "source": "https://www.yesenergy.com/amperon-yes-energy-partnership"
+     },
+     {
+      "name": "Enverus",
+      "role": "incumbent",
+      "what": "Power & Renewables intelligence suite (market analytics, interconnection queues, RatedPower design) for energy investors and developers.",
+      "signal": "PE-owned (Hellman & Friedman); thousands of energy customers",
+      "status": "operating",
+      "source": "https://www.enverus.com/"
+     },
+     {
+      "name": "LCP Delta (Enact)",
+      "role": "incumbent",
+      "what": "Enact platform for GB/European short-term market analytics and battery revenue benchmarking.",
+      "signal": "Widely used by GB BESS optimizers and traders",
+      "status": "operating",
+      "source": "https://enact.lcpdelta.com/"
+     },
+     {
+      "name": "Modo Energy",
+      "role": "startup",
+      "what": "Benchmark indices and revenue forecasts for grid-scale battery storage in GB, ERCOT and Australia.",
+      "signal": "De facto benchmark for GB battery fleet revenues; expanded to US and Australian markets",
+      "status": "operating",
+      "source": "https://modoenergy.com/"
+     },
+     {
+      "name": "Grid Status",
+      "role": "startup",
+      "what": "Real-time dashboards and API aggregating all US ISO grid and price data in one place.",
+      "signal": "Rapid organic adoption among US power traders and analysts since 2022 launch",
+      "status": "operating",
+      "source": "https://www.gridstatus.io/"
+     }
+    ]
+   },
+   {
+    "name": "Algorithmic bidding & storage trading optimization",
+    "description": "AI-driven platforms forecast prices and automatically bid batteries and renewables into day-ahead, intraday and ancillary-service markets, often doubling merchant storage revenues versus manual trading and making flexible assets financeable.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Habitat Energy",
+      "role": "scaleup",
+      "what": "AI-powered EVOLVE platform optimizing grid-scale batteries and co-located solar across ERCOT, GB and Australia.",
+      "signal": "Acquired by Quinbrook (2021); >3 GW optimized incl. \u00d8rsted's 250 MW Texas battery (2025)",
+      "status": "acquired",
+      "source": "https://www.quinbrook.com/news-insights/quinbrook-acquires-habitat-energy/"
+     },
+     {
+      "name": "Tesla (Autobidder)",
+      "role": "incumbent",
+      "what": "Autonomous market bidding platform bundled with Megapack, trading a multi-GWh global battery fleet.",
+      "signal": "Deployed since Hornsdale (2017); runs Tesla's utility-scale storage market participation",
+      "status": "operating",
+      "source": "https://www.tesla.com/support/energy/tesla-software/autobidder"
+     },
+     {
+      "name": "Fluence",
+      "role": "incumbent",
+      "what": "Mosaic automated bidding and Nispera asset-performance software alongside its storage hardware business.",
+      "signal": "Nasdaq-listed (Siemens/AES JV origin); Mosaic deployed across multi-GW fleets",
+      "status": "operating",
+      "source": "https://fluenceenergy.com/"
+     },
+     {
+      "name": "Stem Inc.",
+      "role": "incumbent",
+      "what": "PowerTrack Optimizer (formerly Athena) software for storage and solar asset monetization and management.",
+      "signal": "Pivoted to software-led model after ~27% workforce cut (April 2025); ~$60M ARR, $1.49B accumulated deficit",
+      "status": "operating",
+      "source": "https://www.stocktitan.net/sec-filings/STEM/10-k-stem-inc-files-annual-report-5ae9e5cf0c2f.html"
+     },
+     {
+      "name": "enspired",
+      "role": "startup",
+      "what": "Trading-as-a-service: human-supervised AI trades client batteries in continuous intraday markets.",
+      "signal": "Series B extended to >\u20ac40M (Oct 2025); expanding from Europe to Japan with Banpu Next",
+      "status": "operating",
+      "source": "https://www.ess-news.com/2025/10/15/enspired-raises-over-e40-million-to-expand-battery-optimization-beyond-europe/"
+     },
+     {
+      "name": "Entrix",
+      "role": "startup",
+      "what": "Fully automated AI optimization of large-scale battery storage across German and European power markets.",
+      "signal": "\u20ac43M round (Mar 2026); 3 GW / 8.5 GWh of contracted battery capacity",
+      "status": "operating",
+      "source": "https://www.eu-startups.com/2026/03/europes-push-for-resilient-flexible-power-systems-fuels-e43-million-round-for-germanys-entrix/"
+     },
+     {
+      "name": "Dexter Energy",
+      "role": "startup",
+      "what": "Short-term power forecasting plus trade optimization sold to European utilities and route-to-market providers.",
+      "signal": "\u20ac23M Series C (Jul 2025) led by Alantra's Klima fund; serves IPPs/traders across Europe",
+      "status": "operating",
+      "source": "https://dexterenergy.ai/news/dexter-energy-raises-23-million-in-series-c-funding/"
+     },
+     {
+      "name": "Gridmatic",
+      "role": "startup",
+      "what": "AI power trader using ML to trade and offtake renewables and batteries in all seven US ISO markets.",
+      "signal": ">1 GWh of storage under management (Dec 2024); closed $50M storage fund; top-performing CAISO battery contract",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20241210579395/en/Gridmatic-Surpasses-1GWh-of-Energy-Storage-Under-Management-and-Sees-Major-Growth-in-Retail-Business"
+     },
+     {
+      "name": "Equilibrium Energy",
+      "role": "startup",
+      "what": "AI-native wholesale power trading firm building systematic strategies across US ISOs.",
+      "signal": "VC-backed with multiple rounds since 2021; trading live in US markets",
+      "status": "operating",
+      "source": "https://www.equilibriumenergy.com/"
+     },
+     {
+      "name": "GridBeyond",
+      "role": "scaleup",
+      "what": "AI platform co-optimizing C&I demand response, distributed assets and grid-scale batteries across markets.",
+      "signal": "Series C (~\u20ac52M, 2023); operates in UK/Ireland, US, Japan and Australia",
+      "status": "operating",
+      "source": "https://gridbeyond.com/"
+     }
+    ]
+   },
+   {
+    "name": "Route-to-market & aggregation software for IPPs",
+    "description": "Aggregators and marketplace platforms take independent renewable generators' output into wholesale markets \u2014 handling forecasting, scheduling, balancing and offtake \u2014 so small IPPs can monetize power like big utilities.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Statkraft",
+      "role": "incumbent",
+      "what": "Europe's largest renewables route-to-market provider, managing third-party wind/solar portfolios at multi-tens-of-GW scale.",
+      "signal": "Market access services across Germany, UK, Nordics, Iberia and beyond",
+      "status": "operating",
+      "source": "https://www.statkraft.com/what-we-do/market-access/"
+     },
+     {
+      "name": "Axpo",
+      "role": "incumbent",
+      "what": "Swiss utility that is one of Europe's biggest PPA originators and balancing/RTM providers for IPPs.",
+      "signal": "Active PPA and origination business across 30+ European markets",
+      "status": "operating",
+      "source": "https://www.axpo.com/"
+     },
+     {
+      "name": "Danske Commodities",
+      "role": "incumbent",
+      "what": "Trades and balances renewable output across 40 markets as Equinor's market access arm.",
+      "signal": "Acquired by Equinor (2019); balances multi-GW renewables portfolios",
+      "status": "acquired",
+      "source": "https://www.danskecommodities.com/"
+     },
+     {
+      "name": "Next Kraftwerke",
+      "role": "scaleup",
+      "what": "Virtual power plant aggregating >15,000 distributed assets (>10 GW) into European markets.",
+      "signal": "Acquired by Shell (2021); one of Europe's largest VPP operators",
+      "status": "acquired",
+      "source": "https://www.next-kraftwerke.com/"
+     },
+     {
+      "name": "Energy2market (e2m)",
+      "role": "scaleup",
+      "what": "Independent Leipzig-based aggregator providing direct marketing and balancing for >4 GW of decentralized assets.",
+      "signal": "Among Germany's largest independent aggregators",
+      "status": "operating",
+      "source": "https://www.e2m.energy/"
+     },
+     {
+      "name": "tem.",
+      "role": "startup",
+      "what": "AI-driven marketplace matching independent generators directly with business energy buyers, bypassing traditional utility PPAs.",
+      "signal": "~$75M Series B led by Lightspeed Venture Partners",
+      "status": "operating",
+      "source": "https://renewablesnow.com/news/renewable-energy-marketplace-tem-raises-usd-75m-in-funding-round-1289648/"
+     },
+     {
+      "name": "Renewable Exchange",
+      "role": "startup",
+      "what": "PPA tender platform getting small UK generators competitive route-to-market offers from suppliers.",
+      "signal": "UK's largest generator-PPA platform; minority investment from OVO (2019)",
+      "status": "operating",
+      "source": "https://company.ovo.com/ovo-invests-in-clean-energy-marketplace-renewable-exchange/"
+     },
+     {
+      "name": "Leap",
+      "role": "startup",
+      "what": "API platform giving DERs and batteries plug-and-play access to wholesale and flexibility markets.",
+      "signal": "Series B (~$33.5M, 2022); active in CAISO and expanding to other US markets",
+      "status": "operating",
+      "source": "https://www.leap.energy/"
+     },
+     {
+      "name": "Origami Energy",
+      "role": "startup",
+      "what": "Cambridge-based trading and automation software platform for energy traders managing flexible assets.",
+      "signal": "Raised \u00a320M Series C led by Barclays (2021); company dissolved May 2026 per Companies House",
+      "status": "bankrupt-shutdown",
+      "source": "https://find-and-update.company-information.service.gov.uk/company/08619644"
+     }
+    ],
+    "white_space": "Europe's aggregation market is crowded, but in North America route-to-market remains bundled into utility QSE/scheduling services with few independent software platforms \u2014 Origami's failure also shows pure software without trading P&L or assets struggles; the opening is software-plus-services models for the thousands of new merchant storage and solar IPPs."
+   },
+   {
+    "name": "PPA marketplaces, pricing & risk analytics",
+    "description": "Marketplaces and pricing/risk platforms standardize how corporates and IPPs find counterparties, price long-term clean power contracts and manage shape/basis risk, compressing PPA deal times from years to months.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "LevelTen Energy",
+      "role": "scaleup",
+      "what": "Largest PPA and renewable asset marketplace with price indices covering North America and Europe.",
+      "signal": "$65M Series D (Jul 2024); >$14.8B in transactions facilitated; expanded into tax credit and granular certificate marketplaces",
+      "status": "operating",
+      "source": "https://www.leveltenenergy.com/post/levelten-series-d-funding-round"
+     },
+     {
+      "name": "Pexapark",
+      "role": "scaleup",
+      "what": "PexaQuote PPA price benchmark and risk software, the reference pricing source for European renewables offtake.",
+      "signal": "Acquired ERCOT PPA marketplace RenewaFi (Feb 2025) to enter the US market",
+      "status": "operating",
+      "source": "https://www.cbinsights.com/company/pexapark"
+     },
+     {
+      "name": "RenewaFi",
+      "role": "startup",
+      "what": "ERCOT-focused marketplace for short- and mid-term renewable PPAs and hedges.",
+      "signal": "Acquired by Pexapark (Feb 2025)",
+      "status": "acquired",
+      "source": "https://www.cbinsights.com/company/pexapark"
+     },
+     {
+      "name": "Zeigo",
+      "role": "startup",
+      "what": "Digital PPA matching platform connecting smaller corporates with renewable projects.",
+      "signal": "Acquired by Schneider Electric (2021) to scale its renewable advisory digitally",
+      "status": "acquired",
+      "source": "https://www.zeigo.com/"
+     },
+     {
+      "name": "REsurety",
+      "role": "startup",
+      "what": "Weather-smart risk analytics, volume firming agreements and settlement-quality locational data for clean energy contracts.",
+      "signal": "Analytics underpin hedges/PPAs across tens of GW of US wind and solar",
+      "status": "operating",
+      "source": "https://resurety.com/"
+     },
+     {
+      "name": "kWh Analytics",
+      "role": "startup",
+      "what": "Solar Revenue Put insurance and risk analytics built on one of the largest solar asset performance databases.",
+      "signal": "Insurance products placed across multi-GW US solar portfolios",
+      "status": "operating",
+      "source": "https://www.kwhanalytics.com/"
+     },
+     {
+      "name": "Station A",
+      "role": "startup",
+      "what": "AI marketplace for distributed clean energy deals (onsite solar/storage PPAs) on commercial real estate.",
+      "signal": "Used by major brands and REITs to tender distributed energy projects",
+      "status": "operating",
+      "source": "https://stationa.com/"
+     },
+     {
+      "name": "Squeaky (SQE)",
+      "role": "startup",
+      "what": "Standardized short-form corporate clean PPAs plus licensed supplier sleeving for UK businesses.",
+      "signal": "Ofgem-licensed supplier operating a corporate PPA platform",
+      "status": "operating",
+      "source": "https://www.sqe.energy/"
+     }
+    ]
+   },
+   {
+    "name": "REC/EAC registries, tracking & trading software",
+    "description": "Registries and trading platforms issue, track and retire renewable energy certificates (RECs, GOs, I-RECs) so clean attributes can be bought and sold separately from power \u2014 the accounting backbone of corporate clean-energy claims.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Xpansiv",
+      "role": "scaleup",
+      "what": "Owns APX registry infrastructure behind most North American REC programs plus the CBL spot exchange for environmental commodities.",
+      "signal": "Acquired APX (2023); PE-backed market infrastructure leader",
+      "status": "operating",
+      "source": "https://xpansiv.com/"
+     },
+     {
+      "name": "M-RETS",
+      "role": "incumbent",
+      "what": "Nonprofit registry for renewable and thermal certificates, first mover on hourly-granular REC tracking.",
+      "signal": "Tracks attributes across much of North America; supports hourly certificates",
+      "status": "operating",
+      "source": "https://www.mrets.org/"
+     },
+     {
+      "name": "Evident",
+      "role": "scaleup",
+      "what": "Operates the I-REC/I-TRACK registry enabling EAC issuance in 50+ countries without national registries.",
+      "signal": "Registry operator for the dominant international EAC standard",
+      "status": "operating",
+      "source": "https://evident.global/"
+     },
+     {
+      "name": "Grexel",
+      "role": "incumbent",
+      "what": "Runs national guarantee-of-origin registries for multiple European issuing bodies.",
+      "signal": "Helsinki-based registry operator embedded in the AIB GO system",
+      "status": "operating",
+      "source": "https://grexel.com/"
+     },
+     {
+      "name": "STX Group",
+      "role": "incumbent",
+      "what": "One of the largest environmental commodity traders (GOs, RECs, biofuel tickets) with corporate solutions arm Strive.",
+      "signal": "Staff cuts amid voluntary carbon market slowdown (2025), but executed >$1B IRA tax-credit transfer (May 2025)",
+      "status": "operating",
+      "source": "https://carbon-pulse.com/343200/"
+     },
+     {
+      "name": "ACT Group",
+      "role": "incumbent",
+      "what": "Amsterdam-based trader market-making EACs, biofuels and carbon across global registries.",
+      "signal": "Among the largest global environmental commodity intermediaries",
+      "status": "operating",
+      "source": "https://www.actcommodities.com/"
+     },
+     {
+      "name": "3Degrees",
+      "role": "incumbent",
+      "what": "US transaction and advisory firm sourcing RECs/EACs and renewable solutions for corporates and utilities.",
+      "signal": "Two decades of REC transaction track record",
+      "status": "operating",
+      "source": "https://3degreesinc.com/"
+     },
+     {
+      "name": "Soldera",
+      "role": "startup",
+      "what": "AI automation of guarantee-of-origin issuance and sales for small renewable producers across fragmented EU registries.",
+      "signal": "\u20ac2.5M seed (Mar 2025, Lifeline Ventures) + \u20ac1.6M grant (Jan 2026); >3,000 production sites in the Baltics",
+      "status": "operating",
+      "source": "https://tech.eu/2025/03/25/soldera-raises-2-5m-to-streamline-renewable-energy-certification/"
+     },
+     {
+      "name": "Powerledger",
+      "role": "startup",
+      "what": "Blockchain platform for energy and certificate trading, including REC marketplaces.",
+      "signal": "Perth-based; platform deployments across Asia-Pacific markets",
+      "status": "operating",
+      "source": "https://powerledger.io/"
+     }
+    ]
+   },
+   {
+    "name": "24/7 carbon-free energy matching & granular certificates",
+    "description": "Software matches a buyer's hourly consumption with hourly clean generation and issues time-stamped granular certificates, replacing annual REC accounting with true 24/7 carbon-free claims that steer investment to when/where clean power is scarce.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "FlexiDAO",
+      "role": "startup",
+      "what": "Energy traceability platform and EnergyTag-accredited granular certificate issuer for corporates.",
+      "signal": "Converted Google's 10.5 TWh portfolio (100+ sites, 7 countries) to hourly certificates (2025); backed by Google and Microsoft",
+      "status": "operating",
+      "source": "https://www.flexidao.com/resources/google-portfolio-gc-conversion"
+     },
+     {
+      "name": "Granular Energy",
+      "role": "startup",
+      "what": "Hourly certificate portfolio-management and trading software sold to utilities and energy suppliers.",
+      "signal": "Backed by SET Ventures, Google and Microsoft's Climate Innovation Fund",
+      "status": "operating",
+      "source": "https://www.granular-energy.com/insights/preseed-funding"
+     },
+     {
+      "name": "Cleartrace",
+      "role": "startup",
+      "what": "Hourly energy and carbon accounting ledger used by corporates, real estate and financial firms.",
+      "signal": "Venture-backed; customers include major financial and real-estate portfolios",
+      "status": "operating",
+      "source": "https://cleartrace.io/"
+     },
+     {
+      "name": "WattCarbon",
+      "role": "startup",
+      "what": "WEATS registry issuing hourly EACs including demand-side resources (heat pumps, efficiency) not just generation.",
+      "signal": "Seed-stage registry pioneering decarbonization EACs for distributed assets",
+      "status": "operating",
+      "source": "https://wattcarbon.com/"
+     },
+     {
+      "name": "Electricity Maps",
+      "role": "startup",
+      "what": "Hourly grid carbon-intensity data API covering 200+ zones, powering carbon-aware computing and 24/7 accounting.",
+      "signal": "$5.4M round (May 2024, Transition/Revent); data used by major tech firms for load shifting",
+      "status": "operating",
+      "source": "https://techcrunch.com/2024/05/06/electricity-maps-calculates-the-carbon-intensity-of-electricity-consumption-to-optimize-usage-at-scale/"
+     },
+     {
+      "name": "Singularity Energy",
+      "role": "startup",
+      "what": "Grid carbon-flow tracing (Carbonara API) for hourly emissions accounting of load and generation.",
+      "signal": "Boston-based; utility and corporate pilots for hourly carbon data",
+      "status": "operating",
+      "source": "https://singularity.energy/"
+     },
+     {
+      "name": "EnergyTag",
+      "role": "incumbent",
+      "what": "Industry standards body defining and accrediting granular certificate schemes globally.",
+      "signal": "Accredited first granular certificate issuers in 2025 \u2014 milestone for hourly tracking",
+      "status": "operating",
+      "source": "https://energytag.org/energytag-accredits-first-granular-certificate-issuers-marking-a-major-milestone-for-hourly-clean-energy-tracking/"
+     }
+    ],
+    "white_space": "Standards only matured in 2025 (first EnergyTag-accredited issuers) and paying demand is concentrated in a handful of hyperscalers; registry incumbents move slowly \u2014 the opening is making hourly matching a default feature inside PPAs, retail tariffs and registries rather than a boutique audit product, especially as EU/US green-hydrogen rules force hourly matching."
+   },
+   {
+    "name": "Clean-energy retail & billing platforms (green tariff engines)",
+    "description": "Cloud customer/billing operating systems let retailers run dynamic green tariffs, EV/heat-pump rates and flexibility programs at low cost-to-serve, replacing decades-old utility CIS stacks and pulling consumers into the energy transition.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Kraken Technologies",
+      "role": "scaleup",
+      "what": "Octopus Energy's retail-and-flexibility operating system licensed to utilities worldwide.",
+      "signal": "$500M committed ARR; $1B raise at $8.65B valuation (D1 Capital) with spinout/IPO planned; clients incl. EDF, E.ON Next, Origin, Tokyo Gas, National Grid US",
+      "status": "operating",
+      "source": "https://kraken.tech/press-releases/octopus-energy-group-to-spin-off-kraken"
+     },
+     {
+      "name": "Kaluza",
+      "role": "scaleup",
+      "what": "OVO-built retail billing and flexibility platform licensed to utilities (EVs, heat pumps, dynamic tariffs).",
+      "signal": "AGL holds 20% at ~$500M valuation; Engie deal up to 20M accounts; OVO exploring stake sale (2025)",
+      "status": "operating",
+      "source": "https://www.energyvoice.com/renewables-energy-transition/581646/ovo-spies-sale-of-software-unit/"
+     },
+     {
+      "name": "Gentrack",
+      "role": "incumbent",
+      "what": "Listed utility billing/CIS vendor repositioned around cloud platforms for energy and water retailers.",
+      "signal": "NZX/ASX-listed; powers retailers across UK, ANZ, Asia and Middle East",
+      "status": "operating",
+      "source": "https://gentrack.com/"
+     },
+     {
+      "name": "Hansen Technologies",
+      "role": "incumbent",
+      "what": "ASX-listed billing and customer-care software serving energy and communications providers globally.",
+      "signal": "600+ customers in 80 countries",
+      "status": "operating",
+      "source": "https://www.hansencx.com/"
+     },
+     {
+      "name": "Flux Federation",
+      "role": "scaleup",
+      "what": "Meridian Energy-owned retail platform powering green electricity retailers.",
+      "signal": "Runs retail operations in NZ and abroad incl. Meridian and Powershop brands",
+      "status": "operating",
+      "source": "https://fluxfederation.com/"
+     },
+     {
+      "name": "Tibber",
+      "role": "scaleup",
+      "what": "App-based digital retailer selling power at spot price with smart-device optimization and grid rewards.",
+      "signal": "$100M Series C (Summa Equity); ~$540M revenue (2024); profitable in Nordics, growing in Germany/Netherlands",
+      "status": "operating",
+      "source": "https://summaequity.com/summa-equity-backs-smart-energy-player-tibber-in-100m-series-c-round/"
+     },
+     {
+      "name": "David Energy",
+      "role": "startup",
+      "what": "Software-defined retailer pairing C&I electricity supply with DER monitoring/control in NYISO/PJM/ERCOT.",
+      "signal": "Venture-backed (Series A 2022 plus debt facilities); niche C&I focus",
+      "status": "operating",
+      "source": "https://www.davidenergy.com/"
+     },
+     {
+      "name": "Bulb Energy",
+      "role": "scaleup",
+      "what": "UK green challenger retailer that grew to ~1.7M customers on 100% renewable tariffs.",
+      "signal": "Collapsed into UK special administration (Nov 2021) \u2014 the largest UK supplier failure; customers transferred to Octopus (2022)",
+      "status": "bankrupt-shutdown",
+      "source": "https://en.wikipedia.org/wiki/Bulb_Energy"
+     }
+    ]
+   },
+   {
+    "name": "Community solar management & subscriber platforms",
+    "description": "Platforms acquire, bill and manage subscribers for shared solar projects, allocating utility bill credits so renters and households without roofs can buy local solar \u2014 the customer-management layer that makes community solar projects financeable.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Perch Energy",
+      "role": "scaleup",
+      "what": "Largest pure-play US community solar acquisition and management servicer.",
+      "signal": "Merged with Arcadia's community solar unit (Mar 2025), acquired Mitsui's Solstice (Feb 2026); >3 GW across 1,000+ projects, 450k+ customer equivalents",
+      "status": "operating",
+      "source": "https://www.globenewswire.com/news-release/2026/02/18/3240155/0/en/Perch-Energy-Announces-Acquisition-of-Mitsui-s-Solstice-Solidifying-the-Company-as-the-US-Leader-in-Community-Solar.html"
+     },
+     {
+      "name": "Arcadia",
+      "role": "scaleup",
+      "what": "Pioneered community solar subscription management; now focused on its Arc utility data/API platform after divesting servicing into the Perch venture.",
+      "signal": "Raised $200M at ~$1.5B valuation (2022); community solar business merged into Perch (Mar 2025)",
+      "status": "operating",
+      "source": "https://www.arborviewcapital.com/news/2025/03/11/perch-arcadia"
+     },
+     {
+      "name": "Solstice",
+      "role": "startup",
+      "what": "Community solar customer acquisition and management with inclusive credit-scoring (EnergyScore).",
+      "signal": "Acquired by Mitsui, then sold to Perch Energy (Feb 2026) contributing 550 MW of contracted projects",
+      "status": "acquired",
+      "source": "https://www.solarpowerworldonline.com/2026/02/perch-energy-acquires-community-solar-management-company-solstice/"
+     },
+     {
+      "name": "Ampion",
+      "role": "startup",
+      "what": "Public benefit corporation providing turnkey subscriber and revenue management for community solar developers.",
+      "signal": "$42M cumulative subscriber savings (Feb 2025); launched interstate 'synthetic' community solar program (Sep 2025)",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20250227502788/en/Ampion-Saves-Community-Solar-Subscribers-$42-Million-in-Electricity-Costs"
+     },
+     {
+      "name": "PowerMarket",
+      "role": "startup",
+      "what": "Open Energy Platform for community solar, CCA and DER program management and customer engagement.",
+      "signal": "Manages community solar portfolios across multiple US states since 2014",
+      "status": "operating",
+      "source": "https://solutions.powermarket.io/communities.html"
+     },
+     {
+      "name": "Neighborhood Sun",
+      "role": "startup",
+      "what": "Community solar subscriber platform (SunEngine) focused on Mid-Atlantic state programs.",
+      "signal": "B-corp managing subscribers across multiple state markets",
+      "status": "operating",
+      "source": "https://neighborhoodsun.solar/"
+     }
+    ]
+   },
+   {
+    "name": "Weather & climate data services for energy trading",
+    "description": "Proprietary observations and (increasingly AI-based) forecast models sell weather and seasonal climate signals to power and gas traders, for whom degree-day and renewables-output surprises are the main P&L driver.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "DTN",
+      "role": "incumbent",
+      "what": "Largest private weather company (absorbed MeteoGroup) selling operational weather and energy decision analytics to utilities and traders.",
+      "signal": "Serves majority of North American/European energy trading desks",
+      "status": "operating",
+      "source": "https://www.dtn.com/weather/utilities-and-renewable-energy/"
+     },
+     {
+      "name": "Tomorrow.io",
+      "role": "scaleup",
+      "what": "Operates its own radar/sounder satellite constellation feeding AI forecasts via API.",
+      "signal": "$175M raise at >$1B valuation (~$500M total, early 2026)",
+      "status": "operating",
+      "source": "https://www.calcalistech.com/ctechnews/article/rj67r5yvze"
+     },
+     {
+      "name": "Meteomatics",
+      "role": "scaleup",
+      "what": "Unified weather data API plus Meteodrone boundary-layer observations, widely used by energy traders and utilities.",
+      "signal": "Series C (~$22M, 2023); thousands of enterprise API customers",
+      "status": "operating",
+      "source": "https://www.meteomatics.com/"
+     },
+     {
+      "name": "WindBorne Systems",
+      "role": "startup",
+      "what": "Global long-duration sounding balloon constellation feeding a proprietary AI weather model.",
+      "signal": "$26M raised; ~400 balloons aloft; out-forecasts leading government models on key variables (2026)",
+      "status": "operating",
+      "source": "https://techcrunch.com/2026/06/01/this-ai-weather-startup-is-out-forecasting-government-agencies/"
+     },
+     {
+      "name": "Jua",
+      "role": "startup",
+      "what": "Zurich-based physics foundation model for atmospheric prediction marketed to energy traders.",
+      "signal": "Seed (~$16M); claims state-of-the-art against ECMWF benchmarks",
+      "status": "operating",
+      "source": "https://jua.ai/"
+     },
+     {
+      "name": "Salient Predictions",
+      "role": "startup",
+      "what": "Subseasonal-to-seasonal (2-52 week) probabilistic forecasts for energy trading and risk.",
+      "signal": "$5.3M seed plus NOAA/NSF SBIR grants (2024); MIT/Woods Hole lineage",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20241112362497/en/Salient-Awarded-NOAA-and-NSF-Grants-for-Additional-Research-in-Water-Availability-and-Extreme-Temperature-Forecasting"
+     },
+     {
+      "name": "Brightband",
+      "role": "startup",
+      "what": "Open-source-leaning AI weather models tailored to industries including energy and finance.",
+      "signal": "$10M Series A (2024, Prelude-led); ex-NOAA/Google team",
+      "status": "operating",
+      "source": "https://techcrunch.com/2024/09/19/brightband-sees-a-bright-and-open-source-future-for-ai-powered-weather-forecasting/"
+     },
+     {
+      "name": "Speedwell Climate",
+      "role": "incumbent",
+      "what": "Settlement-grade weather data and indices underpinning the weather derivatives market.",
+      "signal": "Long-standing standard for parametric weather contract settlement",
+      "status": "operating",
+      "source": "https://www.speedwellclimate.com/"
+     },
+     {
+      "name": "Sunairio",
+      "role": "startup",
+      "what": "Climate-conditioned stochastic weather simulations for probabilistic power load/renewables/price risk.",
+      "signal": "Seed-stage; used by utilities and traders for climate-adjusted risk",
+      "status": "operating",
+      "source": "https://sunairio.com/"
+     }
+    ]
+   },
+   {
+    "name": "Electricity demand & net-load forecasting for retailers and utilities",
+    "description": "AI models forecast customer demand and net load (demand minus behind-the-meter solar) so retailers hedge correctly and utilities balance cheaply \u2014 a problem getting harder and more valuable as electrification, rooftop PV and data centers break legacy regression models.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Amperon",
+      "role": "startup",
+      "what": "AI-powered hourly demand and net-load forecasting for traders and retailers, strongest in ERCOT.",
+      "signal": "$20M Series B (2023); forecasts distributed via Yes Energy platform partnership (Mar 2025)",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/amperons-ai-powered-forecasts-now-available-on-the-yes-energy-platform-302403714.html"
+     },
+     {
+      "name": "Innowatts",
+      "role": "scaleup",
+      "what": "AMI-data-driven load forecasting and customer analytics SaaS for retailers and utilities.",
+      "signal": "Series C (~$19M); platform learns from tens of millions of meters",
+      "status": "operating",
+      "source": "https://www.innowatts.com/"
+     },
+     {
+      "name": "Myst AI",
+      "role": "startup",
+      "what": "Time-series ML platform for electricity demand/supply forecasting.",
+      "signal": "Acquired by Snowflake (Jan 2023) after raising ~$8M",
+      "status": "acquired",
+      "source": "https://www.snowflake.com/en/blog/snowflake-to-acquire-myst/"
+     },
+     {
+      "name": "TESLA Forecasting Solutions",
+      "role": "incumbent",
+      "what": "Long-standing specialist in ISO/utility load forecasting models.",
+      "signal": "Acquired by Yes Energy; forecasts embedded in its market data platform",
+      "status": "acquired",
+      "source": "https://www.cbinsights.com/company/yes-energy"
+     },
+     {
+      "name": "Itron",
+      "role": "incumbent",
+      "what": "Metering giant whose forecasting suite is embedded across utility planning and operations.",
+      "signal": "Nasdaq-listed; forecasting used by hundreds of utilities",
+      "status": "operating",
+      "source": "https://www.itron.com/"
+     },
+     {
+      "name": "Bidgely",
+      "role": "scaleup",
+      "what": "UtilityAI disaggregates AMI data into appliance-level load insights for forecasting and customer programs.",
+      "signal": "Serves dozens of utilities globally",
+      "status": "operating",
+      "source": "https://www.bidgely.com/"
+     }
+    ],
+    "white_space": "Surging data-center load, electrification and behind-the-meter solar are breaking legacy regression forecasting, yet the credible independents keep getting absorbed (Myst into Snowflake, TESLA into Yes Energy) \u2014 an opening for probabilistic, weather-model-native net-load forecasting sold as infrastructure to mid-size retailers and munis."
+   },
+   {
+    "name": "Energy trading & risk management (ETRM) platforms for clean energy portfolios",
+    "description": "Deal capture, position, credit and settlement software adapted to renewables' volume/shape risk, PPAs, RECs and storage \u2014 the back-office plumbing without which clean portfolios cannot trade at scale.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "ION Commodities",
+      "role": "incumbent",
+      "what": "Consolidated the legacy ETRM market (Openlink, Allegro, Aspect, TriplePoint) under one owner.",
+      "signal": "Dominant installed base among large energy traders",
+      "status": "operating",
+      "source": "https://iongroup.com/markets/commodities/"
+     },
+     {
+      "name": "FIS (Aligne)",
+      "role": "incumbent",
+      "what": "Aligne ETRM covering power, gas and environmental products for utilities and traders.",
+      "signal": "NYSE-listed fintech incumbent with long-standing energy ETRM line",
+      "status": "operating",
+      "source": "https://www.fisglobal.com/"
+     },
+     {
+      "name": "Hitachi Energy (TRMTracker)",
+      "role": "incumbent",
+      "what": "TRMTracker ETRM (via Pioneer Solutions acquisition) integrated with its market and portfolio forecasting suite.",
+      "signal": "Part of Hitachi Energy's energy portfolio management unit",
+      "status": "operating",
+      "source": "https://www.hitachienergy.com/products-and-solutions/energy-portfolio-management"
+     },
+     {
+      "name": "Brady Technologies",
+      "role": "incumbent",
+      "what": "Short-term power trading and ETRM software for European utilities, BRPs and renewables traders.",
+      "signal": "PE-backed; dozens of European trading customers",
+      "status": "operating",
+      "source": "https://www.bradytechnologies.com/"
+     },
+     {
+      "name": "Molecule",
+      "role": "startup",
+      "what": "Cloud-native ETRM with first-class support for power, renewables and REC/carbon positions.",
+      "signal": "Houston-based SaaS challenger displacing legacy on-prem ETRMs",
+      "status": "operating",
+      "source": "https://www.molecule.io/"
+     },
+     {
+      "name": "cQuant.io",
+      "role": "startup",
+      "what": "Cloud analytics simulating portfolio, PPA and storage risk for utilities, IPPs and corporates.",
+      "signal": "SaaS energy-analytics platform with growing US/EU customer base",
+      "status": "operating",
+      "source": "https://cquant.io/"
+     },
+     {
+      "name": "Enuit",
+      "role": "startup",
+      "what": "Entrade ETRM covering power, gas and environmental commodities at mid-market price points.",
+      "signal": "Houston-based vendor with international deployments",
+      "status": "operating",
+      "source": "https://www.enuit.com/"
+     }
+    ],
+    "white_space": "Incumbent ETRMs are legacy on-prem systems priced for large trading houses; few modern SaaS products handle 5-minute settlement granularity, PPAs, RECs, granular certificates and storage in one book \u2014 a structural opening as thousands of IPPs, aggregators and corporates become direct market participants."
+   }
+  ],
+  "sources": [
+   "https://www.ess-news.com/2025/10/15/enspired-raises-over-e40-million-to-expand-battery-optimization-beyond-europe/",
+   "https://www.eu-startups.com/2026/03/europes-push-for-resilient-flexible-power-systems-fuels-e43-million-round-for-germanys-entrix/",
+   "https://dexterenergy.ai/news/dexter-energy-raises-23-million-in-series-c-funding/",
+   "https://www.businesswire.com/news/home/20241210579395/en/Gridmatic-Surpasses-1GWh-of-Energy-Storage-Under-Management-and-Sees-Major-Growth-in-Retail-Business",
+   "https://www.quinbrook.com/news-insights/quinbrook-acquires-habitat-energy/",
+   "https://www.stocktitan.net/sec-filings/STEM/10-k-stem-inc-files-annual-report-5ae9e5cf0c2f.html",
+   "https://www.leveltenenergy.com/post/levelten-series-d-funding-round",
+   "https://www.cbinsights.com/company/pexapark",
+   "https://kraken.tech/press-releases/octopus-energy-group-to-spin-off-kraken",
+   "https://www.energyvoice.com/renewables-energy-transition/581646/ovo-spies-sale-of-software-unit/",
+   "https://summaequity.com/summa-equity-backs-smart-energy-player-tibber-in-100m-series-c-round/",
+   "https://www.globenewswire.com/news-release/2026/02/18/3240155/0/en/Perch-Energy-Announces-Acquisition-of-Mitsui-s-Solstice-Solidifying-the-Company-as-the-US-Leader-in-Community-Solar.html",
+   "https://www.arborviewcapital.com/news/2025/03/11/perch-arcadia",
+   "https://www.solarpowerworldonline.com/2026/02/perch-energy-acquires-community-solar-management-company-solstice/",
+   "https://www.businesswire.com/news/home/20250227502788/en/Ampion-Saves-Community-Solar-Subscribers-$42-Million-in-Electricity-Costs",
+   "https://www.dnv.com/news/2023/dnv-expands-solar-forecasting-expertise-with-the-acquisition-of-solar-data-specialist-solcast-238386/",
+   "https://techcrunch.com/2026/06/01/this-ai-weather-startup-is-out-forecasting-government-agencies/",
+   "https://www.calcalistech.com/ctechnews/article/rj67r5yvze",
+   "https://techcrunch.com/2024/09/19/brightband-sees-a-bright-and-open-source-future-for-ai-powered-weather-forecasting/",
+   "https://www.flexidao.com/resources/google-portfolio-gc-conversion",
+   "https://energytag.org/energytag-accredits-first-granular-certificate-issuers-marking-a-major-milestone-for-hourly-clean-energy-tracking/",
+   "https://techcrunch.com/2024/05/06/electricity-maps-calculates-the-carbon-intensity-of-electricity-consumption-to-optimize-usage-at-scale/",
+   "https://tech.eu/2025/03/25/soldera-raises-2-5m-to-streamline-renewable-energy-certification/",
+   "https://carbon-pulse.com/343200/",
+   "https://renewablesnow.com/news/renewable-energy-marketplace-tem-raises-usd-75m-in-funding-round-1289648/",
+   "https://company.ovo.com/ovo-invests-in-clean-energy-marketplace-renewable-exchange/",
+   "https://find-and-update.company-information.service.gov.uk/company/08619644",
+   "https://www.snowflake.com/en/blog/snowflake-to-acquire-myst/",
+   "https://www.prnewswire.com/news-releases/amperons-ai-powered-forecasts-now-available-on-the-yes-energy-platform-302403714.html",
+   "https://www.businesswire.com/news/home/20241112362497/en/Salient-Awarded-NOAA-and-NSF-Grants-for-Additional-Research-in-Water-Availability-and-Extreme-Temperature-Forecasting"
+  ]
+ }
+}

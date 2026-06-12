@@ -1,0 +1,685 @@
+{
+ "sector": "buildings",
+ "bucket": "Low-Carbon Structural Materials & Industrialized Construction",
+ "census": {
+  "bucket": "Low-Carbon Structural Materials & Industrialized Construction",
+  "sources": [
+   "https://elementfive.co/element5-mass-timber-celebrates-grand-opening-of-expanded-manufacturing-plant-in-st-thomas-ontario/",
+   "https://mercermasstimber.com/",
+   "https://forisk.com/mass-timber-production-in-north-america/",
+   "https://www.constructiondive.com/news/swinerton-timberlab-mass-timber-manufacturing-oregon/806959/",
+   "https://techcrunch.com/2025/01/09/icon-a-builder-of-3d-printed-homes-last-valued-around-2-billion-cuts-about-25-of-staff/",
+   "https://www.housingwire.com/articles/diamond-age-shuts-down-after-hard-battle-for-new-investment/",
+   "https://3dprintingindustry.com/news/mighty-buildings-up-for-sale-following-headcount-reduction-235813/",
+   "https://www.cnbc.com/2025/12/10/walmart-sika-3d-printed-real-estate.html",
+   "https://techcrunch.com/2023/11/27/prefab-home-builder-veev-reportedly-shutting-down-after-reaching-unicorn-status-last-year/",
+   "https://en.wikipedia.org/wiki/Katerra",
+   "https://www.centralmaine.com/2025/06/25/madisons-timberhp-emerges-from-chapter-11-bankruptcy-with-eye-on-sustainable-future/",
+   "https://www.ornl.gov/news/innovation-crossroads-company-hempitecture-receives-84-million-doe-funding",
+   "https://oneclicklca.com/en/resources/press-release/40m-growth-equity-psg-infravia/",
+   "https://www.esgtoday.com/tangible-raises-3-million-to-measure-reduce-carbon-emissions-from-building-materials-and-construction/",
+   "https://www.axios.com/local/raleigh/2026/03/25/plantd-north-carolina-carbon-negative-building-materials-osb-alternative-grass-panels",
+   "https://www.prnewswire.com/news-releases/adaptavate-secures-2-7-million-in-a-pre-series-a-round-to-accelerate-global-scale-up-of-low-carbon-construction-technology-302435739.html",
+   "https://www.businesswire.com/news/home/20250224920377/en/Cambium-Secures-$18.5-Million-Series-A-Expands-into-Mass-Timber-to-Accelerate-Sustainable-Materials-for-the-Built-Environment",
+   "https://www.bworldonline.com/economy/2023/05/30/525904/100-m-engineered-bamboo-facility-to-rise-in-cagayan-de-oro/",
+   "https://tracxn.com/d/companies/bamcore/__5KNsLjCiiK76evwVIpux5HS3xnLjIyspNC6SZgmE0ZE",
+   "https://www.resiclubanalytics.com/p/cuby-technologies-shift-in-how-homes-get-built-homebuilding",
+   "https://www.prnewswire.com/news-releases/project44-appoints-jonathan-scherr-as-chief-strategy-and-operations-officer-302409936.html",
+   "https://rheaply.com/blog/rheaplys-year-in-reuse-review-2024-reuse-recap/"
+  ],
+  "variations": [
+   {
+    "name": "Mass timber manufacturing (CLT, glulam, DLT/NLT)",
+    "description": "Factories laminate dimensional lumber into large structural panels and beams (CLT, glulam, DLT/NLT) that replace much of a building's concrete and steel frame while storing biogenic carbon in the structure for decades.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Stora Enso",
+      "role": "incumbent",
+      "what": "One of the world's largest CLT/LVL producers, with mills across Europe and the Sylva prefabricated mass-timber kit-of-parts building system.",
+      "signal": "~EUR 9B-revenue forest products group; multiple dedicated CLT mills; mature European market leader",
+      "status": "operating",
+      "source": "https://www.storaenso.com/en/products/mass-timber-construction"
+     },
+     {
+      "name": "Binderholz",
+      "role": "incumbent",
+      "what": "Family-owned Austrian group that is among the world's largest integrated solid-wood processors, producing CLT and glulam at scale with US capacity via the Klausner mill acquisitions.",
+      "signal": "60+ sites across Europe and US; among largest global sawmill/CLT groups",
+      "status": "operating",
+      "source": "https://www.binderholz.com/en-us/"
+     },
+     {
+      "name": "KLH Massivholz",
+      "role": "incumbent",
+      "what": "Austrian CLT pioneer producing cross-laminated timber since 1999 and exporting panels worldwide.",
+      "signal": "25+ years of CLT production; one of the original European CLT brands",
+      "status": "operating",
+      "source": "https://www.klh.at/en/"
+     },
+     {
+      "name": "Mercer Mass Timber",
+      "role": "incumbent",
+      "what": "Largest North American mass-timber producer after buying Structurlam's plants; runs one of the world's largest CLT presses in Spokane Valley, WA plus glulam capacity.",
+      "signal": "Acquired Structurlam assets for ~$81M (2023); ~45,000 m3 glulam plus large-format CLT capacity",
+      "status": "operating",
+      "source": "https://mercermasstimber.com/"
+     },
+     {
+      "name": "Structurlam",
+      "role": "incumbent",
+      "what": "Pioneer North American CLT/glulam maker (founded 1962, CLT since 2011) that supplied landmark projects like Brock Commons before collapsing.",
+      "signal": "Filed Chapter 11 in April 2023 after losing the Walmart HQ contract; BC and Arkansas plants sold to Mercer International for ~$81M",
+      "status": "bankrupt-shutdown",
+      "source": "https://mercerint.com/our-operations/mercer-mass-timber/"
+     },
+     {
+      "name": "SmartLam North America",
+      "role": "scaleup",
+      "what": "First US CLT manufacturer (2016, Montana), now with a second campus in Dothan, Alabama and a glulam line being added.",
+      "signal": "~$62M glulam facility addition in Dothan, AL; plants in MT and AL",
+      "status": "operating",
+      "source": "https://smartlam.com/about/"
+     },
+     {
+      "name": "Sterling Structural",
+      "role": "scaleup",
+      "what": "Cost-focused Midwest/Texas CLT producer that entered via CLT access mats and now makes building-grade CLT and mass timber components.",
+      "signal": "Plants in Phoenix, IL and Lufkin, TX; largest US producer of CLT industrial matting",
+      "status": "operating",
+      "source": "https://www.sterlingstructural.com/"
+     },
+     {
+      "name": "Element5",
+      "role": "scaleup",
+      "what": "Ontario CLT/glulam manufacturer with one of Canada's most automated plants in St. Thomas.",
+      "signal": "Doubled capacity to 100,000 m3/yr with new glulam line (Sept 2025); $107M expansion; Hasslacher Norica Timber became majority shareholder",
+      "status": "operating",
+      "source": "https://elementfive.co/element5-mass-timber-celebrates-grand-opening-of-expanded-manufacturing-plant-in-st-thomas-ontario/"
+     },
+     {
+      "name": "Freres Engineered Wood",
+      "role": "incumbent",
+      "what": "Oregon family mill (1922) that invented the Mass Plywood Panel (MPP), a veneer-based alternative to CLT used in the Portland airport's mass timber roof.",
+      "signal": "MPP commercially shipping; supplied PDX terminal roof, one of the largest US mass timber projects",
+      "status": "operating",
+      "source": "https://frereswood.com/"
+     }
+    ]
+   },
+   {
+    "name": "Mass timber design-build, fabricators and developers",
+    "description": "Specialist fabricators, engineer-builders and developers take mass timber from mill to erected frame \u2014 design, CNC fabrication, logistics and installation \u2014 which is the bottleneck step for delivering timber buildings at conventional cost and schedule.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Timberlab",
+      "role": "scaleup",
+      "what": "Swinerton's full-service mass timber company spanning engineering, fabrication and install, now vertically integrating into manufacturing.",
+      "signal": "Acquired American Laminators glulam plants (2024); building one of the largest US CLT plants (Millersburg, OR; 7-9M sq ft/yr; completion early 2027)",
+      "status": "operating",
+      "source": "https://www.constructiondive.com/news/swinerton-timberlab-mass-timber-manufacturing-oregon/806959/"
+     },
+     {
+      "name": "intelligent City",
+      "role": "startup",
+      "what": "Vancouver company using robotic prefabrication to produce a standardized mass-timber building platform for mid- and high-rise housing.",
+      "signal": "Venture-backed (Series A 2021); automated panel factory in Delta, BC; multiple Canadian mass-timber housing projects",
+      "status": "operating",
+      "source": "https://intelligent-city.com/"
+     },
+     {
+      "name": "StructureCraft",
+      "role": "scaleup",
+      "what": "Engineer-led timber builder that developed modern dowel-laminated timber (DLT) and runs a purpose-built DLT plant in Abbotsford, BC.",
+      "signal": "Delivered structures for T3 Minneapolis and 100+ major timber projects",
+      "status": "operating",
+      "source": "https://structurecraft.com/"
+     },
+     {
+      "name": "Seagate Mass Timber",
+      "role": "scaleup",
+      "what": "One of North America's largest dedicated mass-timber fabrication and installation contractors, working across BC and the US.",
+      "signal": "Decades of heavy-timber erection experience; active on large commercial mass timber projects",
+      "status": "operating",
+      "source": "https://seagatemasstimber.com/"
+     },
+     {
+      "name": "Nordic Structures",
+      "role": "incumbent",
+      "what": "Vertically integrated Qu\u00e9bec producer (Chantiers Chibougamau) combining black-spruce CLT/glulam manufacturing with in-house engineering and project delivery.",
+      "signal": "Supplied the 13-storey Origine tower in Qu\u00e9bec City, an early tall-timber landmark",
+      "status": "operating",
+      "source": "https://www.nordic.ca/en"
+     },
+     {
+      "name": "Hines (T3)",
+      "role": "incumbent",
+      "what": "Global developer with the repeatable T3 (Timber, Transit, Technology) heavy-timber office product line, the largest institutional mass-timber development program.",
+      "signal": "Dozens of T3 buildings delivered or underway globally since T3 Minneapolis (2016)",
+      "status": "operating",
+      "source": "https://www.hines.com/"
+     },
+     {
+      "name": "Juno",
+      "role": "startup",
+      "what": "Productized plug-and-play mass-timber apartment system; delivered the first fully component-based mass timber building in the US (24-unit East Austin project).",
+      "signal": "Raised ~$50M (Series A $20M, 2021, Comcast Ventures); founder/CEO departed to project44 in March 2025 with little public company activity since",
+      "status": "uncertain",
+      "source": "https://www.prnewswire.com/news-releases/project44-appoints-jonathan-scherr-as-chief-strategy-and-operations-officer-302409936.html"
+     }
+    ]
+   },
+   {
+    "name": "Engineered bamboo and fast-growing-fiber structural products",
+    "description": "Bamboo and other fast-growing grasses are laminated or pressed into structural studs, beams and wall panels that match timber strength while regrowing in 3-5 years and sequestering carbon faster per acre than trees.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "BamCore",
+      "role": "startup",
+      "what": "Hollow-core bamboo-hybrid panelized wall system (Prime Wall) that replaces stud framing in low-rise housing with higher insulation and lower carbon.",
+      "signal": "Series B raised May 2024; Tracxn reports ~$142M cumulative funding across 10 rounds; selected for a federal low-carbon building materials grant (Jul 2024)",
+      "status": "operating",
+      "source": "https://tracxn.com/d/companies/bamcore/__5KNsLjCiiK76evwVIpux5HS3xnLjIyspNC6SZgmE0ZE"
+     },
+     {
+      "name": "Rizome",
+      "role": "startup",
+      "what": "Grows giant bamboo in the Philippines and Florida and manufactures engineered bamboo lumber, building the supply chain end to end.",
+      "signal": "$100M engineered-bamboo facility in Cagayan de Oro; won 2024 US Secretary of State's Award for Corporate Excellence (Climate Resilience)",
+      "status": "operating",
+      "source": "https://www.bworldonline.com/economy/2023/05/30/525904/100-m-engineered-bamboo-facility-to-rise-in-cagayan-de-oro/"
+     },
+     {
+      "name": "ReNuTeq",
+      "role": "startup",
+      "what": "St. Louis maker of structural engineered bamboo (SEB) glulam-style frames and components, fire-tested for commercial projects.",
+      "signal": "Commercial installs including the Danforth Plant Science Center Farm Pavilion (2024)",
+      "status": "operating",
+      "source": "https://www.renuteq.com/"
+     },
+     {
+      "name": "MOSO International",
+      "role": "incumbent",
+      "what": "Dutch market leader in industrial bamboo products (beams, panels, decking, cladding) with global distribution, mostly semi-structural applications.",
+      "signal": "25+ years in bamboo products; distribution across 50+ countries",
+      "status": "operating",
+      "source": "https://www.moso-bamboo.com/"
+     }
+    ],
+    "white_space": "Almost no code-approved structural bamboo exists in Western markets: the fiber supply sits in the tropics, ICC/Eurocode certification is slow and expensive, and lamination plants are capital-intensive. The opening is code-certified bamboo studs/panels produced near equatorial fiber with US production-builder distribution, sold on hurricane and fire performance plus carbon \u2014 the path BamCore's builder partnerships and Rizome's $100M plant are testing."
+   },
+   {
+    "name": "Carbon-storing and bio-based boards, blocks and finishes",
+    "description": "Agricultural fibers (grass, straw, hemp) and recycled cellulose are pressed into drop-in replacements for OSB, drywall and masonry blocks, storing biogenic carbon in walls instead of emitting it from gypsum, cement and clear-cut timber.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Plantd",
+      "role": "startup",
+      "what": "North Carolina startup making carbon-negative structural sheathing panels from fast-growing perennial grass on all-electric production lines.",
+      "signal": "Raised $22M (Mar 2026) on top of ~$20.6M prior; multi-year D.R. Horton contract for 10 million panels (~90,000 homes)",
+      "status": "operating",
+      "source": "https://www.axios.com/local/raleigh/2026/03/25/plantd-north-carolina-carbon-negative-building-materials-osb-alternative-grass-panels"
+     },
+     {
+      "name": "Adaptavate",
+      "role": "startup",
+      "what": "UK developer of Breathaboard, a compostable carbon-sequestering plasterboard alternative made on the world's first continuous bio-board pilot line.",
+      "signal": "GBP 2.7M pre-Series A (Apr 2025) plus Innovate UK grants; industrial demonstrator ('Project Crystal') next; saves ~4 kgCO2/m2 vs gypsum board",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/adaptavate-secures-2-7-million-in-a-pre-series-a-round-to-accelerate-global-scale-up-of-low-carbon-construction-technology-302435739.html"
+     },
+     {
+      "name": "IsoHemp",
+      "role": "scaleup",
+      "what": "Belgian manufacturer of hempcrete masonry blocks with an automated plant, the European volume leader for hemp-lime construction.",
+      "signal": "Factory capacity ~5M blocks/yr; thousands of projects across Europe",
+      "status": "operating",
+      "source": "https://www.isohemp.com/en"
+     },
+     {
+      "name": "JustBioFiber",
+      "role": "startup",
+      "what": "Alberta maker of interlocking Lego-style structural hempcrete blocks with an integrated load-bearing frame.",
+      "signal": "Built the zero-carbon Trent University forensics building; pandemic-era financial struggles reported (2024) and little recent commercial activity visible",
+      "status": "uncertain",
+      "source": "https://justbiofiber.com/"
+     },
+     {
+      "name": "Ecococon",
+      "role": "startup",
+      "what": "Lithuanian manufacturer of prefabricated straw-insulated structural wall panels, Passive House Institute certified, shipped across Europe and North America.",
+      "signal": "PHI-certified component; hundreds of buildings delivered across 20+ countries",
+      "status": "operating",
+      "source": "https://ecococon.eu/"
+     },
+     {
+      "name": "HempWood (Fibonacci)",
+      "role": "startup",
+      "what": "Kentucky factory converting hemp stalks into a hardwood substitute for flooring, lumber and millwork.",
+      "signal": "Commercial since 2019 with US retail distribution of flooring and boards",
+      "status": "operating",
+      "source": "https://hempwood.com/"
+     },
+     {
+      "name": "Honext",
+      "role": "startup",
+      "what": "Barcelona startup turning recycled paper-mill cellulose sludge into formaldehyde-free interior boards via an enzymatic process.",
+      "signal": "Commercial plant in Barcelona; panels specified in European interior fit-outs",
+      "status": "operating",
+      "source": "https://honextmaterial.com/"
+     }
+    ],
+    "white_space": "Distribution is the moat, not chemistry: gypsum and OSB incumbents (USG, Knauf, Saint-Gobain, LP) own contractor channels and price points, so bio-boards historically die in the 'green premium' boutique niche. Plantd's national-builder offtake model (D.R. Horton) is the template \u2014 winning one production homebuilder beats a thousand one-off architect specs."
+   },
+   {
+    "name": "Bio-based and carbon-storing insulation",
+    "description": "Wood fiber, hemp, cellulose and wool are manufactured into batt, board and blown insulation that matches mineral and foam R-values with a fraction of the embodied carbon, often storing more carbon than production emits.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Steico",
+      "role": "incumbent",
+      "what": "World's largest wood-fibre insulation manufacturer (Germany/Poland), supplying batts, boards and blown fiber across Europe.",
+      "signal": "Listed German leader at hundreds of millions of euros in revenue; Kingspan acquired a 51% majority stake (announced 2023)",
+      "status": "operating",
+      "source": "https://www.steico.com/en"
+     },
+     {
+      "name": "Gutex",
+      "role": "incumbent",
+      "what": "Century-old Black Forest wood-fibre insulation board maker now pushing into North American distribution.",
+      "signal": "One of Europe's oldest and largest wood-fibre board producers",
+      "status": "operating",
+      "source": "https://gutex.de/en/"
+     },
+     {
+      "name": "TimberHP (GO Lab)",
+      "role": "startup",
+      "what": "First and only North American wood-fiber insulation plant, a retrofit of the Madison, Maine paper mill producing TimberFill, TimberBatt and TimberBoard.",
+      "signal": "Filed Chapter 11 Mar 2025 after $30M+ construction overruns; emerged in 77 days (Jun 2025) with bondholders led by BlackRock affiliates converting to equity and ~$29M new financing",
+      "status": "operating",
+      "source": "https://www.centralmaine.com/2025/06/25/madisons-timberhp-emerges-from-chapter-11-bankruptcy-with-eye-on-sustainable-future/"
+     },
+     {
+      "name": "Hempitecture",
+      "role": "startup",
+      "what": "Idaho manufacturer of HempWool batt insulation and PlantPanel exterior boards, building a second East Coast plant in Tennessee.",
+      "signal": "$8.4M DOE MESC grant; ~$6M equity crowdfunding (2025); $1.1M NYSERDA grant",
+      "status": "operating",
+      "source": "https://www.ornl.gov/news/innovation-crossroads-company-hempitecture-receives-84-million-doe-funding"
+     },
+     {
+      "name": "Havelock Wool",
+      "role": "startup",
+      "what": "Reno, Nevada producer of sheep's-wool batt and blown insulation for homes and vans.",
+      "signal": "Niche but established US bio-insulation brand with national shipping",
+      "status": "operating",
+      "source": "https://havelockwool.com/"
+     },
+     {
+      "name": "Greenfiber",
+      "role": "incumbent",
+      "what": "Largest US manufacturer of recycled-cellulose (paper) insulation, a mature low-embodied-carbon option sold through big-box and contractor channels.",
+      "signal": "Multiple US plants; decades of volume production",
+      "status": "operating",
+      "source": "https://www.greenfiber.com/"
+     }
+    ],
+    "white_space": "North American wood-fiber capacity is effectively a one-plant monopoly (TimberHP) versus a dozen mature European mills, and TimberHP's Chapter 11 reflected first-of-a-kind mill-retrofit cost risk rather than demand risk \u2014 products kept selling through bankruptcy. The opening: second and third NA plants sited on existing sawmill residue streams, financed with project debt rather than venture equity, plus straw/hemp lines feeding code-friendly batt formats."
+   },
+   {
+    "name": "Prefab/modular low-energy construction and SIP systems",
+    "description": "Factory-built panels and volumetric modules \u2014 often structural insulated panels or insulated composite skins \u2014 compress build schedules and cut both material waste and operational energy through tight, well-insulated envelopes.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Vantem",
+      "role": "scaleup",
+      "what": "Breakthrough Energy Ventures-backed builder of modular homes from high-R insulated structural panels, scaling across the US Southeast.",
+      "signal": "2.2M+ sq ft delivered; 325,000+ sq ft/yr capacity; revenue growing yearly",
+      "status": "operating",
+      "source": "https://vantem.com/"
+     },
+     {
+      "name": "Plant Prefab",
+      "role": "startup",
+      "what": "Custom panelized and modular homebuilder (LivingHomes) with the first US factory purpose-designed for hybrid panel/module production.",
+      "signal": "$30M Series B; 270,000 sq ft Tejon Ranch factory; first B Corp custom modular builder, carbon-neutral operations since 2020",
+      "status": "operating",
+      "source": "https://www.plantprefab.com/"
+     },
+     {
+      "name": "Module",
+      "role": "startup",
+      "what": "Pittsburgh startup building net-zero-ready infill housing with panelized/modular methods and a workforce-training 'Last Mile Lab' factory.",
+      "signal": "Small but operating; city-infill affordable green housing niche",
+      "status": "operating",
+      "source": "https://www.modulehousing.com/"
+     },
+     {
+      "name": "Cuby",
+      "role": "startup",
+      "what": "Ships containerized mobile micro-factories that produce a home's complete kit of parts near the job site, selling the factory rather than the house.",
+      "signal": "~$6.4M disclosed funding plus factory LOIs; 400,000+ engineering hours; first US deployment (Nevada) targeted 2026",
+      "status": "operating",
+      "source": "https://www.resiclubanalytics.com/p/cuby-technologies-shift-in-how-homes-get-built-homebuilding"
+     },
+     {
+      "name": "Assembly OSM",
+      "role": "startup",
+      "what": "Applies aerospace-style distributed manufacturing (chassis built by existing suppliers) to high-rise modular buildings for NYC.",
+      "signal": "Raised ~$38M reported (Series A 2022); NYC prototype projects (147 St. Felix); limited public activity recently",
+      "status": "operating",
+      "source": "https://www.assemblyosm.com/"
+     },
+     {
+      "name": "Bensonwood / Unity Homes",
+      "role": "incumbent",
+      "what": "New Hampshire pioneer of high-performance timber-frame and panelized shells, prefabricating airtight low-energy envelopes for decades.",
+      "signal": "50+ years operating; Unity Homes line productizes near-passive performance",
+      "status": "operating",
+      "source": "https://bensonwood.com/"
+     },
+     {
+      "name": "Factory OS",
+      "role": "scaleup",
+      "what": "Union modular factory in Vallejo, CA producing multifamily affordable housing modules at volume for Bay Area projects.",
+      "signal": "Thousands of units produced; backed by Google, Facebook, Autodesk and Morgan Stanley capital",
+      "status": "operating",
+      "source": "https://factoryos.com/"
+     },
+     {
+      "name": "Katerra",
+      "role": "scaleup",
+      "what": "SoftBank-backed attempt to vertically integrate the entire construction stack from factories to GC services, including a Spokane CLT plant.",
+      "signal": "Raised >$2B; filed Chapter 11 in June 2021; CLT plant eventually went to Mercer; the sector's canonical failure",
+      "status": "bankrupt-shutdown",
+      "source": "https://en.wikipedia.org/wiki/Katerra"
+     },
+     {
+      "name": "Veev",
+      "role": "scaleup",
+      "what": "Panelized 'closed wall' system with HPL skins and integrated MEP for fast-assembly homes.",
+      "signal": "Raised ~$600M at $1B+ valuation; shut down Nov 2023; Lennar acquired the assets at a steep discount (Dec 2023) and runs it as a subsidiary",
+      "status": "acquired",
+      "source": "https://techcrunch.com/2023/11/27/prefab-home-builder-veev-reportedly-shutting-down-after-reaching-unicorn-status-last-year/"
+     }
+    ],
+    "white_space": "Vertically integrated factory-builders keep dying in housing downturns (Katerra 2021, Veev 2023, Diamond Age 2024): high fixed factory costs collide with cyclical demand and thin construction margins. Surviving models are capital-light \u2014 factory-as-product (Cuby), components sold into existing builder channels (Vantem panels), or incumbent-owned offsite capacity (Lennar absorbing Veev) \u2014 leaving an opening for component plays that never carry real-estate risk."
+   },
+   {
+    "name": "3D-printed and robotic construction",
+    "description": "Gantry and robotic-arm printers extrude mortar walls or assemble structures on-site, cutting labor, waste and schedule; the carbon benefit hinges on low-cement printable mixes since printed walls are otherwise concrete-heavy.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "ICON",
+      "role": "scaleup",
+      "what": "Austin leader in 3D-printed homes (Vulcan printers, 100-home Wolf Ranch community with Lennar) plus CarbonX, its lower-carbon printable concrete shipping since April 2024, and the multi-story Phoenix printer.",
+      "signal": "Raised ~$450M+ at ~$2B valuation (2022); cut ~25% of staff (114 people) in Jan 2025 to refocus on Phoenix and CarbonX",
+      "status": "operating",
+      "source": "https://techcrunch.com/2025/01/09/icon-a-builder-of-3d-printed-homes-last-valued-around-2-billion-cuts-about-25-of-staff/"
+     },
+     {
+      "name": "Alquist 3D",
+      "role": "startup",
+      "what": "Greeley, Colorado printer of commercial structures; printed Walmart store expansions and now leads the largest US commercial 3D-printing rollout with a printer-leasing ecosystem (FMGI, Hugg & Hall).",
+      "signal": "Dec 2025 Walmart deal for 12+ retail projects nationwide; third Walmart project underway in Lamar, MO",
+      "status": "operating",
+      "source": "https://www.cnbc.com/2025/12/10/walmart-sika-3d-printed-real-estate.html"
+     },
+     {
+      "name": "Mighty Buildings",
+      "role": "startup",
+      "what": "Oakland maker of 3D-printed polymer-composite panelized homes marketed on sustainability and fire resistance.",
+      "signal": "Raised ~$150M; layoffs and a managed sale process in Jan-Feb 2025; technology acquired by Lumus Inc., which continues the product line",
+      "status": "acquired",
+      "source": "https://3dprintingindustry.com/news/mighty-buildings-up-for-sale-following-headcount-reduction-235813/"
+     },
+     {
+      "name": "Diamond Age",
+      "role": "startup",
+      "what": "Phoenix robotics startup that 3D-printed ~30 production homes with Century Communities, then pivoted to light-gauge-steel panels.",
+      "signal": "Raised ~$58M (Prologis Ventures, Alpaca VC); ceased operations Dec 12, 2024 and entered bankruptcy; equipment auctioned",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.housingwire.com/articles/diamond-age-shuts-down-after-hard-battle-for-new-investment/"
+     },
+     {
+      "name": "COBOD",
+      "role": "scaleup",
+      "what": "Danish OEM of the BOD2/BOD3 gantry printers, the largest installed base of construction printers worldwide \u2014 a picks-and-shovels play.",
+      "signal": "Printers deployed in 50+ countries; strategic investors include CEMEX, Holcim, PERI and GE",
+      "status": "operating",
+      "source": "https://cobod.com/"
+     },
+     {
+      "name": "Black Buffalo 3D",
+      "role": "startup",
+      "what": "US/Korean (HN Inc.-backed) maker of NEXCON construction printers and proprietary printable ink targeting multi-story structures.",
+      "signal": "Commercial printer sales in North America; backed by Korean conglomerate HN Inc.",
+      "status": "operating",
+      "source": "https://www.blackbuffalo3d.com/"
+     },
+     {
+      "name": "WASP",
+      "role": "startup",
+      "what": "Italian printer maker specializing in raw-earth and natural-material printing (TECLA habitat), the lowest-carbon end of 3DCP.",
+      "signal": "Crane WASP printers sold globally for earthen construction research and builds",
+      "status": "operating",
+      "source": "https://www.3dwasp.com/"
+     },
+     {
+      "name": "SQ4D",
+      "role": "startup",
+      "what": "Long Island company whose ARCS gantry printed some of the first permitted, sold 3D-printed homes in the US.",
+      "signal": "Multiple permitted homes sold in New York since 2021",
+      "status": "operating",
+      "source": "https://www.sq4d.com/"
+     }
+    ],
+    "white_space": "Single-family economics remain unproven \u2014 printing replaces one trade among thirty, and two capex-heavy players failed in 18 months (Diamond Age, Mighty Buildings). The defensible openings are commercial/retail printing where schedule is the value (Alquist-Walmart), printer-as-product OEM models (COBOD), and genuinely low-cement printable mixes, since the material \u2014 not the robot \u2014 is the carbon story."
+   },
+   {
+    "name": "Passive-house components and certified high-performance assemblies",
+    "description": "Certified windows, heat-recovery ventilators, airtightness membranes, thermal-break connectors and panelized assemblies let builders hit Passive House (PHI/Phius) performance, cutting heating/cooling energy 40-90% at the component level.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Zehnder",
+      "role": "incumbent",
+      "what": "Swiss group whose ComfoAir HRV/ERV units are the de facto ventilation standard in passive-house projects worldwide.",
+      "signal": "Listed Swiss company; dominant share of certified PH ventilation",
+      "status": "operating",
+      "source": "https://www.zehndergroup.com/"
+     },
+     {
+      "name": "SIGA",
+      "role": "incumbent",
+      "what": "Swiss manufacturer of airtightness tapes and membranes used to hit sub-0.6 ACH blower-door targets.",
+      "signal": "Global distribution; core airtightness brand in high-performance construction",
+      "status": "operating",
+      "source": "https://www.siga.swiss/"
+     },
+     {
+      "name": "Pro Clima (Moll)",
+      "role": "incumbent",
+      "what": "German maker of Intello smart vapor-control membranes and airtightness systems.",
+      "signal": "Decades-old category leader sold through PH supply chains worldwide",
+      "status": "operating",
+      "source": "https://proclima.com/"
+     },
+     {
+      "name": "Sch\u00f6ck",
+      "role": "incumbent",
+      "what": "German manufacturer of Isokorb structural thermal breaks that stop balcony and slab thermal bridging.",
+      "signal": "Standard specification in low-energy concrete/steel buildings across Europe and NA",
+      "status": "operating",
+      "source": "https://www.schoeck.com/"
+     },
+     {
+      "name": "Alpen High Performance Products",
+      "role": "scaleup",
+      "what": "Colorado maker of thin-glass, suspended-film high-R windows (up to ~R-14) manufactured in the US.",
+      "signal": "DOE-supported window technology; expanded Colorado factory to meet demand",
+      "status": "operating",
+      "source": "https://thinkalpen.com/"
+     },
+     {
+      "name": "Zola Windows",
+      "role": "startup",
+      "what": "Colorado-based supplier of Passive House-certified European-style triple-glazed windows and doors for the NA market.",
+      "signal": "Specified across high-profile US passive house projects",
+      "status": "operating",
+      "source": "https://zolawindows.com/"
+     },
+     {
+      "name": "475 High Performance Building Supply",
+      "role": "startup",
+      "what": "US distributor and educator that built the supply channel for PH components (membranes, tapes, wood-fiber insulation) for North American builders.",
+      "signal": "Key NA channel for European PH products; extensive builder education platform",
+      "status": "operating",
+      "source": "https://foursevenfive.com/"
+     },
+     {
+      "name": "Ecocor",
+      "role": "startup",
+      "what": "Maine manufacturer of certified panelized passive-house wall and roof assemblies shipped as complete shells.",
+      "signal": "One of the first PHI-certified panelized systems made in North America",
+      "status": "operating",
+      "source": "https://ecocor.us/"
+     }
+    ]
+   },
+   {
+    "name": "Embodied-carbon measurement, EPDs and low-carbon procurement software",
+    "description": "Software calculates whole-building and product-level carbon (LCA/EPDs), benchmarks materials and plugs into design and procurement workflows so teams can specify lower-carbon options \u2014 increasingly mandated by Buy Clean policies, CALGreen and EU rules.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "One Click LCA",
+      "role": "scaleup",
+      "what": "Helsinki-based market leader in construction LCA and EPD software covering design, procurement and manufacturer workflows.",
+      "signal": "EUR 40M growth investment from PSG and InfraVia (Nov 2023); customers in 150+ countries incl. Skanska, AECOM, WSP",
+      "status": "operating",
+      "source": "https://oneclicklca.com/en/resources/press-release/40m-growth-equity-psg-infravia/"
+     },
+     {
+      "name": "Building Transparency (EC3)",
+      "role": "incumbent",
+      "what": "Nonprofit steward of the free EC3 tool and openEPD database, the de facto standard for comparing material carbon in Buy Clean procurement.",
+      "signal": "EC3 embedded in major owner/GC procurement (Microsoft, federal Buy Clean ecosystem)",
+      "status": "operating",
+      "source": "https://www.buildingtransparency.org/"
+     },
+     {
+      "name": "cove.tool",
+      "role": "scaleup",
+      "what": "Atlanta platform automating building performance, cost and carbon analysis for architects and engineers.",
+      "signal": "~$36M raised incl. $30M Series B led by Coatue (2022)",
+      "status": "operating",
+      "source": "https://cove.tools/"
+     },
+     {
+      "name": "Tangible",
+      "role": "startup",
+      "what": "San Francisco platform giving developers and lenders portfolio-level embodied-carbon measurement and material procurement recommendations.",
+      "signal": "$3M round co-led by Prologis Ventures and Pi Labs (Jan 2025)",
+      "status": "operating",
+      "source": "https://www.esgtoday.com/tangible-raises-3-million-to-measure-reduce-carbon-emissions-from-building-materials-and-construction/"
+     },
+     {
+      "name": "Preoptima",
+      "role": "startup",
+      "what": "London startup generating whole-life-carbon assessments in minutes at concept stage, before geometry is fixed \u2014 when reduction leverage is highest.",
+      "signal": "Seed-stage; active product and policy content through 2025 (e.g., CALGreen WLC tooling)",
+      "status": "operating",
+      "source": "https://www.preoptima.com/"
+     },
+     {
+      "name": "2050 Materials",
+      "role": "startup",
+      "what": "API-first platform aggregating and normalizing EPD and product sustainability data for developers and software integrations.",
+      "signal": "Seed-stage; growing dataset of construction product EPDs",
+      "status": "operating",
+      "source": "https://2050-materials.com/"
+     },
+     {
+      "name": "Sphera",
+      "role": "incumbent",
+      "what": "Enterprise LCA software and data house (GaBi datasets) used by manufacturers to produce EPDs at industrial scale.",
+      "signal": "Blackstone-owned ESG software major; thousands of enterprise customers",
+      "status": "operating",
+      "source": "https://sphera.com/"
+     },
+     {
+      "name": "Autodesk",
+      "role": "incumbent",
+      "what": "Embeds embodied-carbon analysis into mainstream BIM workflows (Forma, Insight, Revit) with EC3 integration, mainstreaming carbon checks for millions of AEC users.",
+      "signal": "Dominant AEC software vendor; carbon features shipped across Forma/Insight",
+      "status": "operating",
+      "source": "https://www.autodesk.com/products/forma/"
+     }
+    ]
+   },
+   {
+    "name": "Deconstruction, material reuse and circular-construction marketplaces",
+    "description": "Platforms, robotics and reverse-logistics services recover materials (lumber, steel, fixtures, furniture) from demolition and surplus inventory and route them back into projects, displacing virgin-material emissions and landfill.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Rheaply",
+      "role": "startup",
+      "what": "Chicago enterprise and citywide reuse exchange that lets organizations list, find and redistribute surplus assets and building materials.",
+      "signal": "~$34M raised; 158,000+ asset exchanges in 2024 across new city marketplaces (Seattle, Atlanta, Texas); headcount roughly halved from peak",
+      "status": "operating",
+      "source": "https://rheaply.com/blog/rheaplys-year-in-reuse-review-2024-reuse-recap/"
+     },
+     {
+      "name": "Cambium",
+      "role": "startup",
+      "what": "Traceability software plus 'Carbon Smart Wood' supply chain that turns fallen/salvaged urban trees into tracked lumber, including the first CLT made from salvaged wood.",
+      "signal": "$18.5M Series A led by VoLo Earth (Feb 2025), $28.5M total; 240+ supply partners; customers incl. Amazon, CBRE, Gensler",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20250224920377/en/Cambium-Secures-$18.5-Million-Series-A-Expands-into-Mass-Timber-to-Accelerate-Sustainable-Materials-for-the-Built-Environment"
+     },
+     {
+      "name": "Urban Machine",
+      "role": "startup",
+      "what": "Oakland robotics startup whose AI-guided machine pulls nails and fasteners from construction/demolition lumber to resell it as premium reclaimed stock.",
+      "signal": "$14M raised Jul 2025 after $5.6M seed (Lowercarbon Capital, GV, Dec 2022)",
+      "status": "operating",
+      "source": "https://urbanmachine.build/"
+     },
+     {
+      "name": "Madaster",
+      "role": "scaleup",
+      "what": "Dutch material-passport registry documenting what's in buildings so components can be recovered, financed and reused (EU taxonomy-aligned).",
+      "signal": "Operating across multiple European countries with institutional real-estate users",
+      "status": "operating",
+      "source": "https://madaster.com/"
+     },
+     {
+      "name": "Concular",
+      "role": "startup",
+      "what": "German circular-construction platform doing pre-demolition audits, material matching into new projects and reuse ESG documentation.",
+      "signal": "Venture-backed; leading German-market circularity platform with major demolition/developer pilots",
+      "status": "operating",
+      "source": "https://concular.de/"
+     },
+     {
+      "name": "Globechain",
+      "role": "startup",
+      "what": "UK/US reuse marketplace where enterprises redistribute surplus construction materials, fixtures and equipment with ESG impact data.",
+      "signal": "10,000+ member network across UK, US, Spain",
+      "status": "operating",
+      "source": "https://www.globechain.com/"
+     }
+    ],
+    "white_space": "Economics, not technology, keeps this thin: salvage labor costs more than cheap virgin material in most markets, and reclaimed structural members lack easy re-certification, so the sector leans on mandates (EU taxonomy, Portland-style deconstruction ordinances). Openings: robotic processing that collapses labor cost (Urban Machine's wedge), salvage-to-engineered-product upgrading (Cambium's salvaged-wood CLT), and material passports positioned ahead of EU enforcement deadlines."
+   }
+  ]
+ }
+}

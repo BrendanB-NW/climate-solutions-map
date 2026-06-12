@@ -1,0 +1,59 @@
+name: Refresh company statuses
+
+# Re-verifies company statuses in data/census/*.json against recent news and
+# opens a PR with updates. Requires an ANTHROPIC_API_KEY repository secret
+# (Settings > Secrets and variables > Actions). Without it, the job skips
+# politely. Typical cost per run: a few dollars of API usage (~15-25 web
+# searches + a few hundred K tokens). This is a targeted status refresh, NOT
+# a full re-census — a from-scratch rebuild of the map costs ~$50-100 and is
+# better run deliberately, not on a schedule.
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 6 1 * *'   # 06:00 UTC on the 1st of each month
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check for API key
+        id: keycheck
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "have_key=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::ANTHROPIC_API_KEY secret not configured - skipping refresh. Add it under Settings > Secrets and variables > Actions to enable monthly status refreshes."
+          else
+            echo "have_key=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/checkout@v4
+        if: steps.keycheck.outputs.have_key == 'true'
+
+      - name: Refresh statuses with Claude
+        if: steps.keycheck.outputs.have_key == 'true'
+        uses: anthropics/claude-code-action@v1
+        env:
+          GH_TOKEN: ${{ github.token }}
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          claude_args: |
+            --allowedTools Bash,Read,Write,Edit,Glob,Grep,WebSearch,WebFetch
+            --max-turns 80
+          prompt: |
+            You are refreshing "The Climate Solutions Map" (this repo). Get today's date with the `date` command.
+
+            1. Read data/meta.json (the current as_of date). The census data lives in data/census/*.json — schema: variations[].companies[] with fields name/role/what/signal/status/source, where status is one of operating | acquired | bankrupt-shutdown | uncertain.
+            2. Web-search for climate-tech company bankruptcies, shutdowns, acquisitions, and other major status changes announced SINCE the as_of date (e.g. "climate tech bankruptcies <year>", "climate startup shutdown <recent month + year>", "cleantech acquisition <year>"). Also spot-check a handful of companies currently marked "uncertain". About 15-25 searches is the right effort level — this is a targeted refresh, not a re-census.
+            3. For every company in data/census/*.json that verified news affects: update its status field, append a short dated note to its signal field (e.g. "; filed Chapter 11 Mar 2027"), and update its source URL to the evidence you found. Edit ONLY entries you verified with a real source. Do not add new companies or variations, do not rewrite descriptions, and keep the JSON schema exactly as-is.
+            4. Update the as_of value in data/meta.json to today's date, formatted like "June 11, 2026". (Skip this and everything below if you verified zero changes.)
+            5. Re-render the markdown chapters: CSM_BASE="$PWD" CSM_OUT="$PWD" python3 tools/render_report.py
+            6. Create a branch named refresh-data-<YYYYMMDD>, commit everything with a message listing each company whose status changed, push it, and open a pull request with `gh pr create` whose body summarizes: how many statuses changed, which companies, and a one-line reason + source for each.
+
+            If you verified no status changes, do not modify any file or open a PR — just state that the data is still current.

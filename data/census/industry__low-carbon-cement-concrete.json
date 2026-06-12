@@ -1,0 +1,679 @@
+{
+ "sector": "industry",
+ "bucket": "Low-Carbon Cement & Concrete",
+ "census": {
+  "bucket": "Low-Carbon Cement & Concrete",
+  "sources": [
+   "https://www.technologyreview.com/2025/06/05/1117855/cement-funding-slash/",
+   "https://trellis.net/article/low-carbon-cement-startups-lose-federal-funding/",
+   "https://www.constructiondive.com/news/sublime-pauses-factory-construction-funding-pullback/807835/",
+   "https://www.businesswire.com/news/home/20240924382577/en/Sublime-Systems-Secures-Combined-%2475M-in-Investments-from-Global-Building-Materials-Majors-CRH-and-Holcim-to-Accelerate-Scale-Up-of-True-Zero-Cement-Manufacturing-Technology",
+   "https://www.businesswire.com/news/home/20250702426008/en/Terra-CO2-Announces-Additional-Series-B-Funding-to-Scale-Sustainable-Cement-Production",
+   "https://www.crh.com/media/press-releases/2025/crh-completes-2-1b-acquisition-of-eco-material-technologies/",
+   "https://mercomcapital.com/zeo-energy-completes-acquisition-heliogen/",
+   "https://calix.global/news/leilac-heidelberg-materials-agree-joint-venture-leilac-2/",
+   "https://www.heidelbergmaterials.com/en/pr-2025-09-25",
+   "https://www.worldcement.com/europe-cis/06112025/heidelberg-materials-carbon-captured-near-zero-cement-hits-the-uk-market/",
+   "https://www.neustark.com/en",
+   "https://cleanenergyventures.com/clean-energy-venture-capital/queens-carbon-seed-round-low-carbon-cement/",
+   "https://www.cemnet.com/News/story/177292/queens-carbon-secures-us-14-5m-for-carbon-neutral-scms.html",
+   "https://sustainablebiz.ca/carbon-upcycling-integrates-carbon-capture-cement-plant",
+   "https://techcrunch.com/2024/10/22/cement-startup-furno-lands-20m-grant-to-build-low-carbon-micro-kilns-in-chicago/",
+   "https://www.enterprise.cam.ac.uk/news/cambridge-electric-cement-raises-2-25m-to-industrialise-low-carbon-circular-cement-production/",
+   "https://group.vattenfall.com/press-and-media/pressreleases/2025/vattenfall-and-cemvision-sign-new-commercial-agreement-for-near-zero-carbon-cement",
+   "https://www.materialevolution.com/ultra-low-carbon-cement-plant/",
+   "https://www.ecocemglobal.com/en-us/ecocem-announces-the-first-commercial-low-carbon-cement-production-unit-for-act-technology-at-its-dunkirk-manufacturing-facility/",
+   "https://www.worldcement.com/europe-cis/12102012/cement_novacem__liquidation_sale_uk_carbon_negative_164/",
+   "https://techfundingnews.com/berlin-based-alcemy-snaps-10m-for-ai-powered-sustainable-cement-production/",
+   "https://www.accessnewswire.com/newsroom/en/industrial-and-manufacturing/carbon-capture-and-utilization-pioneer-blue-planet-announces-worlds-fir-982891",
+   "https://energy.media/climate_deals/bahamas-based-partanna-raises-12m-for-carbon-negative-cement/",
+   "https://www.cemex.com/w/cemex-and-synhelion-make-further-progress-toward-the-world-s-first-fully-solar-powered-cement-plant",
+   "https://www.seratechcement.com/",
+   "https://www.globenewswire.com/news-release/2025/10/24/3172745/0/en/U-S-Carbon-Sequestering-Building-Materials-Report-2025-2034-with-Profiles-of-CarbonCure-Solidia-Technologies-Hempitecture-CleanFiber-CarbonBuilt-Fortera-Carbo-Culture-Ecovative-and.html"
+  ],
+  "variations": [
+   {
+    "name": "Clinker substitution and engineered SCMs (calcined clays/LC3, tailings, glass, ashes)",
+    "description": "Swaps a large share of CO2-intensive Portland clinker for reactive minerals engineered from calcined clays, mine tailings, glass, ashes and slags \u2014 the cheapest, most code-compatible decarbonization lever (30-85% footprint cuts) and increasingly urgent as legacy fly ash and blast-furnace slag supplies shrink.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Terra CO2",
+      "role": "startup",
+      "what": "Makes OPUS SCM from abundant local rock and mine tailings using a proprietary reactor, drop-in replacing up to 40% of cement",
+      "signal": "Series B totaling ~$124.5M (2025; BEV, Eagle Materials, GenZero, Just Climate, Cemex); $52.6M DOE award for 240kt/yr Magna, Utah plant using Rio Tinto Kennecott tailings",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20250702426008/en/Terra-CO2-Announces-Additional-Series-B-Funding-to-Scale-Sustainable-Cement-Production"
+     },
+     {
+      "name": "Material Evolution (Mevo)",
+      "role": "scaleup",
+      "what": "Kiln-free alkali-fusion process turning industrial byproducts into MevoCem ultra-low-carbon cement (up to 85% CO2 reduction)",
+      "signal": "Mevo A1 plant in Wrexham, UK (120kt/yr) operational since Oct 2024 \u2014 UK's largest ultra-low-carbon cement producer; 2025 Constructing Excellence National Innovation Award",
+      "status": "operating",
+      "source": "https://www.materialevolution.com/ultra-low-carbon-cement-plant/"
+     },
+     {
+      "name": "Queens Carbon",
+      "role": "startup",
+      "what": "Hydrothermal ~500C reactor producing carbon-neutral SCMs and cementitious materials that replace up to 50% of conventional cement",
+      "signal": "$10M seed (2024, Clean Energy Ventures; Buzzi Unicem USA strategic partner) plus $14.5M ARPA-E SCALEUP award; pilot system at a partner cement plant",
+      "status": "operating",
+      "source": "https://www.cemnet.com/News/story/177292/queens-carbon-secures-us-14-5m-for-carbon-neutral-scms.html"
+     },
+     {
+      "name": "Carbon Upcycling Technologies",
+      "role": "scaleup",
+      "what": "CO2-activates steel slags, fly ash and clays in pressurized reactors to make enhanced SCMs while sequestering kiln CO2",
+      "signal": "~$54M raised ($26M 2023, $18M+$10M 2025); broke ground on Carbon 1 commercial CCU unit at Ash Grove's (CRH) Mississauga cement plant",
+      "status": "operating",
+      "source": "https://sustainablebiz.ca/carbon-upcycling-integrates-carbon-capture-cement-plant"
+     },
+     {
+      "name": "Ecocem",
+      "role": "scaleup",
+      "what": "Europe's largest independent GGBS producer; ACT technology optimizes SCMs plus mineral fillers and admixtures to cut clinker content ~70%",
+      "signal": "\u20ac50M first ACT line at Dunkirk (300kt, operational 2026) plus \u20ac170M for four more French lines (2025); ASTM C1157 certified for US market Aug 2025; Saint-Gobain strategic investor",
+      "status": "operating",
+      "source": "https://www.ecocemglobal.com/en-us/ecocem-announces-the-first-commercial-low-carbon-cement-production-unit-for-act-technology-at-its-dunkirk-manufacturing-facility/"
+     },
+     {
+      "name": "Eco Material Technologies",
+      "role": "incumbent",
+      "what": "Largest US supplier of SCMs \u2014 harvested/beneficiated fly ash, natural pozzolans and PozzoSlag green cement",
+      "signal": "Acquired by CRH for $2.1B in cash (completed Sept 22, 2025), validating SCM consolidation",
+      "status": "acquired",
+      "source": "https://www.crh.com/media/press-releases/2025/crh-completes-2-1b-acquisition-of-eco-material-technologies/"
+     },
+     {
+      "name": "Holcim",
+      "role": "incumbent",
+      "what": "ECOPlanet low-clinker cement range including proprietary calcined-clay (proximA Tech) lines being rolled out across European and global plants",
+      "signal": "ECOPlanet sold in 30+ markets; multiple calcined clay lines commissioned in France and Europe 2023-2025",
+      "status": "operating",
+      "source": "https://www.holcim.com"
+     },
+     {
+      "name": "Heidelberg Materials",
+      "role": "incumbent",
+      "what": "evoBuild low-carbon range and calcined-clay capacity, including the world's largest calcined clay plant (CBI Ghana, ~405kt/yr, opened 2024)",
+      "signal": "Global top-2 cement producer deploying calcined clay and limestone-calcined-clay blends at industrial scale",
+      "status": "operating",
+      "source": "https://www.heidelbergmaterials.com"
+     }
+    ]
+   },
+   {
+    "name": "Non-Portland and alternative binder chemistries (geopolymers, CSA, Mg- and brine-based, silicate-rock OPC)",
+    "description": "Abandons limestone clinker altogether for binders made from alkali-activated slags and clays, calcium sulfoaluminate, magnesium or brine chemistry \u2014 cutting most process CO2 but fighting prescriptive concrete codes, supply logistics and conservative buyers.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Brimstone",
+      "role": "startup",
+      "what": "Makes ASTM-certified ordinary Portland cement plus SCM and smelter-grade alumina from carbon-free calcium silicate rocks instead of limestone",
+      "signal": "$55M Series A (DCVC, Fifth Wall, Amazon Climate Pledge Fund); $189M DOE award for first commercial plant cancelled May 2025 \u2014 company continuing privately",
+      "status": "operating",
+      "source": "https://trellis.net/article/low-carbon-cement-startups-lose-federal-funding/"
+     },
+     {
+      "name": "C-Crete Technologies",
+      "role": "startup",
+      "what": "Cement-free pourable concrete using feldspar, zeolite and slag feedstocks with near-zero process emissions",
+      "signal": "Multiple DOE awards; real-world cement-free structural pours in Manhattan and Seattle buildings 2023-2025",
+      "status": "operating",
+      "source": "https://www.ccretetech.com"
+     },
+     {
+      "name": "Partanna",
+      "role": "startup",
+      "what": "Carbon-negative binder from desalination brine and steel slag that cures at ambient temperature and absorbs CO2 in service",
+      "signal": "$12M pre-seed; 1,000-home program with Bahamian government; Abu Dhabi Investment Office partnership; Pegasus Capital announced up to $20M investment (2025)",
+      "status": "operating",
+      "source": "https://energy.media/climate_deals/bahamas-based-partanna-raises-12m-for-carbon-negative-cement/"
+     },
+     {
+      "name": "Hoffmann Green Cement Technologies",
+      "role": "scaleup",
+      "what": "Clinker-free alkali-activated and ettringitic binders produced in cold-process '4.0' plants",
+      "signal": "Euronext-listed; two French plants (~550kt/yr combined capacity) plus international licensing deals in the Middle East and US",
+      "status": "operating",
+      "source": "https://www.hoffmanngreen.com"
+     },
+     {
+      "name": "Wagners",
+      "role": "incumbent",
+      "what": "Earth Friendly Concrete (EFC) geopolymer used in heavy infrastructure \u2014 London Power Tunnels 2, Brisbane Wellcamp Airport",
+      "signal": "ASX-listed construction materials company; EFC commercially deployed in Australia, UK and Europe",
+      "status": "operating",
+      "source": "https://www.wagner.com.au"
+     },
+     {
+      "name": "Betolar",
+      "role": "scaleup",
+      "what": "Geoprime side-stream-based geopolymer binder recipes licensed to precast producers",
+      "signal": "Nasdaq First North Helsinki-listed (2021); deployments with Nordic and Indian precasters; restructured 2023-24 amid slow adoption",
+      "status": "operating",
+      "source": "https://www.betolar.com"
+     },
+     {
+      "name": "DB Group (Cemfree)",
+      "role": "scaleup",
+      "what": "Cemfree alkali-activated, cement-free concrete used in UK infrastructure trials with National Highways and Network Rail",
+      "signal": "Commercial UK supply since 2016; thousands of m3 placed in trial and permanent works",
+      "status": "operating",
+      "source": "https://www.dbgholdings.com"
+     },
+     {
+      "name": "Novacem",
+      "role": "startup",
+      "what": "Imperial College spinout making carbon-negative magnesium-oxide cement that absorbed CO2 during curing",
+      "signal": "Could not raise scale-up capital post-2008; IP sold to Calix for a six-figure sum and company liquidated September 2012 \u2014 the canonical alternative-chemistry failure",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.worldcement.com/europe-cis/12102012/cement_novacem__liquidation_sale_uk_carbon_negative_164/"
+     }
+    ]
+   },
+   {
+    "name": "Electrochemical and low-temperature cement/lime synthesis",
+    "description": "Replaces the 1,450C fossil-fired kiln with electrochemical cells or sub-600C reactors that extract reactive calcium from non-carbonate rocks and wastes, eliminating both fuel and process emissions when powered by clean electricity.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Sublime Systems",
+      "role": "startup",
+      "what": "Ambient-temperature electrochemical process making ASTM C1157 'Sublime Cement' from non-carbonate feedstocks",
+      "signal": ">$200M raised including $75M from CRH and Holcim (2024) and a Microsoft EAC offtake (~622kt); DOE's $87M rescinded May 2025 forced a pause of the 30kt/yr Holyoke plant and ~10% layoffs (late 2025)",
+      "status": "operating",
+      "source": "https://www.constructiondive.com/news/sublime-pauses-factory-construction-funding-pullback/807835/"
+     },
+     {
+      "name": "Chement",
+      "role": "startup",
+      "what": "Room-temperature electrochemical route to clinker chemistry, ARPA-E backed",
+      "signal": "Lab-scale; little public activity since early grants \u2014 viability unconfirmed as of mid-2026",
+      "status": "uncertain",
+      "source": "https://www.chement.co"
+     }
+    ],
+    "white_space": "Physics works but economics are brutal \u2014 these routes trade cheap coal heat for electricity plus first-of-a-kind capex against a ~$100-130/t commodity, and the May 2025 DOE rescissions removed the leading US demonstrations; the opening is small modular plants sited on cheap clean power and underwritten by green-premium offtakes (Microsoft-style EAC deals from data-center builders) rather than head-to-head commodity competition."
+   },
+   {
+    "name": "Biogenic and microbial cements",
+    "description": "Uses bacteria or microalgae to biomineralize calcium carbonate that binds aggregates at ambient temperature, growing masonry, tiles and blocks with near-zero kiln emissions.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Biomason",
+      "role": "scaleup",
+      "what": "Microbially-grown bioLITH precast tiles and biocement, with licensed production in Europe (IBF, Denmark)",
+      "signal": "~$104M+ raised including $36.7M Series D (Jan 2025; Novo Holdings, 2150); products commercially available and used in US/EU projects",
+      "status": "operating",
+      "source": "https://biomason.com/news"
+     },
+     {
+      "name": "Prometheus Materials",
+      "role": "startup",
+      "what": "Photosynthetic microalgae bio-cement for zero-carbon masonry units and panels (CU Boulder spinout)",
+      "signal": "Series A/B backed by Sofinnova Partners and Microsoft's Climate Innovation Fund; pilot masonry production in Colorado",
+      "status": "operating",
+      "source": "https://prometheusmaterials.com"
+     },
+     {
+      "name": "Minus Materials",
+      "role": "startup",
+      "what": "Grows biogenic limestone from coccolithophore microalgae as a carbon-negative feedstock for clinker",
+      "signal": "CU Boulder spinout; pre-seed/lab stage with little public activity since 2023",
+      "status": "uncertain",
+      "source": "https://www.minusmaterials.com"
+     },
+     {
+      "name": "BioZeroc",
+      "role": "startup",
+      "what": "UK startup producing bio-concrete via microbial calcium carbonate precipitation in place of cement",
+      "signal": "Pre-seed and Innovate UK funded; lab/prototype stage, current commercial status unverified",
+      "status": "uncertain",
+      "source": "https://biozeroc.com"
+     }
+    ],
+    "white_space": "Biology's slow precipitation rates and nutrient/water logistics cap biocement at premium precast, masonry and defense niches rather than ready-mix; the opening is high-margin architectural products, coastal/erosion hardening, and DoD expeditionary construction where cost-per-ton matters less than logistics."
+   },
+   {
+    "name": "Kiln decarbonization hardware (electric kilns/calciners, solar calcination, oxyfuel, micro-modular kilns)",
+    "description": "Re-engineers kiln heat itself \u2014 rotodynamic electric heaters, concentrated-solar receivers, pure-oxyfuel combustion and micro-modular vertical kilns \u2014 to cut fuel CO2 and deliver concentrated, capture-ready process CO2 streams.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Synhelion",
+      "role": "scaleup",
+      "what": "Concentrated-solar receivers delivering >1,500C process heat; produced the world's first solar clinker with Cemex (2022) and continuous solar clinker production (2023)",
+      "signal": "Working with Cemex and Sandia toward a first solar cement industrial unit in Spain; operates DAWN solar fuels plant in Germany",
+      "status": "operating",
+      "source": "https://www.cemex.com/w/cemex-and-synhelion-make-further-progress-toward-the-world-s-first-fully-solar-powered-cement-plant"
+     },
+     {
+      "name": "Heliogen",
+      "role": "startup",
+      "what": "AI-steered heliostat fields for ~1,000C industrial heat, once pitched for cement calcination",
+      "signal": "SPAC'd 2021 near $2B valuation, collapsed, and was acquired by Zeo Energy in an all-stock deal (closed Aug 11, 2025) \u2014 cautionary tale for solar-heat-for-cement",
+      "status": "acquired",
+      "source": "https://mercomcapital.com/zeo-energy-completes-acquisition-heliogen/"
+     },
+     {
+      "name": "Coolbrook",
+      "role": "scaleup",
+      "what": "RotoDynamic Heater electrifying kiln/calciner heat to ~1,000C using renewable electricity",
+      "signal": "Demonstrated ~1,000C electric heating at Brightlands (NL) pilot; partnerships with Cemex, UltraTech and ABB",
+      "status": "operating",
+      "source": "https://coolbrook.com"
+     },
+     {
+      "name": "Furno Materials",
+      "role": "startup",
+      "what": "Micro-modular vertical kilns co-located at concrete plants, cutting fuel use ~70% and enabling distributed clinker production",
+      "signal": "$6.5M seed (2024, Energy Capital Ventures); selected for $20M DOE grant for Project OZ commercial pilot in Chicago (Oct 2024)",
+      "status": "operating",
+      "source": "https://techcrunch.com/2024/10/22/cement-startup-furno-lands-20m-grant-to-build-low-carbon-micro-kilns-in-chicago/"
+     },
+     {
+      "name": "thyssenkrupp Polysius",
+      "role": "incumbent",
+      "what": "Supplies pure-oxyfuel kiln conversions producing near-pure CO2 off-gas; built the CI4C 'catch4climate' oxyfuel demonstration kiln at Mergelstetten for Buzzi/Dyckerhoff, Heidelberg, Schwenk and Vicat",
+      "signal": "catch4climate demo commissioned 2024-25; oxyfuel retrofit packages offered commercially",
+      "status": "operating",
+      "source": "https://www.thyssenkrupp-polysius.com"
+     },
+     {
+      "name": "Cemex",
+      "role": "incumbent",
+      "what": "Hydrogen injection into kiln fuel mixes deployed across its European and Mexican plants since 2020; strategic investor in Synhelion and HiiROC",
+      "signal": "Company-wide hydrogen co-firing rollout plus solar-clinker R&D partnership",
+      "status": "operating",
+      "source": "https://www.cemex.com"
+     }
+    ],
+    "white_space": "Kilns are 40-year assets needing 24/7 ultra-high-grade heat, so few startups attack the hardware directly and Heliogen's distressed sale shows pure-play solar heat struggled; the opening is electrified calciners that double as capture enablers by producing pure process-CO2 streams, sold through incumbent EPCs."
+   },
+   {
+    "name": "CCUS on cement and lime plants",
+    "description": "Captures the roughly 60% of cement CO2 that is unavoidable limestone process chemistry \u2014 via amine post-combustion, indirectly heated calcination, oxyfuel or cryogenic separation \u2014 and sends it to geological storage; the only route that decarbonizes the existing clinker fleet.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Heidelberg Materials",
+      "role": "incumbent",
+      "what": "Operates Brevik CCS (Norway, 400kt/yr) \u2014 the world's first industrial-scale cement capture plant, opened June 2025 \u2014 and sells evoZero carbon-captured cement",
+      "signal": "Brevik operational and evoZero delivering across Europe since 2025; FID on Padeswood UK (800kt/yr, operational 2029) Sept 2025; $500M US Mitchell, IN award cancelled by DOE May 2025",
+      "status": "operating",
+      "source": "https://www.heidelbergmaterials.com/en/pr-2025-09-25"
+     },
+     {
+      "name": "SLB Capturi (Aker Carbon Capture/SLB)",
+      "role": "incumbent",
+      "what": "Amine capture plant supplier that delivered the Brevik cement capture unit and modular 'Just Catch' units for cement, lime and energy-from-waste",
+      "signal": "JV of SLB and Aker Carbon Capture (2024); Brevik reference plant operating",
+      "status": "operating",
+      "source": "https://www.slb.com"
+     },
+     {
+      "name": "Leilac (Calix)",
+      "role": "scaleup",
+      "what": "Indirectly heated steel-tube calciner that separates pure process CO2 from limestone without solvents or significant energy penalty",
+      "signal": "Leilac-1 piloted at Lixhe; Leilac-2 (100kt/yr) now a JV with Heidelberg Materials at Ennigerloh, Germany \u2014 construction from 2025, commissioning ~mid-2026; \u20ac16M EU Horizon 2020",
+      "status": "operating",
+      "source": "https://calix.global/news/leilac-heidelberg-materials-agree-joint-venture-leilac-2/"
+     },
+     {
+      "name": "Carbon Clean",
+      "role": "scaleup",
+      "what": "Compact rotating packed-bed CycloneCC amine capture sized for space-constrained cement plants",
+      "signal": "$150M Series C (2022, led by Chevron); Cemex and Tata Steel pilots; CycloneCC commercial units launching",
+      "status": "operating",
+      "source": "https://www.carbonclean.com"
+     },
+     {
+      "name": "Svante",
+      "role": "scaleup",
+      "what": "Structured solid-sorbent filter modules for dilute cement flue gas (CO2MENT pilot with Lafarge/Holcim in British Columbia)",
+      "signal": "$318M Series E (2022, led by Chevron); Redwood sorbent gigafactory opened in Burnaby 2024",
+      "status": "operating",
+      "source": "https://www.svanteinc.com"
+     },
+     {
+      "name": "Capsol Technologies",
+      "role": "scaleup",
+      "what": "Hot potassium carbonate (HPC) capture licensed for cement, lime and energy-from-waste with low energy penalty",
+      "signal": "Euronext Growth Oslo-listed; multiple European cement/lime feasibility and pilot mandates",
+      "status": "operating",
+      "source": "https://www.capsoltechnologies.com"
+     },
+     {
+      "name": "Holcim",
+      "role": "incumbent",
+      "what": "GO4ZERO at Obourg, Belgium \u2014 full oxyfuel kiln rebuild capturing ~1.1Mt CO2/yr for North Sea storage \u2014 plus a portfolio of EU Innovation Fund CCS projects",
+      "signal": "GO4ZERO under construction with EU Innovation Fund backing; capture phase toward 2029",
+      "status": "operating",
+      "source": "https://www.holcim.com"
+     },
+     {
+      "name": "National Cement (Vicat)",
+      "role": "incumbent",
+      "what": "Lebec Net Zero project in California combining calcined clay, biomass fuel and ~950kt/yr carbon capture",
+      "signal": "$500M DOE award cancelled May 2025; project future now uncertain though the company operates normally",
+      "status": "operating",
+      "source": "https://www.technologyreview.com/2025/06/05/1117855/cement-funding-slash/"
+     }
+    ]
+   },
+   {
+    "name": "CO2 mineralization and curing in concrete and aggregates",
+    "description": "Injects CO2 into fresh concrete, cures precast with flue gas, or reacts it with demolition concrete, olivine and Ca/Mg-rich industrial wastes so it permanently mineralizes as carbonate \u2014 turning the built environment into a carbon sink while often improving strength.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "CarbonCure Technologies",
+      "role": "scaleup",
+      "what": "Retrofit in-mix CO2 injection for ready-mix and masonry plants that mineralizes CO2 and lets producers cut cement content",
+      "signal": "~800 systems across 30+ countries; $80M+ round led by Blue Earth (2023); carbon credit sales to Microsoft, Amazon and others",
+      "status": "operating",
+      "source": "https://www.carboncure.com"
+     },
+     {
+      "name": "Neustark",
+      "role": "scaleup",
+      "what": "Carbonates crushed demolition concrete at recyclers' yards using biogenic CO2, creating permanent removals",
+      "signal": "~29 operational sites across Europe (2025), more under construction in Germany/Austria/France; $69M growth round (2024, Decarbonization Partners); targets 1Mt/yr removal by 2030",
+      "status": "operating",
+      "source": "https://www.neustark.com/en"
+     },
+     {
+      "name": "Fortera",
+      "role": "scaleup",
+      "what": "ReCarb process captures cement-kiln CO2 and converts it into reactive calcium carbonate 'ReAct' cement, bolt-on to existing plants",
+      "signal": "$85M Series C (2024, Khosla/Temasek); 15kt/yr Redding, CA plant opened April 2024",
+      "status": "operating",
+      "source": "https://forteraglobal.com"
+     },
+     {
+      "name": "CarbonBuilt",
+      "role": "startup",
+      "what": "Cures low-cement concrete blocks with dilute flue gas or biomass CO2, cutting block emissions 70-100%",
+      "signal": "First commercial deployment at Blair Block, Alabama (2023); additional block-plant retrofits and removal credit sales since",
+      "status": "operating",
+      "source": "https://www.carbonbuilt.com"
+     },
+     {
+      "name": "Solidia Technologies",
+      "role": "startup",
+      "what": "Pioneer of CO2-cured non-hydraulic calcium silicate cement for precast; has pivoted toward SCMs and low-carbon cement products",
+      "signal": "Raised >$100M historically (BASF, Kleiner Perkins); still profiled as an active US player in 2025 industry reports after strategy shifts",
+      "status": "operating",
+      "source": "https://www.globenewswire.com/news-release/2025/10/24/3172745/0/en/U-S-Carbon-Sequestering-Building-Materials-Report-2025-2034-with-Profiles-of-CarbonCure-Solidia-Technologies-Hempitecture-CleanFiber-CarbonBuilt-Fortera-Carbo-Culture-Ecovative-and.html"
+     },
+     {
+      "name": "CarbiCrete",
+      "role": "startup",
+      "what": "Cement-free steel-slag binder cured with CO2 to make carbon-negative concrete masonry units",
+      "signal": "Licensed commercial production at Quebec precasters (Patio Drummond, Canal Block); tens of millions CAD raised",
+      "status": "operating",
+      "source": "https://carbicrete.com"
+     },
+     {
+      "name": "Paebbl",
+      "role": "startup",
+      "what": "Grinds olivine with CO2 in continuous reactors to produce a carbonated mineral SCM/filler that stores CO2 in buildings",
+      "signal": "Venture-backed (Series A 2024); demonstration plant running in Rotterdam (2025); research partnership with Microsoft",
+      "status": "operating",
+      "source": "https://www.paebbl.com"
+     },
+     {
+      "name": "Seratech",
+      "role": "startup",
+      "what": "Imperial College spinout splitting olivine into CO2-sequestering magnesium carbonate and a silica SCM enabling carbon-neutral concrete",
+      "signal": "\u00a31.8M grant funding; 2022 Obel Award; carbon-neutral brick prototype unveiled \u2014 still pre-commercial",
+      "status": "operating",
+      "source": "https://www.seratechcement.com/"
+     },
+     {
+      "name": "Blue Planet Systems",
+      "role": "startup",
+      "what": "Mineralizes flue-gas CO2 onto waste calcium substrates to make synthetic limestone coarse aggregate",
+      "signal": "World's-first net-zero-embodied-carbon concrete placement demo at Pittsburg, CA innovation center (Feb 2025); backed by Chevron and Mitsubishi; commercial scale-up still pending",
+      "status": "operating",
+      "source": "https://www.accessnewswire.com/newsroom/en/industrial-and-manufacturing/carbon-capture-and-utilization-pioneer-blue-planet-announces-worlds-fir-982891"
+     },
+     {
+      "name": "O.C.O Technology",
+      "role": "scaleup",
+      "what": "Converts air-pollution-control residues into carbonated 'M-LS' manufactured limestone aggregate",
+      "signal": "Three UK plants operating commercially for over a decade; international licensing underway",
+      "status": "operating",
+      "source": "https://oco.co.uk"
+     },
+     {
+      "name": "Carbonaide",
+      "role": "startup",
+      "what": "VTT spinout with an automated CO2-curing line for precast concrete that mineralizes CO2 at atmospheric pressure",
+      "signal": "Seed-funded; pilot production line at Hollola, Finland precast plant",
+      "status": "operating",
+      "source": "https://www.carbonaide.com"
+     }
+    ]
+   },
+   {
+    "name": "Recycled cement and concrete circularity",
+    "description": "Recovers value from demolished concrete \u2014 reactivating old cement paste as clinker feed (including melting it as flux in steel-recycling electric arc furnaces) and smart-crushing waste into clean aggregates and reactive fines \u2014 avoiding new limestone calcination entirely.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Cambridge Electric Cement",
+      "role": "startup",
+      "what": "Uses recovered cement paste as the flux in steel-recycling EAFs, yielding recycled Portland clinker as a co-product of steel",
+      "signal": "\u00a32.25M seed (2025, Zero Carbon Capital, L&G); \u00a36.5M Innovate UK 'Cement 2 Zero' trials showing 50-75% CO2 reduction vs conventional clinker",
+      "status": "operating",
+      "source": "https://www.enterprise.cam.ac.uk/news/cambridge-electric-cement-raises-2-25m-to-industrialise-low-carbon-circular-cement-production/"
+     },
+     {
+      "name": "CemVision",
+      "role": "startup",
+      "what": "Swedish startup firing 'Re-ment' clinker from recycled concrete and mine waste in electrified/hydrogen kilns for near-zero cement",
+      "signal": "Commercial offtake agreement with Vattenfall signed 2025; pilot production and Nordic industrial partnerships",
+      "status": "operating",
+      "source": "https://group.vattenfall.com/press-and-media/pressreleases/2025/vattenfall-and-cemvision-sign-new-commercial-agreement-for-near-zero-carbon-cement"
+     },
+     {
+      "name": "Holcim",
+      "role": "incumbent",
+      "what": "ECOCycle recycling platform feeding construction demolition materials back into cement, including a world-first 100% recycled-clinker production run (Altkirch, 2023)",
+      "signal": "Recycles ~10Mt/yr of construction demolition materials with expansion targets",
+      "status": "operating",
+      "source": "https://www.holcim.com"
+     },
+     {
+      "name": "Heidelberg Materials",
+      "role": "incumbent",
+      "what": "ReConcrete selective separation and recycled-paste re-clinkering R&D, including CO2 uptake in recycled fines",
+      "signal": "Industrial trials across European plants; part of its 2030 circularity targets",
+      "status": "operating",
+      "source": "https://www.heidelbergmaterials.com"
+     },
+     {
+      "name": "Sika",
+      "role": "incumbent",
+      "what": "reCO2ver smart-crushing process separating old concrete into clean aggregate, sand and CO2-binding cement fines",
+      "signal": "Pilot/demonstration units with recyclers; part of Sika's circular concrete portfolio",
+      "status": "operating",
+      "source": "https://www.sika.com"
+     }
+    ],
+    "white_space": "Hardened paste is only ~20-30% of demolition concrete, its reactivity is low, and virgin aggregate is nearly free, so standalone economics are weak and pure-plays are scarce; EU end-of-waste rules, rising landfill costs and the EAF steel boom create the opening \u2014 steel-cement symbiosis (the CEC model) and carbonation of recycled fines integrated into existing recycler networks."
+   },
+   {
+    "name": "Performance additives and cement-reducing admixtures (graphene, nano, self-healing, CO2-dosing)",
+    "description": "Admixtures and nanomaterials \u2014 graphene, carbon nanotubes, CO2-mineralizing dosing, bacterial self-healing and SCM-enabling superplasticizers \u2014 that let every cubic meter use less clinker or last longer, giving gram-scale additions ton-scale carbon leverage through existing supply chains.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Concretene (Nationwide Engineering / Univ. of Manchester GEIC)",
+      "role": "startup",
+      "what": "Graphene-enhanced admixture enabling ~30% cement reduction in slabs without rebar in some applications",
+      "signal": "Multiple commercial pours in UK buildings and infrastructure since 2021 via the Graphene Engineering Innovation Centre",
+      "status": "operating",
+      "source": "https://graphene.manchester.ac.uk"
+     },
+     {
+      "name": "Eden Innovations (EdenCrete)",
+      "role": "scaleup",
+      "what": "Carbon-nanotube-enriched liquid admixture boosting concrete strength and durability",
+      "signal": "ASX-listed; approvals and repeat orders from US DOTs including Georgia",
+      "status": "operating",
+      "source": "https://www.edeninnovations.com"
+     },
+     {
+      "name": "Concrete4Change",
+      "role": "startup",
+      "what": "CO2-mineralizing admixture carrier that sequesters CO2 inside ready-mix concrete while improving strength",
+      "signal": "UK seed-stage backed by Goldbeck and Innovate UK; trials with major UK concrete producers",
+      "status": "operating",
+      "source": "https://www.concrete4change.com"
+     },
+     {
+      "name": "Basilisk",
+      "role": "startup",
+      "what": "TU Delft spinout selling bacteria-based self-healing concrete and repair systems that extend service life",
+      "signal": "Commercial products applied in Dutch and international infrastructure projects",
+      "status": "operating",
+      "source": "https://www.basiliskconcrete.com"
+     },
+     {
+      "name": "Sika",
+      "role": "incumbent",
+      "what": "Global admixture leader (ViscoCrete etc.) whose chemistries explicitly enable high-SCM, low-clinker and recycled-aggregate mixes",
+      "signal": "Acquired MBCC Group (~CHF 5.5B, 2023), consolidating low-carbon admixture capability",
+      "status": "operating",
+      "source": "https://www.sika.com"
+     },
+     {
+      "name": "Saint-Gobain (Chryso/GCP)",
+      "role": "incumbent",
+      "what": "EnviroMix low-carbon admixture systems and calcined-clay activation chemistries from its Chryso and GCP acquisitions",
+      "signal": "Acquired Chryso (2021) and GCP Applied Technologies (2022) to lead construction chemistry decarbonization",
+      "status": "operating",
+      "source": "https://www.saint-gobain.com"
+     }
+    ]
+   },
+   {
+    "name": "Concrete AI/QC, EPDs, and low-carbon procurement software",
+    "description": "Machine-learning quality control, embedded strength sensors, automated EPD generation and procurement platforms that de-risk low-clinker mixes and let buyers specify, verify and purchase low-carbon concrete at scale.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Alcemy",
+      "role": "startup",
+      "what": "ML-based quality prediction and control software for cement and ready-mix plants, enabling safely lower clinker factors",
+      "signal": "Live in 30+ cement plants across 12 countries (~33Mt cement/yr optimized); $10M round led by Norrsken VC (2024) funding US entry",
+      "status": "operating",
+      "source": "https://techfundingnews.com/berlin-based-alcemy-snaps-10m-for-ai-powered-sustainable-cement-production/"
+     },
+     {
+      "name": "Giatec Scientific",
+      "role": "scaleup",
+      "what": "SmartRock wireless in-situ strength sensors plus SmartMix AI for mix optimization, replacing conservative break-test over-design",
+      "signal": "Sensors deployed on thousands of projects in 100+ countries; backed by McRock Capital and BDC",
+      "status": "operating",
+      "source": "https://www.giatecscientific.com"
+     },
+     {
+      "name": "Concrete.ai",
+      "role": "startup",
+      "what": "Generative-AI mix design claiming ~$8-10/yd3 cost savings and ~30% carbon cuts for ready-mix producers",
+      "signal": "Seed-stage with commercial deployments at US producers",
+      "status": "operating",
+      "source": "https://www.concrete.ai"
+     },
+     {
+      "name": "Building Transparency (EC3)",
+      "role": "incumbent",
+      "what": "Nonprofit running the free EC3 tool \u2014 the de facto standard database of digital EPDs underpinning Buy Clean procurement",
+      "signal": "Tens of thousands of EPDs and users; backed by Amazon, Microsoft, Skanska and others",
+      "status": "operating",
+      "source": "https://www.buildingtransparency.org"
+     },
+     {
+      "name": "One Click LCA",
+      "role": "scaleup",
+      "what": "Building LCA and EPD-generation platform with one of the largest construction-materials carbon databases",
+      "signal": "Used in 170+ countries; raised a ~\u20ac40M growth round (2024)",
+      "status": "operating",
+      "source": "https://oneclicklca.com"
+     },
+     {
+      "name": "Climate Earth",
+      "role": "scaleup",
+      "what": "Automated EPD generation systems for ready-mix producers covering thousands of mixes in real time",
+      "signal": "Leading US ready-mix EPD provider with major producer clients",
+      "status": "operating",
+      "source": "https://www.climateearth.com"
+     },
+     {
+      "name": "Command Alkon",
+      "role": "incumbent",
+      "what": "Dominant ready-mix dispatch/quality/logistics platform integrating CO2 tracking (CarbonCure partnership) across the concrete supply chain",
+      "signal": "PE-owned (Thoma Bravo); software used across a large share of North American ready-mix volume",
+      "status": "operating",
+      "source": "https://commandalkon.com"
+     }
+    ]
+   },
+   {
+    "name": "Alternative fuels and waste co-processing in cement kilns",
+    "description": "Substitutes coal and petcoke in kilns with waste-derived and biomass fuels (RDF/SRF, tires, sludges), cutting fossil CO2 and diverting landfill methane \u2014 the incumbent industry's workhorse lever, with thermal substitution above 50% across much of Europe.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Geocycle (Holcim)",
+      "role": "incumbent",
+      "what": "Global waste pre-processing and co-processing network feeding Holcim kilns with millions of tonnes of alternative fuels annually",
+      "signal": "Operations in ~50 countries; core to Holcim's >2030 fuel-substitution targets",
+      "status": "operating",
+      "source": "https://www.geocycle.com"
+     },
+     {
+      "name": "Cemex (Regenera/Climafuel)",
+      "role": "incumbent",
+      "what": "Regenera circularity business supplying waste-derived Climafuel to its kilns worldwide",
+      "signal": ">35% global alternative-fuel substitution, far higher at European plants",
+      "status": "operating",
+      "source": "https://www.cemex.com"
+     },
+     {
+      "name": "Heidelberg Materials",
+      "role": "incumbent",
+      "what": "High thermal-substitution-rate plants across Europe using RDF and biomass, with hydrogen-biomass fuel-mix trials (e.g., Ribblesdale, UK)",
+      "signal": "EU plants routinely above 80% TSR; group-wide fuel decarbonization program",
+      "status": "operating",
+      "source": "https://www.heidelbergmaterials.com"
+     },
+     {
+      "name": "Veolia",
+      "role": "incumbent",
+      "what": "Major preparer and supplier of SRF/RDF engineered fuels to cement kilns worldwide",
+      "signal": "One of the largest global waste-to-resource players supplying the cement sector",
+      "status": "operating",
+      "source": "https://www.veolia.com"
+     },
+     {
+      "name": "Geminor",
+      "role": "scaleup",
+      "what": "Northern European logistics and trading specialist moving ~2Mt/yr of RDF/SRF and waste-derived fuels to cement and energy plants",
+      "signal": "Operations across 10+ European countries plus UK",
+      "status": "operating",
+      "source": "https://geminor.no"
+     }
+    ],
+    "white_space": "Mature and incumbent-locked \u2014 kilns, permits and waste streams are controlled by cement majors and waste utilities, so the startup opening is limited to fuel-prep logistics, AI sorting, and biogenic-content certification rather than the combustion step itself."
+   }
+  ]
+ }
+}

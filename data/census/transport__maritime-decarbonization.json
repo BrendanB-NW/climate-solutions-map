@@ -1,0 +1,749 @@
+{
+ "sector": "transport",
+ "bucket": "Maritime Decarbonization",
+ "census": {
+  "bucket": "Maritime Decarbonization",
+  "variations": [
+   {
+    "name": "Green methanol vessels, engines & fuel supply",
+    "description": "Ships burn e-methanol (from renewable power) or bio-methanol (from waste) in dual-fuel diesel engines, cutting greenhouse gas up to ~75-95% with a liquid fuel that is easy to store and bunker \u2014 vessels and engines are commercial, but green fuel supply is the binding constraint.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "MAN Energy Solutions",
+      "role": "incumbent",
+      "what": "Dominant supplier of ME-LGIM two-stroke dual-fuel methanol engines that power Maersk's fleet and most of the global methanol orderbook.",
+      "signal": "Methanol dual-fuel engine of choice for hundreds of ordered vessels since the Laura Maersk (2023)",
+      "status": "operating",
+      "source": "https://www.man-es.com/"
+     },
+     {
+      "name": "A.P. Moller - Maersk",
+      "role": "incumbent",
+      "what": "First-mover container line: world's first methanol-fueled boxship (Laura Maersk), first large dual-fuel series, and first big-ship methanol retrofit conversion.",
+      "signal": "Completed world's first series of large dual-fuel methanol vessels (Axel Maersk, 2025); ~25 methanol-enabled ships ordered",
+      "status": "operating",
+      "source": "https://www.offshore-energy.biz/maersks-green-methanol-containership-fleet-is-now-complete/"
+     },
+     {
+      "name": "European Energy",
+      "role": "scaleup",
+      "what": "Built and operates Kass\u00f8 (Denmark), the world's first commercial-scale e-methanol plant (42,000 t/yr, 51/49 with Mitsui), supplying Maersk, LEGO and Novo Nordisk.",
+      "signal": "Kass\u00f8 inaugurated May 2025; first e-methanol bunkering of Laura Maersk; green bridge financing with Mitsui Jan 2026",
+      "status": "operating",
+      "source": "https://europeanenergy.com/2025/05/13/kasso-e-methanol-facility-officially-inaugurated/"
+     },
+     {
+      "name": "Liquid Wind",
+      "role": "startup",
+      "what": "Swedish developer of standardized ~100,000 t/yr e-methanol plants (FlagshipONE, sold to \u00d8rsted and later cancelled).",
+      "signal": "Raised ~\u20ac64M but filed for bankruptcy May 2026 after failing to secure offtakes/financing; subsidiaries put up for sale",
+      "status": "bankrupt-shutdown",
+      "source": "https://maritime-executive.com/article/e-methanol-producer-liquid-wind-enters-bankruptcy-administration"
+     },
+     {
+      "name": "C2X",
+      "role": "scaleup",
+      "what": "A.P. Moller Holding spin-out developing multi-megaton green methanol production in Egypt, Spain and the US Gulf (Beaver Lake, Louisiana).",
+      "signal": "$100M investment from ENEOS alongside APMH/Maersk; ambition of 3 Mt/yr capacity by 2030",
+      "status": "operating",
+      "source": "https://shipandbunker.com/news/world/173661-eneos-and-maersk-boost-c2x-with-100-million-green-methanol-investment"
+     },
+     {
+      "name": "WasteFuel",
+      "role": "startup",
+      "what": "Converts municipal and agricultural waste into bio-methanol for marine fuel.",
+      "signal": "Backed by Maersk Growth and BP ($10M plus offtake MoU); launched biomethanol sales",
+      "status": "operating",
+      "source": "https://maritime-executive.com/article/bp-invests-in-wastefuel-s-bio-methanol-and-signs-offtake-agreement"
+     },
+     {
+      "name": "Methanex",
+      "role": "incumbent",
+      "what": "World's largest methanol producer and marine methanol supplier; operates the methanol-fueled Waterfront Shipping tanker fleet.",
+      "signal": "Acquired OCI Global's international methanol business (~$2B deal closed 2025), consolidating fuel supply",
+      "status": "operating",
+      "source": "https://www.methanex.com/"
+     },
+     {
+      "name": "X-Press Feeders",
+      "role": "incumbent",
+      "what": "Operates Europe's first green-methanol-powered container feeder network (Rotterdam-Baltic GFX/GBX routes) with ISCC-certified fuel.",
+      "signal": "3 dual-fuel feeders operating, 14 ordered (deliveries through 2026)",
+      "status": "operating",
+      "source": "https://www.x-pressfeeders.com/news/x-press-feeders-starts-europes-first-feeder-network-powered-by-green-methanol-ushering-in-new-era-of-sustainable-shipping"
+     }
+    ],
+    "white_space": "Ships have outrun fuel: one commercial e-methanol plant (42 kt/yr) versus megaton-scale fleet demand, and developers die without bankable offtakes (Liquid Wind bankruptcy, \u00d8rsted's FlagshipONE cancellation). The opening is for producers who can lock long-term offtakes and shrink the green premium, plus FuelEU-compliance structures that monetize it."
+   },
+   {
+    "name": "Ammonia propulsion & ammonia-to-power",
+    "description": "Ammonia is a carbon-free hydrogen carrier that can be burned in dual-fuel engines or cracked into hydrogen for fuel cells, promising zero-CO2 deep-sea shipping if toxicity, N2O slip and bunkering infrastructure are solved.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "MAN Energy Solutions",
+      "role": "incumbent",
+      "what": "Developing the two-stroke ammonia engine (ME-LGIA) expected to power the deep-sea ammonia fleet.",
+      "signal": "First ammonia dual-fuel engine deliveries scheduled early 2026",
+      "status": "operating",
+      "source": "https://www.lloydslist.com/LL1152410/MAN-to-deliver-first-ammonia-dual-fuel-engines-in-early-2026"
+     },
+     {
+      "name": "WinGD",
+      "role": "incumbent",
+      "what": "First to put a large two-stroke ammonia dual-fuel engine (X72DF-A, ~5% pilot fuel) into a delivered ocean-going ship.",
+      "signal": "First ammonia dual-fuel vessel delivered to Exmar (built at HD Hyundai Mipo); engines delivering from Q4 2025",
+      "status": "operating",
+      "source": "https://maritime-executive.com/article/first-ammonia-dual-fuel-vessel-delivered-to-exmar"
+     },
+     {
+      "name": "W\u00e4rtsil\u00e4",
+      "role": "incumbent",
+      "what": "Launched the first commercial four-stroke ammonia engine (W\u00e4rtsil\u00e4 25 Ammonia) for short-sea vessels.",
+      "signal": "First newbuild installations for Viridis Bulk Carriers and Skarv Shipping; equipment deliveries from Q4 2026",
+      "status": "operating",
+      "source": "https://maritime-executive.com/article/norwegian-timber-ship-will-be-first-to-use-wartsila-s-ammonia-engine"
+     },
+     {
+      "name": "Amogy",
+      "role": "scaleup",
+      "what": "Cracks ammonia onboard into hydrogen for fuel cells; sailed the world's first ammonia-powered vessel (NH3 Kraken tug, 2024) and now targets ships plus floating power.",
+      "signal": "Raised $80M in 2025 (~$300M total), led by Korea Development Bank; Asia maritime expansion",
+      "status": "operating",
+      "source": "https://techcrunch.com/2025/07/15/amogy-raises-80m-to-power-ships-and-data-centers-with-ammonia/"
+     },
+     {
+      "name": "Azane Fuel Solutions",
+      "role": "startup",
+      "what": "Builds containerized and floating ammonia bunkering terminals \u2014 the missing fueling infrastructure layer.",
+      "signal": "World-first ammonia bunkering terminal safety permit in Norway; 15 units pre-ordered by Yara Clean Ammonia",
+      "status": "operating",
+      "source": "https://www.yara.com/corporate-releases/yara-clean-ammonia-and-azane-granted-safety-permit-to-build-worlds-first-low-emission-ammonia-bunkering-terminal/"
+     },
+     {
+      "name": "Yara Clean Ammonia",
+      "role": "incumbent",
+      "what": "World's largest ammonia trader, building Yara Eyde \u2014 the first ammonia-powered container ship (with North Sea Container Line) \u2014 plus bunkering supply.",
+      "signal": "Yara Eyde steel cut Sept 2025 at Qingdao Yangfan; delivery ~mid-2026 for Oslo-Rotterdam route",
+      "status": "operating",
+      "source": "https://www.worldcargonews.com/environment/2025/09/steel-cut-for-worlds-first-ammonia-powered-container-ship-yara-eyde/"
+     },
+     {
+      "name": "Exmar",
+      "role": "incumbent",
+      "what": "First shipowner to take delivery of ocean-going ammonia dual-fuel gas carriers (which can burn their own cargo).",
+      "signal": "World's first ammonia dual-fuel midsize gas carriers named/delivered in South Korea in 2025",
+      "status": "operating",
+      "source": "https://exmar.com/en/news-center/worlds-first-ocean-going-ammonia-dual-fuel-vessels-named-in-south-korea/"
+     },
+     {
+      "name": "Fortescue",
+      "role": "incumbent",
+      "what": "Converted the Green Pioneer, the world's first ammonia dual-fuel demonstration vessel, to force regulatory and port acceptance.",
+      "signal": "Demonstrated ammonia operation in Singapore (2024) and showcased the vessel internationally",
+      "status": "operating",
+      "source": "https://fortescue.com/"
+     }
+    ],
+    "white_space": "Engine supply is consolidating with the three incumbent engine houses; the open gaps are port-side bunkering networks, crew safety/training systems and N2O abatement \u2014 whoever industrializes safe ammonia transfer owns the bottleneck."
+   },
+   {
+    "name": "Hydrogen & fuel-cell vessels",
+    "description": "Compressed or liquid hydrogen feeding PEM fuel cells gives genuinely zero-emission propulsion for ferries, harbor craft and inland barges, but low energy density and high green-hydrogen cost confine it to short, subsidized routes \u2014 and the sector has suffered heavy attrition.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Norled",
+      "role": "incumbent",
+      "what": "Operates MF Hydra, the world's first liquid-hydrogen ferry (Ballard fuel cells), in Norway since March 2023.",
+      "signal": "In service since 2023, but Norled booked ~NOK 1B (~\u20ac85M) of losses partly tied to its hydrogen bet",
+      "status": "operating",
+      "source": "https://cleantechnica.com/2025/10/20/norways-ferry-operator-norled-could-have-saved-money-staff-by-skipping-hydrogen/"
+     },
+     {
+      "name": "Torghatten Nord",
+      "role": "incumbent",
+      "what": "Building the world's two largest hydrogen ferries (117 m, 120 cars) for Norway's Bod\u00f8-Lofoten Vestfjorden route, 85% hydrogen operation.",
+      "signal": "Ferries in production with >6 MW PowerCell systems each; service slipped from Oct 2025 into 2026",
+      "status": "operating",
+      "source": "https://www.shippax.com/en/news/production-started-of-torghatten-nords-new-hydrogen-ferries.aspx"
+     },
+     {
+      "name": "PowerCell Group",
+      "role": "scaleup",
+      "what": "Swedish marine fuel-cell maker supplying megawatt-scale systems, including the Torghatten Nord ferries and the first commercial marine methanol-to-power system.",
+      "signal": "World's largest marine fuel-cell order; first commercial 2 MW methanol-to-power sale (Nov 2025)",
+      "status": "operating",
+      "source": "https://fuelcellsworks.com/2025/11/25/clean-technology/e1-marine-to-supply-hydrogen-reformers-for-powercell-s-first-commercial-methanol-to-power-system-order"
+     },
+     {
+      "name": "Ballard Power Systems",
+      "role": "incumbent",
+      "what": "FCwave marine fuel-cell modules powered MF Hydra and the FPS hydrogen barges.",
+      "signal": "Marine modules in service since 2023; company restructured 2024-25 amid weak hydrogen demand",
+      "status": "operating",
+      "source": "https://www.rivieramm.com/news-content-hub/news-content-hub/norleds-liquid-hydrogen-ferry-hydra-to-enter-active-service-75630"
+     },
+     {
+      "name": "e1 Marine",
+      "role": "startup",
+      "what": "Methanol-to-hydrogen reformers that generate fuel-cell-grade hydrogen onboard, sidestepping hydrogen storage and bunkering.",
+      "signal": "Eight M30 reformers ordered for PowerCell's first commercial 2 MW methanol-to-power system (Nov 2025)",
+      "status": "operating",
+      "source": "https://fuelcellsworks.com/2025/11/25/clean-technology/e1-marine-to-supply-hydrogen-reformers-for-powercell-s-first-commercial-methanol-to-power-system-order"
+     },
+     {
+      "name": "Genevos",
+      "role": "startup",
+      "what": "French maker of modular marine PEM Hydrogen Power Modules (15-90 kW, stackable) for workboats and passenger vessels.",
+      "signal": "High-power range launched 2024; world-first hydrogen retrofit passenger vessel project launched 2025",
+      "status": "operating",
+      "source": "https://www.genevos.com/"
+     },
+     {
+      "name": "Zero Emission Industries",
+      "role": "startup",
+      "what": "Hydrogen powertrain behind Sea Change, the first commercial hydrogen fuel-cell ferry in the US (San Francisco Bay).",
+      "signal": "Sea Change entered public service 2024; backed by Chevron New Energies and Crowley",
+      "status": "operating",
+      "source": "https://www.zeroei.com/"
+     },
+     {
+      "name": "Future Proof Shipping",
+      "role": "startup",
+      "what": "Retrofitted and operated the world's first hydrogen-powered inland container barges (H2 Barge 1 & 2, hauling Nike cargo on the Rhine).",
+      "signal": "Technology worked but economics failed; declared bankrupt June 2026",
+      "status": "bankrupt-shutdown",
+      "source": "https://fuelcellsworks.com/2026/06/07/fuel-cells/pioneer-in-hydrogen-shipping-future-proof-shipping-bankrupt"
+     },
+     {
+      "name": "TECO 2030",
+      "role": "startup",
+      "what": "Norwegian developer of marine fuel-cell stacks with a planned gigafactory in Narvik.",
+      "signal": "Bankrupt Dec 2024 after losing ~$30M; could not raise the ~$35M needed to start its factory",
+      "status": "bankrupt-shutdown",
+      "source": "https://maritime-executive.com/article/fuel-cell-pioneer-teco-2030-files-bankruptcy-as-industry-investment-slows"
+     }
+    ],
+    "white_space": "Two flagship failures (Future Proof Shipping, TECO 2030) plus Norled's heavy losses show green-hydrogen cost and missing infrastructure kill the economics wherever batteries suffice; the defensible niche is routes too long for batteries with captive or subsidized hydrogen supply \u2014 or onboard methanol reforming that dodges hydrogen logistics entirely."
+   },
+   {
+    "name": "Battery-electric ships, ferries, workboats & hydrofoils",
+    "description": "Lithium batteries \u2014 often paired with hydrofoils that cut drag ~80% \u2014 power ferries, harbor craft, workboats and short-sea cargo with zero exhaust and lower energy cost per mile; already standard on Norwegian-style short ferry routes and spreading fast.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Corvus Energy",
+      "role": "scaleup",
+      "what": "Dominant maritime energy-storage supplier (Orca, Blue Whale LFP) for ferries, offshore vessels and hybrid container ships.",
+      "signal": "~25 MWh Blue Whale order for the first all-electric offshore SOV (Bibby Marine); systems on hundreds of vessels; Matson boxship wins",
+      "status": "operating",
+      "source": "https://www.electrive.com/2025/02/06/corvus-energy-to-supply-battery-system-for/"
+     },
+     {
+      "name": "Echandia",
+      "role": "startup",
+      "what": "Swedish heavy-duty LTO/LFP marine battery systems built for fast-charge, high-cycle urban ferries.",
+      "signal": "Battery systems powering urban e-ferry fleets including Copenhagen's Damen-built ferries",
+      "status": "operating",
+      "source": "https://echandia.se/"
+     },
+     {
+      "name": "Candela",
+      "role": "scaleup",
+      "what": "Carbon-fiber electric hydrofoil shuttles (P-12) and leisure boats that cut energy use ~80% versus planing hulls.",
+      "signal": "~\u20ac30M raised Mar 2026 (incl. IFC) on top of $40M in 2024; P-12 in Stockholm public transit since Nov 2024; export orders (NZ, Saudi, Berlin)",
+      "status": "operating",
+      "source": "https://www.electrive.com/2026/03/19/e-boat-manufacturer-candela-secures-e30-million-from-investors/"
+     },
+     {
+      "name": "Artemis Technologies",
+      "role": "scaleup",
+      "what": "Belfast-based eFoiler electric hydrofoil workboats, pilot boats and 150-passenger fast ferries (EF-12, EF-24).",
+      "signal": "Leads ~\u00a360M Belfast Maritime Consortium; EF-12 craft delivered to commercial customers; EF-24 ferry program underway",
+      "status": "operating",
+      "source": "https://www.artemistechnologies.co.uk/"
+     },
+     {
+      "name": "Navier",
+      "role": "startup",
+      "what": "US electric hydrofoil boats (N30) aimed at water shuttles and commuting.",
+      "signal": "N30 operated as a Stripe employee commuter shuttle on SF Bay; expanding pilot routes",
+      "status": "operating",
+      "source": "https://www.navierboat.com/"
+     },
+     {
+      "name": "Arc",
+      "role": "startup",
+      "what": "Vertically integrated US electric sport boats now expanding into electric tugboats.",
+      "signal": "Raised $70M (late 2024, backers incl. Eclipse, a16z, Lowercarbon); Arc Sport shipping; electric tug program announced",
+      "status": "operating",
+      "source": "https://arcboats.com/"
+     },
+     {
+      "name": "Fleetzero",
+      "role": "startup",
+      "what": "Containerized swappable LFP battery packs and retrofit propulsion to electrify coastal cargo ships, plus marine autonomy.",
+      "signal": "$43M Series A (Jan 2026) led by Obvious Ventures with Maersk Growth and Breakthrough Energy; 300 MWh/yr Houston production line",
+      "status": "operating",
+      "source": "https://energycapitalhtx.com/fleetzero-series-a-funding"
+     },
+     {
+      "name": "Pure Watercraft",
+      "role": "startup",
+      "what": "Seattle electric outboards and pontoon boats; GM paid $150M for a 25% stake in 2021.",
+      "signal": "Entered receivership July 2024 with ~900 undelivered pre-orders; assets sold off",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.geekwire.com/2024/electric-boating-insiders-react-to-pure-watercrafts-demise-as-court-documents-reveal-sell-off-details/"
+     },
+     {
+      "name": "Incat",
+      "role": "incumbent",
+      "what": "Tasmanian shipbuilder of Hull 096 'China Zorrilla' \u2014 the world's largest battery-electric ship (130 m, 40+ MWh) for Buquebus.",
+      "signal": "Launched May 2025 for the Buenos Aires-Uruguay route; building an electric-ship product line",
+      "status": "operating",
+      "source": "https://www.incat.com.au/"
+     },
+     {
+      "name": "COSCO Shipping / CSSC",
+      "role": "incumbent",
+      "what": "Built and operate the 700 TEU river-electric container ships Green Water 01/02 with containerized swappable batteries on the Yangtze.",
+      "signal": "Green Water 01 in commercial service since 2024 (~50 MWh with battery boxes)",
+      "status": "operating",
+      "source": "https://en.coscoshipping.com/"
+     }
+    ]
+   },
+   {
+    "name": "Wind-assisted propulsion: rotors, rigid wings, suction sails, kites",
+    "description": "Retrofittable rotor sails, rigid or inflatable wings, suction sails and kites convert free wind into 5-30% fuel savings on existing cargo ships \u2014 one of the few decarbonization levers with near-term payback under FuelEU Maritime and EU ETS.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Norsepower",
+      "role": "scaleup",
+      "what": "Market-leading Flettner rotor sails for tankers, bulkers, ro-ros and ferries.",
+      "signal": "32 rotors on 18 ships plus ~40 more booked (Mar 2025); new Dafeng, China factory (50 rotors/yr); VLCC newbuild orders",
+      "status": "operating",
+      "source": "https://www.rivieramm.com/news-content-hub/news-content-hub/wind-assisted-propulsion-return-of-the-age-of-sail-87812"
+     },
+     {
+      "name": "Anemoi Marine Technologies",
+      "role": "scaleup",
+      "what": "Rotor sails with folding/rail deployment systems suited to bulk carriers (Vale's Sohar Max VLOC, Berge Meru Newcastlemax).",
+      "signal": "Rotors operating on the world's largest ore carriers; opened Jingjiang, China factory July 2025",
+      "status": "operating",
+      "source": "https://www.ship-technology.com/news/anemoi-rotor-sails-vloc/"
+     },
+     {
+      "name": "bound4blue",
+      "role": "scaleup",
+      "what": "Autonomous eSAIL suction sails delivering the industry's highest thrust per square meter of sail.",
+      "signal": "$44M raised 2025; five-tanker, 20-sail retrofit program with Maersk underway (Maersk Trieste first)",
+      "status": "operating",
+      "source": "https://www.imarinenews.com/30206.html"
+     },
+     {
+      "name": "BAR Technologies",
+      "role": "startup",
+      "what": "Rigid 37.5 m WindWings proven on Cargill's Pyxis Ocean bulker.",
+      "signal": "Pyxis Ocean trials averaged ~3 t/day fuel savings; follow-on orders from Union Maritime and others",
+      "status": "operating",
+      "source": "https://www.bartechnologies.uk/"
+     },
+     {
+      "name": "Econowind",
+      "role": "startup",
+      "what": "Containerized, foldable VentoFoil suction wings sized for short-sea ships and coasters.",
+      "signal": "Dozens of VentoFoil units delivered and at sea on European short-sea vessels",
+      "status": "operating",
+      "source": "https://www.econowind.nl/"
+     },
+     {
+      "name": "Michelin (WISAMO)",
+      "role": "incumbent",
+      "what": "Inflatable, telescopic wingsail from Michelin R&D with full automation.",
+      "signal": "First commercial contract (French DGAMPA patrol vessel) signed early 2025; installation 2027",
+      "status": "operating",
+      "source": "https://www.compositesworld.com/news/michelin-wisamo-wingsail-to-equip-french-offshore-patrol-vessel"
+     },
+     {
+      "name": "Airseas",
+      "role": "startup",
+      "what": "Automated Seawing parafoil kite that tows ships, spun out of Airbus.",
+      "signal": "Fell into receivership after its Asian investor withdrew; bought out by K Line (via Oceanicwing), which is scaling the Nantes factory",
+      "status": "acquired",
+      "source": "https://www.offshore-energy.biz/k-line-buys-out-kite-manufacturer-airseas/"
+     },
+     {
+      "name": "Chantiers de l'Atlantique",
+      "role": "incumbent",
+      "what": "Developer of SolidSail ~1,500 m2 folding carbon rigs powering Neoliner Origin and the planned Orient Express Silenseas sailing cruise ships.",
+      "signal": "SolidSail rigs at sea on Neoliner Origin since 2025",
+      "status": "operating",
+      "source": "https://chantiers-atlantique.com/"
+     }
+    ]
+   },
+   {
+    "name": "Primary-sail cargo shipping lines",
+    "description": "New-build cargo ships using sails as primary propulsion (engines auxiliary) cut voyage emissions 80-90% and sell verified low-carbon freight for premium goods like wine, cocoa, coffee and vehicles.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "TOWT",
+      "role": "startup",
+      "what": "French line operating purpose-built 81 m cargo schooners (Anemos, Artemis) on transatlantic coffee/cocoa/wine routes.",
+      "signal": "Two ships in commercial service since 2024; six sisters ordered for a fleet of eight by ~2027",
+      "status": "operating",
+      "source": "https://www.towt.eu/"
+     },
+     {
+      "name": "Neoline",
+      "role": "startup",
+      "what": "Operates Neoliner Origin, the world's largest sail cargo ship (136 m ro-ro with SolidSail rigs, 80%+ fuel cut), St-Nazaire to Baltimore/Halifax.",
+      "signal": "Delivered 2025; monthly commercial transatlantic service began Oct 2025 with shippers incl. Renault and Hennessy",
+      "status": "operating",
+      "source": "https://container-news.com/neoline-launches-first-transatlantic-service-with-newly-delivered-sail-cargo-ship/"
+     },
+     {
+      "name": "Grain de Sail",
+      "role": "startup",
+      "what": "Vertically integrated French chocolate/coffee/wine brand that ships its own goods on its own sailing cargo vessels.",
+      "signal": "Grain de Sail II (50 t) in regular transatlantic service; larger third vessel planned",
+      "status": "operating",
+      "source": "https://www.graindesail.com/"
+     },
+     {
+      "name": "Veer Group",
+      "role": "startup",
+      "what": "Designing 160 TEU hybrid sail container ships (Mamba) with hydrogen fuel-cell auxiliary power.",
+      "signal": "ABS Approval in Principle received; tendering shipyards \u2014 pre-construction stage",
+      "status": "operating",
+      "source": "https://maritime-executive.com/article/containerships-with-sails-and-fuel-cells-receive-abs-design-approval"
+     },
+     {
+      "name": "Sailcargo Inc.",
+      "role": "startup",
+      "what": "Building Ceiba, a 190-tonne wooden sailing cargo ship with regenerative electric auxiliary propulsion, at its Costa Rica yard.",
+      "signal": "Construction running years behind schedule with launch dates repeatedly slipping; financing via small Canadian investments",
+      "status": "uncertain",
+      "source": "https://www.sailcargo.inc/en/ceiba"
+     },
+     {
+      "name": "Z\u00e9phyr & Bor\u00e9e",
+      "role": "startup",
+      "what": "Co-developed Canop\u00e9e, the sail-assisted ro-ro that carries Ariane 6 rocket components to French Guiana, and is ordering sail container ships.",
+      "signal": "Canop\u00e9e in commercial service since 2023 with four Oceanwings wingsails",
+      "status": "operating",
+      "source": "https://www.zephyretboree.com/"
+     }
+    ],
+    "white_space": "Small capacity and ~11-knot speeds cap the addressable market to premium, time-tolerant cargo; FuelEU/CSRD-driven demand for verified low-CO2 freight is the opening, but nobody has cracked container-scale sail economics yet \u2014 Veer and France's Windcoop are first attempts."
+   },
+   {
+    "name": "Drop-in marine biofuels & bio-LNG bunkering",
+    "description": "Waste-based biodiesel blends (FAME/HVO, up to B100) and liquefied biomethane drop into existing engines and bunkering infrastructure with no retrofit, delivering up to ~80-100% well-to-wake cuts and serving as the workhorse of FuelEU compliance.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "FincoEnergies (GoodFuels)",
+      "role": "scaleup",
+      "what": "Pioneer of 100% waste-based marine biofuel (B100) bunkering at scale; GoodFuels brand now part of FincoEnergies.",
+      "signal": "Acquired by FincoEnergies (2023); thousands of biofuel deliveries plus FuelEU pooling services \u2014 continues operating as a brand",
+      "status": "acquired",
+      "source": "https://www.goodfuels.com/"
+     },
+     {
+      "name": "Titan Clean Fuels",
+      "role": "scaleup",
+      "what": "Largest independent LNG/bio-LNG bunkering company with its own bunker vessels (Alice Cosulich, Optimus).",
+      "signal": "Multi-delivery bio-LNG contract with MOL (Mar 2025); fueling UECC's fleet with bio-LNG since 2024; first DNV-verified FuelEU pool",
+      "status": "operating",
+      "source": "https://titan-cleanfuels.com/titan-completes-first-bunkering-to-mol-under-new-term-contract/"
+     },
+     {
+      "name": "Gasum",
+      "role": "incumbent",
+      "what": "Nordic state-backed LNG and liquefied biomethane supplier with liquefaction plants and a bunker-vessel network across the Baltic and North Sea.",
+      "signal": "Expanding renewable LBM supply for shipping under FuelEU demand",
+      "status": "operating",
+      "source": "https://www.gasum.com/"
+     },
+     {
+      "name": "Argent Energy",
+      "role": "incumbent",
+      "what": "Waste-based biodiesel producer (UK/Netherlands) feeding marine B30-B100 blends at the Amsterdam-Rotterdam-Antwerp bunkering hub.",
+      "signal": "Long-running feedstock-to-blend supplier into marine biofuels",
+      "status": "operating",
+      "source": "https://www.argentenergy.com/"
+     },
+     {
+      "name": "Chevron Renewable Energy Group",
+      "role": "incumbent",
+      "what": "Major waste-FAME/HVO producer supplying marine biodiesel programs.",
+      "signal": "Chevron acquired REG for $3.15B (2022); supplies marine blend programs",
+      "status": "operating",
+      "source": "https://www.chevron.com/"
+     },
+     {
+      "name": "MASH Makes",
+      "role": "startup",
+      "what": "Danish-Indian producer of carbon-negative pyrolysis bio-oil from agricultural residues, sold as marine fuel.",
+      "signal": "Maersk vessel trial of MASH Makes bio-oil (2024); first commercial volumes from India plant",
+      "status": "operating",
+      "source": "https://www.mashmakes.com/"
+     }
+    ]
+   },
+   {
+    "name": "Onboard carbon capture",
+    "description": "Scrubber-like systems capture CO2 from ship exhaust (amine, calcium-looping or centrifugal processes) and store it onboard for port offload, letting existing fossil-fueled ships cut 70-95% of stack emissions without switching fuels.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Value Maritime",
+      "role": "startup",
+      "what": "Dutch first mover selling prefab Filtree scrubber-plus-capture units with a 'CO2 battery' offloaded for reuse in greenhouses.",
+      "signal": "Multiple commercial installations on container feeders and tankers (incl. X-Press Feeders) since 2021",
+      "status": "operating",
+      "source": "https://www.valuemaritime.com/"
+     },
+     {
+      "name": "Seabound",
+      "role": "startup",
+      "what": "Compact calcium-looping capture that binds CO2 into limestone pebbles offloaded for cement making.",
+      "signal": "First commercial project on the UBC Cork cement carrier with Hartmann/Heidelberg Materials (Jul 2025); up to 95% capture; ESA award",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/seabound-launches-world-first-onboard-marine-carbon-capture-project-with-hartmann-intermaritime-and-heidelberg-materials-302506256.html"
+     },
+     {
+      "name": "Carbon Ridge",
+      "role": "startup",
+      "what": "Modular centrifugal amine capture that shrinks system size and energy penalty for retrofits.",
+      "signal": "$20M+ total raised; world-first centrifugal onboard capture deployed on Scorpio Tankers' STI Spiga (2025)",
+      "status": "operating",
+      "source": "https://carbonherald.com/carbon-ridge-secures-9-5m-to-expand-onboard-carbon-capture-technology/"
+     },
+     {
+      "name": "W\u00e4rtsil\u00e4",
+      "role": "incumbent",
+      "what": "First incumbent to commercialize full-chain onboard CCS (capture, liquefaction, onboard storage).",
+      "signal": "Commercial launch May 2025 after achieving 70% capture on Solvang's Clipper Eris retrofit",
+      "status": "operating",
+      "source": "https://www.wartsila.com/media/news/07-05-2025-wartsila-launches-carbon-capture-solution-to-shipping-market-after-world-first-full-scale-installation-success-3582634"
+     },
+     {
+      "name": "Solvang",
+      "role": "incumbent",
+      "what": "Norwegian gas-carrier owner running the world's first full-scale onboard CCS vessel and planning fleet rollout.",
+      "signal": "Clipper Eris sailing with a 7 MW capture plant since Feb 2025 (Enova-funded); newbuilds capture-ready",
+      "status": "operating",
+      "source": "https://solvangship.no/feature_article/ccs-clipper-eris/"
+     },
+     {
+      "name": "STAX Engineering",
+      "role": "startup",
+      "what": "Barge-based exhaust capture serving ships at berth \u2014 port-side emissions capture with no vessel retrofit.",
+      "signal": "$70M raised; partnership with Seabound for CO2 processing; operating at California ports",
+      "status": "operating",
+      "source": "https://carbonherald.com/stax-engineering-secures-70m-to-scale-maritime-carbon-capture-partners-with-seabound-and-global-shipping-giants/"
+     },
+     {
+      "name": "Daphne Technology",
+      "role": "startup",
+      "what": "Swiss maker of exhaust measurement and abatement tech (methane slip, SOx/NOx) positioning into maritime carbon management.",
+      "signal": "Backed by Trafigura and Shell Ventures; methane-slip systems deployed on LNG carriers",
+      "status": "operating",
+      "source": "https://daphnetechnology.com/"
+     },
+     {
+      "name": "Mitsubishi Shipbuilding",
+      "role": "incumbent",
+      "what": "Ran CC-Ocean, the first marine CO2 capture demonstration at sea (2021), feeding its commercial marine CCS and LCO2 carrier line.",
+      "signal": "CC-Ocean verified capture at sea; building liquefied CO2 carriers",
+      "status": "operating",
+      "source": "https://www.mhi.com/"
+     }
+    ],
+    "white_space": "Capture is proven but the loop is open: there is no standardized port CO2 offload/storage chain and IMO/EU accounting for captured CO2 is still pending, so value hinges on regulation \u2014 first movers locking port logistics and cement/CCU offtake (the Seabound-Heidelberg model) own the gap."
+   },
+   {
+    "name": "Nuclear maritime propulsion",
+    "description": "Small modular and molten-salt reactors aboard ships or floating power plants would deliver years of zero-carbon operation without refueling, but no commercial nuclear merchant vessel exists \u2014 today's work is reactor design, class rules and feasibility studies.",
+    "maturity": "lab",
+    "companies": [
+     {
+      "name": "Core Power",
+      "role": "startup",
+      "what": "UK/US developer commercializing molten salt reactors for floating nuclear power and ship propulsion via its US-anchored Liberty program.",
+      "signal": "~$150M invested; shareholders incl. HD Hyundai, TerraPower and Wan Hai; targets $10B orderbook by 2030 and floating plants by mid-2030s",
+      "status": "operating",
+      "source": "https://www.nucnet.org/news/core-power-announces-programme-to-bring-floating-nuclear-power-to-market-by-mid-2030s-2-2-2025"
+     },
+     {
+      "name": "Seaborg Technologies",
+      "role": "startup",
+      "what": "Danish compact molten salt reactor (CMSR) for power barges, partnered with Samsung Heavy Industries and KAERI.",
+      "signal": "SHI partnership for barges of up to 8x100 MWe; company downsized and refocused in 2023-24",
+      "status": "operating",
+      "source": "https://www.neimagazine.com/news/korean-shipbuilder-joins-nuclear-shipping-project-11502161/"
+     },
+     {
+      "name": "Newcleo",
+      "role": "scaleup",
+      "what": "Lead-cooled fast mini-reactors (30 MWe 'nuclear battery') being studied for merchant ship integration with Fincantieri and RINA.",
+      "signal": "Raised \u20ac500M+; Fincantieri/RINA naval feasibility study underway",
+      "status": "operating",
+      "source": "https://maritime-executive.com/article/fincantieri-joints-nuclear-propulsion-study-with-newcleo"
+     },
+     {
+      "name": "HD KSOE (HD Hyundai)",
+      "role": "incumbent",
+      "what": "Korean shipbuilding group designing an SMR-powered 15,000 TEU containership and a marine nuclear test facility.",
+      "signal": "ABS Approval in Principle for the nuclear boxship design; marine nuclear demo facility planned at Yongin; business model targeted for 2030",
+      "status": "operating",
+      "source": "https://gcaptain.com/hd-korea-shipbuilding-unveils-revolutionary-nuclear-powered-containership-design/"
+     },
+     {
+      "name": "Samsung Heavy Industries",
+      "role": "incumbent",
+      "what": "Developing CMSR floating power barges and nuclear-propelled ship concepts with KAERI and Seaborg.",
+      "signal": "Multiple Approvals in Principle for floating nuclear designs",
+      "status": "operating",
+      "source": "https://www.neimagazine.com/news/korean-shipbuilder-joins-nuclear-shipping-project-11502161/"
+     },
+     {
+      "name": "Ulstein",
+      "role": "incumbent",
+      "what": "Norwegian designer of the Thor concept \u2014 a thorium molten-salt 'charging ship' that would recharge battery-electric cruise vessels at sea.",
+      "signal": "Concept design only (2022); no build committed",
+      "status": "operating",
+      "source": "https://ulstein.com/"
+     }
+    ],
+    "white_space": "Physics is proven by navies, but civilian port access, insurance/liability frameworks and IMO rules don't yet exist, so credible players are few and capital-heavy; the near-term opening is floating nuclear power for ports and islands (regulated like land assets) before propulsion, plus licensing/class-rule tooling."
+   },
+   {
+    "name": "Vessel & port efficiency: air lubrication, hull tech, route optimization, shore power",
+    "description": "Air lubrication, advanced hull coatings and cleaning robots, AI voyage optimization and shore power cut fleet fuel burn 5-30% with proven paybacks \u2014 the cheapest abatement in shipping and the multiplier that makes expensive green fuels viable.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Silverstream Technologies",
+      "role": "scaleup",
+      "what": "Market-leading air lubrication system that pumps a microbubble carpet under the hull, cutting fuel 5-10% net.",
+      "signal": "Installed or on order for well over 100 vessels incl. 18 QC-MAX LNG carriers; FT fastest-growing lists 2023-24",
+      "status": "operating",
+      "source": "https://www.lr.org/en/knowledge/horizons/july-2025/charting-silverstreams-innovative-journey-as-air-lubrication-comes-of-age/"
+     },
+     {
+      "name": "Jotun",
+      "role": "incumbent",
+      "what": "Hull coatings leader pairing SeaQuantum antifouling with the HullSkater robotic proactive cleaning service and performance guarantees.",
+      "signal": "Hull Skating Solutions deployed globally; coatings on tens of thousands of ships",
+      "status": "operating",
+      "source": "https://www.jotun.com/"
+     },
+     {
+      "name": "ZeroNorth",
+      "role": "scaleup",
+      "what": "AI voyage, bunker and emissions optimization platform spun out of Maersk Tankers.",
+      "signal": "Optimizes thousands of vessels; grew via multiple acquisitions (ClearLynx, Prosmar, etc.)",
+      "status": "operating",
+      "source": "https://zeronorth.com/"
+     },
+     {
+      "name": "Sofar Ocean",
+      "role": "scaleup",
+      "what": "World's largest private ocean sensor network (Spotter buoys) feeding the Wayfinder dynamic weather-routing platform.",
+      "signal": "$39M Series B; Wayfinder adopted by major carriers",
+      "status": "operating",
+      "source": "https://www.sofarocean.com/"
+     },
+     {
+      "name": "DeepSea Technologies",
+      "role": "startup",
+      "what": "AI vessel-performance digital twins and live route optimization (Cassandra/Pythia).",
+      "signal": "Acquired by Japan's Nabtesco (2022); systems running across hundreds of vessels",
+      "status": "acquired",
+      "source": "https://www.deepsea.ai/"
+     },
+     {
+      "name": "Orca AI",
+      "role": "startup",
+      "what": "Computer-vision situational awareness and navigation assistant that also cuts fuel through fewer course deviations.",
+      "signal": "~$23M raised in 2024; deployed across 1,000+ vessels",
+      "status": "operating",
+      "source": "https://www.orca-ai.io/"
+     },
+     {
+      "name": "Cavotec",
+      "role": "incumbent",
+      "what": "Shore power (cold ironing) connection systems and automated mooring that let berthed ships shut engines off.",
+      "signal": "Listed Swiss incumbent; shore-power systems at major ports worldwide ahead of EU's 2030 onshore-power mandate",
+      "status": "operating",
+      "source": "https://www.cavotec.com/"
+     },
+     {
+      "name": "Graphite Innovation & Technologies (GIT Coatings)",
+      "role": "startup",
+      "what": "Graphene-based hard foul-release hull coatings (XGIT-FUEL/PROP) cutting drag, biofouling and underwater noise without biocides.",
+      "signal": "Commercial deployments across international fleets; venture-backed Canadian scale-out",
+      "status": "operating",
+      "source": "https://www.gitcoatings.com/"
+     },
+     {
+      "name": "NAPA",
+      "role": "incumbent",
+      "what": "Finnish ship design, stability and voyage optimization software embedded across yards, owners and class.",
+      "signal": "Decades-old incumbent whose fleet intelligence and loading software runs across the global fleet",
+      "status": "operating",
+      "source": "https://www.napa.fi/"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   "https://maritime-executive.com/article/e-methanol-producer-liquid-wind-enters-bankruptcy-administration",
+   "https://europeanenergy.com/2025/05/13/kasso-e-methanol-facility-officially-inaugurated/",
+   "https://www.offshore-energy.biz/maersks-green-methanol-containership-fleet-is-now-complete/",
+   "https://www.x-pressfeeders.com/news/x-press-feeders-starts-europes-first-feeder-network-powered-by-green-methanol-ushering-in-new-era-of-sustainable-shipping",
+   "https://shipandbunker.com/news/world/173661-eneos-and-maersk-boost-c2x-with-100-million-green-methanol-investment",
+   "https://www.lloydslist.com/LL1152410/MAN-to-deliver-first-ammonia-dual-fuel-engines-in-early-2026",
+   "https://maritime-executive.com/article/first-ammonia-dual-fuel-vessel-delivered-to-exmar",
+   "https://techcrunch.com/2025/07/15/amogy-raises-80m-to-power-ships-and-data-centers-with-ammonia/",
+   "https://www.worldcargonews.com/environment/2025/09/steel-cut-for-worlds-first-ammonia-powered-container-ship-yara-eyde/",
+   "https://www.yara.com/corporate-releases/yara-clean-ammonia-and-azane-granted-safety-permit-to-build-worlds-first-low-emission-ammonia-bunkering-terminal/",
+   "https://fuelcellsworks.com/2026/06/07/fuel-cells/pioneer-in-hydrogen-shipping-future-proof-shipping-bankrupt",
+   "https://maritime-executive.com/article/fuel-cell-pioneer-teco-2030-files-bankruptcy-as-industry-investment-slows",
+   "https://cleantechnica.com/2025/10/20/norways-ferry-operator-norled-could-have-saved-money-staff-by-skipping-hydrogen/",
+   "https://www.shippax.com/en/news/production-started-of-torghatten-nords-new-hydrogen-ferries.aspx",
+   "https://fuelcellsworks.com/2025/11/25/clean-technology/e1-marine-to-supply-hydrogen-reformers-for-powercell-s-first-commercial-methanol-to-power-system-order",
+   "https://www.electrive.com/2025/02/06/corvus-energy-to-supply-battery-system-for/",
+   "https://www.electrive.com/2026/03/19/e-boat-manufacturer-candela-secures-e30-million-from-investors/",
+   "https://energycapitalhtx.com/fleetzero-series-a-funding",
+   "https://www.geekwire.com/2024/electric-boating-insiders-react-to-pure-watercrafts-demise-as-court-documents-reveal-sell-off-details/",
+   "https://www.rivieramm.com/news-content-hub/news-content-hub/wind-assisted-propulsion-return-of-the-age-of-sail-87812",
+   "https://www.imarinenews.com/30206.html",
+   "https://www.ship-technology.com/news/anemoi-rotor-sails-vloc/",
+   "https://www.offshore-energy.biz/k-line-buys-out-kite-manufacturer-airseas/",
+   "https://www.compositesworld.com/news/michelin-wisamo-wingsail-to-equip-french-offshore-patrol-vessel",
+   "https://container-news.com/neoline-launches-first-transatlantic-service-with-newly-delivered-sail-cargo-ship/",
+   "https://maritime-executive.com/article/containerships-with-sails-and-fuel-cells-receive-abs-design-approval",
+   "https://titan-cleanfuels.com/titan-completes-first-bunkering-to-mol-under-new-term-contract/",
+   "https://maritime-executive.com/article/bp-invests-in-wastefuel-s-bio-methanol-and-signs-offtake-agreement",
+   "https://www.prnewswire.com/news-releases/seabound-launches-world-first-onboard-marine-carbon-capture-project-with-hartmann-intermaritime-and-heidelberg-materials-302506256.html",
+   "https://www.wartsila.com/media/news/07-05-2025-wartsila-launches-carbon-capture-solution-to-shipping-market-after-world-first-full-scale-installation-success-3582634",
+   "https://carbonherald.com/carbon-ridge-secures-9-5m-to-expand-onboard-carbon-capture-technology/",
+   "https://carbonherald.com/stax-engineering-secures-70m-to-scale-maritime-carbon-capture-partners-with-seabound-and-global-shipping-giants/",
+   "https://www.nucnet.org/news/core-power-announces-programme-to-bring-floating-nuclear-power-to-market-by-mid-2030s-2-2-2025",
+   "https://maritime-executive.com/article/fincantieri-joints-nuclear-propulsion-study-with-newcleo",
+   "https://gcaptain.com/hd-korea-shipbuilding-unveils-revolutionary-nuclear-powered-containership-design/",
+   "https://www.neimagazine.com/news/korean-shipbuilder-joins-nuclear-shipping-project-11502161/",
+   "https://www.lr.org/en/knowledge/horizons/july-2025/charting-silverstreams-innovative-journey-as-air-lubrication-comes-of-age/",
+   "https://maritime-executive.com/article/norwegian-timber-ship-will-be-first-to-use-wartsila-s-ammonia-engine"
+  ]
+ }
+}

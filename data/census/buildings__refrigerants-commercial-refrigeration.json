@@ -1,0 +1,487 @@
+{
+ "sector": "buildings",
+ "bucket": "Refrigerants & Commercial Refrigeration",
+ "census": {
+  "bucket": "Refrigerants & Commercial Refrigeration",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/0001627223/000095017025103204/cc-ex99_1.htm",
+   "https://www.achrnews.com/articles/164662-arkema-to-offer-r-454b-and-other-low-gwp-refrigerants",
+   "https://naturalrefrigerants.com/hillphoenix-reports-over-14000-transcritical-co2-systems-installed-globally/",
+   "https://naturalrefrigerants.com/news/hillphoenix-releases-next-generation-flex-mini-transcritical-co2-refrigeration-system-designed-for-smaller-food-retail-applications/",
+   "https://hydrocarbons21.com/articles/9058/north_america_andndash_steady_growth_despite_policy_setbacks",
+   "https://www.hussmann.com/news/hussmann-launches-complete-store-propane-micro-distributed-solution-united-states",
+   "https://naturalrefrigerants.com/news/google-buys-250000-carbon-credits-to-support-hfc-recovery-and-destruction-in-indonesia/",
+   "https://tradewater.us/verifiedcredits/",
+   "https://www.agas.com/us/news-insights/tpg-rise-climate-forms-strategic-partnership-with-kkr-as-new-majority-shareholder-in-a-gas/",
+   "https://www.hudsontech.com/press-releases-and-financial-results/hudson-technologies-reports-fourth-quarter-and-year-end-2025-results/",
+   "https://www.prnewswire.com/news-releases/msa-safety-highlights-comprehensive-refrigerant-management-and-new-monitoring-systems-at-ahr-expo-302673557.html",
+   "https://fexa.io/fexa-trakref/",
+   "https://www.refricomply.com/blog/best-refrigerant-tracking-software-2026/",
+   "https://www.prnewswire.com/news-releases/axiom-cloud-raises-7-4m-series-a-to-transform-commercial-refrigeration-using-ai-301722659.html",
+   "https://www.glaciergrid.com/company/newsroom/therma-rebrands-as-glaciergrid",
+   "https://www.greentechmedia.com/articles/read/a-defunct-energy-hardware-startup-is-reborn-as-software-centric-axiom-cloud",
+   "https://arpa-e.energy.gov/programs-and-initiatives/search-all-projects/saving-energy-commercial-and-industrial-refrigeration-systems-using-radiative-sky-cooling",
+   "https://naturalrefrigerants.com/news/atmo-europe-magnotherms-refrigerant-free-cooling-solution-15-more-energy-efficient-than-propane-says-ceo/",
+   "https://www.coolingpost.com/world-news/magnetocaloric-firm-attracts-e6-3m-funding/",
+   "https://tidewaterinvestco.com/phononic-announces-exclusive-cold-chain-licensing-agreement-with-peltier-inc/",
+   "https://raoglobal.org/insights/the-silent-revolution-developments-and-investments-in-refrigerant-free-cooling",
+   "https://www.givinggreen.earth/carbon-offsets-research/refrigerants"
+  ],
+  "variations": [
+   {
+    "name": "Low-GWP refrigerant chemistry and production (HFOs, low-GWP blends)",
+    "description": "Fluorochemical producers synthesize hydrofluoroolefins (HFOs) and low-GWP blends that drop into air conditioning and refrigeration equipment with 90-99% lower warming potential than the HFCs being phased down under the AIM Act and EU F-gas rules, making this the fastest lever for cutting refrigerant emissions at scale.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Chemours",
+      "role": "incumbent",
+      "what": "Produces the Opteon HFO refrigerant family (R-1234yf, R-454B etc.) and is the US market leader in AIM Act transition chemistry.",
+      "signal": "Opteon refrigerant revenue +80% YoY in Q3 2025, now ~80% of total refrigerant sales; completed neat-Opteon capacity expansion at Corpus Christi in 2025.",
+      "status": "operating",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001627223/000095017025103204/cc-ex99_1.htm"
+     },
+     {
+      "name": "Honeywell",
+      "role": "incumbent",
+      "what": "Makes the Solstice HFO portfolio (1234yf, 1234ze, R-454B) \u2014 the other half of the global HFO patent duopoly with Chemours.",
+      "signal": "Multi-billion-dollar cumulative Solstice sales; doubled Baton Rouge 1234ze capacity; in May 2025 began supplying HFO blends to Arkema for resale.",
+      "status": "operating",
+      "source": "https://advancedmaterials.honeywell.com/us/en/products/air-conditioning-refrigeration-and-heating/solstice-hfos"
+     },
+     {
+      "name": "Koura (Orbia)",
+      "role": "incumbent",
+      "what": "Orbia's fluorine business; vertically integrated from its own fluorspar mine into Klea-brand low-GWP refrigerants and propellants.",
+      "signal": "One of the few non-US/Japan HFO/low-GWP producers; mine-to-molecule integration gives feedstock cost advantage.",
+      "status": "operating",
+      "source": "https://www.kouraglobal.com/"
+     },
+     {
+      "name": "Arkema",
+      "role": "incumbent",
+      "what": "Sells Forane-brand refrigerants and in May 2025 struck a commercial arrangement with Honeywell to offer R-454B and other low-GWP HFO blends.",
+      "signal": "Forane R-454B (GWP 466) specified by multiple HVAC OEMs as the R-410A successor; deal announced May 2025.",
+      "status": "operating",
+      "source": "https://www.achrnews.com/articles/164662-arkema-to-offer-r-454b-and-other-low-gwp-refrigerants"
+     },
+     {
+      "name": "Daikin (Daikin Chemical)",
+      "role": "incumbent",
+      "what": "Only company that is both a refrigerant chemical producer and the world's largest AC OEM; champions mildly-low-GWP R-32 and develops HFO blends.",
+      "signal": "R-32 now the default in residential AC globally; partnered with Honeywell to expand Solstice use in Japan.",
+      "status": "operating",
+      "source": "https://www.hpac.com/columns/engineering-green-buildings/article/21118831/refrigerants-energy-efficiency-air-conditioning"
+     },
+     {
+      "name": "Zhejiang Juhua",
+      "role": "incumbent",
+      "what": "China's largest fluororefrigerant producer by volume, building HFO-1234yf/ze capacity as Chinese HFC quotas tighten under Kigali.",
+      "signal": "Among top global refrigerant producers by tonnage; multiple HFO capacity additions announced 2024-2025.",
+      "status": "operating",
+      "source": "https://www.mordorintelligence.com/industry-reports/refrigerants-market/companies"
+     }
+    ],
+    "white_space": "No startup layer exists and likely cannot: fluorochemical plants cost hundreds of millions, HFO process IP is locked up by the Chemours-Honeywell patent estate, and growing PFAS/TFA scrutiny of HFOs in Europe makes new fluorinated molecules a liability; the real opening is on the natural-refrigerant side (equipment, not chemistry) and in TFA-risk analytics."
+   },
+   {
+    "name": "Natural-refrigerant equipment (CO2 transcritical racks, R290 self-contained cases, ammonia systems)",
+    "description": "Equipment OEMs replace HFC systems entirely with refrigerants that have near-zero warming potential \u2014 CO2 (GWP 1) rack systems for supermarkets, propane/R290 (GWP ~3) sealed display cases, and low-charge ammonia for industrial cold storage \u2014 eliminating refrigerant emissions at the source rather than managing them.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Advansor (Dover)",
+      "role": "incumbent",
+      "what": "Danish CO2-only rack builder, Europe's leading transcritical OEM; launched AdvansorUltra (450 TR per rack) in 2025 for large-format and industrial loads.",
+      "signal": "Thousands of CO2 racks installed across Europe; products now sold in North America through sister company Hillphoenix.",
+      "status": "operating",
+      "source": "https://www.hillphoenix.com/products/second-nature-advansor-co2"
+     },
+     {
+      "name": "Hillphoenix (Dover)",
+      "role": "incumbent",
+      "what": "North America's CO2 supermarket-refrigeration leader, spanning big-store boosters down to the Flex Mini for small-format stores.",
+      "signal": "Reports 14,000+ transcritical CO2 systems installed globally; 85% of 2025 racks optioned with its ChargeSecure charge-preservation system.",
+      "status": "operating",
+      "source": "https://naturalrefrigerants.com/hillphoenix-reports-over-14000-transcritical-co2-systems-installed-globally/"
+     },
+     {
+      "name": "Copeland",
+      "role": "incumbent",
+      "what": "Former Emerson Climate Technologies (Blackstone majority since 2023); supplies the CO2 scroll/semi-hermetic compressors, valves and rack controls inside most OEMs' natural-refrigerant systems.",
+      "signal": "One of the largest compressor makers globally; broad CO2 and R290-qualified component portfolio.",
+      "status": "operating",
+      "source": "https://www.copeland.com/en-us/products/co2-solutions"
+     },
+     {
+      "name": "BITZER",
+      "role": "incumbent",
+      "what": "Largest independent compressor manufacturer; its CO2 transcritical reciprocating compressors are the workhorse of European supermarket racks.",
+      "signal": "Family-owned, ~EUR 1B+ revenue; CO2 product line spans subcritical to high-pressure transcritical.",
+      "status": "operating",
+      "source": "https://www.bitzer.de/gb/en/co2/"
+     },
+     {
+      "name": "Hussmann (Panasonic)",
+      "role": "incumbent",
+      "what": "US display-case and systems maker pushing R290 micro-distributed architecture (microDS line) so supercenters, dollar and drug stores can go HFC-free without a machine room.",
+      "signal": "Launched microDS self-contained glycol-cooled propane cases and 'Complete Store' propane solution for the US market.",
+      "status": "operating",
+      "source": "https://www.hussmann.com/news/hussmann-launches-complete-store-propane-micro-distributed-solution-united-states"
+     },
+     {
+      "name": "AHT Cooling Systems (Daikin)",
+      "role": "incumbent",
+      "what": "Pioneer of plug-in R290 commercial cases with 20+ years of propane cabinet production; launched the BOREA R290 multideck in plug-in and semi-plug-in versions.",
+      "signal": "Daikin acquired AHT in 2019 (~EUR 881M); millions of hydrocarbon cabinets fielded across food retail.",
+      "status": "operating",
+      "source": "https://naturalrefrigerants.com/news/aht-launches-new-r290-plug-in-and-semi-plug-in-multideck-refrigerated-cases/"
+     },
+     {
+      "name": "True Manufacturing",
+      "role": "incumbent",
+      "what": "Largest US commercial reach-in maker; converted its core self-contained product line to R290 ahead of EPA SNAP/AIM deadlines.",
+      "signal": "Cited as an early large-scale R290 converter alongside Welbilt and Beverage-Air in North American market reporting.",
+      "status": "operating",
+      "source": "https://hydrocarbons21.com/articles/9058/north_america_andndash_steady_growth_despite_policy_setbacks"
+     },
+     {
+      "name": "Star Refrigeration / Azane",
+      "role": "scaleup",
+      "what": "UK industrial refrigeration engineer whose Azane line packages low-charge ammonia (Azanefreezer/Azanechiller) so cold stores get NH3 efficiency without large toxic charges.",
+      "signal": "Low-charge packaged ammonia named among the leading offerings in North American natural-refrigerant market reviews.",
+      "status": "operating",
+      "source": "https://hydrocarbons21.com/articles/9058/north_america_andndash_steady_growth_despite_policy_setbacks"
+     },
+     {
+      "name": "M&M Carnot",
+      "role": "scaleup",
+      "what": "Quebec/US manufacturer (Carnot Refrigeration heritage) building CO2 transcritical and low-charge ammonia systems for retail, ice rinks and industrial cold storage \u2014 the main independent North American CO2 OEM.",
+      "signal": "Hundreds of CO2 installations in North America; one of the earliest transcritical builders on the continent (since 2008).",
+      "status": "operating",
+      "source": "https://mmcarnot.com/"
+     }
+    ]
+   },
+   {
+    "name": "Refrigerant recovery, reclamation and destruction (incl. carbon-credit-financed models)",
+    "description": "Companies collect used or stockpiled refrigerant and either purify it back to spec for resale (reclamation, now mandated for servicing under EPA's ER&R rule) or incinerate it for carbon credits, preventing gases up to 10,000x more potent than CO2 from venting to the atmosphere.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Tradewater",
+      "role": "scaleup",
+      "what": "Pioneer of carbon-credit-financed collection and destruction of CFC/HCFC/HFC stockpiles, operating across the US, Latin America, Africa and Asia.",
+      "signal": "5M+ tCO2e of refrigerant emissions destroyed to date; credits sold into California compliance and voluntary markets; a Giving Green top recommendation.",
+      "status": "operating",
+      "source": "https://tradewater.us/verifiedcredits/"
+     },
+     {
+      "name": "Recoolit",
+      "role": "startup",
+      "what": "Indonesian startup paying HVAC technicians to recover HFCs at end-of-life and destroying them, selling verified credits at ~$75/tonne.",
+      "signal": "Google signed a multi-year purchase of 250,000 carbon credits (April 2025), funding ~10x scale-up and expansion beyond Indonesia.",
+      "status": "operating",
+      "source": "https://naturalrefrigerants.com/news/google-buys-250000-carbon-credits-to-support-hfc-recovery-and-destruction-in-indonesia/"
+     },
+     {
+      "name": "A-Gas",
+      "role": "incumbent",
+      "what": "Global leader in refrigerant lifecycle management \u2014 recovery (Rapid Recovery service), reclamation, banking and destruction across US, Europe, Asia, Africa.",
+      "signal": "TPG Rise Climate became majority shareholder in Aug 2023 (KKR retained minority); grew revenue ~14%/yr under KKR ownership.",
+      "status": "operating",
+      "source": "https://www.agas.com/us/news-insights/tpg-rise-climate-forms-strategic-partnership-with-kkr-as-new-majority-shareholder-in-a-gas/"
+     },
+     {
+      "name": "Hudson Technologies",
+      "role": "incumbent",
+      "what": "Largest US refrigerant reclaimer (NASDAQ: HDSN), positioned as the supply backstop as virgin HFC allowances step down 40% through 2029.",
+      "signal": "Reclamation volume grew 18% in 2025, the second consecutive 18% year; selected for CARB's ReFresh recovery/reclaim pilot; acquired Refrigerants Inc. in 2025.",
+      "status": "operating",
+      "source": "https://www.hudsontech.com/press-releases-and-financial-results/hudson-technologies-reports-fourth-quarter-and-year-end-2025-results/"
+     },
+     {
+      "name": "Refrigerants, Inc.",
+      "role": "incumbent",
+      "what": "Regional US refrigerant reclaimer and distributor consolidated into Hudson Technologies as reclaim demand grows.",
+      "signal": "Acquired by Hudson Technologies in an accretive deal announced 2025.",
+      "status": "acquired",
+      "source": "https://www.hudsontech.com/press-releases/hudson-technologies-announces-acquisition-of-refrigerants-inc/"
+     },
+     {
+      "name": "National Refrigerants",
+      "role": "incumbent",
+      "what": "One of the largest independent US refrigerant reclaimers and packagers, family-owned, with EPA-certified reclamation labs.",
+      "signal": "Decades-long operator; benefits from EPA ER&R rule requiring reclaimed HFCs for servicing certain equipment starting 2029.",
+      "status": "operating",
+      "source": "https://www.refrigerants.com/"
+     }
+    ],
+    "white_space": "The US reclaim market is consolidating around a few incumbents, but recovery rates remain ~5-10% of theoretical and the Global South has almost no collection infrastructure \u2014 Recoolit's Google deal shows corporate buyers will fund technician-network models in Article 5 countries, and EPA's 2026-2029 reclaim mandates plus state rules (CARB) create room for tech-enabled aggregation of the fragmented contractor recovery chain."
+   },
+   {
+    "name": "Refrigerant leak detection and monitoring hardware",
+    "description": "Fixed and networked gas sensors continuously sniff machine rooms, sales-floor cases and chillers for refrigerant leaks \u2014 supermarkets typically leak ~25% of their charge annually \u2014 and new EPA AIM Act rules mandating automatic leak detection on large systems from 2026-2027 are turning a safety product into a compliance requirement.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "MSA Safety (Bacharach / Parasense)",
+      "role": "incumbent",
+      "what": "Consolidated the category by acquiring Bacharach (2021, ~$337M) and Parasense assets; sells fixed, portable and IoT-connected refrigerant monitors plus enterprise leak-detection software for food retail.",
+      "signal": "Debuted new Bacharach X30 and X50 refrigerant monitors at AHR Expo 2026 aimed at AIM Act compliance retrofits.",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/msa-safety-highlights-comprehensive-refrigerant-management-and-new-monitoring-systems-at-ahr-expo-302673557.html"
+     },
+     {
+      "name": "Danfoss",
+      "role": "incumbent",
+      "what": "Sells the DGS gas-sensor line purpose-built for commercial refrigeration and integrates leak alarms directly into its case and pack controllers.",
+      "signal": "One of the named leaders in the refrigerant leak monitor market; sensors bundled with its dominant food-retail controls base.",
+      "status": "operating",
+      "source": "https://www.danfoss.com/en/products/dcs/sensors-and-transmitters/gas-sensors/gas-detecting-sensors/gas-detection-for-commercial-refrigeration/"
+     },
+     {
+      "name": "CAREL",
+      "role": "incumbent",
+      "what": "Italian controls maker embedding refrigerant leak detection into its supermarket rack and case control ecosystem.",
+      "signal": "Listed among leading refrigerant leak monitor players; controls installed base across European food retail.",
+      "status": "operating",
+      "source": "https://www.datainsightsmarket.com/reports/refrigerant-leak-monitors-1512318"
+     },
+     {
+      "name": "Honeywell (Manning Systems / Sensepoint)",
+      "role": "incumbent",
+      "what": "Industrial gas-detection arm covering ammonia and halocarbon monitoring for cold storage and machine rooms.",
+      "signal": "Named among market leaders in refrigerant leak monitoring alongside MSA and Danfoss.",
+      "status": "operating",
+      "source": "https://www.datainsightsmarket.com/reports/refrigerant-leak-monitors-1512318"
+     },
+     {
+      "name": "Critical Environment Technologies",
+      "role": "incumbent",
+      "what": "Canadian fixed gas-detection maker with refrigerant-specific monitors for mechanical rooms and walk-ins.",
+      "signal": "Cited among leading refrigerant leak monitor vendors in 2025 market analyses.",
+      "status": "operating",
+      "source": "https://www.datainsightsmarket.com/reports/refrigerant-leak-monitors-1512318"
+     },
+     {
+      "name": "Samon",
+      "role": "incumbent",
+      "what": "Swedish specialist focused solely on refrigerant gas detection (HFC, CO2, NH3, HC) for supermarkets and industrial refrigeration.",
+      "signal": "Long-established niche specialist exporting across Europe; CO2/R290 sensor demand growing with natural-refrigerant adoption.",
+      "status": "operating",
+      "source": "https://www.samon.se/"
+     }
+    ],
+    "white_space": "Hardware is incumbent-dominated with essentially no venture-backed entrants \u2014 sensing physics (infrared/semiconductor cells) is commoditized and channels run through HVAC distribution \u2014 but the EPA's automatic-leak-detection mandate (effective 2026-2027) plus natural-refrigerant safety sensing (CO2/R290 in occupied spaces) creates an opening for cheap networked per-case sensors fused with software analytics, which is currently being attacked from the software side (e.g., Axiom Cloud's sensorless leak detection) rather than by new hardware players."
+   },
+   {
+    "name": "Refrigerant compliance and lifecycle management software",
+    "description": "SaaS platforms track every cylinder, charge, leak event and repair across an equipment fleet to automate EPA Section 608/AIM Act and EU F-gas recordkeeping \u2014 newly urgent because the EPA ER&R rule's leak-repair, ALD and reporting requirements took effect January 2026 and pull thousands of previously exempt systems into regulation.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Trakref (Fexa Trakref)",
+      "role": "scaleup",
+      "what": "The original enterprise refrigerant-compliance SaaS, acquired by facilities-management platform Fexa and relaunched as Fexa Trakref combining CMMS work orders with refrigerant tracking.",
+      "signal": "Fexa-Trakref API integration launched Q1 2025; positioned as the enterprise standard for multi-site AIM Act compliance.",
+      "status": "acquired",
+      "source": "https://fexa.io/fexa-trakref/"
+     },
+     {
+      "name": "Fexa",
+      "role": "scaleup",
+      "what": "Facilities-management software company that bought Trakref to own the refrigerant-compliance workflow inside grocery and retail maintenance operations.",
+      "signal": "Publishing the de facto industry guidance for the Jan 2026 AIM Act ER&R rollout; quote-based enterprise pricing.",
+      "status": "operating",
+      "source": "https://fexa.io/blog/2026-new-refrigerant-and-emissions-reporting-requirements/"
+     },
+     {
+      "name": "MSA Safety (Parasense RTC)",
+      "role": "incumbent",
+      "what": "Refrigerant Tracking and Compliance software paired with its Parasense enterprise leak-detection hardware for food-retail chains.",
+      "signal": "Marketed as a combined hardware+software compliance stack across multi-site food retail.",
+      "status": "operating",
+      "source": "https://blog.msasafety.com/parasense-a-smarter-way-to-manage-refrigerant-across-multiple-food-retail-sites/"
+     },
+     {
+      "name": "Sphera",
+      "role": "incumbent",
+      "what": "Enterprise EHS/ESG suite with a refrigerant compliance module covering inventory, regulatory reporting and emissions accounting.",
+      "signal": "Ranked among top refrigerant compliance management software in 2025-2026 buyer guides.",
+      "status": "operating",
+      "source": "https://safetyculture.com/apps/refrigerant-compliance-management-software"
+     },
+     {
+      "name": "Accruent",
+      "role": "incumbent",
+      "what": "Facilities and asset-management software (vx Observe/Maintain) offering centralized refrigerant tracking and automated compliance alerts for retail portfolios.",
+      "signal": "Listed among leading refrigerant compliance platforms; large installed grocery base.",
+      "status": "operating",
+      "source": "https://safetyculture.com/apps/refrigerant-compliance-management-software"
+     },
+     {
+      "name": "RefriTrak",
+      "role": "startup",
+      "what": "Self-serve EPA 608/AIM compliance automation for HVAC contractors at $9.99-$49.99/month \u2014 the low end of the market the enterprise tools ignore.",
+      "signal": "Competing on price and simplicity against quote-based enterprise platforms; active 2025-2026 content/SEO push.",
+      "status": "operating",
+      "source": "https://www.refritrak.com/en/blog/best-refrigerant-compliance-software-2026"
+     },
+     {
+      "name": "RefriComply",
+      "role": "startup",
+      "what": "Mobile-first refrigerant logging and EPA compliance for small-to-mid HVAC contractors doing field service.",
+      "signal": "Emerging contractor-segment entrant publishing 2026 comparison guides; early stage.",
+      "status": "operating",
+      "source": "https://www.refricomply.com/blog/best-refrigerant-tracking-software-2026/"
+     },
+     {
+      "name": "Facilio",
+      "role": "scaleup",
+      "what": "Connected-CMMS platform adding refrigerant compliance to unify the siloed FM tools grocers run today.",
+      "signal": "~$35M Series B (2023, Dragoneer); pitching grocery chains on consolidating refrigerant, energy and work-order software.",
+      "status": "operating",
+      "source": "https://www.nexuslabs.online/content/grocery-facility-software-silos-refrigerant-compliance"
+     }
+    ],
+    "white_space": "The category is fragmented between legacy enterprise tools and tiny contractor apps with no clear venture-scale winner; the Jan 2026 ER&R reporting wave, 2027 ALD mandates and EU F-gas 2024 recast force every operator of >15-lb systems into auditable digital records, an opening for a modern system-of-record that fuses sensor data, work orders and Scope 1 emissions reporting \u2014 currently being approached sideways by CMMS (Fexa, Facilio) and monitoring (Axiom) players rather than head-on."
+   },
+   {
+    "name": "Grocery and building refrigeration optimization (AI monitoring/controls, case doors, anti-sweat, thermal storage)",
+    "description": "Software, controls and retrofit hardware squeeze 10-40% energy and leak reductions out of existing refrigeration fleets \u2014 AI that watches rack telemetry to catch leaks and tune setpoints, retrofitted glass doors and adaptive anti-sweat heater controls, and phase-change thermal storage that shifts compressor load off peak \u2014 delivering emissions cuts without replacing the refrigeration system.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Axiom Cloud",
+      "role": "startup",
+      "what": "AI 'Virtual Technician' and 'Virtual Battery' apps that sit on top of existing rack controllers to detect leaks early, auto-triage faults and shift refrigeration load like a thermal battery.",
+      "signal": "$7.4M Series A (2023, Blue Bear Capital; ~$11.6M total) plus $5M dedicated to scaling AI leak detection; customers include Whole Foods, Sprouts, Grocery Outlet, HelloFresh.",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/axiom-cloud-raises-7-4m-series-a-to-transform-commercial-refrigeration-using-ai-301722659.html"
+     },
+     {
+      "name": "GlacierGrid (formerly Therma)",
+      "role": "startup",
+      "what": "Wireless temperature sensing plus HVAC/refrigeration energy management for restaurants, c-stores and hospitality \u2014 the small-format end Axiom doesn't serve.",
+      "signal": "$19M Series A (Feb 2024, Zero Infinity Partners); deployed with McDonald's, Marriott and 7-Eleven locations; rebranded from Therma Feb 2024.",
+      "status": "operating",
+      "source": "https://www.glaciergrid.com/company/newsroom/therma-rebrands-as-glaciergrid"
+     },
+     {
+      "name": "CrossnoKaye",
+      "role": "startup",
+      "what": "Atlas operating system replacing legacy PLC control in industrial cold storage and food processing, optimizing refrigeration energy and enabling demand response.",
+      "signal": "Venture-backed Santa Barbara company (founded 2017) with deployments across US cold-storage and food/beverage operators.",
+      "status": "operating",
+      "source": "https://www.zoominfo.com/c/crossnokaye-inc/455572855"
+     },
+     {
+      "name": "Ndustrial",
+      "role": "startup",
+      "what": "Energy-intensity analytics platform (Nsight) for cold chain operators, normalizing kWh per pallet/pound to drive refrigeration savings.",
+      "signal": "ABB-backed; flagship deployment with Lineage Logistics, the world's largest cold-storage REIT.",
+      "status": "operating",
+      "source": "https://ndustrial.io/"
+     },
+     {
+      "name": "Viking Cold Solutions",
+      "role": "scaleup",
+      "what": "Phase-change-material thermal energy storage installed in low-temp freezers and supermarkets to shift compressor load off-peak and ride through outages.",
+      "signal": "Reports 20,000+ MWh saved, 14,000+ tCO2 avoided and $17M of product loss mitigated across installations; state TES incentive programs (CO, MN) now cover its systems.",
+      "status": "operating",
+      "source": "https://www.vikingcold.com/supermarket/"
+     },
+     {
+      "name": "SkyCool Systems",
+      "role": "startup",
+      "what": "Radiative-cooling panels that passively reject heat to the sky, retrofitted onto supermarket condensers to cut refrigeration energy.",
+      "signal": "ARPA-E-funded to mature its performance model with supermarket and cold-storage operators; claims up to ~40% cooling-system efficiency gains; Stanford spinout.",
+      "status": "operating",
+      "source": "https://arpa-e.energy.gov/programs-and-initiatives/search-all-projects/saving-energy-commercial-and-industrial-refrigeration-systems-using-radiative-sky-cooling"
+     },
+     {
+      "name": "Danfoss (Alsense)",
+      "role": "incumbent",
+      "what": "Cloud food-retail platform layered on its dominant case/pack controller base, including adaptive anti-sweat heater control and floating head pressure optimization.",
+      "signal": "Controls incumbent with one of the largest installed bases in global food retail; Alsense IoT services expanding 2024-2026.",
+      "status": "operating",
+      "source": "https://www.danfoss.com/en/products/dcs/monitoring-and-services/alsense/"
+     },
+     {
+      "name": "Copeland (Lumity / ProAct)",
+      "role": "incumbent",
+      "what": "Supervisory controls plus ProAct enterprise monitoring centers that watch thousands of stores' refrigeration for faults, setpoints and anti-sweat scheduling.",
+      "signal": "Monitors tens of thousands of retail sites; controls arm of the former Emerson Climate business.",
+      "status": "operating",
+      "source": "https://www.copeland.com/en-us/products/controls-monitoring-systems"
+     },
+     {
+      "name": "Anthony (Dover)",
+      "role": "incumbent",
+      "what": "Leading maker of display-case glass doors and lighting, including retrofit door programs that convert open cases \u2014 one of the highest-ROI refrigeration efficiency measures.",
+      "signal": "Dover Food Retail sister brand to Hillphoenix; case-door retrofits cut open-case energy use roughly two-thirds.",
+      "status": "operating",
+      "source": "https://www.anthonyintl.com/"
+     },
+     {
+      "name": "Axiom Exergy",
+      "role": "startup",
+      "what": "Built hardware 'refrigeration battery' salt-tank thermal storage for supermarkets \u2014 the cautionary hardware-first predecessor of Axiom Cloud.",
+      "signal": "Raised ~$12.5M (incl. Shell Ventures) but shut down June 2020 when hardware economics would not scale; assets went to Turntide and the team relaunched as software-only Axiom Cloud.",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.greentechmedia.com/articles/read/a-defunct-energy-hardware-startup-is-reborn-as-software-centric-axiom-cloud"
+     }
+    ]
+   },
+   {
+    "name": "Solid-state and novel-cycle refrigeration (thermoelectric, magnetocaloric, elastocaloric)",
+    "description": "Replaces the vapor-compression cycle entirely \u2014 thermoelectric chips, magnetocaloric alloys cycled through magnetic fields, or elastocaloric shape-memory metals \u2014 to make refrigerant-free, quiet, precisely controlled cooling for merchandisers and cold cases, eliminating both refrigerant emissions and compressor losses if efficiency and cost can match incumbents.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Phononic",
+      "role": "scaleup",
+      "what": "The most commercialized solid-state player: thermoelectric merchandiser fridges/freezers and cold-chain totes \u2014 now refocusing its own business on data-center/optoelectronics cooling.",
+      "signal": "$50M growth round from Goldman Sachs AM (2021); in Oct 2025 granted an exclusive cold-chain license for its ACS platform to Peltier Technology Inc., effectively outsourcing the grocery/merchandiser market.",
+      "status": "operating",
+      "source": "https://tidewaterinvestco.com/phononic-announces-exclusive-cold-chain-licensing-agreement-with-peltier-inc/"
+     },
+     {
+      "name": "Peltier Technology",
+      "role": "startup",
+      "what": "Newly formed licensee commercializing Phononic's solid-state Active Cooling Solutions (merchandisers, totes, docking stations) through the cold chain to grocery shelves and last-mile delivery.",
+      "signal": "Exclusive cold-chain licensing agreement signed October 2025; commercial rollout phase.",
+      "status": "operating",
+      "source": "https://tidewaterinvestco.com/phononic-announces-exclusive-cold-chain-licensing-agreement-with-peltier-inc/"
+     },
+     {
+      "name": "Magnotherm",
+      "role": "startup",
+      "what": "German (TU Darmstadt spinout) magnetocaloric cooling company building refrigerant-free beverage coolers and the Eclipse supermarket display system.",
+      "signal": "~EUR 11M raised (incl. EUR 6.3M round); May-Sep 2025 supermarket pilot measured 15% better energy efficiency than a comparable R290 unit; won ATMO Europe 2025 refrigeration innovation award.",
+      "status": "operating",
+      "source": "https://naturalrefrigerants.com/news/atmo-europe-magnotherms-refrigerant-free-cooling-solution-15-more-energy-efficient-than-propane-says-ceo/"
+     },
+     {
+      "name": "Exergyn",
+      "role": "startup",
+      "what": "Dublin-based elastocaloric company developing shape-memory-alloy cores intended to drop into OEM HVACR products as a refrigerant-free heat-pumping engine.",
+      "signal": "~$37M raised; strategic investment from Carrier Ventures signaling OEM-integration path.",
+      "status": "operating",
+      "source": "https://raoglobal.org/insights/the-silent-revolution-developments-and-investments-in-refrigerant-free-cooling"
+     },
+     {
+      "name": "Barocal",
+      "role": "startup",
+      "what": "Cambridge University spinout developing barocaloric (pressure-driven solid refrigerant) cooling using cheap plastic-crystal materials.",
+      "signal": "Global Cooling Prize finalist; still at lab/prototype stage as of 2025-2026.",
+      "status": "operating",
+      "source": "https://barocal.com/"
+     }
+    ],
+    "white_space": "Very few credible players because physics is unforgiving: thermoelectric COP collapses at large temperature lifts, and caloric approaches face expensive materials (rare-earth magnets, NiTi fatigue life) and complex mechanics \u2014 Phononic licensing its cold-chain business away after ~$200M invested is strong evidence merchandiser economics remain hard; the opening is premium niches where silence, precision or zero-refrigerant compliance justify a price premium (lab/medical, urban micro-stores, EU F-gas-constrained formats) while materials costs ride down."
+   }
+  ]
+ }
+}

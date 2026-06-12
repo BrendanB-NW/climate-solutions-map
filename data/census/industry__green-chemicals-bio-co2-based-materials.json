@@ -1,0 +1,525 @@
+{
+ "sector": "industry",
+ "bucket": "Green Chemicals & Bio/CO2-Based Materials",
+ "census": {
+  "bucket": "Green Chemicals & Bio/CO2-Based Materials",
+  "sources": [
+   "https://www.genomatica.com/news-content/worlds-largest-geno-bio-bdo-plant-commences-operations-in-iowa/",
+   "https://www.cathaybiotech.com/en/",
+   "https://www.visolisbio.com/",
+   "https://www.zymochem.com/seed",
+   "https://solugen.com/solugen-secures-conditional-commitment-for-213-6m-doe-loan-guarantee-bolstering-u-s-leadership-in-green-manufacturing-and-domestic-chemical-production",
+   "https://www.fiercebiotech.com/biotech/debut-biotech-picks-up-22m-series-a-for-cell-free-biomanufacturing-facility",
+   "https://ir.lanzatech.com/news-releases/news-release-details/lanzatech-reports-third-quarter-2025-financial-results",
+   "https://www.wastetodaymagazine.com/news/lanzatech-carbon-waste-conversion-aviation-fuel-loss-q2-2025/",
+   "https://again.bio/",
+   "https://www.synbiobeta.com/read/danish-startup-again-launches-revolutionary-co2-utilization-plant-with-10m-funding",
+   "https://www.circebioscience.com",
+   "https://wyss.harvard.edu/news/circe-bioscience-licenses-technology-to-decarbonize-industry-with-microbes-developed-at-wyss-institute-at-harvard-university/",
+   "https://www.prnewswire.com/news-releases/twelve-announces-645-million-in-funding-led-by-tpg-to-transform-co2-into-jet-fuel-and-electrochemicals-at-scale-302253142.html",
+   "https://ocochem.com/ocochem-announces-completion-of-worlds-largest-co2-electrolyzer/",
+   "https://cleantech.com/cleantech-50-to-watch-case-study-dioxycle/",
+   "https://greyb.com/blog/cert-systems-scouted-interview/",
+   "https://newsroom.avantium.com/avantium-receives-35-million-eu-grant-for-co2-conversion-project/",
+   "https://www.prnewswire.com/news-releases/oxylus-energy-raises-4-5-million-seed-round-for-clean-fuel-technology-302237086.html",
+   "https://carbonrecycling.com/about/news/cri-signs-technology-agreement-e-methanol-plants",
+   "https://europeanenergy.com/2025/05/13/kasso-e-methanol-facility-officially-inaugurated/",
+   "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2784228-liquid-wind-plans-modular-e-methanol-projects-for-sale",
+   "https://www.newlight.com/aircarbon",
+   "https://www.plasticsengineering.org/2024/08/mango-materials-transforms-waste-methane-into-pha-005952/",
+   "https://www.econic-technologies.com/changhua-begins-commercial-production-of-co2-polyols-based-on-econics-technology/",
+   "https://www.covestro.com/press/first-thermoplastic-polyurethane-based-on-co2-technology/",
+   "https://www.businesswire.com/news/home/20260429217577/en/NatureWorks-Announces-Grand-Opening-of-Fully-Integrated-Ingeo-Biopolymer-Manufacturing-Facility-in-Thailand",
+   "https://newsroom.avantium.com/avantium-successfully-starts-up-first-part-of-its-fdca-flagship-plant/",
+   "https://www.bioplasticsmagazine.com/en/news/meldungen/20250326-danimer.php",
+   "https://cen.acs.org/materials/polymers/Sustainable-polymer-makers-Danimer-Brightmark/103/web/2025/03",
+   "https://www.trinseo.com/news-and-events/trinseo-news/2025/november/trinseo-and-rwdc-industries-advance-pha-dispersion-technology-for-barrier-coatings-applications",
+   "https://www.businesswire.com/news/home/20240923215610/en/Origin-Materials-Announces-Organizational-Streamlining-to-Further-Support-Caps-and-Closures-Business",
+   "https://www.upm.com/news-and-stories/releases/2025/12/upm-unlocks-new-bio-based-markets-as-leuna-biorefinery-produces-its-first-commercial-product/",
+   "https://www.storaenso.com/en/products/lignin/lineo",
+   "https://www.eu-startups.com/2025/05/swedish-greentech-startup-lignin-industries-fuels-the-renol-ution-with-e3-9-million-to-fight-fossil-plastics/",
+   "https://www.startupticker.ch/en/news/bloom-biorenewables-raises-chf-13-million-for-market-entry",
+   "https://www.evonik.com/en/news/press-releases/2024/05/evonik-drives-sustainable-biosurfactant-revolution-with-inaugura.html",
+   "https://www.globenewswire.com/news-release/2025/03/25/3048673/0/en/Sironix-Renewables-Accelerates-Manufacturing-Scale-Up-with-Recent-Investments.html",
+   "https://tracxn.com/d/companies/holiferm/__rJm0B_v9ZgNap7IBwwXMnjt6uSClPUT71mySyrnOT9s",
+   "https://locusingredients.com/",
+   "https://hpnow.com",
+   "https://cen.acs.org/materials/Mattiq-quest-make-billions-nanomaterials/103/web/2025/11",
+   "https://www.prweb.com/releases/sunthetics-secures-4-million-seed-round-to-revolutionize-chemical-industry-with-ai-powered-innovation-302302284.html"
+  ],
+  "variations": [
+   {
+    "name": "Fermentation & synbio platform chemicals from sugars",
+    "description": "Engineered microbes ferment plant sugars directly into high-volume chemical building blocks (diols, diacids, monomers, solvents) that drop into existing supply chains at up to ~90% lower greenhouse-gas emissions than petrochemical routes.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Geno (Genomatica)",
+      "role": "scaleup",
+      "what": "Licenses single-step fermentation to make bio-BDO (1,4-butanediol) and other intermediates from plant sugars for spandex, packaging and personal care.",
+      "signal": "World's largest Geno bio-BDO plant started in Eddyville, Iowa; Hyosung TNC investing ~$1B in Vietnam plants; ~150 kt/yr licensed capacity in operation/construction.",
+      "status": "operating",
+      "source": "https://www.genomatica.com/news-content/worlds-largest-geno-bio-bdo-plant-commences-operations-in-iowa/"
+     },
+     {
+      "name": "Cathay Biotech (Cathay Industrial Biotech)",
+      "role": "incumbent",
+      "what": "Large-scale fermentation of bio-based long-chain diacids (DDDA) and PA56 bio-nylon (TERRYL/ECOPENT) from sugar feedstocks.",
+      "signal": "STAR-listed; ~$456M trailing-12-mo revenue (Sep 2025); 2024 net profit ~487M yuan; partnering CATL on polyamide composites.",
+      "status": "operating",
+      "source": "https://www.plastmatch.com/news/cathay-biotech-profit-soars-by-51-long-chain-ciixgavx-detail"
+     },
+     {
+      "name": "Visolis",
+      "role": "startup",
+      "what": "Ferments biomass to mevalonic acid, then chemically converts it to bio-isoprene (rubber monomer), SAF and specialty solvents.",
+      "signal": "Zeon partnership toward a commercial bio-isoprene plant (announced 2025); >$5M U.S. DoD/DBIMP funding for bio-based solvents.",
+      "status": "operating",
+      "source": "https://www.synbiobeta.com/read/why-the-department-of-war-is-backing-visolis-to-scale-bio-based-solvents"
+     },
+     {
+      "name": "ZymoChem",
+      "role": "startup",
+      "what": "Carbon-efficient fermentation platform that avoids CO2 loss to make bio-based monomers (e.g., adipic acid, biodegradable superabsorbents).",
+      "signal": "$21M Series A led by Breakout Ventures with Lululemon and Toyota Ventures.",
+      "status": "operating",
+      "source": "https://pulse2.com/zymochem-21-million-in-funding/"
+     },
+     {
+      "name": "Corbion",
+      "role": "incumbent",
+      "what": "World-scale fermentation of lactic acid and lactide, the monomer feedstock for PLA and a range of bio-chemicals.",
+      "signal": "Leading global lactic-acid producer; took full control of the former TotalEnergies Corbion PLA business (2024).",
+      "status": "operating",
+      "source": "https://www.corbion.com/products/lactic-acid"
+     }
+    ]
+   },
+   {
+    "name": "Chemo-enzymatic & cell-free biomanufacturing",
+    "description": "Uses immobilized enzymes and/or metal catalysis (not whole living cells) to convert sugars and feedstocks into chemicals and ingredients, enabling higher yields, continuous operation and fewer purification steps than classical fermentation.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Solugen",
+      "role": "scaleup",
+      "what": "\"Bioforge\" platform pairs enzymes with metal catalysis to make organic acids (glucaric, gluconic) from dextrose for water treatment, ag and cleaning.",
+      "signal": "$213.6M DOE conditional loan guarantee; Bioforge Marshall (MN), ~120 kt/yr across 3 lines, targeting startup ~2025.",
+      "status": "operating",
+      "source": "https://www.manufacturingdive.com/news/solugen-receives-213-million-energy-department-biochemical-minnesota-facility/719421/"
+     },
+     {
+      "name": "Debut Biotech",
+      "role": "startup",
+      "what": "Cell-free (immobilized-enzyme) biomanufacturing of high-value cosmetic actives and ingredients from low-value feedstocks.",
+      "signal": "~$88M total raised incl. Series B led by L'Or\u00e9al BOLD; partners L'Or\u00e9al, DSM, DIC; ~80 employees.",
+      "status": "operating",
+      "source": "https://www.fiercebiotech.com/biotech/debut-biotech-picks-up-22m-series-a-for-cell-free-biomanufacturing-facility"
+     },
+     {
+      "name": "EnginZyme",
+      "role": "startup",
+      "what": "Cell-free biomanufacturing using engineered enzymes on solid supports to run metabolic pathways outside living cells.",
+      "signal": "Swedish cell-free platform company; current 2026 status not independently re-confirmed in this research.",
+      "status": "uncertain",
+      "source": "https://www.enginzyme.com/"
+     }
+    ],
+    "white_space": "Cell-free and chemo-enzymatic routes are hard at commodity scale because of enzyme cost, cofactor regeneration and stability; the credible opening is high-value specialty/cosmetic actives, or pairing enzymes with cheap metal catalysis as Solugen does to reach larger commodity volumes."
+   },
+   {
+    "name": "Waste-gas fermentation (CO/CO2 to ethanol, acetate, protein)",
+    "description": "Anaerobic acetogen and methanotroph microbes ferment industrial off-gases, syngas, captured CO2+H2 or methane into ethanol, acetic acid/acetate and single-cell protein, recycling carbon that would otherwise be emitted.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "LanzaTech",
+      "role": "scaleup",
+      "what": "Licenses gas-fermentation to convert steel-mill/industrial off-gas and MSW-derived syngas into ethanol and platform chemicals.",
+      "signal": "NASDAQ:LNZA; ~$9.3M Q3'25 revenue and going-concern warning (~$19.6M cash, Sep 2025); multiple licensed commercial plants in China; \u20ac40M EU Innovation Fund grant (Norway, 2025).",
+      "status": "uncertain",
+      "source": "https://www.wastetodaymagazine.com/news/lanzatech-carbon-waste-conversion-aviation-fuel-loss-q2-2025/"
+     },
+     {
+      "name": "Again",
+      "role": "startup",
+      "what": "Gas fermentation of CO2+H2 with ancient acetogens to make acetic acid/acetate and ammonium-sulphate fertilizer.",
+      "signal": "~$43M raised; first full-scale plant TXS-1 with Helen (Finland), 10-yr offtake up to 50 kt/yr acetic acid.",
+      "status": "operating",
+      "source": "https://www.synbiobeta.com/read/danish-startup-again-launches-revolutionary-co2-utilization-plant-with-10m-funding"
+     },
+     {
+      "name": "Circe Bioscience",
+      "role": "startup",
+      "what": "Aerobic gas fermentation of point-source CO2 into triglycerides (fats/oils) and other products (Wyss Institute tech).",
+      "signal": "DOE-backed pilot \u2014 billed as world's most advanced aerobic gas-fermentation facility \u2014 opened late 2024; removes ~3 kg CO2 per kg product.",
+      "status": "operating",
+      "source": "https://wyss.harvard.edu/news/circe-bioscience-licenses-technology-to-decarbonize-industry-with-microbes-developed-at-wyss-institute-at-harvard-university/"
+     },
+     {
+      "name": "Calysta",
+      "role": "scaleup",
+      "what": "Methane (natural/bio-gas) fermentation to single-cell protein (FeedKind) for aquaculture/animal feed, a protein-for-chemicals analogue.",
+      "signal": "Calysseo JV commercial plant in Chongqing, China operating; second plant planned.",
+      "status": "operating",
+      "source": "https://calysta.com/"
+     }
+    ]
+   },
+   {
+    "name": "CO2 electrolysis to CO, syngas, formate/formic acid, ethylene",
+    "description": "Electrochemical cells use renewable electricity to reduce CO2 (with water) directly into carbon monoxide, syngas, formic acid/formate, ethylene, methanol or ethanol \u2014 the C1/C2 building blocks for fuels and chemicals \u2014 at near-ambient conditions.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Twelve",
+      "role": "scaleup",
+      "what": "CO2 electrolysis (CO/O2 membrane reactor) plus downstream synthesis to make CO, syngas and E-Jet sustainable aviation fuel.",
+      "signal": "$645M funding (TPG-led, incl. $200M Series C); AirPlant One in Moses Lake, WA commissioning ~2025; $6M DOE grant.",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/twelve-announces-645-million-in-funding-led-by-tpg-to-transform-co2-into-jet-fuel-and-electrochemicals-at-scale-302253142.html"
+     },
+     {
+      "name": "OCOchem",
+      "role": "startup",
+      "what": "CO2 electrolyzer producing formic acid/formate (\"e-formic\") as a hydrogen/energy carrier and chemical feedstock.",
+      "signal": "Completed what it calls the world's largest CO2 electrolyzer for formate (commercial-grade 1.5 m2 gas-diffusion electrodes).",
+      "status": "operating",
+      "source": "https://ocochem.com/ocochem-announces-completion-of-worlds-largest-co2-electrolyzer/"
+     },
+     {
+      "name": "Dioxycle",
+      "role": "startup",
+      "what": "Low-cost electrolyzers converting CO2 into ethylene, CO and ethanol for the chemicals industry.",
+      "signal": "Lab unit converts ~10 kg CO2/day; first large industrial prototype targeted 2026; backed by Breakthrough Energy Ventures and Lombard Odier.",
+      "status": "operating",
+      "source": "https://cleantech.com/cleantech-50-to-watch-case-study-dioxycle/"
+     },
+     {
+      "name": "CERT Systems",
+      "role": "startup",
+      "what": "CO2 electrolysis (clean electricity + water) to ethylene, ethanol and methane.",
+      "signal": ">$6M non-dilutive follow-on funding; AGC partnership for CO2-to-ethylene; Breakthrough Energy Innovator Fellow.",
+      "status": "operating",
+      "source": "https://greyb.com/blog/cert-systems-scouted-interview/"
+     },
+     {
+      "name": "Avantium (Volta Technology)",
+      "role": "scaleup",
+      "what": "Electrochemistry converting CO2 into formic, oxalic and glycolic acids and derivatives.",
+      "signal": "\u20ac3.5M EU grant (paid over 4 years from Jan 2025) for CO2 conversion; pilot stage.",
+      "status": "operating",
+      "source": "https://newsroom.avantium.com/avantium-receives-35-million-eu-grant-for-co2-conversion-project/"
+     },
+     {
+      "name": "Oxylus Energy",
+      "role": "startup",
+      "what": "Direct low-temperature/low-pressure CO2-to-green-methanol electrolyzer (Yale-developed catalyst).",
+      "signal": "$4.5M seed co-led by Toyota Ventures and Azolla Ventures (Sep 2024).",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/oxylus-energy-raises-4-5-million-seed-round-for-clean-fuel-technology-302237086.html"
+     },
+     {
+      "name": "Sunfire",
+      "role": "scaleup",
+      "what": "High-temperature solid-oxide co-electrolysis (CO2+H2O) producing syngas for downstream e-fuels and chemicals.",
+      "signal": "German electrolyzer maker; SOEC/co-electrolysis deployed in Power-to-X projects; large alkaline+SOEC order book.",
+      "status": "operating",
+      "source": "https://www.sunfire.de/en/"
+     }
+    ]
+   },
+   {
+    "name": "Thermocatalytic CO2 hydrogenation & e-methanol plants",
+    "description": "Captured (often biogenic) CO2 is hydrogenated with green hydrogen over thermal catalysts to make e-methanol and e-fuels \u2014 drop-in feedstocks and low-carbon marine fuel \u2014 with the first commercial-scale plants now operating.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Carbon Recycling International (CRI)",
+      "role": "scaleup",
+      "what": "Licenses Emissions-to-Liquids methanol-synthesis technology; pioneered the George Olah plant in Iceland and several Chinese plants.",
+      "signal": "Technology into one of the world's largest e-methanol plants (Tianying, ~170 kt/yr first phase); supplied Jiangsu Sailboat and Shunli CO2-to-methanol plants.",
+      "status": "operating",
+      "source": "https://carbonrecycling.com/about/news/cri-signs-technology-agreement-e-methanol-plants"
+     },
+     {
+      "name": "European Energy",
+      "role": "scaleup",
+      "what": "Develops and co-owns e-methanol production; Kass\u00f8 (Denmark) is the world's first large-scale commercial e-methanol facility.",
+      "signal": "Kass\u00f8 inaugurated May 2025, up to 42 kt/yr; offtakers Maersk, LEGO, Novo Nordisk; first ISCC-EU RFNBO-certified e-methanol.",
+      "status": "operating",
+      "source": "https://europeanenergy.com/2025/05/13/kasso-e-methanol-facility-officially-inaugurated/"
+     },
+     {
+      "name": "Liquid Wind",
+      "role": "startup",
+      "what": "Develops standardized/modular e-methanol facilities and sells projects to investors/operators.",
+      "signal": "Four Swedish + two Finnish projects (~100 kt/yr each); \u20ac3.6M Swedish grant (2025); took over the suspended FlagshipONE project.",
+      "status": "operating",
+      "source": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2784228-liquid-wind-plans-modular-e-methanol-projects-for-sale"
+     },
+     {
+      "name": "HIF Global",
+      "role": "scaleup",
+      "what": "Produces e-methanol and e-fuels from CO2+green hydrogen; operates the Haru Oni demonstration plant in Chile.",
+      "signal": "Haru Oni producing since 2022; advancing large-scale e-fuels projects in Chile, US (Matagorda) and Australia.",
+      "status": "operating",
+      "source": "https://www.hifglobal.com/"
+     },
+     {
+      "name": "Topsoe",
+      "role": "incumbent",
+      "what": "Licenses methanol-synthesis catalysts and process technology underpinning many e-methanol and Power-to-X projects.",
+      "signal": "Technology provider to numerous global e-methanol/e-fuels developments.",
+      "status": "operating",
+      "source": "https://www.topsoe.com/processes/methanol"
+     }
+    ]
+   },
+   {
+    "name": "CO2- and methane-derived polymers (PHB from methane; CO2-polyols & polycarbonates)",
+    "description": "Methanotroph microbes turn methane into PHB/PHA bioplastics, while catalysts copolymerize waste CO2 into polyols and polycarbonates \u2014 embedding captured carbon directly into durable plastics, foams and elastomers.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Newlight Technologies",
+      "role": "scaleup",
+      "what": "Methanotroph fermentation of (bio)methane + CO2 into PHB \"AirCarbon\" for foodware (Restore) and fashion (Covalent) goods.",
+      "signal": "Commercial-scale production facility in California; 15-yr methane-capture deal with CNX Resources; Carbon Trust carbon-negative certified.",
+      "status": "operating",
+      "source": "https://www.newlight.com/aircarbon"
+     },
+     {
+      "name": "Mango Materials",
+      "role": "startup",
+      "what": "Methane (biogas/landfill) fermentation into PHA biopolymer for decentralized manufacturing at waste sites.",
+      "signal": "\"Launch Facility\" with 5,000 L fermentation; BioMADE-funded scale-up project (through Jun 2026); Allbirds and Stella McCartney prototypes.",
+      "status": "operating",
+      "source": "https://www.plasticsengineering.org/2024/08/mango-materials-transforms-waste-methane-into-pha-005952/"
+     },
+     {
+      "name": "Econic Technologies",
+      "role": "startup",
+      "what": "Catalysts that copolymerize CO2 into polycarbonate-ether (PCE) polyols (Carnol) for polyurethanes.",
+      "signal": "Partner Changhua Chemical opened the world's first commercial-scale PCE-polyol plant (~80 kt in 2026, scaling toward >1M t); ~30% lower carbon footprint.",
+      "status": "operating",
+      "source": "https://www.econic-technologies.com/changhua-begins-commercial-production-of-co2-polyols-based-on-econics-technology/"
+     },
+     {
+      "name": "Covestro",
+      "role": "incumbent",
+      "what": "cardyon CO2-based polyols (up to ~20% CO2) for flexible PU foams, elastomers and the first CO2-based thermoplastic polyurethane.",
+      "signal": "Commercial since 2016 at Dormagen, Germany; expanding CO2-technology applications.",
+      "status": "operating",
+      "source": "https://www.covestro.com/press/first-thermoplastic-polyurethane-based-on-co2-technology/"
+     },
+     {
+      "name": "Asahi Kasei",
+      "role": "incumbent",
+      "what": "Licenses a phosgene-free polycarbonate process that incorporates CO2 as a raw material.",
+      "signal": "Non-phosgene CO2-based polycarbonate process widely licensed globally.",
+      "status": "operating",
+      "source": "https://www.asahi-kasei.com/"
+     }
+    ]
+   },
+   {
+    "name": "Bio-based polymers & monomers (PLA, PHA, PEF, bio-PE, furanics)",
+    "description": "Polymers and monomers made from plant feedstocks \u2014 PLA, PHA, PEF, bio-polyethylene and furanics \u2014 that replace fossil plastics in packaging, fiber and durables, some compostable and some drop-in chemically identical resins.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "NatureWorks",
+      "role": "incumbent",
+      "what": "Ingeo PLA from sugar (lactic acid to lactide to PLA) for packaging, fiber, 3D printing and compostable serviceware.",
+      "signal": "Opened second fully-integrated PLA plant in Thailand (~75 kt/yr) in 2026; ~$350M Krungthai Bank financing.",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20260429217577/en/NatureWorks-Announces-Grand-Opening-of-Fully-Integrated-Ingeo-Biopolymer-Manufacturing-Facility-in-Thailand"
+     },
+     {
+      "name": "Braskem",
+      "role": "incumbent",
+      "what": "\"I'm green\" bio-polyethylene (and bio-EVA/bio-PP) from Brazilian sugarcane ethanol \u2014 drop-in renewable plastics.",
+      "signal": "World's largest bio-PE producer; expanding bio-based portfolio (showcased at K 2025).",
+      "status": "operating",
+      "source": "https://www.plasticsnews.com/news/braskem-highlights-bio-based-plastics-carbon-reduction-and-circularity-k-2025/"
+     },
+     {
+      "name": "Avantium",
+      "role": "scaleup",
+      "what": "YXY technology converting plant sugars to FDCA, then PEF \u2014 a 100% bio-based, recyclable barrier polyester.",
+      "signal": "FDCA Flagship Plant in Delfzijl (5 kt/yr, ~\u20ac175M capex) commissioning; commercial sales expected Q1 2026; licensed tech to Origin Materials.",
+      "status": "operating",
+      "source": "https://newsroom.avantium.com/avantium-successfully-starts-up-first-part-of-its-fdca-flagship-plant/"
+     },
+     {
+      "name": "Futerro",
+      "role": "scaleup",
+      "what": "Integrated lactic-acid and PLA producer/licensor (Belgium), developing a European PLA biorefinery.",
+      "signal": "PLA technology provider and producer positioning as a market leader in bioplastics.",
+      "status": "operating",
+      "source": "https://www.futerro.com/"
+     },
+     {
+      "name": "RWDC Industries",
+      "role": "scaleup",
+      "what": "Solon PHA from plant oils \u2014 biodegradable in soil, water and marine for single-use, packaging and coatings.",
+      "signal": "Trinseo partnership (Nov 2025) to advance PHA dispersion barrier coatings; TUV Austria biodegradation certifications.",
+      "status": "operating",
+      "source": "https://www.trinseo.com/news-and-events/trinseo-news/2025/november/trinseo-and-rwdc-industries-advance-pha-dispersion-technology-for-barrier-coatings-applications"
+     },
+     {
+      "name": "Kaneka",
+      "role": "incumbent",
+      "what": "Kaneka Biodegradable Polymer Green Planet (PHBH), a marine-degradable PHA from plant oils.",
+      "signal": "Commercial PHBH production in Japan with capacity expansion underway.",
+      "status": "operating",
+      "source": "https://www.kanekabiopolymers.com/"
+     },
+     {
+      "name": "Danimer Scientific",
+      "role": "startup",
+      "what": "Nodax PHA biopolymer (from plant oils) plus PLA-based resins for compostable packaging.",
+      "signal": "Filed Chapter 11 in March 2025 after ~$380M 2020 SPAC raise; wound down; operating assets and 480+ patents sold to Teknor Apex for $19M (June 2025).",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.bioplasticsmagazine.com/en/news/meldungen/20250326-danimer.php"
+     },
+     {
+      "name": "Origin Materials",
+      "role": "startup",
+      "what": "Originally CMF/furanics from biomass (Origin 1, Sarnia); now an asset-light furanics strategy after pivoting to PET caps & closures.",
+      "signal": "Shelved Geismar furanics plant (~$12.3M impairment); runs Origin 1 \"on demand\"; furanics commercialization paused while caps business ramps.",
+      "status": "uncertain",
+      "source": "https://www.businesswire.com/news/home/20240923215610/en/Origin-Materials-Announces-Organizational-Streamlining-to-Further-Support-Caps-and-Closures-Business"
+     }
+    ]
+   },
+   {
+    "name": "Lignin & wood-derived chemicals and materials",
+    "description": "Biorefineries fractionate wood and black liquor into lignin and sugars, valorizing lignin into binders, phenol and carbon-black replacements, thermoplastics, vanillin and battery anodes while sugars become glycols and chemicals.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Borregaard",
+      "role": "incumbent",
+      "what": "Operates one of the world's most advanced biorefineries, making lignosulfonates, bio-vanillin, specialty cellulose and fine chemicals from wood.",
+      "signal": "Long-profitable global lignin leader; multi-billion NOK revenue from biorefinery products.",
+      "status": "operating",
+      "source": "https://www.borregaard.com/"
+     },
+     {
+      "name": "Stora Enso",
+      "role": "incumbent",
+      "what": "Lineo kraft lignin (phenol/binder/carbon-black replacement) and Lignode lignin-based battery anode material.",
+      "signal": "~50 kt/yr lignin capacity \u2014 world's largest kraft-lignin producer; bio-based carbon pilot opened.",
+      "status": "operating",
+      "source": "https://www.storaenso.com/en/products/lignin/lineo"
+     },
+     {
+      "name": "UPM",
+      "role": "incumbent",
+      "what": "Leuna biorefinery turning hardwood into renewable glycols (bio-MEG/MPG) and lignin-based functional fillers replacing carbon black/silica.",
+      "signal": "Started industrial hydrothermal wood breakdown early 2025; 220 kt/yr capacity; first commercial products, with more in 1H 2026.",
+      "status": "operating",
+      "source": "https://www.upm.com/news-and-stories/releases/2025/12/upm-unlocks-new-bio-based-markets-as-leuna-biorefinery-produces-its-first-commercial-product/"
+     },
+     {
+      "name": "Lignin Industries (RenCom)",
+      "role": "startup",
+      "what": "Renol lignin-based thermoplastic that blends into PE, PP and ABS at 15-30% to displace fossil plastic.",
+      "signal": "\u20ac3.9M raise (May 2025); distribution partnership with UK compounder Hellyar Plastics.",
+      "status": "operating",
+      "source": "https://www.eu-startups.com/2025/05/swedish-greentech-startup-lignin-industries-fuels-the-renol-ution-with-e3-9-million-to-fight-fossil-plastics/"
+     },
+     {
+      "name": "Bloom Biorenewables",
+      "role": "startup",
+      "what": "Aldehyde-Assisted Fractionation converting lignin, cellulose and hemicellulose into chemicals and materials (DPX, lignin, cellulose) to replace petroleum.",
+      "signal": "CHF 13M (~$15M) Series A (Apr 2025) with Breakthrough Energy Ventures, Lombard Odier, Amcor and Btomorrow.",
+      "status": "operating",
+      "source": "https://www.startupticker.ch/en/news/bloom-biorenewables-raises-chf-13-million-for-market-entry"
+     }
+    ]
+   },
+   {
+    "name": "Green surfactants, solvents & specialty ingredients (incl. on-site electrochemical H2O2)",
+    "description": "Fermentation-made biosurfactants (rhamnolipids, sophorolipids) and bio-based solvents replace petro/palm surfactants, while on-site electrochemical generators make hydrogen peroxide from air, water and electricity, cutting transport, storage and emissions.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Evonik",
+      "role": "incumbent",
+      "what": "World's first industrial-scale rhamnolipid biosurfactant plant (fermentation from corn) for cleaning and personal care.",
+      "signal": "Triple-digit-\u20acM plant in Slovensk\u00e1 \u013dup\u010da, Slovakia inaugurated May 2024; supplies Unilever cleaning products.",
+      "status": "operating",
+      "source": "https://www.evonik.com/en/news/press-releases/2024/05/evonik-drives-sustainable-biosurfactant-revolution-with-inaugura.html"
+     },
+     {
+      "name": "Holiferm",
+      "role": "scaleup",
+      "what": "Yeast fermentation of sophorolipid biosurfactants using a separation-led continuous process.",
+      "signal": ">1,000 t/yr capacity, building 3,000 t/yr (15,000 t/yr planned); $23.1M Series B; BASF partnership.",
+      "status": "operating",
+      "source": "https://tracxn.com/d/companies/holiferm/__rJm0B_v9ZgNap7IBwwXMnjt6uSClPUT71mySyrnOT9s"
+     },
+     {
+      "name": "Sironix Renewables",
+      "role": "startup",
+      "what": "Eosix sugar/oil-derived surfactants that are sulfate- and 1,4-dioxane-free with strong cold/hard-water performance.",
+      "signal": "$3.5M round (Mar 2025, Arosa/Oval Park) plus ~$7M grants; scaling manufacturing; ~52% lower GHG vs petro.",
+      "status": "operating",
+      "source": "https://www.globenewswire.com/news-release/2025/03/25/3048673/0/en/Sironix-Renewables-Accelerates-Manufacturing-Scale-Up-with-Recent-Investments.html"
+     },
+     {
+      "name": "Locus Ingredients (Locus Performance Ingredients)",
+      "role": "scaleup",
+      "what": "Fermentation-produced sophorolipid biosurfactants (Ferma/Amphi lines) for home, industrial and personal care.",
+      "signal": "TSCA and EU REACH registrations; USDA 100% biobased; distributed by Dow as EcoSense.",
+      "status": "operating",
+      "source": "https://locusingredients.com/"
+     },
+     {
+      "name": "HPNow",
+      "role": "scaleup",
+      "what": "On-site electrochemical hydrogen-peroxide generators (HPGen) producing H2O2 from water, air and electricity for water treatment and oxidation.",
+      "signal": "DTU SurfCat spin-out; key patents granted; commercial deployments via water-treatment partners.",
+      "status": "operating",
+      "source": "https://hpnow.com"
+     }
+    ]
+   },
+   {
+    "name": "Electrified synthesis beyond CO2 & catalyst-discovery platforms",
+    "description": "Platforms that electrify chemical synthesis (replacing heat and stoichiometric redox reagents with electrons) or use high-throughput experimentation and AI to discover catalysts and greener electrochemical routes.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Mattiq",
+      "role": "startup",
+      "what": "Combinatorial nanomaterials synthesis plus AI to discover catalysts (e.g., low/no-iridium for clean hydrogen) and electrified chemical processes.",
+      "signal": "~$20M pre-Series A; Heraeus partnership (Jan 2025) to commercialize low-iridium catalysts; spun out of HydroGen/Chan Zuckerberg-linked efforts.",
+      "status": "operating",
+      "source": "https://cen.acs.org/materials/Mattiq-quest-make-billions-nanomaterials/103/web/2025/11"
+     },
+     {
+      "name": "Sunthetics",
+      "role": "startup",
+      "what": "AI (Bayesian) optimization platform for chemical R&D, including pulsed electro-organic synthesis that replaces heat-intensive reactions.",
+      "signal": "$4M seed (Nov 2024, L'ATTITUDE Ventures); 2025 ACS Green Chemistry Award with Merck; cut some R&D timelines from months to weeks.",
+      "status": "operating",
+      "source": "https://www.prweb.com/releases/sunthetics-secures-4-million-seed-round-to-revolutionize-chemical-industry-with-ai-powered-innovation-302302284.html"
+     },
+     {
+      "name": "Chemify",
+      "role": "startup",
+      "what": "AI plus robotic \"chemputer\" platform that designs and automates synthesis routes for molecules and catalysts.",
+      "signal": "~$43M Series A (2024); University of Glasgow (Cronin lab) spin-out; route/catalyst discovery as a service.",
+      "status": "operating",
+      "source": "https://chemify.io/"
+     }
+    ],
+    "white_space": "Electro-organic synthesis at scale and AI catalyst discovery are nascent: few standalone companies exist because incumbents capture most value through internal R&D and economics hinge on cheap clean power and proven electrode durability. The opening is modular electrochemical reactors for high-value pharma/specialty intermediates and AI catalyst-discovery offered as a service to chemical majors."
+   }
+  ]
+ }
+}

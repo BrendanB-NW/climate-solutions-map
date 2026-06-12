@@ -1,0 +1,375 @@
+{
+ "sector": "cdr",
+ "bucket": "Enhanced Weathering & Mineralization (land)",
+ "census": {
+  "bucket": "Enhanced Weathering & Mineralization (land)",
+  "sources": [
+   "https://www.ccarbon.info/insight/carbon-dioxide-removal-series-enhanced-weathering-and-mineralization-market-compass-august-2025/",
+   "https://www.technologyreview.com/2025/10/24/1126478/whats-next-for-carbon-removal/",
+   "https://www.businesswire.com/news/home/20251202793450/en/Lithos-Carbon-Delivers-5160-Registry-Certified-Tons-of-Carbon-Removal-in-Worlds-Largest-Enhanced-Rock-Weathering-Issuance-to-Date",
+   "https://www.mati.earth/mati-carbon-is-the-grand-prize-winner-of-the-xprize-carbon-removal-competition/",
+   "https://techcrunch.com/2026/06/11/microsoft-taps-alt-carbon-in-sign-of-indias-growing-rile-in-carbon-removal/",
+   "https://www.mining.com/arca-climate-technologies-launches-pilot-project-with-bhp-to-capture-co2-from-mine-waste/",
+   "https://cleanenergyventures.com/clean-energy-venture-capital/exterra-20m-series-a-to-transform-mining-waste-into-low-carbon-critical-minerals/",
+   "https://esgnews.com/adnoc-and-44-01-to-scale-up-carbon-to-rock-project/",
+   "https://www.carbfix.com/codaterminal",
+   "https://carbonherald.com/paebbl-launches-worlds-first-continuous-co2-mineralization-demo-plant/",
+   "https://www.worldfertilizer.com/sulfur/10102025/travertine-starts-demonstration-plant/",
+   "https://www.esgtoday.com/microsoft-signs-deal-to-capture-and-store-carbon-in-recycled-concrete-with-startup-neustark/",
+   "https://www.cemnet.com/News/story/180331/carbon8-systems-enters-administration-as-funding-efforts-fail.html",
+   "https://carbonherald.com/fabricnano-is-revolutionizing-enhanced-rock-weathering-with-enzymes/",
+   "https://activate.org/news/moments-that-matter-cellas-big-swing-is-paying-off",
+   "https://www.esgtoday.com/crew-carbon-raises-25-million-for-technology-combining-wastewater-treatment-carbon-removal/",
+   "https://carbonherald.com/silicate-to-undertake-first-ever-enhanced-weathering-trial-u-s/",
+   "https://esg-investing.com/2025/03/26/frontier-signs-33-million-carbon-removal-purchase-with-enhanced-rock-weathering-startup-eion/",
+   "https://verra.org/methodologies/methodology-for-microbial-carbon-mineralization-mcm/",
+   "https://carbonupcycling.com/crh/"
+  ],
+  "variations": [
+   {
+    "name": "Cropland enhanced rock weathering (crushed basalt spreading)",
+    "description": "Finely crushed basalt is spread on farm fields where it dissolves in rainwater, capturing atmospheric CO2 as stable bicarbonate that drains to the ocean while raising soil pH and crop yields, making it one of the most scalable and co-beneficial land-based carbon removal methods.",
+    "maturity": "demonstration",
+    "white_space": "",
+    "companies": [
+     {
+      "name": "Lithos Carbon",
+      "role": "startup",
+      "what": "Basalt spreading on US row-crop farms with soil-chemistry models to optimize dose and measure removal",
+      "signal": "Issued 5,160 registry-certified tons in Dec 2025 (largest single ERW issuance to date, ~7x prior record); Frontier/Microsoft offtakes",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20251202793450/en/Lithos-Carbon-Delivers-5160-Registry-Certified-Tons-of-Carbon-Removal-in-Worlds-Largest-Enhanced-Rock-Weathering-Issuance-to-Date"
+     },
+     {
+      "name": "Mati Carbon",
+      "role": "startup",
+      "what": "Nonprofit deploying basalt to smallholder farms in India/Africa (Global South), monetizing via carbon credits",
+      "signal": "Won $50M XPRIZE Carbon Removal grand prize April 2025; demonstrated >1,000 t/yr removal",
+      "status": "operating",
+      "source": "https://www.mati.earth/mati-carbon-is-the-grand-prize-winner-of-the-xprize-carbon-removal-competition/"
+     },
+     {
+      "name": "Terradot",
+      "role": "startup",
+      "what": "Quarry-sourced silicate rock crushed and spread on cropland at scale, primarily in Brazil",
+      "signal": "~$58.2M equity raised (largest ERW equity round); Microsoft 12,000-ton deal; ~290K-ton deal volume",
+      "status": "operating",
+      "source": "https://www.ccarbon.info/insight/carbon-dioxide-removal-series-enhanced-weathering-and-mineralization-market-compass-august-2025/"
+     },
+     {
+      "name": "InPlanet",
+      "role": "startup",
+      "what": "Basalt application on tropical farmland in Brazil and Germany with MRV verified under Isometric protocol",
+      "signal": "Delivered world's first independently verified ERW credits (Dec 2024, BeZero 'A'); 28,500 t contracted to Microsoft 2026-2028",
+      "status": "operating",
+      "source": "https://www.datacenterdynamics.com/en/news/microsoft-to-purchase-28500-tons-of-co2-removal-credits-from-brazils-inplanet/"
+     },
+     {
+      "name": "UNDO Carbon",
+      "role": "startup",
+      "what": "Basalt and other silicate spreading across UK, Canada and India farmland at large acreage",
+      "signal": "XPRIZE $5M third-runner-up (2025); >54,000 acres enriched, ~69,000 t CO2; Microsoft 15,000-ton deal",
+      "status": "operating",
+      "source": "https://un-do.com/resources/blog/undo-named-one-of-four-global-winners-in-100m-xprize-carbon-removal-competition/"
+     },
+     {
+      "name": "Alt Carbon",
+      "role": "startup",
+      "what": "Crushed Rajmahal-Traps basalt spread on West Bengal farmland (Darjeeling Revival Project) with smallholder network",
+      "signal": "$12M seed (Lachy Groom, 2025); Microsoft ~37,000-ton 3-yr deal June 2026; ~10,000 credits issued",
+      "status": "operating",
+      "source": "https://techcrunch.com/2026/06/11/microsoft-taps-alt-carbon-in-sign-of-indias-growing-rile-in-carbon-removal/"
+     }
+    ]
+   },
+   {
+    "name": "Alternative ERW feedstocks (olivine, wollastonite, brucite, returned-concrete fines)",
+    "description": "Instead of basalt, faster-weathering silicate minerals or alkaline construction wastes (olivine, wollastonite, brucite, milled returned concrete) are spread on land to accelerate CO2 uptake, trading higher reactivity against trace-metal and supply considerations.",
+    "maturity": "pilot",
+    "white_space": "Thinner than basalt ERW because olivine carries nickel/chromium concerns and concrete/wollastonite supply is geographically constrained; opening is a verified low-trace-metal feedstock (e.g. returned-concrete fines from urban demolition) co-located with construction-waste streams.",
+    "companies": [
+     {
+      "name": "Eion",
+      "role": "startup",
+      "what": "Engineered olivine product 'CarbonLock' sized for predictable dissolution, sold to US Midwest/South farmers as an ag-lime replacement",
+      "signal": "$33M Frontier offtake (2027-2030, >78,700 t) Mar 2025; DOE backing",
+      "status": "operating",
+      "source": "https://esg-investing.com/2025/03/26/frontier-signs-33-million-carbon-removal-purchase-with-enhanced-rock-weathering-startup-eion/"
+     },
+     {
+      "name": "Silicate",
+      "role": "startup",
+      "what": "Milled returned (waste) concrete spread on US farmland (Illinois) as a fast-weathering carbonate-rich feedstock",
+      "signal": "XPRIZE 2024 finalist; applied 500 t to 50 ha at Schott Farms, Illinois; Northwestern MRV collaboration",
+      "status": "operating",
+      "source": "https://carbonherald.com/silicate-to-undertake-first-ever-enhanced-weathering-trial-u-s/"
+     },
+     {
+      "name": "greenSand",
+      "role": "startup",
+      "what": "Mines, grinds and distributes olivine sand for gardens and projects in the Netherlands",
+      "signal": "Long-running Dutch olivine commercializer; modeled 200-250k t/yr NL potential; small commercial sales",
+      "status": "operating",
+      "source": "https://greensand.com/en"
+     },
+     {
+      "name": "Green Minerals",
+      "role": "startup",
+      "what": "Dutch olivine-rock enhanced-weathering venture commercializing Schuiling's olivine research",
+      "signal": "Early-stage Dutch olivine commercializer; limited disclosed traction",
+      "status": "uncertain",
+      "source": "https://www.geoengineeringmonitor.org/technologies/enhanced-weathering"
+     },
+     {
+      "name": "Canadian Wollastonite",
+      "role": "incumbent",
+      "what": "Operates an Ontario wollastonite (fast-weathering Ca-silicate) surface mine supplying soil-amendment and ERW research trials",
+      "signal": "Supplies University of Guelph wollastonite ERW field/pot trials; operating mine at Seeley's Bay",
+      "status": "operating",
+      "source": "https://canadianwollastonite.com/research/research-environmental-uses/"
+     }
+    ]
+   },
+   {
+    "name": "Mine tailings carbonation (ultramafic mining waste)",
+    "description": "Reactive magnesium-silicate tailings at nickel, diamond and platinum mines are actively churned, aerated or exposed to flue gas so they passively absorb CO2 and mineralize it, turning mine waste liabilities into on-site permanent storage.",
+    "maturity": "pilot",
+    "white_space": "",
+    "companies": [
+     {
+      "name": "Arca Climate Technologies",
+      "role": "startup",
+      "what": "Rovers, surface-manipulation 'smart churning' and ML to accelerate air-to-rock mineralization in active-mine ultramafic tailings",
+      "signal": "Pilot at BHP Nickel West Mt Keith since 2023; Wyloo partner + new funding 2025; Microsoft ~300,000-t 10-yr offtake Oct 2025",
+      "status": "operating",
+      "source": "https://www.mining.com/arca-climate-technologies-launches-pilot-project-with-bhp-to-capture-co2-from-mine-waste/"
+     },
+     {
+      "name": "De Beers (CarbonVault)",
+      "role": "incumbent",
+      "what": "In-house research program enhancing kimberlite tailings' natural CO2 absorption (physical manipulation, chemicals, photosynthetic bacteria) at southern-Africa/Canada mines",
+      "signal": "Ongoing CarbonVault R&D toward 2030 carbon-neutral goal; flue-gas-into-tailings tests at Gahcho Ku\u00e9",
+      "status": "operating",
+      "source": "https://www.debeersgroup.com/news-insights/business-market/archive/de-beers-pioneers-research-programme-to-make-carbon-neutral-mining-a-reality"
+     },
+     {
+      "name": "BHP",
+      "role": "incumbent",
+      "what": "Mine owner hosting/co-funding air-to-rock tailings carbonation at its Nickel West Mt Keith operation",
+      "signal": "Multi-year Arca pilot host at Mt Keith; part of decarbonization investment program",
+      "status": "operating",
+      "source": "https://im-mining.com/2023/11/29/arca-banks-cice-funds-for-air-to-rock-carbon-mineralisation-project-at-bhp-nickel-west-mt-keith/"
+     },
+     {
+      "name": "FPX Nickel",
+      "role": "startup",
+      "what": "Awaranite-nickel developer partnering on carbon capture from air into its ultramafic tailings (CarbMin Lab/UBC)",
+      "signal": "CarbMin Lab tailings-carbonation research collaboration; Baptiste project pre-development",
+      "status": "operating",
+      "source": "https://www.canadianminingjournal.com/featured-article/using-tailings-to-get-to-net-zero/"
+     }
+    ]
+   },
+   {
+    "name": "Alkaline industrial residue carbonation for storage (steel slag, ashes, brines)",
+    "description": "Alkaline industrial wastes such as steel slag and ashes are reacted with CO2 to mineralize it permanently, often co-producing low-carbon cement components, critical minerals or aggregates so the storage pays for itself.",
+    "maturity": "demonstration",
+    "white_space": "",
+    "companies": [
+     {
+      "name": "Greenore",
+      "role": "startup",
+      "what": "Two-step carbonation converting iron/steel slag into calcium/magnesium carbonate, iron oxide, silica and REE concentrate while consuming CO2",
+      "signal": "World's first commercial two-step carbon-mineralization plant operating; Series A led by ATL Feb 2024; 2025 Global Cleantech 100",
+      "status": "operating",
+      "source": "https://www.greenore.com/"
+     },
+     {
+      "name": "Carbon Upcycling Technologies",
+      "role": "scaleup",
+      "what": "Beneficiates low-grade iron/steel slag and other residues with captured CO2 into low-carbon supplementary cementitious materials",
+      "signal": "CRH Ventures investment; Ash Grove Mississauga plant integration project with CRH",
+      "status": "operating",
+      "source": "https://carbonupcycling.com/crh/"
+     },
+     {
+      "name": "O.C.O Technology",
+      "role": "incumbent",
+      "what": "Accelerated Carbonation Technology turning thermal residues/ash into carbon-negative manufactured aggregate (CircaBuild) at commercial plants",
+      "signal": "Owned by Grundon Waste Management; multiple operating UK aggregate plants",
+      "status": "operating",
+      "source": "https://www.agg-net.com/news/carbon8-aggregates-rebrand-as-oco-technology"
+     },
+     {
+      "name": "Carbon8 Systems",
+      "role": "startup",
+      "what": "Licensed Accelerated Carbonation Technology to mineralize CO2 into construction aggregates from industrial residues",
+      "signal": "Entered administration 12 Nov 2025 after failing to secure investment (Quantuma administrators)",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.cemnet.com/News/story/180331/carbon8-systems-enters-administration-as-funding-efforts-fail.html"
+     },
+     {
+      "name": "Alkali Earth",
+      "role": "startup",
+      "what": "Attempted to use alkaline industrial by-products to tie up CO2",
+      "signal": "Reported winding down as of late 2025 amid CDR funding contraction",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.technologyreview.com/2025/10/24/1126478/whats-next-for-carbon-removal/"
+     }
+    ]
+   },
+   {
+    "name": "In-situ mineralization via dissolved CO2 injection into basalt",
+    "description": "CO2 is dissolved in water and injected into reactive basaltic formations, where it reacts with the rock to form solid carbonate minerals within months to a couple of years, delivering verifiably permanent geologic storage.",
+    "maturity": "demonstration",
+    "white_space": "",
+    "companies": [
+     {
+      "name": "Carbfix",
+      "role": "scaleup",
+      "what": "Pioneer of dissolve-then-inject CO2-into-basalt mineralization; building the Coda Terminal CO2-import-and-storage hub in Iceland",
+      "signal": "Received Europe's first onshore CO2 storage permit under EU law; Coda targeting 0.3 Mt/yr ramping to 3 Mt/yr by 2031",
+      "status": "operating",
+      "source": "https://www.carbfix.com/codaterminal"
+     },
+     {
+      "name": "Cella Mineral Storage",
+      "role": "startup",
+      "what": "Injects pure-phase/dissolved CO2 into Rift Valley basalt in Kenya (water-alternating-gas), pairing with geothermal/DAC",
+      "signal": "First-ever pure-phase CO2 basalt injection (~460 kg pilot); Project Hummingbird with Octavia Carbon targeting 1 kt/yr",
+      "status": "operating",
+      "source": "https://activate.org/news/moments-that-matter-cellas-big-swing-is-paying-off"
+     },
+     {
+      "name": "IISER Bhopal / CSIR-NGRI (DeCarbFaroe)",
+      "role": "incumbent",
+      "what": "Research consortium drilling India's first CO2 injection well into Deccan Traps basalt for in-situ mineralization",
+      "signal": "First Indian basalt storage well launched 2025 under international DeCarbFaroe programme",
+      "status": "operating",
+      "source": "https://www.cognitud.com/news/india-launches-first-storage-well-in-basalt-to-tackle-climate-challenge"
+     }
+    ]
+   },
+   {
+    "name": "In-situ mineralization in peridotite/ultramafic formations",
+    "description": "CO2 (often dissolved in seawater and captured via DAC) is injected into highly reactive peridotite/ultramafic rock that naturally carbonates extremely fast, enabling permanent storage in regions like Oman and the UAE with vast ultramafic geology.",
+    "maturity": "pilot",
+    "white_space": "Few players because suitable obducted peridotite is geographically rare (Oman, UAE, parts of California/Cyprus) and injectivity into tight rock is hard; opening is proving reliable flow and reaction rates at scale in a small number of concession-rich geographies.",
+    "companies": [
+     {
+      "name": "44.01",
+      "role": "startup",
+      "what": "Mineralizes CO2 in Omani/UAE peridotite by dissolving captured CO2 in seawater and injecting it underground, powered by renewables",
+      "signal": "~$37M (EUR 33.9M) Series A led by Equinor Ventures; ADNOC pilot mineralized 10 t in <100 days, scaling to >300 t; world-first commercial peridotite concession in Oman's Hajar mountains",
+      "status": "operating",
+      "source": "https://esgnews.com/adnoc-and-44-01-to-scale-up-carbon-to-rock-project/"
+     },
+     {
+      "name": "ADNOC",
+      "role": "incumbent",
+      "what": "National oil company co-developing and hosting peridotite carbon-to-rock scale-up in Fujairah, UAE",
+      "signal": "Completed 10-t pilot with 44.01; backing first scale-up phase as part of $15B decarbonization investment",
+      "status": "operating",
+      "source": "https://www.agbi.com/sustainability/2024/11/adnoc-and-omans-44-01-scale-up-carbon-to-rock-project/"
+     }
+    ]
+   },
+   {
+    "name": "Ex-situ accelerated carbonation reactors (acid-recycle loops, pressurized carbonation to storable or cementitious minerals)",
+    "description": "Engineered reactors crush and react silicate rock or wastes with CO2 under pressure or via acid/base recycle loops to rapidly produce storable carbonates and cementitious or industrial co-products, decoupling carbon removal from slow field weathering.",
+    "maturity": "demonstration",
+    "white_space": "",
+    "companies": [
+     {
+      "name": "Paebbl",
+      "role": "startup",
+      "what": "Continuous reactor mineralizing crushed olivine with industrial-captured CO2 into a carbonate powder usable as a construction filler",
+      "signal": "$25M (EUR 22.8M) Series A Oct 2024; world-first continuous CO2-mineralization demo plant running since Mar 2025; first commercial facility targeted 2028",
+      "status": "operating",
+      "source": "https://carbonherald.com/paebbl-launches-worlds-first-continuous-co2-mineralization-demo-plant/"
+     },
+     {
+      "name": "Travertine Technologies",
+      "role": "startup",
+      "what": "Electrochemical acid-recycle platform (salt-splitting + caustic DAC + mineralization) upcycling sulfate waste into sulfuric acid, carbonate and green hydrogen",
+      "signal": "$8.5M round 2024 (Holcim MAQER, Grantham, CEV) + NYSERDA $3.2M; demonstration plant operating since Oct 2025 (with Sabin Metal)",
+      "status": "operating",
+      "source": "https://www.worldfertilizer.com/sulfur/10102025/travertine-starts-demonstration-plant/"
+     },
+     {
+      "name": "MCi Carbon",
+      "role": "startup",
+      "what": "Mineral carbonation reactors converting industrial CO2 plus feedstocks into building materials and refractory inputs at its 'Myrtle' demo plant",
+      "signal": "Myrtle demo plant launched at COP30 (Nov 2025); RHI Magnesita US$10M investment + first customer; AUS-Austria $12M decarbonization program recipient",
+      "status": "operating",
+      "source": "https://carbonherald.com/cop30-mci-carbon-launches-breakthrough-co2-to-material-plant-at-cop30/"
+     },
+     {
+      "name": "Exterra Carbon Solutions",
+      "role": "startup",
+      "what": "Reactive-Oxide-to-Carbonate reactors processing asbestos mine tailings into MgO for carbon sequestration plus nickel and silica co-products",
+      "signal": "C$20M Series A May 2025 (CEV, BDC; C$32M total); BASF OASE partnership; Frontier pre-purchase; Hub I (300,000+ t/yr) construction targeted 2027",
+      "status": "operating",
+      "source": "https://cleanenergyventures.com/clean-energy-venture-capital/exterra-20m-series-a-to-transform-mining-waste-into-low-carbon-critical-minerals/"
+     },
+     {
+      "name": "neustark",
+      "role": "scaleup",
+      "what": "Modular plants injecting biogenic CO2 into recycled demolition-concrete aggregate where it mineralizes permanently",
+      "signal": "Largest disclosed sector equity ~$69M; 14 plants operating (DE/CH) + 20 under construction; Microsoft 27,600-t 6-yr offtake; 1 Mt/yr 2030 goal",
+      "status": "operating",
+      "source": "https://www.esgtoday.com/microsoft-signs-deal-to-capture-and-store-carbon-in-recycled-concrete-with-startup-neustark/"
+     }
+    ]
+   },
+   {
+    "name": "Microbial/biotic acceleration of soil mineral weathering",
+    "description": "Microbes, fungi or isolated enzymes (e.g. carbonic anhydrase) and microbial iron-chelating siderophores are used to speed the dissolution of silicate minerals in soil, aiming to shorten enhanced-weathering carbon-capture timelines from decades to a few years.",
+    "maturity": "lab",
+    "white_space": "Very few credible players and no certified credits: the carbon-removal mechanism is hard to additionally attribute and measure (MRV), Verra put the microbial-mineralization methodology on hold (Dec 2024), and durability claims are unproven. Opening is rigorous field MRV that isolates the biotic acceleration signal, most likely as an add-on enzyme/inoculant layered onto an existing basalt-ERW deployment.",
+    "companies": [
+     {
+      "name": "FabricNano",
+      "role": "startup",
+      "what": "Immobilizes carbonic-anhydrase enzyme on large-particle basalt as a protein powder to accelerate rock-weathering CO2 capture",
+      "signal": "World-first enzyme-treated ERW trial with Veolia (2024); pre-commercial",
+      "status": "operating",
+      "source": "https://carbonherald.com/fabricnano-is-revolutionizing-enhanced-rock-weathering-with-enzymes/"
+     },
+     {
+      "name": "Andes (Andes Bio)",
+      "role": "startup",
+      "what": "Introduces soil microorganisms alongside crop seeds to expedite conversion of CO2 into soil inorganic carbon (microbial carbon mineralization)",
+      "signal": "Released first-ever MCM methodology, but Verra put the methodology on hold Dec 2024; company continues with soil-carbon products",
+      "status": "uncertain",
+      "source": "https://verra.org/methodologies/methodology-for-microbial-carbon-mineralization-mcm/"
+     },
+     {
+      "name": "Veolia",
+      "role": "incumbent",
+      "what": "Waste/water major partnering on enzyme-accelerated enhanced-rock-weathering field trials",
+      "signal": "Co-ran world-first enzyme ERW trial with FabricNano (2024)",
+      "status": "operating",
+      "source": "https://www.veolia.co.uk/press-releases/veolia-uses-enzymes-world-first-trial-remove-carbon-dioxide-enhanced-rock-weathering"
+     }
+    ]
+   },
+   {
+    "name": "Alkaline wastewater enhanced weathering (point-source mineral dissolution)",
+    "description": "Alkaline minerals are dosed into wastewater-treatment flows where engineered pH/alkalinity conditions rapidly dissolve them and convert dissolved CO2 into stable bicarbonate, co-locating measurable carbon removal with existing water infrastructure for tighter MRV.",
+    "maturity": "pilot",
+    "white_space": "Emerging niche with essentially one lead player; opening is that wastewater plants offer enclosed, monitorable flows (easier MRV than open fields) and existing alkalinity-dosing operations, so incumbents in water treatment could fast-follow.",
+    "companies": [
+     {
+      "name": "CREW Carbon",
+      "role": "startup",
+      "what": "Adds alkaline minerals into wastewater-treatment systems, tuning pH/alkalinity to accelerate mineral weathering and lock CO2 as bicarbonate",
+      "signal": "$25M raise 2025; Frontier EUR 31M / 71,878-t purchase (2025-2030); $2.35M Colorado Energy Office award",
+      "status": "operating",
+      "source": "https://www.esgtoday.com/crew-carbon-raises-25-million-for-technology-combining-wastewater-treatment-carbon-removal/"
+     }
+    ]
+   }
+  ]
+ }
+}

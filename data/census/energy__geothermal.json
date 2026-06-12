@@ -1,0 +1,476 @@
+{
+ "sector": "energy",
+ "bucket": "Geothermal",
+ "census": {
+  "bucket": "Geothermal",
+  "variations": [
+   {
+    "name": "Conventional hydrothermal (dry steam, flash, binary ORC)",
+    "description": "Taps naturally occurring underground reservoirs of steam or hot water and runs them through steam turbines or, for cooler resources, binary organic Rankine cycle (ORC) units \u2014 the workhorse supplying roughly 16-17 GW of always-on power globally, but limited to sites with natural hydrothermal resources.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Ormat Technologies",
+      "role": "incumbent",
+      "what": "NYSE-listed vertically integrated pure play that develops, owns, and operates binary/flash plants and is the dominant ORC equipment supplier worldwide.",
+      "signal": "~1.5 GW owned generation (mostly geothermal); co-led Sage Geosystems' $97M Series B (Jan 2026), signaling incumbent buy-in to next-gen geothermal",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20260121330914/en/Sage-Geosystems-Raises-Over-$97-Million-To-Deploy-Worlds-First-Commercial-Pressure-Geothermal-Power-Generation-Facility"
+     },
+     {
+      "name": "Calpine",
+      "role": "incumbent",
+      "what": "Operates The Geysers in California, the world's largest geothermal complex (~725 MW of dry-steam capacity across 13 plants).",
+      "signal": "Acquired by Constellation Energy in a $16.4B deal that closed January 2026; Geysers output now marketed for AI data-center demand",
+      "status": "acquired",
+      "source": "https://www.thinkgeoenergy.com/constellation-completes-acquisition-of-calpines-geysers-assets/"
+     },
+     {
+      "name": "Enel Green Power",
+      "role": "incumbent",
+      "what": "Operates ~800 MW at Larderello, Italy \u2014 the world's oldest geothermal field, producing since 1913.",
+      "signal": "Decades of continuous operation; cornerstone of Tuscany's grid",
+      "status": "operating",
+      "source": "https://www.enelgreenpower.com"
+     },
+     {
+      "name": "Pertamina Geothermal Energy",
+      "role": "incumbent",
+      "what": "Indonesia's state-backed geothermal operator with ~672 MW operated capacity and a multi-GW expansion pipeline on the Ring of Fire.",
+      "signal": "Raised ~$600M in Feb 2023 Jakarta IPO to fund ~1 GW of growth",
+      "status": "operating",
+      "source": "https://pge.pertamina.com"
+     },
+     {
+      "name": "Star Energy Geothermal (Barito Renewables)",
+      "role": "incumbent",
+      "what": "Operates ~880 MW across Salak, Darajat, and Wayang Windu in Indonesia \u2014 among the world's largest geothermal operators by capacity.",
+      "signal": "Parent Barito Renewables listed on IDX (2023); expansion drilling underway",
+      "status": "operating",
+      "source": "https://en.wikipedia.org/wiki/Star_Energy"
+     },
+     {
+      "name": "BHE Renewables (CalEnergy)",
+      "role": "incumbent",
+      "what": "Berkshire Hathaway unit running 10 flash plants (~345 MW) at California's Salton Sea, now pairing them with lithium-from-brine extraction.",
+      "signal": "Decades of Salton Sea operation; new plant + lithium demonstration projects in development",
+      "status": "operating",
+      "source": "https://www.bherenewables.com"
+     },
+     {
+      "name": "Turboden",
+      "role": "incumbent",
+      "what": "Mitsubishi Heavy Industries-owned ORC turbine maker supplying binary geothermal power plants worldwide.",
+      "signal": "Hundreds of ORC units delivered globally across geothermal and waste heat",
+      "status": "operating",
+      "source": "https://www.turboden.com"
+     },
+     {
+      "name": "Baseload Capital",
+      "role": "scaleup",
+      "what": "Swedish specialist investor-operator deploying small modular low-temperature binary plants through local subsidiaries in Japan, Taiwan, Iceland, and the US.",
+      "signal": "Four small plants operating in Japan; 10 MW PPA with Google in Taiwan; geothermal JV with Chevron in Nevada",
+      "status": "operating",
+      "source": "https://www.datacenterdynamics.com/en/news/google-signs-10mw-geothermal-ppa-with-baseload-capital-in-taiwan/"
+     },
+     {
+      "name": "Controlled Thermal Resources",
+      "role": "startup",
+      "what": "Developing Hell's Kitchen at the Salton Sea \u2014 combined flash geothermal power (Stage 1: 50 MW) plus 25,000 t/yr lithium hydroxide from the same brine.",
+      "signal": "Stellantis invested >$100M with lithium offtake; FAST-41 federal permitting status (2025); advancing toward final investment decision",
+      "status": "operating",
+      "source": "https://www.thinkgeoenergy.com/controlled-thermal-resources-provides-updates-on-hells-kitchen-geothermal-project/"
+     },
+     {
+      "name": "Climeon",
+      "role": "scaleup",
+      "what": "Swedish maker of modular low-temperature 'Heat Power' ORC units used in Baseload's Japanese geothermal plants; scaled back geothermal ambitions to refocus on maritime waste heat \u2014 evidence of how hard low-temperature geothermal economics are.",
+      "signal": "Listed on Nasdaq First North; geothermal deployments limited to small units via Baseload partnership",
+      "status": "operating",
+      "source": "https://www.thinkgeoenergy.com/baseload-capital-climeon-commission-their-first-geothermal-plant-in-japan/"
+     }
+    ]
+   },
+   {
+    "name": "Enhanced geothermal systems (EGS)",
+    "description": "Creates artificial reservoirs by drilling into hot dry rock and hydraulically fracturing it with shale-oilfield tools, letting geothermal work far beyond natural hot springs; Fervo's plants and DOE's Utah FORGE testbed have cut drilling times and costs sharply since 2023, making EGS the highest-momentum next-gen pathway.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Fervo Energy",
+      "role": "scaleup",
+      "what": "Category leader applying horizontal drilling and multistage stimulation; runs the 3.5 MW Project Red plant for Google (since Nov 2023) and is building the 500 MW Cape Station project in Utah.",
+      "signal": "$462M Series E (Dec 2025) plus $421M non-recourse project financing (Mar 2026); first 100 MW of Cape Station delivering to grid in 2026, full 500 MW by 2028; PPAs incl. Southern California Edison",
+      "status": "operating",
+      "source": "https://fervoenergy.com/fervo-energy-raises-462-million-series-e-to-accelerate-geothermal-development-and-meet-surging-energy-demand-with-clean-firm-power/"
+     },
+     {
+      "name": "Ormat Technologies",
+      "role": "incumbent",
+      "what": "Only incumbent with grid-connected EGS experience (Desert Peak, NV \u2014 first US EGS power in 2013) and now a strategic investor in next-gen players.",
+      "signal": "Co-led Sage Geosystems' $97M Series B (Jan 2026); DOE EGS collaborations at its Nevada fields",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20260121330914/en/Sage-Geosystems-Raises-Over-$97-Million-To-Deploy-Worlds-First-Commercial-Pressure-Geothermal-Power-Generation-Facility"
+     },
+     {
+      "name": "Chevron New Energies",
+      "role": "incumbent",
+      "what": "Oil supermajor bringing subsurface, drilling, and completions competencies to next-gen geothermal via a US development JV with Baseload Capital, starting at Weepah Hills, Nevada.",
+      "signal": "JV formed Dec 2022; advancing pilot-to-commercial pathway for novel geothermal in Esmeralda County, NV",
+      "status": "operating",
+      "source": "https://www.chevron.com/newsroom/2022/q4/chevron-and-baseload-capital-create-joint-venture-to-explore-geothermal-development-opportunities"
+     },
+     {
+      "name": "AltaRock Energy",
+      "role": "startup",
+      "what": "EGS pioneer behind the 2012-2018 Newberry Volcano demonstrations; effectively wound down independent development and co-founded Mazama Energy (with Blade Energy Partners) to relaunch Newberry as superhot EGS.",
+      "signal": "No independent commercial projects; legacy assets and site access carried into Mazama \u2014 a marker of how long EGS commercialization took",
+      "status": "operating",
+      "source": "https://ktvz.com/news/business/2024/07/26/remember-the-newberry-geothermal-project-its-back-with-new-tech-in-bid-to-achieve-economic-extraction-of-earths-heat/"
+     }
+    ],
+    "white_space": "Despite Fervo's proof points there are almost no credible EGS fast-followers \u2014 project capex (~$1B+ for 500 MW), long permitting, and induced-seismicity management keep entry barriers high while DOE's FORGE absorbs much of the R&D; openings exist for international EGS developers (Europe, Japan, Latin America), oilfield-service firms productizing stimulation-as-a-service, and east-of-Rockies sedimentary EGS plays."
+   },
+   {
+    "name": "Closed-loop / advanced geothermal systems (AGS)",
+    "description": "Circulates a working fluid through sealed deep wellbores that gather heat by conduction alone \u2014 no fracking, no water consumption, and siting almost anywhere \u2014 but the physics of conduction-limited heat transfer means economics hinge on drilling very long laterals very cheaply.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Eavor Technologies",
+      "role": "scaleup",
+      "what": "Canadian inventor of the multilateral 'Eavor-Loop'; its Geretsried, Germany plant delivered the world's first grid electricity from a fully closed-loop system in December 2025 (target 8.2 MWe + 64 MWth from four loops).",
+      "signal": "First grid power Dec 4, 2025 (initial ~0.5 MW, second loop drilling 2026); \u20ac91.6M EU Innovation Fund grant; backed by BP, Chevron, OMV and Canada Growth Fund; follow-on heat projects incl. Hannover",
+      "status": "operating",
+      "source": "https://www.globenewswire.com/news-release/2025/12/04/3200069/0/en/Eavor-Technologies-Achieves-First-Electricity-Production-at-Geretsried-Site.html"
+     },
+     {
+      "name": "XGS Energy",
+      "role": "startup",
+      "what": "Water-free conductive closed-loop design using a proprietary thermally conductive grout around steel casing, suited to arid regions.",
+      "signal": "150 MW project agreement with Meta in New Mexico (June 2025; first ~5 MW by 2027, full by 2030); Baker Hughes development partnership (Mar 2026); >$40M raised",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20250612778008/en/XGS-Energy-and-Meta-to-Partner-on-150-MW-Advanced-Geothermal-Project"
+     },
+     {
+      "name": "GreenFire Energy",
+      "role": "startup",
+      "what": "GreenLoop coaxial closed-loop retrofits that revive idle, dry, or underperforming geothermal wells rather than drilling new ones.",
+      "signal": "Series A led by Baker Hughes with Helmerich & Payne and Vallourec; building closed-loop test capability at Baker Hughes' Oklahoma facility (Wells2Watts consortium)",
+      "status": "operating",
+      "source": "https://www.greenfireenergy.com/series-a-financing/"
+     }
+    ],
+    "white_space": "Only ~3 funded players because conduction-limited heat extraction caps per-well output and analysts question scalability versus EGS; the opening is for radical drilling-cost reduction (longer/cheaper laterals), hybrid conduction-convection designs, and closed-loop retrofit services for the thousands of existing underperforming geothermal and oil wells."
+   },
+   {
+    "name": "Superhot rock geothermal",
+    "description": "Targets rock above ~374\u00b0C where water becomes supercritical and each well can deliver 5-10x the power of a conventional well, potentially making geothermal cost-competitive almost anywhere on Earth \u2014 but drilling, casing, and downhole electronics at those temperatures are still unproven.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Mazama Energy",
+      "role": "startup",
+      "what": "Founded out of AltaRock and Blade Energy Partners to drill superhot (>374\u00b0C) enhanced geothermal wells on the flank of Oregon's Newberry Volcano, with up to 200 MW site potential.",
+      "signal": "$20M DOE superhot rock demonstration grant (Nov 2024); drilled the hottest EGS pilot to date at Newberry in 2025 with three national labs",
+      "status": "operating",
+      "source": "https://www.opb.org/article/2025/10/06/super-hot-rocks-geothermal-technology-renewable-energy-three-rivers-mazama/"
+     },
+     {
+      "name": "Quaise Energy",
+      "role": "startup",
+      "what": "MIT spinout using gyrotron-powered millimeter-wave energy to vaporize rock, aiming to reach 500\u00b0C rock at depths conventional bits cannot touch.",
+      "signal": "First open-field millimeter-wave drilling (100 m, central Texas, 2025); $21M Series A1; seeking ~$200M (incl. $100M Series B) for a 50 MW Oregon plant by 2030",
+      "status": "operating",
+      "source": "https://www.technologyreview.com/2025/07/22/1120545/geothermal-drilling-quaise/"
+     },
+     {
+      "name": "Hephae Energy Technology",
+      "role": "startup",
+      "what": "Builds the missing high-temperature downhole toolchain \u2014 its Pandora 210 measurement-while-drilling system is rated to 210\u00b0C with a roadmap to 300\u00b0C by 2030.",
+      "signal": "$4M round led by Underground Ventures with Nabors, Future Ventures, and Grantham Foundation; first tool in the ground in 2025",
+      "status": "operating",
+      "source": "https://www.thinkgeoenergy.com/hephae-energy-raises-4-million-funding-to-support-field-trials-of-high-t-drilling-technology/"
+     }
+    ],
+    "white_space": "Nobody has produced commercial power from supercritical wells: Iceland's IDDP wells hit magma and corrosive superheated steam, ST1's 6+ km Finnish wells found uneconomic flow, and casing/cement/electronics above 400\u00b0C remain the binding constraint \u2014 so the nearest-term opening is high-temperature well hardware and instrumentation (Hephae is nearly alone) and government-backed demonstration programs rather than full-stack plant developers."
+   },
+   {
+    "name": "Advanced drilling & exploration tech (millimeter-wave, plasma, AI prospecting)",
+    "description": "New drilling physics (millimeter-wave, plasma), high-temperature tools, and AI-driven subsurface prospecting attack the two biggest geothermal cost drivers \u2014 drilling (roughly half of deep-project capex) and exploration dry-hole risk \u2014 to unlock resources that are invisible or uneconomic today.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Quaise Energy",
+      "role": "startup",
+      "what": "The only novel-physics drilling venture to reach open-field demonstration \u2014 gyrotron millimeter-wave rock vaporization, drilling hard rock at up to 5 m/hour in 2025 tests.",
+      "signal": "100 m field hole drilled in Texas (2025) after lab-only history; public demos Sept-Nov 2025",
+      "status": "operating",
+      "source": "https://www.quaise.com/news/quaise-energy-achieves-drilling-milestone-with-millimeter-wave-technology"
+     },
+     {
+      "name": "GA Drilling",
+      "role": "startup",
+      "what": "Slovak developer of PLASMABIT plasma drilling and anchored drilling systems for ultra-deep (10 km+) wells.",
+      "signal": "$15M first close (2024) with Nabors among investors ($8M strategic investment in 2022); co-developing a next-gen downhole drilling system with Petrobras",
+      "status": "operating",
+      "source": "https://www.thinkgeoenergy.com/ga-drilling-secures-15-million-funding-to-accelerate-deep-geothermal/"
+     },
+     {
+      "name": "Zanskar",
+      "role": "startup",
+      "what": "AI/ML exploration platform that claims more new geothermal discoveries in North America than any firm in decades (Big Blind and Pumpernickel in NV, Lightning Dock in NM) and is now building its own plants.",
+      "signal": "$115M Series C (Jan 2026) led by Spring Lane Capital, $180M total raised; multi-GW pipeline with first plants delivering power before 2030",
+      "status": "operating",
+      "source": "https://www.globenewswire.com/news-release/2026/01/21/3222733/0/en/Zanskar-raises-115M-Series-C-Following-Record-Setting-Year-of-Geothermal-Discoveries.html"
+     },
+     {
+      "name": "Nabors Industries",
+      "role": "incumbent",
+      "what": "World's largest land-rig contractor acting as the sector's strategic capital \u2014 invested in Quaise, GA Drilling, Sage Geosystems, and Hephae while building a geothermal drilling business line.",
+      "signal": "Multiple geothermal venture investments 2021-2025; rigs already drilling geothermal wells (e.g., for Fervo)",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/nabors-invests-in-ultra-deep-geothermal-drilling-technology-innovator-ga-drilling-301513139.html"
+     },
+     {
+      "name": "SLB",
+      "role": "incumbent",
+      "what": "Oilfield-services giant offering full-field geothermal development services, the GeothermEx resource consultancy, and the Celsius Energy building-geoenergy unit.",
+      "signal": "Active on geothermal projects globally across drilling, characterization, and production services",
+      "status": "operating",
+      "source": "https://www.slb.com"
+     },
+     {
+      "name": "Eden GeoPower",
+      "role": "startup",
+      "what": "Electro-hydraulic ('electrical') reservoir stimulation intended as a lower-water, lower-seismicity alternative to hydraulic fracturing for EGS.",
+      "signal": "ARPA-E/DOE-backed field pilots; early stage with limited recent public disclosures",
+      "status": "uncertain",
+      "source": "https://www.edengeopower.com"
+     },
+     {
+      "name": "HyperSciences",
+      "role": "startup",
+      "what": "Hypersonic projectile drilling concept for geothermal, crowdfunded via Reg A+ in the late 2010s; little public commercial activity since \u2014 a cautionary tale for novel drilling physics.",
+      "signal": "Raised ~$10M+ via crowdfunding circa 2018-2020; no announced geothermal deployments since",
+      "status": "uncertain",
+      "source": "https://www.crunchbase.com/organization/hypersciences"
+     }
+    ],
+    "white_space": "Drilling is ~half of deep-geothermal capex yet every novel-physics approach is pre-commercial and at least one (HyperSciences) has stalled, while rig incumbents prefer investing to building in-house; openings include high-temperature tool supply chains, drilling automation tuned for hard rock, and AI exploration \u2014 where Zanskar has a near-monopoly on venture-scale activity."
+   },
+   {
+    "name": "Oilfield co-produced, geopressured & sedimentary-basin geothermal",
+    "description": "Reuses oil and gas wells, hot produced water, and deep pressurized sedimentary formations to generate power or heat with standard oilfield rigs and crews \u2014 leveraging millions of existing wellbores (an estimated ~40 GW US co-production potential) and Gulf Coast geopressured resources proven but never commercialized in the 1990s.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Sage Geosystems",
+      "role": "startup",
+      "what": "Texas firm whose 'Pressure Geothermal' (geopressured) systems use single fracked wells in hot dry sedimentary rock for power (and storage, covered in the LDES bucket).",
+      "signal": "$97M Series B (Jan 2026) co-led by Ormat and Carbon Direct Capital to build the first commercial pressure-geothermal power facility; 150 MW agreement with Meta (first phase targeted 2027)",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20260121330914/en/Sage-Geosystems-Raises-Over-$97-Million-To-Deploy-Worlds-First-Commercial-Pressure-Geothermal-Power-Generation-Facility"
+     },
+     {
+      "name": "Gradient Geothermal",
+      "role": "startup",
+      "what": "Deploys mobile, modular ORC units that harvest heat from produced oilfield fluids at existing well sites.",
+      "signal": "Commercial deployment with Chord Energy in the Williston Basin, ND (Dec 2024, state-backed); DOE-supported Blackburn oilfield project in Nevada",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20241204112389/en/Gradient-Geothermal-Partners-with-Chord-Energy-on-North-Dakota-Industrial-Commission-backed-Geothermal-Project"
+     },
+     {
+      "name": "Transitional Energy",
+      "role": "startup",
+      "what": "Early oilfield-geothermal developer (Blackburn oilfield DOE pilot, Colorado projects) that merged into Gradient Geothermal.",
+      "signal": "Merger with Gradient Geothermal announced Nov 2023 by X Machina Capital Strategies \u2014 consolidation evidence in a thin field",
+      "status": "acquired",
+      "source": "https://www.businesswire.com/news/home/20231129182265/en/X-Machina-Capital-Strategies-Announces-Transitional-Energy-Gradient-Geothermal-Merger"
+     },
+     {
+      "name": "ICE Thermal Harvesting",
+      "role": "startup",
+      "what": "Houston company deploying modular ORC waste-heat-to-power systems on producing oil and gas wells in Texas.",
+      "signal": "US DOE 'Wells of Opportunity' awardee for oilfield geothermal power",
+      "status": "operating",
+      "source": "https://www.energy.gov/hgeo/geothermal/wells-opportunity"
+     },
+     {
+      "name": "Criterion Energy Partners",
+      "role": "startup",
+      "what": "Develops co-located geothermal direct heat and power for Gulf Coast industrial customers, targeting the geopressured fairway proven by DOE's 1990s Pleasant Bayou demo.",
+      "signal": "Strategic investment from drilling contractor Patterson-UTI; 10,000-acre Texas geothermal lease; DOE grant to integrate geothermal heat into a Texas chemical plant",
+      "status": "operating",
+      "source": "https://www.thinkgeoenergy.com/criterion-energy-partners-secures-strategic-investment-for-geothermal-project/"
+     },
+     {
+      "name": "DEEP Earth Energy Production",
+      "role": "startup",
+      "what": "Drilling horizontal wells into the hot Deadwood sandstone of Saskatchewan's Williston Basin to build Canada's first geothermal power facility using oilfield techniques.",
+      "signal": "Multiple horizontal test wells drilled; federal and provincial funding; first ~5 MW phase in development",
+      "status": "operating",
+      "source": "https://deepcorp.ca"
+     },
+     {
+      "name": "Chord Energy",
+      "role": "incumbent",
+      "what": "Williston Basin oil producer hosting and offtaking the first state-backed commercial co-produced geothermal power deployment (with Gradient) at its North Dakota facilities.",
+      "signal": "North Dakota Industrial Commission-supported project generating power and providing fluid cooling from produced water (2024)",
+      "status": "operating",
+      "source": "https://worldoil.com/news/2024/12/4/gradient-chord-energy-launch-geothermal-project-for-williston-basin-oil-and-gas-assets/"
+     }
+    ],
+    "white_space": "Co-produced heat is low-grade (typically ~0.1-1 MW per well), so ventures remain small and DOE-grant-dependent, and the huge Gulf Coast geopressured resource has sat uncommercialized since Pleasant Bayou in the 1990s; the opening is aggregation \u2014 bundling thousands of wells under one operator, pairing units with oilfield electrification or data-center microgrids, and using basin-scale deals (like Sage-Meta) to anchor scale."
+   },
+   {
+    "name": "Geothermal district heating & direct use",
+    "description": "Pipes hot water from wells directly into city heating networks, greenhouses, aquaculture, and industry \u2014 the oldest and cheapest use of geothermal, dominant in Iceland and the Paris Basin and now scaling fastest in China and Denmark as a gas-heating replacement.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Sinopec Green Energy Geothermal",
+      "role": "incumbent",
+      "what": "World's largest geothermal district-heating company \u2014 heats ~90 million m\u00b2 of floor area across 70+ Chinese cities, including the Xiong'an 'smokeless city' (7.2M m\u00b2 from 130+ wells).",
+      "signal": "~35% share of China's geothermal district-heating market; capacity doubled since 2020",
+      "status": "operating",
+      "source": "https://www.arcticgreen.com/projects/sinopec-green-energy-world-s-largest-district-heating-company"
+     },
+     {
+      "name": "Arctic Green Energy",
+      "role": "scaleup",
+      "what": "Icelandic developer exporting the Reykjavik district-heating model internationally; holds 46% of the Sinopec Green Energy JV.",
+      "signal": "JV expanding beyond China ('going global'); among the largest private geothermal heat businesses worldwide",
+      "status": "operating",
+      "source": "https://www.arcticgreen.com/projects"
+     },
+     {
+      "name": "Innargi",
+      "role": "scaleup",
+      "what": "A.P. Moller Holding-backed heat-as-a-service developer that finances, drills, and operates geothermal heat plants so utilities take no subsurface risk.",
+      "signal": "Opened the EU's largest geothermal district-heating plant in Aarhus, Denmark (Oct 31, 2025); scaling to 110 MW (~20% of the city's heat) by ~2029-2030; pipeline in Poland and Germany",
+      "status": "operating",
+      "source": "https://innargi.com/eus-largest-geothermal-district-heating-plant-begins-operations-in-aarhus-denmark/"
+     },
+     {
+      "name": "Engie",
+      "role": "incumbent",
+      "what": "Operates a large share of the Paris Basin's roughly 50 geothermal district-heating networks (Dogger aquifer doublets), the densest geothermal DH cluster in Europe outside Iceland.",
+      "signal": "Decades of operation with continued new doublet drilling in \u00cele-de-France",
+      "status": "operating",
+      "source": "https://www.engie.com"
+     },
+     {
+      "name": "Orkuveita Reykjavikur (Veitur / ON Power)",
+      "role": "incumbent",
+      "what": "Runs the world's largest geothermal district-heating system, serving essentially all of Reykjavik's buildings plus combined heat-and-power at Hellisheidi and Nesjavellir.",
+      "signal": "~99% of Reykjavik heated geothermally for decades \u2014 the global benchmark",
+      "status": "operating",
+      "source": "https://www.or.is/en/"
+     },
+     {
+      "name": "St1",
+      "role": "incumbent",
+      "what": "Finnish energy company that drilled 6+ km wells for the Otaniemi/Espoo deep-heat plant \u2014 the project was shelved when flow rates between wells proved commercially unviable, and the wells were handed to researchers in 2024.",
+      "signal": "Highest-profile deep district-heating failure in Europe; company itself continues operating in fuels and renewables",
+      "status": "operating",
+      "source": "https://st1.com/article/st1-geothermal-wells-in-otaniemi-now-in-research-use"
+     }
+    ]
+   },
+   {
+    "name": "Networked geo-exchange & ground-source heat pumps",
+    "description": "Uses shallow boreholes plus heat pumps \u2014 increasingly as utility-owned, street-scale shared thermal loops \u2014 to heat and cool buildings at 3-5x the efficiency of gas or resistance heating; it is 'direct use' of ground heat rather than power generation, and the fastest-growing way buildings tap the subsurface.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Dandelion Energy",
+      "role": "scaleup",
+      "what": "Google X spinout industrializing residential ground-source heat pumps, now focused on new-construction partnerships with homebuilders.",
+      "signal": "Partnership with Lennar (Apr 2025) for 1,500+ geothermal homes in Colorado \u2014 one of the largest US residential geothermal deployments; ~$135M raised",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/dandelion-energy-and-lennar-announce-one-of-the-largest-residential-geothermal-deployments-in-us-history-302417823.html"
+     },
+     {
+      "name": "Bedrock Energy",
+      "role": "startup",
+      "what": "Autonomous, compact drilling rigs plus subsurface modeling that cut commercial-building borehole installation time 3-8x, enabling geothermal HVAC on tight urban lots.",
+      "signal": "$12M Series A (Jan 2025) led by Titanium Ventures with Energy Impact Partners; expanding across Texas and the Mountain West",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20250122142479/en/Bedrock-Energy-Raises-$12M-Series-A-to-Scale-Geothermal-Heating-and-Cooling"
+     },
+     {
+      "name": "Brightcore Energy",
+      "role": "scaleup",
+      "what": "Turnkey geothermal exchange developer for commercial and institutional buildings (schools, multifamily) in the US Northeast.",
+      "signal": "Growing portfolio of commercial geoexchange installations incl. large NYC-area projects",
+      "status": "operating",
+      "source": "https://brightcoreenergy.com"
+     },
+     {
+      "name": "Celsius Energy",
+      "role": "scaleup",
+      "what": "SLB-incubated venture using compact inclined-borehole fields and digital controls to retrofit geoenergy heating/cooling into space-constrained buildings.",
+      "signal": "Deployments in France and US pilots, backed by SLB's drilling expertise",
+      "status": "operating",
+      "source": "https://www.celsiusenergy.com"
+     },
+     {
+      "name": "Eversource Energy",
+      "role": "incumbent",
+      "what": "First US utility to own and operate a networked geothermal system \u2014 a shared borehole loop serving ~36 buildings/~130 customers in Framingham, MA, as a gas-main replacement model.",
+      "signal": "System operating since June 2024; $8.6M DOE award (Dec 2025) with HEET and the city to expand to the adjacent neighborhood",
+      "status": "operating",
+      "source": "https://www.eversource.com/residential/about/transmission-distribution/projects/massachusetts-projects/geothermal-pilot-project"
+     },
+     {
+      "name": "WaterFurnace International",
+      "role": "incumbent",
+      "what": "One of North America's largest ground-source heat pump manufacturers, owned by Sweden's NIBE Group.",
+      "signal": "Decades-old installed base; benefits from US 30% federal geothermal tax credit",
+      "status": "operating",
+      "source": "https://www.waterfurnace.com"
+     },
+     {
+      "name": "Darcy Solutions",
+      "role": "startup",
+      "what": "Minnesota startup using groundwater aquifers as the heat-exchange medium, extracting 10-50x more capacity per borehole than closed loops.",
+      "signal": "Utility and commercial pilots in the Midwest; limited recent public funding disclosures",
+      "status": "uncertain",
+      "source": "https://darcysolutions.com"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   "https://fervoenergy.com/fervo-energy-raises-462-million-series-e-to-accelerate-geothermal-development-and-meet-surging-energy-demand-with-clean-firm-power/",
+   "https://www.canarymedia.com/articles/geothermal/fervo-investment-capital-b-cape-station",
+   "https://www.globenewswire.com/news-release/2025/12/04/3200069/0/en/Eavor-Technologies-Achieves-First-Electricity-Production-at-Geretsried-Site.html",
+   "https://www.technologyreview.com/2025/07/22/1120545/geothermal-drilling-quaise/",
+   "https://www.thinkgeoenergy.com/quaise-energy-seeks-to-raise-200m-for-50-mw-geothermal-development-in-oregon/",
+   "https://www.globenewswire.com/news-release/2026/01/21/3222733/0/en/Zanskar-raises-115M-Series-C-Following-Record-Setting-Year-of-Geothermal-Discoveries.html",
+   "https://www.businesswire.com/news/home/20260121330914/en/Sage-Geosystems-Raises-Over-$97-Million-To-Deploy-Worlds-First-Commercial-Pressure-Geothermal-Power-Generation-Facility",
+   "https://www.businesswire.com/news/home/20250612778008/en/XGS-Energy-and-Meta-to-Partner-on-150-MW-Advanced-Geothermal-Project",
+   "https://www.thinkgeoenergy.com/constellation-completes-acquisition-of-calpines-geysers-assets/",
+   "https://www.businesswire.com/news/home/20241121792613/en/Mazama-Energy-Awarded-Grant-by-U.S.-Department-of-Energy-for-Superhot-Rock-Geothermal-Demonstration-Project",
+   "https://www.opb.org/article/2025/10/06/super-hot-rocks-geothermal-technology-renewable-energy-three-rivers-mazama/",
+   "https://www.energy.gov/hgeo/geothermal/wells-opportunity",
+   "https://innargi.com/eus-largest-geothermal-district-heating-plant-begins-operations-in-aarhus-denmark/",
+   "https://www.arcticgreen.com/projects/sinopec-green-energy-world-s-largest-district-heating-company",
+   "https://www.eversource.com/residential/about/transmission-distribution/projects/massachusetts-projects/geothermal-pilot-project",
+   "https://www.prnewswire.com/news-releases/dandelion-energy-and-lennar-announce-one-of-the-largest-residential-geothermal-deployments-in-us-history-302417823.html",
+   "https://www.thinkgeoenergy.com/ga-drilling-secures-15-million-funding-to-accelerate-deep-geothermal/",
+   "https://www.thinkgeoenergy.com/hephae-energy-raises-4-million-funding-to-support-field-trials-of-high-t-drilling-technology/",
+   "https://st1.com/article/st1-geothermal-wells-in-otaniemi-now-in-research-use",
+   "https://www.chevron.com/newsroom/2022/q4/chevron-and-baseload-capital-create-joint-venture-to-explore-geothermal-development-opportunities",
+   "https://www.businesswire.com/news/home/20231129182265/en/X-Machina-Capital-Strategies-Announces-Transitional-Energy-Gradient-Geothermal-Merger",
+   "https://www.businesswire.com/news/home/20241204112389/en/Gradient-Geothermal-Partners-with-Chord-Energy-on-North-Dakota-Industrial-Commission-backed-Geothermal-Project",
+   "https://ktvz.com/news/business/2024/07/26/remember-the-newberry-geothermal-project-its-back-with-new-tech-in-bid-to-achieve-economic-extraction-of-earths-heat/",
+   "https://www.thinkgeoenergy.com/controlled-thermal-resources-provides-updates-on-hells-kitchen-geothermal-project/",
+   "https://www.datacenterdynamics.com/en/news/google-signs-10mw-geothermal-ppa-with-baseload-capital-in-taiwan/",
+   "https://www.greenfireenergy.com/series-a-financing/",
+   "https://www.businesswire.com/news/home/20250122142479/en/Bedrock-Energy-Raises-$12M-Series-A-to-Scale-Geothermal-Heating-and-Cooling",
+   "https://www.thinkgeoenergy.com/criterion-energy-partners-secures-strategic-investment-for-geothermal-project/"
+  ]
+ }
+}

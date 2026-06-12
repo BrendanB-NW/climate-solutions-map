@@ -1,0 +1,348 @@
+{
+ "sector": "cdr",
+ "bucket": "Ocean-Based CDR",
+ "census": {
+  "bucket": "Ocean-Based CDR",
+  "sources": [
+   "https://carbonherald.com/top-10-ocean-carbon-removal-companies-in-2023/",
+   "https://www.businesswire.com/news/home/20251210046603/en/Ebb-signs-initial-carbon-removal-offtake-agreement-with-Google-to-accelerate-innovation-for-ocean-alkalinity-enhancement",
+   "https://www.equatic.tech/articles/equatic-secures-11-6mm-series-a-funding-to-advance-permanent-carbon-removal-and-green-hydrogen-production",
+   "https://capturacorp.com/equinor-and-captura-validate-doc/",
+   "https://capturacorp.com/carbon-removal-firm-captura-expands-series-a-funding-to-us45-3m/",
+   "https://www.seafoodsource.com/news/environment-sustainability/carbon-removal-company-running-tide-shuts-down-operations",
+   "https://carboncredits.com/frontiers-31-3m-offtake-with-planetary-signals-a-new-era-for-ocean-carbon-removal/",
+   "https://frontierclimate.com/writing/carbonrun",
+   "https://www.vesta.earth/the-project",
+   "https://carbonherald.com/vesta-reaches-milestone-with-ocean-carbon-removal-project-in-north-carolina/",
+   "https://www.seao2.com/",
+   "https://www.eu-startups.com/2024/11/amsterdam-based-seao%E2%82%82-secures-over-e2-million-to-advance-its-co%E2%82%82-removal-technology/",
+   "https://carbonherald.com/italian-startup-limenet-is-fighting-ocean-acidification-while-sequestering-co2/",
+   "https://www.geoengineeringmonitor.org/marine-geo-biomass-sinking",
+   "https://www.planetech.org/climatetechstories/rewind",
+   "https://www.carboniferous.co/articles/frontier-r-d-grant-announcement",
+   "https://theconversation.com/a-deep-ocean-climate-plan-wins-rare-epa-approval-but-is-sinking-plants-in-the-sea-the-answer-282361",
+   "https://fortune.com/2025/07/03/ocean-technology-startup-200000-carbon-credits-scientists-doubts-gigablue/",
+   "https://carboncredits.com/brilliant-planet-carbon-capture-with-algae/",
+   "https://oceaniron.org/",
+   "https://news.mongabay.com/2025/06/marine-artificial-upwelling-problematic-climate-solution-slow-to-advance/",
+   "https://carbonherald.com/seafields-is-gathering-funds-to-turn-coastal-seaweed-crisis-into-a-cdr-solution/",
+   "https://www.prnewswire.com/news-releases/capture6-completes-27-5-million-series-a-and-project-funding-round-to-scale-the-production-of-fresh-water-and-carbon-removal-302397891.html",
+   "https://thefishsite.com/articles/sargassum-upcycler-raises-5-million-carbonwave",
+   "https://phyconomy.substack.com/p/seaweed-in-2025-the-year-in-review"
+  ],
+  "variations": [
+   {
+    "name": "Electrochemical ocean alkalinity enhancement (acid extraction from seawater)",
+    "description": "Electrochemical cells split seawater into an alkaline stream that is returned to the ocean to absorb more atmospheric CO2 and an acidic stream managed separately, giving precise, mining-free control over how much carbon the sea draws down.",
+    "maturity": "demonstration",
+    "white_space": "",
+    "companies": [
+     {
+      "name": "Ebb Carbon",
+      "role": "startup",
+      "what": "Bipolar-membrane electrochemistry bolted onto desalination/industrial seawater outfalls to make alkalinity and split off acid; pursues co-located deals with desal plants.",
+      "signal": "~$40M raised; 350,000-tonne 10-yr offtake with Microsoft (Oct 2024); Google offtake (Dec 2025); Saudi Water Authority MoU for up to 85 Mt/yr at full deployment.",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20251210046603/en/Ebb-signs-initial-carbon-removal-offtake-agreement-with-Google-to-accelerate-innovation-for-ocean-alkalinity-enhancement"
+     },
+     {
+      "name": "Equatic (UCLA spinout)",
+      "role": "startup",
+      "what": "Seawater electrolysis that co-produces solid carbonates plus green hydrogen, neutralizing the acid stream by mineralizing CO2; sells CDR + H2 bundles.",
+      "signal": "$11.6M Series A closed Aug 2025 (Temasek Trust C3H, Kibo); Equatic-1 demo plant in Tuas Singapore live Q1 2026 with PUB; Boeing pre-buy of 62,000 t + 2,100 t H2; ~$500/t.",
+      "status": "operating",
+      "source": "https://www.equatic.tech/articles/equatic-secures-11-6mm-series-a-funding-to-advance-permanent-carbon-removal-and-green-hydrogen-production"
+     },
+     {
+      "name": "Captura",
+      "role": "startup",
+      "what": "Direct Ocean Capture via bipolar-membrane electrodialysis that strips gaseous CO2 out of seawater (rather than dosing alkalinity); see direct ocean capture variation \u2014 straddles both.",
+      "signal": "$45.3M Series A (Apr 2024, Eni/Equinor/Maersk/Aramco); Kona 1,000 t/yr pilot; Equinor validated for commercial 30,000-50,000 t/yr facility Nov 2025.",
+      "status": "operating",
+      "source": "https://capturacorp.com/carbon-removal-firm-captura-expands-series-a-funding-to-us45-3m/"
+     },
+     {
+      "name": "Vycarb",
+      "role": "startup",
+      "what": "Brooklyn-based CO2 neutralization plus in-situ carbon sensing to make fully-measured, dose-controlled alkalinity additions at the waterline.",
+      "signal": "Founded 2022; early-stage; cited among credible US OAE developers but pre-large-offtake.",
+      "status": "operating",
+      "source": "https://carbonherald.com/italian-startup-limenet-is-fighting-ocean-acidification-while-sequestering-co2/"
+     },
+     {
+      "name": "Capture6",
+      "role": "startup",
+      "what": "Turns desalination waste brine into a solvent that mineralizes CO2 in one step while recovering >50% freshwater; electrochemically derived alkalinity loop (also in brine variation).",
+      "signal": "$27.5M Series A + project funding Mar 2025 (Hyundai ZER01NE, Energy Capital Ventures); Palmdale Water District (CA), plus WA Australia and South Korea projects.",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/capture6-completes-27-5-million-series-a-and-project-funding-round-to-scale-the-production-of-fresh-water-and-carbon-removal-302397891.html"
+     }
+    ]
+   },
+   {
+    "name": "Mineral ocean alkalinity enhancement (lime/olivine/carbonate dosing at outfalls and from vessels)",
+    "description": "Finely ground alkaline minerals (magnesium hydroxide, hydrated lime, or processed limestone) are dosed into seawater at power-plant/wastewater outfalls so dissolved CO2 converts to stable bicarbonate, locking carbon away for millennia while countering ocean acidification.",
+    "maturity": "demonstration",
+    "white_space": "",
+    "companies": [
+     {
+      "name": "Planetary Technologies",
+      "role": "startup",
+      "what": "Doses magnesium hydroxide slurry into power-plant cooling-water and wastewater outfalls (Halifax, Norfolk VA) and verifies removals; the volume leader on credits delivered.",
+      "signal": "Delivered world's first independently verified OAE credits (625.6 t) to Stripe/Shopify/British Airways Jun 2025; $31.3M Frontier offtake (Aug 2025) for 115,211 t; ~$271/t; $11.3M Series A Oct 2024.",
+      "status": "operating",
+      "source": "https://carboncredits.com/frontiers-31-3m-offtake-with-planetary-signals-a-new-era-for-ocean-carbon-removal/"
+     },
+     {
+      "name": "Limenet",
+      "role": "startup",
+      "what": "Calcines limestone and reacts the resulting lime + recovered CO2 with seawater in a reactor to produce pH-neutral calcium bicarbonate dosed to the sea; world's largest OAE pilot plant.",
+      "signal": "Italian plant operational since Sept 2023, ~800 t CO2/yr scaling to 2,000 t/yr (2025) and 100,000 t/yr target by 2028; raised EUR 5M Sept 2024; first blockchain OAE credits via Carbonmark.",
+      "status": "operating",
+      "source": "https://carbonherald.com/italian-startup-limenet-is-fighting-ocean-acidification-while-sequestering-co2/"
+     },
+     {
+      "name": "CREW Carbon (formerly CarbonRun spinoffs / Yale)",
+      "role": "startup",
+      "what": "Adds alkalinity at municipal wastewater treatment plants to enhance carbon uptake in receiving waters; US East Coast deployments.",
+      "signal": "Early-stage; cited among credible US OAE developers (Vycarb, Vesta, CREW); pre-large-offtake.",
+      "status": "operating",
+      "source": "https://www.theinvadingsea.com/2026/05/12/marine-carbon-dioxide-removal-ocean-storage-climate-change-power-plants-planetary-technologies/"
+     }
+    ]
+   },
+   {
+    "name": "River and watershed liming (river alkalinity enhancement)",
+    "description": "Crushed limestone is dosed into acidified rivers via automated dosers, simultaneously repairing acid-rain damage and boosting the river's natural ability to pull CO2 from the air before the alkalinity reaches the sea.",
+    "maturity": "pilot",
+    "white_space": "Nascent and effectively single-player: river liming is cheap and ecologically familiar (long used for fish habitat), so the physics are de-risked, but measurement/verification of incremental CO2 uptake in flowing freshwater is the hard part and the regulatory/credit category is brand new. An opening exists for credible MRV-first entrants in geographies with many acidified or neutral-pH rivers (Scandinavia, Appalachia, Canada).",
+    "companies": [
+     {
+      "name": "CarbonRun",
+      "role": "startup",
+      "what": "Canadian spinout (Dalhousie) running automated limestone dosers on rivers, pioneering 'river alkalinity enhancement' as a distinct CDR pathway with a credible sub-$100/t trajectory.",
+      "signal": "$25.4M Frontier offtake (Stripe, Shopify, McKinsey, Meta, Google) to remove 55,442 t 2025-2029; generated world's first river alkalinity enhancement credits; +$1M Stripe R&D grant.",
+      "status": "operating",
+      "source": "https://frontierclimate.com/writing/carbonrun"
+     }
+    ]
+   },
+   {
+    "name": "Coastal enhanced weathering (olivine sand placement)",
+    "description": "Olivine sand is placed in the nearshore where wave energy grinds and dissolves it, generating bicarbonate alkalinity that captures CO2 while doubling as shoreline-erosion protection \u2014 marine enhanced rock weathering powered by free wave action.",
+    "maturity": "pilot",
+    "white_space": "Thin field with one clear lead. Slow, hard-to-measure dissolution kinetics in cold/low-energy water and trace-metal (nickel/chromium) permitting concerns deter entrants, and MRV is contested. Opening: integration with publicly funded coastal-resilience/beach-nourishment budgets (which dwarf carbon revenue) could subsidize deployment and de-risk the model.",
+    "companies": [
+     {
+      "name": "Vesta (Project Vesta)",
+      "role": "startup",
+      "what": "Integrates olivine 'carbon-removing sand' into coastal construction and beach-nourishment projects (Coastal Carbon Capture), harnessing wave energy for marine enhanced rock weathering.",
+      "signal": "Flagship pilot placed 7,000 cubic yards of olivine sand at Duck, North Carolina (Jul 2024); trials in Caribbean, Hawaii, India; pilot targets >=5,000 t CO2; backed by Stripe Climate, TreadRight.",
+      "status": "operating",
+      "source": "https://carbonherald.com/vesta-reaches-milestone-with-ocean-carbon-removal-project-in-north-carolina/"
+     }
+    ]
+   },
+   {
+    "name": "Direct ocean capture (seawater CO2 stripping via electrodialysis/vacuum)",
+    "description": "Rather than dosing alkalinity, these systems acidify a seawater stream (or apply vacuum) to convert dissolved bicarbonate into gaseous CO2 that bubbles out for permanent storage or reuse, then return the CO2-depleted water to re-absorb atmospheric carbon.",
+    "maturity": "demonstration",
+    "white_space": "",
+    "companies": [
+     {
+      "name": "Captura",
+      "role": "startup",
+      "what": "Caltech spinout using bipolar-membrane electrodialysis to split seawater and strip out pure CO2 gas; the most commercially advanced DOC player, targeting ~$100/t.",
+      "signal": "$45.3M Series A (Eni Next, Equinor, Maersk Growth, Aramco, National Grid, JAL); Port of LA (100 t/yr) + Kona Hawaii (1,000 t/yr) pilots; Equinor validated for 30,000-50,000 t/yr commercial plant (Nov 2025).",
+      "status": "operating",
+      "source": "https://capturacorp.com/equinor-and-captura-validate-doc/"
+     },
+     {
+      "name": "SeaO2",
+      "role": "startup",
+      "what": "Amsterdam-based DOC using electrochemistry plus vacuum to shift the carbonate equilibrium and extract CO2 gas from North Sea water; proposes Europe's first standalone DOC field test.",
+      "signal": "Raised >EUR 2M (Nov 2024); pilot plant in Scheveningen Harbor targeting 250 t CO2/yr launched summer 2025; field-validated with real North Sea water 2025; BlueInvest-backed.",
+      "status": "operating",
+      "source": "https://www.eu-startups.com/2024/11/amsterdam-based-seao%E2%82%82-secures-over-e2-million-to-advance-its-co%E2%82%82-removal-technology/"
+     },
+     {
+      "name": "Equinor (incumbent partner)",
+      "role": "incumbent",
+      "what": "Norwegian energy major running a joint technology-qualification program to validate and scale DOC for commercial offshore deployment, supplying engineering and offshore siting.",
+      "signal": "Completed DOC qualification with Captura Nov 2025; designing 30,000-50,000 t/yr facility with European/UK/APAC sites; also a Captura equity investor via Equinor Ventures.",
+      "status": "operating",
+      "source": "https://capturacorp.com/equinor-and-captura-validate-doc/"
+     }
+    ]
+   },
+   {
+    "name": "Brine-based capture and mineralization (desalination brine alkalinity loops)",
+    "description": "Desalination reject brine is intercepted and processed electrochemically to extract alkalinity or mineralize CO2 into solid carbonates, simultaneously solving desal's hypersaline-waste problem and recovering extra freshwater plus saleable chemical co-products.",
+    "maturity": "pilot",
+    "white_space": "",
+    "companies": [
+     {
+      "name": "Capture6",
+      "role": "startup",
+      "what": "Converts desal waste brine into a CO2-mineralizing solvent in a single step while recovering >50% of freshwater; co-locates at water utilities to share economics across water + carbon.",
+      "signal": "$27.5M Series A + project funding Mar 2025 (Tetrad, Hyundai ZER01NE, Energy Capital Ventures); Palmdale Water District (CA) eliminating ~100 acres of brine ponds; projects in WA Australia, South Korea, NZ.",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/capture6-completes-27-5-million-series-a-and-project-funding-round-to-scale-the-production-of-fresh-water-and-carbon-removal-302397891.html"
+     },
+     {
+      "name": "Ebb Carbon",
+      "role": "startup",
+      "what": "Intercepts desalination brine discharge and runs it through an electrochemical system to produce ocean-bound alkalinity plus chemical co-products and higher freshwater yield.",
+      "signal": "~$40M raised; desal-integration strategy anchored by Saudi Water Authority partnership (up to 85 Mt/yr potential at full deployment).",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20251210046603/en/Ebb-signs-initial-carbon-removal-offtake-agreement-with-Google-to-accelerate-innovation-for-ocean-alkalinity-enhancement"
+     },
+     {
+      "name": "IDE Technologies",
+      "role": "incumbent",
+      "what": "Global desalination EPC that patented a sustainable desalination process recovering calcium and CO2 from seawater to cut external chemical purchases and enable mineralization.",
+      "signal": "Established desalination incumbent (multi-decade, global plants); 'Desalination Brine Mining' commercialization program; representative example of incumbent brine-valorization.",
+      "status": "operating",
+      "source": "https://ide-tech.com/en/blog/from-sustainable-to-self-sustained-the-future-of-seawater-desalination-merges-sustainability-with-profitability/"
+     }
+    ]
+   },
+   {
+    "name": "Macroalgae/sargassum cultivation and deep-ocean sinking",
+    "description": "Fast-growing seaweed (kelp or pelagic sargassum) is cultivated or collected, then sunk to the deep ocean (>1,000 m) so the fixed carbon is locked away for centuries \u2014 appealing because seaweed needs no land, fertilizer, or freshwater, though sinking permanence and MRV remain contested.",
+    "maturity": "pilot",
+    "white_space": "High-churn, low-survivor variation. The economics are brutal: seaweed CDR credits are expensive and seaweed can't be readily monetized on existing carbon markets, and recent in-situ studies show sunk kelp degrades rapidly, undercutting permanence claims. Running Tide's collapse chilled buyers. Opening favors players that pair biomass with a saleable co-product (biomaterials, feed) so carbon is upside, not the whole business case.",
+    "companies": [
+     {
+      "name": "Running Tide",
+      "role": "startup",
+      "what": "Sank limestone-coated wood waste seeded with kelp ~200 miles off Iceland to >1,000 m, bundling biomass sinking with alkalinity; once the highest-profile seaweed-sinking venture.",
+      "signal": "Shut down June 2024 citing lack of voluntary-market demand; raised ~$50M (2017-2024); laid off remaining 32 staff (peak 120); generated controversial woodchip credits.",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.seafoodsource.com/news/environment-sustainability/carbon-removal-company-running-tide-shuts-down-operations"
+     },
+     {
+      "name": "Seafields",
+      "role": "startup",
+      "what": "Aims to farm pelagic sargassum in stationary open-ocean aquafarms off West Africa (using artificial upwelling for nutrients) and bale/sink it for durable storage.",
+      "signal": "~$3.9M in grants/equity/debt by Mar 2025 plus a 2025 crowdfunding round (~$226K from 140+ investors); unveiled a $1B project concept; partners with MacroCarbon; pre-commercial.",
+      "status": "operating",
+      "source": "https://carbonherald.com/seafields-is-gathering-funds-to-turn-coastal-seaweed-crisis-into-a-cdr-solution/"
+     },
+     {
+      "name": "Carbonwave",
+      "role": "startup",
+      "what": "Upcycles Caribbean sargassum blooms into biomaterials (cosmetic emulsifier, fertilizer); a co-product-first model where carbon is secondary, hedging against thin CDR markets.",
+      "signal": "Raised $5M round bringing total to ~$12M; building large-scale emulsifier production in Puerto Rico.",
+      "status": "operating",
+      "source": "https://thefishsite.com/articles/sargassum-upcycler-raises-5-million-carbonwave"
+     },
+     {
+      "name": "Kelp Blue",
+      "role": "startup",
+      "what": "Cultivates giant kelp in deep offshore waters (Namibia) for biostimulants and other products while studying blue-carbon sequestration; product-led rather than pure-sinking.",
+      "signal": "Operating offshore Namibia; partnering with Wageningen University and Algaia on the SeaSolv seaweed-processing project; pre-large-offtake on carbon.",
+      "status": "operating",
+      "source": "https://blog.sintef.com/ocean/cultivated-kelp-and-blue-carbon-hype-or-opportunity/"
+     }
+    ]
+   },
+   {
+    "name": "Terrestrial biomass sinking in anoxic basins",
+    "description": "Agricultural and forestry residues (woodchips, bagasse, corn stalks) that already captured CO2 on land are sunk into oxygen-free deep basins where decomposition is extremely slow, aiming to lock the carbon away for centuries to millennia.",
+    "maturity": "pilot",
+    "white_space": "",
+    "companies": [
+     {
+      "name": "Rewind",
+      "role": "startup",
+      "what": "Israeli venture sinking woody/agricultural residue into the anoxic Black Sea seabed (2,300 m), arguing near-zero decomposition; the largest dedicated anoxic-basin biomass player.",
+      "signal": "Tested in Sea of Galilee, Germany, and off Trabzon Turkey; permitting with Romania for 100 t at 600 m; targets 1 Mt/yr by 2030 and 50 Mt long-term; Stripe/Activate R&D grant.",
+      "status": "operating",
+      "source": "https://www.planetech.org/climatetechstories/rewind"
+     },
+     {
+      "name": "Carboniferous",
+      "role": "startup",
+      "what": "Sinks sugarcane bagasse and other crop residue into the hypersaline, anoxic Orca Basin in the Gulf of Mexico (Anoxic Biological Carbon Sequestration); won rare US EPA research permit.",
+      "signal": "EPA MPRSA research permit (applied May 2025) to sink 20 sacks of sugarcane residue at 2,200 m; $250K Frontier R&D grant + $500K Stripe/Activate grant; faces Friends of the Earth opposition.",
+      "status": "operating",
+      "source": "https://theconversation.com/a-deep-ocean-climate-plan-wins-rare-epa-approval-but-is-sinking-plants-in-the-sea-the-answer-282361"
+     }
+    ]
+   },
+   {
+    "name": "Microalgae cultivation with terrestrial/desert storage",
+    "description": "High-growth microalgae are grown in open coastal ponds using seawater, then harvested, dried into hypersaline flakes, and buried on land in arid regions for ~1,000+ years \u2014 moving the storage step onshore to sidestep ocean-permanence and MRV uncertainty.",
+    "maturity": "demonstration",
+    "white_space": "Sparse, capital-intensive niche dominated by one credible scaler. It needs cheap flat coastal desert land plus seawater plus burial sites \u2014 a rare geographic combination \u2014 and competes with cheaper enhanced-weathering and DAC on cost. Opening: co-siting with desalination or solar in MENA/North Africa where all three inputs coincide, and where buried biomass MRV is simpler than ocean sinking.",
+    "companies": [
+     {
+      "name": "Brilliant Planet",
+      "role": "startup",
+      "what": "Grows engineered microalgae in open-air seawater ponds on coastal desert (Morocco), then dries and buries the biomass onshore as hypersaline flakes for ~1,000-year storage.",
+      "signal": "$12M Series A (Union Square Ventures, Toyota Ventures), >$25M total; 70,000 m2 demo site (~100 t/yr) targeted early 2025; sold 1,500 t to Block via Watershed; 270,000 t/yr commercial plant goal by 2030.",
+      "status": "operating",
+      "source": "https://carboncredits.com/brilliant-planet-carbon-capture-with-algae/"
+     }
+    ]
+   },
+   {
+    "name": "Iron and nutrient ocean fertilization",
+    "description": "Adding trace iron (or other limiting nutrients) to iron-poor surface waters stimulates phytoplankton blooms that absorb CO2 and, when the plankton die, export carbon to the deep ocean as 'marine snow' \u2014 historically the most studied and most controversial marine CDR pathway.",
+    "maturity": "lab",
+    "white_space": "Almost no commercial players because the pathway is heavily stigmatized (London Protocol restrictions, the 2012 Haida rogue-dumping episode) and ecological side-effects plus verification of permanent export remain deeply uncertain. The serious activity is research consortia, not startups; the one venture that flirted with it (Gigablue) drew accusations of de-facto fertilization. An opening exists only behind rigorous, permitted, MRV-heavy science \u2014 and only if governance frameworks legitimize it.",
+    "companies": [
+     {
+      "name": "Exploring Ocean Iron Solutions (ExOIS)",
+      "role": "incumbent",
+      "what": "Non-commercial international research consortium (60+ scientists, 37 institutions) designing transparent, permitted iron-fertilization field experiments to resolve efficacy and ecosystem impacts.",
+      "signal": "Planning multi-region trials (off Alaska/Canada, Pacific upwelling zones, Southern Ocean) over a 5-10 yr horizon; estimated first-of-kind LCOC ~$200/t; research stage, not selling credits.",
+      "status": "operating",
+      "source": "https://oceaniron.org/"
+     },
+     {
+      "name": "Gigablue",
+      "role": "startup",
+      "what": "Israeli startup deploying patented particles meant to grow algae then sink rapidly to the seafloor; markets it as distinct from iron dumping though scientists dispute that.",
+      "signal": "Claimed sale of 200,000 carbon credits (2025) despite little public technical data; NZ EPA found a planned 1,000 t particle deployment amounted to illegal ocean dumping; credibility widely questioned.",
+      "status": "uncertain",
+      "source": "https://fortune.com/2025/07/03/ocean-technology-startup-200000-carbon-credits-scientists-doubts-gigablue/"
+     }
+    ]
+   },
+   {
+    "name": "Artificial upwelling/downwelling",
+    "description": "Wave- or pump-driven systems bring cold, nutrient-rich deep water to the sunlit surface (upwelling) to trigger photosynthesis and carbon export \u2014 or push surface water down (downwelling) \u2014 aiming to enhance the ocean's natural biological carbon pump.",
+    "maturity": "pilot",
+    "white_space": "Barely past the theoretical stage with only micro-scale tests; engineering durable wave-driven pumps in the open ocean is unproven at scale and modeled CDR efficiency is low (likely capping around ~100 Mt/yr, far below gigaton hopes), so few investors commit. Opening is narrow: ecosystem-restoration/fisheries co-benefits may fund early pumps where carbon alone cannot, but the carbon thesis itself is weak.",
+    "companies": [
+     {
+      "name": "The Sea Upwelling Company (formerly Ocean-Based Climate Solutions)",
+      "role": "startup",
+      "what": "Builds wave-powered open-ocean upwelling pumps that lift nutrients to the surface to trigger photosynthesis and food-web restoration alongside CO2 removal.",
+      "signal": "Deploying east of Bermuda with Bermuda Institute of Ocean Sciences \u2014 billed as the first open-ocean upwelling CDR project worldwide; early/demonstration scale.",
+      "status": "operating",
+      "source": "https://news.mongabay.com/2025/06/marine-artificial-upwelling-problematic-climate-solution-slow-to-advance/"
+     },
+     {
+      "name": "Sea-Up",
+      "role": "startup",
+      "what": "Designs, deploys, and operates wave-driven sea-upwelling pumps that deliver deep-water nutrients to the sunlit upper ocean to stimulate photosynthesis and restore sea life.",
+      "signal": "Early-stage developer building/operating pumps; pre-commercial, small-scale field activity.",
+      "status": "operating",
+      "source": "https://www.sea-up.life/"
+     },
+     {
+      "name": "Seafields",
+      "role": "startup",
+      "what": "Uses artificial upwelling specifically to feed stationary sargassum aquafarms (overlaps the macroalgae variation) rather than for standalone bloom export.",
+      "signal": "~$3.9M raised by Mar 2025 plus crowdfunding; partners with MacroCarbon on stationary aquafarms; pre-commercial.",
+      "status": "operating",
+      "source": "https://carbonherald.com/seafields-is-gathering-funds-to-turn-coastal-seaweed-crisis-into-a-cdr-solution/"
+     }
+    ]
+   }
+  ]
+ }
+}

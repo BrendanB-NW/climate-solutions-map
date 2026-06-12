@@ -1,0 +1,844 @@
+{
+ "sector": "energy",
+ "bucket": "Solar",
+ "census": {
+  "bucket": "Solar",
+  "variations": [
+   {
+    "name": "Utility-scale crystalline silicon PV (TOPCon, HJT, back-contact) incl. trackers & BOS",
+    "description": "Gigawatt-scale fields of advanced n-type silicon modules (TOPCon, heterojunction, back-contact) on single-axis trackers with balance-of-system hardware; it is the workhorse of decarbonization and the cheapest bulk electricity in most of the world.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "LONGi",
+      "role": "incumbent",
+      "what": "World's largest vertically integrated wafer-to-module maker; commercializing HPBC back-contact modules (Hi-MO 9) and holds record ~27.8% silicon cell efficiency.",
+      "signal": "Tens of GW annual shipments; back-contact ramp through 2025",
+      "status": "operating",
+      "source": "https://www.pv-magazine-india.com/2025/05/20/from-topcon-dominance-to-the-rise-of-back-contact-solar-modules/"
+     },
+     {
+      "name": "JinkoSolar",
+      "role": "incumbent",
+      "what": "Top global module shipper and TOPCon leader (Tiger Neo); pushing 650W+ TOPCon modules as the utility benchmark.",
+      "signal": "World No. 1 in module shipments; ~90 GW-class capacity",
+      "status": "operating",
+      "source": "https://www.pv-tech.org/snec-2025-takeaways-800w-modules-n-type-diversification-perovskite-tandem-gains-momentum/"
+     },
+     {
+      "name": "Trina Solar",
+      "role": "incumbent",
+      "what": "Top-3 module maker (TOPCon i-TOPCon) that also locked up Oxford PV's perovskite-tandem patent license for China.",
+      "signal": "Multi-10-GW shipments; Oxford PV license signed April 2025",
+      "status": "operating",
+      "source": "https://www.oxfordpv.com/press-releases/oxford-pv-and-trinasolar-announce-a-landmark-perovskite-pv-patent-licensing-agreement"
+     },
+     {
+      "name": "Aiko Solar",
+      "role": "incumbent",
+      "what": "Leader in ABC (all-back-contact) cells, making some of the highest-efficiency (>24%) commercial modules.",
+      "signal": "Listed Chinese manufacturer; GW-scale ABC capacity",
+      "status": "operating",
+      "source": "https://www.pv-magazine-india.com/2025/05/20/from-topcon-dominance-to-the-rise-of-back-contact-solar-modules/"
+     },
+     {
+      "name": "Huasun Energy",
+      "role": "scaleup",
+      "what": "Largest dedicated heterojunction (HJT) cell/module specialist, carrying the HJT 'faction' against TOPCon and BC.",
+      "signal": "Multi-GW HJT capacity; founded 2020",
+      "status": "operating",
+      "source": "https://www.pv-tech.org/snec-2025-takeaways-800w-modules-n-type-diversification-perovskite-tandem-gains-momentum/"
+     },
+     {
+      "name": "Nextracker",
+      "role": "incumbent",
+      "what": "No. 1 solar tracker vendor globally; expanding into electrical BOS via acquisition.",
+      "signal": "~20-24% global tracker share 2025; acquired Bentek for $78M (May 2025)",
+      "status": "operating",
+      "source": "https://www.mordorintelligence.com/industry-reports/solar-tracker-market"
+     },
+     {
+      "name": "Array Technologies",
+      "role": "incumbent",
+      "what": "No. 2 tracker maker; integrating trackers with engineered foundations.",
+      "signal": "~15-19% global share; acquired APA Solar (Aug 2025)",
+      "status": "operating",
+      "source": "https://www.gminsights.com/industry-analysis/north-america-solar-tracker-market"
+     },
+     {
+      "name": "Soltec",
+      "role": "incumbent",
+      "what": "Spanish tracker manufacturer that hit pre-insolvency in 2024 and is emerging via a creditor-approved restructuring focused purely on tracker supply.",
+      "signal": "Debt cut from ~EUR385M to EUR255M; IME Spain injecting EUR30M for 80% control (2025)",
+      "status": "operating",
+      "source": "https://www.pv-tech.org/soltec-to-sell-80-stake-in-restructuring-plan/"
+     },
+     {
+      "name": "Meyer Burger",
+      "role": "incumbent",
+      "what": "Swiss HJT cell/module maker that attempted European+US premium manufacturing against Chinese pricing.",
+      "signal": "Filed insolvency in Germany/Switzerland May 2025 and US Chapter 11 June 2025; >900 layoffs; equipment sold to Waaree",
+      "status": "bankrupt-shutdown",
+      "source": "https://pv-magazine-usa.com/2025/06/02/meyer-burger-files-for-insolvency-lays-off-over-900-workers/"
+     },
+     {
+      "name": "Maxeon Solar Technologies",
+      "role": "incumbent",
+      "what": "IBC back-contact pioneer (ex-SunPower manufacturing arm) now controlled by China's TZE, with shrinking footprint.",
+      "signal": "Going-concern/bankruptcy-risk warnings in 2025 filings; TZE holds 100% of first-lien convertible notes",
+      "status": "uncertain",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001796898/000179689825000014/a20250218projectbirchspa.htm"
+     }
+    ]
+   },
+   {
+    "name": "Perovskite, tandem & multijunction cells",
+    "description": "Stacks a perovskite absorber on (or in place of) silicon to harvest more of the spectrum, promising 30%+ modules at low material cost \u2014 the leading candidate for solar's next efficiency step-change.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Oxford PV",
+      "role": "scaleup",
+      "what": "First company to ship commercial perovskite-silicon tandem modules (from its Brandenburg fab) and now monetizing its patent estate via licensing.",
+      "signal": "GBP31M Series D (Goldwind, Equinor, L&G); Trinasolar license for China (Apr 2025) and First Solar US license (Feb 2026)",
+      "status": "operating",
+      "source": "https://www.solarpowerportal.co.uk/commercial-solar/oxford-pv-lands-31-million-funding-for-perovskite-commercialisation-push"
+     },
+     {
+      "name": "Tandem PV",
+      "role": "startup",
+      "what": "US maker of perovskite-on-silicon tandem panels (28% efficiency) building domestic manufacturing.",
+      "signal": "$50M Series A + debt (Mar 2025, Eclipse-led); $83M total raised",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/tandem-pv-raises-50m-to-take-back-us-leadership-with-new-perovskite-solar-manufacturing-302390991.html"
+     },
+     {
+      "name": "Swift Solar",
+      "role": "startup",
+      "what": "Stanford/MIT spin-out developing tandem perovskite cells; picked up Meyer Burger's HJT manufacturing assets and patents out of bankruptcy and is piloting with utility Plenitude.",
+      "signal": "$27M Series A 2024 (~$60M total incl. DOE/DoD); utility-scale pilot selected Nov 2025",
+      "status": "operating",
+      "source": "https://www.pv-tech.org/plenitude-to-deploy-swift-solar-perovskite-modules-at-pilot-us-solar-project/"
+     },
+     {
+      "name": "Caelux",
+      "role": "startup",
+      "what": "Caltech spin-out making perovskite-coated glass that turns standard silicon modules into tandems at the factory.",
+      "signal": "$24M raised (Temasek-backed); perovskite glass factory outfitted 2025",
+      "status": "operating",
+      "source": "https://www.solarpowerworldonline.com/2025/08/us-perovskite-startups-make-moves-into-tandem-panel-manufacturing/"
+     },
+     {
+      "name": "UtmoLight",
+      "role": "scaleup",
+      "what": "Operates the world's first GW-scale perovskite module fab (Wuxi, China).",
+      "signal": "GW line online Feb 2025; record 450W / 16.1% on 2.8 m2 module",
+      "status": "operating",
+      "source": "https://www.pv-magazine.com/2025/02/07/chinese-pv-industry-brief-utmolight-begins-perosvkite-solar-module-production-at-gw-scale-facility/"
+     },
+     {
+      "name": "Microquanta",
+      "role": "scaleup",
+      "what": "Earliest Chinese perovskite commercializer; building a GW line in Quzhou and selling perovskite modules into BIPV.",
+      "signal": "GW-scale line targeted mass production H1 2025; 100 MW-class deployments since 2022",
+      "status": "operating",
+      "source": "https://www.pv-magazine.com/2025/02/17/microquanta-developing-perovskite-solar-modules-for-bipv-applications/"
+     },
+     {
+      "name": "GCL Perovskite (GCL Optoelectronic)",
+      "role": "scaleup",
+      "what": "GCL group arm building a GW factory dedicated to perovskite tandem modules.",
+      "signal": "22.4% record for large single-junction perovskite module (Jan 2025)",
+      "status": "operating",
+      "source": "https://cen.acs.org/business/inorganic-chemicals/China-leading-perovskite-solar-commercialization/103/web/2025/08"
+     },
+     {
+      "name": "Hanwha Qcells",
+      "role": "incumbent",
+      "what": "Running a tandem pilot line and racing Trina/LONGi to bankable commercial perovskite-silicon tandems.",
+      "signal": "Pilot tandem line in Korea; record large-area tandem cell results 2024-25",
+      "status": "operating",
+      "source": "https://www.utilitydive.com/news/solar-tandem-perovskite-qcells-trinasolar-longi-cell-technology/748264/"
+     },
+     {
+      "name": "CubicPV",
+      "role": "startup",
+      "what": "Bill Gates/BEV-backed developer of tandem modules; cancelled its 10 GW US silicon wafer fab to focus purely on tandems with NREL.",
+      "signal": "$103M raised 2023; wafer plant scrapped Feb 2024; NREL-certified perovskite minimodule",
+      "status": "operating",
+      "source": "https://www.pv-magazine.com/2024/02/09/cubicpv-halts-plans-for-us-solar-silicon-wafer-factory/"
+     },
+     {
+      "name": "LONGi",
+      "role": "incumbent",
+      "what": "Holds the world-record perovskite-silicon tandem cell efficiency (~34.85%) and is industrializing tandem on its back-contact platform.",
+      "signal": "World-record tandem cell; SNEC 2025 tandem module showcases",
+      "status": "operating",
+      "source": "https://www.pv-tech.org/snec-2025-takeaways-800w-modules-n-type-diversification-perovskite-tandem-gains-momentum/"
+     }
+    ]
+   },
+   {
+    "name": "Thin-film PV (CdTe, CIGS, amorphous silicon)",
+    "description": "Deposits micron-thin semiconductor layers (cadmium telluride or copper-indium-gallium-selenide) directly onto glass or flexible foil, enabling high-throughput, low-cost manufacturing outside the Chinese silicon supply chain and good hot-climate performance.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "First Solar",
+      "role": "incumbent",
+      "what": "The only Western module maker at global top-10 scale; vertically integrated CdTe with the new CuRe semiconductor platform.",
+      "signal": ">9 GW US capacity expanding toward ~16 GW by 2026; first CuRe modules delivered 2025",
+      "status": "operating",
+      "source": "https://www.sec.gov/Archives/edgar/data/1274494/000127449426000098/fslr2025annualreportpdf.pdf"
+     },
+     {
+      "name": "Avancis",
+      "role": "incumbent",
+      "what": "CNBM-owned German CIGS maker focused on architectural/BIPV facade modules.",
+      "signal": "Operating CIGS fab in Torgau; CNBM backing",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20250325780138/en/Global-Thin-Film-Photovoltaics-Market-Report-2025-2035-with-Profiles-of-80-Companies-in-the-Thin-Film-PV-Market-including-Established-Manufacturers-Technology-Developers-and-Innovative-Start-ups---ResearchAndMarkets.com"
+     },
+     {
+      "name": "Midsummer",
+      "role": "scaleup",
+      "what": "Swedish maker of flexible CIGS roofing membranes and turnkey CIGS production equipment (now supplying Saab for defense-grade solar).",
+      "signal": "SEK143M+ equipment orders from Saab 2025-26; EUR32.3M EU Innovation Fund grant for 200 MW Swedish fab",
+      "status": "operating",
+      "source": "https://www.pv-magazine.com/2025/05/21/midsummer-bags-15-mw-cigs-production-line-order/"
+     },
+     {
+      "name": "Toledo Solar",
+      "role": "startup",
+      "what": "Attempted US CdTe challenger to First Solar for the residential/commercial market.",
+      "signal": "Ceased operations July 2024 after First Solar lawsuit alleging it rebranded First Solar panels and failed to license needed technology",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.pv-magazine.com/2024/07/10/u-s-manufacturer-toledo-solar-closes-business/"
+     },
+     {
+      "name": "MiaSole",
+      "role": "scaleup",
+      "what": "Flexible CIGS pioneer (Silicon Valley) owned by China's Hanergy; production wound down after Hanergy's collapse.",
+      "signal": "US operations shut down ~2022-23 amid Hanergy parent collapse",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.businesswire.com/news/home/20250325780138/en/Global-Thin-Film-Photovoltaics-Market-Report-2025-2035-with-Profiles-of-80-Companies-in-the-Thin-Film-PV-Market-including-Established-Manufacturers-Technology-Developers-and-Innovative-Start-ups---ResearchAndMarkets.com"
+     },
+     {
+      "name": "Solar Frontier (Idemitsu)",
+      "role": "incumbent",
+      "what": "Former GW-scale Japanese CIS thin-film maker; exited panel manufacturing in 2022 and now operates downstream solar services.",
+      "signal": "Manufacturing exit 2022 \u2014 evidence of CIGS cost squeeze vs silicon",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20250325780138/en/Global-Thin-Film-Photovoltaics-Market-Report-2025-2035-with-Profiles-of-80-Companies-in-the-Thin-Film-PV-Market-including-Established-Manufacturers-Technology-Developers-and-Innovative-Start-ups---ResearchAndMarkets.com"
+     }
+    ],
+    "white_space": "CdTe is effectively a one-company Western moat (First Solar) protected by IP and tooling know-how, while CIGS has repeatedly died on cost versus silicon (Solar Frontier, MiaSole, Toledo Solar); the realistic openings are lightweight/flexible and BIPV niches and defense/onshoring demand, not head-on utility-scale competition."
+   },
+   {
+    "name": "Emerging PV materials (organic, quantum dot, dye-sensitized, kesterite)",
+    "description": "Printable carbon-based semiconductors, quantum dots and earth-abundant compounds make ultralight, flexible, colored or indoor-optimized solar, unlocking surfaces and supply chains that rigid silicon cannot serve.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Heliatek",
+      "role": "scaleup",
+      "what": "Dresden roll-to-roll factory producing ultralight organic PV films (HeliaSol) glued onto facades and roofs that cannot bear conventional panel weight.",
+      "signal": "Commercial OPV fab operating; installations across Europe/Asia",
+      "status": "operating",
+      "source": "https://www.globenewswire.com/news-release/2025/05/02/3073144/0/en/Organic-Solar-Cells-Market-Forecast-Report-2025-2030-with-Profiles-of-NanoFlex-Power-GenesInk-Heliatek-Epishine-Solivus-Moresco-Solarmar-Energy-and-more.html"
+     },
+     {
+      "name": "Epishine",
+      "role": "startup",
+      "what": "Prints organic indoor solar cells that harvest ambient light to replace batteries in electronics and sensors.",
+      "signal": "Series-funded; volume production in Linkoping, Sweden",
+      "status": "operating",
+      "source": "https://www.epishine.com/"
+     },
+     {
+      "name": "Exeger",
+      "role": "scaleup",
+      "what": "Dye-sensitized 'Powerfoyle' solar skin integrated into consumer products (headphones, helmets, remotes), made in two Stockholm factories.",
+      "signal": "Multiple consumer brand integrations (e.g., Adidas/Zound, POC); >$100M raised historically",
+      "status": "operating",
+      "source": "https://www.exeger.com/"
+     },
+     {
+      "name": "Dracula Technologies",
+      "role": "startup",
+      "what": "Inkjet-prints custom-shaped organic PV modules (LAYER) to power IoT devices indoors.",
+      "signal": "LAYER factory in Valence, France; named among top OPV startups",
+      "status": "operating",
+      "source": "https://tracxn.com/d/trending-business-models/startups-in-organic-solar-cells/__DCw_ISBh63W1kGliqdBqBWS6fR5U-G-G6tp7cswT09s/companies"
+     },
+     {
+      "name": "UbiQD",
+      "role": "startup",
+      "what": "Quantum-dot materials maker whose luminescent encapsulants boost silicon module output; supply agreement to put QDs into First Solar bifacial modules.",
+      "signal": "First Solar supply agreement (Jul 2025); acquired BlueDot Photonics (Feb 2025); building high-volume QD fab in New Mexico",
+      "status": "operating",
+      "source": "https://www.pv-magazine.com/2025/07/09/first-solar-uses-quantum-dots-to-boost-module-efficiency/"
+     }
+    ],
+    "white_space": "Kesterite (CZTS) has essentially zero commercial players \u2014 defect chemistry caps lab efficiency near ~15%, so it survives only as an earth-abundant research bet (e.g., as an indium-free tandem partner); broadly, emerging materials win where weight, flexibility, aesthetics or indoor light matter, not on $/W against silicon, leaving an opening for application-specific products with consumer/IoT margins."
+   },
+   {
+    "name": "Agrivoltaics",
+    "description": "Co-locates elevated, vertical or dynamically tracking solar panels with crops or grazing so land produces food and power simultaneously, easing land-use conflict and often improving crop resilience to heat and drought.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Sun'Agri",
+      "role": "startup",
+      "what": "French pioneer of 'dynamic agrivoltaics' \u2014 AI-tilted canopies over vineyards and orchards that prioritize plant wellbeing.",
+      "signal": "Dozens of systems in France since 2018; EU-funded carbon-farm project",
+      "status": "operating",
+      "source": "https://www.verifiedmarketresearch.com/blog/top-agrivoltaic-companies/"
+     },
+     {
+      "name": "TSE",
+      "role": "scaleup",
+      "what": "French IPP building large 'agricultural canopy' systems over field crops with one of Europe's biggest agri-PV pipelines.",
+      "signal": "~EUR130M raised; multiple commercial canopy demonstrators operating",
+      "status": "operating",
+      "source": "https://www.tse.energy/"
+     },
+     {
+      "name": "Next2Sun",
+      "role": "startup",
+      "what": "Vertical bifacial 'solar fence' systems that leave >90% of farmland workable and shift generation to morning/evening peaks.",
+      "signal": "EUR10M Series B; projects in Germany, Austria and US",
+      "status": "operating",
+      "source": "https://www.marketresearchfuture.com/reports/agrivoltaics-market-33648"
+     },
+     {
+      "name": "BayWa r.e.",
+      "role": "incumbent",
+      "what": "Global renewables developer running Europe's flagship 'Fruitvoltaic' projects (panels sheltering berries and pome fruit) in the Netherlands and Germany.",
+      "signal": "Multiple commercial agri-PV plants operating across Europe",
+      "status": "operating",
+      "source": "https://www.prophecymarketinsights.com/blogs/top-7-companies-in-agrivoltaics-market-2025"
+     },
+     {
+      "name": "Lightstar Renewables",
+      "role": "startup",
+      "what": "Boston-based community-solar IPP that builds agrivoltaics-first projects, including New York's first agrivoltaic array and Detroit urban farm-solar neighborhoods.",
+      "signal": ">1 GW completed/in development; NY's first agrivoltaics project launched Sept 2025",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/lightstar-renewables-celebrates-successful-launch-of-new-yorks-first-agrivoltaics-project-302564568.html"
+     },
+     {
+      "name": "Insolight",
+      "role": "startup",
+      "what": "EPFL spin-off whose translucent 'insolagrin' modules dynamically manage light transmission for berry and greenhouse crops.",
+      "signal": "Swiss/EU pilots with crop trials; pivoted from CPV optics into agri-PV",
+      "status": "operating",
+      "source": "https://www.prophecymarketinsights.com/blogs/top-7-companies-in-agrivoltaics-market-2025"
+     },
+     {
+      "name": "Silicon Ranch",
+      "role": "incumbent",
+      "what": "Shell-backed US utility-scale IPP that standardized sheep-grazing 'Regenerative Energy' land management across its solar fleet.",
+      "signal": "Multi-GW operating portfolio with co-located grazing at scale",
+      "status": "operating",
+      "source": "https://www.siliconranch.com/regenerative-energy/"
+     },
+     {
+      "name": "AgriSolar",
+      "role": "startup",
+      "what": "US startup reported to combine solar arrays with precision-agriculture software for dual-use farms.",
+      "signal": "Reported $15M Series A (2025); independent confirmation limited",
+      "status": "uncertain",
+      "source": "https://www.marketresearchfuture.com/reports/agrivoltaics-market-33648"
+     }
+    ]
+   },
+   {
+    "name": "Floating solar (inland reservoirs & offshore)",
+    "description": "Mounts PV on floats over reservoirs, hydropower dams and increasingly the open sea, saving land, cutting evaporation, and piggybacking on existing grid connections \u2014 with offshore variants now co-locating inside wind farms.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Ciel & Terre International",
+      "role": "incumbent",
+      "what": "French inventor of the Hydrelio float system and the most-deployed inland FPV supplier worldwide.",
+      "signal": "Projects across 40+ countries; major Changbin (Taiwan) expansions 2024-25",
+      "status": "operating",
+      "source": "https://www.marknteladvisors.com/press-release/floating-solar-market-growth"
+     },
+     {
+      "name": "Sungrow FPV",
+      "role": "incumbent",
+      "what": "Float and anchoring arm of inverter giant Sungrow; has equipped many of the world's largest inland floating plants in Asia.",
+      "signal": "GW-scale cumulative float supply; multiple 100 MW+ plants",
+      "status": "operating",
+      "source": "https://en.sungrowfloating.com/"
+     },
+     {
+      "name": "BayWa r.e.",
+      "role": "incumbent",
+      "what": "Built Europe's largest inland floating solar plants on Dutch sand-extraction lakes.",
+      "signal": "100+ MW of European FPV completed",
+      "status": "operating",
+      "source": "https://www.marknteladvisors.com/press-release/floating-solar-market-growth"
+     },
+     {
+      "name": "SolarDuck",
+      "role": "startup",
+      "what": "Dutch-Norwegian elevated triangular platforms that keep modules above waves for offshore use, including the world's first hybrid offshore wind+solar pilots with RWE.",
+      "signal": "EUR15M raise (Invest-NL et al.); Tokyo Bay offshore plant and RWE Merganser pilot",
+      "status": "operating",
+      "source": "https://solarduck.tech/solarduck-secures-15-million-euro-funding-for-the-further-development-of-offshore-floating-solar-power/"
+     },
+     {
+      "name": "Oceans of Energy",
+      "role": "startup",
+      "what": "Only company with offshore solar proven through North Sea winter storms; installing the world's first solar farm inside an operating offshore wind farm (CrossWind Hollandse Kust Noord).",
+      "signal": "First commercial offshore contract (CrossWind); offshore installation campaign 2025",
+      "status": "operating",
+      "source": "https://oceansofenergy.blue/2025/05/20/11074/"
+     },
+     {
+      "name": "Ocean Sun",
+      "role": "scaleup",
+      "what": "Oslo-listed licensor of a flexible membrane float where modules lie directly on the water for cooling gains.",
+      "signal": "Licensing deals in Asia/Europe; Brazil 250 kWp pilot grant (2025)",
+      "status": "operating",
+      "source": "https://www.offshore-energy.biz/ocean-sun-secures-grant-to-build-its-first-floating-solar-pilot-in-south-america/"
+     },
+     {
+      "name": "Swimsol",
+      "role": "startup",
+      "what": "Austrian pioneer of lagoon-grade marine floating solar (SolarSea) serving island resorts and utilities in the Maldives.",
+      "signal": "Commercial marine FPV operating since 2014",
+      "status": "operating",
+      "source": "https://swimsol.com/"
+     },
+     {
+      "name": "RWE",
+      "role": "incumbent",
+      "what": "Utility deploying inland FPV (e.g., Amer, NL) and funding offshore floating solar R&D and pilots.",
+      "signal": "Operating FPV plants plus Merganser offshore pilot with SolarDuck",
+      "status": "operating",
+      "source": "https://www.rwe.com/en/research-and-development/solar-energy-projects/floating-solar-systems/"
+     }
+    ],
+    "white_space": "Offshore (open-sea) floating solar has only a handful of credible players because wave loading and corrosion brutalize structures and O&M economics; the visible opening is co-location inside offshore wind farms to share grid connections and installed-asset logistics, as the CrossWind and RWE pilots demonstrate."
+   },
+   {
+    "name": "Building- & vehicle-integrated PV (incl. solar windows/transparent PV)",
+    "description": "Embeds generation into the building envelope (roof shingles, facades, glazing) or vehicle skins so surfaces that must exist anyway also produce power, trading some efficiency for zero extra land and architectural acceptance.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "GAF Energy",
+      "role": "incumbent",
+      "what": "Standard Industries (largest roofer) arm selling Timberline Solar \u2014 a nailable solar shingle installed by ordinary roofing crews.",
+      "signal": "US factories in California and Texas; thousands of roofs installed",
+      "status": "operating",
+      "source": "https://www.gaf.energy/"
+     },
+     {
+      "name": "Onyx Solar",
+      "role": "scaleup",
+      "what": "Spanish maker of photovoltaic architectural glass (curtain walls, skylights, walkable floors) used in hundreds of landmark buildings.",
+      "signal": "Projects in 50+ countries incl. Fortune 500 HQs",
+      "status": "operating",
+      "source": "https://onyxsolar.com/"
+     },
+     {
+      "name": "Mitrex",
+      "role": "scaleup",
+      "what": "Toronto manufacturer of solar facades and cladding that mimic stone/brick, with full UL/IEC/CSA certification.",
+      "signal": "Large North American BIPV factory; certified product line 2025",
+      "status": "operating",
+      "source": "https://www.mitrex.com/blog/beyond-compliance-how-mitrex-solar-panels-exceed-industry-standards-in-2025"
+     },
+     {
+      "name": "ClearVue Technologies",
+      "role": "startup",
+      "what": "ASX-listed solar glazing maker whose windows redirect light to cell-lined frames; proven in a Murdoch University greenhouse over four growing seasons.",
+      "signal": "40% energy-use reduction demonstrated; AU$20M food-security collaboration",
+      "status": "operating",
+      "source": "https://cleantechnica.com/2025/07/14/clearvue-update/"
+     },
+     {
+      "name": "Ubiquitous Energy",
+      "role": "startup",
+      "what": "MIT spin-out behind the UE Power truly transparent window coating, partnered with Andersen Windows.",
+      "signal": "Raised >$70M over 13 years; furloughed and terminated staff April 2024 and wound down",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.usglassmag.com/what-is-happening-at-ubiquitous-energy/"
+     },
+     {
+      "name": "NEXT Energy Technologies",
+      "role": "startup",
+      "what": "Transparent organic PV window coatings printed onto architectural glass; unveiled the world's largest fully transparent OPV window.",
+      "signal": "First commercial installation (6 windows) at its Santa Barbara HQ, July 2025",
+      "status": "operating",
+      "source": "https://www.solarpowerworldonline.com/2025/07/six-full-sized-transparent-pv-windows-installed-at-next-energy-hq/"
+     },
+     {
+      "name": "SolarWindow Technologies",
+      "role": "startup",
+      "what": "Long-running developer of electricity-generating window coatings that has yet to commercialize.",
+      "signal": "Still SEC-reporting but minimal commercial traction after 15+ years",
+      "status": "uncertain",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001071840/000117184325007912/exh_991.htm"
+     },
+     {
+      "name": "Aptera Motors",
+      "role": "startup",
+      "what": "Three-wheeled ultra-efficient solar EV claiming up to ~40 miles/day from onboard PV.",
+      "signal": "Listed on Nasdaq ('SEV') Oct 2025; $75M equity line; ~49,000 reservations; still pre-production/pre-revenue",
+      "status": "operating",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001786471/000149315225022123/ex99-1.htm"
+     },
+     {
+      "name": "Sono Motors",
+      "role": "startup",
+      "what": "After cancelling its Sion solar car (2023), sells retrofit solar kits for buses, coaches, vans and refrigerated trucks.",
+      "signal": "First German national type approval for vehicle-integrated PV (Jan 2025); product line expanded 2025",
+      "status": "operating",
+      "source": "https://www.stocktitan.net/news/SEVCF/sono-group-subsidiary-becomes-first-in-germany-to-receive-national-4frvxiusk9fp.html"
+     },
+     {
+      "name": "Lightyear",
+      "role": "startup",
+      "what": "Dutch maker of the Lightyear 0 solar car; collapsed weeks after starting production.",
+      "signal": "Bankruptcy January 2023; solar-roof IP pivot never scaled",
+      "status": "bankrupt-shutdown",
+      "source": "https://solartechonline.com/blog/solar-powered-cars-guide-2025/"
+     }
+    ],
+    "white_space": "Solar windows keep failing (Ubiquitous Energy, SolarWindow stagnation) because transparency physically caps efficiency while construction sales cycles are slow and conservative; the bankable opening is opaque, code-compliant roof and facade products installed by existing trades (GAF model) rather than glass, and fleet-vehicle solar (Sono model) rather than solar cars."
+   },
+   {
+    "name": "Concentrated solar power (power tower, parabolic trough, linear Fresnel, dish)",
+    "description": "Mirrors concentrate sunlight to heat a fluid (molten salt, sodium, steam) that drives a turbine, with hours of cheap thermal storage built in \u2014 solar that can deliver firm, dispatchable power after sunset.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Cosin Solar",
+      "role": "scaleup",
+      "what": "Leading Chinese molten-salt power tower technology provider (ex-Supcon Solar) anchoring China's multi-GW CSP buildout.",
+      "signal": "Delingha 50 MW tower operating; 100 MW-class projects in China's ~8 GW pipeline",
+      "status": "operating",
+      "source": "https://www.ren21.net/gsr-2025/technologies/csp/"
+     },
+     {
+      "name": "Shouhang High-Tech",
+      "role": "incumbent",
+      "what": "Chinese CSP developer/equipment maker operating the Dunhuang 100 MW molten-salt tower and hybrid CSP+PV projects.",
+      "signal": "Multiple operating towers; active in new hybrid tenders",
+      "status": "operating",
+      "source": "https://www.ren21.net/gsr-2025/technologies/csp/"
+     },
+     {
+      "name": "ACWA Power",
+      "role": "incumbent",
+      "what": "Saudi developer-owner of the world's largest CSP complex (Noor Energy 1, Dubai: 700 MW CSP + 250 MW PV) and South Africa's Redstone tower.",
+      "signal": "GW-scale CSP portfolio operating across MENA/Africa",
+      "status": "operating",
+      "source": "https://www.acwapower.com/"
+     },
+     {
+      "name": "Vast Renewables",
+      "role": "startup",
+      "what": "Australian modular sodium-loop tower CSP (v3.0) targeting green fuels and firm power.",
+      "signal": "Nasdaq-listed (VSTE); 30 MW/288 MWh VS1 at Port Augusta advancing toward close with ARENA backing; receiver tests passed 2024",
+      "status": "operating",
+      "source": "https://www.ren21.net/gsr-2025/technologies/csp/"
+     },
+     {
+      "name": "Heliogen",
+      "role": "startup",
+      "what": "AI-aligned small-heliostat towers for heat/power; Capella demo cancelled on cost, then sold itself.",
+      "signal": "SPAC'd ~$2B (2021); acquired by Zeo Energy Aug 2025 bringing ~$13.6M net cash",
+      "status": "acquired",
+      "source": "https://www.stocktitan.net/news/ZEO/zeo-energy-corp-completes-acquisition-of-heliogen-mgn5s98g7wn4.html"
+     },
+     {
+      "name": "BrightSource Energy",
+      "role": "scaleup",
+      "what": "Developer of the 392 MW Ivanpah towers (no storage) and heliostat control systems used in Israel and Morocco.",
+      "signal": "PG&E/DOE agreements terminated; Ivanpah units closing from 2026; minimal new activity",
+      "status": "uncertain",
+      "source": "https://en.wikipedia.org/wiki/Ivanpah_Solar_Power_Facility"
+     },
+     {
+      "name": "SolarReserve",
+      "role": "scaleup",
+      "what": "Built Crescent Dunes (110 MW tower + 1.1 GWh molten-salt storage), which chronically underperformed.",
+      "signal": "Company wound down ~2020 after plant outages and PPA loss \u2014 landmark CSP failure",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.nature.com/articles/s44435-026-00007-4"
+     },
+     {
+      "name": "Abengoa",
+      "role": "incumbent",
+      "what": "Spanish EPC that built much of the world's trough/tower fleet before collapsing in Spain's largest insolvency.",
+      "signal": "Insolvent 2021; energy businesses acquired by Cox (now Cox Abengoa)",
+      "status": "acquired",
+      "source": "https://en.wikipedia.org/wiki/Abengoa"
+     }
+    ],
+    "white_space": "Western CSP has retreated (Ivanpah closing, SolarReserve and Abengoa gone) because PV+batteries undercut it for most durations; nearly all new builds are Chinese or Gulf projects with mandated storage. The opening is not standalone power but 8-15h+ thermal storage, industrial heat and green-fuel feedstock where molten-salt towers still beat electrochemical storage on cost per kWh-thermal."
+   },
+   {
+    "name": "Concentrator PV (CPV)",
+    "description": "Lenses or mirrors focus sunlight hundreds of times onto tiny ultra-high-efficiency multijunction cells; it only pencils out where the concentrated waste heat is also captured and sold, or in high-DNI niches.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "RayGen",
+      "role": "scaleup",
+      "what": "Tower-mounted 'PV Ultra' receivers (multijunction cells at ~1000 suns) whose co-captured heat feeds water-based 17-hour 'thermal hydro' storage \u2014 the only CPV player scaling today.",
+      "signal": "A$127M Series D (Apr 2025: SLB, Quanta Services, Oxy, Breakthrough Victoria); 4 MW + 2.8 MW/17h plant operating at Carwarp; 150 MW Yadnarie project in development",
+      "status": "operating",
+      "source": "https://www.pv-magazine-australia.com/press-releases/raygen-completes-127-million-series-d-investment-round/"
+     },
+     {
+      "name": "Saint-Augustin Canada Electric (STACE)",
+      "role": "incumbent",
+      "what": "Quebec industrial group that absorbed Soitec's CPV module technology and lines; current CPV activity appears minimal.",
+      "signal": "Acquired Soitec CPV assets (2016); little public CPV deployment since",
+      "status": "uncertain",
+      "source": "https://stace.ca/"
+     },
+     {
+      "name": "Insolight",
+      "role": "startup",
+      "what": "Developed planar micro-tracking CPV optics, then redeployed the technology into translucent agrivoltaic modules.",
+      "signal": "Pivot from CPV to agri-PV \u2014 itself evidence of CPV economics",
+      "status": "operating",
+      "source": "https://www.prophecymarketinsights.com/blogs/top-7-companies-in-agrivoltaics-market-2025"
+     }
+    ],
+    "white_space": "Classic dual-axis CPV died a decade ago (Soitec exit, Amonix/SunPower C7 shutdowns) because flat silicon got too cheap and CPV cannot use diffuse light; the only opening left is hybrid electric+thermal concentration that monetizes heat for long-duration storage or industrial use (RayGen's model), or multijunction cells for space."
+   },
+   {
+    "name": "Space-based solar power",
+    "description": "Collects solar energy in orbit, where sunlight is constant and stronger, and beams it to Earth (or to other spacecraft) via laser or microwave \u2014 potentially baseload solar, if launch costs and beaming efficiency cooperate.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Aetherflux",
+      "role": "startup",
+      "what": "Robinhood co-founder Baiju Bhatt's LEO constellation beaming power by infrared laser to small ground stations; first commercial-track orbital demo.",
+      "signal": "$50M Series A Apr 2025 (Index, Interlagos, a16z, BEV, NEA; $60M total) plus US DoD OECIF funding; Mission 1 demo targeted 2026",
+      "status": "operating",
+      "source": "https://techcrunch.com/2025/04/02/space-solar-startup-aetherflux-raises-50m-to-launch-first-space-demo-in-2026/"
+     },
+     {
+      "name": "Virtus Solis",
+      "role": "startup",
+      "what": "Michigan startup designing robotically assembled km-scale arrays in high orbits with microwave power beaming.",
+      "signal": "Mostly grant-funded to date; in-space power demo planned 2027 with Orbital Composites",
+      "status": "operating",
+      "source": "https://payloadspace.com/four-startups-race-to-make-space-based-power-a-reality/"
+     },
+     {
+      "name": "Space Solar",
+      "role": "startup",
+      "what": "UK company developing the CASSIOPeiA helical satellite with 360-degree beam steering, targeting grid-scale delivery (first markets incl. Iceland) in the early 2030s.",
+      "signal": "UK government-backed; partnership with Transition Labs/Reykjavik Energy targeting 30 MW ~2030",
+      "status": "operating",
+      "source": "https://payloadspace.com/four-startups-race-to-make-space-based-power-a-reality/"
+     },
+     {
+      "name": "Star Catcher Industries",
+      "role": "startup",
+      "what": "Building a space-to-space power grid that beams concentrated solar energy to other satellites rather than to Earth.",
+      "signal": "$12.25M seed (2024); beaming demos underway",
+      "status": "operating",
+      "source": "https://payloadspace.com/four-startups-race-to-make-space-based-power-a-reality/"
+     },
+     {
+      "name": "Reflect Orbital",
+      "role": "startup",
+      "what": "Orbital mirror constellation that reflects sunlight onto terrestrial solar farms after dusk \u2014 adjacent route to 'solar at night' without beaming.",
+      "signal": "Series A raised 2025 (Lux Capital-led); first mirror satellite planned 2026",
+      "status": "operating",
+      "source": "https://www.reflectorbital.com/"
+     }
+    ],
+    "white_space": "No one has delivered commercial power from orbit \u2014 the physics works (Caltech's 2023 MAPLE demo) but launch mass, thermal management and end-to-end beaming efficiency (<20%) keep $/MWh far above terrestrial solar+storage; near-term openings are defense, disaster relief and powering other satellites, with terrestrial baseload a 2030s bet riding on Starship-class launch costs."
+   },
+   {
+    "name": "PV recycling, repowering & module circularity",
+    "description": "Recovers glass, silicon, silver and copper from end-of-life or storm-damaged modules and resells or re-deploys still-working panels, turning a looming multi-million-tonne waste stream into a domestic materials supply chain.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Solarcycle",
+      "role": "scaleup",
+      "what": "US high-recovery (95%+) module recycler that is vertically integrating into making new solar glass from recycled content in Georgia.",
+      "signal": "Recycling agreements with RWE Clean Energy (May 2025), EDPR and Qcells; Cedartown, GA glass factory underway",
+      "status": "operating",
+      "source": "https://www.mordorintelligence.com/industry-reports/solar-panel-recycling-market/companies"
+     },
+     {
+      "name": "ROSI",
+      "role": "startup",
+      "what": "French recycler whose layer-separation process recovers high-purity silicon and silver fit for re-use in new cells.",
+      "signal": ">EUR20M Series B + grants (Apr 2026; InnoEnergy, CMA CGM, EIC); first standardized line in Spain; EU Innovation Fund INSPIRE-PV",
+      "status": "operating",
+      "source": "https://www.rosi-solar.com/news/rosi-secures-over-eu20-million-to-scale-solar-panel-recycling-across-europe"
+     },
+     {
+      "name": "We Recycle Solar",
+      "role": "startup",
+      "what": "US end-to-end decommissioning firm that triages panels for resale/remarketing first and recycles the rest at its Yuma, AZ plant.",
+      "signal": "Largest US pure-play combining reuse and recycling",
+      "status": "operating",
+      "source": "https://www.mordorintelligence.com/industry-reports/solar-panel-recycling-market/companies"
+     },
+     {
+      "name": "First Solar",
+      "role": "incumbent",
+      "what": "Runs in-house recycling at every factory with ~90% material recovery and closed-loop reuse of its CdTe semiconductor.",
+      "signal": "Global in-house recycling operating for over a decade",
+      "status": "operating",
+      "source": "https://www.sec.gov/Archives/edgar/data/1274494/000127449426000098/fslr2025annualreportpdf.pdf"
+     },
+     {
+      "name": "PV CYCLE",
+      "role": "incumbent",
+      "what": "EU-wide producer-responsibility scheme organizing collection and treatment of end-of-life modules under WEEE since 2007.",
+      "signal": "Tens of thousands of tonnes collected across Europe",
+      "status": "operating",
+      "source": "https://pvcycle.org/"
+     },
+     {
+      "name": "SecondSol",
+      "role": "startup",
+      "what": "German online marketplace for used and refurbished modules and legacy spare parts, enabling repowering and reuse before recycling.",
+      "signal": "Largest second-hand PV marketplace in Europe",
+      "status": "operating",
+      "source": "https://www.secondsol.com/"
+     }
+    ]
+   },
+   {
+    "name": "Distributed rooftop & community solar",
+    "description": "Puts PV on homes, businesses and shared 'community' arrays with inverters, financing and software so customers generate where they consume \u2014 the deployment format that made solar a consumer product.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Sunrun",
+      "role": "incumbent",
+      "what": "Largest US residential solar and battery company, leaning on lease/PPA ownership that survives tax-credit changes.",
+      "signal": "NASDAQ: RUN; ~1M customers; storage attach rates >50% on new installs",
+      "status": "operating",
+      "source": "https://www.sunrun.com/"
+     },
+     {
+      "name": "Enphase Energy",
+      "role": "incumbent",
+      "what": "Microinverter and home-battery platform powering millions of distributed systems.",
+      "signal": "NASDAQ: ENPH; tens of millions of microinverters shipped",
+      "status": "operating",
+      "source": "https://enphase.com/"
+     },
+     {
+      "name": "SolarEdge",
+      "role": "incumbent",
+      "what": "DC-optimized inverter leader for rooftops; restructured hard through the 2024-25 European inventory glut.",
+      "signal": "NASDAQ: SEDG; major layoffs/restructuring 2024-25 but operating",
+      "status": "operating",
+      "source": "https://www.solaredge.com/"
+     },
+     {
+      "name": "Nexamp",
+      "role": "scaleup",
+      "what": "Leading US community-solar owner-operator letting renters and households subscribe to shared local arrays.",
+      "signal": "$520M equity (2024, Manulife-led with Mitsubishi's Diamond Generating) plus ~$180M (2026)",
+      "status": "operating",
+      "source": "https://www.canarymedia.com/articles/solar/nexamp-nabs-520m-to-build-community-solar-across-the-us"
+     },
+     {
+      "name": "Tesla Energy",
+      "role": "incumbent",
+      "what": "Solar Roof and retrofit solar paired with Powerwall; large installed base though solar deployments have shrunk.",
+      "signal": "GW-scale cumulative residential deployments; energy division growth now battery-led",
+      "status": "operating",
+      "source": "https://www.tesla.com/energy"
+     },
+     {
+      "name": "SunPower",
+      "role": "incumbent",
+      "what": "Once the biggest name in US residential solar sales and dealer networks.",
+      "signal": "Chapter 11 Aug 2024; Blue Raven, New Homes and dealer network sold to Complete Solaria for $45M",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.sec.gov/Archives/edgar/data/0000867773/000086777324000086/ex991_202485pressrelease.htm"
+     },
+     {
+      "name": "Sunnova",
+      "role": "scaleup",
+      "what": "Major residential solar financier/TPO with a dealer model.",
+      "signal": "Chapter 11 June 2025 with >$8B liabilities after DOE rescinded its $2.92B partial loan guarantee",
+      "status": "bankrupt-shutdown",
+      "source": "https://san.com/cc/sunnova-bankruptcy-is-latest-warning-sign-for-residential-solar-industry/"
+     },
+     {
+      "name": "Titan Solar Power",
+      "role": "scaleup",
+      "what": "One of the largest US dealer-model residential installers.",
+      "signal": "Abrupt shutdown June 2024, then bankruptcy filing",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.greenlancer.com/post/solar-company-bankruptcies"
+     },
+     {
+      "name": "ADT Solar",
+      "role": "incumbent",
+      "what": "Security giant ADT's residential solar arm (ex-Sunpro).",
+      "signal": "Exited residential solar entirely in early 2024",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.greenlancer.com/post/solar-company-bankruptcies"
+     }
+    ],
+    "white_space": "US residential solar is in brutal consolidation \u2014 high interest rates broke the loan-sales model and the purchase tax credit ended, killing SunPower, Sunnova, Titan and ADT Solar; the opening is low-customer-acquisition-cost, software-driven installers and lease/PPA structures (plus community solar for the two-thirds of households without usable roofs) that work post-subsidy."
+   }
+  ],
+  "sources": [
+   "https://www.pv-tech.org/snec-2025-takeaways-800w-modules-n-type-diversification-perovskite-tandem-gains-momentum/",
+   "https://www.pv-magazine-india.com/2025/05/20/from-topcon-dominance-to-the-rise-of-back-contact-solar-modules/",
+   "https://www.mordorintelligence.com/industry-reports/solar-tracker-market",
+   "https://pv-magazine-usa.com/2025/06/02/meyer-burger-files-for-insolvency-lays-off-over-900-workers/",
+   "https://www.solarpowerportal.co.uk/commercial-solar/oxford-pv-lands-31-million-funding-for-perovskite-commercialisation-push",
+   "https://www.prnewswire.com/news-releases/tandem-pv-raises-50m-to-take-back-us-leadership-with-new-perovskite-solar-manufacturing-302390991.html",
+   "https://www.pv-magazine.com/2025/02/07/chinese-pv-industry-brief-utmolight-begins-perosvkite-solar-module-production-at-gw-scale-facility/",
+   "https://cen.acs.org/business/inorganic-chemicals/China-leading-perovskite-solar-commercialization/103/web/2025/08",
+   "https://www.utilitydive.com/news/solar-tandem-perovskite-qcells-trinasolar-longi-cell-technology/748264/",
+   "https://www.pv-magazine.com/2024/07/10/u-s-manufacturer-toledo-solar-closes-business/",
+   "https://www.pv-magazine.com/2025/05/21/midsummer-bags-15-mw-cigs-production-line-order/",
+   "https://www.globenewswire.com/news-release/2025/05/02/3073144/0/en/Organic-Solar-Cells-Market-Forecast-Report-2025-2030-with-Profiles-of-NanoFlex-Power-GenesInk-Heliatek-Epishine-Solivus-Moresco-Solarmar-Energy-and-more.html",
+   "https://www.pv-magazine.com/2025/07/09/first-solar-uses-quantum-dots-to-boost-module-efficiency/",
+   "https://www.prnewswire.com/news-releases/lightstar-renewables-celebrates-successful-launch-of-new-yorks-first-agrivoltaics-project-302564568.html",
+   "https://www.prophecymarketinsights.com/blogs/top-7-companies-in-agrivoltaics-market-2025",
+   "https://solarduck.tech/solarduck-secures-15-million-euro-funding-for-the-further-development-of-offshore-floating-solar-power/",
+   "https://oceansofenergy.blue/2025/05/20/11074/",
+   "https://www.offshore-energy.biz/ocean-sun-secures-grant-to-build-its-first-floating-solar-pilot-in-south-america/",
+   "https://www.usglassmag.com/what-is-happening-at-ubiquitous-energy/",
+   "https://www.solarpowerworldonline.com/2025/07/six-full-sized-transparent-pv-windows-installed-at-next-energy-hq/",
+   "https://www.sec.gov/Archives/edgar/data/0001786471/000149315225022123/ex99-1.htm",
+   "https://www.stocktitan.net/news/SEVCF/sono-group-subsidiary-becomes-first-in-germany-to-receive-national-4frvxiusk9fp.html",
+   "https://www.ren21.net/gsr-2025/technologies/csp/",
+   "https://www.stocktitan.net/news/ZEO/zeo-energy-corp-completes-acquisition-of-heliogen-mgn5s98g7wn4.html",
+   "https://en.wikipedia.org/wiki/Ivanpah_Solar_Power_Facility",
+   "https://www.nature.com/articles/s44435-026-00007-4",
+   "https://www.pv-magazine-australia.com/press-releases/raygen-completes-127-million-series-d-investment-round/",
+   "https://techcrunch.com/2025/04/02/space-solar-startup-aetherflux-raises-50m-to-launch-first-space-demo-in-2026/",
+   "https://payloadspace.com/four-startups-race-to-make-space-based-power-a-reality/",
+   "https://www.rosi-solar.com/news/rosi-secures-over-eu20-million-to-scale-solar-panel-recycling-across-europe",
+   "https://www.mordorintelligence.com/industry-reports/solar-panel-recycling-market/companies",
+   "https://www.canarymedia.com/articles/solar/nexamp-nabs-520m-to-build-community-solar-across-the-us",
+   "https://san.com/cc/sunnova-bankruptcy-is-latest-warning-sign-for-residential-solar-industry/",
+   "https://www.greenlancer.com/post/solar-company-bankruptcies",
+   "https://www.sec.gov/Archives/edgar/data/0001796898/000179689825000014/a20250218projectbirchspa.htm",
+   "https://www.pv-tech.org/soltec-to-sell-80-stake-in-restructuring-plan/",
+   "https://www.businesswire.com/news/home/20250325780138/en/Global-Thin-Film-Photovoltaics-Market-Report-2025-2035-with-Profiles-of-80-Companies-in-the-Thin-Film-PV-Market-including-Established-Manufacturers-Technology-Developers-and-Innovative-Start-ups---ResearchAndMarkets.com"
+  ]
+ }
+}

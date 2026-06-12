@@ -1,0 +1,401 @@
+{
+ "sector": "food",
+ "bucket": "Blue Carbon & Coastal Ecosystems",
+ "census": {
+  "bucket": "Blue Carbon & Coastal Ecosystems",
+  "variations": [
+   {
+    "name": "Mangrove restoration & conservation",
+    "description": "Replanting and protecting mangrove forests, which lock carbon into waterlogged soils at rates far above terrestrial forests while buffering coasts from storms, financed largely through blue carbon credits.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Indus Delta Capital (Delta Blue Carbon)",
+      "role": "scaleup",
+      "what": "Develops and operates the world's largest blue carbon project: 350,000 ha of mangrove restoration in Pakistan's Indus Delta with the Sindh government.",
+      "signal": "60-year project targeting ~124 Mt CO2; multiple Verra issuances sold to corporate buyers via Respira and others.",
+      "status": "operating",
+      "source": "https://deltabluecarbon.com/"
+     },
+     {
+      "name": "Conservation International (Vida Manglar / Cispata)",
+      "role": "incumbent",
+      "what": "NGO that pioneered the first Verra-registered blue carbon mangrove project and the first to credit the full mangrove soil-carbon stock, in Colombia.",
+      "signal": "7,500 ha conserved/restored; ~1 Mt CO2 expected over 30 years.",
+      "status": "operating",
+      "source": "https://www.conservation.org/projects/vida-manglar-carbon-project"
+     },
+     {
+      "name": "Sumitomo Corporation",
+      "role": "incumbent",
+      "what": "Japanese trading house entering mangrove blue carbon via reforestation projects in Madagascar and Mozambique, selling credits into Europe, the Americas and Asia.",
+      "signal": "Announced 2025; among Africa's largest, targeting ~34 Mt of credits over 21+ years.",
+      "status": "operating",
+      "source": "https://www.sumitomocorp.com/en/jp/news/topics/2025/group/20250401_2"
+     },
+     {
+      "name": "Vlinder Climate",
+      "role": "startup",
+      "what": "Netherlands-based developer building community-led, investable mangrove restoration projects (e.g. Papariko in Kwale/Kilifi/Tana River, Kenya).",
+      "signal": "Multiple African mangrove projects in development.",
+      "status": "operating",
+      "source": "https://vlinderclimate.com/vlinder-kenya-blue-carbon"
+     },
+     {
+      "name": "SeaTrees (Sustainable Surf)",
+      "role": "startup",
+      "what": "Nonprofit program funding mangrove (plus kelp/seagrass/coral) restoration through consumer and corporate per-tree subscriptions.",
+      "signal": "16+ active blue-carbon restoration projects worldwide.",
+      "status": "operating",
+      "source": "https://seatrees.org/pages/seatrees-project-partners"
+     },
+     {
+      "name": "Apple (Restore Fund)",
+      "role": "incumbent",
+      "what": "Corporate investor/buyer financing mangrove conservation (Cispata, Colombia) through its nature-based Restore Fund.",
+      "signal": "Part of a multi-hundred-million-dollar restoration fund anchoring early blue-carbon demand.",
+      "status": "operating",
+      "source": "https://www.conservation.org/projects/vida-manglar-carbon-project"
+     }
+    ]
+   },
+   {
+    "name": "Seagrass & tidal salt-marsh restoration",
+    "description": "Re-establishing seagrass meadows and tidal salt marshes that bury carbon in seabed and marsh sediments and rebuild fish nurseries, though the carbon-finance pathway is still nascent.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Project Seagrass",
+      "role": "startup",
+      "what": "Largest dedicated seagrass-restoration NGO; running the Accelerate Seagrass programme with Deloitte and the UK National Oceanography Centre to build a UK seagrass carbon code.",
+      "signal": "Large-scale seed-collection and restoration programmes across the UK.",
+      "status": "operating",
+      "source": "https://www.projectseagrass.org/carbon-and-biodiversity-credits-for-seagrass/"
+     },
+     {
+      "name": "EcoAct (an Atos company)",
+      "role": "incumbent",
+      "what": "Climate consultancy that co-developed Europe's first seagrass carbon-credit methodology (Promethee-Med, with Calanques National Park, Schneider Electric, Digital Realty).",
+      "signal": "Method approved by French DGEC in 2023; ~24,000 tCO2e/yr potential.",
+      "status": "operating",
+      "source": "https://carboncredits.com/first-carbon-credit-methodology-for-seagrass-developed-in-france/"
+     },
+     {
+      "name": "The Nature Conservancy + Virginia Institute of Marine Science",
+      "role": "incumbent",
+      "what": "NGO/academic partnership that restored 9,000+ acres of eelgrass in Virginia's coastal bays, now the first seagrass project to apply for Verra carbon certification.",
+      "signal": "World-first seagrass Verra application; decades-long restoration dataset.",
+      "status": "operating",
+      "source": "https://e360.yale.edu/features/why-the-market-for-blue-carbon-credits-may-be-poised-to-take-off"
+     },
+     {
+      "name": "Hampshire & Isle of Wight Wildlife Trust (with Boskalis)",
+      "role": "incumbent",
+      "what": "Runs the Solent Seagrass Restoration Project with dredging major Boskalis Westminster as restoration partner.",
+      "signal": "Volunteer-driven seed collection and survey programme expanded in 2025.",
+      "status": "operating",
+      "source": "https://www.hiwwt.org.uk/seagrass-restoration"
+     },
+     {
+      "name": "Mote Marine Laboratory",
+      "role": "incumbent",
+      "what": "Research nonprofit that opened a dedicated seagrass restoration center and genetics hub in Florida to scale meadow recovery.",
+      "signal": "New greenhouse and genetics facilities opened 2025.",
+      "status": "operating",
+      "source": "https://mote.org/research/centers-of-excellence/seagrass-initiative/progress/"
+     }
+    ],
+    "white_space": "Almost no for-profit project developers exist: restoration is costly per hectare with low, patchy success rates, and credit methodologies (UK Seagrass Carbon Code, Verra VM0033, France's DGEC method) are brand-new and thin. The opening is a developer that pairs proven restoration technique with a bankable, audited MRV/credit methodology."
+   },
+   {
+    "name": "Seaweed / kelp cultivation (food, feed, materials)",
+    "description": "Farming kelp and other seaweeds in the ocean or land tanks for human food, agricultural biostimulants and industrial feedstocks, a fast-growing crop that needs no land, freshwater or fertilizer.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Atlantic Sea Farms",
+      "role": "scaleup",
+      "what": "Largest US line-grown kelp company, contracting ~24 lobster/fishing families and selling ready-to-eat kelp foods.",
+      "signal": "Raised $3.8M in early VC in January 2025.",
+      "status": "operating",
+      "source": "https://atlanticseafarms.com/"
+     },
+     {
+      "name": "Ocean Rainforest",
+      "role": "scaleup",
+      "what": "Offshore macroalgae cultivator (Faroe Islands and US) running an 86-acre giant-kelp testbed in the Santa Barbara Channel.",
+      "signal": "Won a $4.5M ARPA-E Technology-to-Market award.",
+      "status": "operating",
+      "source": "https://www.researchandmarkets.com/articles/key-companies-in-seaweed-cultivation"
+     },
+     {
+      "name": "Sea6 Energy",
+      "role": "scaleup",
+      "what": "Mechanized tropical-seaweed farming with autonomous platforms, turning biomass into biostimulants, bioplastics and feed.",
+      "signal": "Launched a large mechanized farm off Ekas, Indonesia (2024-25), first harvest 2025.",
+      "status": "operating",
+      "source": "https://www.seafoodsource.com/news/aquaculture/sea6-energy-launches-mechanized-tropical-seaweed-farm-in-indonesia-north-sea-farm-1-announces-commercial-seaweed-farm-development"
+     },
+     {
+      "name": "Kelp Blue",
+      "role": "scaleup",
+      "what": "Cultivates giant kelp (Macrocystis) offshore at Luderitz, Namibia for biostimulants and food, with a built onshore processing plant.",
+      "signal": "~$60M from Climate Investor Two/Eos Capital plus N$150M from De Beers; 30+ ha pilot installing ~4 ha/month.",
+      "status": "operating",
+      "source": "https://www.kelp.blue/global/locations/namibia"
+     },
+     {
+      "name": "Acadian Seaplants",
+      "role": "incumbent",
+      "what": "World's largest independent marine-plant company, supplying cultivated sea vegetables and Acadian Plant Health biostimulants globally.",
+      "signal": "Decades of operation with global distribution; private, profitable.",
+      "status": "operating",
+      "source": "https://www.acadianseaplants.com/"
+     },
+     {
+      "name": "GreenWave",
+      "role": "startup",
+      "what": "Nonprofit running an open-source 'regenerative ocean farming' training network seeding new kelp/shellfish farmers.",
+      "signal": "Thousands on its farmer waitlist; model replicated internationally.",
+      "status": "operating",
+      "source": "https://www.greenwave.org/"
+     },
+     {
+      "name": "AKUA",
+      "role": "startup",
+      "what": "Kelp-burger and kelp-jerky consumer brand that tried to build retail demand for US-grown kelp.",
+      "signal": "Raised ~$4.5M (2020-24); shut down August 2024, assets taken over by a Maine farmer co-op.",
+      "status": "bankrupt-shutdown",
+      "source": "https://civileats.com/2024/09/05/will-seaweeds-farming-fulfill-its-potential-as-a-climate-change-solution/"
+     }
+    ],
+    "white_space": "The bottleneck is demand, not biology: US seaweed funding fell from ~$100M (2022) to ~$8M (2024) and consumer-food plays like AKUA failed. The durable opening is high-volume industrial offtake (biostimulants, feed, bio-materials), not consumer food brands."
+   },
+   {
+    "name": "Seaweed feed additives for livestock methane reduction (Asparagopsis)",
+    "description": "Growing red seaweed (Asparagopsis) or synthesizing its active compound bromoform to add to cattle feed, cutting enteric methane burps by up to ~90% and abating a potent greenhouse gas rather than storing carbon.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "CH4 Global",
+      "role": "scaleup",
+      "what": "Opened the first commercial-scale Asparagopsis 'EcoPark' (Louth Bay, South Australia) producing the Methane Tamer feed additive via low-cost ponds.",
+      "signal": "Commercial production began January 2025; claims up to 90% methane cut and 90% lower production cost.",
+      "status": "operating",
+      "source": "https://ch4global.com/2025/01/29/ch4-global-begins-production-at-worlds-first-commercial-scale-asparagopsis-growing-facility-setting-new-benchmark-for-cost-effective-livestock-methane-reduction/"
+     },
+     {
+      "name": "Symbrosia",
+      "role": "startup",
+      "what": "Land-based Asparagopsis cultivation (photobioreactor-to-pond) producing the SeaGraze additive; building what it bills as the world's largest land-based seaweed farm in Kona, Hawaii.",
+      "signal": "$5.8M Series A-1; FDA data submitted; 15-acre site targeted for mid-2027.",
+      "status": "operating",
+      "source": "https://agfundernews.com/symbrosia-nets-5-8m-to-scale-most-cost-effective-cultivation-method-for-methane-busting-seaweed-additive"
+     },
+     {
+      "name": "Sea Forest",
+      "role": "scaleup",
+      "what": "Cultivates Asparagopsis in Tasmania for the SeaFeed oil and pellet supplement.",
+      "signal": "Raised ~$34M; operates a large Tasmanian seaweed farm.",
+      "status": "operating",
+      "source": "https://agfundernews.com/methane-busting-feed-supplements-are-beginning-to-scale-but-who-will-foot-the-bill-and-what-will-drive-widespread-adoption"
+     },
+     {
+      "name": "Blue Ocean Barns",
+      "role": "startup",
+      "what": "Grows Asparagopsis on land in filtered seawater (farm in Mexico) for the Brominata feed additive supplied to dairies.",
+      "signal": "Early commercial supply; one of the first US Asparagopsis additive makers.",
+      "status": "operating",
+      "source": "https://www.pbs.org/video/cutting-methane-1744664894/"
+     },
+     {
+      "name": "Rumin8",
+      "role": "startup",
+      "what": "Synthesizes and stabilizes bromoform pharmaceutically (no seaweed farming) for a low-cost, scalable feed additive.",
+      "signal": "~$18M+ raised, including Breakthrough Energy / Bill Gates and Prelude Ventures.",
+      "status": "operating",
+      "source": "https://www.cbinsights.com/company/rumin8"
+     },
+     {
+      "name": "Volta Greentech",
+      "role": "startup",
+      "what": "Swedish maker that began with Asparagopsis but has pivoted away to an undisclosed, more-scalable methane-reducing molecule.",
+      "signal": "~$2M seed; pivot away from Asparagopsis announced 2024-25.",
+      "status": "uncertain",
+      "source": "https://agfundernews.com/red-seaweed-was-billed-as-a-gamechanger-for-livestock-methane-reduction-so-when-will-it-deliver"
+     }
+    ],
+    "white_space": "Crowded on supply but the unsolved problem is who pays: there is no value chain that funds the per-animal premium, dosing for grazing herds is hard, and Asparagopsis bromoform is costly to grow at scale (hence Volta's pivot and Rumin8's synthetic route). An opening exists for whoever pairs cheap, stable dosing with a credible enteric-methane crediting/insetting mechanism."
+   },
+   {
+    "name": "Seaweed / biomass carbon sequestration & sinking",
+    "description": "Growing or collecting macroalgae and sinking or burying the biomass (or converting it to biochar) so its carbon leaves the fast carbon cycle for centuries, a high-ambition but scientifically contested removal pathway.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Running Tide",
+      "role": "startup",
+      "what": "Flagship ocean carbon-removal firm that pivoted from kelp to sinking limestone-coated wood chips off Iceland and selling the removals as credits.",
+      "signal": "Raised >$50M (Lowercarbon et al.); sold credits to Microsoft and Shopify; shut down June 2024 citing collapsed voluntary-market demand.",
+      "status": "bankrupt-shutdown",
+      "source": "https://carbonherald.com/running-tide-shuts-down-citing-lack-of-demand-from-the-voluntary-market/"
+     },
+     {
+      "name": "Seafields",
+      "role": "startup",
+      "what": "Plans open-ocean sargassum farms using artificial upwelling, then bales and sinks the biomass in the South Atlantic gyre.",
+      "signal": "Sank test bales at ~3,483 m in 2024 (with Running Tide and the Alfred Wegener Institute); pre-commercial, targeting the early 2030s.",
+      "status": "operating",
+      "source": "https://oceannews.com/news/science-technology/carbon-removal-company-completes-world-s-first-seaweed-bailing-and-sinking-test/"
+     },
+     {
+      "name": "Carbon Kapture",
+      "role": "startup",
+      "what": "Builds networks of kelp farms and converts harvested kelp into biochar for durable, on-land carbon storage.",
+      "signal": "Early UK/European pilots; participant in EU ocean-restoration projects.",
+      "status": "operating",
+      "source": "https://carbonkapture.com/"
+     },
+     {
+      "name": "Brilliant Planet",
+      "role": "startup",
+      "what": "Grows marine microalgae (not macroalgae) in coastal desert ponds, then solar-dries and buries the biomass on site.",
+      "signal": ">$25M raised (Toyota Ventures et al.); ~100 t/yr demo; sold removals to Block; targeting 270k t/yr by 2030.",
+      "status": "operating",
+      "source": "https://carbonherald.com/brilliant-planet-lands-first-large-scale-carbon-removal-deal-via-watershed-marketplace/"
+     }
+    ],
+    "white_space": "Thin and high-risk: open-ocean biomass sinking has no scientific consensus or accepted MRV, permitting is fraught (London Protocol/Convention), and the voluntary market shrank, which is exactly what killed Running Tide. The credible openings are on-land/biochar pathways and rigorous, measurable MRV rather than dumping biomass in the deep sea."
+   },
+   {
+    "name": "Coastal / blue carbon MRV & credit methodologies",
+    "description": "The standards, measurement-reporting-verification (MRV) tooling and ratings that turn coastal-ecosystem carbon into credible, sellable credits, the financial plumbing the rest of the bucket depends on.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Verra",
+      "role": "incumbent",
+      "what": "Runs the VCS registry and the VM0033 tidal-wetland/seagrass methodology that certifies the large majority (~99%) of blue carbon issuance to date.",
+      "signal": "Dominant registry; blue carbon methodology revised 2023-2025.",
+      "status": "operating",
+      "source": "https://verra.org/programs/verified-carbon-standard/area-of-focus-blue-carbon/"
+     },
+     {
+      "name": "Isometric",
+      "role": "startup",
+      "what": "Durable-CDR registry that published a Mangrove Restoration Protocol (Dec 2025) plus marine removal methodologies.",
+      "signal": "Three signed mangrove projects; potential to issue up to ~2M removal credits by 2030.",
+      "status": "operating",
+      "source": "https://www.eco-business.com/news/icvcm-approves-another-carbon-credit-standard-mangrove-restoration-rules-as-high-integrity/"
+     },
+     {
+      "name": "Sylvera",
+      "role": "scaleup",
+      "what": "Carbon-credit ratings and Biomass-Atlas data; named a data-service provider for Verra's dMRV performance benchmark (VM0047).",
+      "signal": "Large VC-backed ratings platform; publishes the annual State of Carbon Credits report.",
+      "status": "operating",
+      "source": "https://www.sylvera.com/blog/sylvera-verra-vm0047-dmrv-performance-benchmark-data-provider"
+     },
+     {
+      "name": "BeZero Carbon",
+      "role": "scaleup",
+      "what": "Carbon-credit risk-ratings agency; the only major rater to publish its topline ratings free.",
+      "signal": "Founded 2020; widely used by corporate buyers to screen blue-carbon credits.",
+      "status": "operating",
+      "source": "https://www.sylvera.com/blog/what-is-a-carbon-credit-agency"
+     },
+     {
+      "name": "Calyx Global",
+      "role": "startup",
+      "what": "Independent carbon-credit ratings and risk analysis across 25+ project types, including blue carbon.",
+      "signal": "Founded 2021; subscription ratings service and detailed project reports.",
+      "status": "operating",
+      "source": "https://calyxglobal.com/calyx-carbon-credit-ratings/"
+     },
+     {
+      "name": "Pachama",
+      "role": "scaleup",
+      "what": "AI-powered MRV and marketplace for nature-based removals/avoidance and REDD+ credits.",
+      "signal": "Founded 2018; backed by Amazon Climate Pledge Fund and Lowercarbon.",
+      "status": "operating",
+      "source": "https://www.sylvera.com/blog/voluntary-carbon-markets-ecosystem-explained"
+     },
+     {
+      "name": "Plan Vivo",
+      "role": "incumbent",
+      "what": "Standards body running PV Blue, a community-focused blue carbon standard used by smallholder mangrove/seagrass projects.",
+      "signal": "Long-running standard with a dedicated blue-carbon module.",
+      "status": "operating",
+      "source": "https://www.senken.io/academy/blue-carbon"
+     }
+    ]
+   },
+   {
+    "name": "Shellfish / bivalve reef restoration",
+    "description": "Rebuilding oyster and mussel reefs that filter water, protect shorelines and create fish habitat, valuable coastal restoration whose role as a carbon sink is scientifically contested.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Oyster Recovery Partnership",
+      "role": "incumbent",
+      "what": "Nonprofit that plans and plants science-based oyster restoration; completed Maryland's 10-tributary, 10-year restoration strategy in 2025.",
+      "signal": "Billions of spat-on-shell planted across the Chesapeake Bay.",
+      "status": "operating",
+      "source": "https://www.oysterrecovery.org/our-work/oyster-restoration"
+     },
+     {
+      "name": "Billion Oyster Project",
+      "role": "startup",
+      "what": "Nonprofit restoring oyster reefs in New York Harbor via public-school education and restaurant shell-recycling networks.",
+      "signal": "100M+ oysters restored toward a one-billion-oyster goal.",
+      "status": "operating",
+      "source": "https://en.wikipedia.org/wiki/Oyster_reef_restoration"
+     },
+     {
+      "name": "The Nature Conservancy",
+      "role": "incumbent",
+      "what": "Leads large global shellfish/oyster reef restoration programs and ran the SOAR shellfish-buyback initiative during COVID.",
+      "signal": "Dozens of reef restoration projects across the US, Europe and Australia.",
+      "status": "operating",
+      "source": "https://www.fisheries.noaa.gov/chesapeake-bay/oyster-reef-restoration-chesapeake-bay-were-making-significant-progress"
+     },
+     {
+      "name": "Puget Sound Restoration Fund",
+      "role": "startup",
+      "what": "Nonprofit restoring native Olympia oysters and pinto abalone across Puget Sound.",
+      "signal": "140+ acres of Olympia oyster habitat restored by early 2025.",
+      "status": "operating",
+      "source": "https://restorationfund.org/programs/olympiaoysters/"
+     },
+     {
+      "name": "Chesapeake Bay Foundation",
+      "role": "incumbent",
+      "what": "Runs oyster-gardening and reef-building programs across the Chesapeake with partner agencies.",
+      "signal": "Helped reach the 2025 10-tributary restoration goal.",
+      "status": "operating",
+      "source": "https://www.cbf.org/blogs/save-the-bay/2025/04/harnessing-the-little-bivalve-to-produce-big-results-for-the-bay.html"
+     }
+    ],
+    "white_space": "Almost no for-profit players, because the carbon case is weak: shell calcification releases CO2, so bivalves are excluded from blue carbon and mCDR frameworks and earn no credits, leaving restoration dependent on grants and public funds. An opening would require a defensible net-removal MRV (recent PNAS work hints at organic-carbon co-benefits) or stacking biodiversity, coastal-protection, water-quality and nutrient-trading credits into a revenue model."
+   }
+  ],
+  "sources": [
+   "https://phyconomy.substack.com/p/seaweed-in-2025-the-year-in-review",
+   "https://civileats.com/2024/09/05/will-seaweeds-farming-fulfill-its-potential-as-a-climate-change-solution/",
+   "https://www.seafoodsource.com/news/environment-sustainability/carbon-removal-company-running-tide-shuts-down-operations",
+   "https://carbonherald.com/running-tide-shuts-down-citing-lack-of-demand-from-the-voluntary-market/",
+   "https://verra.org/programs/verified-carbon-standard/area-of-focus-blue-carbon/",
+   "https://www.eco-business.com/news/icvcm-approves-another-carbon-credit-standard-mangrove-restoration-rules-as-high-integrity/",
+   "https://e360.yale.edu/features/why-the-market-for-blue-carbon-credits-may-be-poised-to-take-off",
+   "https://carboncredits.com/first-carbon-credit-methodology-for-seagrass-developed-in-france/",
+   "https://deltabluecarbon.com/",
+   "https://www.kelp.blue/global/locations/namibia",
+   "https://ch4global.com/2025/01/29/ch4-global-begins-production-at-worlds-first-commercial-scale-asparagopsis-growing-facility-setting-new-benchmark-for-cost-effective-livestock-methane-reduction/",
+   "https://agfundernews.com/red-seaweed-was-billed-as-a-gamechanger-for-livestock-methane-reduction-so-when-will-it-deliver",
+   "https://www.pnas.org/doi/10.1073/pnas.2504004122",
+   "https://www.researchandmarkets.com/articles/key-companies-in-seaweed-cultivation",
+   "https://www.globenewswire.com/news-release/2025/08/06/3128094/28124/en/Seaweed-Packaging-Market-Eyes-1-3-Billion-Valuation-by-2034-Zerocircle-Alternatives-Evoware-Loliware-Notpla-and-Sway-Innovation-Lead-Global-Competition.html",
+   "https://www.sylvera.com/blog/voluntary-carbon-markets-ecosystem-explained"
+  ]
+ }
+}

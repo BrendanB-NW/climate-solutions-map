@@ -1,0 +1,569 @@
+{
+ "sector": "transport",
+ "bucket": "Passenger & Light-Duty EVs",
+ "census": {
+  "bucket": "Passenger & Light-Duty EVs",
+  "variations": [
+   {
+    "name": "Pure-play battery-electric carmakers",
+    "description": "Companies founded to build only battery-electric vehicles, using clean-sheet engineering, software-first architectures and direct sales to set the cost and performance benchmarks that pull the whole car market toward electrification.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Tesla",
+      "role": "incumbent",
+      "what": "Vertically integrated BEV maker (Model 3/Y, 4680 cells, Supercharger network, FSD software) that proved EVs at scale.",
+      "signal": "1.64M deliveries in 2025, down 8.6% \u2014 second straight annual decline; lost global BEV crown to BYD",
+      "status": "operating",
+      "source": "https://cnevpost.com/2026/01/02/tesla-q4-2025-global-deliveries/"
+     },
+     {
+      "name": "BYD",
+      "role": "incumbent",
+      "what": "Fully vertically integrated from Blade LFP cells to finished cars; world's largest NEV maker, dropped ICE-only production in 2022.",
+      "signal": "2.26M BEVs sold in 2025 (+28%), overtaking Tesla as #1 global BEV seller; ~4M+ total NEVs/yr",
+      "status": "operating",
+      "source": "https://ev.com/news/byd-overtakes-tesla-as-worlds-top-bev-seller-in-2025"
+     },
+     {
+      "name": "NIO",
+      "role": "scaleup",
+      "what": "Premium BEVs differentiated by battery-swap network and battery-as-a-service, plus Onvo and Firefly mass-market sub-brands.",
+      "signal": "~326k deliveries 2025 (+47% YoY); 3,000+ swap stations in China; still loss-making",
+      "status": "operating",
+      "source": "https://news.futunn.com/en/post/66856038/new-forces-year-end-summary-leapmotor-and-xpeng-s-annual"
+     },
+     {
+      "name": "XPeng",
+      "role": "scaleup",
+      "what": "Smart-EV maker focused on in-house ADAS/autonomy software; Mona M03 brought its stack to the mass market; licenses platform/software to Volkswagen.",
+      "signal": "429,445 deliveries in 2025, +126% YoY",
+      "status": "operating",
+      "source": "https://eletric-vehicles.com/xpeng/xpeng-more-than-doubles-vehicle-deliveries-in-2025-despite-missing-q4-guidance/"
+     },
+     {
+      "name": "Rivian",
+      "role": "scaleup",
+      "what": "US adventure-positioned electric trucks/SUVs (R1T/R1S) with in-house zonal electronics; mid-size R2 platform targets volume.",
+      "signal": "~50k vehicles/yr; Volkswagen software JV worth up to $5.8B; R2 launches 2026 from Normal, IL",
+      "status": "operating",
+      "source": "https://en.wikipedia.org/wiki/Rivian"
+     },
+     {
+      "name": "Lucid Motors",
+      "role": "scaleup",
+      "what": "Ultra-efficient luxury EVs (Air sedan, Gravity SUV) with class-leading range from in-house powertrains; supplies tech to Aston Martin.",
+      "signal": "Saudi PIF majority-backed with repeated billion-dollar infusions; Gravity ramped through 2025; founder-CEO Rawlinson stepped down Feb 2025; volumes still ~20k/yr",
+      "status": "operating",
+      "source": "https://en.wikipedia.org/wiki/Lucid_Motors"
+     },
+     {
+      "name": "VinFast",
+      "role": "scaleup",
+      "what": "Vietnamese conglomerate-backed BEV maker expanding aggressively into India and Indonesia with low-cost models.",
+      "signal": "196,919 deliveries 2025 (2x YoY) but ~$4.0B net loss, -43% gross margin and going-concern doubt; $13.5B+ funneled in by Vingroup/founder",
+      "status": "operating",
+      "source": "https://www.stocktitan.net/sec-filings/VFS/20-f-vin-fast-auto-ltd-files-annual-report-foreign-issuer-3271416d5722.html"
+     },
+     {
+      "name": "Zeekr",
+      "role": "scaleup",
+      "what": "Geely's premium BEV brand on the SEA platform with 800V fast-charging focus; briefly NYSE-listed.",
+      "signal": "~90.7k H1 2025 deliveries; Geely completed ~$2.4B privatization and NYSE delisting Dec 2025",
+      "status": "acquired",
+      "source": "https://cnevpost.com/2025/12/22/zeekr-completes-merger-with-geely-delists-from-nyse/"
+     },
+     {
+      "name": "Fisker",
+      "role": "startup",
+      "what": "Asset-light BEV model \u2014 designed the Ocean SUV and outsourced manufacturing to Magna Steyr \u2014 that collapsed on quality and cash problems.",
+      "signal": "~11k Oceans built; Chapter 11 June 2024 after burning ~$1B+",
+      "status": "bankrupt-shutdown",
+      "source": "https://techcrunch.com/2025/08/30/the-fall-of-ev-startup-fisker-a-comprehensive-timeline/"
+     },
+     {
+      "name": "Slate Auto",
+      "role": "startup",
+      "what": "Bezos-backed minimalist sub-$30k modular electric pickup (no paint, no infotainment) attacking EV affordability in the US.",
+      "signal": "$650M Series C (Apr 2026); 160k+ reservations; production targeted late 2026 in Warsaw, Indiana",
+      "status": "operating",
+      "source": "https://techcrunch.com/2026/04/13/slate-auto-raises-650m-to-fund-its-affordable-ev-truck-plans/"
+     }
+    ]
+   },
+   {
+    "name": "Incumbent OEM EV programs & sub-brands",
+    "description": "Legacy automakers electrifying through dedicated EV platforms and sub-brands, converting existing factories, dealer networks and supply chains to electric at multi-hundred-thousand-unit scale.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Volkswagen Group (ID. / MEB-PPE)",
+      "role": "incumbent",
+      "what": "Europe's BEV volume leader with the MEB/PPE platforms across VW ID., Audi, Skoda, Cupra; next-gen SSP plus Rivian software JV.",
+      "signal": "ID. family well past 1M cumulative; ~745k group BEVs in 2024; $5.8B Rivian JV",
+      "status": "operating",
+      "source": "https://en.wikipedia.org/wiki/Volkswagen_ID._series"
+     },
+     {
+      "name": "General Motors (Ultium)",
+      "role": "incumbent",
+      "what": "Shared Ultium battery/platform architecture spanning Chevy Equinox/Blazer EV and Cadillac Lyriq, with cells from JV plants with LG.",
+      "signal": "#2 US EV seller in 2025 behind Tesla; pulled back some EV capacity after US tax credit expired Sept 2025",
+      "status": "operating",
+      "source": "https://en.wikipedia.org/wiki/Ultium"
+     },
+     {
+      "name": "Hyundai Motor Group (Ioniq / E-GMP)",
+      "role": "incumbent",
+      "what": "800V E-GMP platform underpinning Hyundai Ioniq 5/6/9 and Kia EV3-EV9; among the most awarded incumbent EV programs.",
+      "signal": "Metaplant America (Georgia) opened 2025; E-GMP models sell globally at scale; EREV variants announced for ~2027",
+      "status": "operating",
+      "source": "https://en.wikipedia.org/wiki/Electric_Global_Modular_Platform"
+     },
+     {
+      "name": "BMW (i / Neue Klasse)",
+      "role": "incumbent",
+      "what": "BMW i sub-brand transitioning to the dedicated 800V Neue Klasse platform (iX3 first), built in Debrecen and Munich.",
+      "signal": "~426k BEVs delivered 2024 (+13.5%); Neue Klasse iX3 launched at IAA 2025",
+      "status": "operating",
+      "source": "https://en.wikipedia.org/wiki/BMW_i"
+     },
+     {
+      "name": "Toyota (bZ)",
+      "role": "incumbent",
+      "what": "Deliberately slow 'multi-pathway' BEV program (bZ4X/bZ line) while betting on solid-state batteries around 2027-28.",
+      "signal": "BEVs still ~1-2% of Toyota's ~10M annual sales; bZ lineup expanded 2025",
+      "status": "operating",
+      "source": "https://en.wikipedia.org/wiki/Toyota_bZ"
+     },
+     {
+      "name": "Geely Group",
+      "role": "incumbent",
+      "what": "China's #2 NEV group spanning Galaxy, Zeekr, Volvo, Polestar, smart and Lynk & Co, consolidated around the SEA architecture.",
+      "signal": "Completed Zeekr privatization Dec 2025 (~$2.4B) to tighten premium EV strategy; millions of NEVs/yr group-wide",
+      "status": "operating",
+      "source": "https://autonews.gasgoo.com/articles/news/geely-completes-zeekr-privatization-as-it-tightens-control-over-its-premium-ev-strategy-70040196"
+     },
+     {
+      "name": "Stellantis",
+      "role": "incumbent",
+      "what": "STLA Small/Medium/Large platforms across 14 brands; the \u20ac23k Citro\u00ebn \u00eb-C3 is Europe's affordability play; 51% JV distributes Leapmotor EVs outside China.",
+      "signal": "\u00eb-C3 launched 2024; Leapmotor International selling in 20+ countries; several US BEV programs delayed in favor of EREV/hybrids",
+      "status": "operating",
+      "source": "https://en.wikipedia.org/wiki/Stellantis"
+     },
+     {
+      "name": "Tata Motors",
+      "role": "incumbent",
+      "what": "Dominates India's nascent EV market with low-cost Nexon EV, Punch EV and Tiago EV on the Acti.ev platform.",
+      "signal": "~60%+ share of Indian EV sales; TPG-backed EV unit valued ~$9B",
+      "status": "operating",
+      "source": "https://en.wikipedia.org/wiki/Tata_Motors"
+     },
+     {
+      "name": "Renault (Ampere / R5 E-Tech)",
+      "role": "incumbent",
+      "what": "Carved out Ampere as a dedicated EV/software unit; retro-styled Renault 5 E-Tech is Europe's headline affordable EV.",
+      "signal": "R5 E-Tech named 2025 European Car of the Year; Ampere targets BEV-ICE cost parity by ~2027-28",
+      "status": "operating",
+      "source": "https://en.wikipedia.org/wiki/Renault_5_E-Tech"
+     }
+    ]
+   },
+   {
+    "name": "Extended-range EV (EREV) specialists",
+    "description": "Vehicles always driven by electric motors but carrying a small gasoline generator to recharge the battery, eliminating range anxiety with smaller, cheaper packs \u2014 the fastest-growing powertrain category in China and now being adopted for US trucks.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Li Auto",
+      "role": "scaleup",
+      "what": "Pioneered premium family-SUV EREVs (L6-L9) in China and remains the segment leader; expanding into BEVs (Mega, i8).",
+      "signal": "1.4M+ cumulative deliveries by Sept 2025; L6 was China's best-selling EREV for 7 straight months; growth flattened in 2025",
+      "status": "operating",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001791706/000110465925053853/tm2516467d1_ex99-1.htm"
+     },
+     {
+      "name": "Leapmotor",
+      "role": "scaleup",
+      "what": "Budget-priced dual-powertrain strategy \u2014 every model offered as BEV or REEV (C10/C11) \u2014 with Stellantis distributing internationally.",
+      "signal": "596,555 deliveries 2025 (+103%), top Chinese NEV startup by volume; C10 REEV one of only two EREVs on sale in Europe",
+      "status": "operating",
+      "source": "https://news.futunn.com/en/post/66856038/new-forces-year-end-summary-leapmotor-and-xpeng-s-annual"
+     },
+     {
+      "name": "Seres (AITO, with Huawei)",
+      "role": "incumbent",
+      "what": "Builds the Huawei-co-developed AITO M7/M8/M9 EREV SUVs, China's top-selling premium SUVs above RMB 400-500k.",
+      "signal": "Updated AITO M7 took 100k+ pre-orders within 1 hour (Sept 2025); M9 dominates China's ultra-premium SUV segment",
+      "status": "operating",
+      "source": "https://cnevpost.com/2025/09/05/aito-pre-sales-updated-m7-100000-pre-orders-1-hour/"
+     },
+     {
+      "name": "Scout Motors (VW Group)",
+      "role": "incumbent",
+      "what": "Reborn American off-road brand whose Terra pickup and Traveler SUV offer a 'Harvester' gasoline range-extender option alongside pure BEV.",
+      "signal": "$2B Blythewood, SC plant under construction; production from 2027; reservations reportedly skew heavily to the Harvester EREV",
+      "status": "operating",
+      "source": "https://en.wikipedia.org/wiki/Scout_Motors"
+     },
+     {
+      "name": "Stellantis (Ram 1500 Ramcharger)",
+      "role": "incumbent",
+      "what": "First high-volume US EREV pickup \u2014 V6 acts purely as a generator for ~690 miles total range; prioritized over the canceled pure-BEV Ram.",
+      "signal": "Launch slipped to 2026-27 as Stellantis re-sequenced its EV truck lineup around EREV demand",
+      "status": "operating",
+      "source": "https://www.meticulousresearch.com/product/extended-range-electric-vehicle-market-6322"
+     },
+     {
+      "name": "Mazda (MX-30 R-EV)",
+      "role": "incumbent",
+      "what": "Niche rotary-engine range extender packaging \u2014 one of only two EREVs on sale in Europe as of 2025.",
+      "signal": "Low volumes; mainly a technology demonstrator for Mazda's rotary-generator approach",
+      "status": "operating",
+      "source": "https://en.wikipedia.org/wiki/Extended-range_electric_vehicle"
+     }
+    ]
+   },
+   {
+    "name": "Solar-integrated EVs",
+    "description": "Ultra-efficient vehicles with photovoltaic body panels that harvest enough sunlight to add daily driving range and cut charging dependence \u2014 viable only on very light, aerodynamic designs because car surfaces cap on-board PV at roughly 1 kW.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Aptera Motors",
+      "role": "startup",
+      "what": "Three-wheeled ~10 mi/kWh composite solar EV claiming up to ~40 miles/day from sunlight alone.",
+      "signal": "$130M+ crowdfunded plus $75M equity line (Oct 2025); validation assembly line running 2025; first sales pushed to late 2026, volume production ~2028 pending ~$60M more",
+      "status": "operating",
+      "source": "https://en.wikipedia.org/wiki/Aptera_(solar_electric_vehicle)"
+     },
+     {
+      "name": "Lightyear (Atlas Technologies)",
+      "role": "startup",
+      "what": "Built the \u20ac250k Lightyear 0, the first production solar car, then pitched a \u20ac40k Lightyear 2 before running out of money.",
+      "signal": "Parent declared bankruptcy Jan 2023 weeks after first deliveries; ~40k Lightyear 2 pre-orders never fulfilled; remnants pivoted to licensing solar roof tech",
+      "status": "bankrupt-shutdown",
+      "source": "https://cars.usnews.com/cars-trucks/features/lightyears-parent-company-declares-bankruptcy"
+     },
+     {
+      "name": "Sono Motors",
+      "role": "startup",
+      "what": "Canceled its crowdfunded Sion solar car after insolvency and pivoted to retrofit solar kits for buses and trucks (customers include Mitsubishi Europe, CHEREAU, Scania, MAN).",
+      "signal": "Sion program scrapped Feb 2023 with ~45k reservations; relaunched post-insolvency as a solar-retrofit supplier; Sion prototypes auctioned Aug 2025",
+      "status": "operating",
+      "source": "https://en.wikipedia.org/wiki/Sono_Motors"
+     },
+     {
+      "name": "Squad Mobility",
+      "role": "startup",
+      "what": "Dutch maker of the Squad Solar City Car, a sub-\u20ac10k L6e/LSV quadricycle whose roof panel adds ~20 km/day of urban range.",
+      "signal": "First customer deliveries in the Netherlands from 2024-25; targeting US LSV market",
+      "status": "operating",
+      "source": "https://www.squadmobility.com/"
+     },
+     {
+      "name": "Hyundai (solar roof options)",
+      "role": "incumbent",
+      "what": "Offers factory solar-roof options on models like the Ioniq 5 and Sonata \u2014 solar as a supplemental feature rather than primary energy source.",
+      "signal": "Solar roof adds only ~1,300-2,000 km/yr; remains a low-take-rate option",
+      "status": "operating",
+      "source": "https://en.wikipedia.org/wiki/Hyundai_Ioniq_5"
+     }
+    ],
+    "white_space": "Both flagship solar-car startups failed (Lightyear bankrupt, Sono's Sion canceled) and Aptera is still pre-revenue after years \u2014 physics caps on-vehicle PV near 1 kW, so a standalone 'solar carmaker' only pencils with extreme lightweighting. The credible opening is solar as a feature: OEM roof options, retrofit kits for fleets, and sun-rich-market microcars/LSVs where 20-40 km/day of free range covers most trips."
+   },
+   {
+    "name": "Microcars, quadricycles & low-speed EVs",
+    "description": "Sub-car-sized electric vehicles (EU L6e/L7e quadricycles, China's A00 mini-EVs, US low-speed vehicles) that electrify short urban trips using a fraction of the battery, materials, cost and parking space of a full-size EV.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "SAIC-GM-Wuling (Hongguang Mini EV)",
+      "role": "incumbent",
+      "what": "Makes the world's best-selling micro EV, a ~$4-5k city car profitable without subsidies.",
+      "signal": "435,598 units sold in 2025 alone; 1.85M+ cumulative since 2020; 5th generation unveiled Feb 2026",
+      "status": "operating",
+      "source": "https://cnevpost.com/2026/02/26/wuling-unveils-5th-gen-mini-ev/"
+     },
+     {
+      "name": "Stellantis (Citro\u00ebn Ami / Fiat Topolino / Opel Rocks-e)",
+      "role": "incumbent",
+      "what": "Mass-produced ~\u20ac8k L6e quadricycle drivable from age 14 in France, sold through vending-machine-simple retail.",
+      "signal": "75,000+ units across 18 markets since 2020; France's best-selling quadricycle",
+      "status": "operating",
+      "source": "https://en.wikipedia.org/wiki/Citro%C3%ABn_Ami_(electric_vehicle)"
+     },
+     {
+      "name": "Micro Mobility Systems (Microlino)",
+      "role": "scaleup",
+      "what": "Swiss kick-scooter maker building the premium bubble-car-styled Microlino L7e quadricycle in Turin.",
+      "signal": "~3,700 vehicles produced in 2024, first full production year; ~\u00a320k price point",
+      "status": "operating",
+      "source": "https://www.hagerty.com/media/new-car-reviews/first-drive-the-2025-microlino-is-a-euro-friendly-ev-with-throwback-good-looks/"
+     },
+     {
+      "name": "Renault Mobilize (Duo)",
+      "role": "incumbent",
+      "what": "80 km/h two-seat quadricycle sold partly by subscription, Renault's bet on sub-car urban mobility.",
+      "signal": "Launched 2025 in Europe as the Ami's direct upmarket competitor",
+      "status": "operating",
+      "source": "https://cleantechnica.com/2025/10/20/amsterdams-tiny-electric-cars-are-not-just-golf-carts-that-went-to-design-school/"
+     },
+     {
+      "name": "Eli Electric (Eli Zero)",
+      "role": "startup",
+      "what": "Builds a $11,990 neighborhood electric vehicle (NEV/LSV) targeting US suburbs, already sold as an L6e in Europe.",
+      "signal": "US deliveries to reservation holders began 2025 after regulatory delays",
+      "status": "operating",
+      "source": "https://newatlas.com/automotive/eli-zero-electric-micro-car"
+     },
+     {
+      "name": "NIU Technologies",
+      "role": "scaleup",
+      "what": "Chinese smart-scooter maker moving up into a scooter-priced enclosed electric microcar.",
+      "signal": "Microcar confirmed headed to production (Nov 2025); leverages existing two-wheeler retail network",
+      "status": "operating",
+      "source": "https://electrek.co/2025/11/04/nius-scooter-sized-electric-microcar-is-actually-headed-for-production/"
+     },
+     {
+      "name": "ElectraMeccanica",
+      "role": "startup",
+      "what": "Canadian maker of the single-seat Solo three-wheeler \u2014 recalled and bought back every vehicle in 2023, ending the program.",
+      "signal": "All ~400 Solos repurchased Feb 2023; vehicle business wound down and shell merged with Xos in 2024",
+      "status": "bankrupt-shutdown",
+      "source": "https://en.wikipedia.org/wiki/ElectraMeccanica"
+     },
+     {
+      "name": "Arcimoto",
+      "role": "startup",
+      "what": "Oregon maker of the three-wheeled 'Fun Utility Vehicle' tandem EV that could never get unit costs below price.",
+      "signal": "Production halted since 2023 amid funding collapse, mass layoffs and delisting threats; no credible restart",
+      "status": "uncertain",
+      "source": "https://en.wikipedia.org/wiki/Arcimoto"
+     }
+    ],
+    "white_space": "Crowded in Europe and China but nearly empty in the US, where no federal quadricycle class exists and the 25 mph low-speed-vehicle rule strands products between golf carts and cars \u2014 a regulatory void that helped kill Arcimoto and ElectraMeccanica. An opening exists for whoever cracks US homologation (a 35-45 mph 'medium-speed' class or state-level carve-outs) with a sub-$12k product like Eli's."
+   },
+   {
+    "name": "EV skateboard platforms & contract manufacturers",
+    "description": "Companies that sell modular EV rolling chassis ('skateboards') or assemble complete EVs under contract, letting brands launch vehicles without owning factories or full-stack engineering \u2014 attempting to do for cars what Foxconn did for phones.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Foxconn / Foxtron",
+      "role": "incumbent",
+      "what": "Electronics giant's EV arm offering the open MIH platform and contract assembly; its Model C sells as the Luxgen n7 in Taiwan.",
+      "signal": "Acquired Luxgen brand for ~$25M Dec 2025; MOU to supply Mitsubishi-badged EVs for Oceania from H2 2026; n7 was Taiwan's #2 EV at launch",
+      "status": "operating",
+      "source": "https://evxl.co/2025/12/19/foxconn-foxtron-acquires-luxgen/"
+     },
+     {
+      "name": "Magna Steyr",
+      "role": "incumbent",
+      "what": "Veteran full-vehicle contract manufacturer in Graz (built Jaguar I-Pace and Fisker Ocean) with its own EV platform engineering services.",
+      "signal": "Lost anchor EV client when Fisker went bankrupt 2024; Graz capacity underutilized, actively courting new EV programs",
+      "status": "operating",
+      "source": "https://en.wikipedia.org/wiki/Magna_Steyr"
+     },
+     {
+      "name": "REE Automotive",
+      "role": "startup",
+      "what": "Israeli developer of REEcorner x-by-wire modules packing motor, steering, brakes and suspension into the wheel corners of a flat skateboard.",
+      "signal": "P7-C was first fully by-wire vehicle FMVSS-certified in the US; ~$60M order book; pivoting toward licensing its software-defined-vehicle stack amid cash constraints",
+      "status": "operating",
+      "source": "https://www.greencarreports.com/news/1141987_ree-electric-truck-by-wire-us-certified"
+     },
+     {
+      "name": "U Power Technology",
+      "role": "startup",
+      "what": "Chinese 'UP Super Board' skateboard chassis venture aiming to supply niche brands and ride-hailing OEMs.",
+      "signal": "Nasdaq-listed 2023 (UCAR) but minimal vehicle revenue; little verified commercial traction since",
+      "status": "uncertain",
+      "source": "https://www.upincar.com/"
+     },
+     {
+      "name": "Canoo",
+      "role": "startup",
+      "what": "Built lifestyle vans and pickups on a steer-by-wire skateboard it once pitched as a platform for Hyundai and others.",
+      "signal": "Chapter 7 liquidation Jan 2025, ceased operations immediately; ~$164M liabilities vs $126M assets",
+      "status": "bankrupt-shutdown",
+      "source": "https://techcrunch.com/2025/01/17/ev-startup-canoo-files-for-bankruptcy-and-ceases-operations/"
+     },
+     {
+      "name": "Geely (SEA architecture)",
+      "role": "incumbent",
+      "what": "Licenses and shares its Sustainable Experience Architecture across Zeekr, Volvo EX30, smart, Polestar and external partners \u2014 the closest thing to a high-volume third-party EV platform.",
+      "signal": "SEA underpins millions of vehicles across 6+ brands; smart JV with Mercedes built entirely on it",
+      "status": "operating",
+      "source": "https://en.wikipedia.org/wiki/Sustainable_Experience_Architecture"
+     },
+     {
+      "name": "VDL Nedcar",
+      "role": "incumbent",
+      "what": "The Netherlands' only large contract car plant; after BMW pulled the MINI contract it failed to land a replacement EV client (talks with Rivian and Canoo collapsed).",
+      "signal": "Car assembly ended March 2024 with thousands of layoffs; site repurposed away from vehicles (parent VDL Groep remains solvent)",
+      "status": "bankrupt-shutdown",
+      "source": "https://en.wikipedia.org/wiki/VDL_Nedcar"
+     },
+     {
+      "name": "CATL (CIIC / Panshi chassis)",
+      "role": "incumbent",
+      "what": "World's largest battery maker selling an integrated cell-to-chassis skateboard so new entrants and legacy brands can skip platform R&D.",
+      "signal": "Panshi/Bedrock chassis unveiled Dec 2024; first applications with Avatr; pitching international licensees",
+      "status": "operating",
+      "source": "https://en.wikipedia.org/wiki/Contemporary_Amperex_Technology"
+     }
+    ],
+    "white_space": "Pure skateboard startups keep dying (Canoo Ch7 2025, Arrival 2024) and contract plants keep losing anchors (Magna-Fisker, VDL-MINI) because credible volume customers barely exist \u2014 incumbents own factories and startups die before reaching volume. The model that works is Foxconn's: regional assembly inside tariff walls plus white-label platforms for legacy brands that lack EV R&D (Mitsubishi-Foxtron), and Chinese platform licensing (Geely SEA, CATL) is the likely consolidation path."
+   },
+   {
+    "name": "ICE-to-EV passenger conversions & classic-car retrofits",
+    "description": "Specialists that remove combustion drivetrains from existing or classic cars and install electric ones, extending vehicle life and avoiding the embodied emissions of a new car \u2014 economically viable today mainly at luxury restomod price points.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Everrati",
+      "role": "startup",
+      "what": "OEM-grade 'redefined' electric conversions of icons (Porsche 911 964, Land Rover Series, GT40) with reversible installs preserving originality.",
+      "signal": "Operating since 2019 with US build partners; six-figure price points and order books across UK/US",
+      "status": "operating",
+      "source": "https://www.drivingelectric.com/electric/1819/electric-classic-cars-costs-companies-and-conversions"
+     },
+     {
+      "name": "Electrogenic",
+      "role": "startup",
+      "what": "Sells type-tested drop-in conversion kits (Land Rover Defender, Jaguar E-Type, Citro\u00ebn DS) and holds UK defense contracts for electrified Land Rovers.",
+      "signal": "Kit network expanded to US installers in Vermont and Texas; one of the few converters with a scalable kit model",
+      "status": "operating",
+      "source": "https://electrek.co/guides/ev-conversion/"
+     },
+     {
+      "name": "Lunaz Design",
+      "role": "startup",
+      "what": "Beckham-backed luxury electrification of Rolls-Royce, Bentley, Aston Martin and Range Rover classics at Silverstone.",
+      "signal": "Sister company Lunaz Applied Technologies (electric bin lorries) entered administration Mar 2024, pausing the group; Lunaz Design resumed restructured operations May 2024",
+      "status": "operating",
+      "source": "https://www.electrive.com/2024/03/19/lunaz-applied-technologies-goes-into-administration/"
+     },
+     {
+      "name": "Transition-One",
+      "role": "startup",
+      "what": "French pioneer of certified low-cost (~\u20ac5-8k) retrofit kits for mass-market cars like the Twingo and Fiat 500; helped write France's retrofit regulation.",
+      "signal": "Judicial liquidation Mar 2023 after a \u20ac5M raise failed \u2014 founder blamed lack of industrialization financing",
+      "status": "bankrupt-shutdown",
+      "source": "https://journalauto.com/services/retrofit-clap-de-fin-pour-transition-one/"
+     },
+     {
+      "name": "R-FIT",
+      "role": "startup",
+      "what": "Sells Renault-endorsed homologated retrofit kits for classic Renault 4, 5 and Twingo, installed through the Renault network.",
+      "signal": "Partnership unveiled with Renault in 2023; kits from ~\u20ac12k including battery",
+      "status": "operating",
+      "source": "https://www.r-fit.fr/"
+     },
+     {
+      "name": "Rev Mobilities",
+      "role": "startup",
+      "what": "French retrofit integrator converting passenger cars and light fleets, one of the survivors consolidating the French retrofit market.",
+      "signal": "Secured new investment after pioneer Transition-One was liquidated",
+      "status": "operating",
+      "source": "https://www.autoactu.com/actualites/la-societe-transition-one-pionniere-du-retrofit-electrique-liquidee"
+     },
+     {
+      "name": "EV West",
+      "role": "startup",
+      "what": "Long-running California shop supplying conversion components and Tesla-crate-motor swaps that seeded the US DIY conversion ecosystem.",
+      "signal": "Operating since 2010s with multi-year build backlog; parts business serves hundreds of independent converters",
+      "status": "operating",
+      "source": "https://www.topspeed.com/ice-cars-to-ev-conversion-companies/"
+     }
+    ],
+    "white_space": "Mass-market retrofit has repeatedly failed (Transition-One liquidated despite French subsidies and a regulation written around it) because kit-plus-labor cost rivals a used BEV; only luxury restomods clear margins. The opening is standardized, type-approved kits for a handful of iconic high-volume models installed through OEM dealer networks (the Renault/R-FIT pattern), or subsidy-backed fleet retrofits where duty cycles are predictable."
+   },
+   {
+    "name": "Tech & consumer-electronics entrants",
+    "description": "Smartphone and internet giants entering passenger EVs by leveraging brand, retail networks, software ecosystems and electronics supply-chain mastery instead of automotive heritage \u2014 compressing development cycles to ~3 years.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Xiaomi EV",
+      "role": "incumbent",
+      "what": "Smartphone giant's SU7 sedan and YU7 SUV, deeply integrated with the Xiaomi device ecosystem and built in its own Beijing plant.",
+      "signal": ">410k vehicles delivered in 2025 (year two); 550k target for 2026; YU7 hit 150k deliveries in 6 months",
+      "status": "operating",
+      "source": "https://chinaevhome.com/2026/01/04/xiaomi-auto-sets-2026-delivery-goal-at-550000-units-2/"
+     },
+     {
+      "name": "Huawei (HIMA alliance)",
+      "role": "incumbent",
+      "what": "Doesn't build cars itself \u2014 supplies the smart-driving stack, cockpit and retail channel to partner brands AITO (Seres), Luxeed (Chery), Stelato (BAIC), Maextro (JAC) and Shangjie (SAIC).",
+      "signal": "HIMA topped China's NEV-startup ranking with 57,915 deliveries in Jan 2026, ahead of Xiaomi",
+      "status": "operating",
+      "source": "https://carnewschina.com/2026/02/01/chinese-nev-startup-sales-ranking-hima-57915-xiaomi-39000-january-2025/"
+     },
+     {
+      "name": "Sony Honda Mobility (Afeela)",
+      "role": "incumbent",
+      "what": "Sony-Honda JV building the entertainment-centric Afeela 1 luxury sedan, manufactured in Ohio with Sony sensing/content stack.",
+      "signal": "US (California) deliveries scheduled from 2026; low-volume premium positioning",
+      "status": "operating",
+      "source": "https://en.wikipedia.org/wiki/Sony_Honda_Mobility"
+     },
+     {
+      "name": "Apple (Project Titan)",
+      "role": "incumbent",
+      "what": "Decade-long secret car program that cycled through full-autonomy and conventional EV concepts without ever settling on a shippable product.",
+      "signal": "Canceled Feb 2024 after an estimated ~$10B spend; team redirected to generative AI",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.globalchinaev.com/post/chinese-phonemakers-xiaomi-and-huawei-did-what-apple-couldnt-with-evs"
+     },
+     {
+      "name": "Ji Yue (Jidu, Baidu + Geely)",
+      "role": "startup",
+      "what": "Baidu-Geely 'robocar' venture selling EVs with Baidu's autonomy stack; never secured its own production license and borrowed Geely's.",
+      "signal": "Collapsed overnight Dec 2024 with ~RMB 7B cumulative losses and only ~14k cars delivered",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.caixinglobal.com/2024-12-23/cover-story-baidu-geely-joint-ev-failure-reflects-treacherousness-of-chinese-market-102270938.html"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   "https://cnevpost.com/2026/01/02/tesla-q4-2025-global-deliveries/",
+   "https://ev.com/news/byd-overtakes-tesla-as-worlds-top-bev-seller-in-2025",
+   "https://techcrunch.com/2025/01/17/ev-startup-canoo-files-for-bankruptcy-and-ceases-operations/",
+   "https://techcrunch.com/2025/08/30/the-fall-of-ev-startup-fisker-a-comprehensive-timeline/",
+   "https://techcrunch.com/2026/04/13/slate-auto-raises-650m-to-fund-its-affordable-ev-truck-plans/",
+   "https://cnevpost.com/2025/12/22/zeekr-completes-merger-with-geely-delists-from-nyse/",
+   "https://www.stocktitan.net/sec-filings/VFS/20-f-vin-fast-auto-ltd-files-annual-report-foreign-issuer-3271416d5722.html",
+   "https://eletric-vehicles.com/xpeng/xpeng-more-than-doubles-vehicle-deliveries-in-2025-despite-missing-q4-guidance/",
+   "https://news.futunn.com/en/post/66856038/new-forces-year-end-summary-leapmotor-and-xpeng-s-annual",
+   "https://www.meticulousresearch.com/product/extended-range-electric-vehicle-market-6322",
+   "https://www.sec.gov/Archives/edgar/data/0001791706/000110465925053853/tm2516467d1_ex99-1.htm",
+   "https://cnevpost.com/2025/09/05/aito-pre-sales-updated-m7-100000-pre-orders-1-hour/",
+   "https://en.wikipedia.org/wiki/Aptera_(solar_electric_vehicle)",
+   "https://www.greencarreports.com/news/1142486_aptera-lacks-funds-solar-ev-hints-of-design-changes",
+   "https://cars.usnews.com/cars-trucks/features/lightyears-parent-company-declares-bankruptcy",
+   "https://en.wikipedia.org/wiki/Sono_Motors",
+   "https://cnevpost.com/2026/02/26/wuling-unveils-5th-gen-mini-ev/",
+   "https://en.wikipedia.org/wiki/Citro%C3%ABn_Ami_(electric_vehicle)",
+   "https://www.hagerty.com/media/new-car-reviews/first-drive-the-2025-microlino-is-a-euro-friendly-ev-with-throwback-good-looks/",
+   "https://cleantechnica.com/2025/10/20/amsterdams-tiny-electric-cars-are-not-just-golf-carts-that-went-to-design-school/",
+   "https://newatlas.com/automotive/eli-zero-electric-micro-car",
+   "https://electrek.co/2025/11/04/nius-scooter-sized-electric-microcar-is-actually-headed-for-production/",
+   "https://evxl.co/2025/12/19/foxconn-foxtron-acquires-luxgen/",
+   "https://evinfo.net/2025/05/foxtron-mitsubishi-motors-sign-mou-for-electric-vehicle-model/",
+   "https://www.greencarreports.com/news/1141987_ree-electric-truck-by-wire-us-certified",
+   "https://www.electrive.com/2024/03/19/lunaz-applied-technologies-goes-into-administration/",
+   "https://journalauto.com/services/retrofit-clap-de-fin-pour-transition-one/",
+   "https://www.autoactu.com/actualites/la-societe-transition-one-pionniere-du-retrofit-electrique-liquidee",
+   "https://www.drivingelectric.com/electric/1819/electric-classic-cars-costs-companies-and-conversions",
+   "https://chinaevhome.com/2026/01/04/xiaomi-auto-sets-2026-delivery-goal-at-550000-units-2/",
+   "https://carnewschina.com/2026/02/01/chinese-nev-startup-sales-ranking-hima-57915-xiaomi-39000-january-2025/",
+   "https://www.caixinglobal.com/2024-12-23/cover-story-baidu-geely-joint-ev-failure-reflects-treacherousness-of-chinese-market-102270938.html",
+   "https://www.globalchinaev.com/post/chinese-phonemakers-xiaomi-and-huawei-did-what-apple-couldnt-with-evs",
+   "https://autonews.gasgoo.com/articles/news/geely-completes-zeekr-privatization-as-it-tightens-control-over-its-premium-ev-strategy-70040196"
+  ]
+ }
+}

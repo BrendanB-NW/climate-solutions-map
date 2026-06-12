@@ -1,0 +1,905 @@
+{
+ "sector": "transport",
+ "bucket": "EV Charging & Grid Integration",
+ "census": {
+  "bucket": "EV Charging & Grid Integration",
+  "sources": [
+   "https://electrek.co/2024/12/13/evgo-closes-a-1-25b-federal-loan-to-build-7500-dc-fast-chargers/",
+   "https://www.electrive.com/2025/07/24/electra-secures-e433-million-loan-for-european-hpc-rollout/",
+   "https://www.cspdailynews.com/technologyservices/ev-companies-build-more-8000-ev-charging-stations-us-2030",
+   "https://www.canarymedia.com/articles/ev-charging/tritium-finds-a-buyer-for-its-insolvent-high-speed-ev-charger-business",
+   "https://electrek.co/2024/10/15/french-energy-giant-engie-to-shut-down-evbox/",
+   "https://electrek.co/2024/10/02/enel-x-way-north-america-is-shutting-down-heres-what-we-know/",
+   "https://investors.chargepoint.com/news/news-details/2025/ChargePoint-Announces-Reverse-Stock-Split/default.aspx",
+   "https://www.sec.gov/Archives/edgar/data/0001866501/000095017025100938/wbx-ex99_1.htm",
+   "https://www.electrive.com/2025/08/04/edf-completes-pod-point-acquisition/",
+   "https://www.canarymedia.com/articles/ev-charging/truck-depots-greenlane-terawatt",
+   "https://evrealtyus.com/2025/09/ev-realty-lands-75m-to-expand-electric-truck-charging-in-california/",
+   "https://en.wikipedia.org/wiki/Milence",
+   "https://www.electrive.com/2025/09/24/man-and-abb-refine-reliability-of-mcs-charging-sessions/",
+   "https://www.evcandi.com/news/milence-and-power-electronics-successfully-test-new-megawatt-charging-system",
+   "https://www.evinfrastructurenews.com/ev-fleet-charging/megawatt-charging-for-trucks-the-complete-guide-to-mcs-charging-infrastructure-in-2026",
+   "https://www.cleantrucking.com/battery-electric/article/15774563/batteryswapping-startup-ample-files-for-chapter-11",
+   "https://eletric-vehicles.com/catl/catl-partners-with-oil-giant-sinopec-to-build-10000-battery-swap-stations/",
+   "https://www.tipranks.com/news/company-announcements/gogoro-narrows-2025-loss-and-builds-cash-as-battery-swapping-surges",
+   "https://evreporter.com/indian-oil-and-sun-mobility-partner-to-expand-battery-swapping-network-in-india/",
+   "https://www.electrive.com/2025/11/20/inductive-charging-electreon-plans-to-acquire-inductev/",
+   "https://chargedevs.com/newswire/electreon-completes-acquisition-of-wireless-charging-provider-inductev/",
+   "https://www.ttnews.com/articles/ev-ideanomics-bankruptcy",
+   "https://electrek.co/2026/02/14/witricity-brings-wireless-ev-charging-to-the-golf-course/",
+   "https://chargedevs.com/newswire/lg-technology-ventures-invests-in-weavegrid-to-advance-ev-grid-integration/",
+   "https://www.utilitydive.com/spons/chargescape-and-the-future-of-energy-management/744270/",
+   "https://www.stocktitan.net/news/NVVE/",
+   "https://www.energy-storage.news/ads-tec-battery-buffered-ev-fast-chargers-put-into-ancillary-services-market-in-austria/",
+   "https://www.electrive.com/2024/10/10/jolt-energy-to-build-50-battery-buffered-hpcs-in-and-around-stockholm/",
+   "https://electrek.co/2024/05/05/freewire-closes-its-hq-and-lays-off-just-about-everyone/",
+   "https://www.sparkcharge.io/post/sparkcharge-raises-30-5-million-in-capital-to-accelerate-mobile-ev-charging-expansion",
+   "https://monta.com/en/press/monta-closes-80-million-series-b/",
+   "https://www.hubject.com/blog-posts/hubject-and-ampeco-extend-strategic-partnership-to-strengthen-emobility-interoperability-and-innovation",
+   "https://www.evcandi.com/news/itselectric-gets-funding-accelerate-curbside-ev-charging-across-us",
+   "https://electrek.co/2026/04/30/washington-dc-street-poles-ev-chargers-voltpost/",
+   "https://chargedevs.com/newswire/curbside-charger-maker-trojan-energy-secures-26-million-in-investment/",
+   "https://www.sec.gov/Archives/edgar/data/0001736541/000110465925020542/tm258339d1_ex99-1.htm"
+  ],
+  "variations": [
+   {
+    "name": "Public DC fast-charging networks & CPOs",
+    "description": "Companies that build, own and operate public DC fast-charging stations and sell electrons to drivers; they are the backbone that makes road trips and EV ownership without home charging viable.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Tesla Supercharger",
+      "role": "incumbent",
+      "what": "World's largest and most reliable DCFC network; its NACS connector became the de facto North American standard and is now open to other brands.",
+      "signal": "~65,000-70,000 connectors globally; nearly all major OEMs adopted NACS 2023-2025",
+      "status": "operating",
+      "source": "https://www.tesla.com/supercharger"
+     },
+     {
+      "name": "EVgo",
+      "role": "scaleup",
+      "what": "US owner-operator of urban-focused public fast charging with dense metro coverage and autonomous-fleet charging contracts.",
+      "signal": "Closed $1.25B DOE loan guarantee Dec 2024 to add ~7,500 stalls, reaching 10,000+ stalls by 2029; NYSE-listed",
+      "status": "operating",
+      "source": "https://electrek.co/2024/12/13/evgo-closes-a-1-25b-federal-loan-to-build-7500-dc-fast-chargers/"
+     },
+     {
+      "name": "Electrify America",
+      "role": "incumbent",
+      "what": "VW-funded open DCFC network created after Dieselgate; largest open ultra-fast network in the US.",
+      "signal": "~1,000 stations / 4,500+ ultra-fast chargers across US and Canada",
+      "status": "operating",
+      "source": "https://www.electrifyamerica.com"
+     },
+     {
+      "name": "Ionity",
+      "role": "scaleup",
+      "what": "European highway HPC joint venture of BMW, Mercedes-Benz, Ford, VW and Hyundai focused on 350 kW corridor charging.",
+      "signal": "600+ stations / thousands of 350 kW points in 24 countries; ~EUR 700M round led by BlackRock (2021)",
+      "status": "operating",
+      "source": "https://ionity.eu"
+     },
+     {
+      "name": "Fastned",
+      "role": "scaleup",
+      "what": "Dutch listed pure-play CPO building canopy-covered fast-charging hubs, profitable at station level; co-founded the Spark Alliance roaming pact.",
+      "signal": "Euronext-listed; 350+ stations across Europe; Spark Alliance with Ionity, Electra and Atlante (2025)",
+      "status": "operating",
+      "source": "https://fastnedcharging.com"
+     },
+     {
+      "name": "Electra",
+      "role": "startup",
+      "what": "French urban/metro fast-charging hub developer with app-led UX, expanding across Western Europe.",
+      "signal": "Raised over EUR 1B total including EUR 433M green loan (Jul 2025)",
+      "status": "operating",
+      "source": "https://www.electrive.com/2025/07/24/electra-secures-e433-million-loan-for-european-hpc-rollout/"
+     },
+     {
+      "name": "IONNA",
+      "role": "startup",
+      "what": "JV of eight automakers (BMW, GM, Honda, Hyundai, Kia, Mercedes, Stellantis, Toyota) building premium 'Rechargery' stations with both NACS and CCS.",
+      "signal": "First site broke ground in Apex, NC; 50 Sheetz co-located Rechargeries committed by end-2026; targets 30,000 bays by 2030",
+      "status": "operating",
+      "source": "https://www.cspdailynews.com/technologyservices/ev-companies-build-more-8000-ev-charging-stations-us-2030"
+     },
+     {
+      "name": "Allego",
+      "role": "scaleup",
+      "what": "Pan-European CPO operating tens of thousands of public AC and DC points across 16 countries.",
+      "signal": "Taken fully private by Meridiam and delisted from NYSE in 2024 after SPAC value collapsed",
+      "status": "acquired",
+      "source": "https://www.allego.eu"
+     },
+     {
+      "name": "Volta Charging",
+      "role": "startup",
+      "what": "Ad-supported free charging at retail sites; monetized screens rather than electrons.",
+      "signal": "Ran out of cash post-SPAC; acquired by Shell for ~$169M (2023) and folded into Shell Recharge",
+      "status": "acquired",
+      "source": "https://en.wikipedia.org/wiki/Volta_Charging"
+     },
+     {
+      "name": "TELD (Telaidian)",
+      "role": "incumbent",
+      "what": "China's largest public charging operator (TGOOD subsidiary) running hundreds of thousands of connectors plus grid-interactive charging parks.",
+      "signal": "~500,000+ public connectors; survivor of China's brutal CPO consolidation",
+      "status": "operating",
+      "source": "https://www.teld.cn"
+     }
+    ]
+   },
+   {
+    "name": "Charging hardware manufacturers",
+    "description": "Makers of the AC and DC charger cabinets, power electronics and dispensers that every network deploys; gear cost and uptime gate the whole sector, and the segment is consolidating hard after the Tritium and EVBox failures.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Alpitronic",
+      "role": "scaleup",
+      "what": "Italian maker of the 'hypercharger' line; became Europe's HPC market leader on reliability, now entering the US from a Charlotte, NC base.",
+      "signal": "European DC fast-charging market leader; tens of thousands of hyperchargers shipped; US expansion 2024-25",
+      "status": "operating",
+      "source": "https://www.alpitronic.it"
+     },
+     {
+      "name": "Kempower",
+      "role": "scaleup",
+      "what": "Finnish modular, liquid-cooled DC charging systems with dynamic power sharing; pivoting hard into truck and megawatt charging.",
+      "signal": "Nasdaq Helsinki listed; revenue >EUR 200M; hardware at multi-MW public truck hubs in EU/US",
+      "status": "operating",
+      "source": "https://kempower.com"
+     },
+     {
+      "name": "ABB E-mobility",
+      "role": "incumbent",
+      "what": "One of the world's largest DC fast-charger makers across all power classes, from home wallboxes to 1.2 MW MCS.",
+      "signal": "Validated continuous 1.2 MW MCS sessions with MAN (2025); restructured after shelved IPO",
+      "status": "operating",
+      "source": "https://e-mobility.abb.com/en/news/abb-e-mobility-and-man-demonstrate-megawatt-charging-etruck-first-time"
+     },
+     {
+      "name": "Tritium",
+      "role": "scaleup",
+      "what": "Australian pioneer of liquid-cooled DC fast chargers deployed in 40+ countries.",
+      "signal": "Went insolvent April 2024; assets (Tennessee plant, Brisbane R&D) bought by India's Exicom for ~$30M",
+      "status": "acquired",
+      "source": "https://www.canarymedia.com/articles/ev-charging/tritium-finds-a-buyer-for-its-insolvent-high-speed-ev-charger-business"
+     },
+     {
+      "name": "EVBox",
+      "role": "scaleup",
+      "what": "Amsterdam-based AC/DC charger maker, once Europe's largest by install base.",
+      "signal": "Parent Engie shut it down Oct 2024 after ~EUR 800M cumulative losses; only the Bordeaux AC plant found a buyer",
+      "status": "bankrupt-shutdown",
+      "source": "https://electrek.co/2024/10/15/french-energy-giant-engie-to-shut-down-evbox/"
+     },
+     {
+      "name": "Autel Energy",
+      "role": "incumbent",
+      "what": "Chinese electronics group's EV arm shipping high-volume, aggressively priced AC and DC chargers (MaxiCharger) globally.",
+      "signal": "Among the fastest-growing global EVSE vendors 2023-2025 across US/EU/APAC",
+      "status": "operating",
+      "source": "https://autelenergy.com"
+     },
+     {
+      "name": "SK Signet",
+      "role": "incumbent",
+      "what": "Korean DCFC manufacturer that supplied Electrify America; built a Texas plant for Buy America/NEVI demand.",
+      "signal": "Plano, TX plant opened 2023; production scaled back 2024 amid US demand slump",
+      "status": "operating",
+      "source": "https://www.sksignet.com"
+     },
+     {
+      "name": "Power Electronics",
+      "role": "incumbent",
+      "what": "Spanish power-conversion giant that quietly became a top supplier of US public DC fast charging (EVgo and others) plus MCS prototypes.",
+      "signal": "Among top DCFC suppliers in the US; successful MCS test with Milence (2025)",
+      "status": "operating",
+      "source": "https://power-electronics.com"
+     },
+     {
+      "name": "Huawei Digital Power",
+      "role": "incumbent",
+      "what": "Liquid-cooled 600 kW 'FusionCharge' ultra-fast and 1.5 MW truck chargers; partner-deployed across China's highway network.",
+      "signal": "Announced plan with partners for ~100,000 ultra-fast chargers across China in 2025",
+      "status": "operating",
+      "source": "https://digitalpower.huawei.com"
+     },
+     {
+      "name": "BTC Power",
+      "role": "incumbent",
+      "what": "Veteran California-based AC/DC charger maker supplying convenience-store, fleet and utility programs.",
+      "signal": "Long-standing US manufacturer; niche position against larger rivals",
+      "status": "operating",
+      "source": "https://www.btcpower.com"
+     }
+    ]
+   },
+   {
+    "name": "Home & workplace AC/L2 charging",
+    "description": "Level 2 AC chargers and management software for homes, apartments and workplaces, where most charging actually happens; smart, tariff-aware charging shifts gigawatts of load off peak, but hardware commoditization has triggered a brutal shakeout (Enel X Way exit, Pod Point rescue).",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "ChargePoint",
+      "role": "incumbent",
+      "what": "Largest networked L2 provider in North America/Europe selling hardware plus subscription software to businesses and fleets.",
+      "signal": "300,000+ networked ports, but executed a 1-for-20 reverse split (Jul 2025) to avoid NYSE delisting; never profitable",
+      "status": "operating",
+      "source": "https://investors.chargepoint.com/news/news-details/2025/ChargePoint-Announces-Reverse-Stock-Split/default.aspx"
+     },
+     {
+      "name": "Wallbox",
+      "role": "scaleup",
+      "what": "Barcelona-based maker of Pulsar home chargers and the Quasar 2 bidirectional home DC charger.",
+      "signal": "Reverse split (Jul 2025), regained NYSE compliance Aug 2025; rescue financing from Iberdrola and Spain's SETT",
+      "status": "operating",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001866501/000095017025100938/wbx-ex99_1.htm"
+     },
+     {
+      "name": "Enel X Way North America (JuiceBox)",
+      "role": "incumbent",
+      "what": "Sold the popular JuiceBox smart home charger in the US/Canada.",
+      "signal": "Abruptly shut North American operations Oct 11, 2024, orphaning tens of thousands of connected chargers",
+      "status": "bankrupt-shutdown",
+      "source": "https://electrek.co/2024/10/02/enel-x-way-north-america-is-shutting-down-heres-what-we-know/"
+     },
+     {
+      "name": "Emporia",
+      "role": "startup",
+      "what": "Colorado maker of low-cost smart L2 chargers tightly integrated with its home energy monitors; picked up much of the orphaned JuiceBox demand.",
+      "signal": "Among top-selling US home chargers by volume on price/feature ratio",
+      "status": "operating",
+      "source": "https://www.emporiaenergy.com"
+     },
+     {
+      "name": "Ohme",
+      "role": "scaleup",
+      "what": "UK smart chargers built around dynamic tariff integration, charging when grid prices/carbon are lowest.",
+      "signal": "Default hardware partner for Octopus Intelligent and Motability; UK smart-charging leader",
+      "status": "operating",
+      "source": "https://ohme-ev.com"
+     },
+     {
+      "name": "Pod Point",
+      "role": "scaleup",
+      "what": "One of the UK's biggest home/workplace charger installers.",
+      "signal": "EDF bought out the company at a fraction of its 2021 IPO value; delisted from LSE Aug 4, 2025",
+      "status": "acquired",
+      "source": "https://www.electrive.com/2025/08/04/edf-completes-pod-point-acquisition/"
+     },
+     {
+      "name": "Easee",
+      "role": "scaleup",
+      "what": "Norwegian design-led home charger maker.",
+      "signal": "2023 Swedish sales ban over RCD compliance triggered deep restructuring; relaunched compliant products and continues operating",
+      "status": "operating",
+      "source": "https://easee.com"
+     },
+     {
+      "name": "myenergi",
+      "role": "scaleup",
+      "what": "UK maker of the zappi charger that diverts surplus rooftop-solar power into the car.",
+      "signal": "One of the UK's top-selling home chargers; profitable niche in solar-coupled charging",
+      "status": "operating",
+      "source": "https://www.myenergi.com"
+     },
+     {
+      "name": "Tesla (Wall Connector)",
+      "role": "incumbent",
+      "what": "Sells the top-selling NACS home charger plus a Universal Wall Connector for non-Tesla EVs.",
+      "signal": "Consistently the best-selling home charger in North America",
+      "status": "operating",
+      "source": "https://www.tesla.com/wall-connector"
+     }
+    ]
+   },
+   {
+    "name": "Fleet & depot charging / electrification-as-a-service",
+    "description": "Turnkey design-build-finance-operate charging for trucks, buses, vans and autonomous fleets, often sold as a fixed price-per-kWh service so fleets avoid capex, utility interconnection pain and uptime risk.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Terawatt Infrastructure",
+      "role": "scaleup",
+      "what": "Develops and owns heavy-duty charging hubs on strategically acquired land along freight corridors (I-10 network).",
+      "signal": "$1B+ in capital; SoCal hub (7 MW, 20 stalls) serving up to 125 trucks/day opened 2024",
+      "status": "operating",
+      "source": "https://www.canarymedia.com/articles/ev-charging/truck-depots-greenlane-terawatt"
+     },
+     {
+      "name": "Greenlane",
+      "role": "startup",
+      "what": "Daimler Truck NA / NextEra / BlackRock JV building a public charging corridor network for medium/heavy trucks.",
+      "signal": "$650M+ JV; flagship Colton, CA depot (12 pull-through 400 kW lanes + 29 bobtail 180 kW lanes) opened Apr 2025; I-15 corridor next",
+      "status": "operating",
+      "source": "https://www.canarymedia.com/articles/ev-charging/truck-depots-greenlane-terawatt"
+     },
+     {
+      "name": "Voltera",
+      "role": "startup",
+      "what": "EQT-backed developer that buys sites, then builds, owns and operates charging facilities for autonomous and delivery fleets (including Waymo).",
+      "signal": "Dozens of sites in development across the US; serves robotaxi and logistics customers",
+      "status": "operating",
+      "source": "https://www.canarymedia.com/articles/ev-charging/truck-depots-greenlane-terawatt"
+     },
+     {
+      "name": "Forum Mobility",
+      "role": "startup",
+      "what": "Charging-as-a-service depots dedicated to drayage trucks at the LA/Long Beach ports, priced per month/per kWh for owner-operators.",
+      "signal": "Hundreds of millions committed including CBRE IM/Homecoming JV; multiple port-adjacent depots open",
+      "status": "operating",
+      "source": "https://www.canarymedia.com/articles/ev-charging/truck-depots-greenlane-terawatt"
+     },
+     {
+      "name": "EV Realty",
+      "role": "startup",
+      "what": "Develops grid-advantaged 'Powered Properties' fleet charging hubs on industrial land near substations.",
+      "signal": "Raised $75M (Sep 2025) to expand California truck charging portfolio",
+      "status": "operating",
+      "source": "https://evrealtyus.com/2025/09/ev-realty-lands-75m-to-expand-electric-truck-charging-in-california/"
+     },
+     {
+      "name": "Electrada",
+      "role": "scaleup",
+      "what": "Pure charging-as-a-service: owns and operates depot infrastructure and sells fleets a guaranteed fixed cents-per-kWh with uptime SLAs.",
+      "signal": "CaaS contracts across school bus, logistics and last-mile fleets; large institutional capital commitments",
+      "status": "operating",
+      "source": "https://electrada.com"
+     },
+     {
+      "name": "InCharge Energy",
+      "role": "scaleup",
+      "what": "ABB-backed fleet charging integrator: depot design, install, InControl management software and nationwide O&M.",
+      "signal": "ABB strategic investment; services thousands of fleet chargers across North America",
+      "status": "operating",
+      "source": "https://inchargeus.com"
+     },
+     {
+      "name": "Zenobe",
+      "role": "scaleup",
+      "what": "UK financier-operator bundling e-bus leasing, depot charging and second-life grid batteries.",
+      "signal": "KKR-backed (~GBP 600M, 2023); finances and charges 1,000+ electric buses across UK/ANZ",
+      "status": "operating",
+      "source": "https://www.zenobe.com"
+     },
+     {
+      "name": "Highland Electric Fleets",
+      "role": "scaleup",
+      "what": "School-bus electrification-as-a-service: districts pay a subscription while Highland owns buses, chargers and V2G revenue.",
+      "signal": ">$250M raised; contracts with hundreds of school districts",
+      "status": "operating",
+      "source": "https://www.highlandfleets.com"
+     }
+    ]
+   },
+   {
+    "name": "Megawatt charging systems (MCS) for heavy trucks",
+    "description": "Megawatt Charging System hardware and hubs deliver 1 MW+ so long-haul electric trucks can recharge during the driver's mandated 30-45 minute break, removing the core objection to battery freight; first real deployments began 2024-2025.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Milence",
+      "role": "scaleup",
+      "what": "Daimler Truck / Volvo / Traton JV building public truck-charging hubs across Europe, the launch customer for MCS.",
+      "signal": "Three MCS-ready hubs operating (Zwolle, Antwerp-Bruges, Landvetter); EU MILES project: 284 MCS chargers at 71 sites by 2027",
+      "status": "operating",
+      "source": "https://en.wikipedia.org/wiki/Milence"
+     },
+     {
+      "name": "WattEV",
+      "role": "startup",
+      "what": "Builds solar-microgrid electric truck stops in California and sells trucking-as-a-service; early public MCS deployer.",
+      "signal": "Multiple CA freight-corridor depots including Bakersfield solar microgrid; megawatt-ready design across network",
+      "status": "operating",
+      "source": "https://wattev.com/mcs-charging-technology-for-heavy-duty-trucks/"
+     },
+     {
+      "name": "ABB E-mobility",
+      "role": "incumbent",
+      "what": "MCS1200 delivering a full 1.2 MW continuously, validated in long-duration sessions with MAN trucks.",
+      "signal": "Continuous 1.2 MW charge sessions demonstrated with MAN (2025); pilot deliveries underway",
+      "status": "operating",
+      "source": "https://www.electrive.com/2025/09/24/man-and-abb-refine-reliability-of-mcs-charging-sessions/"
+     },
+     {
+      "name": "Kempower",
+      "role": "scaleup",
+      "what": "Launched a modular megawatt charging product line aimed at truck stops and depots.",
+      "signal": "MCS hardware at early multi-MW public truck hubs in EU/US",
+      "status": "operating",
+      "source": "https://www.evinfrastructurenews.com/ev-fleet-charging/megawatt-charging-for-trucks-the-complete-guide-to-mcs-charging-infrastructure-in-2026"
+     },
+     {
+      "name": "Power Electronics",
+      "role": "incumbent",
+      "what": "Co-developed and field-tested a new MCS unit with Milence for public truck hubs.",
+      "signal": "Successful MCS system test with Milence (2025)",
+      "status": "operating",
+      "source": "https://www.evcandi.com/news/milence-and-power-electronics-successfully-test-new-megawatt-charging-system"
+     },
+     {
+      "name": "Tesla (Semi Megacharger)",
+      "role": "incumbent",
+      "what": "Proprietary ~1.2 MW Megachargers for the Tesla Semi, with a corridor network planned alongside Semi volume production.",
+      "signal": "Megachargers live at PepsiCo/Tesla sites; Semi volume ramp targeted 2026",
+      "status": "operating",
+      "source": "https://www.tesla.com/semi"
+     },
+     {
+      "name": "BYD",
+      "role": "incumbent",
+      "what": "1,000 kW 'flash charging' Super e-Platform for passenger cars and a planned national megawatt charging buildout in China.",
+      "signal": "Launched 1 MW flash charging Mar 2025; thousands of stations planned across China",
+      "status": "operating",
+      "source": "https://en.wikipedia.org/wiki/BYD_Auto"
+     },
+     {
+      "name": "Huawei Digital Power",
+      "role": "incumbent",
+      "what": "1.5 MW liquid-cooled megawatt charger aimed at Chinese electric heavy trucks and highway freight corridors.",
+      "signal": "1.5 MW truck charger unveiled 2025; deployments with Chinese CPO partners",
+      "status": "operating",
+      "source": "https://www.evinfrastructurenews.com/ev-fleet-charging/megawatt-charging-for-trucks-the-complete-guide-to-mcs-charging-infrastructure-in-2026"
+     }
+    ],
+    "white_space": "Hardware now exists, but multi-megawatt grid interconnections take 3-7 years in the US/EU \u2014 the opening is in battery-buffered or flexible-interconnect MCS hubs and in financing structures that de-risk utilization before electric long-haul truck volumes arrive."
+   },
+   {
+    "name": "Battery swapping (cars and 2/3-wheelers)",
+    "description": "Robotic stations exchange a depleted pack for a full one in 3-5 minutes, decoupling refueling speed from battery chemistry; it is scaling rapidly in China and for Asian two/three-wheelers while repeatedly failing in Western passenger-car markets (Better Place 2013, Ample 2025).",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "NIO Power",
+      "role": "incumbent",
+      "what": "World's largest passenger-car swap network, integrated with NIO/Onvo vehicle sales and battery-as-a-service subscriptions.",
+      "signal": "3,000+ swap stations in China; >1.7M swaps during the 2025 New Year period; >80% of users' highway energy via swaps; CATL strategic investment 2025",
+      "status": "operating",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001736541/000110465925020542/tm258339d1_ex99-1.htm"
+     },
+     {
+      "name": "CATL (EVOGO / Choco-Swap)",
+      "role": "incumbent",
+      "what": "World's biggest battery maker standardizing swap via 'Choco-SEB' packs and building a cross-brand station network.",
+      "signal": "Targeted 1,000 Choco-Swap stations in 2025; Sinopec partnership for 500 stations in 2025 and 10,000 medium-term",
+      "status": "operating",
+      "source": "https://eletric-vehicles.com/catl/catl-partners-with-oil-giant-sinopec-to-build-10000-battery-swap-stations/"
+     },
+     {
+      "name": "Aulton",
+      "role": "scaleup",
+      "what": "China's commercial-fleet swap specialist serving taxis, ride-hailing and logistics vehicles across dozens of cities, with oil-major partnerships.",
+      "signal": "Swap networks in 30+ Chinese cities; partnerships with BP and state energy firms",
+      "status": "operating",
+      "source": "https://www.aulton.com"
+     },
+     {
+      "name": "Ample",
+      "role": "startup",
+      "what": "San Francisco modular battery-swap startup; launched a commercial network in Tokyo with Mitsubishi Fuso/Yamato in June 2025.",
+      "signal": "Raised ~$330M (Stellantis-backed) but filed Chapter 11 on Dec 16, 2025 with staff cut to two employees",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.cleantrucking.com/battery-electric/article/15774563/batteryswapping-startup-ample-files-for-chapter-11"
+     },
+     {
+      "name": "Gogoro",
+      "role": "scaleup",
+      "what": "Taiwan's two-wheeler battery-swap standard: 600k+ subscribers swap at street cabinets, with packs doubling as grid resources.",
+      "signal": "665,000 subscribers; swap-service revenue $149M in 2025 (+8%); record adj. EBITDA $59.9M after restructuring; $32M expansion planned 2026",
+      "status": "operating",
+      "source": "https://www.tipranks.com/news/company-announcements/gogoro-narrows-2025-loss-and-builds-cash-as-battery-swapping-surges"
+     },
+     {
+      "name": "Battery Smart",
+      "role": "startup",
+      "what": "India's largest swap network for electric two/three-wheelers on a franchise, battery-as-a-service model.",
+      "signal": "~1,500 stations across 50 cities, 125,000+ swaps/day; $65M Series B (2024) plus 2026 follow-on",
+      "status": "operating",
+      "source": "https://blume.vc/commentaries/hidden-in-plain-sight-how-two-iitians-electrified-indias-last-mile-one-battery-swap-at-a-time"
+     },
+     {
+      "name": "Sun Mobility",
+      "role": "scaleup",
+      "what": "Indian swap-infrastructure provider whose Indofast JV with IndianOil puts swap points at fuel stations nationwide.",
+      "signal": "~$135M raised; IndianOil 50:50 JV; 200+ stations and 44.5M cumulative swaps by Dec 2025",
+      "status": "operating",
+      "source": "https://evreporter.com/indian-oil-and-sun-mobility-partner-to-expand-battery-swapping-network-in-india/"
+     },
+     {
+      "name": "Swobbee",
+      "role": "startup",
+      "what": "German multi-vendor swap cabinets for light EVs (e-mopeds, cargo bikes) serving shared-mobility and delivery fleets.",
+      "signal": "Venture-backed; stations across German and EU cities for LEV fleets",
+      "status": "operating",
+      "source": "https://swobbee.de"
+     }
+    ],
+    "white_space": "Passenger-car swapping only works where one player controls pack standardization at scale \u2014 China's CATL/NIO advantage; the Western opening is not consumer cars (Ample's failure confirms it) but standardized commercial fleets and 2/3-wheeler markets in emerging economies."
+   },
+   {
+    "name": "Wireless/inductive charging & electric road systems",
+    "description": "Inductive pads in pavement \u2014 static or dynamic 'electric roads' \u2014 charge vehicles without plugs, promising hands-free top-ups for transit and future autonomous fleets, but cost-per-kW, alignment and efficiency still trail cables badly and the sector just consolidated.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Electreon",
+      "role": "scaleup",
+      "what": "Israeli leader in dynamic in-road wireless charging; built the first US public electric road in Detroit and France's A10 e-road segment.",
+      "signal": "TASE-listed; France A10 1.5 km dynamic road (2025), Michigan public e-road, UPS depot project; acquired InductEV assets (2025-26)",
+      "status": "operating",
+      "source": "https://www.electrive.com/2025/11/20/inductive-charging-electreon-plans-to-acquire-inductev/"
+     },
+     {
+      "name": "InductEV",
+      "role": "startup",
+      "what": "High-power static wireless charging (up to 450 kW) for transit buses and port equipment (ex-Momentum Dynamics).",
+      "signal": "Assets acquired by Electreon, creating a consolidated wireless-charging player (announced Nov 2025, completed 2026)",
+      "status": "acquired",
+      "source": "https://chargedevs.com/newswire/electreon-completes-acquisition-of-wireless-charging-provider-inductev/"
+     },
+     {
+      "name": "WiTricity",
+      "role": "scaleup",
+      "what": "Core patent holder for magnetic-resonance EV charging (Halo); licenses to OEMs but has pivoted toward golf carts, LSVs and airport fleets as car OEM adoption lags.",
+      "signal": "Halo aftermarket/factory options; 2025-26 push into golf and low-speed vehicle fleets signals slow automotive traction",
+      "status": "operating",
+      "source": "https://electrek.co/2026/02/14/witricity-brings-wireless-ev-charging-to-the-golf-course/"
+     },
+     {
+      "name": "WAVE Charging",
+      "role": "startup",
+      "what": "250 kW+ wireless charging pads for transit buses and drayage trucks.",
+      "signal": "Parent Ideanomics filed Chapter 11 (Dec 2024) amid SEC fraud charges; WAVE assets sold to Tillou Management (Mar 2025)",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.ttnews.com/articles/ev-ideanomics-bankruptcy"
+     },
+     {
+      "name": "HEVO",
+      "role": "startup",
+      "what": "Brooklyn startup making compact wireless charging pads with utility and DOE/national-lab pilot projects.",
+      "signal": "Small DOE/Oak Ridge-linked pilots; early commercial product",
+      "status": "operating",
+      "source": "https://hevo.com"
+     },
+     {
+      "name": "Elonroad",
+      "role": "startup",
+      "what": "Swedish conductive electric-road rail charging vehicles in motion; the conductive counterpart in France's A10 pilot.",
+      "signal": "Lund city pilot; selected for Vinci's A10 electric-road pilot in France",
+      "status": "operating",
+      "source": "https://elonroad.com"
+     }
+    ],
+    "white_space": "Physics and cost keep this thin: inductive transfer adds $/kW and efficiency loss versus a cable, and no OEM factory-fits at volume; the credible opening is hands-free static charging for autonomous and transit fleets where eliminating charging labor justifies the premium \u2014 not consumer cars or long highway segments (Sweden postponed its permanent e-road)."
+   },
+   {
+    "name": "V2G/bidirectional & managed-charging software",
+    "description": "Software and bidirectional hardware that times millions of EV charging sessions against grid needs and can discharge vehicle batteries to homes or the grid, turning the EV fleet into the cheapest grid battery available; unidirectional managed charging is commercial at scale while true V2G is in early deployment.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "WeaveGrid",
+      "role": "startup",
+      "what": "Telematics-based managed-charging software sold to utilities (PG&E, DTE, Xcel) integrating directly with automakers' vehicle APIs.",
+      "signal": "$28M round (Dec 2024) plus strategic investments from Hyundai/Kia (Jan 2025) and LG (Sep 2025); named a VPP leader by Wood Mackenzie 2025",
+      "status": "operating",
+      "source": "https://chargedevs.com/newswire/lg-technology-ventures-invests-in-weavegrid-to-advance-ev-grid-integration/"
+     },
+     {
+      "name": "ev.energy",
+      "role": "startup",
+      "what": "Driver-app-led managed charging platform running utility programs across the US, UK and Europe.",
+      "signal": "Series B ~$33M (2023, National Grid Partners); dozens of utility programs live",
+      "status": "operating",
+      "source": "https://ev.energy"
+     },
+     {
+      "name": "ChargeScape",
+      "role": "startup",
+      "what": "Automaker-owned (BMW, Ford, Honda, Nissan) vehicle-grid-integration platform connecting OEM telematics to utilities for V1G today and V2X programs next.",
+      "signal": "Four-OEM JV; live utility enrollments (e.g., 1,400 DTE customers by mid-2025); V2G/V2H programs launching",
+      "status": "operating",
+      "source": "https://www.utilitydive.com/spons/chargescape-and-the-future-of-energy-management/744270/"
+     },
+     {
+      "name": "Kaluza",
+      "role": "scaleup",
+      "what": "OVO-spun energy flexibility platform orchestrating smart tariffs, EV charging and V2G for retailers like OVO and AGL.",
+      "signal": "AGL took a ~20% stake (2023); powers UK smart/V2G tariffs",
+      "status": "operating",
+      "source": "https://www.kaluza.com"
+     },
+     {
+      "name": "The Mobility House",
+      "role": "scaleup",
+      "what": "German aggregator monetizing EV and stationary batteries in power markets; runs commercial V2G with Renault Mobilize in France.",
+      "signal": "Backed by Mercedes-Benz, Renault and Mitsubishi; trading EV flexibility in EU markets",
+      "status": "operating",
+      "source": "https://www.mobilityhouse.com"
+     },
+     {
+      "name": "Nuvve",
+      "role": "scaleup",
+      "what": "V2G pioneer focused on electric school buses and fleet hubs.",
+      "signal": "Deeply distressed: Q4 2025 revenue $1.95M, $5.5M cash; pivoting to stationary battery aggregation and BaaS",
+      "status": "operating",
+      "source": "https://www.stocktitan.net/news/NVVE/"
+     },
+     {
+      "name": "Fermata Energy",
+      "role": "startup",
+      "what": "Bidirectional charger hardware plus software platform monetizing parked fleet vehicles (demand-charge shaving, utility programs).",
+      "signal": "UL-certified bidirectional chargers; utility programs including Duke Energy",
+      "status": "operating",
+      "source": "https://fermataenergy.com"
+     },
+     {
+      "name": "dcbel",
+      "role": "startup",
+      "what": "Home bidirectional DC station (Ara) combining solar inverter, V2H and home energy management.",
+      "signal": "Tens of millions raised; UL-listed home V2X hardware rolling out in North America",
+      "status": "operating",
+      "source": "https://www.dcbel.energy"
+     },
+     {
+      "name": "Sunrun",
+      "role": "incumbent",
+      "what": "Largest US residential solar installer turned EV-grid player: installs Ford F-150 Lightning V2H systems and runs vehicle-battery VPP pilots.",
+      "signal": "Ford Home Integration System partner; PG&E vehicle-to-home/VPP pilots",
+      "status": "operating",
+      "source": "https://www.sunrun.com"
+     },
+     {
+      "name": "EnergyHub",
+      "role": "incumbent",
+      "what": "Alarm.com-owned DERMS that folds EV managed charging into broader demand-response portfolios for dozens of utilities.",
+      "signal": "EV programs live across 60+ utility clients",
+      "status": "operating",
+      "source": "https://www.energyhub.com"
+     }
+    ]
+   },
+   {
+    "name": "Battery-buffered, off-grid, solar-canopy & mobile chargers",
+    "description": "Chargers with integrated battery storage \u2014 fixed cabinets, solar canopies or trucks/trailers \u2014 deliver fast charging where the grid is weak or interconnection is years away, and can stack revenue from demand-charge avoidance and grid services; FreeWire's collapse shows the unit economics are unforgiving.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "ADS-TEC Energy",
+      "role": "scaleup",
+      "what": "German-Irish maker of battery-buffered ChargeBox/ChargePost cabinets that deliver 300 kW+ from low-power grid connections, now also selling grid services.",
+      "signal": "NASDAQ-listed (ADSE); units earning ancillary-service revenue in Austria; partnership with Jolt targeting 5,000 fueling stations",
+      "status": "operating",
+      "source": "https://www.energy-storage.news/ads-tec-battery-buffered-ev-fast-chargers-put-into-ancillary-services-market-in-austria/"
+     },
+     {
+      "name": "Jolt Energy",
+      "role": "startup",
+      "what": "Munich CPO deploying ad-financed, battery-buffered street fast chargers in city centers (free first kWhs funded by screens).",
+      "signal": "Building 50 battery-buffered HPCs around Stockholm (2024); BlackRock-backed rollouts in DACH/US",
+      "status": "operating",
+      "source": "https://www.electrive.com/2024/10/10/jolt-energy-to-build-50-battery-buffered-hpcs-in-and-around-stockholm/"
+     },
+     {
+      "name": "FreeWire Technologies",
+      "role": "startup",
+      "what": "Pioneered the battery-integrated Boost Charger for sites without grid upgrades.",
+      "signal": "Raised $200M+, then closed HQ May 2024, terminated ~113 staff and sold assets in distress",
+      "status": "bankrupt-shutdown",
+      "source": "https://electrek.co/2024/05/05/freewire-closes-its-hq-and-lays-off-just-about-everyone/"
+     },
+     {
+      "name": "SparkCharge",
+      "role": "startup",
+      "what": "Mobile charging-as-a-service: battery-equipped vans and portable units deliver charging to fleets with no infrastructure.",
+      "signal": "$30.5M raised (Series A-1 + venture debt, 2025); operations across US, Mexico, Canada",
+      "status": "operating",
+      "source": "https://www.sparkcharge.io/post/sparkcharge-raises-30-5-million-in-capital-to-accelerate-mobile-ev-charging-expansion"
+     },
+     {
+      "name": "Beam Global",
+      "role": "scaleup",
+      "what": "EV ARC transportable solar-canopy-plus-storage chargers requiring no grid connection, sold mainly to government and municipal buyers.",
+      "signal": "NASDAQ-listed (BEEM); hundreds of EV ARC units deployed but revenue declined sharply 2024-25",
+      "status": "operating",
+      "source": "https://beamforall.com"
+     },
+     {
+      "name": "Electric Era",
+      "role": "startup",
+      "what": "SpaceX-alumni startup building battery-buffered PowerNode fast-charging stations with high-uptime software for convenience retailers.",
+      "signal": "Venture-backed; dozens of battery-buffered stations live across the US",
+      "status": "operating",
+      "source": "https://electricera.tech"
+     },
+     {
+      "name": "ElectricFish",
+      "role": "startup",
+      "what": "350 kW battery-integrated charging cubes that double as community resilience/microgrid assets.",
+      "signal": "Seed/grant-funded; early deployments",
+      "status": "operating",
+      "source": "https://pitchbook.com/profiles/company/443277-01"
+     }
+    ],
+    "white_space": "Demand charges and multi-year interconnection queues create the niche, but hardware capex plus battery degradation crushed FreeWire even with $200M+ raised \u2014 the viable models pair the battery with a second revenue stack (ADS-TEC's ancillary services, Jolt's ad financing) rather than selling boxes alone."
+   },
+   {
+    "name": "Charging software platforms, roaming & payments",
+    "description": "The back-office layer \u2014 charge-point management systems, roaming hubs, Plug&Charge identity and payments \u2014 that lets any driver use any charger and any operator bill for it; standards (OCPP/OCPI/ISO 15118) make this a consolidating platform game.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Hubject",
+      "role": "incumbent",
+      "what": "Operates intercharge, the world's largest roaming network, and the dominant Plug&Charge PKI, owned by BMW, Mercedes, VW, Siemens, Bosch and EnBW.",
+      "signal": "~1M charge points connected; global Plug&Charge/roaming partnership with AMPECO (Dec 2025)",
+      "status": "operating",
+      "source": "https://www.hubject.com/blog-posts/hubject-and-ampeco-extend-strategic-partnership-to-strengthen-emobility-interoperability-and-innovation"
+     },
+     {
+      "name": "Gireve",
+      "role": "incumbent",
+      "what": "French roaming hub connecting CPOs and eMSPs across Europe, backed by EDF, Renault and Caisse des Depots.",
+      "signal": "Hundreds of thousands of connected charge points across Europe",
+      "status": "operating",
+      "source": "https://www.gireve.com"
+     },
+     {
+      "name": "Monta",
+      "role": "scaleup",
+      "what": "Danish operating system for charging covering management, payments and roaming for operators, installers and drivers.",
+      "signal": "EUR 80M Series B (total ~EUR 130M); expanding into the US",
+      "status": "operating",
+      "source": "https://monta.com/en/press/monta-closes-80-million-series-b/"
+     },
+     {
+      "name": "Driivz",
+      "role": "scaleup",
+      "what": "White-label charging management platform powering major networks including EVgo.",
+      "signal": "Acquired by Vontier (2022); runs some of the largest CPO back-ends",
+      "status": "acquired",
+      "source": "https://driivz.com"
+     },
+     {
+      "name": "AMPECO",
+      "role": "startup",
+      "what": "White-label, hardware-agnostic charging management platform for CPOs in 65+ countries.",
+      "signal": "$26M Series B (2024); global strategic partnership with Hubject (2025)",
+      "status": "operating",
+      "source": "https://www.ampeco.com/us/press_release/ampeco-and-hubject-announce-a-global-strategic-partnership-to-deliver-plugcharge-and-roaming-services-to-ev-charging-providers/"
+     },
+     {
+      "name": "EV Connect",
+      "role": "scaleup",
+      "what": "Charging management platform for workplaces, hotels and fleets.",
+      "signal": "Acquired by Schneider Electric (2022)",
+      "status": "acquired",
+      "source": "https://www.evconnect.com"
+     },
+     {
+      "name": "ChargeLab",
+      "role": "startup",
+      "what": "Canadian 'operating system for EV chargers' white-labeled by hardware OEMs, including ABB's North American chargers.",
+      "signal": "Series A ~$15M; ABB North America software partnership",
+      "status": "operating",
+      "source": "https://chargelab.co"
+     },
+     {
+      "name": "Octopus Electroverse",
+      "role": "incumbent",
+      "what": "Octopus Energy's roaming eMSP app aggregating most of Europe's public chargers under one card/app with smart-tariff integration.",
+      "signal": "Hundreds of thousands of chargers accessible across 40+ countries",
+      "status": "operating",
+      "source": "https://electroverse.octopus.energy"
+     }
+    ]
+   },
+   {
+    "name": "Curbside & pole-mounted urban charging",
+    "description": "Compact L2 (and now compact DC) chargers on lampposts, utility poles and detachable-cable curb posts serve the huge population of drivers without driveways \u2014 often piggybacking on existing streetlight or building power to dodge utility interconnection costs; the UK has scaled it, the US is just starting.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "ubitricity",
+      "role": "incumbent",
+      "what": "Shell-owned lamppost-charging operator; the UK's largest public charging network by point count.",
+      "signal": "~10,000 lamppost/bollard charge points, mostly in London",
+      "status": "operating",
+      "source": "https://www.ubitricity.com"
+     },
+     {
+      "name": "itselectric",
+      "role": "startup",
+      "what": "Brooklyn startup whose detachable-cable curb posts draw spare capacity from adjacent buildings and share revenue with property owners \u2014 no utility interconnection needed.",
+      "signal": "$6.5M seed extension (total ~$11.8M, Uber among backers); expanding to seven US cities; first curbside V2G pilot in California",
+      "status": "operating",
+      "source": "https://www.evcandi.com/news/itselectric-gets-funding-accelerate-curbside-ev-charging-across-us"
+     },
+     {
+      "name": "Voltpost",
+      "role": "startup",
+      "what": "Retrofits existing lampposts into modular L2 chargers in about an hour.",
+      "signal": "NYC deployments; won Washington DC DOEE public-charging grant (2026)",
+      "status": "operating",
+      "source": "https://electrek.co/2026/04/30/washington-dc-street-poles-ev-chargers-voltpost/"
+     },
+     {
+      "name": "Gravity",
+      "role": "startup",
+      "what": "Ultra-compact 500 kW curbside DC 'trees' and fast fleet hubs that fit a fast charger in a parking-meter footprint.",
+      "signal": "Google-backed; 200 kW Manhattan fleet hub plus 500 kW curbside units deployed in NYC",
+      "status": "operating",
+      "source": "https://insideevs.com/news/765318/new-york-curbside-ev-charger-voltpost/"
+     },
+     {
+      "name": "Trojan Energy",
+      "role": "startup",
+      "what": "Scottish maker of flat-and-flush in-pavement connectors that leave no street furniture when not in use.",
+      "signal": "GBP 26M raised (BGF and Scottish National Investment Bank)",
+      "status": "operating",
+      "source": "https://chargedevs.com/newswire/curbside-charger-maker-trojan-energy-secures-26-million-in-investment/"
+     },
+     {
+      "name": "char.gy",
+      "role": "startup",
+      "what": "UK lamppost and on-street charging operator winning council-wide concessions under the government's LEVI fund.",
+      "signal": "Thousands of on-street chargers across UK boroughs; multiple LEVI contract wins",
+      "status": "operating",
+      "source": "https://char.gy"
+     },
+     {
+      "name": "Connected Kerb",
+      "role": "scaleup",
+      "what": "UK on-street charging infrastructure with below-ground electronics designed for 25-year life.",
+      "signal": "GBP 110M from Aviva Investors (2022); thousands of sockets installed, though growth has lagged plan",
+      "status": "operating",
+      "source": "https://www.connectedkerb.com"
+     }
+    ],
+    "white_space": "Outside the UK this is wide open: US curbside barely exists because utility make-ready costs and curb permitting kill L2 economics \u2014 models that bypass interconnection via building or streetlight power (itselectric, Voltpost) are the wedge, and no one yet owns the US city-franchise playbook."
+   },
+   {
+    "name": "Robotic & automated charging",
+    "description": "Robot arms or mobile robots plug in and charge vehicles autonomously, eliminating charging labor for ports, depots and robotaxi fleets and enabling 24/7 asset utilization \u2014 the conductive, near-term alternative to wireless for hands-free charging.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Rocsys",
+      "role": "startup",
+      "what": "Dutch leader retrofitting soft-robotics arms onto standard CCS chargers for hands-free charging of terminal tractors, trucks and autonomous fleets.",
+      "signal": "~$36M raised; deployments at US container terminals and truck depots",
+      "status": "operating",
+      "source": "https://rocsys.com"
+     },
+     {
+      "name": "Hyundai Motor Group",
+      "role": "incumbent",
+      "what": "Developed an Automatic Charging Robot (ACR) deployed in pilots including its Singapore smart factory and robotaxi operations.",
+      "signal": "ACR demonstrations and pilot deployments since 2023",
+      "status": "operating",
+      "source": "https://www.hyundai.com/worldwide/en"
+     },
+     {
+      "name": "Mob-Energy",
+      "role": "startup",
+      "what": "French startup whose 'Charles' mobile robot roams parking garages delivering battery-buffered charging to parked cars.",
+      "signal": "~EUR 10M raised; deployments in French parking structures",
+      "status": "operating",
+      "source": "https://www.mob-energy.com"
+     },
+     {
+      "name": "EV Safe Charge",
+      "role": "startup",
+      "what": "Developed ZiGGY, a mobile charging robot for hotels and venues.",
+      "signal": "Prototype and pilot announcements 2022-23; little public traction since",
+      "status": "uncertain",
+      "source": "https://evsafecharge.com"
+     }
+    ],
+    "white_space": "Almost nobody is at commercial stage here \u2014 Rocsys is nearly alone \u2014 yet the demand driver is compounding: robotaxi fleets (Waymo et al.) still charge with human labor, and autonomous trucking depots will need hands-free megawatt charging; a focused player that standardizes robot-ready connectors with OEMs could own the category."
+   }
+  ]
+ }
+}

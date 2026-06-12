@@ -1,0 +1,740 @@
+{
+ "sector": "energy",
+ "bucket": "Electrochemical Storage",
+ "census": {
+  "bucket": "Electrochemical Storage",
+  "variations": [
+   {
+    "name": "Lithium-ion grid BESS (LFP/NMC) & system integrators",
+    "description": "Containerized lithium iron phosphate (and some NMC) battery plants \u2014 cells integrated with inverters, thermal management, and control software \u2014 are the workhorse of grid storage, shifting solar and wind output and beating gas peakers on cost in many markets (~460 GWh shipped globally in 2025).",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Tesla",
+      "role": "incumbent",
+      "what": "Megapack utility-scale BESS built in dedicated Megafactories (Lathrop, Shanghai; Megapack 3 from Houston in 2026)",
+      "signal": "46.7 GWh deployed in 2025, up 49% YoY; #2 global BESS supplier",
+      "status": "operating",
+      "source": "https://source.benchmarkminerals.com/article/the-top-energy-storage-cell-suppliers-and-system-integrators-in-2025"
+     },
+     {
+      "name": "BYD",
+      "role": "incumbent",
+      "what": "Vertically integrated LFP cell-to-container systems (MC Cube); overtook Tesla as the #1 BESS supplier in 2025",
+      "signal": "#1 global BESS systems supplier 2025; top-3 with Tesla/Sungrow hold ~1/3 of market",
+      "status": "operating",
+      "source": "https://source.benchmarkminerals.com/article/bess-system-integrator-ranking-in-h1-2025-shows-change-is-on-the-horizon-for-the-industry"
+     },
+     {
+      "name": "Sungrow",
+      "role": "incumbent",
+      "what": "Inverter giant selling liquid-cooled PowerTitan AC-coupled BESS worldwide",
+      "signal": "#3 global BESS supplier 2025; narrowed gap to Tesla per Wood Mackenzie",
+      "status": "operating",
+      "source": "https://www.woodmac.com/press-releases/tesla-remains-the-top-global-producer-of-battery-energy-storage-systems-in-2024-but-sungrow-narrows-the-gap/"
+     },
+     {
+      "name": "Fluence Energy",
+      "role": "incumbent",
+      "what": "Siemens-AES joint venture; Gridstack platform with domestic-content US manufacturing strategy",
+      "signal": "NASDAQ: FLNC; one of only two non-Chinese top-10 integrators; expanded Ohio facility Sept 2025",
+      "status": "operating",
+      "source": "https://source.benchmarkminerals.com/article/the-top-energy-storage-cell-suppliers-and-system-integrators-in-2025"
+     },
+     {
+      "name": "CATL",
+      "role": "incumbent",
+      "what": "World's largest battery cell maker; TENER 6.25 MWh 'zero-degradation' storage container",
+      "signal": "~20% of global ESS cell market in 2025, the top cell supplier",
+      "status": "operating",
+      "source": "https://source.benchmarkminerals.com/article/the-top-energy-storage-cell-suppliers-and-system-integrators-in-2025"
+     },
+     {
+      "name": "HiTHIUM",
+      "role": "scaleup",
+      "what": "ESS-only LFP cell and system maker (large-format 1,175 Ah cells) focused purely on stationary storage",
+      "signal": "Top-tier global ESS cell shipments alongside CATL/EVE",
+      "status": "operating",
+      "source": "https://source.benchmarkminerals.com/article/the-top-energy-storage-cell-suppliers-and-system-integrators-in-2025"
+     },
+     {
+      "name": "FlexGen",
+      "role": "scaleup",
+      "what": "US integrator whose HybridOS EMS runs multi-vendor BESS fleets; consolidator of distressed rivals",
+      "signal": "Acquired bankrupt Powin's assets for $36M, closed Aug 2025",
+      "status": "operating",
+      "source": "https://www.ess-news.com/2025/08/12/flexgen-to-acquire-assets-from-bankrupt-rival-powin-energy/"
+     },
+     {
+      "name": "LG Energy Solution (Vertech)",
+      "role": "incumbent",
+      "what": "Turnkey US grid BESS arm pairing LG cells (incl. US-made) with integration and long-term service",
+      "signal": "Multi-GWh US project pipeline; integration partner on flagship projects incl. Element Energy's 53 MWh second-life site",
+      "status": "operating",
+      "source": "https://www.energy-storage.news/element-energy-commissions-worlds-largest-second-life-bess-at-53mwh-partners-with-lg-es-vertech/"
+     },
+     {
+      "name": "Powin",
+      "role": "scaleup",
+      "what": "Was the 3rd-largest US BESS integrator (11.3 GWh installed incl. 1.9 GWh Waratah Super Battery) with a China-dependent supply chain",
+      "signal": "Filed Chapter 11 June 10, 2025, eight months after a $200M KKR facility; tariffs and ITC uncertainty cited; assets sold to FlexGen",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.energy-storage.news/powin-files-for-chapter-11-bankruptcy-protection-and-spins-off-project-services-business/"
+     },
+     {
+      "name": "Northvolt",
+      "role": "scaleup",
+      "what": "European cell maker whose Gdansk 'Dwa' plant was Europe's largest BESS systems factory (6 GWh capable)",
+      "signal": "Bankrupt March 2025; BESS factory and Swedish gigafactories acquired by Lyten (Oct 2025 / Feb 2026)",
+      "status": "bankrupt-shutdown",
+      "source": "https://lyten.com/2025/10/15/lyten-completes-acquisition-of-northvolt-bess-manufacturing-facility-in-poland/"
+     }
+    ]
+   },
+   {
+    "name": "Sodium-ion & molten-sodium batteries",
+    "description": "Sodium replaces lithium as the working ion \u2014 either in lithium-ion-like ambient cells (sodium-ion) or in ~250-300C molten sodium-metal-halide cells \u2014 promising cheaper, fire-safer, lithium-free storage, though collapsed lithium prices have erased much of the near-term cost case.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "CATL",
+      "role": "incumbent",
+      "what": "Naxtra sodium-ion brand (launched April 2025) with a dedicated BESS sodium-ion cell; mass production from end-2025",
+      "signal": "Confirmed large-scale 2026 deployment; secured 'world's largest sodium-ion battery order' April 2026",
+      "status": "operating",
+      "source": "https://carnewschina.com/2025/12/28/catl-confirms-2026-large-scale-sodium-ion-battery-deployment-in-multiple-sectors/"
+     },
+     {
+      "name": "HiNa Battery",
+      "role": "scaleup",
+      "what": "Chinese Academy of Sciences spinout; the most prolific commercializer of sodium-ion BESS to date (cells in 100 MWh-class Chinese projects)",
+      "signal": "Cells used in China's first 100 MWh-scale sodium-ion BESS projects (2024-2025)",
+      "status": "operating",
+      "source": "https://www.energy-storage.news/sodium-ion-for-bess-chemistries-and-battery-products-from-catl-envision-byd-hithium-hina-compared/"
+     },
+     {
+      "name": "BYD",
+      "role": "incumbent",
+      "what": "Building dedicated sodium-ion capacity; MWh-scale grid-connected sodium BESS demo passed acceptance in 2025",
+      "signal": "Sodium battery capacity reportedly heading toward tens of GWh; 2.3 MWh grid demo operating",
+      "status": "operating",
+      "source": "https://cleantechnica.com/2025/11/30/the-strange-time-compression-of-sodium-ion-battery-development/"
+     },
+     {
+      "name": "Peak Energy",
+      "role": "startup",
+      "what": "US sodium-ion (NFPP) systems with fully passive thermal design; first grid-scale sodium-ion BESS deployed in the US (Colorado pilot, Sept 2025)",
+      "signal": "$10M seed + $55M Series A; Nov 2025 deal with Jupiter Power for up to 4.75 GWh (>$500M), largest US sodium-ion deal",
+      "status": "operating",
+      "source": "https://www.ess-news.com/2025/11/13/peak-energy-to-supply-up-to-4-75-gwh-of-sodium-ion-batteries-to-jupiter-power/"
+     },
+     {
+      "name": "Natron Energy",
+      "role": "startup",
+      "what": "Prussian-blue sodium-ion cells for data-center and industrial power; opened first US sodium-ion factory (Holland, MI) in 2024",
+      "signal": "Shut down Sept 2025 after funding fell through; $1.4B North Carolina gigafactory cancelled; 95 laid off",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.manufacturingdive.com/news/sodium-ion-battery-natron-energy-shutters-halts-NC-factory-plans/759479/"
+     },
+     {
+      "name": "Tiamat",
+      "role": "startup",
+      "what": "French high-power sodium-ion (polyanionic) cell developer planning a 5 GWh gigafactory near Amiens",
+      "signal": "Factory commissioning slipped to 2026-27; \u20ac150M round announced 2024 not yet finalized",
+      "status": "operating",
+      "source": "https://www.ess-news.com/2025/04/25/consultation-over-5-gwh-french-sodium-ion-battery-factory/"
+     },
+     {
+      "name": "Faradion",
+      "role": "startup",
+      "what": "UK sodium-ion pioneer with broad early patents",
+      "signal": "Acquired by Reliance Industries (2022, ~\u00a3100M) to anchor Indian sodium-ion manufacturing",
+      "status": "acquired",
+      "source": "https://www.faradion.co.uk/"
+     },
+     {
+      "name": "Inlyte Energy",
+      "role": "startup",
+      "what": "Iron-sodium (sodium metal halide) cells built on the original Beta Research UK site, targeting 10-24h storage",
+      "signal": "$8M seed + $4.1M DOE (June 2025); factory acceptance test of world's largest Na-metal-chloride cells Dec 2025; US production targeted 2026-27",
+      "status": "operating",
+      "source": "https://www.ess-news.com/2025/12/12/inlyte-proves-out-first-full-scale-iron-sodium-battery-system-in-factory-test-paving-way-for-2026-us-production/"
+     },
+     {
+      "name": "FZSoNick",
+      "role": "incumbent",
+      "what": "Swiss/Italian maker of sodium-nickel-chloride (ZEBRA) batteries for telecom, rail, and niche stationary backup",
+      "signal": "Decades-long commercial niche production",
+      "status": "operating",
+      "source": "https://www.fzsonick.com/"
+     }
+    ],
+    "white_space": "Western sodium-ion collapsed in 2025 (Natron shut down, Northvolt gone, Tiamat delayed) just as Chinese giants committed gigafactories \u2014 sodium's cost edge only appears at scale and when lithium is expensive. The opening is Western capacity anchored to niches lithium serves poorly (data-center UPS, cold climates, fire-code-constrained sites) or molten-sodium routes that sidestep li-ion's cost curve."
+   },
+   {
+    "name": "Iron-air & other metal-air",
+    "description": "Cells charge by 'unrusting' iron (or another metal) and discharge by re-oxidizing it with air, storing 100+ hours of energy at very low cost per kWh but only ~40-50% round-trip efficiency \u2014 built for multi-day wind/solar droughts rather than daily cycling.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Form Energy",
+      "role": "scaleup",
+      "what": "100-hour iron-air systems manufactured at Form Factory 1 in Weirton, WV; the category-defining player",
+      "signal": "$405M Series F (Oct 2024, T. Rowe Price + GE Vernova), >$1.2B raised; first project (1.5 MW/150 MWh with Great River Energy, Cambridge MN) online ~late 2025, more in MN/CO/CA/NY/GA/VA through 2026",
+      "status": "operating",
+      "source": "https://www.utilitydive.com/news/iron-air-battery-developer-long-duration-storage-form-energy-collaboration-ge-vernova/730633/"
+     },
+     {
+      "name": "Ore Energy",
+      "role": "startup",
+      "what": "TU Delft spinout that connected the world's first grid-connected, operational iron-air battery (Delft, NL, operating since May 2025)",
+      "signal": "~\u20ac10M seed (2024) plus grants, ~\u20ac20M total; piloting 100-hour BESS with EDF lab in France; 4.2 MWh containers planned",
+      "status": "operating",
+      "source": "https://www.ess-news.com/2025/07/30/ore-energy-brings-first-grid-connected-iron-air-battery-online-in-the-netherlands/"
+     },
+     {
+      "name": "Phinergy",
+      "role": "scaleup",
+      "what": "Israeli aluminum-air (primary, non-rechargeable) systems for telecom and backup power",
+      "signal": "Tel Aviv-listed; commercial backup deployments with telecom operators",
+      "status": "operating",
+      "source": "https://phinergy.com/"
+     }
+    ],
+    "white_space": "Effectively a one-company category: Form's $1.2B war chest dwarfs everyone, and physics (low round-trip efficiency and power density) confines metal-air to multi-day markets that today's tariffs and capacity products barely remunerate, deterring followers. Openings: non-US iron-air champions (Ore in the EU), and market-design/revenue-stack work that creates paid multi-day reliability products."
+   },
+   {
+    "name": "Flow batteries (vanadium, iron, zinc-bromine, organic)",
+    "description": "Energy is stored in liquid electrolytes pumped through a reactor stack, decoupling power from energy so duration stretches cheaply to 4-12+ hours with 20,000+ cycles and no fire risk; vanadium leads (scaling fast in China), while iron, zinc-bromine, and organic chemistries chase cheaper electrolytes.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Rongke Power",
+      "role": "scaleup",
+      "what": "World's largest vanadium flow battery maker (built the 100 MW/400 MWh Dalian plant)",
+      "signal": "Commissioned 100 MW/400 MWh Changzhou project Aug 2025 using electrolyte leasing (-35-40% capex); bid 300 MWh into ERCOT's first 6-hour products Jan 2026",
+      "status": "operating",
+      "source": "https://camaltd.com/rongke-power/"
+     },
+     {
+      "name": "Sumitomo Electric",
+      "role": "incumbent",
+      "what": "VRFB pioneer (51 MWh Hokkaido system) selling utility-grade flow batteries for decades",
+      "signal": "Launched next-gen VRFB Feb 2025: +15% energy density, -30% cost, 30-year life",
+      "status": "operating",
+      "source": "https://ziontechnologies.co.nz/7-leading-vanadium-battery-companies/"
+     },
+     {
+      "name": "Invinity Energy Systems",
+      "role": "scaleup",
+      "what": "LSE-listed modular vanadium flow systems (ENDURIUM) for utility, C&I, and microgrid projects",
+      "signal": "~80+ MWh delivered across 80+ sites; 10.8 MWh Hungary solar-plus-storage order in 2025",
+      "status": "operating",
+      "source": "https://ziontechnologies.co.nz/7-leading-vanadium-battery-companies/"
+     },
+     {
+      "name": "CellCube",
+      "role": "scaleup",
+      "what": "Austrian vanadium flow systems for C&I, microgrids, and mining off-grid sites",
+      "signal": "130+ systems deployed worldwide",
+      "status": "operating",
+      "source": "https://www.blackridgeresearch.com/blog/top-flow-battery-companies-manufacturers"
+     },
+     {
+      "name": "ESS Tech (ESS Inc.)",
+      "role": "scaleup",
+      "what": "NYSE-listed iron-flow battery maker (Energy Warehouse/Energy Center/Energy Base) using earth-abundant iron electrolyte",
+      "signal": "Going-concern doubt; nearly closed Oregon plant May 2025, survived on emergency funding with mass furloughs; $0.8M unrestricted cash at Q2 2025",
+      "status": "uncertain",
+      "source": "https://www.energy-storage.news/iron-flow-battery-maker-ess-inc-warns-of-survival-battle-through-operational-reset-period/"
+     },
+     {
+      "name": "Redflow",
+      "role": "scaleup",
+      "what": "Australian zinc-bromine flow battery maker (ZBM3) with US DOE/CEC project wins",
+      "signal": "Entered voluntary administration Aug 2024 after failing to raise scale-up capital; liquidated Dec 2024",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.pv-magazine.com/2024/08/23/redflow-enters-voluntary-administration-after-failing-to-secure-funds/"
+     },
+     {
+      "name": "CMBlu Energy",
+      "role": "scaleup",
+      "what": "German 'Organic SolidFlow' batteries with lignin-derived electrolytes, pitched as a lithium alternative for hyperscalers",
+      "signal": "5 MW/50 MWh Desert Blume pilot with Salt River Project (AZ) operational ~Dec 2025; national-lab demos in microgrids/cold climates",
+      "status": "operating",
+      "source": "https://www.cmblu.com/en/press-and-media/srp-cmblu-desert-blume-ldes-solar/"
+     },
+     {
+      "name": "Quino Energy",
+      "role": "startup",
+      "what": "Harvard spinout making water-based organic quinone electrolytes from dye-industry precursors at near-zero marginal plant cost",
+      "signal": "$10M+$6M Series A (Nov 2025, Atri); $10M California Energy Commission grant for an 8 MWh demo; $5M DOE manufacturing grant",
+      "status": "operating",
+      "source": "https://pv-magazine-usa.com/2025/11/10/quino-energy-closes-10-million-to-scale-organic-flow-batteries/"
+     },
+     {
+      "name": "XL Batteries",
+      "role": "startup",
+      "what": "pH-neutral saltwater organic flow battery; first US flow-battery partnership aimed at data-center campuses",
+      "signal": "$28M raised (incl. $7.5M Sept 2025); pilots with Prometheus Hyperscale and Stolthaven Terminals (Houston)",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20250917627610/en/XL-Batteries-Raises-%247.5-Million-From-Merrin-Investors-to-Accelerate-Market-Leadership-in-Organic-Non-Flammable-Long-Duration-Flow-Batteries"
+     },
+     {
+      "name": "Stryten Energy",
+      "role": "incumbent",
+      "what": "US lead-battery manufacturer expanding into vanadium flow; Storion Energy JV (with Largo) for domestic vanadium electrolyte supply",
+      "signal": "JV formed 2024 to onshore VRFB electrolyte production",
+      "status": "operating",
+      "source": "https://www.stryten.com/"
+     }
+    ]
+   },
+   {
+    "name": "Zinc-based non-flow batteries (zinc-bromine static, zinc-air, zinc-ion, nickel-zinc)",
+    "description": "Zinc anodes in static (non-pumped) cells \u2014 zinc-bromine gel, zinc-air, zinc-manganese alkaline, nickel-zinc \u2014 deliver non-flammable, lithium-free storage from abundant materials, trading lower efficiency and energy density for safety and indoor/urban siting flexibility.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Eos Energy Enterprises",
+      "role": "scaleup",
+      "what": "Znyth zinc-bromine static cells manufactured in Pittsburgh on a US-only supply chain (Project AMAZE, 8 GWh by 2027)",
+      "signal": "NASDAQ: EOSE; $303.5M DOE loan closed Dec 2024, second draw July 2025; ~$589M backlog and $14B pipeline (late 2024)",
+      "status": "operating",
+      "source": "https://www.globenewswire.com/news-release/2024/12/03/2990541/0/en/Eos-Energy-Closes-303-5-Million-Loan-Guaranteed-by-the-U-S-Department-of-Energy-to-Support-Project-AMAZE-and-American-Made-Manufacturing-Expansion.html"
+     },
+     {
+      "name": "ZincFive",
+      "role": "scaleup",
+      "what": "Nickel-zinc UPS battery cabinets (BC 2 AI) for AI data centers \u2014 zero thermal-runaway backup power",
+      "signal": "$30M oversubscribed Series F (Dec 2025); $254M raised since 2016",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20251204065704/en/ZincFive-Raises-%2430-Million-in-Oversubscribed-Series-F-Financing-to-Power-the-Data-Center-Infrastructure-Behind-the-AI-Boom"
+     },
+     {
+      "name": "e-Zinc",
+      "role": "startup",
+      "what": "Toronto startup storing energy in physical zinc metal (zinc-air cell) for multi-day duration",
+      "signal": "~$31M commercialization funding (2024); first field pilots in Ontario and California",
+      "status": "operating",
+      "source": "https://www.pv-magazine.com/2024/07/05/zinc-batteries-redflow-teams-with-stanwell-on-400-mwh-project-e-zinc-secures-31m-commercialization-funding/"
+     },
+     {
+      "name": "Salient Energy",
+      "role": "startup",
+      "what": "Water-based zinc-ion cells (zinc-manganese) for home/resi storage; first zinc-ion to pass UL9540A fire testing",
+      "signal": "UL9540A passed; claims +150% cell energy density progress; pre-commercial",
+      "status": "operating",
+      "source": "https://solarbuildermag.com/news/salient-energy-says-zinc-ion-battery-close-to-market-after-latest-breakthroughs/"
+     },
+     {
+      "name": "Urban Electric Power",
+      "role": "startup",
+      "what": "Rechargeable zinc-manganese alkaline batteries (Pearl River, NY) for fire-safe building and grid storage",
+      "signal": "~$31M raised; NYSERDA long-duration storage demo award; DOE voucher",
+      "status": "operating",
+      "source": "https://www.urbanelectricpower.com/"
+     },
+     {
+      "name": "Enzinc",
+      "role": "startup",
+      "what": "Zinc microsponge anode that drops into existing lead-acid factories to make nickel-zinc batteries",
+      "signal": "$1.62M California Energy Commission award (July 2025); US anode manufacturing center opened 2024",
+      "status": "operating",
+      "source": "https://www.ess-news.com/2024/09/19/enzinc-opens-us-manufacturing-center-for-battery-anodes/"
+     },
+     {
+      "name": "Zinc8 Energy Solutions (ABOUND Energy)",
+      "role": "startup",
+      "what": "Zinc-air long-duration storage developer that planned a New York factory",
+      "signal": "Chronic funding distress and going-concern warnings since 2023; rebranded ABOUND Energy; little verifiable commercial activity since",
+      "status": "uncertain",
+      "source": "https://www.newswire.ca/news-releases/zinc8-energy-solutions-provides-corporate-update-822486348.html"
+     },
+     {
+      "name": "Gelion",
+      "role": "scaleup",
+      "what": "Australian battery developer that abandoned its zinc-bromine gel battery and pivoted to lithium-sulfur \u2014 itself evidence of zinc's scale-up difficulty",
+      "signal": "ASX-listed; zinc product discontinued in favor of Li-S IP (OXIS/Johnson Matthey acquisitions)",
+      "status": "operating",
+      "source": "https://gelion.com/"
+     }
+    ],
+    "white_space": "Zinc's dendrite and efficiency problems have killed or bent several players (Redflow liquidated, Zinc8 distressed, Gelion pivoted away), but non-flammability is winning real niches indoors. The opening is anchoring to fire-code-driven demand \u2014 data-center UPS, urban and defense sites \u2014 rather than fighting LFP head-on per kWh, as ZincFive's data-center traction and Eos's DOE-backed onshore story show."
+   },
+   {
+    "name": "High-temperature liquid-metal & sodium-sulfur",
+    "description": "Cells operate at 250-700C with molten electrodes or ceramic electrolytes (sodium-sulfur, calcium-antimony liquid metal), offering long calendar life and cheap materials for 6-12 hour storage \u2014 but the only mass producer is now exiting after losing the economics race to LFP.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "NGK Insulators",
+      "role": "incumbent",
+      "what": "Sole mass producer of sodium-sulfur (NAS) grid batteries for 20+ years (~5 GWh deployed; 70 MWh Japan project and Duke Energy pilot in May 2025)",
+      "signal": "Announced discontinuation of NAS manufacturing and new orders Oct 31, 2025 after expansion talks with BASF ended",
+      "status": "operating",
+      "source": "https://www.ess-news.com/2025/11/05/japans-ngk-discontinues-manufacturing-of-sodium-sulfur-batteries/"
+     },
+     {
+      "name": "BASF Stationary Energy Storage",
+      "role": "incumbent",
+      "what": "Global sales/development partner for NAS since 2019; co-developed NAS MODEL L24 with <1%/year degradation (June 2024)",
+      "signal": "Partnership discussions with NGK discontinued Sept 2025; unit's future unclear",
+      "status": "uncertain",
+      "source": "https://www.basf.com/global/en/media/news-releases/2024/06/p-24-216"
+     },
+     {
+      "name": "Ambri",
+      "role": "startup",
+      "what": "Calcium-antimony liquid-metal cells (Sadoway/MIT) with no degradation mechanism, now targeting data centers",
+      "signal": "Chapter 11 May 2024; emerged Aug 2024 under lender consortium (Gates Frontier, Paulson); first containerized systems shipping, ~$35M revenue reported 2025",
+      "status": "operating",
+      "source": "https://www.energy-storage.news/liquid-metal-startup-ambri-back-in-business-after-chapter-11-bankruptcy/"
+     }
+    ],
+    "white_space": "The non-lithium chemistry with the longest real grid track record (NAS, ~5 GWh over two decades) is being abandoned by its only manufacturer, and the flagship liquid-metal startup went bankrupt \u2014 high operating temperature plus bespoke manufacturing simply lost to LFP's cost curve. Openings: acquiring/licensing NGK's proven NAS IP and servicing its installed fleet, or intermediate-temperature sodium-halide designs (e.g., Inlyte) that reuse the supply chain at lower temperature and cost."
+   },
+   {
+    "name": "Nickel-hydrogen & novel aqueous chemistries (lead-carbon, aluminum-ion)",
+    "description": "Space-proven nickel-hydrogen pressure vessels and water-based chemistries (aqueous sodium/manganese oxide, lead-carbon, aluminum-ion) promise 20,000-30,000 cycles, wide temperature tolerance, and zero fire risk, betting that lifetime and safety can beat lithium's upfront cost.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "EnerVenue",
+      "role": "scaleup",
+      "what": "Nickel-hydrogen 'Energy Storage Vessels' rated for 30,000 cycles and -40 to +60C operation",
+      "signal": "~$500M+ raised incl. $300M Series B extension (April 2026); Kentucky gigafactory built, first high-volume line now in Changzhou, China (250 MWh by Q3 2026); Gen-4 pilots on five continents",
+      "status": "operating",
+      "source": "https://www.energy-storage.news/enervenue-closes-us300-million-series-b-for-30000-cycle-nickel-hydrogen-battery-manufacturing/"
+     },
+     {
+      "name": "Alsym Energy",
+      "role": "startup",
+      "what": "Non-flammable, non-toxic aqueous metal-oxide chemistry; launched Na-Series sodium-based stationary line Oct 2025",
+      "signal": "~$78M raised (General Catalyst, Tata); product launch but no large deployments yet",
+      "status": "operating",
+      "source": "https://www.ess-news.com/2025/10/22/alsym-energy-launches-na-series-claiming-safe-low-cost-sodium-ion-battery-storage/"
+     },
+     {
+      "name": "Narada Power",
+      "role": "incumbent",
+      "what": "Chinese battery maker deploying lead-carbon ESS at industrial-park scale (alongside its Li-ion lines)",
+      "signal": "Hundreds of MWh of lead-carbon storage operating in China",
+      "status": "operating",
+      "source": "https://en.naradapower.com/"
+     },
+     {
+      "name": "Graphene Manufacturing Group (GMG)",
+      "role": "startup",
+      "what": "Australian developer of graphene-aluminum-ion cells claiming fast charge and high cycle life",
+      "signal": "ASX-listed; coin/pouch-cell stage, no grid deployments",
+      "status": "operating",
+      "source": "https://graphenemg.com/"
+     },
+     {
+      "name": "Aquion Energy",
+      "role": "startup",
+      "what": "Saltwater sodium-ion pioneer (aqueous hybrid ion) \u2014 the cautionary precedent for aqueous grid batteries",
+      "signal": "Raised ~$190M (incl. Gates), went bankrupt 2017; assets sold to Chinese buyers",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.greentechmedia.com/articles/read/aquion-energy-files-for-chapter-11-bankruptcy"
+     }
+    ],
+    "white_space": "EnerVenue is nearly alone at scale: pressure-vessel capex and low volumetric energy density deter entrants, and Aquion's 2017 collapse still shadows aqueous chemistries. The opening is ultra-long-life niches where 30k cycles, wide temperature range, and zero fire suppression beat LFP on total cost \u2014 AI data centers, desert and off-grid sites \u2014 plus licensing models that avoid building gigafactories alone."
+   },
+   {
+    "name": "Solid-state & advanced lithium for stationary use",
+    "description": "Solid or semi-solid electrolytes and advanced electrodes (lithium-sulfur, lithium-titanate/niobium anodes) aim to bring fire safety, very long cycle life, or cheaper electrode manufacturing to stationary lithium storage \u2014 though most solid-state developers chase EVs first and the grid gets their tech second.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Lyten",
+      "role": "scaleup",
+      "what": "Lithium-sulfur developer that bought Northvolt's 6 GWh Gdansk BESS plant and Swedish gigafactories to ship BESS now and lithium-sulfur at gigascale later",
+      "signal": "Northvolt Dwa acquisition closed Oct 2025; Swedish Ett/Labs acquisition completed Feb 2026",
+      "status": "operating",
+      "source": "https://www.ess-news.com/2026/02/27/lyten-completes-northvolt-acquisition-set-to-manufacture-lithium-sulfur-batteries-at-gigascale-and-kickstart-rd-in-sweden/"
+     },
+     {
+      "name": "24M Technologies",
+      "role": "scaleup",
+      "what": "Licenses SemiSolid thick-electrode manufacturing (~40% lower material cost, shorter production time) to cell makers",
+      "signal": "Licensees include Kyocera; Kyocera doubled SemiSolid production Dec 2024",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20241203642571/en/Kyocera-a-24M-Technology-License-Partner-Doubles-Production-of-SemiSolid-Lithium-Ion-Batteries-Using-24M-Technology"
+     },
+     {
+      "name": "Kyocera",
+      "role": "incumbent",
+      "what": "Enerezza residential ESS \u2014 the world's first SemiSolid-electrode battery product line (5-15 kWh)",
+      "signal": "20,000 units/yr capacity, doubling with a JPY 10B investment by FY2026",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20241203642571/en/Kyocera-a-24M-Technology-License-Partner-Doubles-Production-of-SemiSolid-Lithium-Ion-Batteries-Using-24M-Technology"
+     },
+     {
+      "name": "Toshiba",
+      "role": "incumbent",
+      "what": "SCiB lithium-titanate (LTO) cells with 20,000+ cycles used in high-power frequency-regulation and grid BESS",
+      "signal": "Decades of commercial LTO production; deployed in Japanese grid frequency projects",
+      "status": "operating",
+      "source": "https://www.global.toshiba/ww/products-solutions/battery/scib.html"
+     },
+     {
+      "name": "Echion Technologies",
+      "role": "startup",
+      "what": "XNO niobium-oxide anode enabling fast-charge, 10,000+ cycle cells for industrial and grid-adjacent high-power duty",
+      "signal": "\u00a329M Series B (2024); anode in commercial cell partners' lines",
+      "status": "operating",
+      "source": "https://www.echiontech.com/"
+     },
+     {
+      "name": "LiNa Energy",
+      "role": "startup",
+      "what": "UK solid-state sodium-metal-chloride planar cells purpose-built for low-cost stationary storage",
+      "signal": "Seed/grant-funded; kW-scale field pilots",
+      "status": "operating",
+      "source": "https://www.lina.energy/"
+     },
+     {
+      "name": "Ion Storage Systems",
+      "role": "startup",
+      "what": "Ceramic anodeless solid-state cells (UMD spinout) with defense and stationary-adjacent first markets",
+      "signal": "$30M+ raised; pilot production line in Maryland",
+      "status": "operating",
+      "source": "https://ionstorage.com/"
+     }
+    ],
+    "white_space": "Solid-state's headline advantage \u2014 energy density \u2014 is nearly worthless for stationary storage, so no major solid-state player targets the grid first and the segment is thin. The opening is chemistry chosen FOR stationary economics: semi-solid electrode cost cuts, LTO/niobium cycle life for high-throughput grid services, and fire-code-friendly cells that unlock indoor, urban, and data-center siting."
+   },
+   {
+    "name": "Supercapacitors & hybrid ion capacitors",
+    "description": "Electrostatic storage in high-surface-area carbon delivers millions of cycles and sub-second response but tiny energy capacity, suiting grid-forming inertia, power smoothing, and AI data-center peak shaving (usually hybridized with batteries) rather than energy shifting.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Skeleton Technologies",
+      "role": "scaleup",
+      "what": "Curved-graphene supercapacitors and SuperBattery hybrid cells for grid stabilization and AI data-center power smoothing",
+      "signal": "Opened \u20ac220M Leipzig 'SuperFactory' Nov 2025 (12M cells/yr) shipping to Siemens, GE, Hitachi Energy and US hyperscalers; \u20ac392M raised; US IPO targeted 2027",
+      "status": "operating",
+      "source": "https://www.skeletontech.com/news/skeleton-opens-220-million-leipzig-factory-to-stabilise-europes-electrical-grid-and-ai-infrastructure"
+     },
+     {
+      "name": "Eaton",
+      "role": "incumbent",
+      "what": "Supercapacitor modules integrated into UPS and grid power-quality equipment",
+      "signal": "Established global power-management product lines",
+      "status": "operating",
+      "source": "https://www.eaton.com/us/en-us/products/electronic-components/supercapacitors.html"
+     },
+     {
+      "name": "Nippon Chemi-Con",
+      "role": "incumbent",
+      "what": "Major Japanese capacitor maker producing DLCAP electric double-layer capacitors",
+      "signal": "Long-running commercial supercap product lines",
+      "status": "operating",
+      "source": "https://www.chemi-con.co.jp/en/"
+     },
+     {
+      "name": "UCAP Power",
+      "role": "startup",
+      "what": "Acquired Maxwell Technologies' ultracapacitor business from Tesla (2021); grid, transport, and backup modules",
+      "signal": "Operating the largest US ultracap product portfolio",
+      "status": "operating",
+      "source": "https://ucappower.com/"
+     },
+     {
+      "name": "LICAP Technologies",
+      "role": "startup",
+      "what": "Dry-electrode supercapacitor cells and modules (Sacramento) with licensing of its Activated Dry Electrode process",
+      "signal": "Commercial cell/module sales plus equipment licensing",
+      "status": "operating",
+      "source": "https://www.licap.com/"
+     },
+     {
+      "name": "Shanghai Aowei",
+      "role": "incumbent",
+      "what": "Chinese supercapacitor systems powering supercap buses/trams and grid power-quality installations",
+      "signal": "Fleet-scale supercap transit deployments in China",
+      "status": "operating",
+      "source": "https://www.aowei.com/en/"
+     }
+    ],
+    "white_space": "Physics caps energy density at roughly 1/20th of Li-ion, so supercaps cannot compete on $/kWh and most grid-storage supercap ventures died or retreated to components. The opening is the AI data-center power-quality boom and grid-forming inertia/fast-frequency markets \u2014 selling power equipment hybridized with batteries, the wedge Skeleton's hyperscaler pivot validates."
+   },
+   {
+    "name": "Second-life EV battery storage",
+    "description": "Retired EV packs with 70-80% remaining capacity are tested, re-certified, and re-assembled into stationary systems, cutting upfront cell cost and deferring recycling \u2014 provided testing/repackaging costs and falling new-cell prices don't erase the discount.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "B2U Storage Solutions",
+      "role": "startup",
+      "what": "Plug-and-play architecture that uses EV packs whole (no repackaging) in merchant California/Texas storage plants",
+      "signal": "25+ MWh operating; launched a structured fund holding 7 BESS projects (CA + TX, 2025)",
+      "status": "operating",
+      "source": "https://www.evinfrastructurenews.com/second-life-batteries/b2u-storage-solutions-launches-second-life-ev-battery-energy-storage-fund"
+     },
+     {
+      "name": "Element Energy",
+      "role": "startup",
+      "what": "Adaptive cell-level BMS that manages heterogeneous used packs; built the world's largest second-life BESS (53 MWh, West Texas)",
+      "signal": "53 MWh commissioned Nov 2024 from 900 used EV packs; $111M equity+debt raised; partnership with LG ES Vertech",
+      "status": "operating",
+      "source": "https://www.energy-storage.news/element-energy-commissions-worlds-largest-second-life-bess-at-53mwh-partners-with-lg-es-vertech/"
+     },
+     {
+      "name": "Connected Energy",
+      "role": "scaleup",
+      "what": "UK containerized E-STOR systems built from Renault and JLR packs for C&I sites",
+      "signal": "Backed by Volvo Energy, Caterpillar Venture Capital, Mercuria; dozens of systems across Europe",
+      "status": "operating",
+      "source": "https://connected-energy.co.uk/"
+     },
+     {
+      "name": "Moment Energy",
+      "role": "startup",
+      "what": "UL1974-certified EV pack repurposing with OEM supply agreements (Mercedes-Benz Energy)",
+      "signal": "$40M+ Series B (2025; >$100M total incl. $20.3M DOE award) to build a 1 GWh/yr second-life factory in Taylor, TX",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/moment-energy-raises-us40m-series-b-to-build-the-worlds-largest-second-life-battery-factory-302762579.html"
+     },
+     {
+      "name": "Voltfang",
+      "role": "startup",
+      "what": "German C&I and grid storage systems from certified second-life EV batteries",
+      "signal": "\u20ac15M Series B (June 2025); opened 'Europe's largest second-life battery factory' (Aachen, 250 MWh/yr target)",
+      "status": "operating",
+      "source": "https://www.eu-startups.com/2025/06/german-cleantech-startup-voltfang-secures-e15-million-and-launches-europes-largest-second-life-battery-factory/"
+     },
+     {
+      "name": "Smartville",
+      "role": "startup",
+      "what": "MOAB second-life BESS platform that homogenizes mixed-OEM packs into utility-grade storage",
+      "signal": "DOE-backed; California deployments",
+      "status": "operating",
+      "source": "https://www.smartville.io/"
+     },
+     {
+      "name": "Mercedes-Benz Energy",
+      "role": "incumbent",
+      "what": "OEM arm operating utility-scale second-life plants since 2016 (13 MWh L\u00fcnen) and supplying used packs to partners like Moment",
+      "signal": "Long-running second-life supply agreements with repurposers",
+      "status": "operating",
+      "source": "https://www.momentenergy.com/news/moment-energy-and-mercedes-benz-energy-establish-supply-agreement-for-second-life-batteries"
+     },
+     {
+      "name": "Nissan / 4R Energy",
+      "role": "incumbent",
+      "what": "JV with Sumitomo refabricating Nissan Leaf packs for stationary use since 2010 (Namie plant, Japan)",
+      "signal": "Oldest operating second-life battery business",
+      "status": "operating",
+      "source": "https://www.4r-energy.com/"
+     }
+    ],
+    "white_space": "Falling new LFP cell prices (now well under $60/kWh) keep compressing the used-pack discount, and heterogeneous, unpredictable pack supply makes industrial scaling hard \u2014 which is why the segment's largest single site is still only 53 MWh. The opening is OEM-locked feedstock contracts plus automated grading/repackaging (the Moment-Mercedes model), and markets that pay premiums for tariff-free, domestically sourced capacity."
+   },
+   {
+    "name": "Behind-the-meter residential & C&I battery systems",
+    "description": "Home and small-commercial lithium (mostly LFP) batteries paired with rooftop solar and aggregated into virtual power plants give households backup power and give grids dispatchable distributed flexibility \u2014 now a mass consumer market in the US, Europe, Australia, and Japan.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Tesla",
+      "role": "incumbent",
+      "what": "Powerwall 3 home battery plus the largest US virtual power plant fleets",
+      "signal": "Millions of Powerwalls shipped; utility VPP programs across CA/TX/PR",
+      "status": "operating",
+      "source": "https://www.solarreviews.com/blog/best-solar-batteries"
+     },
+     {
+      "name": "Enphase Energy",
+      "role": "incumbent",
+      "what": "IQ Battery 5P integrated with its microinverter and home-energy ecosystem",
+      "signal": "NASDAQ-listed; among top US home battery brands",
+      "status": "operating",
+      "source": "https://www.solarreviews.com/blog/best-solar-batteries"
+     },
+     {
+      "name": "Sigenergy",
+      "role": "scaleup",
+      "what": "SigenStor five-in-one AI-enabled stackable home/C&I battery-inverter-EV-charger system",
+      "signal": "Listed on HKEX; ranked #1 battery brand in Australia by capacity (March 2025)",
+      "status": "operating",
+      "source": "https://www.sigenergy.com/"
+     },
+     {
+      "name": "sonnen",
+      "role": "scaleup",
+      "what": "German sonnenBatterie pioneer of residential VPPs across Europe, Australia, and the US",
+      "signal": "Acquired by Shell in 2019 (~\u20ac500M); Shell has been seeking a buyer, reported valuation \u20ac1.35-1.8B",
+      "status": "acquired",
+      "source": "https://www.energy-storage.news/shell-putting-residential-storage-and-vpp-firm-sonnen-up-for-sale-reports/"
+     },
+     {
+      "name": "FranklinWH",
+      "role": "scaleup",
+      "what": "aPower whole-home backup battery and energy-management system with US manufacturing",
+      "signal": "4th most-used battery brand in US solar; California factory producing since April 2025, scaling 30k to 120k units/yr",
+      "status": "operating",
+      "source": "https://www.solarpowerworldonline.com/2026/04/american-made-franklinwh-energy-storage-keeps-manufacturing-local/"
+     },
+     {
+      "name": "Base Power",
+      "role": "startup",
+      "what": "Utility-partnered home battery service bundling hardware with retail electricity, monetizing fleets in ERCOT and beyond",
+      "signal": "$1B Series C (Oct 2025, led by Addition) at ~$4B valuation; in-house Gen-3 battery manufacturing",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20251008106005/en/Base-Power-Raises-%241-Billion-Series-C-to-Build-the-Future-of-American-Power"
+     },
+     {
+      "name": "BYD",
+      "role": "incumbent",
+      "what": "Battery-Box residential LFP line \u2014 among the top-selling home batteries in Europe and Australia",
+      "signal": "Top-3 home battery brand in multiple European markets",
+      "status": "operating",
+      "source": "https://www.bydbatterybox.com/"
+     },
+     {
+      "name": "Sunrun",
+      "role": "incumbent",
+      "what": "Largest US residential solar+storage installer, dispatching its networked battery fleet as VPPs (e.g., CalReady)",
+      "signal": "NASDAQ-listed; gigawatt-hour-scale networked residential storage fleet",
+      "status": "operating",
+      "source": "https://www.sunrun.com/"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   "https://source.benchmarkminerals.com/article/the-top-energy-storage-cell-suppliers-and-system-integrators-in-2025",
+   "https://www.woodmac.com/press-releases/tesla-remains-the-top-global-producer-of-battery-energy-storage-systems-in-2024-but-sungrow-narrows-the-gap/",
+   "https://www.energy-storage.news/powin-files-for-chapter-11-bankruptcy-protection-and-spins-off-project-services-business/",
+   "https://www.ess-news.com/2025/08/12/flexgen-to-acquire-assets-from-bankrupt-rival-powin-energy/",
+   "https://www.manufacturingdive.com/news/sodium-ion-battery-natron-energy-shutters-halts-NC-factory-plans/759479/",
+   "https://www.ess-news.com/2025/11/13/peak-energy-to-supply-up-to-4-75-gwh-of-sodium-ion-batteries-to-jupiter-power/",
+   "https://carnewschina.com/2025/12/28/catl-confirms-2026-large-scale-sodium-ion-battery-deployment-in-multiple-sectors/",
+   "https://www.utilitydive.com/news/iron-air-battery-developer-long-duration-storage-form-energy-collaboration-ge-vernova/730633/",
+   "https://www.ess-news.com/2025/07/30/ore-energy-brings-first-grid-connected-iron-air-battery-online-in-the-netherlands/",
+   "https://www.energy-storage.news/iron-flow-battery-maker-ess-inc-warns-of-survival-battle-through-operational-reset-period/",
+   "https://www.pv-magazine.com/2024/08/23/redflow-enters-voluntary-administration-after-failing-to-secure-funds/",
+   "https://camaltd.com/rongke-power/",
+   "https://www.cmblu.com/en/press-and-media/srp-cmblu-desert-blume-ldes-solar/",
+   "https://pv-magazine-usa.com/2025/11/10/quino-energy-closes-10-million-to-scale-organic-flow-batteries/",
+   "https://www.globenewswire.com/news-release/2024/12/03/2990541/0/en/Eos-Energy-Closes-303-5-Million-Loan-Guaranteed-by-the-U-S-Department-of-Energy-to-Support-Project-AMAZE-and-American-Made-Manufacturing-Expansion.html",
+   "https://www.businesswire.com/news/home/20251204065704/en/ZincFive-Raises-%2430-Million-in-Oversubscribed-Series-F-Financing-to-Power-the-Data-Center-Infrastructure-Behind-the-AI-Boom",
+   "https://www.ess-news.com/2025/11/05/japans-ngk-discontinues-manufacturing-of-sodium-sulfur-batteries/",
+   "https://www.energy-storage.news/liquid-metal-startup-ambri-back-in-business-after-chapter-11-bankruptcy/",
+   "https://www.energy-storage.news/enervenue-closes-us300-million-series-b-for-30000-cycle-nickel-hydrogen-battery-manufacturing/",
+   "https://www.ess-news.com/2025/10/22/alsym-energy-launches-na-series-claiming-safe-low-cost-sodium-ion-battery-storage/",
+   "https://www.ess-news.com/2026/02/27/lyten-completes-northvolt-acquisition-set-to-manufacture-lithium-sulfur-batteries-at-gigascale-and-kickstart-rd-in-sweden/",
+   "https://www.skeletontech.com/news/skeleton-opens-220-million-leipzig-factory-to-stabilise-europes-electrical-grid-and-ai-infrastructure",
+   "https://www.energy-storage.news/element-energy-commissions-worlds-largest-second-life-bess-at-53mwh-partners-with-lg-es-vertech/",
+   "https://www.prnewswire.com/news-releases/moment-energy-raises-us40m-series-b-to-build-the-worlds-largest-second-life-battery-factory-302762579.html",
+   "https://www.eu-startups.com/2025/06/german-cleantech-startup-voltfang-secures-e15-million-and-launches-europes-largest-second-life-battery-factory/",
+   "https://www.businesswire.com/news/home/20251008106005/en/Base-Power-Raises-%241-Billion-Series-C-to-Build-the-Future-of-American-Power",
+   "https://www.ess-news.com/2025/12/12/inlyte-proves-out-first-full-scale-iron-sodium-battery-system-in-factory-test-paving-way-for-2026-us-production/",
+   "https://www.ess-news.com/2025/04/25/consultation-over-5-gwh-french-sodium-ion-battery-factory/"
+  ]
+ }
+}

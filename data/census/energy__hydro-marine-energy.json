@@ -1,0 +1,462 @@
+{
+ "sector": "energy",
+ "bucket": "Hydro & Marine Energy",
+ "census": {
+  "bucket": "Hydro & Marine Energy",
+  "sources": [
+   "https://www.ren21.net/gsr-2025/technologies/ocean-power/",
+   "https://www.oceanenergy-europe.eu/wp-content/uploads/2025/04/Ocean-Energy-Stats-Trends-2024.pdf",
+   "https://www.marinetechnologynews.com/news/meygen-tidal-energy-operational-650672",
+   "https://magneticsmag.com/proteus-marine-renewables-advances-subsea-tidal-power/",
+   "https://www.orbitalmarine.com/orbital-secures-7m-investment/",
+   "https://minesto.com/faroe-islands/",
+   "https://www.flowatt.fr/en/",
+   "https://www.offshore-energy.biz/sustainable-marine-energy-sinks-into-administration/",
+   "https://corpowerocean.com/corpower-ocean-secures-eur-32m-series-b1-funding-to-commercialise-wave-energy/",
+   "https://www.ecowavepower.com/eco-wave-power-hits-historic-milestone-launches-first-ever-u-s-wave-energy-project-at-port-of-los-angeles/",
+   "https://www.offshore-energy.biz/wello-files-for-bankruptcy-and-ceases-wave-energy-operations/",
+   "https://globalotec.co/global-otec-and-makai-ocean-engineering-sign-mou-for-heat-exchanger-technology/",
+   "https://www.makai.com/renewable-energy/otec/",
+   "https://news.mongabay.com/2025/12/for-fossil-fuel-dependent-islands-ocean-thermal-energy-offers-a-lifeline/",
+   "https://www.weforum.org/stories/2025/09/what-is-osmotic-energy-and-how-could-it-generate-one-fifth-of-the-world-s-energy-needs/",
+   "https://www.aquatechtrade.com/news/water-treatment/osmotic-energy-sweetch-25-million-investment",
+   "https://cordis.europa.eu/project/id/954045",
+   "https://www.severncommission.co.uk/wp-content/uploads/2025/03/Severn-Estuary-Commission-Final-Report.pdf",
+   "https://national-infrastructure-consenting.planninginspectorate.gov.uk/projects/EN0110006",
+   "https://www.geplus.co.uk/news/severn-estuary-tidal-lagoon-recommended-as-positive-alternative-to-barrage-25-03-2025/",
+   "https://www.natelenergy.com/",
+   "https://www.waterpowermagazine.com/news/natel-energy-to-study-fish-safe-turbine-retrofit-at-st-lawrence-fdr-power-project/",
+   "https://tethys.pnnl.gov/project-sites/rivgen-power-system",
+   "https://www.power-technology.com/news/emrgy-aquires-18-4m-series-a-funding/",
+   "https://www.lacaisse.com/en/news/pressreleases/innergex-enters-definitive-agreement-be-acquired-cdpq-1375-share",
+   "https://www.mordorintelligence.com/industry-reports/global-hydropower-market",
+   "https://www.ryedevelopment.com/projects.html",
+   "https://openei.org/wiki/PRIMRE/Databases/Projects_Database/Devices/AW-Energy_WaveRoller",
+   "https://novainnovation.com/tidal-energy",
+   "https://www.offshore-energy.biz/nova-innovation-and-rsk-establishes-floating-solar-joint-venture/"
+  ],
+  "variations": [
+   {
+    "name": "Conventional & run-of-river hydropower (incl. modernization/uprating)",
+    "description": "Flowing river water, impounded behind dams or diverted run-of-river, spins turbines; at roughly 1,400 GW installed it is the world's largest renewable electricity source, and re-powering 50+ year-old fleets adds clean capacity and grid flexibility without building new dams.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Voith Hydro",
+      "role": "incumbent",
+      "what": "Top-3 global hydro OEM supplying turbines, generators and full-plant modernization/uprating packages for utility fleets.",
+      "signal": "Century-old hydro franchise; modernization/refurbishment is a core dedicated business line across Europe, Americas, Asia.",
+      "status": "operating",
+      "source": "https://www.voith.com/corp-en/hydropower-components/modernization.html"
+     },
+     {
+      "name": "Andritz Hydro",
+      "role": "incumbent",
+      "what": "Austrian OEM with one of the largest installed turbine bases worldwide; 'from water-to-wire' new builds plus a large refurbishment and service business.",
+      "signal": "Top-3 hydro OEM; presented major modernization and pumped-storage projects alongside Voith at Volta-X 2025.",
+      "status": "operating",
+      "source": "https://www.andritz.com/hydro-en/about-andritz-hydro/locations/ravensburg-germany/short-news-germany"
+     },
+     {
+      "name": "GE Vernova (Hydro Power)",
+      "role": "incumbent",
+      "what": "Supplies large Francis/Kaplan and pumped-storage equipment and uprates a major share of the global installed hydro fleet.",
+      "signal": "NYSE-listed since 2024 spin-off; hydro sits in its Power segment with record 2025 orders companywide.",
+      "status": "operating",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001996810/000199681025000159/gevpressrelease3q25.htm"
+     },
+     {
+      "name": "Brookfield Renewable",
+      "role": "incumbent",
+      "what": "One of the largest non-utility hydro owner-operators (~8 GW), monetizing 24/7 carbon-free hydro through corporate offtakes.",
+      "signal": "July 2025: ~$3B framework agreement with Google for up to 3,000 MW of US hydropower (first tranche in PJM).",
+      "status": "operating",
+      "source": "https://www.mordorintelligence.com/industry-reports/global-hydropower-market"
+     },
+     {
+      "name": "Statkraft",
+      "role": "incumbent",
+      "what": "Europe's largest renewable generator, hydro-dominated, using machine-learning plant optimization to squeeze more output from existing assets.",
+      "signal": "Reported ~20% capacity boosts across 12 plants via ML optimization.",
+      "status": "operating",
+      "source": "https://www.mordorintelligence.com/industry-reports/global-hydropower-market"
+     },
+     {
+      "name": "Innergex Renewable Energy",
+      "role": "incumbent",
+      "what": "Independent power producer with a large run-of-river hydro fleet (British Columbia, Quebec, Chile, France) within a 4.7 GW renewables portfolio.",
+      "signal": "Taken private by pension giant CDPQ for ~C$10B (announced Feb 2025, closed July 2025) at a 58% premium \u2014 institutional capital paying up for run-of-river hydro.",
+      "status": "acquired",
+      "source": "https://www.lacaisse.com/en/news/pressreleases/innergex-enters-definitive-agreement-be-acquired-cdpq-1375-share"
+     }
+    ]
+   },
+   {
+    "name": "Small & modular hydro (low-head, fish-safe turbines)",
+    "description": "Compact, standardized turbines \u2014 including fish-safe runners, submersible units and vortex/screw designs \u2014 extract power from low dams, locks, weirs and conduits, unlocking the tens of GW sitting at existing non-powered dams without new impoundments.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Natel Energy",
+      "role": "startup",
+      "what": "FishSafe Restoration Hydro Turbine with thick blunt-edged blades that lets fish pass through the runner alive (98-100% demonstrated survival) at up to 94% efficiency.",
+      "signal": "~$9M in DOE WPTO funding across seven programs; 2025 feasibility study for NYPA to retrofit the St. Lawrence-FDR project; commercial units in US and Europe.",
+      "status": "operating",
+      "source": "https://www.waterpowermagazine.com/news/natel-energy-to-study-fish-safe-turbine-retrofit-at-st-lawrence-fdr-power-project/"
+     },
+     {
+      "name": "Rye Development",
+      "role": "scaleup",
+      "what": "Develops low-impact, low-head hydro plants on existing US Army Corps locks and dams (Ohio, Allegheny, Monongahela rivers).",
+      "signal": "Constructing at Emsworth, Charleroi and Allegheny L/D 2 with a dozen-plus project offtake pipeline; separately won $81M DOE award for pumped storage.",
+      "status": "operating",
+      "source": "https://www.ryedevelopment.com/projects.html"
+     },
+     {
+      "name": "Turbulent",
+      "role": "startup",
+      "what": "Belgian maker of 15-100 kW gravitational vortex micro-hydro plants for sites with under 3 m of head, built modularly for off-grid and rural use.",
+      "signal": "Installations across Chile, Indonesia, the Philippines and Europe; equity-crowdfunded and distributor-driven growth.",
+      "status": "operating",
+      "source": "https://www.ruralelec.org/member/turbulent-hydro/"
+     },
+     {
+      "name": "Voith Hydro (StreamDiver)",
+      "role": "incumbent",
+      "what": "Plug-and-play sealed submersible turbine product line for very low-head sites and existing weirs, requiring no powerhouse.",
+      "signal": "Commercial product with deployments in Europe and North America, sold as a standardized small-hydro module.",
+      "status": "operating",
+      "source": "https://www.voith.com/corp-en/hydropower-components.html"
+     },
+     {
+      "name": "Andritz (Compact Hydro)",
+      "role": "incumbent",
+      "what": "Standardized 'Compact Hydro' equipment line for small plants up to ~30 MW, cutting engineering cost via series production.",
+      "signal": "Thousands of compact units delivered globally as part of the world's largest small-hydro equipment business.",
+      "status": "operating",
+      "source": "https://www.andritz.com/hydro-en"
+     }
+    ],
+    "white_space": "Per-kW costs and site-specific civil works keep small hydro above solar+storage in most markets; the opening is standardization plus retrofit of the ~90,000 US non-powered dams under streamlined FERC licensing, where fish-safe turbines (Natel) collapse the cost of environmental compliance."
+   },
+   {
+    "name": "Hydrokinetic river & canal turbines",
+    "description": "Submerged turbines harvest kinetic energy from free-flowing rivers and irrigation canals with no dam at all; output per unit is small but highly predictable, making it ideal for displacing diesel in remote communities and monetizing existing canal infrastructure.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "ORPC (Ocean Renewable Power Company)",
+      "role": "startup",
+      "what": "RivGen cross-flow river turbines integrated with microgrid controls and storage to displace diesel in remote villages.",
+      "signal": "Two RivGen units have powered Igiugig, Alaska since 2019/2023 \u2014 the longest-operating hydrokinetic project in the Americas; multi-program DOE backing.",
+      "status": "operating",
+      "source": "https://tethys.pnnl.gov/project-sites/rivgen-power-system"
+     },
+     {
+      "name": "Emrgy",
+      "role": "startup",
+      "what": "Drop-in modular hydrokinetic turbines for irrigation canals, partnering with water districts to generate from existing flows and drops.",
+      "signal": "$18.4M raise (2023) plus $3.6M ARPA-E SHARKS award; arrays deployed in US irrigation districts (Denver, California).",
+      "status": "operating",
+      "source": "https://www.power-technology.com/news/emrgy-aquires-18-4m-series-a-funding/"
+     },
+     {
+      "name": "Id\u00e9nergie",
+      "role": "startup",
+      "what": "Montreal maker of a portable ~500 W Darrieus river turbine producing up to 12 kWh/day for off-grid cabins and remote homes.",
+      "signal": "Consumer product sold since ~2016, but little visible company activity since 2019.",
+      "status": "uncertain",
+      "source": "https://idenergie.ca/en/river-turbine/"
+     },
+     {
+      "name": "Smart Hydro Power",
+      "role": "startup",
+      "what": "German supplier of floating 5 kW hydrokinetic turbines and hybrid kits for rural electrification in Peru, India and elsewhere.",
+      "signal": "Pioneered floating river turbines in the 2010s; minimal recent news or funding activity.",
+      "status": "uncertain",
+      "source": "https://pitchbook.com/profiles/company/54451-99"
+     }
+    ],
+    "white_space": "Slow rivers carry little extractable energy density and debris/ice drive O&M costs, so per-kWh economics lose to solar+storage almost everywhere; the credible wedges are Arctic and remote diesel-dependent communities (ORPC's niche, with diesel at $0.50+/kWh) and irrigation canals where interconnection, water rights and civil works already exist (Emrgy's niche) \u2014 two startups effectively own these openings today."
+   },
+   {
+    "name": "Tidal stream turbines (seabed, floating, kite)",
+    "description": "Underwater turbines \u2014 bottom-mounted, hung from floating platforms, or flown on subsea kites \u2014 convert fast, astronomically predictable tidal currents into electricity, providing forecastable renewable power that complements variable wind and solar.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Proteus Marine Renewables",
+      "role": "scaleup",
+      "what": "Builds megawatt-class seabed turbines (the AR series inherited from SIMEC Atlantis), the workhorse machines at MeyGen and in Japan.",
+      "signal": "Installed a 1.1 MW turbine in Japan's Naru Strait (Feb 2025); upgraded 1.5 MW unit revenue-generating at MeyGen; SKF partnership to deliver a minimum 59 MW MeyGen expansion.",
+      "status": "operating",
+      "source": "https://magneticsmag.com/proteus-marine-renewables-advances-subsea-tidal-power/"
+     },
+     {
+      "name": "SAE Renewables",
+      "role": "incumbent",
+      "what": "AIM-listed owner-operator of MeyGen in Scotland's Pentland Firth, the world's largest tidal stream array.",
+      "signal": "MeyGen has produced 84+ GWh, a world record; awarded a further 9 MW CfD in AR6 (Sept 2024) for delivery 2028/29.",
+      "status": "operating",
+      "source": "https://www.marinetechnologynews.com/news/meygen-tidal-energy-operational-650672"
+     },
+     {
+      "name": "Orbital Marine Power",
+      "role": "scaleup",
+      "what": "Floating tidal platform (O2, 2 MW \u2014 the world's most powerful tidal turbine) with retractable legs for cheap vessel-free maintenance.",
+      "signal": "O2 grid-connected at EMEC since 2021; 17 MW CfD portfolio after AR7 (Feb 2026); \u00a37M round closed Dec 2025; next-gen 2.4 MW O2-X received Lloyd's IECRE feasibility statement.",
+      "status": "operating",
+      "source": "https://www.orbitalmarine.com/orbital-secures-7m-investment/"
+     },
+     {
+      "name": "Minesto",
+      "role": "scaleup",
+      "what": "Subsea 'kite' (Dragon 12) that flies figure-eights to multiply effective flow speed, enabling power from low-velocity tidal sites others can't use.",
+      "signal": "Nasdaq First North-listed; 1.2 MW Dragon 12 grid-connected in the Faroe Islands May 2025 with +25% output from a longer tether; >\u20ac40M cumulative EU funding; microgrid demo with Swedish Energy Agency.",
+      "status": "operating",
+      "source": "https://minesto.com/faroe-islands/"
+     },
+     {
+      "name": "Nova Innovation",
+      "role": "startup",
+      "what": "Direct-drive seabed turbines; built the world's first offshore tidal array (Bluemull Sound, Shetland, 2016).",
+      "signal": "Won 6 MW of CfDs in AR6 (2024) for EMEC deployment, but diversified into floating solar via the AquaGen365 JV with RSK (2024) \u2014 a hedge signaling tidal revenue strain.",
+      "status": "operating",
+      "source": "https://www.offshore-energy.biz/nova-innovation-and-rsk-establishes-floating-solar-joint-venture/"
+     },
+     {
+      "name": "HydroQuest",
+      "role": "startup",
+      "what": "French vertical-axis ducted tidal turbines; leading FloWatt, the 17 MW pilot farm at Raz Blanchard, Normandy.",
+      "signal": "\u20ac65M French state support plus revenue support; 72 composite blades ordered from Loiretech in early 2025; commissioning targeted 2028.",
+      "status": "operating",
+      "source": "https://www.flowatt.fr/en/"
+     },
+     {
+      "name": "Verdant Power",
+      "role": "startup",
+      "what": "Axial-flow turbines on a TriFrame mount, proven at the NYC East River RITE site (Gen5, 2020-21, powering Con Edison's grid).",
+      "signal": "Small (~16-person) team; Verdant Isles JV holds a 4.9 MW UK CfD for 2027/28 off Anglesey; research collaboration with Stony Brook running into 2026.",
+      "status": "operating",
+      "source": "https://verdantpower.com/"
+     },
+     {
+      "name": "Sustainable Marine Energy",
+      "role": "startup",
+      "what": "Floating PLAT-I tidal platform; delivered Canada's first floating tidal power to the Nova Scotia grid in the Bay of Fundy.",
+      "signal": "Withdrew its 9 MW Pempa'q project blaming an opaque DFO permitting process, then entered administration in August 2023 \u2014 a regulatory-risk cautionary tale.",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.offshore-energy.biz/sustainable-marine-energy-sinks-into-administration/"
+     }
+    ]
+   },
+   {
+    "name": "Tidal range, barrages & lagoons",
+    "description": "Dams or artificial lagoons across high-tide-range estuaries impound seawater and release it through bulb turbines, delivering utility-scale, century-lifetime, perfectly predictable generation \u2014 at multi-billion upfront cost and with estuarine ecosystem impacts.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "EDF",
+      "role": "incumbent",
+      "what": "Operates the 240 MW La Rance barrage in Brittany, the world's longest-running tidal power station, since 1966.",
+      "signal": "Six decades of commercial operation proving century-scale asset life for tidal range.",
+      "status": "operating",
+      "source": "https://www.ice.org.uk/news-views-insights/inside-infrastructure/tidal-power"
+     },
+     {
+      "name": "K-water (Korea Water Resources Corp)",
+      "role": "incumbent",
+      "what": "Operates the 254 MW Sihwa Lake plant (2011), the world's largest tidal power station, built into an existing seawall.",
+      "signal": "One of only two large tidal range plants operating worldwide; piggybacked on existing infrastructure to manage cost.",
+      "status": "operating",
+      "source": "https://www.ice.org.uk/news-views-insights/inside-infrastructure/tidal-power"
+     },
+     {
+      "name": "Tidal Lagoon Power",
+      "role": "startup",
+      "what": "Developed the 320 MW Swansea Bay 'pathfinder' tidal lagoon, the UK's flagship private tidal-range venture.",
+      "signal": "Collapsed after the UK government rejected its CfD in 2018 on value-for-money grounds \u2014 the sector's defining failure.",
+      "status": "bankrupt-shutdown",
+      "source": "https://knowledgehub.ice.org.uk/cpd/sustainable-dev/tidal-range-power/"
+     },
+     {
+      "name": "Mersey Tidal Power (Liverpool City Region Combined Authority)",
+      "role": "incumbent",
+      "what": "Publicly led ~\u00a33.5bn barrage/lagoon scheme on the Mersey, the UK's most advanced tidal range project in the planning pipeline.",
+      "signal": "Combined Authority approved progression in Sept 2024; registered with the Planning Inspectorate for DCO consenting.",
+      "status": "operating",
+      "source": "https://national-infrastructure-consenting.planninginspectorate.gov.uk/projects/EN0110006"
+     }
+    ],
+    "white_space": "The resource is enormous and perfectly predictable (the Severn alone could supply ~7% of UK electricity), but no private balance sheet can carry multi-billion, 120-year assets with 20+ year paybacks plus habitats-directive litigation \u2014 which is why only two large plants exist and the lone venture-backed attempt (Swansea) died. The Severn Estuary Commission (March 2025) recommended a government-enabled demonstration lagoon over any barrage; the opening is for sovereign/pension capital and EPC consortia under regulated-asset-base style financing, not startups."
+   },
+   {
+    "name": "Wave energy converters (point absorber, OWC, attenuator, overtopping)",
+    "description": "Devices spanning point absorbers, oscillating water columns, hinged flaps/attenuators and overtopping designs convert wave motion into electricity; the global resource is vast and winter-peaking, complementing solar, but survivability in storms has historically destroyed both devices and companies.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "CorPower Ocean",
+      "role": "scaleup",
+      "what": "Swedish point absorber with WaveSpring phase control that amplifies motion in normal seas and detunes to survive storms, claiming ~5x energy per ton.",
+      "signal": "C4 grid-connected at Agu\u00e7adoura, Portugal; \u20ac32M Series B1 plus up to \u20ac17.5M EIC (Feb 2025); leading the \u20ac30M POWER-Farm EU toward a 10 MW farm; EMEC berth signed May 2025.",
+      "status": "operating",
+      "source": "https://corpowerocean.com/corpower-ocean-secures-eur-32m-series-b1-funding-to-commercialise-wave-energy/"
+     },
+     {
+      "name": "Eco Wave Power",
+      "role": "scaleup",
+      "what": "Nasdaq-listed (WAVE) developer of breakwater/jetty-mounted floaters with all conversion equipment onshore, slashing marine installation and O&M cost.",
+      "signal": "Launched the first US onshore wave project at the Port of Los Angeles (100 kW, with AltaSea and Shell MRE) in Sept 2025; grid-connected EWP-EDF One in Israel; raised $3M toward a 20 MW commercial plant.",
+      "status": "operating",
+      "source": "https://www.ecowavepower.com/eco-wave-power-hits-historic-milestone-launches-first-ever-u-s-wave-energy-project-at-port-of-los-angeles/"
+     },
+     {
+      "name": "AW-Energy",
+      "role": "scaleup",
+      "what": "Finnish maker of the WaveRoller, a seabed-hinged oscillating flap (350 kW) operating in the nearshore surge zone off Peniche, Portugal.",
+      "signal": "USD 19.1M revenue in 2024 from deployments and licensing; ONDEP Horizon Europe project will deploy a four-device array at Peniche.",
+      "status": "operating",
+      "source": "https://openei.org/wiki/PRIMRE/Databases/Projects_Database/Devices/AW-Energy_WaveRoller"
+     },
+     {
+      "name": "Carnegie Clean Energy",
+      "role": "scaleup",
+      "what": "ASX-listed developer of CETO, a fully submerged point absorber that avoids storm loading by sitting beneath the surface.",
+      "signal": "Advancing CETO through the EuropeWave ACHIEVE program toward deployment at BiMEP, Spain; operates the Garden Island wave/solar microgrid in Western Australia.",
+      "status": "operating",
+      "source": "https://www.gminsights.com/industry-analysis/wave-energy-converter-market"
+     },
+     {
+      "name": "Ocean Power Technologies",
+      "role": "scaleup",
+      "what": "NYSE-listed (OPTT) maker of the PB3 PowerBuoy for autonomous offshore power; strategically pivoted from utility-scale wave power to maritime security, sensors and WAM-V unmanned surface vessels.",
+      "signal": "Decades-listed survivor whose pivot away from grid-scale wave power is itself market evidence; recurring defense and offshore-monitoring contracts.",
+      "status": "operating",
+      "source": "https://oceanpowertechnologies.com/"
+     },
+     {
+      "name": "Mocean Energy",
+      "role": "startup",
+      "what": "Scottish hinged-raft attenuator (Blue X/Blue Horizon) targeting near-term revenue powering subsea oil & gas and offshore equipment with Verlume subsea batteries.",
+      "signal": "Completed multi-phase Renewables for Subsea Power demos with industry partners (Harbour Energy, Serica, et al.) off Orkney.",
+      "status": "operating",
+      "source": "https://www.mocean.energy/"
+     },
+     {
+      "name": "CalWave Power Technologies",
+      "role": "startup",
+      "what": "Fully submerged xWave pressure-differential absorber that operates beneath the surface for storm survivability.",
+      "signal": "Completed a 10-month open-water pilot off San Diego with 99% uptime; DOE-backed deployment planned at the PacWave South test site.",
+      "status": "operating",
+      "source": "https://calwave.energy/"
+     },
+     {
+      "name": "Oscilla Power",
+      "role": "startup",
+      "what": "Triton multi-mode point absorber with a ring-shaped reaction hull; the 100 kW Triton-C was deployed at the US Navy's WETS site in Hawaii.",
+      "signal": "DOE and Navy-supported; one of the few US devices to reach grid-connected ocean testing.",
+      "status": "operating",
+      "source": "https://www.oscillapower.com/"
+     },
+     {
+      "name": "Wello Oy",
+      "role": "startup",
+      "what": "Finnish developer of the Penguin rotating-eccentric-mass converter with all moving parts sealed inside the hull.",
+      "signal": "Filed for bankruptcy in Feb 2023 after two full-scale Penguins failed at sea (last off Spain, 2021); IP and team picked up by Holvi Oy.",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.offshore-energy.biz/wello-files-for-bankruptcy-and-ceases-wave-energy-operations/"
+     },
+     {
+      "name": "Wave Swell Energy",
+      "role": "startup",
+      "what": "Australian oscillating water column (UniWave200) with a simplified one-way turbine, validated on the King Island grid in Tasmania.",
+      "signal": "200 kW unit ran 2021-22 then was decommissioned and removed (Mar 2023); opened an investment round afterward but little public progress since.",
+      "status": "uncertain",
+      "source": "https://www.offshore-energy.biz/wave-swell-energy-opens-investment-round-after-completing-tasmania-trial/"
+     }
+    ]
+   },
+   {
+    "name": "Ocean thermal energy conversion (OTEC)",
+    "description": "Exploits the 20-25\u00b0C temperature difference between warm tropical surface water and 4\u00b0C deep ocean water to run a closed Rankine cycle around the clock \u2014 thermodynamically inefficient but tapping an enormous baseload resource best matched to island grids paying diesel prices.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Makai Ocean Engineering",
+      "role": "incumbent",
+      "what": "Hawaii engineering firm with 40+ years in OTEC; operates one of the world's only grid-connected OTEC plants (105 kW at NELHA) and builds Thin-Foil Heat Exchangers attacking OTEC's largest cost component.",
+      "signal": "2025 MoU to integrate its TFHX into Global OTEC's modular 500 kW Power Module scalable to 50 MW.",
+      "status": "operating",
+      "source": "https://www.makai.com/renewable-energy/otec/"
+     },
+     {
+      "name": "Global OTEC",
+      "role": "startup",
+      "what": "UK startup commercializing floating OTEC barges for island states \u2014 the 1.5 MW 'Dominique' for S\u00e3o Tom\u00e9 and Pr\u00edncipe, upscalable to 10 MW.",
+      "signal": "Lloyd's Register Approval in Principle; UNIDO-supported ESIA underway; Horizon Europe/UKRI-funded PLOTEC storm-resilient platform; Makai heat-exchanger partnership (2025).",
+      "status": "operating",
+      "source": "https://globalotec.co/global-otec-and-makai-ocean-engineering-sign-mou-for-heat-exchanger-technology/"
+     },
+     {
+      "name": "Bluerise",
+      "role": "startup",
+      "what": "Dutch OTEC and seawater air-conditioning pioneer (Cura\u00e7ao projects) spun out of TU Delft.",
+      "signal": "Acquired by offshore contractor Allseas (2019), which absorbed the technology to develop OTEC at offshore-industry scale.",
+      "status": "acquired",
+      "source": "https://www.rechargenews.com/technology/otec-start-up-snapped-up-by-swiss-offshore-contractor-allseas/2-1-635687"
+     },
+     {
+      "name": "Ocean Thermal Energy Corporation (OTE)",
+      "role": "startup",
+      "what": "Long-running US developer of OTEC and SWAC projects (Bahamas resorts), publicly framing the sector's 'Innovation Valley of Death.'",
+      "signal": "States a first 5-10 MW plant needs $200-300M that no one has funded; little visible project construction.",
+      "status": "uncertain",
+      "source": "https://environment.sciencearray.com/ocean-thermal-energy-conversion-otec-clean-power"
+     }
+    ],
+    "white_space": "Physics caps OTEC at ~3-4% thermal efficiency from a ~22\u00b0C delta, so gigantic water flows, kilometer-scale cold-water pipes and heat-exchanger area dominate cost \u2014 no plant above 1 MW has ever run, and the $200-300M first commercial unit has no natural funder. The opening: small island states burning diesel at $0.25-0.40/kWh, with desalination and seawater air-conditioning co-products, plus defense interest in island bases; a verified heat-exchanger/cold-pipe cost breakthrough (e.g., Makai's TFHX in Global OTEC's barge) is the unlock, leaving the field to essentially two credible players."
+   },
+   {
+    "name": "Salinity-gradient / osmotic power",
+    "description": "Mixing fresh and salt water releases free energy ('blue energy') that membranes capture via reverse electrodialysis or pressure-retarded osmosis at estuaries, salt caverns and desalination outfalls \u2014 a 24/7, weather-independent resource estimated in the thousands of TWh per year.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Sweetch Energy",
+      "role": "startup",
+      "what": "French CNRS spin-off whose INOD nanofluidic electrodes/membranes deliver order-of-magnitude higher power density for reverse electrodialysis at river mouths.",
+      "signal": "~\u20ac50M raised (Cr\u00e9dit Mutuel Impact, EDF Pulse, CNR, EIC); OsmoRh\u00f4ne 1 pilot operating at the Rh\u00f4ne delta with CNR since end-2024; WEF Technology Pioneer 2025; targets ~500 MW Rh\u00f4ne potential.",
+      "status": "operating",
+      "source": "https://www.aquatechtrade.com/news/water-treatment/osmotic-energy-sweetch-25-million-investment"
+     },
+     {
+      "name": "SaltPower",
+      "role": "startup",
+      "what": "Danish company running pressure-retarded osmosis on saturated salt-cavern brine, whose extreme gradient (10x seawater) sidesteps the power-density problem that killed estuary PRO.",
+      "signal": "~100 kW commercial unit operating at a Nobian salt site; EU Horizon 2020 scale-up project; founded 2015.",
+      "status": "operating",
+      "source": "https://cordis.europa.eu/project/id/954045"
+     },
+     {
+      "name": "REDstack",
+      "role": "startup",
+      "what": "Dutch reverse-electrodialysis developer operating the 'Blue Energy' pilot on the Afsluitdijk mixing Wadden Sea and IJsselmeer water since 2014.",
+      "signal": "~\u20ac5M Waddenfonds grant for scale-up; exploring green hydrogen co-production at the plant.",
+      "status": "operating",
+      "source": "https://www.dutchwatersector.com/news/redstack-nears-first-green-hydrogen-production-at-its-salt-fresh-water-blue-energy-plant"
+     },
+     {
+      "name": "Statkraft",
+      "role": "incumbent",
+      "what": "Built the world's first pressure-retarded-osmosis prototype plant (Tofte, Norway, 2009) \u2014 then shut the program down circa 2013-14 when membrane power density made costs hopeless.",
+      "signal": "The sector's defining cautionary tale: an incumbent with cheap capital exited because membranes delivered ~1 W/m\u00b2 against a ~5 W/m\u00b2 breakeven.",
+      "status": "operating",
+      "source": "https://earth.org/osmotic-power-the-next-wave-of-renewable-energy/"
+     }
+    ],
+    "white_space": "Classical membranes produce under 1-3 W/m\u00b2 versus a ~5 W/m\u00b2 economic threshold \u2014 that physics killed Statkraft's pioneer plant and kept the field empty for a decade. New nanomaterial electrodes (Sweetch) and extreme-gradient siting (SaltPower's saturated brines) reopen it; the white space is co-location with desalination outfalls and salt/chlor-alkali industries where the gradient is free and water pretreatment already exists \u2014 only ~3 credible companies worldwide are pursuing a resource theoretically worth a fifth of global electricity."
+   }
+  ]
+ }
+}

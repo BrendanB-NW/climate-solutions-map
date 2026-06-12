@@ -1,0 +1,606 @@
+{
+ "sector": "cdr",
+ "bucket": "Biochar & Bio-oil",
+ "census": {
+  "bucket": "Biochar & Bio-oil",
+  "variations": [
+   {
+    "name": "Industrial slow-pyrolysis biochar plants",
+    "description": "Continuous industrial reactors bake forestry and agricultural residues without oxygen into stable biochar plus usable process heat/power, locking ~2-3 tCO2 per tonne of char for centuries while producing a saleable soil product; this route delivers the large majority of all durable carbon removal credits retired to date.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Exomad Green",
+      "role": "scaleup",
+      "what": "Operates the world's largest biochar facilities in Bolivia (Concepcion, Guarayos), converting sawmill/forestry residues at industrial scale and giving char free to indigenous communities",
+      "signal": "~260,000 tCO2/yr removal capacity; ~27% of all delivered durable CDR; Microsoft 1.24 Mt offtake (May 2025), the largest biochar deal ever",
+      "status": "operating",
+      "source": "https://www.carbonfuture.com/magazine/exomad-green-announces-worlds-largest-biochar-carbon-removal-agreement-with-microsoft-tracked-by-carbonfuture-mrv"
+     },
+     {
+      "name": "NetZero",
+      "role": "startup",
+      "what": "Builds coffee-husk pyrolysis plants in tropical farming regions (Brazil, Cameroon) and sells char back to growers as fertilizer complement",
+      "signal": "\u20ac18M from STOA (Mar 2024) on top of \u20ac11M Series A (~$39M total); 4 commercial sites in Brazil; XPRIZE Carbon Removal finalist",
+      "status": "operating",
+      "source": "https://stoainfraenergy.com/en/french-greentech-netzero-raises-e18-million-from-impact-fund-stoa-to-accelerate-the-industrialization-of-its-biochar-model"
+     },
+     {
+      "name": "Novocarbo",
+      "role": "scaleup",
+      "what": "Develops 'Carbon Removal Parks' across Europe that co-locate pyrolysis with industrial customers buying the waste heat",
+      "signal": "\u20ac25M from SWEN Capital Partners (2024); roadmap of up to 200 parks across Europe",
+      "status": "operating",
+      "source": "https://techfundingnews.com/novocarbo-raises-e25m-to-build-up-to-200-carbon-removal-parks-across-europe/"
+     },
+     {
+      "name": "Carbo Culture",
+      "role": "startup",
+      "what": "Patented pressurized 'carbolysis' reactors; its R2 plant in Honkajoki, Finland is one of Europe's largest single biochar units",
+      "signal": "~$26M+ raised (True Ventures et al.); \u20ac3.5M Dutch grant to launch ARC Middenmeer plant in North Holland (announced Mar 2026)",
+      "status": "operating",
+      "source": "https://sifted.eu/articles/carbo-culture-biochar-plant-news"
+     },
+     {
+      "name": "Oregon Biochar Solutions",
+      "role": "startup",
+      "what": "Runs one of the largest US biochar plants (White City, OR) on forestry waste, producing 24/7 at industrial volume",
+      "signal": "Puro.earth-certified CORC supplier; credits retailed via Climate Impact Partners",
+      "status": "operating",
+      "source": "https://puro.earth/CORC-co2-removal-certificate/supplier-listing/oregon-biochar-solutions"
+     },
+     {
+      "name": "Standard Biocarbon",
+      "role": "startup",
+      "what": "Continuous PYREG-based plant using sawmill residuals, co-located with Pleasant River Lumber in Maine",
+      "signal": "First-of-kind Maine facility (ReGenerate Livermore Falls) producing and Puro-certified since 2024",
+      "status": "operating",
+      "source": "https://www.standardbiocarbon.com/"
+     },
+     {
+      "name": "Wakefield Biochar",
+      "role": "startup",
+      "what": "Produces biochar at three US sites partnered with pulp and sawmills and sells consumer/agricultural soil products at retail scale",
+      "signal": "Multi-site production per April 2025 industry mapping; one of the most distributed US brands",
+      "status": "operating",
+      "source": "https://www.geoengineeringmonitor.org/geo-map-biochar-apr25"
+     },
+     {
+      "name": "Carbofex",
+      "role": "startup",
+      "what": "Early Finnish producer (since 2017) making biochar plus bio-oil from spruce chips, an early Puro.earth supplier",
+      "signal": "~700 t char + 600 t bio-oil/yr; supplied credits to Microsoft and Shopify; Carbon XPRIZE Top-60",
+      "status": "operating",
+      "source": "https://trellis.net/article/seven-biochar-companies-you-should-know/"
+     },
+     {
+      "name": "Cool Planet Energy Systems",
+      "role": "scaleup",
+      "what": "Pyrolysis 'carbon-negative gasoline' plus Cool Terra engineered biochar; the sector's biggest venture failure and a cautionary tale on fuel-plus-char economics",
+      "signal": "Raised ~$235M from BP, Google Ventures, ConocoPhillips, NRG; wound down operations around 2020",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.desmog.com/cool-planet-biochar-shoddy-science/"
+     }
+    ]
+   },
+   {
+    "name": "Gasification-route biochar with syngas/electricity co-generation",
+    "description": "Wood gasifiers partially convert biomass to syngas for combined heat and power and deliberately leave a carbon-rich char residue, so every kWh of dispatchable renewable power also yields certified carbon removal \u2014 economics lean on the energy sale rather than the char.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Syncraft",
+      "role": "scaleup",
+      "what": "Austrian two-stage 'floating-bed' wood gasification power plants (200-500 kWel) producing electricity, district heat and certified biochar",
+      "signal": ">25 plants in continuous operation (Austria, Italy, Japan, Croatia) with 800,000+ cumulative operating hours; new plant opened May 2025",
+      "status": "operating",
+      "source": "https://cleantechnica.com/2025/05/12/syncraft-opens-clean-power-plant-that-provides-electricity-heat-cdr/"
+     },
+     {
+      "name": "Burkhardt Energy",
+      "role": "incumbent",
+      "what": "Series-manufactured wood-pellet gasifier CHP modules (V3.90 line) with char co-product, factory-built in Bavaria since 2010",
+      "signal": "Hundreds of CHP units deployed across Europe",
+      "status": "operating",
+      "source": "https://burkhardt-gruppe.de/en/power-engineering/"
+     },
+     {
+      "name": "Spanner Re2",
+      "role": "incumbent",
+      "what": "Holz-Kraft containerized wood-chip gasifier CHPs for farms, hotels and district heat with biochar output",
+      "signal": "Several hundred plants installed worldwide; one of the longest-standing small-gasifier OEMs",
+      "status": "operating",
+      "source": "https://www.holz-kraft.com/en/"
+     },
+     {
+      "name": "Rainbow Bee Eater",
+      "role": "startup",
+      "what": "Australian ECHO2 gasification units that pipe syngas heat into industry (e.g., glasshouses) while producing biochar from green waste",
+      "signal": "Operating units near Melbourne; credits purchased by Shopify and Microsoft",
+      "status": "operating",
+      "source": "https://trellis.net/article/seven-biochar-companies-you-should-know/"
+     },
+     {
+      "name": "All Power Labs",
+      "role": "startup",
+      "what": "Berkeley maker of container-scale downdraft gasifier gensets (PP30, Powertainer) producing distributed power plus biochar; new Gen3 'swirl hearth' reactor",
+      "signal": "Units shipped to 40+ countries over more than a decade",
+      "status": "operating",
+      "source": "https://www.allpowerlabs.com/product-overview"
+     },
+     {
+      "name": "CHAR Technologies",
+      "role": "scaleup",
+      "what": "Canadian high-temperature pyrolysis/gasification converting wood waste and digestate into renewable gas plus biocarbon (CleanFyre) for steelmakers",
+      "signal": "TSXV-listed (YES); Thorold, Ontario commercial facility",
+      "status": "operating",
+      "source": "https://chartechnologies.com/"
+     }
+    ]
+   },
+   {
+    "name": "Mobile and village-scale pyrolysis units",
+    "description": "Small transportable carbonizers, tractor-mounted units and trained smallholder kiln networks convert dispersed agricultural and forestry residues into biochar at the field edge, avoiding open burning and biomass haulage costs \u2014 the cheapest feedstock in the world, but the hardest to monitor.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Takachar",
+      "role": "startup",
+      "what": "MIT spinout making low-cost, tractor-mountable units that convert crop residue to char/bioproducts in-field to stop residue burning",
+      "signal": "Earthshot Prize 2021 winner; Takavator Mini (~100 kg/hr) deployed in southern India, US West Coast and British Columbia",
+      "status": "operating",
+      "source": "https://earthshotprize.org/winners-finalists/takachar/"
+     },
+     {
+      "name": "Applied Carbon",
+      "role": "startup",
+      "what": "Self-propelled in-field pyrolyzer trailers (ex-Climate Robotics) that pick up crop residue, char it, quench it and spread it on the field in one pass",
+      "signal": "$21.5M Series A (Aug 2024) led by TO VC with Microsoft Climate Innovation Fund participation",
+      "status": "operating",
+      "source": "https://techcrunch.com/2024/07/31/applied-carbons-farm-robot-turns-plant-waste-into-biochar-to-capture-co2/"
+     },
+     {
+      "name": "Biochar Life",
+      "role": "startup",
+      "what": "Trains smallholder farmers in Kenya, Malawi and Thailand to make artisanal biochar (Kon-Tiki/trench kilns) and aggregates C-Sink credits",
+      "signal": "Sells via Carbonfuture; deploying WasteX semi-automated carbonizers across its network from 2025",
+      "status": "operating",
+      "source": "https://biochar.life/"
+     },
+     {
+      "name": "WasteX",
+      "role": "startup",
+      "what": "Singapore/Indonesia startup selling small semi-automated carbonizers to rice and poultry mills with credit revenue sharing",
+      "signal": "$450k from P4G (2024); trials showing 38-95% yield gains with halved fertilizer in Philippines/Indonesia",
+      "status": "operating",
+      "source": "https://climateinsider.com/2024/04/04/wastex-secures-450k-to-expand-biochar-solution-in-indonesia/"
+     },
+     {
+      "name": "HUSK",
+      "role": "startup",
+      "what": "Cambodia/Vietnam venture turning rice husks into biochar-based fertilizers for smallholders, now adding a dedicated pyrolysis plant with atmosfair",
+      "signal": "Mekong Capital investee; Kampong Thom plant commissioned Nov 2025 (~3 t char/day from 6 t husks)",
+      "status": "operating",
+      "source": "https://www.atmosfair.de/en/cambodia-biochar-rice-husks/"
+     },
+     {
+      "name": "Air Burners",
+      "role": "incumbent",
+      "what": "Florida maker of mobile air-curtain burners whose CharBoss model (developed with USDA Forest Service) converts forestry slash to char on-site",
+      "signal": "CharBoss units sold to utilities and forestry agencies for wildfire-fuel reduction",
+      "status": "operating",
+      "source": "https://airburners.com/"
+     },
+     {
+      "name": "Tigercat",
+      "role": "incumbent",
+      "what": "Canadian forestry-equipment manufacturer producing the 6050 Carbonator, a tracked mobile carbonizer for slash disposal",
+      "signal": "In serial production within an established global forestry equipment line",
+      "status": "operating",
+      "source": "https://www.tigercat.com/"
+     }
+    ]
+   },
+   {
+    "name": "Hydrothermal carbonization of wet wastes (hydrochar)",
+    "description": "Pressurized hot water (~180-250C) 'cooks' wet feedstocks like sewage sludge, manure and food waste into coal-like hydrochar without energy-intensive drying, solving a disposal problem and enabling phosphorus recovery \u2014 though hydrochar's lower carbon permanence limits its carbon-credit value versus pyrolysis char.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "TerraNova Energy",
+      "role": "startup",
+      "what": "German HTC technology (TerraNova Ultra) for sewage sludge with integrated phosphorus recovery; industrial reference plant in Jining, China",
+      "signal": "Operating industrial references in Germany and China; licenses to utilities",
+      "status": "operating",
+      "source": "https://www.terranova-energy.com/en/applications/"
+     },
+     {
+      "name": "Ingelia",
+      "role": "startup",
+      "what": "Spanish pioneer running continuous industrial HTC at Naquera since 2010 and licensing plants internationally",
+      "signal": "Longest-running industrial HTC plant; licensees including CPL in the UK",
+      "status": "operating",
+      "source": "https://ingelia.com/"
+     },
+     {
+      "name": "C-Green",
+      "role": "startup",
+      "what": "Swedish OxyPower HTC modules that use wet oxidation to make sludge-to-hydrochar nearly energy self-sufficient",
+      "signal": "First commercial unit at Stora Enso's Heinola mill (Finland); further Nordic deployments",
+      "status": "operating",
+      "source": "https://www.c-green.se/"
+     },
+     {
+      "name": "HTCycle",
+      "role": "startup",
+      "what": "German sewage-sludge HTC plant at Relzow with phosphorus recovery as the revenue anchor",
+      "signal": "Consistently ranked among the top HTC players in 2025 market surveys",
+      "status": "operating",
+      "source": "https://www.openpr.com/news/4105102/exponential-growth-expected-for-hydrothermal-carbonization"
+     },
+     {
+      "name": "CPL Industries",
+      "role": "incumbent",
+      "what": "UK smokeless-fuel incumbent operating an Ingelia-licensed HTC line (Immingham) to make waste-derived briquettes",
+      "signal": "Decades-old solid-fuels business; listed among leading HTC companies 2025",
+      "status": "operating",
+      "source": "https://www.openpr.com/news/4105102/exponential-growth-expected-for-hydrothermal-carbonization"
+     },
+     {
+      "name": "AVA-CO2 (AVA Biochem)",
+      "role": "startup",
+      "what": "Built the world's first industrial-scale HTC plant (Karlsruhe, 2010) before exiting HTC to pivot to 5-HMF biochemicals",
+      "signal": "Early-mover cautionary tale: HTC business wound down in the mid-2010s for lack of offtake economics",
+      "status": "uncertain",
+      "source": "https://www.mdpi.com/1996-1073/17/8/1918"
+     }
+    ],
+    "white_space": "Hydrochar is less recalcitrant than pyrolysis char so registries award few or no durable-CDR credits, leaving plants to live off sludge tipping fees; EU bans on sludge landspreading and phosphorus-recovery mandates create a utility-partnered niche that remains thinly served \u2014 an opening for waste majors (Veolia/SUEZ-style) to roll up the licensors."
+   },
+   {
+    "name": "Bio-oil and bio-slurry deep-well injection for permanent storage",
+    "description": "Biomass is converted to a pumpable carbon-rich liquid (fast-pyrolysis bio-oil) or slurry and injected into regulated deep disposal wells, where it solidifies for 1,000+ year storage \u2014 trading biochar's soil co-benefits for maximum permanence and verifiability.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Charm Industrial",
+      "role": "scaleup",
+      "what": "The category creator: mobile fast pyrolyzers convert crop residue and wildfire-risk biomass into bio-oil injected into EPA-regulated disposal wells",
+      "signal": "$100M Series B (2023); $53M Frontier offtake, Google and JPMorgan purchases, TD Bank deal with Canada expansion (2025); tens of thousands of tonnes delivered",
+      "status": "operating",
+      "source": "https://carbonherald.com/charm-industrial-raises-100m-in-series-b-ramp-up-bio-oil-sequestration/"
+     },
+     {
+      "name": "Vaulted Deep",
+      "role": "startup",
+      "what": "Injects slurried organic wastes (biosolids, manure, paper sludge) into deep geologic formations using oilfield slurry-injection IP \u2014 same storage logic without the pyrolysis step",
+      "signal": "$32M Series A (Prelude); won $50M XPRIZE grand prize... ($8M category, Apr 2025); Microsoft 4.9 Mt 12-year deal (Jul 2025); CNBC Disruptor 50 (2026)",
+      "status": "operating",
+      "source": "https://techcrunch.com/2025/07/17/microsoft-is-buying-tons-of-carbon-removal-from-xprize-startup-vaulted-deep/"
+     },
+     {
+      "name": "MASH Makes",
+      "role": "startup",
+      "what": "Danish-Indian company whose containerized pyrolysis lines yield biochar plus carbon-negative bio-oil, proven as drop-in marine fuel and a candidate storage feedstock",
+      "signal": "Nefco financing; Karnataka plant processes ~23,700 t agri-waste/yr (~3,400 t bio-oil); world-first vessel trial on its biofuel; second plant tripling capacity",
+      "status": "operating",
+      "source": "https://www.nefco.int/news/mash-makes-secures-financing-from-nefco/"
+     },
+     {
+      "name": "Carba",
+      "role": "startup",
+      "what": "Minnesota startup using low-temperature pyrolysis (torrefaction) then burial of the carbon in engineered landfill-style pits \u2014 a low-cost storage cousin of injection",
+      "signal": "$7M DOE Carbon Negative Shot grant; Microsoft 44,000-credit 5-year deal; $6M round (Rusheen, CanopyGen) for US and Asia expansion",
+      "status": "operating",
+      "source": "https://esgnews.com/microsoft-signs-44000-tonne-carbon-removal-deal-with-carba-using-biochar-burial/"
+     }
+    ],
+    "white_space": "Charm is still the only company injecting pyrolysis bio-oil at scale \u2014 bio-oil is corrosive, costs run several hundred dollars per tonne, and injection-well permitting is slow \u2014 so the opening is regional pyrolysis hubs feeding shared disposal wells and oilfield-services incumbents (who already drill and permit these wells) offering 'storage as a service' to any bio-oil producer."
+   },
+   {
+    "name": "Biochar soil-application networks and credit aggregators/registries",
+    "description": "Registries, MRV platforms and project aggregators certify that char is actually produced, tracked and applied to soils or materials, turning fragmented biochar production into bankable carbon credits \u2014 the connective tissue that made biochar ~90% of delivered durable CDR.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Puro.earth",
+      "role": "scaleup",
+      "what": "Nasdaq-majority-owned registry whose CORC standard underpins most industrial biochar credits worldwide",
+      "signal": ">400,000 biochar CORCs issued by mid-2025; biochar credit market grew >40% in volume in 2025",
+      "status": "operating",
+      "source": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/111325-biochar-carbon-credit-prices-steady-but-sentiment-weakens"
+     },
+     {
+      "name": "Carbonfuture",
+      "role": "startup",
+      "what": "German digital MRV ('MRV+') and marketplace tracking char from kiln to end use; infrastructure behind the largest supplier programs",
+      "signal": "Tracks the Exomad-Microsoft 1.24 Mt deal and Swiss Re's 70,000 t biochar program",
+      "status": "operating",
+      "source": "https://www.carbonfuture.com/magazine/exomad-green-announces-worlds-largest-biochar-carbon-removal-agreement-with-microsoft-tracked-by-carbonfuture-mrv"
+     },
+     {
+      "name": "Isometric",
+      "role": "startup",
+      "what": "Science-first CDR registry whose Biochar Production & Storage protocol was ICVCM-approved in 2025, used by quality-focused corporate buyers",
+      "signal": "$25M seed (Lowercarbon, Plural); biochar protocol live alongside Frontier-aligned buyers",
+      "status": "operating",
+      "source": "https://registry.isometric.com/protocol/biochar"
+     },
+     {
+      "name": "Varaha",
+      "role": "startup",
+      "what": "Indian developer aggregating smallholder and industrial biochar projects (incl. Gujarat facility) across South Asia",
+      "signal": "Google offtake of 100,000 t (Jan 2025) \u2014 world's largest biochar deal at signing; only Indian supplier listed on Puro.earth at the time",
+      "status": "operating",
+      "source": "https://techcrunch.com/2025/01/16/google-strikes-worlds-largest-biochar-carbon-removal-deal-with-indian-startup-varaha/"
+     },
+     {
+      "name": "Carbon Standards International",
+      "role": "startup",
+      "what": "Swiss certifier running the EBC (European Biochar Certificate) and Global C-Sink standards covering both industrial and artisanal char sinks",
+      "signal": "De-facto EU biochar quality standard; artisanal C-Sink methodology used across the Global South",
+      "status": "operating",
+      "source": "https://www.carbon-standards.com/"
+     },
+     {
+      "name": "Pacific Biochar",
+      "role": "startup",
+      "what": "Retrofits idle California biomass power plants for char production and routes it through compost and farm soil-application networks",
+      "signal": "Early Microsoft biochar supplier (1,500 t CO2 in 2021); multiple California facilities",
+      "status": "operating",
+      "source": "https://trellis.net/article/seven-biochar-companies-you-should-know/"
+     },
+     {
+      "name": "Verra",
+      "role": "incumbent",
+      "what": "World's largest voluntary carbon registry; its VM0044 biochar methodology brings biochar into the mainstream VCM",
+      "signal": "VM0044 v1.2 ICVCM-approved in 2025 alongside Isometric and CAR biochar methodologies",
+      "status": "operating",
+      "source": "https://www.sylvera.com/blog/biochar-carbon-credits"
+     }
+    ]
+   },
+   {
+    "name": "Biochar-embedded materials (concrete, asphalt, plastics, filtration media)",
+    "description": "Biochar is blended into concrete, asphalt, polymers and filtration media as a lightweight carbon-storing filler that can also cut cement content, turning buildings and roads into carbon sinks and stacking embodied-carbon savings on top of sellable removal credits.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Bioforcetech",
+      "role": "startup",
+      "what": "Pyrolyzes wastewater biosolids into OurCarbon, used commercially in concrete, asphalt and inks",
+      "signal": "Commercial Bay Area concrete pours with Vulcan Materials' Central Concrete, SOM and Cahill (incl. an Oakland school, 2025)",
+      "status": "operating",
+      "source": "https://bioforcetech.com/about-us/news/bfts-ourcarbon-makes-bay-area-concrete-use-debut/"
+     },
+     {
+      "name": "ecoLocked",
+      "role": "startup",
+      "what": "Berlin startup making biochar-based admixtures that replace part of the cement binder in ready-mix concrete",
+      "signal": "\u20ac4M seed (Matterwave, Climentum, 2023) on top of \u20ac1.8M pre-seed; pilots with concrete producers",
+      "status": "operating",
+      "source": "https://carbonherald.com/ecolocked-secures-e4m-in-seed-funding-for-biochar-carbon-removal/"
+     },
+     {
+      "name": "Glanris",
+      "role": "startup",
+      "what": "Memphis company converting rice hulls into patented biocarbon water-filtration media, with concrete and asphalt applications",
+      "signal": "Patented rice-hull media; certified carbon-removal claims; commercial filtration sales",
+      "status": "operating",
+      "source": "https://www.glanris.com/applications"
+     },
+     {
+      "name": "Made of Air",
+      "role": "startup",
+      "what": "German maker of HexChar, a biochar-filled thermoplastic for facades and retail interiors (used by Audi, H&M pilots)",
+      "signal": "Raised ~$5-6M (2022); little public activity since 2024 \u2014 commercial status unclear",
+      "status": "uncertain",
+      "source": "https://www.madeofair.com/"
+     },
+     {
+      "name": "Verde Resources",
+      "role": "startup",
+      "what": "US-listed developer of BioAsphalt/BioFraction putting biochar into net-zero road construction, working with NCAT test tracks",
+      "signal": "Named by the International Biochar Initiative (2025) as the pioneer of biochar asphalt R&D and pilot roads",
+      "status": "operating",
+      "source": "https://biochar-international.org/news/biochar-as-a-diversified-carbon-dioxide-removal-pathway-research-and-technology-integration-update-2023-2025/"
+     },
+     {
+      "name": "Myno Carbon",
+      "role": "startup",
+      "what": "Washington-state producer building mill-co-located biochar plants and marketing char specifically for concrete and asphalt",
+      "signal": "First plant sited at a WA pulp mill; targets 5 Mt CO2/yr across facilities by 2030",
+      "status": "operating",
+      "source": "https://mynocarbon.com/biochar-carbon-for-concrete-and-asphalt/"
+     }
+    ],
+    "white_space": "Construction codes and conservative mix-design specs make adoption slow, and biochar must beat near-free fillers like fly ash on cost; Made of Air's stall shows the product risk \u2014 the opening is code-approved, EPD-backed admixtures sold through ready-mix incumbents that stack embodied-carbon reductions with CDR credit revenue."
+   },
+   {
+    "name": "Pyrolysis reactor OEMs and technology licensors",
+    "description": "Equipment makers and licensors supply the kilns, screws and carbonization modules every biochar project depends on, monetizing the boom through capex sales and royalties rather than carbon credits \u2014 the 'picks and shovels' of the sector.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "PYREG",
+      "role": "scaleup",
+      "what": "Leading German net-carbon-tech OEM (PX series) for biomass and sewage-sludge carbonization; the reactor behind many US/EU plants",
+      "signal": "~60+ systems delivered worldwide; SUEZ partnership for Pyrolis S2B sludge-to-biochar (deployed early 2026); expansion financed by new shareholder Vaering",
+      "status": "operating",
+      "source": "https://www.suez.com/en/news/press-releases/suez-pyreg-integrated-pyrocarbonisation-solution-produce-biochar-sewage-sludge"
+     },
+     {
+      "name": "Biomacon",
+      "role": "startup",
+      "what": "German maker of heat-led modular carbonization reactors sized for greenhouses and district heating",
+      "signal": "C500-I unit (~450 t char/yr) selected for flagship UK biochar projects",
+      "status": "operating",
+      "source": "https://assets.publishing.service.gov.uk/media/68e9104457038b5739b98668/the-biochar-platform.pdf"
+     },
+     {
+      "name": "Airex Energy",
+      "role": "scaleup",
+      "what": "Quebec OEM (CarbonFX torrefaction/pyrolysis) and co-owner of Carbonity, Canada's largest biochar plant at Port-Cartier",
+      "signal": "Series D raised (2024); Carbonity inaugurated May 2025 at 10,000 t/yr scaling to 30,000 t/yr; 350,000 t/yr roadmap with SUEZ by 2035",
+      "status": "operating",
+      "source": "https://airex-energy.com/inauguration-of-carbonity-canadas-largest-biochar-plant-a-concrete-solution-for-soil-regeneration-and-carbon-sequestration/"
+     },
+     {
+      "name": "Pyrocal",
+      "role": "startup",
+      "what": "Australian designer of CCT carbonization systems for councils and agro-processors, handling difficult feedstocks including biosolids and nut shells",
+      "signal": "Systems deployed across Australia and Asia; supplies technology to large credit-generating projects",
+      "status": "operating",
+      "source": "https://www.pyrocal.com.au/"
+     },
+     {
+      "name": "VOW ASA (ETIA/Biogreen)",
+      "role": "incumbent",
+      "what": "Oslo-listed group whose ETIA Biogreen/Spirajoule electrically heated screw pyrolysis is sold for biochar and biocarbon production lines",
+      "signal": "Listed company; Biogreen units installed globally across waste and biomass applications",
+      "status": "operating",
+      "source": "https://www.vowasa.com/"
+     },
+     {
+      "name": "Beston Group",
+      "role": "incumbent",
+      "what": "Chinese equipment manufacturer mass-producing low-capex continuous carbonization/charcoal lines exported worldwide",
+      "signal": "High-volume export OEM serving 100+ countries at price points far below Western rivals",
+      "status": "operating",
+      "source": "https://www.bestongroup.com/"
+     },
+     {
+      "name": "Klean Industries",
+      "role": "startup",
+      "what": "Vancouver integrator of pyrolysis/carbonization plants (biomass, tires) bundled with carbon-credit project development",
+      "signal": "Projects and JVs across North America and Asia",
+      "status": "operating",
+      "source": "https://kleanindustries.com/"
+     }
+    ]
+   },
+   {
+    "name": "Fast-pyrolysis bio-oil production for fuels and chemicals",
+    "description": "Rapid high-temperature pyrolysis maximizes the liquid fraction, producing pyrolysis oil that is co-processed in refineries, burned as renewable heating fuel, or upgraded to chemicals \u2014 the industrial bio-oil base that the carbon-removal injection pathway now builds on.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "BTG Bioliquids",
+      "role": "scaleup",
+      "what": "Dutch licensor of rotating-cone fast pyrolysis; the technology behind the Empyro, Pyrocell and Green Fuel Nordic plants",
+      "signal": "4+ commercial plants built on its technology; modular 500-bpd biorefinery JV with NanosTech (2024)",
+      "status": "operating",
+      "source": "https://www.btg-bioliquids.com/"
+     },
+     {
+      "name": "Pyrocell",
+      "role": "incumbent",
+      "what": "Setra-Preem joint venture converting sawmill sawdust to pyrolysis oil at Gavle for co-processing at Preem's Lysekil refinery",
+      "signal": "Producing since autumn 2021 (~25,000 t/yr design); first sawdust-to-refinery value chain in Sweden",
+      "status": "operating",
+      "source": "https://www.setragroup.com/en/pyrocell/about-pyrocell/"
+     },
+     {
+      "name": "Twence (Empyro)",
+      "role": "incumbent",
+      "what": "Dutch waste-and-energy utility that owns and operates the Empyro fast-pyrolysis oil plant in Hengelo",
+      "signal": "Empyro running commercially since 2015 (~20 ML/yr design), acquired by Twence in 2019",
+      "status": "operating",
+      "source": "https://www.btg-bioliquids.com/plant/pyrocell-gavle-sweden/"
+     },
+     {
+      "name": "Green Fuel Nordic",
+      "role": "startup",
+      "what": "Operates the Lieksa, Finland fast-pyrolysis bio-oil plant on BTG-BL technology for industrial heating fuel",
+      "signal": "Commercial production since 2020; listed as commercial in IEA Bioenergy's direct-liquefaction status report",
+      "status": "operating",
+      "source": "https://www.ieabioenergy.com/wp-content/uploads/2023/07/WP3.3-DTL-Final.pdf"
+     },
+     {
+      "name": "Ensyn",
+      "role": "scaleup",
+      "what": "Canadian RTP fast-pyrolysis pioneer (Renfrew, Ontario plant; Envergent JV with Honeywell UOP) selling renewable fuel oil",
+      "signal": "Decades of commercial RFO supply, but little public activity reported since ~2023",
+      "status": "uncertain",
+      "source": "https://www.ieabioenergy.com/wp-content/uploads/2023/07/WP3.3-DTL-Final.pdf"
+     }
+    ],
+    "white_space": "Pyrolysis oil as fuel struggles against fossil parity and depends on a handful of refinery co-processing partners, which is why the plant fleet has barely grown since 2015; the visible opening is redirecting output to higher-value uses \u2014 carbon-removal injection feedstock (Charm's model) or specialty chemicals \u2014 rather than competing in heating fuel."
+   },
+   {
+    "name": "Metallurgical and industrial biocarbon (fossil carbon substitution)",
+    "description": "Engineered high-purity biocarbon from wood residues replaces fossil coal and coke as reductant and energy carbon in steel, ferroalloy, silicon and battery-material production \u2014 an enormous emissions-reduction market that pulls pyrolysis to true heavy-industrial scale.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Aymium",
+      "role": "scaleup",
+      "what": "Minnesota producer of patented high-purity biocarbon pellets qualified as coal/coke replacement in metals, silicon and energy; operates a Michigan facility",
+      "signal": "$150M raise (Feb 2025, Bedrock Industries); Weyerhaeuser MOU targeting 1.5 Mt/yr via TerraForge JV, first ~$100M plant in McComb, Mississippi",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/weyerhaeuser-and-aymium-enter-agreement-to-rapidly-scale-biocarbon-market-302638368.html"
+     },
+     {
+      "name": "Vow Green Metals (Arbion Industries)",
+      "role": "startup",
+      "what": "Norwegian VOW spinoff building the Honefoss biocarbon plant (wood waste to ~10-30 kt/yr) for ferroalloy smelters, with bio-oil co-product",
+      "signal": "\u20ac26.2M EU Innovation Fund grant for large-scale project; HitecVision-backed; rebranded Arbion Industries",
+      "status": "operating",
+      "source": "https://www.vowgreenmetals.com/"
+     },
+     {
+      "name": "Aperam BioEnergia",
+      "role": "incumbent",
+      "what": "Stainless-steel group Aperam's Brazilian eucalyptus charcoal operation, decades-scale supplier to its own 'green steel' mills and now a Puro-certified biochar credit issuer",
+      "signal": "~10,000 t/yr certified biochar in 2025, tripling by 2026 \u2014 among the largest Puro.earth projects",
+      "status": "operating",
+      "source": "https://www.regreener.earth/blog/the-5-best-biochar-carbon-credit-and-offset-projects-of-2026"
+     },
+     {
+      "name": "Weyerhaeuser",
+      "role": "incumbent",
+      "what": "US timber REIT entering biocarbon production and guaranteed fiber supply through the TerraForge Biocarbon Solutions JV with Aymium",
+      "signal": "MOU announced Dec 2025 to produce and sell 1.5 Mt/yr of biocarbon for metals",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/weyerhaeuser-and-aymium-enter-agreement-to-rapidly-scale-biocarbon-market-302638368.html"
+     }
+    ],
+    "white_space": "Steel, ferroalloy and silicon demand for fossil-coal substitutes dwarfs current biocarbon supply, but smelter qualification cycles and securing multi-decade fiber supply are brutal for startups \u2014 openings favor forestry incumbents and licensors who control feedstock (Weyerhaeuser's entry is the tell), and a credible European/Asian counterpart to Aymium is still missing."
+   }
+  ],
+  "sources": [
+   "https://trellis.net/article/seven-biochar-companies-you-should-know/",
+   "https://www.carbonfuture.com/magazine/exomad-green-announces-worlds-largest-biochar-carbon-removal-agreement-with-microsoft-tracked-by-carbonfuture-mrv",
+   "https://carbonherald.com/the-top-10-carbon-removal-suppliers-in-mid-2025/",
+   "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/111325-biochar-carbon-credit-prices-steady-but-sentiment-weakens",
+   "https://techcrunch.com/2025/01/16/google-strikes-worlds-largest-biochar-carbon-removal-deal-with-indian-startup-varaha/",
+   "https://techcrunch.com/2025/07/17/microsoft-is-buying-tons-of-carbon-removal-from-xprize-startup-vaulted-deep/",
+   "https://techcrunch.com/2024/07/31/applied-carbons-farm-robot-turns-plant-waste-into-biochar-to-capture-co2/",
+   "https://carbonherald.com/charm-industrial-raises-100m-in-series-b-ramp-up-bio-oil-sequestration/",
+   "https://www.esgdive.com/news/charm-industrial-inks-bio-oil-biochar-co2-removal-deal-td-bank-canada-expansion/810355/",
+   "https://esgnews.com/microsoft-signs-44000-tonne-carbon-removal-deal-with-carba-using-biochar-burial/",
+   "https://cleantechnica.com/2025/05/12/syncraft-opens-clean-power-plant-that-provides-electricity-heat-cdr/",
+   "https://airex-energy.com/inauguration-of-carbonity-canadas-largest-biochar-plant-a-concrete-solution-for-soil-regeneration-and-carbon-sequestration/",
+   "https://www.suez.com/en/news/press-releases/suez-pyreg-integrated-pyrocarbonisation-solution-produce-biochar-sewage-sludge",
+   "https://stoainfraenergy.com/en/french-greentech-netzero-raises-e18-million-from-impact-fund-stoa-to-accelerate-the-industrialization-of-its-biochar-model",
+   "https://techfundingnews.com/novocarbo-raises-e25m-to-build-up-to-200-carbon-removal-parks-across-europe/",
+   "https://sifted.eu/articles/carbo-culture-biochar-plant-news",
+   "https://earthshotprize.org/winners-finalists/takachar/",
+   "https://www.atmosfair.de/en/cambodia-biochar-rice-husks/",
+   "https://climateinsider.com/2024/04/04/wastex-secures-450k-to-expand-biochar-solution-in-indonesia/",
+   "https://www.terranova-energy.com/en/applications/",
+   "https://www.openpr.com/news/4105102/exponential-growth-expected-for-hydrothermal-carbonization",
+   "https://www.mdpi.com/1996-1073/17/8/1918",
+   "https://www.btg-bioliquids.com/plant/pyrocell-gavle-sweden/",
+   "https://www.ieabioenergy.com/wp-content/uploads/2023/07/WP3.3-DTL-Final.pdf",
+   "https://www.prnewswire.com/news-releases/weyerhaeuser-and-aymium-enter-agreement-to-rapidly-scale-biocarbon-market-302638368.html",
+   "https://www.vowgreenmetals.com/",
+   "https://biochar-international.org/news/biochar-as-a-diversified-carbon-dioxide-removal-pathway-research-and-technology-integration-update-2023-2025/",
+   "https://bioforcetech.com/about-us/news/bfts-ourcarbon-makes-bay-area-concrete-use-debut/",
+   "https://www.desmog.com/cool-planet-biochar-shoddy-science/",
+   "https://carbon-pulse.com/404298/",
+   "https://carbon-pulse.com/367151/",
+   "https://www.geoengineeringmonitor.org/geo-map-biochar-apr25"
+  ]
+ }
+}

@@ -45,6 +45,10 @@ This map is the answer. It is a census of every climate solution we could find, 
 | [Carbon Removal & Capture](07-carbon-removal.md) | 9 | 90 | 437 | 10 | 11 |
 | [Enabling Layers](08-enabling-layers.md) | 9 | 97 | 690 | 18 | 43 |
 
+## Keeping it fresh
+
+Company statuses drift fast — the graveyard chapter is proof. This repo ships its raw data (`data/`) and its renderer (`tools/render_report.py`), and a GitHub Action (`.github/workflows/refresh-data.yml`) can re-verify company statuses against recent news monthly and open a pull request with updates (requires the repo owner to configure an `ANTHROPIC_API_KEY` secret). Rendering is deterministic: `CSM_BASE=. CSM_OUT=. python3 tools/render_report.py`.
+
 ## Methodology & caveats
 
 - Compiled June 11, 2026 by ~130 parallel AI research agents (Anthropic's Claude, with live web search; 2024–2026 sources preferred), orchestrated and reviewed by a human. Company entries carry a source link on the company name.
@@ -53,4 +57,5 @@ This map is the answer. It is a census of every climate solution we could find, 
 - Failed companies (⚠️ / ☠) are kept deliberately — they are white-space evidence, not noise. See [the graveyard](10-graveyard.md).
 - Only Clean Energy received a dedicated second-pass verification audit; other sectors rely on each researcher's own status checks. Treat any single company fact as unverified until you check the linked source — this is AI-compiled research, not investment advice.
 - A company may legitimately appear under several variations (e.g., diversified incumbents). "Company entries" counts rows; "unique companies" deduplicates by name.
+- Text and data are licensed [CC BY 4.0](LICENSE) — share and adapt freely with attribution. Not investment advice.
 

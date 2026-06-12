@@ -1,0 +1,710 @@
+{
+ "sector": "enabling",
+ "bucket": "Grid Operations, Planning & Network AI",
+ "census": {
+  "bucket": "Grid Operations, Planning & Network AI",
+  "variations": [
+   {
+    "name": "Next-gen ADMS/OMS/SCADA & grid orchestration platforms",
+    "description": "Modern control-room software (ADMS/OMS/SCADA) that monitors and switches the network, restores outages, and increasingly orchestrates DERs from a single cloud-capable, data-fabric platform \u2014 the operating system utilities need to run a renewables-heavy grid.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "GE Vernova (GridOS)",
+      "role": "incumbent",
+      "what": "GridOS grid-orchestration suite; launched GridOS for Distribution (Feb 2026) as a unified ADMS+DERMS+analytics platform on a federated grid data fabric.",
+      "signal": "Alabama Power early adopter; platform credited with preventing 112M+ customer interruption minutes in 2025",
+      "status": "operating",
+      "source": "https://www.gevernova.com/news/press-releases/ge-vernova-launches-gridos-distribution-industrys"
+     },
+     {
+      "name": "Schneider Electric",
+      "role": "incumbent",
+      "what": "EcoStruxure ADMS (ex-Telvent), the category-leading advanced distribution management system used by large IOUs worldwide.",
+      "signal": "ADMS market-share leader; rolling EcoStruxure grid software into its 'One Digital Grid' platform",
+      "status": "operating",
+      "source": "https://www.se.com/ww/en/work/solutions/for-business/electric-utilities/"
+     },
+     {
+      "name": "Siemens Grid Software",
+      "role": "incumbent",
+      "what": "Spectrum Power EMS/SCADA and Gridscale X modular, cloud-native grid management software for TSOs/DSOs.",
+      "signal": "Installed base across hundreds of grid operators globally",
+      "status": "operating",
+      "source": "https://www.siemens.com/global/en/products/energy/grid-software.html"
+     },
+     {
+      "name": "Hitachi Energy",
+      "role": "incumbent",
+      "what": "Network Manager SCADA/EMS/ADMS with one of the largest transmission control-room installed bases.",
+      "signal": "Major TSO deployments worldwide; expanding Lumada/IdentiQ digital grid portfolio",
+      "status": "operating",
+      "source": "https://www.hitachienergy.com/products-and-solutions/grid-automation"
+     },
+     {
+      "name": "OSI (AspenTech Digital Grid Management)",
+      "role": "incumbent",
+      "what": "monarch SCADA/EMS/ADMS platform dominant among North American mid-to-large utilities; now AspenTech DGM under Emerson.",
+      "signal": "Acquired by AspenTech for ~$1.6B (2020) \u2014 marquee consolidation of grid control software",
+      "status": "acquired",
+      "source": "https://www.aspentech.com/en/products/digital-grid-management"
+     },
+     {
+      "name": "Oracle Utilities",
+      "role": "incumbent",
+      "what": "Network Management System combining OMS/DMS with Oracle's utility CIS/meter data stack.",
+      "signal": "Long-standing OMS leader among large US utilities",
+      "status": "operating",
+      "source": "https://www.oracle.com/utilities/"
+     },
+     {
+      "name": "Survalent",
+      "role": "incumbent",
+      "what": "SurvalentONE ADMS focused on cooperatives, municipals, and mid-size utilities priced below tier-1 vendors.",
+      "signal": "Claims 700+ utility customers worldwide",
+      "status": "operating",
+      "source": "https://www.survalent.com/"
+     },
+     {
+      "name": "Camus Energy",
+      "role": "startup",
+      "what": "Cloud-native grid orchestration and real-time situational awareness for co-ops/munis, built by ex-Google SRE leaders; now also flexible data-center grid connections.",
+      "signal": "~$29M raised (Series A + extension co-led by Congruent and Wave Capital)",
+      "status": "operating",
+      "source": "https://www.renewableenergyworld.com/energy-business/energy-finance/grid-orchestration-platform-camus-hits-25m-in-series-a-funding/"
+     },
+     {
+      "name": "Kraken Technologies (Octopus Energy)",
+      "role": "scaleup",
+      "what": "Utility operating system expanding from retail billing into distribution network operations and grid-edge monitoring.",
+      "signal": "Licensed to serve tens of millions of accounts globally; acquired Swiss LV-monitoring firm depsys (2022) to push into grid ops",
+      "status": "operating",
+      "source": "https://octopus.energy/press/octopus-energy-groups-kraken-acquires-swiss-energy-tech-firm-depsys/"
+     },
+     {
+      "name": "Smarter Grid Solutions",
+      "role": "startup",
+      "what": "Pioneer of active network management (ANM) software for flexible interconnections and DER orchestration in UK/US grids.",
+      "signal": "Acquired by Mitsubishi Electric (2021) \u2014 early-exit evidence that orchestration startups get absorbed by control incumbents",
+      "status": "acquired",
+      "source": "https://www.smartergridsolutions.com/"
+     }
+    ],
+    "white_space": "Incumbent oligopoly with decade-long replacement cycles and deep SCADA integration moats; the open flank is cloud-native, subscription ADMS for the thousands of co-ops/munis tier-1 vendors ignore (Camus, Survalent's segment)."
+   },
+   {
+    "name": "AI control-room copilots & grid operations automation",
+    "description": "LLM- and physics-informed AI assistants that sit beside control-room operators to summarize grid state, flag violations, recommend switching/restoration actions, and automate studies \u2014 addressing operator shortages and DER-driven complexity.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "ThinkLabs AI",
+      "role": "startup",
+      "what": "GE Vernova spinout building a physics-informed 'digital copilot' that continuously monitors distribution grid conditions and recommends operator actions.",
+      "signal": "$5M seed (2024) + $28M Series A led by Energy Impact Partners with NVIDIA's NVentures and Edison International",
+      "status": "operating",
+      "source": "https://venturebeat.com/infrastructure/nvidia-backed-thinklabs-ai-raises-usd28-million-to-tackle-a-growing-power"
+     },
+     {
+      "name": "Tapestry (Google/Alphabet)",
+      "role": "incumbent",
+      "what": "Alphabet's grid moonshot applying DeepMind/Google Cloud AI to grid planning and operations workflows for system operators.",
+      "signal": "Multiyear collaboration with PJM announced April 2025; phased tool rollout began 2025",
+      "status": "operating",
+      "source": "https://www.utilitydive.com/news/pjm-google-tapestry-grid-interconnection-ai/744982/"
+     },
+     {
+      "name": "GE Vernova",
+      "role": "incumbent",
+      "what": "Embedding AI/ML assistants and automation across the GridOS suite used in existing control rooms.",
+      "signal": "AI for grid operations a headline theme of its Orchestrate 2025 user conference",
+      "status": "operating",
+      "source": "https://www.gevernova.com/software/blog/key-grid-trends-orchestrate-2025"
+     },
+     {
+      "name": "EPRI",
+      "role": "incumbent",
+      "what": "Convenes the Open Power AI Consortium with NVIDIA and global utilities to build domain-specific AI models for grid operations.",
+      "signal": "Consortium launched 2025 with dozens of utility members",
+      "status": "operating",
+      "source": "https://www.epri.com/"
+     },
+     {
+      "name": "NVIDIA",
+      "role": "incumbent",
+      "what": "Supplies the accelerated-computing stack for grid AI and is seeding the category via NVentures stakes in ThinkLabs and Utilidata.",
+      "signal": "Backer of multiple grid-AI startups; co-founded EPRI's Open Power AI Consortium",
+      "status": "operating",
+      "source": "https://venturebeat.com/infrastructure/nvidia-backed-thinklabs-ai-raises-usd28-million-to-tackle-a-growing-power"
+     }
+    ],
+    "white_space": "Almost no credible players because control rooms are NERC-CIP-bound, safety-critical, and demand physics-verifiable recommendations \u2014 pure-LLM startups can't clear the trust bar (national labs like Argonne's GridMind are still at research stage). The opening is audited, physics-constrained copilots sold with or through EMS incumbents, mirroring ThinkLabs' GE lineage."
+   },
+   {
+    "name": "Interconnection queue & hosting capacity automation",
+    "description": "Software that automates power-flow studies, queue workflows, and hosting-capacity analysis so generation, storage, and large loads can connect in months instead of years \u2014 attacking the multi-terawatt US interconnection backlog.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Pearl Street Technologies",
+      "role": "startup",
+      "what": "CMU spinout whose SUGAR solver and Interconnect product automate full interconnection study workflows for RTOs.",
+      "signal": "Deployed with MISO to automate Definitive Planning Phase studies; backed by VoLo Earth, Pear VC, Powerhouse, Incite",
+      "status": "operating",
+      "source": "https://www.ece.cmu.edu/news-and-events/story/2024/09/pearl-street-miso-partnership.html"
+     },
+     {
+      "name": "Nira Energy",
+      "role": "startup",
+      "what": "Maps available interconnection capacity (POI screening) so developers stop flooding queues with doomed projects.",
+      "signal": "Bootstrapped to profitability in year one; later strategic investment from Energize Capital",
+      "status": "operating",
+      "source": "https://www.latitudemedia.com/news/how-nira-energy-is-using-software-to-unclog-the-interconnection-queue/"
+     },
+     {
+      "name": "GridUnity",
+      "role": "scaleup",
+      "what": "Cloud workflow platform that manages interconnection application intake and study coordination for RTOs and utilities, including PJM's reformed cycle process.",
+      "signal": "$49.5M DOE award \u2014 the largest federal investment in interconnection automation to date",
+      "status": "operating",
+      "source": "https://www.canarymedia.com/articles/transmission/this-doe-backed-software-is-helping-to-unclog-the-grid"
+     },
+     {
+      "name": "Tapestry (Google/Alphabet)",
+      "role": "incumbent",
+      "what": "Building AI models with Google Cloud/DeepMind to accelerate PJM's generation interconnection and regional planning analysis.",
+      "signal": "PJM partnership announced 2025; first AI tools in limited testing",
+      "status": "operating",
+      "source": "https://insidelines.pjm.com/pjm-google-tapestry-join-forces-to-apply-ai-to-enhance-regional-planning-generation-interconnection/"
+     },
+     {
+      "name": "Kevala",
+      "role": "startup",
+      "what": "Parcel-level grid analytics: hosting capacity, DER siting, and grid-impact studies built from public and utility data.",
+      "signal": "$21M Series A (2022); DOE-funded hosting-capacity work",
+      "status": "operating",
+      "source": "https://www.kevala.com/"
+     },
+     {
+      "name": "envelio",
+      "role": "scaleup",
+      "what": "Intelligent Grid Platform automates DSO grid-connection requests end-to-end (Grid Connection Navigator) on top of a distribution digital twin.",
+      "signal": "60+ utilities including E.ON, Europe's largest DSO; US entity opened 2024",
+      "status": "operating",
+      "source": "https://us.envelio.com/news/envelio-expands-intelligent-grid-platform-with-the-grid-connection-navigator"
+     }
+    ],
+    "white_space": "Few players because the buyers are a handful of RTOs/ISOs and large utilities with multi-year procurement and physics-grade validation requirements; FERC itself now recommends automation. The open flank is distribution-level interconnection and hosting-capacity automation for the ~3,000 smaller utilities, plus large-load (data center) connection studies."
+   },
+   {
+    "name": "Transmission planning & expansion analytics",
+    "description": "Production-cost, capacity-expansion, and network simulation platforms that tell planners where to build wires and resources for a decarbonizing, load-growing system.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Energy Exemplar",
+      "role": "incumbent",
+      "what": "PLEXOS/Aurora co-optimized market and expansion simulation used for long-term transmission and resource planning in 79 countries.",
+      "signal": "Acquired by Blackstone + Vista Equity for >$1B (2023); 500+ customers, ~30% CAGR since 2018",
+      "status": "acquired",
+      "source": "https://www.blackstone.com/news/press/energy-exemplar-to-be-acquired-by-blackstone-and-vista-equity-partners/"
+     },
+     {
+      "name": "Siemens (PSS/E)",
+      "role": "incumbent",
+      "what": "PSS/E, the de facto standard transmission power-flow and dynamics simulator for planning engineers.",
+      "signal": "Decades-deep installed base across TSOs and utilities globally",
+      "status": "operating",
+      "source": "https://www.siemens.com/global/en/products/energy/grid-software.html"
+     },
+     {
+      "name": "PowerWorld",
+      "role": "incumbent",
+      "what": "Interactive power system simulator widely used for planning studies, visualization, and education in North America.",
+      "signal": "Standard tool across US planning departments and universities",
+      "status": "operating",
+      "source": "https://www.powerworld.com/"
+     },
+     {
+      "name": "Hitachi Energy (PROMOD/GridView)",
+      "role": "incumbent",
+      "what": "Production-cost and transmission congestion modeling used in RTO planning and FERC filings.",
+      "signal": "PROMOD remains a reference model in US transmission benefit studies",
+      "status": "operating",
+      "source": "https://www.hitachienergy.com/products-and-solutions/energy-portfolio-management"
+     },
+     {
+      "name": "encoord",
+      "role": "startup",
+      "what": "SAInt platform co-simulates gas and electric networks for integrated infrastructure and resilience planning.",
+      "signal": "Used by utilities, regulators, and NREL-linked research projects",
+      "status": "operating",
+      "source": "https://encoord.com/"
+     },
+     {
+      "name": "Vibrant Clean Energy",
+      "role": "startup",
+      "what": "WIS:dom high-resolution co-optimized capacity-expansion model that pioneered joint DER + transmission planning studies.",
+      "signal": "Influential MISO/state studies ~2019-2022 but little public commercial activity since \u2014 viability unconfirmed",
+      "status": "uncertain",
+      "source": "https://www.vibrantcleanenergy.com/"
+     }
+    ],
+    "white_space": "A legacy oligopoly (PSS/E, PowerWorld, PLEXOS, PROMOD) protected by decades of model validation and regulatory acceptance; AI-native challengers are only now arriving via Tapestry/PJM. FERC Order 1920 long-term scenario planning plus data-center load growth create demand for orders-of-magnitude faster co-optimization that none of the legacy tools deliver."
+   },
+   {
+    "name": "Grid-enhancing technology software (dynamic line ratings, topology optimization, congestion management)",
+    "description": "Software (often paired with line sensors) that squeezes 20-60% more capacity from existing wires via dynamic line ratings, network reconfiguration, and ML congestion management \u2014 the cheapest and fastest form of 'new transmission'.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "LineVision",
+      "role": "scaleup",
+      "what": "Non-contact LiDAR/EMF sensors plus analytics for dynamic line ratings and conductor health monitoring.",
+      "signal": "Series B led by UP Partners w/ National Grid Partners; 42-sensor AEP deployment unlocked ~40% more capacity; National Grid (UK) expanding rollout in 2026",
+      "status": "operating",
+      "source": "https://eandt.theiet.org/2026/04/30/national-grid-expand-rollout-tech-boost-power-line-capacity"
+     },
+     {
+      "name": "Heimdall Power",
+      "role": "scaleup",
+      "what": "Drone-installed 'magic ball' Neuron sensors clamped onto conductors feeding a DLR software platform.",
+      "signal": "$25M raise (2024) to scale production; Minnesota co-op deployment showed 63% peak capacity increase",
+      "status": "operating",
+      "source": "https://www.renewableenergyworld.com/power-grid/transmission/startup-behind-magic-ball-for-boosting-transmission-capacity-raises-25-million/"
+     },
+     {
+      "name": "Ampacimon",
+      "role": "scaleup",
+      "what": "Belgian DLR pioneer offering both conductor-vibration sensors and sensorless rating models for TSOs.",
+      "signal": "DLR project awarded by Svenska kraftn\u00e4t; deployments across Europe and the Americas; Drone Volt partnership (2025)",
+      "status": "operating",
+      "source": "https://www.ampacimon.com/news/dynamic-line-rating-project-awarded-by-svk-to-ampacimon"
+     },
+     {
+      "name": "Gridraven",
+      "role": "startup",
+      "what": "Hardware-free DLR using ML hyperlocal wind forecasting over 3D terrain models \u2014 ratings without installing sensors.",
+      "signal": "\u20ac4M raise (Feb 2025, 42CAP + Icebreaker.vc) to expand into the US; claims up to 30% capacity gains",
+      "status": "operating",
+      "source": "https://www.eu-startups.com/2025/02/gridraven-secures-e4-million-to-address-grid-bottlenecks-in-europe-and-the-u-s/"
+     },
+     {
+      "name": "Splight",
+      "role": "startup",
+      "what": "ML-based Dynamic Congestion Management that lets fast assets (batteries, data centers) respond to real-time grid conditions, unlocking up to 100% more transfer capacity sensorlessly.",
+      "signal": "$12.4M raise led by Blue Bear Capital (2025) for US expansion",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/splight-raises-12-4m-to-expand-transmission-capacity-with-machine-learning-amid-surging-demand-from-data-centers-and-utilities-302538185.html"
+     },
+     {
+      "name": "NewGrid",
+      "role": "startup",
+      "what": "The only commercial transmission topology-optimization software \u2014 recommends switching reconfigurations to route around congestion and support outage coordination.",
+      "signal": "ARPA-E spinout; ISO-NE outage-coordination partnership; Alliant Energy saved ~$8M in congestion via MISO reconfigurations",
+      "status": "operating",
+      "source": "https://newgridinc.com/"
+     },
+     {
+      "name": "Smart Wires",
+      "role": "scaleup",
+      "what": "Modular power-flow control devices (SSSC) with planning/\u63a7 software that push power onto underused lines.",
+      "signal": "GETs pioneer with TSO deployments incl. National Grid UK and EU operators",
+      "status": "operating",
+      "source": "https://www.smartwires.com/"
+     }
+    ],
+    "white_space": "The constraint is regulatory economics, not physics: US utilities earn returns on capex builds, not on software that defers them, so GET adoption lags Europe; pending FERC incentive/mandate action would unlock the market. Sensorless, software-only DLR (Gridraven, Splight) drops deployment cost and is the natural wedge; topology optimization has exactly one vendor (NewGrid) and is wide open."
+   },
+   {
+    "name": "Network digital twins & grid model management",
+    "description": "Physics-accurate digital replicas of the network built from LiDAR, GIS, and CIM models that let utilities simulate storms, upgrades, reconductoring, and DER scenarios before touching real assets.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Neara",
+      "role": "scaleup",
+      "what": "AI-native, physics-enabled 3D digital twin of T&D networks built from LiDAR for design, risk, and capacity analysis (used for reconductoring and DLR studies).",
+      "signal": "US$90M Series D at >$1B valuation (~$180M total); customers include Southern California Edison and Essential Energy",
+      "status": "operating",
+      "source": "https://www.startupdaily.net/topic/funding/energy-grid-digital-twin-platform-neara-turns-unicorn-with-90-million-series-d/"
+     },
+     {
+      "name": "envelio",
+      "role": "scaleup",
+      "what": "Builds a self-correcting digital twin from messy DSO GIS data, then automates planning and connection processes on top of it.",
+      "signal": "60+ utilities; powering E.ON's digital twin of the German distribution grid (2025); \u20ac30M+ backing incl. E.ON",
+      "status": "operating",
+      "source": "https://www.eon.com/en/about-us/media/press-release/2025/digital-twin-for-the-german-distribution-grid.html"
+     },
+     {
+      "name": "Plexigrid",
+      "role": "startup",
+      "what": "Low-voltage grid digital twin and congestion analytics enabling DSOs to forecast demand and host EVs/heat pumps without overbuilding.",
+      "signal": "~$11.6M raised across 5 rounds; Spanish/Nordic DSO deployments",
+      "status": "operating",
+      "source": "https://plexigrid.com/the-path-to-digitalizing-distribution-grids-with-digital-twins/"
+     },
+     {
+      "name": "Awesense",
+      "role": "startup",
+      "what": "Digital energy twin and open data model (TAP) that fuses meter, SCADA, and GIS data for loss detection and grid analytics.",
+      "signal": "Long-running Vancouver firm with North American utility deployments",
+      "status": "operating",
+      "source": "https://www.awesense.com/"
+     },
+     {
+      "name": "Open Grid Systems",
+      "role": "startup",
+      "what": "Cimphony CIM-standards network model management \u2014 the niche system of record for exchanging and validating grid models.",
+      "signal": "Glasgow-based specialist used by TSOs/DSOs for CIM model exchange",
+      "status": "operating",
+      "source": "https://www.opengrid.com/"
+     },
+     {
+      "name": "Bentley Systems",
+      "role": "incumbent",
+      "what": "iTwin/OpenUtilities infrastructure digital-twin stack underpinning utility network and substation models.",
+      "signal": "Public infra-software major; also a strategic investor in grid AI startups (e.g., Overstory's Series B)",
+      "status": "operating",
+      "source": "https://www.bentley.com/"
+     },
+     {
+      "name": "Esri",
+      "role": "incumbent",
+      "what": "ArcGIS Utility Network \u2014 the GIS backbone in which most utilities' as-built network models actually live.",
+      "signal": "Dominant utility GIS platform globally",
+      "status": "operating",
+      "source": "https://www.esri.com/en-us/arcgis/products/arcgis-utility-network/overview"
+     }
+    ]
+   },
+   {
+    "name": "Asset inspection & predictive maintenance AI (drones, imagery, sensors)",
+    "description": "Computer vision and sensing AI applied to drone, helicopter, fleet-camera, satellite, and fiber-optic data to find failing poles, conductors, and components before they fail or spark a fire.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Zeitview (ex-DroneBase)",
+      "role": "scaleup",
+      "what": "Visual-AI inspection platform spanning T&D, solar, and wind with a managed pilot network and Insights AI software.",
+      "signal": "$60M raise led by Climate Investment (Mar 2025); 200k+ assets inspected across 80 countries in 2024",
+      "status": "operating",
+      "source": "https://pv-magazine-usa.com/2025/03/07/zeitview-raises-60-million-in-funding-to-further-advance-ai-powered-infrastructure-inspections/"
+     },
+     {
+      "name": "eSmart Systems",
+      "role": "scaleup",
+      "what": "Grid Vision AI turns helicopter/drone imagery into prioritized defect findings; launched AI Studio for custom grid vision models (2026).",
+      "signal": "\u20ac30M from TiLT Capital with Quanta Services as strategic investor (Oct 2024); 70+ utilities, 100,000+ km of lines inspected",
+      "status": "operating",
+      "source": "https://www.tdworld.com/smart-utility/data-analytics/news/55239378/esmart-systems-secures-30m-investment-for-ai-powered-grid-inspection-digitalization-in-north-america"
+     },
+     {
+      "name": "Buzz Solutions",
+      "role": "startup",
+      "what": "PowerAI image-analytics that detects fire hazards, corrosion, and failing components in utility inspection imagery.",
+      "signal": "$5M growth round (Mar 2024), $10.7M total; Stanford spinout used by major US utilities",
+      "status": "operating",
+      "source": "https://www.cbinsights.com/company/buzz-solutions"
+     },
+     {
+      "name": "Noteworthy AI",
+      "role": "startup",
+      "what": "Edge-AI cameras mounted on utility fleet trucks that automatically photograph and grade every pole the truck drives past.",
+      "signal": "$3M raised (2022); FirstEnergy pilots across OH/PA/NJ found 89% of defects human inspectors caught",
+      "status": "operating",
+      "source": "https://www.firstenergycorp.com/newsroom/featured_stories/cameras-with-ai-aim-to-enhance-electric-service-reliability.html"
+     },
+     {
+      "name": "Skydio",
+      "role": "scaleup",
+      "what": "Autonomous drones and dock systems used by utilities for substation and line inspection at scale.",
+      "signal": "Raised $740M+ (Series E at ~$2.2B valuation); major utility programs incl. Dominion Energy",
+      "status": "operating",
+      "source": "https://www.skydio.com/"
+     },
+     {
+      "name": "Percepto",
+      "role": "scaleup",
+      "what": "Drone-in-a-box autonomous inspection for substations and storm response with FAA BVLOS approvals.",
+      "signal": "Raised ~$100M+; deployed by Florida Power & Light for grid monitoring",
+      "status": "operating",
+      "source": "https://percepto.co/"
+     },
+     {
+      "name": "Prisma Photonics",
+      "role": "startup",
+      "what": "Fiber-optic sensing over existing OPGW that detects faults, sag, and third-party threats across whole transmission corridors without new sensors.",
+      "signal": "Backed by Insight Partners; monitoring thousands of km for TSOs in Israel, Europe, and the US",
+      "status": "operating",
+      "source": "https://www.prismaphotonics.com/"
+     },
+     {
+      "name": "IBM (Maximo)",
+      "role": "incumbent",
+      "what": "Maximo Application Suite \u2014 the default enterprise asset management/APM system into which inspection AI findings flow.",
+      "signal": "De facto EAM standard across large utilities",
+      "status": "operating",
+      "source": "https://www.ibm.com/products/maximo"
+     },
+     {
+      "name": "Sterblue",
+      "role": "startup",
+      "what": "French drone-inspection software for power grids and wind turbines.",
+      "signal": "No public activity since ~2021; reported wound down after failing to raise \u2014 unconfirmed",
+      "status": "uncertain",
+      "source": "https://www.crunchbase.com/organization/sterblue"
+     }
+    ]
+   },
+   {
+    "name": "Vegetation management & utility wildfire risk analytics",
+    "description": "Satellite, sensor, and simulation AI that prioritizes tree-trimming and models wildfire ignition and spread so utilities cut their single largest O&M line item and catastrophic fire liability.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "AiDash",
+      "role": "scaleup",
+      "what": "Satellite-first intelligent vegetation management system (IVMS) that prioritizes trim cycles span-by-span.",
+      "signal": "$58.5M Series C (2024, Lightrock/Marubeni; $91.5M total); 140+ utility customers",
+      "status": "operating",
+      "source": "https://www.aidash.com/news/aidash-closes-its-oversubscribed-series-c-funding-round-at-58-5-million/"
+     },
+     {
+      "name": "Overstory",
+      "role": "scaleup",
+      "what": "Vegetation intelligence from satellite imagery + AI risk models predicting which trees threaten which spans.",
+      "signal": "$43M Series B (Nov 2025) led by Blume Equity w/ Energy Impact Partners and Bentley Systems",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/overstory-closes-43m-series-b-to-scale-ai-driven-wildfire-prevention-and-grid-resilience-302625548.html"
+     },
+     {
+      "name": "LiveEO",
+      "role": "scaleup",
+      "what": "Satellite risk intelligence (Treeline) for utility and rail corridors; building its own 35cm EO constellation (Twinspector).",
+      "signal": "\u20ac28M first close (2026) incl. EIC; \u20ac72M+ total disclosed funding",
+      "status": "operating",
+      "source": "https://thenextweb.com/news/liveeo-28m-funding-civil-infrastructure-defence-twinspector"
+     },
+     {
+      "name": "Technosylva",
+      "role": "incumbent",
+      "what": "Wildfire spread simulation and PSPS decision support (Wildfire Analyst/fiResponse) \u2014 the operational standard at California IOUs.",
+      "signal": "Used by PG&E, SCE, SDG&E and operators worldwide; AiDash integration partnership (Aug 2025)",
+      "status": "operating",
+      "source": "https://technosylva.com/news/technosylva-and-aidash-partner-to-integrate-vegetation-management-and-wildfire-risk-mitigation/"
+     },
+     {
+      "name": "Pano AI",
+      "role": "scaleup",
+      "what": "AI mountaintop camera network for ultra-early wildfire smoke detection feeding utility and first-responder operations.",
+      "signal": "$44M Series B (Jun 2025, Giant Ventures; $89M total); $100M+ contracted revenue, ~30M acres covered",
+      "status": "operating",
+      "source": "https://www.globenewswire.com/news-release/2025/06/16/3099902/0/en/Wildfire-Tech-Comes-of-Age-Pano-AI-Raises-44M-Series-B-Led-by-Giant-Ventures-to-Scale-Early-Detection-Infrastructure.html"
+     },
+     {
+      "name": "Gridware",
+      "role": "startup",
+      "what": "Gridscope pole-mounted vibration/acoustic sensors that detect faults, vegetation strikes, and ignition precursors in real time.",
+      "signal": "$26.4M Series A led by Sequoia Capital (announced Jan 2025)",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20250108913569/en/Gridware-Announces-$26.4M-Series-A-Funding-Round-led-by-Sequoia-Capital"
+     },
+     {
+      "name": "Rhizome",
+      "role": "startup",
+      "what": "AI platform that scores every proposed grid-hardening investment against 50-year climate/wildfire risk to optimize resilience capex.",
+      "signal": "$6.5M seed (2025) led by Base10; Texas utility pilot caught 72% more asset failures",
+      "status": "operating",
+      "source": "https://www.utilitydive.com/news/rhizome-fundraise-launch-climate-change-utility-infrastructure-investment-planning/697775/"
+     },
+     {
+      "name": "Vibrant Planet",
+      "role": "startup",
+      "what": "Land Tender cloud platform for landscape-scale wildfire resilience and fuel-treatment planning used by utilities and land agencies.",
+      "signal": "Venture-backed; acquired wildfire-mapping startup Salo Sciences (2023)",
+      "status": "operating",
+      "source": "https://www.vibrantplanet.net/"
+     }
+    ]
+   },
+   {
+    "name": "AMI / meter data management & grid-edge intelligence",
+    "description": "Smart-meter networks plus the meter-data-management and edge-AI software that turn billions of interval reads into grid visibility, loss/fault detection, and real-time intelligence at the grid edge.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Itron",
+      "role": "incumbent",
+      "what": "AMI networks, meter data management, and a distributed-intelligence platform running apps on meters themselves.",
+      "signal": "16M+ edge-intelligence endpoints shipped; AI collaborations with NVIDIA, Microsoft, AWS, Snowflake",
+      "status": "operating",
+      "source": "https://www.itron.com/"
+     },
+     {
+      "name": "Landis+Gyr",
+      "role": "incumbent",
+      "what": "Global AMI vendor (Revelo grid-edge meters) refocusing entirely on the Americas.",
+      "signal": "Divested EMEA metering business to AURELIUS at $215M EV (closed Apr 2026) \u2014 evidence of margin pressure in commodity metering",
+      "status": "operating",
+      "source": "https://www.landisgyr.com/us/en/home/news-media/newsroom/2025/Landis-Gyr-divests-EMEA-business-to-AURELIUS"
+     },
+     {
+      "name": "Aclara (Hubbell)",
+      "role": "incumbent",
+      "what": "AMI, meter data management, and grid sensors focused on US co-ops, munis, and IOUs.",
+      "signal": "Long-standing Hubbell utility-solutions arm",
+      "status": "operating",
+      "source": "https://www.hubbell.com/aclaratechnologiesllc/en/"
+     },
+     {
+      "name": "Utilidata",
+      "role": "scaleup",
+      "what": "Karman distributed-AI platform embedding an NVIDIA Jetson module inside smart meters to run real-time grid analytics at the edge.",
+      "signal": "$60.3M raise with NVIDIA participation to scale Karman production",
+      "status": "operating",
+      "source": "https://neuron.expert/news/can-ai-chips-make-the-grid-smarter-utilidata-raises-60m-to-find-out/12642/en/"
+     },
+     {
+      "name": "Sense",
+      "role": "scaleup",
+      "what": "High-frequency load disaggregation AI embedded inside AMI 2.0 meters (Landis+Gyr Revelo, Schneider) for per-device visibility.",
+      "signal": "$105M Series C; embedded-meter partnerships with major AMI vendors",
+      "status": "operating",
+      "source": "https://sense.com/"
+     },
+     {
+      "name": "Bidgely",
+      "role": "scaleup",
+      "what": "UtilityAI disaggregation and grid analytics turning AMI data into EV/solar detection, load research, and TOU targeting.",
+      "signal": "Veteran AI meter-analytics vendor deployed at 30+ utilities across NA/EU/Asia",
+      "status": "operating",
+      "source": "https://www.bidgely.com/"
+     },
+     {
+      "name": "Copper Labs",
+      "role": "startup",
+      "what": "Wireless gateways that read existing electric/gas/water meters in near-real-time, giving utilities grid-edge data without an AMI rip-and-replace.",
+      "signal": "Venture-backed Boulder startup with US utility deployments",
+      "status": "operating",
+      "source": "https://www.copperlabs.com/"
+     },
+     {
+      "name": "depsys",
+      "role": "startup",
+      "what": "Swiss GridEye LV-grid monitoring and power-quality analytics hardware/software.",
+      "signal": "Raised ~CHF 18M, then acquired by Octopus Energy's Kraken (Nov 2022)",
+      "status": "acquired",
+      "source": "https://octopus.energy/press/octopus-energy-groups-kraken-acquires-swiss-energy-tech-firm-depsys/"
+     },
+     {
+      "name": "Grid4C",
+      "role": "startup",
+      "what": "Israeli AI analytics startup for smart-meter data (predictive maintenance, disaggregation).",
+      "signal": "No visible activity since ~2021-22; apparent quiet wind-down (unconfirmed)",
+      "status": "uncertain",
+      "source": "https://www.crunchbase.com/organization/grid4c"
+     }
+    ],
+    "white_space": "Meter hardware incumbents own the channel, so pure-software entrants must embed inside incumbent meters (Sense, Utilidata) or get acquired (depsys); standalone meter-analytics startups have mostly stalled (Grid4C). The opening is AI workloads running on AMI 2.0 edge compute \u2014 the chip is now in the meter and apps for it are scarce."
+   },
+   {
+    "name": "Utility load & DER growth forecasting",
+    "description": "ML forecasting of demand, DER adoption, and large-load growth at system and feeder level so utilities can plan capacity and operate reliably amid electrification and data-center demand shocks.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Amperon",
+      "role": "scaleup",
+      "what": "AI short-term and medium-term electricity demand forecasting for utilities, retailers, and traders, now with 7-month-ahead products.",
+      "signal": "$20M Series B (2023, Energize Capital); forecasts distributed via Yes Energy platform partnership (2025)",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/amperons-ai-powered-forecasts-now-available-on-the-yes-energy-platform-302403714.html"
+     },
+     {
+      "name": "Innowatts",
+      "role": "scaleup",
+      "what": "AMI-data-driven load forecasting and customer analytics (eUtility) across tens of millions of meters.",
+      "signal": "Backed by Norrsken VC, Shell Ventures, Energy Impact Partners; serves major US/EU/Japan utilities and retailers",
+      "status": "operating",
+      "source": "https://www.innowatts.com/"
+     },
+     {
+      "name": "Myst AI",
+      "role": "startup",
+      "what": "Time-series ML platform for energy demand/renewables forecasting.",
+      "signal": "Acquired by Snowflake (Jan 2023) and absorbed into its data cloud \u2014 team exit rather than standalone scale",
+      "status": "acquired",
+      "source": "https://www.snowflake.com/en/blog/snowflake-to-acquire-myst/"
+     },
+     {
+      "name": "Itron (Forecasting)",
+      "role": "incumbent",
+      "what": "The long-standing incumbent forecasting suite (ex-MetrixND) used by hundreds of utility planning departments.",
+      "signal": "Decades of installed base in load research and forecasting",
+      "status": "operating",
+      "source": "https://www.itron.com/"
+     },
+     {
+      "name": "Kevala",
+      "role": "startup",
+      "what": "Bottom-up, parcel-level DER adoption and load-growth forecasting feeding distribution planning and hosting-capacity analysis.",
+      "signal": "$21M Series A (2022); utility and regulator engagements",
+      "status": "operating",
+      "source": "https://www.crunchbase.com/organization/kevala"
+     },
+     {
+      "name": "Enertel AI",
+      "role": "startup",
+      "what": "Graph-neural-network probabilistic nodal forecasting for North American power markets (load and price).",
+      "signal": "Acquired by S&P Global (completed Mar 2026) \u2014 forecasting IP rolling up into data incumbents",
+      "status": "acquired",
+      "source": "https://press.spglobal.com/2026-03-18-S-P-Global-Acquires-Enertel-AI-Corporation-to-Enhance-Power-Market-Offering"
+     }
+    ],
+    "white_space": "Legacy tools are tuned to weather-driven demand and break on lumpy data-center/electrification load; independent forecasting startups keep getting absorbed by data platforms (Myst\u2192Snowflake, Enertel\u2192S&P Global, Amperon distributing via Yes Energy). The opening is probabilistic large-load and feeder-level DER forecasting sold directly into distribution planning, where incumbment tooling is weakest."
+   }
+  ],
+  "sources": [
+   "https://www.gevernova.com/news/press-releases/ge-vernova-launches-gridos-distribution-industrys",
+   "https://www.gevernova.com/software/blog/key-grid-trends-orchestrate-2025",
+   "https://venturebeat.com/infrastructure/nvidia-backed-thinklabs-ai-raises-usd28-million-to-tackle-a-growing-power",
+   "https://mercuria.com/thinklabs-ai-inc-launches-and-secures-5m-seed-investment-to-develop-technology-to-transform-critical-grid-operations/",
+   "https://www.utilitydive.com/news/pjm-google-tapestry-grid-interconnection-ai/744982/",
+   "https://insidelines.pjm.com/pjm-google-tapestry-join-forces-to-apply-ai-to-enhance-regional-planning-generation-interconnection/",
+   "https://www.canarymedia.com/articles/transmission/this-doe-backed-software-is-helping-to-unclog-the-grid",
+   "https://www.latitudemedia.com/news/how-nira-energy-is-using-software-to-unclog-the-interconnection-queue/",
+   "https://www.ece.cmu.edu/news-and-events/story/2024/09/pearl-street-miso-partnership.html",
+   "https://pv-magazine-usa.com/2025/03/25/federal-regulator-recommends-using-automation-to-speed-interconnection/",
+   "https://www.blackstone.com/news/press/energy-exemplar-to-be-acquired-by-blackstone-and-vista-equity-partners/",
+   "https://spectrum.ieee.org/dynamic-line-rating-grid-congestion",
+   "https://eandt.theiet.org/2026/04/30/national-grid-expand-rollout-tech-boost-power-line-capacity",
+   "https://www.renewableenergyworld.com/power-grid/transmission/startup-behind-magic-ball-for-boosting-transmission-capacity-raises-25-million/",
+   "https://www.eu-startups.com/2025/02/gridraven-secures-e4-million-to-address-grid-bottlenecks-in-europe-and-the-u-s/",
+   "https://www.prnewswire.com/news-releases/splight-raises-12-4m-to-expand-transmission-capacity-with-machine-learning-amid-surging-demand-from-data-centers-and-utilities-302538185.html",
+   "https://newgridinc.com/",
+   "https://www.startupdaily.net/topic/funding/energy-grid-digital-twin-platform-neara-turns-unicorn-with-90-million-series-d/",
+   "https://www.eon.com/en/about-us/media/press-release/2025/digital-twin-for-the-german-distribution-grid.html",
+   "https://us.envelio.com/news/envelio-expands-intelligent-grid-platform-with-the-grid-connection-navigator",
+   "https://pv-magazine-usa.com/2025/03/07/zeitview-raises-60-million-in-funding-to-further-advance-ai-powered-infrastructure-inspections/",
+   "https://www.tdworld.com/smart-utility/data-analytics/news/55239378/esmart-systems-secures-30m-investment-for-ai-powered-grid-inspection-digitalization-in-north-america",
+   "https://www.firstenergycorp.com/newsroom/featured_stories/cameras-with-ai-aim-to-enhance-electric-service-reliability.html",
+   "https://www.aidash.com/news/aidash-closes-its-oversubscribed-series-c-funding-round-at-58-5-million/",
+   "https://www.prnewswire.com/news-releases/overstory-closes-43m-series-b-to-scale-ai-driven-wildfire-prevention-and-grid-resilience-302625548.html",
+   "https://www.globenewswire.com/news-release/2025/06/16/3099902/0/en/Wildfire-Tech-Comes-of-Age-Pano-AI-Raises-44M-Series-B-Led-by-Giant-Ventures-to-Scale-Early-Detection-Infrastructure.html",
+   "https://www.businesswire.com/news/home/20250108913569/en/Gridware-Announces-$26.4M-Series-A-Funding-Round-led-by-Sequoia-Capital",
+   "https://technosylva.com/news/technosylva-and-aidash-partner-to-integrate-vegetation-management-and-wildfire-risk-mitigation/",
+   "https://thenextweb.com/news/liveeo-28m-funding-civil-infrastructure-defence-twinspector",
+   "https://www.utilitydive.com/news/rhizome-fundraise-launch-climate-change-utility-infrastructure-investment-planning/697775/",
+   "https://www.landisgyr.com/us/en/home/news-media/newsroom/2025/Landis-Gyr-divests-EMEA-business-to-AURELIUS",
+   "https://neuron.expert/news/can-ai-chips-make-the-grid-smarter-utilidata-raises-60m-to-find-out/12642/en/",
+   "https://octopus.energy/press/octopus-energy-groups-kraken-acquires-swiss-energy-tech-firm-depsys/",
+   "https://www.snowflake.com/en/blog/snowflake-to-acquire-myst/",
+   "https://www.prnewswire.com/news-releases/amperons-ai-powered-forecasts-now-available-on-the-yes-energy-platform-302403714.html",
+   "https://press.spglobal.com/2026-03-18-S-P-Global-Acquires-Enertel-AI-Corporation-to-Enhance-Power-Market-Offering",
+   "https://www.renewableenergyworld.com/energy-business/energy-finance/grid-orchestration-platform-camus-hits-25m-in-series-a-funding/",
+   "https://www.ampacimon.com/news/dynamic-line-rating-project-awarded-by-svk-to-ampacimon"
+  ]
+ }
+}

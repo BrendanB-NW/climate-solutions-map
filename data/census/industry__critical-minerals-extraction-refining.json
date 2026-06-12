@@ -1,0 +1,862 @@
+{
+ "sector": "industry",
+ "bucket": "Critical Minerals Extraction & Refining",
+ "census": {
+  "bucket": "Critical Minerals Extraction & Refining",
+  "variations": [
+   {
+    "name": "Direct lithium extraction (DLE) from brines & brine co-production",
+    "description": "Sorbents, membranes, solvents, or electrochemical cells pull lithium selectively out of salar, geothermal, and oilfield brines in hours instead of 18-month evaporation ponds, slashing land and water footprints and unlocking dilute resources (Smackover, Upper Rhine, Salton Sea) that conventional ponds cannot economically touch.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Lilac Solutions",
+      "role": "startup",
+      "what": "Ion-exchange ceramic bead DLE modules licensed to brine owners; demonstrated at Great Salt Lake and Lake Resources' Kachi in Argentina.",
+      "signal": "Series C ~$150M (2024); ~$318M total raised (Lowercarbon, T. Rowe Price, Breakthrough-adjacent investors).",
+      "status": "operating",
+      "source": "https://impactalpha.com/lilac-solutions-raises-150-million-to-ramp-up-low-carbon-lithium-production/"
+     },
+     {
+      "name": "EnergyX",
+      "role": "startup",
+      "what": "LiTAS membrane/mixed DLE platform plus its own Smackover acreage; commissioned a 250 tpa lithium hydroxide demonstration plant (Project Lonestar, Texarkana TX).",
+      "signal": "GM-led Series B; acquired Daytona Lithium's ~35,000-acre Arkansas Smackover position for A$40M (Oct 2025); targeting 12.5 ktpa by 2028.",
+      "status": "operating",
+      "source": "https://energyx.com/press-release/american-made-lithium-project-lonestar/"
+     },
+     {
+      "name": "Summit Nanotech",
+      "role": "startup",
+      "what": "denaLi nanotech sorbent DLE tuned for Chilean salar brines, with a data/analytics layer for sorbent performance.",
+      "signal": "US$25.5M round (Mar 2025; Evok, BDC Climate Tech, LG Technology Ventures, Mitsui Kinzoku); demonstration plant commissioned in northern Chile.",
+      "status": "operating",
+      "source": "https://www.globenewswire.com/news-release/2025/03/18/3044601/0/en/Summit-Nanotech-Corporation-Closes-US-25-5M-Funding-Round-to-Accelerate-Commercialization-of-their-Direct-Lithium-Extraction-Technology.html"
+     },
+     {
+      "name": "Adionics",
+      "role": "startup",
+      "what": "Liquid-liquid solvent DLE (Flionex) that extracts lithium chloride with high selectivity and returns brine intact, piloted across the lithium triangle.",
+      "signal": "$27M Series B (2023) with SQM as strategic investor.",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/adionics-the-cleantech-pioneer-in-eco-friendly-lithium-extraction-secures-27-million-in-series-b-funding-302000077.html"
+     },
+     {
+      "name": "Lithios",
+      "role": "startup",
+      "what": "MIT spinout doing electrochemical 'Advanced Lithium Extraction' \u2014 battery-electrode-style lithium capture that works on dilute, previously uneconomic brines.",
+      "signal": "$12M seed (Oct 2024; Clean Energy Ventures, TechEnergy Ventures, GS Futures + venture debt); Arkansas pilot engagements.",
+      "status": "operating",
+      "source": "https://cleanenergyventures.com/clean-energy-venture-capital/lithios-secures-12m-to-expand-lithium-supply/"
+     },
+     {
+      "name": "ElectraLith",
+      "role": "startup",
+      "what": "Monash spinout whose DLE-R electrodialysis membrane stack goes brine-to-battery-grade lithium hydroxide in one step with minimal water and no chemical reagents.",
+      "signal": "Backed by Rio Tinto and IP Group since 2022; 2024 proof-of-concept produced battery-grade LiOH from salar, oilfield, and spodumene-leach feeds; raising Series A.",
+      "status": "operating",
+      "source": "https://www.ipgroupanz.com/news/2024/2024-08-27"
+     },
+     {
+      "name": "Vulcan Energy Resources",
+      "role": "scaleup",
+      "what": "Combines geothermal power plants with adsorption DLE in Germany's Upper Rhine Valley to produce carbon-neutral lithium hydroxide for EU automakers.",
+      "signal": "Closed ~\u20ac2.2B Phase One 'Lionheart' financing (Dec 2025) incl. \u20ac250M EIB, ECAs, KfW equity; 24 ktpa LiOH; production targeted 2028; LiCl optimization plant running since 2024.",
+      "status": "operating",
+      "source": "https://www.eib.org/en/press/all/2025-486-vulcan-energy-secures-eur250-million-eib-financing-for-landmark-lithium-project-in-germany"
+     },
+     {
+      "name": "Controlled Thermal Resources",
+      "role": "scaleup",
+      "what": "Hell's Kitchen project at California's Salton Sea co-producing geothermal power and lithium from the same brine, one of the largest US lithium resources.",
+      "signal": "Stellantis invested >$100M with multi-decade lithium offtake; Stage 1 ~25 ktpa LHM in development.",
+      "status": "operating",
+      "source": "https://www.cthermal.com/"
+     },
+     {
+      "name": "Standard Lithium",
+      "role": "scaleup",
+      "what": "Longest-running US DLE demonstration (El Dorado, Arkansas since 2020); now developing the Smackover via the 55/45 'Smackover Lithium' JV with Equinor.",
+      "signal": "$225M DOE grant (2024); >$1B of export-credit-agency debt interest; FID targeted ~end-2025, first production 2028.",
+      "status": "operating",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001537137/000117184325004465/exh_991.htm"
+     },
+     {
+      "name": "International Battery Metals (IBAT)",
+      "role": "startup",
+      "what": "Containerized, relocatable modular DLE plants; switched on the first commercial modular DLE plant in North America at US Magnesium's Utah site (2024).",
+      "signal": "World-first modular commercial DLE deployment (Jul 2024); subsequent throughput tied to troubled host-site economics.",
+      "status": "operating",
+      "source": "https://energycapitalhtx.com/amp/international-battery-metals-lithium-utah-2668732273"
+     },
+     {
+      "name": "Eramet",
+      "role": "incumbent",
+      "what": "French mining major operating Centenario (Argentina), the first large greenfield DLE plant built outside China, ramping toward 24 ktpa LCE.",
+      "signal": "Centenario Phase 1 inaugurated 2024 and ramping through 2025-26 \u2014 the sector's key industrial proof point.",
+      "status": "operating",
+      "source": "https://www.eramet.com/en/"
+     },
+     {
+      "name": "ExxonMobil (Mobil Lithium)",
+      "role": "incumbent",
+      "what": "Applying oilfield drilling and subsurface skills to Arkansas Smackover brine, re-injecting spent brine; the highest-profile oil-major entry into lithium.",
+      "signal": "First production targeted ~2027; stated ambition to supply ~1M EVs/yr by 2030.",
+      "status": "operating",
+      "source": "https://corporate.exxonmobil.com/what-we-do/delivering-industrial-solutions/mobil-lithium"
+     }
+    ]
+   },
+   {
+    "name": "Lithium from clay and unconventional hard-rock processing",
+    "description": "Acid or CO2-based leaching flowsheets unlock lithium from claystone/sedimentary deposits and cut the energy and reagent intensity of spodumene conversion, adding a third supply pillar beyond brine ponds and conventional hard rock \u2014 critical because the biggest US lithium resources are clays.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Lithium Americas",
+      "role": "scaleup",
+      "what": "Building Thacker Pass (Nevada), the largest western clay-lithium project, using sulfuric-acid leaching of claystone; Phase 1 is 40 ktpa battery-grade lithium carbonate.",
+      "signal": "$2.26B DOE loan with first $435M draw agreed Oct 2025 \u2014 US government took 5% equity warrants; GM $625M JV; production ~2028.",
+      "status": "operating",
+      "source": "https://lithiumamericas.com/news/news-details/2025/Lithium-Americas-Reaches-Agreement-with-GM-and-U-S--DOE-Regarding-First-Draw-on-DOE-Loan/default.aspx"
+     },
+     {
+      "name": "ioneer",
+      "role": "scaleup",
+      "what": "Rhyolite Ridge (Nevada) lithium-boron project whose boron co-product subsidizes lithium costs; on-site sulfuric-acid processing.",
+      "signal": "Closed $996M DOE loan (Jan 2025); Sibanye-Stillwater declined the JV (Feb 2025) but financing stands; production targeted 2028.",
+      "status": "operating",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001896084/000114036125013883/ef20047425_ex99-1.htm"
+     },
+     {
+      "name": "Century Lithium",
+      "role": "startup",
+      "what": "Angel Island (Clayton Valley, Nevada) claystone project with a long-running pilot plant validating chloride-based leaching and on-site lithium carbonate production.",
+      "signal": "Completed feasibility study (2024); multi-year pilot plant operation in Amargosa Valley.",
+      "status": "operating",
+      "source": "https://centurylithium.com/"
+     },
+     {
+      "name": "American Battery Technology Company",
+      "role": "startup",
+      "what": "Pairs Nevada claystone extraction (Tonopah Flats) with a selective leach flowsheet developed alongside its battery-recycling business.",
+      "signal": "Multiple DOE grants for first-of-kind claystone demonstration and commercial refinery design; Nasdaq-listed.",
+      "status": "operating",
+      "source": "https://americanbatterytechnology.com/"
+     },
+     {
+      "name": "Novalith",
+      "role": "startup",
+      "what": "LiCAL process leaches lithium with CO2-carbonated water instead of sulfuric acid, producing lithium carbonate directly and locking some CO2 into the product.",
+      "signal": "A$23M Series A (2023; Lowercarbon, CEFC); pilot plant in Sydney.",
+      "status": "operating",
+      "source": "https://novalith.com.au/"
+     },
+     {
+      "name": "Sigma Lithium",
+      "role": "scaleup",
+      "what": "'Greentech' dense-media-separation plant in Brazil produces ~270 ktpa 'Quintuple Zero' spodumene concentrate with zero tailings dams, dry-stacking, and renewable power.",
+      "signal": "Producing and expanding since 2023; one of the lowest-carbon hard-rock lithium operations globally.",
+      "status": "operating",
+      "source": "https://www.sigmalithiumresources.com/"
+     }
+    ],
+    "white_space": "Capital intensity ($1-3B per project) and unproven first-of-kind flowsheets restrict this to a handful of mega-projects that only advanced once DOE loans and automaker equity de-risked them; the open lane is low-capex, low-acid chemistry (CO2 or chloride leaching) that can work at smaller deposits without a billion-dollar acid plant."
+   },
+   {
+    "name": "Copper extraction innovation (catalytic heap leaching, electrochemical reduction, in-situ recovery)",
+    "description": "Catalysts, microbes, and electrochemistry break chalcopyrite's passivation layer so copper can be leached or plated from low-grade primary sulfide ore, waste dumps, and deep orebodies without building new smelters \u2014 the main lever for closing the forecast multi-Mt copper supply gap for electrification.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Jetti Resources",
+      "role": "scaleup",
+      "what": "Catalytic additive that lets standard heap leaching extract copper from chalcopyrite; deployed commercially at Capstone's Pinto Valley since 2019.",
+      "signal": "$100M Series D (2022) at ~$2.5B valuation (T. Rowe Price, BHP, Freeport, Mitsubishi); Capstone's PV4 study expands Jetti leaching toward 300-350 Mlb cathode.",
+      "status": "operating",
+      "source": "https://www.mining.com/jetti-resources-quest-for-copper-minings-holy-grail/"
+     },
+     {
+      "name": "Ceibo",
+      "role": "startup",
+      "what": "Chilean startup whose leaching chemistry accelerates chalcopyrite oxidation using existing mine infrastructure (sulfide leaching retrofit).",
+      "signal": "$30M Series B (Energy Impact Partners); BHP Ventures invested 2025; on-site trials with major Chilean producers.",
+      "status": "operating",
+      "source": "https://www.ceibo.tech/article/ceibo-raises-30-million-to-scale-advanced-copper-extraction-technology/"
+     },
+     {
+      "name": "Still Bright",
+      "role": "startup",
+      "what": "Vanadium redox-driven dissolution plus electrowinning that converts copper concentrate (and complex ores) to cathode without smelting, claiming near-complete recovery.",
+      "signal": "$18.7M seed (Jul 2025) led by Material Impact and Breakthrough Energy Ventures, with Fortescue; New Jersey pilot.",
+      "status": "operating",
+      "source": "https://techcrunch.com/2025/07/30/how-a-new-jersey-startup-found-an-electrifying-way-to-slash-copper-costs/"
+     },
+     {
+      "name": "Nuton (Rio Tinto)",
+      "role": "incumbent",
+      "what": "Rio Tinto's bioleaching/heap-leach venture commercializing decades of internal R&D on primary sulfides through deals with junior mine owners.",
+      "signal": "First copper cathode at Gunnison Copper's Johnson Camp mine (2025); AWS signed as exclusive launch customer for Nuton copper (2026).",
+      "status": "operating",
+      "source": "https://www.riotinto.com/en/news/releases/2025/rio-tintos-nuton-technology-produces-first-copper"
+     },
+     {
+      "name": "Taseko Mines (Florence Copper)",
+      "role": "incumbent",
+      "what": "First new commercial in-situ copper recovery operation in the US: sulfuric acid circulated through wells dissolves copper in place, SX/EW plant makes cathode on site with minimal surface disturbance.",
+      "signal": "First cathode Feb 2026; 1.5 Mlb produced in Q1 2026; projected lowest-quartile cost and among lowest-GHG copper in North America.",
+      "status": "operating",
+      "source": "https://www.tasekomines.com/properties/florence-copper/"
+     },
+     {
+      "name": "Gunnison Copper",
+      "role": "startup",
+      "what": "Arizona junior (formerly Excelsior Mining) that pivoted from a slow wellfield ISR ramp to open-pit plus Nuton-powered heap leach at Johnson Camp.",
+      "signal": "First cathode produced under Nuton partnership (2025) after original Gunnison ISR underperformed on permeability.",
+      "status": "operating",
+      "source": "https://arizonasonoran.com/projects/cactus-mine-project/nuton-technologies/"
+     },
+     {
+      "name": "BHP",
+      "role": "incumbent",
+      "what": "World's largest copper producer running full-scale leaching programs at Escondida and seeding the field via BHP Ventures stakes in Jetti and Ceibo and its Think & Act biomining program.",
+      "signal": "Multi-decade leach expansion plans; venture positions across the catalytic-leach cohort.",
+      "status": "operating",
+      "source": "https://www.theassay.com/articles/feature-story/bhp-ventures-invests-in-sustainable-copper-extraction-technology/"
+     },
+     {
+      "name": "Freeport-McMoRan",
+      "role": "incumbent",
+      "what": "'Leach to the last drop' initiative using additives, sensors, and heat retention to recover incremental copper from billions of tonnes of legacy stockpiles.",
+      "signal": "Added ~200-300 Mlb/yr of low-capex cathode, targeting ~800 Mlb/yr run-rate by 2030.",
+      "status": "operating",
+      "source": "https://www.fcx.com/"
+     }
+    ],
+    "white_space": "Chalcopyrite passivation defeated heap leaching for 40 years; catalytic leaching now has several funded players, but direct electrochemical reduction of concentrate has essentially one startup (Still Bright) \u2014 hard electrochemistry, but the prize is replacing the world's copper smelters (and their geographic concentration in China), so credible second entrants would find capital."
+   },
+   {
+    "name": "Cleaner nickel and cobalt supply (hydromet refining, low-carbon laterite processing, tailings handling)",
+    "description": "Hydrometallurgical flowsheets (HPAL, nitric-acid DNi, pressure leaching) and carbon-mineralizing tailings turn laterite and sulfide ores into battery-grade nickel and cobalt with lower emissions than smelting \u2014 the battleground is making western 'green' nickel cost-competitive with Indonesian HPAL.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Lifezone Metals",
+      "role": "scaleup",
+      "what": "Hydromet platform that replaces smelting; developing Kabanga (Tanzania), one of the largest undeveloped high-grade nickel sulfide deposits, with an in-country Kahama refinery for Ni/Co sulfates and copper cathode.",
+      "signal": "NYSE-listed (LZM); 2025 feasibility/initial assessment published; took full project ownership after BHP's 2024 exit.",
+      "status": "operating",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001958217/000121390025065310/ea024923101ex99-1_lifezone.htm"
+     },
+     {
+      "name": "Canada Nickel",
+      "role": "startup",
+      "what": "Crawford (Ontario) ultramafic nickel project whose tailings naturally absorb CO2 (in-process tailings carbonation), targeting net-zero nickel plus a NetZero Metals refinery.",
+      "signal": "Bankable feasibility complete; referred to Canada's Major Projects Office (Nov 2025) for accelerated permitting/financing.",
+      "status": "operating",
+      "source": "https://www.canada.ca/en/natural-resources-canada/news/2025/11/canada-nickels-crawford-project-referred-to-the-major-projects-office.html"
+     },
+     {
+      "name": "Talon Metals",
+      "role": "startup",
+      "what": "High-grade Tamarack (Minnesota) nickel-copper deposit in JV with Rio Tinto, with a DOE-grant-backed processing facility planned in North Dakota and a Tesla offtake.",
+      "signal": "US DOE ($114M) and DoD grants; Tesla supply agreement; permitting underway.",
+      "status": "operating",
+      "source": "https://talonmetals.com/"
+     },
+     {
+      "name": "Westwin Elements",
+      "role": "startup",
+      "what": "Building America's only nickel refinery effort \u2014 a carbonyl-process pilot refinery in Lawton, Oklahoma, with a full-scale plant planned.",
+      "signal": "Pilot refinery operating; full-scale site selection (Georgia) underway; ongoing litigation with former technology partner CVMR.",
+      "status": "operating",
+      "source": "https://www.wsav.com/news/local-news/nickel-refinery-westwin-elements-ceo-clarifies-ongoing-legal-dispute/"
+     },
+     {
+      "name": "Queensland Pacific Metals",
+      "role": "startup",
+      "what": "TECH Project (Townsville) would process New Caledonian laterite via the nitric-acid DNi process with near-zero solid residue and reagent recycle.",
+      "signal": "Project development paused amid the nickel price collapse; company pivoted near-term focus to gas/energy assets.",
+      "status": "uncertain",
+      "source": "https://qpmetals.com.au/"
+     },
+     {
+      "name": "Electra Battery Materials",
+      "role": "startup",
+      "what": "Refurbishing North America's only cobalt sulfate refinery (Temiskaming, Ontario) to feed EV precursor plants.",
+      "signal": "US DoD awarded $20M (2024); commissioning repeatedly delayed by financing gaps \u2014 a marker of western refining economics.",
+      "status": "operating",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001907184/000117184325003980/exh_991.htm"
+     },
+     {
+      "name": "Huayou Cobalt",
+      "role": "incumbent",
+      "what": "Chinese incumbent that industrialized Indonesian HPAL (Huayue; Pomalaa JV with Vale/Ford), resetting the global nickel cost curve while moving to dry-stack tailings.",
+      "signal": "Multiple operating HPAL trains; dominant MHP supplier to battery chains.",
+      "status": "operating",
+      "source": "https://www.huayou.com/"
+     }
+    ],
+    "white_space": "Indonesian HPAL oversupply crashed nickel prices and froze nearly all western projects \u2014 BHP suspended Nickel West (2024) and BASF/Eramet scrapped their Sonic Bay HPAL JV \u2014 so few startups attack primary nickel processing; the opening is not new chemistry but verified low-carbon 'green premium' nickel qualifying for IRA/EU rules, plus carbon-mineralizing tailings that monetize CO2 storage alongside metal."
+   },
+   {
+    "name": "Deep-sea polymetallic nodule collection",
+    "description": "Robotic collectors lift potato-sized nodules rich in nickel, cobalt, copper, and manganese from 4-5 km abyssal plains, a potentially huge land-mining alternative that remains gated by unresolved international regulation and major ecological controversy.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "The Metals Company (TMC)",
+      "role": "scaleup",
+      "what": "Most advanced nodule developer (NORI/TOML areas, Clarion-Clipperton Zone); pivoted to the US permitting route after the 2025 seabed-minerals executive order.",
+      "signal": "World-first commercial recovery permit application under US DSHMRA (2025; NOAA hearings Jan 2026); Korea Zinc $85M strategic investment; 2022 pilot lifted ~3,000t nodules.",
+      "status": "operating",
+      "source": "https://metals.co/news-release-details-world-first-tmc-usa-submits-application-commercial-recovery-deep/"
+     },
+     {
+      "name": "Impossible Metals",
+      "role": "startup",
+      "what": "Eureka AUVs that hover and pick nodules selectively with AI vision to avoid visible fauna \u2014 a lower-impact alternative to dredge-style collectors.",
+      "signal": "Requested a BOEM lease sale offshore American Samoa (2025); postponed its planned 2026 CCZ test citing technology readiness.",
+      "status": "operating",
+      "source": "https://impossiblemetals.com/"
+     },
+     {
+      "name": "Loke Marine Minerals",
+      "role": "startup",
+      "what": "Norwegian developer that bought Lockheed's UK Seabed Resources licenses to mine CCZ and Norwegian shelf minerals.",
+      "signal": "Declared bankruptcy April 2025 after failing to raise \u2014 the clearest evidence of investor flight from the sector.",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.greenpeace.org.uk/news/norwegian-owner-of-uk-deep-sea-mining-company-goes-bankrupt/"
+     },
+     {
+      "name": "Global Sea Mineral Resources (DEME)",
+      "role": "incumbent",
+      "what": "Dredging giant DEME's nodule arm; ran Patania II/III collector trials in the CCZ under an ISA exploration contract.",
+      "signal": "Holding pattern pending ISA mining code; technology demonstrated at depth.",
+      "status": "operating",
+      "source": "https://www.deme-group.com/gsr"
+     },
+     {
+      "name": "Allseas",
+      "role": "incumbent",
+      "what": "Offshore engineering incumbent that built and operates TMC's Hidden Gem production vessel and riser system.",
+      "signal": "Successful 2022 pilot collection system test; TMC shareholder and partner.",
+      "status": "operating",
+      "source": "https://allseas.com/"
+     }
+    ],
+    "white_space": "Regulatory limbo (ISA stalemate vs. a contested new US permit path) plus ESG-driven investor flight (Loke bankrupt, Impossible Metals delayed, automakers pledging no deep-sea metals) leaves effectively one funded developer; openings are picks-and-shovels \u2014 selective harvesting robotics, environmental monitoring/baselining tech, and onshore nodule processing \u2014 rather than new license holders."
+   },
+   {
+    "name": "Rare earth mining and novel separation/refining",
+    "description": "New mines plus separation technologies (accelerated solvent extraction, chromatography, ionic-clay desorption) break China's ~90% grip on separated rare earth oxides \u2014 especially heavy REEs like dysprosium and terbium \u2014 which became an acute chokepoint after China's 2025 export controls.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "MP Materials",
+      "role": "incumbent",
+      "what": "Operates Mountain Pass, the only US REE mine, with integrated separation and a Fort Worth magnet plant.",
+      "signal": "DoD became largest shareholder (2025, $400M preferred) with $110/kg NdPr price floor and 10-yr magnet offtake; $500M Apple deal.",
+      "status": "operating",
+      "source": "https://mpmaterials.com/"
+     },
+     {
+      "name": "Lynas Rare Earths",
+      "role": "incumbent",
+      "what": "Largest ex-China separated REE producer (Mt Weld, Kalgoorlie, Malaysia), first to separate dysprosium/terbium outside China (2025), building a Texas plant with DoD funding.",
+      "signal": "Commercial Dy/Tb production 2025; Seadrift TX heavy-RE plant in development.",
+      "status": "operating",
+      "source": "https://lynasrareearths.com/"
+     },
+     {
+      "name": "Solvay",
+      "role": "incumbent",
+      "what": "Restarted and expanded NdPr separation at its century-old La Rochelle plant, the EU's anchor separation asset.",
+      "signal": "NdPr line inaugurated April 2025; targets ~30% of EU magnet REE demand by 2030.",
+      "status": "operating",
+      "source": "https://www.solvay.com/"
+     },
+     {
+      "name": "Energy Fuels",
+      "role": "incumbent",
+      "what": "Uranium miner that repurposed its White Mesa mill to separate NdPr (and pilot Dy/Tb) from monazite streams.",
+      "signal": "Producing separated NdPr since 2024; 2026 strategic partnership with US magnet maker Vulcan Elements.",
+      "status": "operating",
+      "source": "https://www.mining.com/energy-fuels-soars-on-vulcan-elements-partnership/"
+     },
+     {
+      "name": "Ucore Rare Metals",
+      "role": "startup",
+      "what": "RapidSX column-based accelerated solvent extraction (~3x faster than mixer-settlers) for both light and heavy REE separation.",
+      "signal": "US DoD awards totaling $22.4M; Louisiana Strategic Metals Complex targeting first salable separated REEs H2 2026.",
+      "status": "operating",
+      "source": "https://ucore.com/ucore-and-us-dod-agree-on-us18-4m-initial-construction-funding-for-rare-earth-processing-in-louisiana/"
+     },
+     {
+      "name": "ReElement Technologies",
+      "role": "startup",
+      "what": "Ligand-assisted chromatography that separates heavy and light REEs (and lithium) in modular plants instead of hundred-stage SX trains.",
+      "signal": "DoD investment (Sept 2025); Marion, Indiana refining campus scaling; commercial qualification with magnet makers.",
+      "status": "operating",
+      "source": "https://finance.yahoo.com/news/reelement-secures-us-dod-funding-135907853.html"
+     },
+     {
+      "name": "Carester (Caremag)",
+      "role": "scaleup",
+      "what": "French separation specialist building Lacq plant to produce ~600 tpa Dy+Tb oxides \u2014 set to be the largest western heavy-RE separator \u2014 from mixed concentrates and magnet recycling.",
+      "signal": "\u20ac216M from JOGMEC/Iwatani and the French state; USA Rare Earth and InfraVia each taking ~12.5% stakes (2026); production from late 2026.",
+      "status": "operating",
+      "source": "https://www.carester.fr/en/caremag-launch/"
+     },
+     {
+      "name": "Serra Verde",
+      "role": "scaleup",
+      "what": "First commercial ionic-clay REE producer in the Americas (Goi\u00e1s, Brazil), a heavy-RE-rich feed analogous to southern China's deposits.",
+      "signal": "Producing since 2024, ramping toward 5 ktpa REO.",
+      "status": "operating",
+      "source": "https://serraverde.com.br/"
+     },
+     {
+      "name": "Aclara Resources",
+      "role": "startup",
+      "what": "Ionic-clay heavy-RE projects in Chile (Penco) and Brazil (Carina) using a water-recycling, no-blasting desorption flowsheet, with a planned US separation step.",
+      "signal": "TSX-listed; pilot plants run; permitting and DFS advancing 2025-26.",
+      "status": "operating",
+      "source": "https://aclararesources.com/"
+     }
+    ]
+   },
+   {
+    "name": "Critical-material substitution (rare-earth-free magnets, cobalt-free and PGM-thrifted materials)",
+    "description": "Engineered materials \u2014 iron-nitride and ferrite magnets, LFP/sodium cathodes, low-platinum-group catalysts \u2014 design scarce or weaponized elements out of motors, batteries, and electrolyzers entirely, attacking demand instead of supply.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Niron Magnetics",
+      "role": "scaleup",
+      "what": "Iron-nitride 'Clean Earth Magnet' \u2014 the leading high-flux rare-earth-free permanent magnet \u2014 moving from pilot line to first commercial plant in Sartell, Minnesota.",
+      "signal": "$214M+ raised (GM, Stellantis, Samsung, Allison, Magna); $52M DOE award plus $10M Minnesota grant for the Sartell plant.",
+      "status": "operating",
+      "source": "https://www.nironmagnetics.com/news/niron-magnetics-awarded-52-million-to-advance-us-rare-earth-free-magnet-manufacturing"
+     },
+     {
+      "name": "Materials Nexus",
+      "role": "startup",
+      "what": "UK AI materials-discovery platform that designed rare-earth-free magnet 'MagNex' in three months, now scaling synthesis with UK research institutes.",
+      "signal": "MagNex unveiled 2024; seed-stage with Henry Royce Institute collaboration.",
+      "status": "operating",
+      "source": "https://www.materialsnexus.com/"
+     },
+     {
+      "name": "Conifer",
+      "role": "startup",
+      "what": "Ferrite-based axial-flux hub motors with 'no-tool' software-driven manufacturing, matching rare-earth motor performance for micromobility, HVAC, and industrial uses.",
+      "signal": "$20M seed (Apr 2025; True Ventures, MaC, MFV); track to ~75,000 motors/yr capacity.",
+      "status": "operating",
+      "source": "https://www.conifer.io/news/these-electric-motors-could-help-break-the-worlds-dependence-on-china"
+     },
+     {
+      "name": "Proterial (ex-Hitachi Metals)",
+      "role": "incumbent",
+      "what": "Demonstrated ~100 kW-class ferrite-magnet EV traction motor designs, validating rare-earth-free architectures for mass-market vehicles.",
+      "signal": "Ferrite EV motor concept shown 2023; global magnet supplier hedging both chemistries.",
+      "status": "operating",
+      "source": "https://www.proterial.com/"
+     },
+     {
+      "name": "CATL",
+      "role": "incumbent",
+      "what": "Drove cobalt- and nickel-free LFP/LMFP to >40% of global EV battery output and launched Naxtra sodium-ion \u2014 by volume the largest critical-mineral substitution in the market.",
+      "signal": "World #1 cell maker; sodium-ion mass production announced 2025.",
+      "status": "operating",
+      "source": "https://www.catl.com/en/"
+     },
+     {
+      "name": "Mattiq",
+      "role": "startup",
+      "what": "Northwestern 'megalibrary' high-throughput electrochemistry to design catalysts that slash platinum-group and iridium loadings in electrolyzers and fuel cells.",
+      "signal": "~$15M Series A (2023); industrial co-development programs.",
+      "status": "operating",
+      "source": "https://www.mattiq.com/"
+     }
+    ],
+    "white_space": "Physics caps substitutes \u2014 iron nitride and ferrite give up energy product versus NdFeB, so they only address mid-performance motors \u2014 and magnet manufacturing scale-up is slow, capital-heavy, and incumbent-dominated, which is why credible players are scarce; AI-accelerated alloy discovery plus the post-2025 China export-control panic (and US price floors) create the best entry window this decade."
+   },
+   {
+    "name": "Battery-grade refining and midstream chemical conversion (lithium hydroxide, HPMSM, CAM precursors, reagent regeneration)",
+    "description": "Electrochemical and plasma processes convert mined intermediates into battery-grade chemicals (LiOH, manganese sulfate, cathode precursors) outside China while regenerating acids and bases on-site, attacking the midstream chokepoint where China holds 60-90% of capacity.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Mangrove Lithium",
+      "role": "startup",
+      "what": "Electrochemical cells convert lithium sulfate/chloride or carbonate into battery-grade lithium hydroxide without reagent consumption; Delta, BC plant is North America's first electrochemical lithium refinery.",
+      "signal": "Canada Growth Fund-led up to US$85M (2025) after $35M strategic round; plant sized for ~25,000 EVs/yr, commissioning from late 2025.",
+      "status": "operating",
+      "source": "https://www.mangrovelithium.com/canada-growth-fund-leads-us85usd-investment/"
+     },
+     {
+      "name": "Aepnus Technology",
+      "role": "startup",
+      "what": "Salt-splitting electrolyzers regenerate caustic soda and sulfuric acid from sodium-sulfate waste streams at lithium refineries, recyclers, and CAM plants.",
+      "signal": "$8M seed (2024; Clean Energy Ventures, Lowercarbon); pilots with battery-materials producers.",
+      "status": "operating",
+      "source": "https://cleanenergyventures.com/clean-energy-venture-capital/why-we-invested/why-we-invested-aepnus/"
+     },
+     {
+      "name": "6K (6K Energy)",
+      "role": "scaleup",
+      "what": "UniMelt microwave-plasma reactors make cathode-active materials and other battery powders in seconds with little waste, replacing multi-day furnace chemistry.",
+      "signal": "$50M DOE award toward the >$200M PlusCAM plant in Jackson, Tennessee.",
+      "status": "operating",
+      "source": "https://www.tradeandindustrydev.com/region/tennessee/news/tn-6k-energy-construct-pluscam-battery-material-32568"
+     },
+     {
+      "name": "Element 25",
+      "role": "startup",
+      "what": "Building the first US high-purity manganese sulfate (HPMSM) refinery in Louisiana, fed by its own Australian manganese ore.",
+      "signal": "GM ($85M) and Stellantis ($15M) funding; 2026: renegotiating offtake contracts with both automakers after schedule slip \u2014 project under review.",
+      "status": "operating",
+      "source": "https://www.investing.com/news/stock-market-news/australias-element-25-reviews-us-project-as-it-looks-to-renegotiategm-stellantis-contracts-4709332"
+     },
+     {
+      "name": "Tesla",
+      "role": "incumbent",
+      "what": "Built its own Corpus Christi spodumene-to-lithium-hydroxide refinery using a sulfate-free process \u2014 the rare automaker that integrated upstream into chemical refining.",
+      "signal": "Refinery commissioning/first production through 2025.",
+      "status": "operating",
+      "source": "https://www.tesla.com/"
+     },
+     {
+      "name": "Albemarle",
+      "role": "incumbent",
+      "what": "One of the world's largest lithium converters (La Negra, Kemerton, Meishan, Kings Mountain plans).",
+      "signal": "Halted its $1.3B South Carolina mega-refinery and curtailed Kemerton trains in 2024-25 capex cuts \u2014 the defining datapoint on western conversion economics.",
+      "status": "operating",
+      "source": "https://www.albemarle.com/"
+     }
+    ],
+    "white_space": "China's scale plus the 2023-25 lithium/nickel price collapse made western conversion plants uneconomic without policy support \u2014 even Albemarle walked away \u2014 so the field thinned to electrochemical flowsheets that structurally cut reagent, energy, and waste costs (Mangrove, Aepnus) and to projects wrapped in automaker/government offtakes; price floors and Section 232-style tariffs are now creating bankable demand for whoever can finance first plants."
+   },
+   {
+    "name": "Synthetic and bio-based graphite for battery anodes",
+    "description": "Electric furnaces, recycled carbon feeds, and even forestry biomass produce anode-grade graphite outside China \u2014 which supplies ~90%+ of anode material and imposed export controls in Dec 2024 \u2014 making this the single most concentrated battery input.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Novonix",
+      "role": "scaleup",
+      "what": "All-electric continuous induction furnaces in Chattanooga producing US synthetic anode graphite with roughly 60% lower emissions than Chinese routes.",
+      "signal": "Conditional $754M DOE loan for second (Enterprise South) plant; Riverside plant commercial production from early 2026; binding offtakes with Stellantis (115kt) and PowerCo (32kt+).",
+      "status": "operating",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001859795/000095017025012029/nvx-ex99_1.htm"
+     },
+     {
+      "name": "Anovion",
+      "role": "startup",
+      "what": "Legacy US synthetic graphite producer (New York lines) developing a $800M, 35kt anode-graphite plant in Bainbridge, Georgia.",
+      "signal": "$117M DOE grant; construction start slipped to 2026 amid graphite price weakness.",
+      "status": "operating",
+      "source": "https://thepostsearchlight.com/2025/07/16/anovion-still-aiming-for-2026-construction/"
+     },
+     {
+      "name": "Vianode",
+      "role": "scaleup",
+      "what": "Elkem/Hydro/Altor-backed Norwegian producer of low-emission synthetic graphite (Her\u00f8ya plant) with a multi-billion-dollar large-scale plant announced for Ontario.",
+      "signal": "Multi-billion-dollar GM supply agreement (2024); initial CAD ~$2B Ontario investment toward 150 ktpa by ~2030.",
+      "status": "operating",
+      "source": "https://www.vianode.com/news/vianode-to-build-large-scale-clean-synthetic-graphite-plant-in-ontario-in-support-of-canadas-contribution-to-the-g7-critical-minerals-production-alliance"
+     },
+     {
+      "name": "CarbonScape",
+      "role": "startup",
+      "what": "New Zealand company converting forestry byproducts into carbon-negative 'biographite' for anodes.",
+      "signal": "$18M from Stora Enso and ATL; first plant construction began Q1 2025 at Stora Enso's Sunila site in Finland, production from 2026.",
+      "status": "operating",
+      "source": "https://www.carbonscape.com/latest-news/carbonscapes-finnish-expansion-market-disrupting-technology-makes-headlines-across-europe"
+     },
+     {
+      "name": "Graphjet Technology",
+      "role": "startup",
+      "what": "Malaysian palm-kernel-waste-to-graphite process, Nasdaq-listed via SPAC in 2024.",
+      "signal": "FY2025 10-K discloses going-concern doubt: ~$0.09M revenue, $22.5M operating loss, liabilities exceeding assets.",
+      "status": "uncertain",
+      "source": "https://www.tradingview.com/news/tradingview:e5d0c57e6d53d:0-graphjet-technology-sec-10-k-report/"
+     },
+     {
+      "name": "Syrah Resources",
+      "role": "scaleup",
+      "what": "Vertically integrated natural graphite: Balama mine (Mozambique) plus the Vidalia, Louisiana active-anode-material plant \u2014 the first ex-China integrated natural graphite AAM producer.",
+      "signal": "Balama restarted May 2025 after a 9-month protest-driven shutdown; DOE/DFC loans plus ~$104M equity recapitalization; 67kt produced in 2025.",
+      "status": "operating",
+      "source": "https://www.chemanalyst.com/NewsAndDeals/NewsDetails/syrah-resources-reports-positive-progress-on-balama-operations-42397"
+     },
+     {
+      "name": "Urbix",
+      "role": "startup",
+      "what": "Low-acid, modular graphite purification and anode refining in Mesa, Arizona, designed to sit downstream of any natural graphite mine.",
+      "signal": "Joint development agreement with SK On for anode qualification; pilot lines operating.",
+      "status": "operating",
+      "source": "https://urbix.com/"
+     }
+    ],
+    "white_space": "China's Dec 2024 export controls exposed near-zero western anode capacity, yet Chinese price undercutting keeps margins brutal \u2014 Graphjet's going-concern and Syrah's force majeure are the cautionary tales; 2025 US anti-dumping duties (effective rates in the hundreds of percent) plus DOE loans finally give first-plant economics a floor, favoring whoever locks fixed-price automaker offtakes."
+   },
+   {
+    "name": "Tailings and mine-waste reprocessing for metals recovery",
+    "description": "Hydrometallurgy, novel separation, and bio-processes re-mine the world's billions of tonnes of tailings and slag for cobalt, copper, rare earths, and nickel \u2014 supply that needs no new mine permit and remediates legacy environmental liabilities at the same time.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Phoenix Tailings",
+      "role": "startup",
+      "what": "Recovers rare earths and other metals from mining waste and produces finished Nd/NdPr, Dy, and Tb metal at US facilities with no Chinese inputs and no hazardous waste.",
+      "signal": "Series B closed at $76M (2025) plus $40M strategic capital; Exeter, NH metallization plant scaling from 200t toward 1,000+t; announced go-public via Plum Acquisition III SPAC (late 2025).",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20250430735778/en/Rare-Earth-Metals-Refining-Company-Phoenix-Tailings-Closes-on-Additional-$33M-in-Funding-From-Strategic-Investors-Bringing-the-Round-up-to-$76M-to-Support-Rare-Earth-Metal-Independence"
+     },
+     {
+      "name": "Regeneration",
+      "role": "startup",
+      "what": "RESOLVE-created enterprise that re-mines legacy sites and tailings for critical minerals and funds habitat restoration with the proceeds.",
+      "signal": "Rio Tinto invested $2M and screens its legacy sites for projects; Mejuri founding jewelry-sector investment.",
+      "status": "operating",
+      "source": "https://www.resolve.ngo/projects/regeneration"
+     },
+     {
+      "name": "Jubilee Metals Group",
+      "role": "scaleup",
+      "what": "AIM/JSE-listed processor recovering PGMs and chrome from South African tailings at commercial scale, with copper/cobalt waste processing built in Zambia.",
+      "signal": "Profitable multi-year chrome/PGM tailings operations; strategic review refocusing portfolio 2025.",
+      "status": "operating",
+      "source": "https://jubileemetalsgroup.com/"
+     },
+     {
+      "name": "Eurasian Resources Group (Metalkol RTR)",
+      "role": "incumbent",
+      "what": "Reprocesses historic Kolwezi (DRC) copper-cobalt tailings into one of the world's largest cobalt outputs \u2014 the at-scale proof that tailings can be tier-one supply.",
+      "signal": "~20kt+ cobalt capacity operating since 2019.",
+      "status": "operating",
+      "source": "https://www.eurasianresources.lu/"
+     },
+     {
+      "name": "Rio Tinto",
+      "role": "incumbent",
+      "what": "Extracts scandium from titanium-dioxide waste streams in Quebec and lithium from 90 years of borate tailings at Boron, California under its 'full value mining' program.",
+      "signal": "Commercial scandium oxide production since 2021; Boron lithium demonstration.",
+      "status": "operating",
+      "source": "https://www.riotinto.com/en/news/stories/a-new-model-for-mining"
+     },
+     {
+      "name": "Cobalt Blue Holdings",
+      "role": "startup",
+      "what": "Reprocessing pyrite (waste) streams at Broken Hill for cobalt and building a planned Kwinana cobalt-nickel refinery.",
+      "signal": "Demonstration plant produced mixed hydroxide; progress slowed by weak cobalt prices.",
+      "status": "operating",
+      "source": "https://cobaltblueholdings.com/"
+     }
+    ],
+    "white_space": "The barrier is legal, not technical: acquiring tailings means acquiring perpetual environmental liability, and feedstock chemistry varies dam to dam, which scares generalist capital; DoD/DOE rare-earth-from-waste funding and liability-transfer deal structures with majors (the Regeneration model) are the wedge, and failures here are scarce because so few have tried."
+   },
+   {
+    "name": "AI-driven exploration, geophysics, and drilling automation",
+    "description": "Machine learning over geoscience data, novel sensors (muon tomography, seismic micro-arrays, drill-core scanners), and autonomous rigs find and delineate deposits under cover faster and far cheaper than the <1% industry hit rate \u2014 discovery being the longest-lead bottleneck in minerals supply.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "KoBold Metals",
+      "role": "scaleup",
+      "what": "Full-stack AI explorer that takes its own discoveries to development; Mingomba (Zambia) is shaping up as one of the largest high-grade copper finds in decades.",
+      "signal": "$537M Series C (Jan 2025) at ~$3B valuation (Bezos/Gates-backed); 60+ projects on five continents.",
+      "status": "operating",
+      "source": "https://me.smenet.org/kobold-raises-537-million-to-expand-ai-powered-critical-mineral-exploration-worldwide/"
+     },
+     {
+      "name": "Earth AI",
+      "role": "startup",
+      "what": "Pairs predictive targeting with its own low-cost drill rigs (~$100/m), verifying its AI targets by drilling them itself in Australia.",
+      "signal": "$20M oversubscribed round (Jan 2025); claimed ~75% drilling success rate on greenfield targets (Mo, Ni, PGE discoveries).",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/earth-ai-closes-oversubscribed-round-raising-20m-for-ai-driven-mineral-exploration-302360289.html"
+     },
+     {
+      "name": "Fleet Space Technologies",
+      "role": "scaleup",
+      "what": "ExoSphere: satellite-linked seismic node arrays plus AI for rapid 3D subsurface imaging, used by Rio Tinto, Barrick and hundreds of explorers.",
+      "signal": "Series D (2023) at ~A$800M valuation; hundreds of surveys delivered.",
+      "status": "operating",
+      "source": "https://fleetspace.com/"
+     },
+     {
+      "name": "VerAI Discoveries",
+      "role": "startup",
+      "what": "AI targeting of concealed deposits under cover where conventional geophysics struggles, building a portfolio of staked discoveries.",
+      "signal": "$24M Series B (Feb 2025); 60+ mineral targets/projects.",
+      "status": "operating",
+      "source": "https://posgeo.wordpress.com/2026/01/12/ai-in-mineral-exploration-2025-in-review/"
+     },
+     {
+      "name": "GeologicAI",
+      "role": "startup",
+      "what": "Robotic multi-sensor drill-core scanners plus AI 'decision engineering' that re-logs core in real time for grade and recovery modeling.",
+      "signal": "$44M Series B (2024).",
+      "status": "operating",
+      "source": "https://posgeo.wordpress.com/2026/01/12/ai-in-mineral-exploration-2025-in-review/"
+     },
+     {
+      "name": "Ideon Technologies",
+      "role": "startup",
+      "what": "Muon tomography \u2014 cosmic-ray imaging from boreholes \u2014 producing density maps of orebodies hundreds of meters underground without drilling grids.",
+      "signal": "~US$16M raised (Playground Global-led); trials with major miners.",
+      "status": "operating",
+      "source": "https://ideon.ai/"
+     },
+     {
+      "name": "Durin",
+      "role": "startup",
+      "what": "Building sensor-rich, increasingly autonomous exploration drill rigs to attack drilling cost \u2014 the single largest exploration expense.",
+      "signal": "$3.4M pre-seed (Apr 2025) led by 8090 Industries with a16z, Lux; first rig (300m capability) drilling 2025.",
+      "status": "operating",
+      "source": "https://techcrunch.com/2025/04/23/durin-digs-up-3-4m-to-automate-drills-for-critical-minerals-exploration/"
+     },
+     {
+      "name": "Ivanhoe Electric",
+      "role": "scaleup",
+      "what": "Friedland-led explorer pairing proprietary Typhoon high-power geophysics with AI inversion (Computational Geosciences) to find deep US copper, advancing Santa Cruz, Arizona.",
+      "signal": "NYSE-listed; Santa Cruz feasibility and construction decision path 2025-26; Saudi Ma'aden JV.",
+      "status": "operating",
+      "source": "https://www.ivanhoeelectric.com/"
+     }
+    ]
+   },
+   {
+    "name": "Bio-mining and phytomining",
+    "description": "Engineered microbes leach metals from low-grade ore and waste while hyperaccumulator plants literally farm nickel from metal-rich soils, offering near-zero-blast, low-energy metal recovery \u2014 and often stacking revenue with CO2 removal or remediation.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Genomines",
+      "role": "startup",
+      "what": "Genetically enhanced hyperaccumulator plants that concentrate nickel from soils and tailings, processed into battery-grade product after harvest.",
+      "signal": "$45M Series A (Sep 2025; Engine Ventures, Forbion BioEconomy); ~$62M total including French government grants.",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20250917650939/en/Genomines-Raises-$45M-Series-A-to-Redefine-Global-Metal-Extraction-with-Plant-Based-Nickel"
+     },
+     {
+      "name": "Metalplant",
+      "role": "startup",
+      "what": "Nickel phytomining farms in Albania using Odontarrhena hyperaccumulators, paired with olivine spreading so each tonne of nickel also sequesters CO2.",
+      "signal": "Seed-stage; pilot harvests producing nickel plus carbon-removal credits.",
+      "status": "operating",
+      "source": "https://www.naturetechmemos.com/p/phytomining-growing-nickel-in-plants"
+     },
+     {
+      "name": "Endolith",
+      "role": "startup",
+      "what": "AI-monitored microbial consortia ('mining athletes') injected into copper heaps to boost chalcopyrite leach recovery; lithium biomining in development.",
+      "signal": "$13.5M seed (2025; Squadra-led) plus $16.5M (Nov 2025) to move from Denver lab onto operating heaps; validated in a BHP-led program.",
+      "status": "operating",
+      "source": "https://www.technologyreview.com/2026/02/03/1132047/microbes-extract-metal-cleantech/"
+     },
+     {
+      "name": "Cemvita",
+      "role": "startup",
+      "what": "Houston synthetic-biology company whose biomining unit seeded the field (spun into Endolith); now focused on subsurface microbes including 'gold hydrogen' and bio-manufacturing.",
+      "signal": "Pivoted away from copper biomining \u2014 itself a datapoint that standalone biomining needed mine-operator pull.",
+      "status": "operating",
+      "source": "https://www.cemvita.com/"
+     },
+     {
+      "name": "BacTech Environmental",
+      "role": "startup",
+      "what": "Listed bioleaching developer applying proven arsenopyrite-oxidizing bacteria to clean up arsenic-laden concentrates while recovering metals (Ecuador project).",
+      "signal": "Decades-old proven tech base; Ponce Enriquez bioleach plant in development.",
+      "status": "operating",
+      "source": "https://bactechgreen.com/"
+     },
+     {
+      "name": "Allonnia",
+      "role": "startup",
+      "what": "Ginkgo Bioworks spinout (Gates Frontier-backed) applying engineered biology to mine tailings remediation and metal recovery from waste streams.",
+      "signal": "Partnerships in oil-sands tailings and mining waste; venture-backed.",
+      "status": "operating",
+      "source": "https://allonnia.com/"
+     }
+    ],
+    "white_space": "Microbial kinetics are slow and phytomining is land- and time-hungry, so economics only close on nickel-rich ultramafic soils and on waste streams where remediation budgets or CO2-removal credits stack with metal revenue; the field is thin enough that a player proving stacked-revenue unit economics at one site could own the category."
+   },
+   {
+    "name": "Low-impact and precision mining (surgical extraction, ore sorting, clean process chemistry)",
+    "description": "Borehole-scale 'surgical' extraction, sensor-based bulk ore sorting, and regenerated process reagents shrink the energy, waste rock, and chemical footprint per tonne of metal \u2014 making small, high-grade, or socially constrained deposits mineable at all.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Novamera",
+      "role": "startup",
+      "what": "Surgical Mining: imaging-guided large-diameter drilling that extracts narrow high-grade veins with ~95% less waste and no open pit, sold as a service.",
+      "signal": "World-first commercial surgical-mining extraction at Golden Promise, Newfoundland (Nov 2025); Northstar services contract (US$1.5M advance); DIGITAL co-investments $3.5M + $4.0M; Series A underway.",
+      "status": "operating",
+      "source": "https://novamerainc.com/first-of-its-kind-surgical-mining-technology-positions-novamera-to-accelerate-production-of-critical-minerals-and-metals/"
+     },
+     {
+      "name": "MineSense",
+      "role": "scaleup",
+      "what": "ShovelSense XRF sensors on shovels and belts classify ore vs. waste in real time, cutting hauling/processing of barren rock at operating copper mines (Teck Highland Valley, Copper Mountain).",
+      "signal": "US$42M (2022) and US$18M (2024) rounds; strategic investors include Caterpillar, ABB, Mitsubishi.",
+      "status": "operating",
+      "source": "https://minesense.com/minesense-closes-us-18-million-financing-to-drive-commercialization/"
+     },
+     {
+      "name": "NextOre",
+      "role": "startup",
+      "what": "CSIRO-spun magnetic resonance analyzers for bulk ore sorting on conveyors and trucks, measuring whole-stream copper grade in seconds.",
+      "signal": "Commercial deployments including Carmen Copper (Philippines) and trials in Chile/Australia.",
+      "status": "operating",
+      "source": "https://nextore.com.au/"
+     },
+     {
+      "name": "Travertine Technologies",
+      "role": "startup",
+      "what": "Electrochemical process regenerating sulfuric acid from gypsum/sulfate mine waste while mineralizing CO2 into carbonates \u2014 circular reagent chemistry for lithium, nickel, and REE extraction.",
+      "signal": "US$8.5M (Jun 2024) co-led by Holcim MAQER Ventures with Grantham Foundation and Clean Energy Ventures; piloting with critical-minerals projects.",
+      "status": "operating",
+      "source": "https://www.prweb.com/releases/travertine-secures-8-5-million-to-reduce-waste-and-emissions-in-mining-fertilizer-and-cement-production-302179909.html"
+     }
+    ],
+    "white_space": "Mining's conservatism and first-of-kind operational risk keep adoption slow even when sensors are proven, and few startups survive the 5-10 year sales cycle; the opening is outcome-priced mining-as-a-service on stranded small/high-grade deposits (Novamera's model) and reagent circularity tied to acid supply security, both of which sidestep the 'sell tech to a skeptical miner' problem."
+   }
+  ],
+  "sources": [
+   "https://impactalpha.com/lilac-solutions-raises-150-million-to-ramp-up-low-carbon-lithium-production/",
+   "https://www.globenewswire.com/news-release/2025/03/18/3044601/0/en/Summit-Nanotech-Corporation-Closes-US-25-5M-Funding-Round-to-Accelerate-Commercialization-of-their-Direct-Lithium-Extraction-Technology.html",
+   "https://www.eib.org/en/press/all/2025-486-vulcan-energy-secures-eur250-million-eib-financing-for-landmark-lithium-project-in-germany",
+   "https://energyx.com/press-release/american-made-lithium-project-lonestar/",
+   "https://lithiumamericas.com/news/news-details/2025/Lithium-Americas-Reaches-Agreement-with-GM-and-U-S--DOE-Regarding-First-Draw-on-DOE-Loan/default.aspx",
+   "https://www.mining.com/jetti-resources-quest-for-copper-minings-holy-grail/",
+   "https://techcrunch.com/2025/07/30/how-a-new-jersey-startup-found-an-electrifying-way-to-slash-copper-costs/",
+   "https://www.riotinto.com/en/news/releases/2025/rio-tintos-nuton-technology-produces-first-copper",
+   "https://www.tasekomines.com/properties/florence-copper/",
+   "https://metals.co/news-release-details-world-first-tmc-usa-submits-application-commercial-recovery-deep/",
+   "https://www.greenpeace.org.uk/news/norwegian-owner-of-uk-deep-sea-mining-company-goes-bankrupt/",
+   "https://ucore.com/ucore-and-us-dod-agree-on-us18-4m-initial-construction-funding-for-rare-earth-processing-in-louisiana/",
+   "https://www.carester.fr/en/caremag-launch/",
+   "https://www.businesswire.com/news/home/20250430735778/en/Rare-Earth-Metals-Refining-Company-Phoenix-Tailings-Closes-on-Additional-$33M-in-Funding-From-Strategic-Investors-Bringing-the-Round-up-to-$76M-to-Support-Rare-Earth-Metal-Independence",
+   "https://www.nironmagnetics.com/news/niron-magnetics-awarded-52-million-to-advance-us-rare-earth-free-magnet-manufacturing",
+   "https://www.conifer.io/news/these-electric-motors-could-help-break-the-worlds-dependence-on-china",
+   "https://www.mangrovelithium.com/canada-growth-fund-leads-us85usd-investment/",
+   "https://www.sec.gov/Archives/edgar/data/0001859795/000095017025012029/nvx-ex99_1.htm",
+   "https://www.tradingview.com/news/tradingview:e5d0c57e6d53d:0-graphjet-technology-sec-10-k-report/",
+   "https://www.chemanalyst.com/NewsAndDeals/NewsDetails/syrah-resources-reports-positive-progress-on-balama-operations-42397",
+   "https://me.smenet.org/kobold-raises-537-million-to-expand-ai-powered-critical-mineral-exploration-worldwide/",
+   "https://www.prnewswire.com/news-releases/earth-ai-closes-oversubscribed-round-raising-20m-for-ai-driven-mineral-exploration-302360289.html",
+   "https://techcrunch.com/2025/04/23/durin-digs-up-3-4m-to-automate-drills-for-critical-minerals-exploration/",
+   "https://www.businesswire.com/news/home/20250917650939/en/Genomines-Raises-$45M-Series-A-to-Redefine-Global-Metal-Extraction-with-Plant-Based-Nickel",
+   "https://www.technologyreview.com/2026/02/03/1132047/microbes-extract-metal-cleantech/",
+   "https://novamerainc.com/first-of-its-kind-surgical-mining-technology-positions-novamera-to-accelerate-production-of-critical-minerals-and-metals/",
+   "https://www.canada.ca/en/natural-resources-canada/news/2025/11/canada-nickels-crawford-project-referred-to-the-major-projects-office.html",
+   "https://www.investing.com/news/stock-market-news/australias-element-25-reviews-us-project-as-it-looks-to-renegotiategm-stellantis-contracts-4709332",
+   "https://www.sec.gov/Archives/edgar/data/0001896084/000114036125013883/ef20047425_ex99-1.htm",
+   "https://www.federalregister.gov/documents/2025/07/07/2025-12513/deep-seabed-mining-revisions-to-regulations-for-exploration-license-and-commercial-recovery-permit"
+  ]
+ }
+}

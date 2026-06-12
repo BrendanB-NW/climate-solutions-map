@@ -1,0 +1,670 @@
+{
+ "sector": "energy",
+ "bucket": "Thermal & Mechanical Long-Duration Storage",
+ "census": {
+  "bucket": "Thermal & Mechanical Long-Duration Storage",
+  "sources": [
+   "https://www.energy-storage.news/thermal-energy-storage-tech-analysis-rondo-antora-malta-inc-mga-1414-energynest-polar-night-and-brenmiller/",
+   "https://www.rondo.com/news-press/rondo-powers-up-worlds-largest-industrial-heat-battery",
+   "https://www.latitudemedia.com/news/antoras-150-million-cash-infusion-will-boost-manufacturing/",
+   "https://www.thermalbatteryalliance.com/thermalbatteryallianceannouncement",
+   "https://www.ess-news.com/2025/06/17/malta-inc-launches-spanish-thermal-energy-storage-pilot-site/",
+   "https://www.canarymedia.com/articles/long-duration-energy-storage/is-azelios-abrupt-bankruptcy-a-bad-omen-for-long-duration-energy-storage",
+   "https://corre.energy/wp-content/uploads/2025/08/CorreEnergyStorageBankruptcy.pdf",
+   "https://www.energy-storage.news/caes-developer-corre-energy-hires-rothschild-for-investment-process/",
+   "https://hydrostor.ca/hydrostors-willow-rock-energy-storage-center-receives-conditional-commitment-for-up-to-1-76-billion-loan-guarantee-from-u-s-department-of-energy/",
+   "https://www.pv-magazine.com/2024/05/16/worlds-largest-compressed-air-energy-storage-project-comes-online-in-china/",
+   "https://www.ess-news.com/2025/11/27/china-scales-up-long-duration-storage-with-4-2-gwh-compressed-air-project/",
+   "https://highviewpower.com/news-announcements/mayor-of-greater-manchester-andy-burnham-officially-breaks-ground-on-highviews-pioneering-liquid-air-energy-storage-facility-in-carrington-manchester/",
+   "https://www.energy-storage.news/google-partners-with-co2-battery-long-duration-energy-storage-startup-energy-dome/",
+   "https://spectrum.ieee.org/co2-battery-energy-storage",
+   "https://www.energyvault.com/projects/cn-rudong",
+   "https://www.energy-storage.news/gravitricity-and-energy-vault-move-forward-with-commercialising-gravity-energy-storage/",
+   "https://cleantechnica.com/2025/06/27/new-long-duration-energy-storage-system-deploys-underground-hydropower/",
+   "https://www.hartenergy.com/exclusives/sage-geosystems-advances-commercial-scale-energy-storage-facility-209044",
+   "https://cleantechnica.com/2026/04/19/from-beacon-to-amber-flywheels-missed-the-grid/",
+   "https://cleantechnica.com/2025/09/10/200-million-for-renewables-friendly-flywheel-energy-storage/",
+   "https://rbnenergy.com/daily-posts/analyst-insight/electrolyzers-place-and-operational-aces-delta-project-utah",
+   "https://www.prnewswire.com/news-releases/energy-vault-pge-announce-successful-completion-of-the-calistoga-resiliency-center-the-worlds-first-ultra-long-duration-hybrid-battery--hydrogen-energy-storage-microgrid-302567475.html",
+   "https://fuelcellsworks.com/2025/04/07/fuel-cells/hdf-energy-installs-fuel-cells-at-ceog-project-in-french-guiana-advancing-24-7-renewable-power-supply",
+   "https://www.langleyholdings.com/news/2024/08/01/langley-acquires-gkn-hydrogen/",
+   "https://www.pv-magazine.com/2025/11/25/finlands-polar-night-to-build-250-mwh-sand-battery-for-district-heating-provider/",
+   "https://www.energy-storage.news/kyoto-groups-56mwh-thermal-energy-storage-system-replaces-natural-gas-at-corn-processing-plant-in-hungary/",
+   "https://www.businesswire.com/news/home/20250916363021/en/Fourth-Power-Raises-$20-Million-to-Commercialize-Low-Cost-Utility-Scale-Energy-Storage-Solution",
+   "https://spectrum.ieee.org/pumped-hydro-storage-rheenergise",
+   "https://www.ess-news.com/2024/11/01/subsea-pumped-storage-tech-secures-funding-from-us-german-governments/",
+   "https://www.utilitydive.com/news/hydrostor-energy-storage-battery-california-permit/808621/"
+  ],
+  "variations": [
+   {
+    "name": "High-temperature thermal batteries (molten salt, bricks, sand, carbon blocks + TPV)",
+    "description": "Electric resistance heating charges cheap media \u2014 firebricks, crushed rock, sand, molten salt or carbon blocks \u2014 to 500\u20132,400 C, then discharges as industrial steam/heat (or electricity via thermophotovoltaics), attacking the ~20% of global emissions from industrial process heat with dirt-cheap storage materials.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Rondo Energy",
+      "role": "scaleup",
+      "what": "Brick-based 'Heat Battery' delivering continuous high-pressure steam from intermittent solar/wind",
+      "signal": "~$107M raised (Microsoft, Aramco MoU); world's largest 100 MWh unit entered daily commercial operation at a California fuels plant Oct 2025; five industrial-scale units deployed globally",
+      "status": "operating",
+      "source": "https://www.rondo.com/news-press/rondo-powers-up-worlds-largest-industrial-heat-battery"
+     },
+     {
+      "name": "Antora Energy",
+      "role": "scaleup",
+      "what": "Modular carbon-block batteries reaching >1,500 C with optional thermophotovoltaic electricity output",
+      "signal": "$150M Series B (Feb 2024, BlackRock/Temasek's Decarbonization Partners), ~$244M total; 50 MW / 5 GWh system commissioning at POET bioprocessing plant, South Dakota",
+      "status": "operating",
+      "source": "https://www.latitudemedia.com/news/antoras-150-million-cash-infusion-will-boost-manufacturing/"
+     },
+     {
+      "name": "Brenmiller Energy",
+      "role": "scaleup",
+      "what": "bGen crushed-rock thermal storage for industrial steam, including gas-turbine exhaust capture",
+      "signal": "NASDAQ-listed (BNRG); commissioned NYPA project at SUNY Purchase plus European industrial installs",
+      "status": "operating",
+      "source": "https://www.energy-storage.news/thermal-energy-storage-tech-analysis-rondo-antora-malta-inc-mga-1414-energynest-polar-night-and-brenmiller/"
+     },
+     {
+      "name": "Kyoto Group",
+      "role": "scaleup",
+      "what": "Heatcube molten-salt heat battery replacing gas boilers for industrial process heat",
+      "signal": "Oslo-listed; 56 MWh Heatcube inaugurated at KALL Ingredients corn plant in Hungary Oct 2025; Nefco loan for international scale-up",
+      "status": "operating",
+      "source": "https://www.energy-storage.news/kyoto-groups-56mwh-thermal-energy-storage-system-replaces-natural-gas-at-corn-processing-plant-in-hungary/"
+     },
+     {
+      "name": "Polar Night Energy",
+      "role": "startup",
+      "what": "'Sand batteries' storing heat in sand/crushed soapstone for district heating, plus a power-out pilot",
+      "signal": "1 MW / 100 MWh Pornainen unit operating; contracted world-largest 2 MW / 250 MWh system for Lahti Energia (Nov 2025, complete 2027)",
+      "status": "operating",
+      "source": "https://www.pv-magazine.com/2025/11/25/finlands-polar-night-to-build-250-mwh-sand-battery-for-district-heating-provider/"
+     },
+     {
+      "name": "EnergyNest",
+      "role": "scaleup",
+      "what": "Concrete 'Thermal Battery' modules for industrial power-to-heat",
+      "signal": "10 MW / 40 MWh system at tesa Hamburg (52% heat electrification); 12 MWh project at Leonhard Kurz",
+      "status": "operating",
+      "source": "https://www.energy-storage.news/thermal-energy-storage-tech-analysis-rondo-antora-malta-inc-mga-1414-energynest-polar-night-and-brenmiller/"
+     },
+     {
+      "name": "Kraftblock",
+      "role": "startup",
+      "what": "Up-to-1,300 C storage granulate made from recycled industrial slag for two-week duration heat storage",
+      "signal": "Industrial pilots including PepsiCo Netherlands fryer-heat project; German VC-backed",
+      "status": "operating",
+      "source": "https://www.kraftblock.com/technology"
+     },
+     {
+      "name": "Electrified Thermal Solutions",
+      "role": "startup",
+      "what": "Electrically conductive 'Joule Hive' firebricks (MIT spinout) that self-heat to ~1,800 C for the hardest industrial heat",
+      "signal": "DOE grant-backed; founding member of Thermal Battery Alliance (Jan 2025); first commercial demo with HWI/Calpine underway",
+      "status": "operating",
+      "source": "https://www.thermalbatteryalliance.com/thermalbatteryallianceannouncement"
+     },
+     {
+      "name": "Fourth Power",
+      "role": "startup",
+      "what": "Liquid-tin/graphite storage at ~2,400 C discharged to electricity via thermophotovoltaic cells ('sun in a box')",
+      "signal": "$20M Series A+ led by Munich Re Ventures (Sep 2025), $40M total incl. DCVC and Breakthrough Energy Ventures; claims <$25/kWh-e storage cost",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20250916363021/en/Fourth-Power-Raises-$20-Million-to-Commercialize-Low-Cost-Utility-Scale-Energy-Storage-Solution"
+     },
+     {
+      "name": "MGA Thermal",
+      "role": "startup",
+      "what": "Miscibility-gap-alloy blocks storing latent heat in metal microdroplets for industrial steam",
+      "signal": "~$35M raised; 5 MWh steam-integrated demonstration unit commissioned Apr 2025 (won 2025 Australian Renewable Heat Award); 180 MWh Knode project in Western Australia progressing",
+      "status": "operating",
+      "source": "https://www.mgathermal.com/news"
+     }
+    ]
+   },
+   {
+    "name": "Pumped thermal / Carnot batteries",
+    "description": "Heat pumps convert cheap electricity into a hot store (often paired with a cold store) and a heat engine reverses the cycle to regenerate power, promising multi-day storage from steel, rock and salt \u2014 but ~50-60% round-trip efficiency has kept it behind Li-ion and pushed players toward selling heat instead.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Malta Inc",
+      "role": "startup",
+      "what": "Google X spinout storing electricity in molten salt via a heat-pump/heat-engine cycle; now also selling 300-550 C industrial heat pumps",
+      "signal": "14 MW Puertollano (Spain) LDES pilot launched Jun 2025 with BBVA revenue agreement; first commercial Advanced Heat Pump at Proman methanol plant, Texas",
+      "status": "operating",
+      "source": "https://www.ess-news.com/2025/06/17/malta-inc-launches-spanish-thermal-energy-storage-pilot-site/"
+     },
+     {
+      "name": "Stiesdal Storage",
+      "role": "startup",
+      "what": "GridScale crushed-basalt pumped thermal storage from wind pioneer Henrik Stiesdal",
+      "signal": "4 MW / 10 MWh demonstrator at Rodby, Denmark since 2023; commercial rollout has been slow since",
+      "status": "operating",
+      "source": "https://www.stiesdal.com/"
+     },
+     {
+      "name": "Echogen Power Systems",
+      "role": "startup",
+      "what": "Supercritical-CO2 heat-engine cycles for electro-thermal energy storage and waste heat recovery",
+      "signal": "ARPA-E DAYS awardee; licenses sCO2 power cycle technology to OEMs",
+      "status": "operating",
+      "source": "https://echogen.com/"
+     },
+     {
+      "name": "MAN Energy Solutions",
+      "role": "incumbent",
+      "what": "ETES electro-thermal storage and very large industrial heat pumps (e.g., 50 MW Esbjerg seawater heat pump) plus Carnot-cycle turbomachinery",
+      "signal": "Volkswagen Group subsidiary; ETES reference plants in Denmark/Norway",
+      "status": "operating",
+      "source": "https://www.man-es.com/"
+     },
+     {
+      "name": "Siemens Gamesa (ETES program)",
+      "role": "incumbent",
+      "what": "Built the world's first large rock-bed electric thermal storage demo (130 MWh, Hamburg, 2019) then shelved the program \u2014 the sector's key failure datapoint",
+      "signal": "Demo operated ~2019-2022; program discontinued as parent retrenched",
+      "status": "operating",
+      "source": "https://www.siemensgamesa.com/"
+     }
+    ],
+    "white_space": "Thin field for physics reasons \u2014 heat-pump/heat-engine round trips lose ~40-50% of energy, and Li-ion cost declines killed the pure power-to-power case (Siemens Gamesa quit; Malta pivoted toward industrial heat); the opening is hybrid heat-plus-power offtake and repowering retiring coal plants whose steam turbines a Carnot battery can reuse."
+   },
+   {
+    "name": "Phase-change & thermochemical storage",
+    "description": "Stores energy in a material's melting transition (PCM \u2014 ice, salt hydrates, metal alloys) or a reversible chemical reaction (thermochemical metal oxides/salts), giving compact, low-loss heat and cooling batteries for buildings and industry rather than bulk electricity.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Sunamp",
+      "role": "scaleup",
+      "what": "Plentigrade salt-hydrate PCM 'Thermino' heat batteries replacing hot-water cylinders in homes",
+      "signal": "~$28.6M raised; tens of thousands of UK/EU installs; launched low-power models for the Italian market Mar 2025",
+      "status": "operating",
+      "source": "https://sunamp.com/"
+     },
+     {
+      "name": "CALMAC (Trane Technologies)",
+      "role": "incumbent",
+      "what": "IceBank ice-storage tanks shifting commercial-building cooling load off-peak \u2014 the mature workhorse of PCM storage",
+      "signal": "Thousands of buildings worldwide; acquired by Ingersoll Rand/Trane in 2016",
+      "status": "acquired",
+      "source": "https://www.calmac.com/"
+     },
+     {
+      "name": "Nostromo Energy",
+      "role": "startup",
+      "what": "IceBrick modular ice-cell arrays retrofitted to commercial buildings for peak cooling demand response",
+      "signal": "Installed at flagship California hotels (e.g., Beverly Hilton); TASE-listed, pursuing US utility programs",
+      "status": "operating",
+      "source": "https://nostromo.energy/technology/icebrick"
+     },
+     {
+      "name": "Phase Change Solutions",
+      "role": "startup",
+      "what": "BioPCM plant-derived phase-change materials tunable from -75 C to 175 C for buildings and cold chain",
+      "signal": "Commercial sales across 40+ countries; partnerships in building retrofit",
+      "status": "operating",
+      "source": "https://phasechange.com/"
+     },
+     {
+      "name": "SaltX Technology",
+      "role": "scaleup",
+      "what": "Swedish nano-coated salt thermochemical storage developer, now commercializing an Electric Arc Calciner for zero-emission lime/cement",
+      "signal": "Nasdaq First North-listed; pivot from grid storage to electrified calcination is itself market evidence",
+      "status": "operating",
+      "source": "https://saltxtechnology.com/"
+     },
+     {
+      "name": "RedoxBlox",
+      "role": "startup",
+      "what": "Metal-oxide redox thermochemical modules storing heat plus chemical energy, discharging above 1,100 C for industrial heat and gas-turbine decarbonization",
+      "signal": "ARPA-E and Khosla Ventures-backed; founding member of the Thermal Battery Alliance (Jan 2025)",
+      "status": "operating",
+      "source": "https://www.thermalbatteryalliance.com/thermalbatteryallianceannouncement"
+     },
+     {
+      "name": "Azelio",
+      "role": "startup",
+      "what": "Swedish aluminum-alloy PCM storage with Stirling-engine electricity output (TES.POD)",
+      "signal": "Filed for bankruptcy mid-2023 after failing to raise \u2014 cautionary tale for PCM power-to-power",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.canarymedia.com/articles/long-duration-energy-storage/is-azelios-abrupt-bankruptcy-a-bad-omen-for-long-duration-energy-storage"
+     },
+     {
+      "name": "Ice Energy",
+      "role": "startup",
+      "what": "Ice Bear behind-the-meter ice batteries for residential/small-commercial AC",
+      "signal": "Filed Chapter 7 in 2019 despite utility contracts \u2014 demand-side cooling storage proved hard to finance",
+      "status": "bankrupt-shutdown",
+      "source": "https://en.wikipedia.org/wiki/Ice_Energy"
+     }
+    ],
+    "white_space": "Building-side ice/PCM is commercial, but high-temperature thermochemical storage has only a couple of credible players because reaction reversibility and cycling degradation are hard chemistry; an opening exists above ~1,000 C where sensible-heat bricks lose energy density and industrial gas users need both heat and storable chemical energy."
+   },
+   {
+    "name": "Gravity storage (towers, mine shafts, rail, cranes)",
+    "description": "Lifts mass \u2014 composite blocks in towers, weights in disused mine shafts, rail cars on slopes, water-filled pistons \u2014 with surplus power and recovers electricity on descent; the physics is simple and degradation-free, but low energy density and high structural cost have kept it above battery prices.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Energy Vault",
+      "role": "scaleup",
+      "what": "EVx gravity towers raising/lowering 24-tonne composite blocks; the only public pure-play, though US revenue has pivoted to conventional BESS",
+      "signal": "NYSE: NRGV; 25 MW / 100 MWh Rudong (China) system commissioned, ~9 licensed China deployments totaling 3.7+ GWh; $150M convertible note closed Mar 2026",
+      "status": "operating",
+      "source": "https://www.energyvault.com/projects/cn-rudong"
+     },
+     {
+      "name": "Gravitricity",
+      "role": "startup",
+      "what": "Weights of 500-5,000 tonnes raised and lowered in abandoned mine shafts",
+      "signal": "250 kW Edinburgh demonstrator proven; agreements for projects at former mines (Finland's Pyhasalmi, US, India), still pre-commercial",
+      "status": "operating",
+      "source": "https://www.energy-storage.news/gravitricity-and-energy-vault-move-forward-with-commercialising-gravity-energy-storage/"
+     },
+     {
+      "name": "Green Gravity",
+      "role": "startup",
+      "what": "Australian developer repurposing legacy mine shafts with ore-filled weights",
+      "signal": "Agreements with mine owners (e.g., Woodlawn); government grant-backed, pilot stage",
+      "status": "operating",
+      "source": "https://greengravity.com/"
+     },
+     {
+      "name": "ARES North America",
+      "role": "startup",
+      "what": "GravityLine \u2014 chains of weighted rail cars on a Nevada slope providing grid regulation",
+      "signal": "Broke ground on 50 MW merchant Pahrump Valley plant (2023) targeting Q4 2025 operation; little public confirmation since",
+      "status": "uncertain",
+      "source": "https://aresnorthamerica.com/"
+     },
+     {
+      "name": "Gravity Power",
+      "role": "startup",
+      "what": "Hydraulic piston-in-shaft concept (massive piston atop a sealed water column)",
+      "signal": "Long-gestating; no commercial plant after a decade-plus",
+      "status": "uncertain",
+      "source": "https://www.gravitypower.net/"
+     }
+    ],
+    "white_space": "Sparse for physics reasons: lifted-mass energy density is tiny (a 1,000-tonne weight dropped 500 m stores ~1.4 MWh) so steel and civil works dominate cost, and Li-ion's price collapse erased the niche \u2014 Energy Vault's own pivot to batteries is the tell; the credible opening is brownfield mine shafts where the structure, grid connection and workforce already exist."
+   },
+   {
+    "name": "Compressed air energy storage (adiabatic & underground caverns)",
+    "description": "Uses cheap power to compress air into salt caverns, rock caverns or engineered vessels and re-expands it through turbines \u2014 modern adiabatic/advanced designs store the compression heat too, eliminating gas burn \u2014 enabling 100 MW-to-GW, 6-12+ hour storage at very low cost per kWh.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Hydrostor",
+      "role": "scaleup",
+      "what": "Advanced CAES using water-compensated, purpose-built caverns (no gas, no salt geology required)",
+      "signal": "$1.76B DOE conditional loan guarantee + $200M from Goldman Sachs/Canada Growth Fund/CPPIB (Feb 2025); 500 MW / 4 GWh Willow Rock (CA) fully permitted Dec 2025, groundbreaking mid-2026; 200 MW / 1.6 GWh Silver City (Broken Hill, Australia) near construction",
+      "status": "operating",
+      "source": "https://hydrostor.ca/hydrostors-willow-rock-energy-storage-center-receives-conditional-commitment-for-up-to-1-76-billion-loan-guarantee-from-u-s-department-of-energy/"
+     },
+     {
+      "name": "Zhongchu Guoneng (ZCGN)",
+      "role": "scaleup",
+      "what": "Chinese developer of the world's largest CAES plants using salt caverns",
+      "signal": "300 MW / 1,800 MWh Feicheng (Shandong) plant online 2024 at ~$208M (72% efficiency); 700 MW / 4.2 GWh follow-on starting construction 2026",
+      "status": "operating",
+      "source": "https://www.pv-magazine.com/2024/05/16/worlds-largest-compressed-air-energy-storage-project-comes-online-in-china/"
+     },
+     {
+      "name": "Shanghai Electric",
+      "role": "incumbent",
+      "what": "Supplies the 300 MW-class compression/expansion turbomachinery for China's CAES buildout",
+      "signal": "First 300 MW unit reached full-load operation Dec 2025, second unit commissioned",
+      "status": "operating",
+      "source": "https://www.ess-news.com/2025/11/27/china-scales-up-long-duration-storage-with-4-2-gwh-compressed-air-project/"
+     },
+     {
+      "name": "Uniper (Huntorf)",
+      "role": "incumbent",
+      "what": "Operates the world's first CAES plant \u2014 321 MW Huntorf, Germany, running since 1978 \u2014 proof of cavern longevity",
+      "signal": "~47 years of continuous commercial operation",
+      "status": "operating",
+      "source": "https://en.wikipedia.org/wiki/Compressed-air_energy_storage"
+     },
+     {
+      "name": "Corre Energy",
+      "role": "startup",
+      "what": "Euronext Dublin-listed developer of salt-cavern CAES (and H2 storage) in the Netherlands, Denmark, Germany and Texas",
+      "signal": "Dutch subsidiary Corre Energy Storage B.V. filed for bankruptcy (Aug 2025); group hired Rothschild to seek investors \u2014 in financial distress",
+      "status": "uncertain",
+      "source": "https://corre.energy/wp-content/uploads/2025/08/CorreEnergyStorageBankruptcy.pdf"
+     },
+     {
+      "name": "Augwind Energy",
+      "role": "scaleup",
+      "what": "AirBattery storing energy via hydraulic compression of air in underground flexible vessels (no caverns needed)",
+      "signal": "Tel Aviv-listed; multi-MWh pilots in Israel, pursuing grid-scale projects in Germany",
+      "status": "operating",
+      "source": "https://www.augwind.com/"
+     },
+     {
+      "name": "Cheesecake Energy",
+      "role": "startup",
+      "what": "UK thermo-mechanical CAES (FlexiTanker) packing heat and air storage into repurposed container-scale tanks for distribution-grid sites",
+      "signal": "Innovate UK-backed; first field pilots underway",
+      "status": "operating",
+      "source": "https://cheesecake.energy/"
+     }
+    ]
+   },
+   {
+    "name": "Liquid air & CO2 battery cycles",
+    "description": "Liquefies air (or compresses CO2 between a gas dome and liquid tanks in a closed loop) using surplus power, then expands it through turbines to regenerate electricity \u2014 siteable anywhere with no caverns or mountains, built from mature industrial-gas hardware.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Highview Power",
+      "role": "scaleup",
+      "what": "Liquid air energy storage (LAES) \u2014 cryogenic liquefaction with cold recycle",
+      "signal": ">GBP 500M raised incl. GBP 300M from UK National Wealth Fund and Centrica (2024); 50 MW / 300 MWh Carrington plant broke ground Nov 2025 for late-2026 operation; 7+ GWh pipeline, two projects advancing in Ofgem's LDES cap-and-floor",
+      "status": "operating",
+      "source": "https://highviewpower.com/news-announcements/mayor-of-greater-manchester-andy-burnham-officially-breaks-ground-on-highviews-pioneering-liquid-air-energy-storage-facility-in-carrington-manchester/"
+     },
+     {
+      "name": "Energy Dome",
+      "role": "scaleup",
+      "what": "CO2 Battery \u2014 closed thermodynamic cycle between gaseous CO2 in a dome and liquid CO2 tanks; 8-24 hour duration with no critical minerals",
+      "signal": "First full-scale 20 MW / 200 MWh plant (Ottana, Sardinia) in commercial operation; strategic commercial agreement + equity from Google (Jul 2025); Engie offtake; Alliant Energy project in Wisconsin",
+      "status": "operating",
+      "source": "https://energydome.com/energy-dome-inks-a-strategic-commercial-agreement-with-google/"
+     },
+     {
+      "name": "Phelas",
+      "role": "startup",
+      "what": "Munich startup developing modular, containerized liquid-air storage (Aurora)",
+      "signal": "Seed-stage; pilot hardware only, little recent public traction",
+      "status": "uncertain",
+      "source": "https://www.phelas.com/"
+     },
+     {
+      "name": "Sumitomo SHI FW",
+      "role": "incumbent",
+      "what": "Sumitomo Heavy Industries arm that invested ~$46M in Highview and acts as LAES EPC/technology partner",
+      "signal": "Strategic investor since 2020; brings boiler/EPC supply chain",
+      "status": "operating",
+      "source": "https://en.wikipedia.org/wiki/Highview_Power"
+     },
+     {
+      "name": "Baker Hughes",
+      "role": "incumbent",
+      "what": "Turbomachinery supplier and strategic investor industrializing Energy Dome's compression-expansion trains",
+      "signal": "Invested in Energy Dome's Series B; supplies the rotating equipment for CO2 Battery plants",
+      "status": "operating",
+      "source": "https://spectrum.ieee.org/co2-battery-energy-storage"
+     },
+     {
+      "name": "MAN Energy Solutions",
+      "role": "incumbent",
+      "what": "Provides industrial liquefaction and expander technology applicable to LAES plants",
+      "signal": "Established cryogenic/turbomachinery incumbent partnering on European LDES projects",
+      "status": "operating",
+      "source": "https://www.man-es.com/"
+     }
+    ],
+    "white_space": "Only two credible system leads (Highview, Energy Dome) because these are capex-heavy turbomachinery plants needing bankable EPC wraps, not venture-scale products; the obvious entrants are industrial-gas incumbents (Linde, Air Liquide, Chart) who already make every component and could enter on balance sheet once cap-and-floor-style revenue regimes spread."
+   },
+   {
+    "name": "Pumped storage hydro (conventional, closed-loop, high-density fluid, subsea)",
+    "description": "Pumps water uphill (or a 2.5x-denser fluid up small hills, or out of pressurized subsea spheres) when power is cheap and runs it back through turbines when needed \u2014 at ~180 GW installed it is >90% of the world's storage energy and still the cheapest bulk option where geography allows.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Voith Hydro",
+      "role": "incumbent",
+      "what": "One of three global suppliers of pump-turbines, motor-generators and variable-speed PSH equipment",
+      "signal": "Equipment in a large share of the world's ~180 GW PSH fleet; major China and Europe orders",
+      "status": "operating",
+      "source": "https://www.voith.com/"
+     },
+     {
+      "name": "GE Vernova",
+      "role": "incumbent",
+      "what": "Hydro division supplying fixed and variable-speed pumped storage units and refurbishments",
+      "signal": "Active PSH equipment orders across Europe, India and China",
+      "status": "operating",
+      "source": "https://www.gevernova.com/"
+     },
+     {
+      "name": "Andritz",
+      "role": "incumbent",
+      "what": "Austrian hydro OEM supplying PSH units and modernizations worldwide",
+      "signal": "Multi-GW PSH order book including European refurbishment wave",
+      "status": "operating",
+      "source": "https://www.andritz.com/"
+     },
+     {
+      "name": "State Grid Xin Yuan",
+      "role": "incumbent",
+      "what": "Operates the world's largest pumped-storage fleet, including the 3.6 GW Fengning plant \u2014 the biggest on earth",
+      "signal": "China is building >50 GW of PSH this decade, most under State Grid",
+      "status": "operating",
+      "source": "https://en.wikipedia.org/wiki/Fengning_Pumped_Storage_Power_Station"
+     },
+     {
+      "name": "SSE Renewables",
+      "role": "incumbent",
+      "what": "Developing Coire Glas (1.5 GW / 30 GWh), Britain's first new large PSH in 40 years",
+      "signal": "GBP 100M+ pre-FID spend; advancing under UK cap-and-floor LDES regime",
+      "status": "operating",
+      "source": "https://www.sserenewables.com/"
+     },
+     {
+      "name": "Drax",
+      "role": "incumbent",
+      "what": "Expanding the Cruachan underground PSH station in Scotland (+600 MW)",
+      "signal": "Shortlisted in Ofgem's 2025 LDES cap-and-floor first window",
+      "status": "operating",
+      "source": "https://www.drax.com/"
+     },
+     {
+      "name": "rPlus Hydro",
+      "role": "startup",
+      "what": "US pure-play developer of closed-loop PSH (Seminoe, WY ~900 MW; White Pine, NV ~1 GW) with FERC licenses",
+      "signal": "Two of the most advanced new-build US PSH projects; seeking offtake/financing",
+      "status": "operating",
+      "source": "https://www.rplushydro.com/"
+     },
+     {
+      "name": "RheEnergise",
+      "role": "startup",
+      "what": "High-Density Hydro using a fluid 2.5x denser than water so small hills work like mountains",
+      "signal": "500 kW grid-connected demonstrator near Plymouth, UK hit peak power Jan 2026; targeting 10-50 MW commercial units",
+      "status": "operating",
+      "source": "https://spectrum.ieee.org/pumped-hydro-storage-rheenergise"
+     },
+     {
+      "name": "Sperra (with Fraunhofer IEE, StEnSea)",
+      "role": "startup",
+      "what": "3D-printed hollow concrete spheres on the seabed that generate power as water flows in and are pumped empty to recharge",
+      "signal": "US DOE and German-government-funded; 9 m / 0.5 MW sphere to be deployed off Long Beach, CA by end-2026",
+      "status": "operating",
+      "source": "https://www.ess-news.com/2024/11/01/subsea-pumped-storage-tech-secures-funding-from-us-german-governments/"
+     },
+     {
+      "name": "Ocean Grazer",
+      "role": "startup",
+      "what": "Dutch 'Ocean Battery' storing energy in pressurized bladders on the seabed under offshore wind farms",
+      "signal": "University of Groningen spinout; concept/pilot stage with limited recent public progress",
+      "status": "uncertain",
+      "source": "https://oceangrazer.com/"
+     }
+    ]
+   },
+   {
+    "name": "Geomechanical / subsurface pressurized-water storage",
+    "description": "Pumps water under high pressure into engineered underground rock formations or proppant-held fractures and releases it back through hydropower turbines \u2014 using oil-and-gas drilling techniques to put 'pumped hydro' on flat land anywhere, with near-zero standing losses.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Quidnet Energy",
+      "role": "startup",
+      "what": "Geomechanical Pumped Storage in shallow rock lenses; the category creator",
+      "signal": "$10M ARPA-E SCALEUP award; 1 MW / 10 MWh project under 15-year deal with CPS Energy (San Antonio) \u2014 demonstrated 35 MWh discharge after six months of pressurized storage with no loss (Jun 2025); backed by Hunt Energy and Breakthrough Energy Ventures",
+      "status": "operating",
+      "source": "https://cleantechnica.com/2025/06/27/new-long-duration-energy-storage-system-deploys-underground-hydropower/"
+     },
+     {
+      "name": "Sage Geosystems",
+      "role": "startup",
+      "what": "EarthStore \u2014 pressurized water stored in fracture domains of hot dry rock wells, doubling as geothermal generation",
+      "signal": "3 MW commercial facility with San Miguel Electric Cooperative (TX); >$97M Series B led by Ormat Technologies (2025); separate 150 MW geothermal deal with Meta",
+      "status": "operating",
+      "source": "https://www.hartenergy.com/exclusives/sage-geosystems-advances-commercial-scale-energy-storage-facility-209044"
+     }
+    ],
+    "white_space": "Essentially two players: reservoir geomechanics is the moat and the risk \u2014 fracture containment, cycling fatigue and round-trip efficiency (~50-70%) are unproven at scale, so generalist investors stay away; if Quidnet's CPS project validates economics, oilfield-services firms (Halliburton, SLB-class drilling and pressure-pumping crews) could industrialize deployment almost overnight, making this a natural O&G-transition play."
+   },
+   {
+    "name": "Flywheels",
+    "description": "Stores electricity as rotational kinetic energy in magnetically levitated rotors that charge and discharge in milliseconds with million-cycle life \u2014 a power (not energy) technology that owns UPS and frequency-regulation niches but has repeatedly failed commercially as grid energy storage.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Torus",
+      "role": "scaleup",
+      "what": "Flywheel-plus-battery hybrid systems for data centers, C&I and utility demand response",
+      "signal": "$200M from Magnetar Capital (Sep 2025); 230+ installations in 2025; PacifiCorp agreements for up to 500 MW of demand-response capacity",
+      "status": "operating",
+      "source": "https://cleantechnica.com/2025/09/10/200-million-for-renewables-friendly-flywheel-energy-storage/"
+     },
+     {
+      "name": "Beacon Power",
+      "role": "startup",
+      "what": "Built the two flagship 20 MW grid frequency-regulation flywheel plants (Stephentown NY, Hazle PA)",
+      "signal": "Chapter 11 in 2011 despite working hardware; assets to Rockland Capital (2012), later sold to Convergent \u2014 'the hardware worked, the business did not'",
+      "status": "acquired",
+      "source": "https://cleantechnica.com/2026/04/19/from-beacon-to-amber-flywheels-missed-the-grid/"
+     },
+     {
+      "name": "Amber Kinetics",
+      "role": "startup",
+      "what": "Four-hour steel-rotor flywheels (32 kWh KESS) \u2014 the only long-duration flywheel attempt",
+      "signal": "17 years old with only ~$25-47M disclosed funding; US military microgrid evaluations (Miramar Q3 2025, Viejas 2026) but living on grants, not sales",
+      "status": "uncertain",
+      "source": "https://cleantechnica.com/2026/04/19/from-beacon-to-amber-flywheels-missed-the-grid/"
+     },
+     {
+      "name": "VYCON (Calnetix)",
+      "role": "incumbent",
+      "what": "Kinetic-energy UPS flywheels widely deployed in data centers, hospitals and crane regeneration",
+      "signal": "Thousands of units fielded; profitable power-quality niche",
+      "status": "operating",
+      "source": "https://vyconenergy.com/"
+     },
+     {
+      "name": "Piller Power Systems (incl. ex-Active Power)",
+      "role": "incumbent",
+      "what": "Rotary UPS and flywheel ride-through systems; absorbed distressed flywheel maker Active Power (2016)",
+      "signal": "Langley Holdings unit; standard kit for mission-critical facilities",
+      "status": "operating",
+      "source": "https://www.piller.com/"
+     },
+     {
+      "name": "Revterra",
+      "role": "startup",
+      "what": "Passive magnetic-bearing 'kinetic batteries' (100 kWh / 400 kW) buffering EV fast-charging on weak grids",
+      "signal": "$6M seed (2022); pilot deployments with charging developers",
+      "status": "operating",
+      "source": "https://greyb.com/blog/advanced-flywheel-energy-storage-startups/"
+     },
+     {
+      "name": "QuinteQ Energy",
+      "role": "startup",
+      "what": "Lightweight Boeing-derived flywheels for port cranes, military microgrids and peak shaving",
+      "signal": "Dutch; deployments at ports and defense sites, early commercial",
+      "status": "operating",
+      "source": "https://www.quinteqenergy.com/"
+     },
+     {
+      "name": "Stornetic",
+      "role": "startup",
+      "what": "German DuraStor flywheel arrays for rail braking energy and grid services",
+      "signal": "Quiet in recent years; commercial traction unclear",
+      "status": "uncertain",
+      "source": "https://stornetic.com/"
+     }
+    ],
+    "white_space": "As energy storage the physics is unforgiving \u2014 self-discharge and the $/kWh of spinning steel confine flywheels to seconds-to-minutes, and the corporate graveyard (Beacon Ch.11, Active Power distressed sale, Pentadyne liquidation, Temporal Power) proves grid arbitrage never penciled; the live opening is power-quality hybrids that shield batteries from cycling (Torus's model) and inertia-as-a-service on inverter-heavy grids."
+   },
+   {
+    "name": "Hydrogen power-to-power LDES (electrolyzer + cavern/tank + fuel cell or turbine)",
+    "description": "Converts surplus renewable electricity to hydrogen via electrolysis, stores it in salt caverns, tanks or metal hydrides for days to seasons, and converts it back through fuel cells or hydrogen-capable turbines \u2014 the only practical seasonal storage, though sub-40% round-trip efficiency makes it expensive without mandates.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "ACES Delta (Mitsubishi Power + Chevron JV)",
+      "role": "scaleup",
+      "what": "World's largest green-H2 storage hub: 220 MW electrolysis plus two 4.5-million-barrel salt caverns in Delta, Utah feeding IPP's 840 MW 30%-hydrogen combined cycle",
+      "signal": "$504M DOE loan guarantee; all 40 electrolyzers installed and run at 100% load by Feb 2026, project ~95% complete and commissioning",
+      "status": "operating",
+      "source": "https://rbnenergy.com/daily-posts/analyst-insight/electrolyzers-place-and-operational-aces-delta-project-utah"
+     },
+     {
+      "name": "Mitsubishi Power Americas",
+      "role": "incumbent",
+      "what": "Supplies the hydrogen-capable M501JAC turbines and integrates the IPP Renewed / ACES power-to-power chain (30% H2 now, 100% by 2045)",
+      "signal": "Anchor OEM for the flagship US hydrogen LDES project",
+      "status": "operating",
+      "source": "https://power.mhi.com/regions/amer/success-stories/advanced-clean-energy-storage-project"
+     },
+     {
+      "name": "Chevron",
+      "role": "incumbent",
+      "what": "Acquired Magnum Development (owner of the Utah salt-cavern site) in 2023 to co-own ACES Delta \u2014 an oil major buying into H2 storage",
+      "signal": "Holds majority interest in ACES Delta alongside Mitsubishi Power",
+      "status": "operating",
+      "source": "https://www.chevron.com/newsroom/2024/q3/aces-hydrogen-project-to-advance-lower-carbon-future"
+     },
+     {
+      "name": "HDF Energy",
+      "role": "scaleup",
+      "what": "Renewstable baseload plants combining solar, 16 MW electrolysis, 128 MWh H2 storage and fuel cells for island grids",
+      "signal": "Euronext-listed; CEOG French Guiana \u2014 the world's first multi-MW hydrogen power plant \u2014 in final equipment installation 2025, serving ~10,000 households",
+      "status": "operating",
+      "source": "https://fuelcellsworks.com/2025/04/07/fuel-cells/hdf-energy-installs-fuel-cells-at-ceog-project-in-french-guiana-advancing-24-7-renewable-power-supply"
+     },
+     {
+      "name": "Energy Vault (Calistoga Resiliency Center)",
+      "role": "scaleup",
+      "what": "Owns/operates the world's first ultra-long-duration hybrid hydrogen-fuel-cell + battery microgrid (8.5 MW / 293 MWh) replacing diesel for PG&E wildfire shutoffs",
+      "signal": "Commercial operation Sep 2025 under 10.5-year PG&E tolling agreement",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/energy-vault-pge-announce-successful-completion-of-the-calistoga-resiliency-center-the-worlds-first-ultra-long-duration-hybrid-battery--hydrogen-energy-storage-microgrid-302567475.html"
+     },
+     {
+      "name": "Plug Power",
+      "role": "scaleup",
+      "what": "PEM electrolyzers, fuel cells and stationary power for hydrogen P2P chains",
+      "signal": "NASDAQ-listed; closed $1.66B DOE loan guarantee (Jan 2025) amid sustained losses, layoffs and cash concerns",
+      "status": "operating",
+      "source": "https://www.plugpower.com/"
+     },
+     {
+      "name": "GKN Hydrogen",
+      "role": "startup",
+      "what": "Metal-hydride solid-state H2 storage (16x density of compressed gas, 30-year life) packaged as power-to-power microgrid systems",
+      "signal": "Acquired by Langley Holdings from Dowlais Group (Aug 2024) into its Power Solutions division; 7,000+ cycles proven at 99% efficiency",
+      "status": "acquired",
+      "source": "https://www.langleyholdings.com/news/2024/08/01/langley-acquires-gkn-hydrogen/"
+     },
+     {
+      "name": "Siemens Energy",
+      "role": "incumbent",
+      "what": "Silyzer electrolyzers plus hydrogen-capable gas turbines; ran HYFLEXPOWER, the first integrated industrial power-to-H2-to-power demo at 100% hydrogen",
+      "signal": "100% H2 turbine operation demonstrated in France (2023); H2-ready turbine line shipping",
+      "status": "operating",
+      "source": "https://www.siemens-energy.com/"
+     }
+    ],
+    "white_space": "Round-trip efficiency of ~30-40% plus electrolyzer capex means no merchant business case exists \u2014 every operating project leans on a mandate (Calistoga wildfire resilience), an island grid with diesel-price competition (CEOG), or policy-backed utility offtake (LADWP/IPP); the structural opening is pairing existing or cheap-to-mine salt caverns with the H2-capable turbine fleets utilities are already buying, rather than greenfield fuel-cell plants."
+   }
+  ]
+ }
+}

@@ -1,0 +1,543 @@
+{
+ "sector": "food",
+ "bucket": "Plant-Based & Fermentation Proteins",
+ "census": {
+  "bucket": "Plant-Based & Fermentation Proteins",
+  "variations": [
+   {
+    "name": "Plant-based meat (ground, whole-cut, 3D-printed)",
+    "description": "Replicates ground, formed, or whole-cut meat from plant proteins (soy, pea, wheat) using extrusion, shear-cell, or 3D-printing to mimic muscle texture, cutting the land, water, and emissions footprint of livestock by roughly an order of magnitude.",
+    "maturity": "scaling",
+    "white_space": "The ground/burger segment is mature but in retail decline in the US/EU as the early flexitarian wave fades; the credible opening is premium whole-cut (steak, bacon, chicken filet) at sub-conventional price and clean labels, where texture and ingredient-deck simplicity, not novelty, win shelf space.",
+    "companies": [
+     {
+      "name": "Beyond Meat",
+      "role": "scaleup",
+      "what": "Publicly traded maker of pea/rice/fava-protein burgers, sausages, and jerky sold across US retail and global foodservice.",
+      "signal": "2025 revenue guidance ~$320-335M, down double digits YoY; closed up to $100M senior secured debt facility from Ahimsa-affiliated Unprocessed Foods to shore up balance sheet",
+      "status": "operating",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001655210/000165521025000020/ex991pressrelease-q4andful.htm"
+     },
+     {
+      "name": "Impossible Foods",
+      "role": "scaleup",
+      "what": "Plant-based beef, sausage and chicken differentiated by soy-leghemoglobin (fermentation-derived heme) for a meaty taste; consolidated heme IP after settling its suit with Motif.",
+      "signal": "Private; one of the two largest US plant-meat brands; acquired Motif's HEMAMI heme IP via 2024 litigation settlement",
+      "status": "operating",
+      "source": "https://www.fooddive.com/news/impossible-foods-motif-foodworks-dismiss-long-standing-legal-battle/726085/"
+     },
+     {
+      "name": "Redefine Meat",
+      "role": "startup",
+      "what": "Israeli firm 3D-printing plant-based whole cuts (flank steak, lamb) as 'New-Meat' for European restaurants and retail.",
+      "signal": "Launched next-gen flank steak across Europe; won a 5-star Great Taste Award 2025",
+      "status": "operating",
+      "source": "https://www.proteinproductiontechnology.com/post/redefine-meat-serves-up-juicier-next-generation-flank-steak-as-plant-based-whole-cuts-evolve"
+     },
+     {
+      "name": "Juicy Marbles",
+      "role": "startup",
+      "what": "Slovenian maker of plant-based whole-cut filet mignon, loins and ribs sold through European grocery.",
+      "signal": "~$4.6M raised; in ~3,500 stores (Tesco, Sainsbury, Waitrose, Whole Foods, Lidl); planned 2025 US retail launch and targeted profitability by year end",
+      "status": "operating",
+      "source": "https://agfundernews.com/plant-based-whole-cut-startup-juicy-marbles-plans-us-retail-launch-in-2025-aims-for-profitability-by-year-end"
+     },
+     {
+      "name": "Steakholder Foods",
+      "role": "startup",
+      "what": "Nasdaq-listed (STKH) developer of 3D bioprinting hardware (MX200, HD144 printers) for printed meat and seafood structures, sold as B2B equipment/IP.",
+      "signal": "Began revenue generation in 2024 via a sales agreement with Bondor Foods; opened first full-scale demonstration center",
+      "status": "operating",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001828098/000121390025009105/ea022958101ex99-1_steak.htm"
+     },
+     {
+      "name": "Tattooed Chef",
+      "role": "startup",
+      "what": "Former SPAC-listed plant-based frozen-meals brand that failed to differentiate in a crowded category.",
+      "signal": "Filed Chapter 11 bankruptcy in 2023 and sold assets after running out of cash",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.fooddive.com/news/tattooed-chef-to-file-for-bankruptcy-plans-to-sell-assets/684830/"
+     },
+     {
+      "name": "Hooray Foods / Nowadays",
+      "role": "startup",
+      "what": "San Francisco startups making plant-based bacon (Hooray) and plant-based nuggets (Nowadays) for retail/foodservice.",
+      "signal": "Both ceased production and wound down in 2024; Hooray cited 'economics... do not match our revenue'",
+      "status": "bankrupt-shutdown",
+      "source": "https://xtalks.com/hooray-foods-and-nowadays-why-two-alt-meat-startups-are-closing-down-3525/"
+     }
+    ]
+   },
+   {
+    "name": "Plant-based dairy, cheese & yogurt",
+    "description": "Recreates milk, cheese, and yogurt from plant bases (oat, soy, nut, potato) plus plant proteins/fats and cultures, avoiding the methane and land use of dairy herds while targeting the harder functional challenge of meltable, stretchy cheese.",
+    "maturity": "scaling",
+    "white_space": "Plant milks are mature, but plant cheese still trails dairy on melt/stretch/flavor and shelf economics; the opening is a plant casein-mimic (e.g. Bettani's Caseed) that delivers true mozzarella performance without precision fermentation's bioreactor cost.",
+    "companies": [
+     {
+      "name": "Oatly",
+      "role": "scaleup",
+      "what": "Publicly traded Swedish oat-milk pioneer that built the barista/coffee plant-milk category worldwide.",
+      "signal": "Largest pure-play plant-milk brand globally; public (Nasdaq: OTLY)",
+      "status": "operating",
+      "source": "https://gfi.org/resource/plant-based-meat-eggs-and-dairy-state-of-the-industry/"
+     },
+     {
+      "name": "Bettani Farms (formerly Climax Foods)",
+      "role": "startup",
+      "what": "US cheese-alternative producer using a data-driven plant casein-mimic ('Caseed') to target stretchy mozzarella; rolling up the category.",
+      "signal": "Rebranded from Climax with $6.5M Series A and a new CEO (ex-Califia CFO); acquired Hungry Planet, Numu and Stockeld Dreamery",
+      "status": "operating",
+      "source": "https://www.greenqueen.com.hk/bettani-farms-hungry-planet-stockeld-climax-foods-vegan-cheese/"
+     },
+     {
+      "name": "Miyoko's Creamery",
+      "role": "startup",
+      "what": "US cultured plant-based cheese and butter brand using traditional fermentation of cashew/legume bases.",
+      "signal": "Established premium plant-cheese brand in US natural and conventional grocery",
+      "status": "operating",
+      "source": "https://grist.org/food-and-agriculture/best-vegan-cheese-climax-new-culture-alt-proteins/"
+     },
+     {
+      "name": "Nobell Foods",
+      "role": "startup",
+      "what": "Makes casein in genetically engineered soybeans (plant molecular farming) to deliver real melting/stretching cheese functionality.",
+      "signal": "~$103M raised from Y Combinator, a16z and Breakthrough Energy Ventures",
+      "status": "operating",
+      "source": "https://tracxn.com/d/companies/nobell-foods/__cQqkRDTrFQxX5-m8YV026yODF_FfjB5GccYOQRCSTJ4"
+     },
+     {
+      "name": "Stockeld Dreamery",
+      "role": "startup",
+      "what": "Swedish fermented plant-based cheese maker (cultured cream cheese, slices) built on a legume base.",
+      "signal": "Raised $20M Series A; shut down in 2024 amid plant-based decline, with a last-minute asset acquisition by Bettani Farms keeping its cream cheese on shelf",
+      "status": "acquired",
+      "source": "https://agfundernews.com/plant-based-cheese-startup-stockeld-dreamery-shutters-as-flexitarian-dream-fizzles"
+     }
+    ]
+   },
+   {
+    "name": "Plant-based eggs & seafood",
+    "description": "Replaces eggs (mung-bean or other plant-protein liquid eggs) and fish/shellfish (konjac, soy, legume, algae) with plant analogues, easing pressure on caged hens and on overfished and bycatch-heavy wild stocks.",
+    "maturity": "scaling",
+    "white_space": "Plant seafood is the weakest segment: low repeat purchase, thin margins, and a string of closures/asset sales (New Wave). The opening is whole-muscle, nutritionally fortified analogues (omega-3, B12) for high-value species rather than crumb/surimi formats that compete on price.",
+    "companies": [
+     {
+      "name": "Eat Just (JUST Egg)",
+      "role": "scaleup",
+      "what": "Maker of mung-bean-based liquid and folded plant eggs; the dominant US plant-egg brand, now also extending to a 'Just Meat' plant-chicken line.",
+      "signal": "Former unicorn (>$1B valuation); secured new funding in 2025; launched three plant-chicken flavors",
+      "status": "operating",
+      "source": "https://www.fooddive.com/news/eat-just-maker-plant-based-eggs-cultivated-chicken-gets-a-funding/692690/"
+     },
+     {
+      "name": "Konscious Foods",
+      "role": "startup",
+      "what": "Vancouver maker of frozen plant-based sushi, onigiri and poke (a world-first frozen vegan-sushi line) for retail and foodservice.",
+      "signal": "$26M seed round; founded 2021 by Gardein/Yves founder Yves Potvin",
+      "status": "operating",
+      "source": "https://xtalks.com/konscious-foods-makes-waves-in-plant-based-seafood-with-26-million-in-funding-3483/"
+     },
+     {
+      "name": "Bayou Best Foods",
+      "role": "startup",
+      "what": "Plant-based seafood (shrimp) venture launched by Big Idea Ventures using IP acquired from the defunct New Wave Foods.",
+      "signal": "Newly launched on acquired alt-shrimp IP; early stage",
+      "status": "operating",
+      "source": "https://agfundernews.com/big-idea-ventures-unveils-plant-based-seafood-co-bayou-best-foods-acquires-ip-from-new-wave-foods"
+     },
+     {
+      "name": "New Wave Foods",
+      "role": "startup",
+      "what": "Pioneer of plant-based shrimp from algae and plant proteins for foodservice.",
+      "signal": ">$20M raised since 2015; wound down with its IP sold to Big Idea Ventures' Bayou Best Foods",
+      "status": "acquired",
+      "source": "https://agfundernews.com/big-idea-ventures-unveils-plant-based-seafood-co-bayou-best-foods-acquires-ip-from-new-wave-foods"
+     },
+     {
+      "name": "Gardein (Conagra)",
+      "role": "incumbent",
+      "what": "Conagra-owned mainstream plant-protein brand with plant-based fish filets and crab cakes alongside meat analogues.",
+      "signal": "Owned by Conagra Brands; broad US retail distribution",
+      "status": "operating",
+      "source": "https://gfi.org/resource/plant-based-meat-eggs-and-dairy-state-of-the-industry/"
+     }
+    ]
+   },
+   {
+    "name": "Mycoprotein & filamentous-fungi / biomass fermentation",
+    "description": "Grows whole filamentous fungal biomass in fermenters (the cells themselves are the food), yielding a fibrous, high-protein, high-fiber ingredient that is the most cost-mature fermentation route to meat-like texture and is economically viable at industrial scale today.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Quorn (Marlow Foods / Monde Nissin)",
+      "role": "incumbent",
+      "what": "Original mycoprotein brand (Fusarium venenatum), launched 1985; now also supplies its mycoprotein as a B2B ingredient.",
+      "signal": "Owned by Monde Nissin; longest-running, widely deployed mycoprotein platform with broad regulatory approval",
+      "status": "operating",
+      "source": "https://www.ingredientsnetwork.com/marlow-foods-to-supply-quorn-mycoprotein-news120756.html"
+     },
+     {
+      "name": "ENOUGH (ABUNDA)",
+      "role": "scaleup",
+      "what": "Scottish firm producing ABUNDA mycoprotein via submerged fermentation as a B2B ingredient from its Sas van Gent (Netherlands) plant.",
+      "signal": "Raised ~$43.6M; doubling Netherlands capacity from 10,000 to 20,000 tonnes with a second line online in early 2025",
+      "status": "operating",
+      "source": "https://agfundernews.com/alt-protein-isnt-dead-yet-says-enough-as-it-raises-43-6m-to-scale-up-mycoprotein-production"
+     },
+     {
+      "name": "Nature's Fynd",
+      "role": "scaleup",
+      "what": "US producer of Fy fungal protein (Fusarium strain from Yellowstone) for dairy-free yogurt, meatless patties and bites.",
+      "signal": ">$500M equity+debt raised; backers include Gates, Bezos and Generation IM",
+      "status": "operating",
+      "source": "https://en.wikipedia.org/wiki/Nature's_Fynd"
+     },
+     {
+      "name": "Infinite Roots",
+      "role": "startup",
+      "what": "German mycelium-fermentation platform converting biomass into food ingredients; partners with CPG firms for market entry.",
+      "signal": "\u20ac58M (~$85.7M) Series B in 2024 (Europe's largest mycelium round); partnership with Pulmuone in South Korea",
+      "status": "operating",
+      "source": "https://www.greenqueen.com.hk/infinite-roots-mycelium-mushroom-root-fermentation-funding/"
+     },
+     {
+      "name": "Planetary",
+      "role": "startup",
+      "what": "Swiss firm producing mycoprotein as a B2B ingredient and licensing its BioBlocks biomass-fermentation platform to turn agricultural side-streams into protein.",
+      "signal": "~$28M raised (CHF 16M Series A + credit); exploring India production with Dhampur Bio Organics targeting sub-$1/kg",
+      "status": "operating",
+      "source": "https://agfundernews.com/planetary-nets-28m-to-scale-fermentation-infrastructure-and-licensing-platform"
+     },
+     {
+      "name": "Meati Foods",
+      "role": "startup",
+      "what": "US maker of whole-cut mycelium 'steaks' and cutlets (MushroomRoot) from its large Thornton, Colorado plant.",
+      "signal": "Raised ~$450M historically but hit a severe 2025 cash crisis: lender seized cash reserves, ~150 layoffs, plant closure, and assets sold for ~$4M",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.kunc.org/news/2025-03-10/meati-unclear-on-the-future-as-150-layoffs-plant-closure-loom"
+     },
+     {
+      "name": "Mycorena",
+      "role": "startup",
+      "what": "Swedish maker of Promyc fungi-based protein with meat-like texture for the food industry.",
+      "signal": "Filed for bankruptcy in July 2024 after scale-up and funding pressures",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.naturetechmemos.com/p/top-10-fungi-startups-transforming-materials-food-and-medicine-in-2025"
+     }
+    ]
+   },
+   {
+    "name": "Precision fermentation of dairy proteins (whey, casein)",
+    "description": "Engineers microbes (yeast/fungi) to brew the exact whey and casein proteins found in cow's milk without any animal, enabling animal-identical cheese, milk and protein powders with a fraction of dairy's emissions once production scales.",
+    "maturity": "demonstration",
+    "white_space": "Bioreactor capacity and unit cost remain the binding constraints; several leaders have paused or pivoted to contract manufacturing rather than build their own mega-plants. The opening is asset-light protein supply through CDMOs plus regulatory-cleared GRAS ingredients sold B2B to legacy dairy brands.",
+    "companies": [
+     {
+      "name": "Perfect Day",
+      "role": "scaleup",
+      "what": "Pioneer of fermentation-derived whey protein (beta-lactoglobulin) sold as a B2B ingredient to consumer brands worldwide.",
+      "signal": "Market leader with >32% share of precision-fermented dairy in 2024; >$825M raised; new Gujarat (India) plant on track for H2 2026 start and 2027 ramp",
+      "status": "operating",
+      "source": "https://agfundernews.com/perfect-day-says-gujarat-facility-on-track-for-2026-start-2027-ramp-up-for-recombinant-whey-protein"
+     },
+     {
+      "name": "Remilk",
+      "role": "startup",
+      "what": "Israeli maker of fermentation-derived whey protein, commercialized in 'New Milk' (a low-sugar, lactose-free dairy line) with Gad Dairies.",
+      "signal": "~$150M raised; paused its planned Denmark mega-plant and pivoted to a European contract manufacturer; launched barista milk in coffee shops late 2025",
+      "status": "operating",
+      "source": "https://agfundernews.com/animal-free-dairy-startup-remilk-hits-pause-on-worlds-largest-precision-fermentation-facility-plan-in-denmark"
+     },
+     {
+      "name": "Imagindairy",
+      "role": "startup",
+      "what": "Israeli producer of animal-free whey protein targeting price parity, working with Strauss Group on cow-free drinks and cream cheese.",
+      "signal": "~$30M+ raised; received FDA 'no questions' GRAS letter; secured access to 100,000 L of fermentation capacity with room to triple",
+      "status": "operating",
+      "source": "https://agfundernews.com/imagindairy-acquires-industrial-scale-precision-fermentation-lines-for-animal-free-whey-this-will-allow-us-to-support-mass-market-adoption"
+     },
+     {
+      "name": "Formo",
+      "role": "startup",
+      "what": "German firm making microbial casein and koji-protein cheeses; among the first to bring fermentation-enabled cheese to European retail.",
+      "signal": "Among top-5 precision-fermented dairy players; received \u20ac35M (~$40.6M) backing from the European Investment Bank",
+      "status": "operating",
+      "source": "https://www.dairyreporter.com/Article/2026/02/27/investment-surges-back-into-precisionfermented-dairy/"
+     },
+     {
+      "name": "Vivici",
+      "role": "startup",
+      "what": "Dutch spin-out (dsm-firmenich/Fonterra heritage) selling nature-identical fermentation-derived whey protein and now lactoferrin as B2B ingredients.",
+      "signal": "\u20ac32.5M Series A; self-affirmed GRAS and US launch of whey in year one; launched fermentation-derived lactoferrin; exploring a 4M-L Abu Dhabi facility with The EVERY Company",
+      "status": "operating",
+      "source": "https://www.nutraingredients.com/Article/2026/02/24/vivici-launches-fermentation-derived-lactoferrin/"
+     },
+     {
+      "name": "New Culture",
+      "role": "startup",
+      "what": "San Francisco firm using precision fermentation to make animal-free casein for cow-less mozzarella aimed at pizzerias.",
+      "signal": "Raised $25M Series A; partnered with CJ CheilJedang on scale-up",
+      "status": "operating",
+      "source": "https://grist.org/food-and-agriculture/best-vegan-cheese-climax-new-culture-alt-proteins/"
+     },
+     {
+      "name": "Standing Ovation",
+      "role": "startup",
+      "what": "French firm producing casein via precision fermentation, preparing a US launch.",
+      "signal": "Raised ~\u20ac25M ($28.5M) Series B plus ~\u20ac5M non-dilutive funding",
+      "status": "operating",
+      "source": "https://agfundernews.com/standing-ovation-nets-34m-gears-up-for-us-launch-of-casein-via-precision-fermentation"
+     }
+    ]
+   },
+   {
+    "name": "Precision fermentation of egg, heme & specialty proteins (collagen, etc.)",
+    "description": "Brews specific functional proteins beyond dairy, egg white (ovalbumin), heme/myoglobin for meat flavor, and collagen for food and cosmetics, by fermenting engineered microbes, delivering animal-identical functionality without hens, cattle, or slaughterhouses.",
+    "maturity": "demonstration",
+    "white_space": "Heme has effectively consolidated into one player (Impossible) after Motif's collapse, leaving little competition; the opening is regulatory-cleared, GRAS-affirmed egg-white and specialty proteins sold B2B into bakery, sports nutrition and cosmetics where animal supply is volatile.",
+    "companies": [
+     {
+      "name": "The EVERY Company (formerly Clara Foods)",
+      "role": "startup",
+      "what": "Pioneer of precision-fermented egg-white proteins (ovalbumin, soluble egg protein), commercialized in beverages and protein powders.",
+      "signal": "Two ingredients commercialized in the US; launched FERMY protein powders with Landish; exploring a 4M-L Abu Dhabi facility; received US DoD biomanufacturing grant",
+      "status": "operating",
+      "source": "https://www.marketsandmarkets.com/ResearchInsight/precision-fermentation-market.asp"
+     },
+     {
+      "name": "Onego Bio",
+      "role": "startup",
+      "what": "Finnish/US firm making animal-free egg protein (Bioalbumen, ovalbumin) via fungal precision fermentation for the US market.",
+      "signal": "$40M Series A plus \u20ac14M EIC Accelerator funding; on track for self-affirmed GRAS / FDA no-objections on Bioalbumen",
+      "status": "operating",
+      "source": "https://www.greenqueen.com.hk/onego-bio-series-a-funding-precision-fermentation-egg-protein-gras/"
+     },
+     {
+      "name": "Geltor",
+      "role": "startup",
+      "what": "US firm producing designer bioengineered collagen and other proteins via precision fermentation, primarily for cosmetics/personal care and nutrition.",
+      "signal": "Market leader cited for animal-free collagen with strong brand recognition; commercial ingredient sales",
+      "status": "operating",
+      "source": "https://www.marketsandmarkets.com/ResearchInsight/precision-fermentation-market.asp"
+     },
+     {
+      "name": "Impossible Foods (heme)",
+      "role": "scaleup",
+      "what": "Produces soy-leghemoglobin (heme) via precision fermentation to give plant meat its meaty taste; now also holds Motif's HEMAMI myoglobin IP.",
+      "signal": "Heme is core to its products; consolidated competing heme IP via the 2024 Motif settlement",
+      "status": "operating",
+      "source": "https://www.greenqueen.com.hk/motif-foodworks-shuts-down-impossible-foods-lawsuit-hemami/"
+     },
+     {
+      "name": "Shiru",
+      "role": "startup",
+      "what": "US firm using AI-guided discovery plus fermentation to produce novel functional proteins (e.g. emulsifiers, structurants) for food applications.",
+      "signal": "Cited among precision-fermentation ingredient players with an AI-led protein-discovery platform",
+      "status": "operating",
+      "source": "https://www.emergenresearch.com/blog/top-10-companies-in-precision-fermentation-market"
+     },
+     {
+      "name": "Motif FoodWorks",
+      "role": "startup",
+      "what": "Ginkgo spin-out that made HEMAMI heme/myoglobin and other functional ingredients for plant meat via precision fermentation.",
+      "signal": "Wound down in September 2024 days after settling Impossible Foods' IP suit; sold its heme business to Impossible",
+      "status": "bankrupt-shutdown",
+      "source": "https://agfundernews.com/exclusive-boston-based-foodtech-startup-motif-foodworks-is-closing-down"
+     }
+    ]
+   },
+   {
+    "name": "Animal-free fats & oils (fermented or synthetic)",
+    "description": "Produces fats and oils, dairy-style butterfat, meat fat, and palm-oil replacements, either by fermenting microbes (precision/biomass) or by building triglycerides thermochemically from captured carbon, addressing the fat fraction that drives much of the flavor, melt and deforestation impact of animal and palm products.",
+    "maturity": "demonstration",
+    "white_space": "Fats are a high-value, under-served leverage point: a 1% animal-fat inclusion can transform plant-meat flavor, so B2B 'designer fat' suppliers win without needing to own the finished product. The constraint is fermentation cost; carbon-to-fat thermochemistry (Savor) is a novel, capacity-light alternative still proving cost at scale.",
+    "companies": [
+     {
+      "name": "Nourish Ingredients",
+      "role": "startup",
+      "what": "Australian firm making precision-fermented animal-like fats (e.g. Tastilux) that mimic meat/dairy fat at low inclusion rates, sold B2B.",
+      "signal": "Cleared to sell animal-free meat fat in the US (FEMA GRAS); set up a European commercial hub in the Netherlands; courted by global food giants",
+      "status": "operating",
+      "source": "https://www.greenqueen.com.hk/nourish-ingredients-tastilux-fema-gras-us-precision-fermentation-fat/"
+     },
+     {
+      "name": "Savor",
+      "role": "startup",
+      "what": "Bill Gates-backed firm building fats thermochemically from captured CO2, hydrogen and methane, no animals, plants or microbes; launched a carbon-made butter.",
+      "signal": "Launched first commercial product (carbon butter) in March 2025; planning a large-scale facility to take on dairy and palm",
+      "status": "operating",
+      "source": "https://agfundernews.com/savor-unveils-first-of-its-kind-butter-made-without-cows-plants-or-microbes"
+     },
+     {
+      "name": "C16 Biosciences",
+      "role": "startup",
+      "what": "US firm fermenting a palm-oil alternative (Palmless / Torula-derived oil) to replace deforestation-linked palm in food and personal care.",
+      "signal": "Achieved commercial-scale production with revenue in personal care; received US DoD biomanufacturing award; expanding into food",
+      "status": "operating",
+      "source": "https://www.genengnews.com/news/c16-biosciences-gears-up-to-go-palmless/"
+     },
+     {
+      "name": "Melt&Marble",
+      "role": "startup",
+      "what": "Swedish precision-fermentation firm making designer fats/lipids for food and personal care.",
+      "signal": "Closed ~$8.5M (SEK 80M) round in Dec 2025; reached commercial-scale production; first ingredients (personal care) in 2026, US food market in sight",
+      "status": "operating",
+      "source": "https://www.greenqueen.com.hk/melt-and-marble-funding-precision-fermentation-fat-launch/"
+     },
+     {
+      "name": "NoPalm Ingredients",
+      "role": "startup",
+      "what": "Dutch firm fermenting yeast on agri-food side-streams to produce a sustainable palm/coconut-oil alternative.",
+      "signal": "Cited among the active fermentation-fat players scaling a palm replacement",
+      "status": "operating",
+      "source": "https://www.greenqueen.com.hk/melt-and-marble-funding-precision-fermentation-fat-launch/"
+     },
+     {
+      "name": "Yali Bio",
+      "role": "startup",
+      "what": "California firm using synthetic biology and precision fermentation to design tailored fats and lipids.",
+      "signal": "Early-stage; cited among US precision-fermentation fat developers",
+      "status": "operating",
+      "source": "https://www.greenqueen.com.hk/melt-and-marble-funding-precision-fermentation-fat-launch/"
+     }
+    ]
+   },
+   {
+    "name": "B2B plant-protein ingredients, isolates & texturization tech",
+    "description": "Supplies the upstream building blocks, pea/soy/wheat protein concentrates and isolates plus textured vegetable proteins made by high-moisture extrusion, that downstream brands turn into meat and dairy analogues; this layer is the most cost-mature and profitable part of the value chain.",
+    "maturity": "mature",
+    "white_space": "This is a crowded, incumbent-dominated commodity layer; differentiation is shifting to clean-label, neutral-tasting isolates and high-moisture textured proteins with chicken-like fiber, where formulation know-how rather than raw tonnage creates pricing power.",
+    "companies": [
+     {
+      "name": "Roquette",
+      "role": "incumbent",
+      "what": "Global leader in pea (and now wheat) protein under the NUTRALYS brand, including new large-chunk textured pea and textured wheat proteins.",
+      "signal": "Launched NUTRALYS T PEA 700XC (70% protein) and first-ever textured wheat protein T WHEAT 600L in 2025",
+      "status": "operating",
+      "source": "https://www.roquette.com/media-center/press-center/roquette-new-textured-wheat-and-pea-proteins"
+     },
+     {
+      "name": "ADM",
+      "role": "incumbent",
+      "what": "Agribusiness giant supplying soy and pea protein concentrates, isolates and textured proteins, plus flavor/formulation services to plant-based brands.",
+      "signal": "One of the largest global plant-protein ingredient suppliers; integrated crop-to-ingredient operations",
+      "status": "operating",
+      "source": "https://gfi.org/resource/plant-based-meat-eggs-and-dairy-state-of-the-industry/"
+     },
+     {
+      "name": "Ingredion",
+      "role": "incumbent",
+      "what": "Ingredient maker offering pea and other plant protein isolates/concentrates and starches for protein fortification and meat/dairy analogues.",
+      "signal": "Broad commercial plant-protein portfolio (pea isolates, starches) sold B2B globally",
+      "status": "operating",
+      "source": "https://www.ingredion.com/na/en-us/ingredients/ingredient-types/plant-proteins"
+     },
+     {
+      "name": "Cargill",
+      "role": "incumbent",
+      "what": "Agribusiness major supplying soy and pea proteins, textured proteins and fats/binders into the alt-protein supply chain.",
+      "signal": "Global plant-protein and texturant supplier with integrated sourcing",
+      "status": "operating",
+      "source": "https://gfi.org/resource/plant-based-meat-eggs-and-dairy-state-of-the-industry/"
+     },
+     {
+      "name": "PURIS",
+      "role": "scaleup",
+      "what": "US vertically integrated pea-protein producer (seed-to-isolate) that has been a key North American pea-protein supplier (notably to Beyond Meat).",
+      "signal": "Largest North American pea-protein producer; Cargill-backed expansion",
+      "status": "operating",
+      "source": "https://gfi.org/resource/plant-based-meat-eggs-and-dairy-state-of-the-industry/"
+     }
+    ]
+   },
+   {
+    "name": "Fermentation scale-up infrastructure & contract manufacturing (CDMOs)",
+    "description": "Builds and operates the large fermentation tanks and downstream processing that protein startups lack, providing commercial-scale (100,000 L+) capacity as a contract manufacturer; this is the single biggest bottleneck standing between precision-fermentation pilots and price-competitive supply.",
+    "maturity": "demonstration",
+    "white_space": "Dedicated food-grade large-scale fermentation capacity is acutely scarce, only a handful of players have committed to 100,000 L+ food plants, so capital intensity and offtake risk keep entrants few. The opening is purpose-built food CDMOs (vs. repurposed pharma capacity) financed by sovereign and strategic capital with anchor offtake contracts.",
+    "companies": [
+     {
+      "name": "Liberation Bioindustries (formerly Liberation Labs)",
+      "role": "startup",
+      "what": "Purpose-built precision-fermentation CDMO; constructing a 600,000-L food-grade plant in Richmond, Indiana with dedicated downstream processing to supply startups like Vivici.",
+      "signal": "Raised ~$50.5M (plus $31.5M strategic from NEOM); Indiana plant slated to begin operations in early 2026; planned global network scaling to millions of liters",
+      "status": "operating",
+      "source": "https://www.proteinproductiontechnology.com/post/liberation-labs-secures-us-50-5-million-to-complete-precision-fermentation-facility-in-indiana"
+     },
+     {
+      "name": "Synonym",
+      "role": "startup",
+      "what": "US firm providing financing, engineering and project development to build out fermentation biomanufacturing capacity and match startups to capacity.",
+      "signal": "Cited as a key infrastructure/enablement player bridging startups to commercial fermentation capacity",
+      "status": "operating",
+      "source": "https://www.synbiobeta.com/read/protein-without-the-moo-brewing-the-future-of-food"
+     },
+     {
+      "name": "Cauldron",
+      "role": "startup",
+      "what": "Australian firm commercializing a continuous (hyper-fermentation) process and planning a network of 'smaller, smarter' precision-fermentation plants run as a CDMO.",
+      "signal": "Planning a 500,000-L facility; long-term CDMO network ambitions for functional lipids, enzymes and proteins",
+      "status": "operating",
+      "source": "https://www.proteinproductiontechnology.com/post/fermentation-rises-as-alternative-proteins-hold-ground-amid-food-tech-vc-slowdown"
+     },
+     {
+      "name": "ScaleUp Bio",
+      "role": "startup",
+      "what": "Singapore-based precision-fermentation CDMO (Temasek/ADM-linked) offering pilot-to-commercial capacity for food-protein startups in Asia.",
+      "signal": "Cited as an interim CDMO path for startups bridging lab validation to commercial supply",
+      "status": "operating",
+      "source": "https://www.researchandmarkets.com/articles/key-companies-in-precision-fermentation"
+     },
+     {
+      "name": "ABEC",
+      "role": "incumbent",
+      "what": "Engineering firm designing and building large bioreactors and single-use/stainless fermentation systems used by food and biotech producers.",
+      "signal": "Established bioprocess-equipment supplier enabling large-scale fermentation buildouts",
+      "status": "operating",
+      "source": "https://www.researchandmarkets.com/articles/key-companies-in-precision-fermentation"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   "https://gfi.org/resource/plant-based-meat-eggs-and-dairy-state-of-the-industry/",
+   "https://www.sec.gov/Archives/edgar/data/0001655210/000165521025000020/ex991pressrelease-q4andful.htm",
+   "https://agfundernews.com/perfect-day-says-gujarat-facility-on-track-for-2026-start-2027-ramp-up-for-recombinant-whey-protein",
+   "https://www.dairyreporter.com/Article/2026/02/27/investment-surges-back-into-precisionfermented-dairy/",
+   "https://agfundernews.com/standing-ovation-nets-34m-gears-up-for-us-launch-of-casein-via-precision-fermentation",
+   "https://agfundernews.com/animal-free-dairy-startup-remilk-hits-pause-on-worlds-largest-precision-fermentation-facility-plan-in-denmark",
+   "https://agfundernews.com/imagindairy-acquires-industrial-scale-precision-fermentation-lines-for-animal-free-whey-this-will-allow-us-to-support-mass-market-adoption",
+   "https://www.nutraingredients.com/Article/2026/02/24/vivici-launches-fermentation-derived-lactoferrin/",
+   "https://www.greenqueen.com.hk/onego-bio-series-a-funding-precision-fermentation-egg-protein-gras/",
+   "https://www.marketsandmarkets.com/ResearchInsight/precision-fermentation-market.asp",
+   "https://www.greenqueen.com.hk/motif-foodworks-shuts-down-impossible-foods-lawsuit-hemami/",
+   "https://agfundernews.com/exclusive-boston-based-foodtech-startup-motif-foodworks-is-closing-down",
+   "https://www.kunc.org/news/2025-03-10/meati-unclear-on-the-future-as-150-layoffs-plant-closure-loom",
+   "https://www.naturetechmemos.com/p/top-10-fungi-startups-transforming-materials-food-and-medicine-in-2025",
+   "https://agfundernews.com/alt-protein-isnt-dead-yet-says-enough-as-it-raises-43-6m-to-scale-up-mycoprotein-production",
+   "https://agfundernews.com/planetary-nets-28m-to-scale-fermentation-infrastructure-and-licensing-platform",
+   "https://www.greenqueen.com.hk/infinite-roots-mycelium-mushroom-root-fermentation-funding/",
+   "https://en.wikipedia.org/wiki/Nature's_Fynd",
+   "https://agfundernews.com/plant-based-cheese-startup-stockeld-dreamery-shutters-as-flexitarian-dream-fizzles",
+   "https://www.greenqueen.com.hk/bettani-farms-hungry-planet-stockeld-climax-foods-vegan-cheese/",
+   "https://tracxn.com/d/companies/nobell-foods/__cQqkRDTrFQxX5-m8YV026yODF_FfjB5GccYOQRCSTJ4",
+   "https://xtalks.com/hooray-foods-and-nowadays-why-two-alt-meat-startups-are-closing-down-3525/",
+   "https://www.fooddive.com/news/tattooed-chef-to-file-for-bankruptcy-plans-to-sell-assets/684830/",
+   "https://agfundernews.com/big-idea-ventures-unveils-plant-based-seafood-co-bayou-best-foods-acquires-ip-from-new-wave-foods",
+   "https://xtalks.com/konscious-foods-makes-waves-in-plant-based-seafood-with-26-million-in-funding-3483/",
+   "https://www.fooddive.com/news/eat-just-maker-plant-based-eggs-cultivated-chicken-gets-a-funding/692690/",
+   "https://agfundernews.com/plant-based-whole-cut-startup-juicy-marbles-plans-us-retail-launch-in-2025-aims-for-profitability-by-year-end",
+   "https://www.proteinproductiontechnology.com/post/redefine-meat-serves-up-juicier-next-generation-flank-steak-as-plant-based-whole-cuts-evolve",
+   "https://agfundernews.com/savor-unveils-first-of-its-kind-butter-made-without-cows-plants-or-microbes",
+   "https://www.greenqueen.com.hk/nourish-ingredients-tastilux-fema-gras-us-precision-fermentation-fat/",
+   "https://www.greenqueen.com.hk/melt-and-marble-funding-precision-fermentation-fat-launch/",
+   "https://www.genengnews.com/news/c16-biosciences-gears-up-to-go-palmless/",
+   "https://www.roquette.com/media-center/press-center/roquette-new-textured-wheat-and-pea-proteins",
+   "https://www.proteinproductiontechnology.com/post/liberation-labs-secures-us-50-5-million-to-complete-precision-fermentation-facility-in-indiana",
+   "https://www.synbiobeta.com/read/protein-without-the-moo-brewing-the-future-of-food",
+   "https://www.researchandmarkets.com/articles/key-companies-in-precision-fermentation",
+   "https://grist.org/food-and-agriculture/best-vegan-cheese-climax-new-culture-alt-proteins/"
+  ]
+ }
+}

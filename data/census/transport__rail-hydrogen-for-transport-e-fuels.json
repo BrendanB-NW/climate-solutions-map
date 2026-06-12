@@ -1,0 +1,780 @@
+{
+ "sector": "transport",
+ "bucket": "Rail, Hydrogen for Transport & E-fuels",
+ "census": {
+  "bucket": "Rail, Hydrogen for Transport & E-fuels",
+  "variations": [
+   {
+    "name": "Battery-electric trains & locomotives",
+    "description": "Lithium-ion battery packs replace or supplement diesel engines in multiple-unit passenger trains and freight locomotives, charging from overhead wires or regenerative braking to eliminate diesel on non-electrified track at lower infrastructure cost than full electrification.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Wabtec",
+      "role": "incumbent",
+      "what": "FLXdrive heavy-haul battery locomotive (up to ~7 MWh) for freight and mining railroads",
+      "signal": "Orders from Union Pacific, CN, Rio Tinto, BHP, Roy Hill and Vale; BHP units arrived at Port Hedland Nov 2025",
+      "status": "operating",
+      "source": "https://en.wikipedia.org/wiki/Wabtec_FLXDrive"
+     },
+     {
+      "name": "Stadler Rail",
+      "role": "incumbent",
+      "what": "FLIRT Akku battery multiple-unit, the European volume leader for replacing diesel railcars on partially electrified lines",
+      "signal": "55 units in service in Schleswig-Holstein and 44 in Rhineland-Palatinate; new orders from ODEG (14) and DB Regio Thuringia (19, service 2028)",
+      "status": "operating",
+      "source": "https://railway-news.com/germany-stadler-to-deliver-19-flirt-akku-battery-trains-in-central-thuringia/"
+     },
+     {
+      "name": "Siemens Mobility",
+      "role": "incumbent",
+      "what": "Mireo Plus B battery EMU platform sold across German regional networks",
+      "signal": "In revenue service in Germany with multiple follow-on fleet orders",
+      "status": "operating",
+      "source": "https://www.mobility.siemens.com/global/en/portfolio/rolling-stock/commuter-and-regional-trains/mireo/mireo-plus.html"
+     },
+     {
+      "name": "Progress Rail (Caterpillar)",
+      "role": "incumbent",
+      "what": "EMD Joule battery-electric switcher and line-haul locomotives",
+      "signal": "Joule units delivered for long-term demonstration at Pacific Harbor Line, California; battery locomotive momentum building across Class I demos",
+      "status": "operating",
+      "source": "https://www.trains.com/trn/railroads/locomotives/battery-powered-locomotives-continue-to-gain-momentum/"
+     },
+     {
+      "name": "Alstom",
+      "role": "incumbent",
+      "what": "Coradia battery-electric multiple units (BEMUs) for German regional lines; pivoting rolling-stock R&D from hydrogen to battery",
+      "signal": "BEMU fleets ordered in Germany while hydrogen train development was paused in 2025",
+      "status": "operating",
+      "source": "https://www.railjournal.com/technology/alstom-shelves-hydrogen-development/"
+     },
+     {
+      "name": "Hitachi Rail",
+      "role": "incumbent",
+      "what": "Battery-hybrid and tri-mode (electric/battery/diesel) intercity trains, including the Trenitalia 'Blues' fleet and UK intercity battery trains",
+      "signal": "April 2025 UK contract for 45 intercity battery-hybrid cars worth ~\u00a3300M including 10-year maintenance",
+      "status": "operating",
+      "source": "https://www.hitachi.com/en/press/articles/2025/04/0403/"
+     }
+    ]
+   },
+   {
+    "name": "Autonomous battery railcars & rail freight innovation",
+    "description": "Self-propelled, battery-electric railcars that move individually or in small platoons without a locomotive or crew, aiming to win short-haul container and bulk freight back from diesel trucks by making rail economical at small batch sizes.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Parallel Systems",
+      "role": "startup",
+      "what": "Autonomous battery-electric intermodal railcars that platoon; second-generation vehicle FRA-approved for pilot on two Genesee & Wyoming short lines in Georgia",
+      "signal": "$38M Series B extension April 2025 (~$100M total raised); 300+ railcar backlog; commercial launch targeted 2026",
+      "status": "operating",
+      "source": "https://www.builtinla.com/articles/parallel-systems-raises-38m-electric-rail-pilot-20250414"
+     },
+     {
+      "name": "Intramotev",
+      "role": "startup",
+      "what": "TugVolt self-propelled battery railcars that convert existing freight cars; first mover in revenue industrial service",
+      "signal": "Autonomous railcars in commercial operation at a Missouri calcium mine; near deal for intermodal cars with an international customer",
+      "status": "operating",
+      "source": "https://www.freightwaves.com/news/autonomous-rail-intermodal-cars-to-begin-testing-this-month"
+     }
+    ],
+    "white_space": "Effectively a two-startup US field: FRA certification, railroad operating-rule conservatism, and Class I labor agreements make entry brutal, while the prize (the ~70% of US freight ton-miles on trucks) is huge. Openings exist for European/Asian equivalents on lighter-regulated networks and for retrofit propulsion/automation kits for existing railcar fleets."
+   },
+   {
+    "name": "Hydrogen trains",
+    "description": "Fuel-cell multiple units and locomotives store compressed hydrogen onboard to replace diesel on long non-electrified routes where batteries lack range, but early fleets have hit reliability and fuel-supply problems and several buyers are reverting to battery trains.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Alstom",
+      "role": "incumbent",
+      "what": "Coradia iLint, the world's first hydrogen passenger train, operating fleets in Lower Saxony and Hesse, Germany",
+      "signal": "Fleets in service since 2022 but plagued by reliability issues; Alstom paused hydrogen train development in France in 2025 and buyers are shifting future orders to battery",
+      "status": "operating",
+      "source": "https://www.railjournal.com/technology/alstom-shelves-hydrogen-development/"
+     },
+     {
+      "name": "Stadler Rail",
+      "role": "incumbent",
+      "what": "FLIRT H2, the first FRA-compliant hydrogen passenger train in US revenue service (SBCTA Arrow line, Metrolink)",
+      "signal": "Revenue service since September 2025; Guinness record 2,803 km on one fill; Caltrans ordered six more for 2027 service",
+      "status": "operating",
+      "source": "https://www.railwayage.com/passenger/hydrogen-power-has-arrived/"
+     },
+     {
+      "name": "Siemens Mobility",
+      "role": "incumbent",
+      "what": "Mireo Plus H hydrogen EMU launched on Berlin's Heidekrautbahn",
+      "signal": "Entered service December 2024 but was withdrawn within a fortnight over unreliable hydrogen supply \u2014 emblematic of fuel-chain risk",
+      "status": "operating",
+      "source": "https://www.trains.com/trn/news-reviews/news-wire/german-hydrogen-trains-experience-problems/"
+     },
+     {
+      "name": "CRRC",
+      "role": "incumbent",
+      "what": "Hydrogen fuel-cell switching locomotives and urban trains deployed domestically in China",
+      "signal": "HFC switcher in service with ~972 km range; multiple Chinese demonstration fleets",
+      "status": "operating",
+      "source": "https://www.railwayage.com/mechanical/hfcta-hydrogen-fuel-cell-overview%EF%BF%BC/"
+     },
+     {
+      "name": "CPKC (Canadian Pacific Kansas City)",
+      "role": "incumbent",
+      "what": "Railroad self-developing high-horsepower hydrogen line-haul locomotive conversions using Ballard fuel cells; licensed conversion kit to CSX",
+      "signal": "Multiple converted locomotives running in Canada; CSX unveiled its first H2 locomotive from the joint program",
+      "status": "operating",
+      "source": "https://www.cpkcr.com/en/sustainability/Hydrogen-locomotive-program"
+     },
+     {
+      "name": "Ballard Power Systems",
+      "role": "scaleup",
+      "what": "Dominant fuel-cell stack supplier to rail programs (Siemens Mireo Plus H, CPKC, Stadler)",
+      "signal": "Rail is one of its core verticals; company in deep cost restructuring through 2026 amid slow hydrogen demand",
+      "status": "operating",
+      "source": "https://blog.ballard.com/rail/new-era-heidekrautbahn-berlin-siemens-mireo-plus-h"
+     }
+    ]
+   },
+   {
+    "name": "Rail electrification & discontinuous catenary technology",
+    "description": "Overhead catenary electrification is the proven, lowest-emission way to decarbonize heavy rail traffic; the new 'discontinuous' approach wires only sections of a route and lets battery-hybrid trains bridge the gaps, cutting capital cost on bridges, tunnels and rural stretches.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Furrer+Frey",
+      "role": "incumbent",
+      "what": "Swiss overhead-line specialist supplying catenary systems and standardized opportunity-charging stations for battery trains on discontinuous schemes",
+      "signal": "Its chargers are baseline infrastructure in UK discontinuous electrification planning",
+      "status": "operating",
+      "source": "https://www.railengineer.co.uk/next-steps-for-discontinuous-electrification/"
+     },
+     {
+      "name": "Hitachi Rail",
+      "role": "incumbent",
+      "what": "Tri-mode (25kV/battery/diesel) and battery-hybrid intercity trains designed specifically to exploit partial electrification",
+      "signal": "\u00a3300M UK battery-intercity order April 2025; East West Rail's \u00a32.5B 'partial-discontinuous electrification' decision (Nov 2025) validates the model",
+      "status": "operating",
+      "source": "https://www.hitachi.com/en/press/articles/2025/04/0403/"
+     },
+     {
+      "name": "Siemens Mobility",
+      "role": "incumbent",
+      "what": "Sicat catenary systems plus Mireo Plus B battery trains as the rolling-stock half of discontinuous schemes",
+      "signal": "Catenary and BEMU products deployed across European networks",
+      "status": "operating",
+      "source": "https://www.mobility.siemens.com/global/en/portfolio/rolling-stock/commuter-and-regional-trains/mireo/mireo-plus.html"
+     },
+     {
+      "name": "Alstom",
+      "role": "incumbent",
+      "what": "Electrification systems including APS ground-level power supply plus BEMU fleets for gap-running",
+      "signal": "Global electrification and BEMU contracts as 2025 became 'the year of the fleet order' for battery-hybrid trains",
+      "status": "operating",
+      "source": "https://www.globalrailwayreview.com/article/234354/discontinuous-electrification-rail-2026/"
+     },
+     {
+      "name": "SPL Powerlines",
+      "role": "incumbent",
+      "what": "One of the largest overhead-line electrification contractors in the UK and Central Europe",
+      "signal": "Major framework contractor on UK Network Rail electrification programs",
+      "status": "operating",
+      "source": "https://www.railengineer.co.uk/next-steps-for-discontinuous-electrification/"
+     },
+     {
+      "name": "Balfour Beatty",
+      "role": "incumbent",
+      "what": "Civil and rail-systems contractor delivering UK electrification (e.g., TransPennine Route Upgrade)",
+      "signal": "Long-standing electrification delivery partner on multi-billion-pound UK rail upgrades",
+      "status": "operating",
+      "source": "https://www.globalrailwayreview.com/article/234354/discontinuous-electrification-rail-2026/"
+     }
+    ]
+   },
+   {
+    "name": "Locomotive repowering & hybrid retrofits",
+    "description": "Replacing or augmenting the diesel engines in existing locomotives with hybrid-electric, dual-fuel RNG, or battery modules cuts fuel use 30-50% at roughly half the cost of new locomotives, attacking the long-lived legacy fleet that full replacement can't reach for decades.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "OptiFuel Systems",
+      "role": "startup",
+      "what": "Modular diesel-RNG dual-fuel hybrid repower packages for line-haul and switcher locomotives, claiming 30-40% fuel reduction with no frame modifications",
+      "signal": "Argentina repower contract won; 5,000 hp RNG-hybrid line-haul unit testing at TTC Pueblo 2025-26 targeting FRA concurrence 2027",
+      "status": "operating",
+      "source": "https://www.railwayage.com/mechanical/locomotives/optifuel-lands-locomotive-repower-project-in-argentina/"
+     },
+     {
+      "name": "ZTR",
+      "role": "incumbent",
+      "what": "Locomotive modernization, hybrid-electric conversion kits, and fuel-telemetry (Vision) systems",
+      "signal": "Launched hybrid-electric locomotives with Union Pacific; claims >8,000 gallons of diesel saved per locomotive annually",
+      "status": "operating",
+      "source": "https://ztr.com/news/the-future-of-hybrid-electric-locomotives/"
+     },
+     {
+      "name": "Progress Rail (Caterpillar)",
+      "role": "incumbent",
+      "what": "EMD modernization and repower programs, including conversions toward Joule battery configurations",
+      "signal": "Active modernization backlog across Class I and industrial fleets",
+      "status": "operating",
+      "source": "https://www.trains.com/trn/railroads/locomotives/battery-powered-locomotives-continue-to-gain-momentum/"
+     },
+     {
+      "name": "Wabtec",
+      "role": "incumbent",
+      "what": "Locomotive modernization programs (DC-to-AC conversions) that cut fuel burn across legacy fleets, alongside FLXdrive hybridization",
+      "signal": "Thousands of modernizations delivered; modernization is a core profit segment",
+      "status": "operating",
+      "source": "https://www.wabteccorp.com/locomotive/alternative-fuel-locomotives/FLXdrive"
+     },
+     {
+      "name": "First Mode",
+      "role": "startup",
+      "what": "Hybrid hydrogen-battery retrofit powertrains for mining haul trucks and rail",
+      "signal": "Filed Chapter 11 in December 2024 after Anglo American pulled back; assets and technology portfolio bought by Cummins (announced Feb 2025)",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.sec.gov/Archives/edgar/data/0000026172/000002617225000010/cmi2025q18-kex99.htm"
+     },
+     {
+      "name": "Cummins (Accelera)",
+      "role": "incumbent",
+      "what": "Acquired First Mode's hybrid mining and rail retrofit product lines, folding them into its powertrain decarbonization portfolio",
+      "signal": "First Mode asset acquisition closed 2025; rail/mining hybrid retrofits now an incumbent-owned line",
+      "status": "operating",
+      "source": "https://www.sec.gov/Archives/edgar/data/0000026172/000002617225000010/cmi2025q18-kex99.htm"
+     }
+    ],
+    "white_space": "Thin field for zero-emission repowers: railroads sweat 30+ year assets and CARB's in-use locomotive rule was withdrawn from EPA waiver consideration in early 2025, gutting the regulatory driver. An opening exists for financing-wrapped repower-as-a-service priced against fuel savings rather than emissions mandates."
+   },
+   {
+    "name": "Fuel cell systems for road vehicles & material handling",
+    "description": "PEM fuel-cell stacks convert hydrogen to electricity onboard; the technology is commercially proven in forklifts (fast refueling for 24/7 warehouses, ~70k units deployed) and buses, but on-road truck demand stalled in 2024-25, triggering a brutal supplier shakeout.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Plug Power",
+      "role": "scaleup",
+      "what": "GenDrive forklift fuel cells (Amazon, Walmart) plus electrolyzers and hydrogen plants \u2014 the largest material-handling fuel cell installed base",
+      "signal": "Closed $1.66B DOE loan guarantee Jan 2025 then suspended loan-program activities Nov 2025; CEO transition and first-ever positive gross margin reported March 2026",
+      "status": "operating",
+      "source": "https://capital.com/en-int/market-updates/plug-power-stock-forecast-02-04-2026"
+     },
+     {
+      "name": "Ballard Power Systems",
+      "role": "scaleup",
+      "what": "Heavy-duty PEM stacks powering buses (Wrightbus, Solaris, New Flyer), rail and trucks",
+      "signal": "Multi-phase restructuring with full opex-reduction benefit expected in 2026 amid slower-than-expected hydrogen adoption",
+      "status": "operating",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001453015/000127956925000867/ex991.htm"
+     },
+     {
+      "name": "PowerCell Group",
+      "role": "scaleup",
+      "what": "Swedish fuel-cell stacks and systems for vehicles, marine and stationary power, spun out of Volvo",
+      "signal": "Niche commercial revenues across marine/vehicle segments; one of few European pure-plays still independent",
+      "status": "operating",
+      "source": "https://powercellgroup.com"
+     },
+     {
+      "name": "Cellcentric",
+      "role": "scaleup",
+      "what": "Daimler Truck-Volvo 50/50 JV building truck fuel-cell systems for the Mercedes GenH2 program",
+      "signal": "Powers GenH2 customer-trial fleet; large-series gigafactory plans slowed as truck FCEV timelines slipped",
+      "status": "operating",
+      "source": "https://www.daimlertruck.com/en/newsroom/pressrelease/fuel-cell-trucks-deployed-in-real-life-operations-start-of-initial-customer-trials-with-mercedes-benz-genh2-trucks-52775389"
+     },
+     {
+      "name": "Symbio",
+      "role": "scaleup",
+      "what": "French fuel-cell maker (Forvia/Michelin/Stellantis JV) with a gigafactory in Lyon",
+      "signal": "Stellantis abandoned hydrogen and exited July 2025, removing ~80% of planned volumes; Michelin/Forvia warned of 'irreversible consequences' and took 50/50 ownership by May 2026",
+      "status": "uncertain",
+      "source": "https://www.michelin.com/en/publications/group/clarifications-from-forvia-and-michelin-regarding-the-future-of-symbio"
+     },
+     {
+      "name": "Accelera by Cummins",
+      "role": "incumbent",
+      "what": "Fuel-cell power systems and electrolyzers within Cummins' zero-emissions division; absorbed First Mode's technology",
+      "signal": "Diversified incumbent able to outlast pure-plays; First Mode assets acquired 2025",
+      "status": "operating",
+      "source": "https://www.sec.gov/Archives/edgar/data/0000026172/000002617225000010/cmi2025q18-kex99.htm"
+     },
+     {
+      "name": "Nuvera Fuel Cells (Hyster-Yale)",
+      "role": "scaleup",
+      "what": "Fuel-cell engines for forklifts and heavy equipment under Hyster-Yale",
+      "signal": "Hyster-Yale's April 2025 strategic realignment drastically downsized the fuel-cell program, concluding it would not reach profitability in acceptable time ($15-18M severance/impairment)",
+      "status": "uncertain",
+      "source": "https://www.prnewswire.com/news-releases/hyster-yale-announces-strategic-business-realignment-302442676.html"
+     },
+     {
+      "name": "Toyota",
+      "role": "incumbent",
+      "what": "Third-generation fuel-cell system supplier (co-developed with BMW for the 2028 iX5) and fuel-cell modules for trucks and forklift partners",
+      "signal": "Gen-3 FC system 25% smaller, launching with BMW's 2028 series FCEV",
+      "status": "operating",
+      "source": "https://fortune.com/2025/07/27/bmw-ix5-hydrogen-car-production-2028-battery-electric-vehicle/"
+     }
+    ]
+   },
+   {
+    "name": "Hydrogen & H2-ICE trucks",
+    "description": "Heavy trucks powered either by fuel cells or by modified hydrogen-combustion diesel engines promise diesel-like range and refueling times without tailpipe CO2, but three of the most prominent startups went bankrupt in 2024-25 as fuel cost and station scarcity crushed economics.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Hyundai Motor",
+      "role": "incumbent",
+      "what": "XCIENT Fuel Cell, the only series-produced FCEV heavy truck, deployed in 10 countries",
+      "signal": "~10M cumulative miles; 30 trucks at Ports of Oakland/Richmond (largest North American H2 truck deployment) and 21 at Georgia Metaplant; new XCIENT unveiled at ACT Expo 2025",
+      "status": "operating",
+      "source": "https://www.hyundainews.com/releases/4436"
+     },
+     {
+      "name": "Daimler Truck",
+      "role": "incumbent",
+      "what": "Mercedes-Benz GenH2 liquid-hydrogen fuel-cell truck",
+      "signal": "Second-phase customer trials with five logistics partners; series production pushed toward late decade",
+      "status": "operating",
+      "source": "https://www.daimlertruck.com/en/newsroom/pressrelease/fuel-cell-trucks-deployed-in-real-life-operations-start-of-initial-customer-trials-with-mercedes-benz-genh2-trucks-52775389"
+     },
+     {
+      "name": "Nikola",
+      "role": "startup",
+      "what": "US fuel-cell Class 8 truck maker and HYLA fueling brand",
+      "signal": "Filed Chapter 11 February 2025 with >$1B liabilities after battery recall and cash burn; workforce wound down to one employee",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.truckingdive.com/news/nikola-files-for-bankruptcy-seeks-to-wind-down-operations/740317/"
+     },
+     {
+      "name": "Hyzon Motors",
+      "role": "startup",
+      "what": "Fuel-cell truck upfitter spun out of Horizon Fuel Cell",
+      "signal": "Announced liquidation December 2024 after weak sales and SEC settlement; final asset sale approved 2025",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.cleantrucking.com/hydrogen/article/15741766/hyzon-motors-approves-final-assets-sale"
+     },
+     {
+      "name": "Quantron",
+      "role": "startup",
+      "what": "German hydrogen and electric truck converter/OEM",
+      "signal": "Declared insolvency in late 2024 \u2014 one of three H2 truck startups to fail within six months",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.bloomberg.com/news/newsletters/2025-04-01/hydrogen-trucking-companies-are-going-under"
+     },
+     {
+      "name": "Hyroad Energy",
+      "role": "startup",
+      "what": "Texas company that bought 113 Nikola FCEVs plus all Nikola IP out of bankruptcy to relaunch hydrogen trucking with fuel service",
+      "signal": "Acquired Nikola trucks/IP for $3.85M (assets valued >$100M), court-approved August 2025; positioning as post-Nikola H2 trucking leader",
+      "status": "operating",
+      "source": "https://www.fleetowner.com/emissions-efficiency/news/55312260/hyroad-acquires-nikola-hydrogen-trucks-and-assets-in-bankruptcy-auction"
+     },
+     {
+      "name": "MAN Truck & Bus",
+      "role": "incumbent",
+      "what": "hTGX hydrogen-combustion (H2-ICE) truck for niche heavy-haul duties, alongside a battery-first strategy",
+      "signal": "~200-unit small series delivering from 2025 to Germany, Netherlands, Norway, Iceland; 56 kg at 700 bar, ~600 km range",
+      "status": "operating",
+      "source": "https://press.mantruckandbus.com/corporate/man-expands-its-zero-emission-portfolio/"
+     },
+     {
+      "name": "JCB",
+      "role": "incumbent",
+      "what": "Purpose-built hydrogen combustion engines for construction machines and gensets",
+      "signal": "H2 engine achieved EU Stage V certification, approved in 10+ European countries with NOx ~98% below limits",
+      "status": "operating",
+      "source": "https://timharper.net/hydrogen-internal-combustion-engine-guide/"
+     },
+     {
+      "name": "KEYOU",
+      "role": "startup",
+      "what": "Munich startup converting existing diesel truck engines to hydrogen combustion (~80% of engine unchanged), sold as pay-per-use 'H2-Mobility-as-a-Service'",
+      "signal": "First converted 18t trucks delivered to pioneer customers from early 2025 (EP-Trans); Komatsu dump-truck conversion proof-of-concept",
+      "status": "operating",
+      "source": "https://www.keyou.de/news-and-blog/the-hydrogen-engine-is-coming-keyou-gives-first-pioneer-truck-to-logistics-group-ep-trans"
+     },
+     {
+      "name": "Hydra Energy",
+      "role": "startup",
+      "what": "Canadian hydrogen-diesel co-combustion retrofits (reversible kit, up to ~40% emission cut) paired with its own fueling in BC's Prince George trucking corridor",
+      "signal": "300,000+ km of on-road fleet testing; hydrogen-as-a-service contracts with commercial fleets",
+      "status": "operating",
+      "source": "https://www.hydraenergy.com/technology"
+     }
+    ]
+   },
+   {
+    "name": "Hydrogen refueling networks & onboard storage tanks",
+    "description": "High-pressure (350/700 bar), liquid, and cryo-compressed storage tanks plus public refueling stations are the enabling infrastructure for all hydrogen transport; light-duty networks are shrinking (Shell exited California) while investment shifts to heavy-duty corridors and higher-density tank formats.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "FirstElement Fuel",
+      "role": "scaleup",
+      "what": "Operates the True Zero network, the world's largest retail hydrogen station footprint (~40 stations in California), expanding into heavy-duty truck fueling",
+      "signal": "41st station opened in Oakland; backed by Air Liquide, Mitsui and Japanese OEMs",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/firstelement-fuel-expands-its-true-zero-hydrogen-refueling-network-as-it-opens-its-41st-station-in-oakland-california-301961923.html"
+     },
+     {
+      "name": "OneH2",
+      "role": "scaleup",
+      "what": "Modular hydrogen production and portable/turnkey fueling systems delivered to fleet sites, bypassing big-station capex",
+      "signal": "Investment from Chevron, Trafigura and The Pap\u00e9 Group; supplying 24/7 truck station tech in California",
+      "status": "operating",
+      "source": "https://www.ttnews.com/articles/public-private-hydrogen"
+     },
+     {
+      "name": "Shell",
+      "role": "incumbent",
+      "what": "Former light-duty hydrogen retail pioneer whose retreat defines the segment's struggles",
+      "signal": "Permanently closed all seven California light-duty H2 stations in Feb 2024 and canceled 48 planned stations, citing supply complications",
+      "status": "operating",
+      "source": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/021224-shell-permanently-closes-light-duty-hydrogen-fueling-stations"
+     },
+     {
+      "name": "H2 Mobility",
+      "role": "scaleup",
+      "what": "Operator of Germany's national hydrogen station network (~90 stations), refocusing from cars to heavy-duty trucks and buses",
+      "signal": "Largest European HRS network; shareholder base includes Air Liquide, Linde, Daimler Truck, Shell and Hy24",
+      "status": "operating",
+      "source": "https://h2-mobility.de/en/"
+     },
+     {
+      "name": "Air Liquide",
+      "role": "incumbent",
+      "what": "Industrial-gas major building hydrogen stations, liquefaction and heavy-duty corridor JVs (TEAL Mobility with TotalEnergies)",
+      "signal": "Global station portfolio plus investor in FirstElement Fuel",
+      "status": "operating",
+      "source": "https://www.airliquide.com"
+     },
+     {
+      "name": "Nikola (HYLA fueling)",
+      "role": "startup",
+      "what": "Planned national HYLA truck-fueling network that died with the parent company",
+      "signal": "Never-installed stationary HYLA refueling equipment (valued ~$14M) was excluded from the Hyroad bankruptcy purchase; mobile fuelers dispersed",
+      "status": "bankrupt-shutdown",
+      "source": "https://trans.info/en/hyroad-nikola-trucks-418637"
+     },
+     {
+      "name": "Hexagon Purus",
+      "role": "scaleup",
+      "what": "Leading Type IV composite hydrogen cylinder and vehicle-systems maker (transit bus, truck, distribution modules)",
+      "signal": "Supplied New Flyer five consecutive years, but FY2025 revenue fell 39%; ~30% workforce cut and NOK 350M cost program amid hydrogen slowdown",
+      "status": "operating",
+      "source": "https://hexagonpurus.com/news/hexagon-purus-asa-results-for-the-fourth-quarter-2025"
+     },
+     {
+      "name": "NPROXX",
+      "role": "scaleup",
+      "what": "Type IV high-pressure hydrogen tanks for vehicles and transport, run as a 50/50 JV with Cummins",
+      "signal": "Named alongside Hexagon Purus as a leading European H2 tank player; Cummins co-ownership secures OEM channel",
+      "status": "operating",
+      "source": "https://www.compositesworld.com/articles/composites-end-markets-pressure-vessels-2025"
+     },
+     {
+      "name": "Verne",
+      "role": "startup",
+      "what": "San Francisco startup commercializing cryo-compressed hydrogen (CcH2) storage claiming 33% more density than liquid H2 and 87% more than 700-bar gas",
+      "signal": "Demonstrated its first CcH2 truck in Southern California in late 2024; backed by Amazon's Climate Pledge Fund and DOE awards",
+      "status": "operating",
+      "source": "https://www.compositesworld.com/articles/composites-end-markets-pressure-vessels-2025"
+     },
+     {
+      "name": "Cryomotive",
+      "role": "startup",
+      "what": "German developer of cryogenic compressed hydrogen storage and refueling hardware targeting diesel-parity range for long-haul trucks",
+      "signal": "CcH2 tank/refueling platform in truck demonstrations with partners since 2024",
+      "status": "operating",
+      "source": "https://www.compositesworld.com/articles/composites-end-markets-pressure-vessels-2025"
+     }
+    ]
+   },
+   {
+    "name": "E-fuels & low-carbon road fuels (e-gasoline, e-diesel, rDME)",
+    "description": "Synthetic drop-in fuels made from green hydrogen and captured CO2 (or renewable DME from waste) can decarbonize existing combustion fleets without new vehicles or infrastructure, but cost 3-6x fossil fuel today, confining road use to racing, classics and regulatory niches.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "HIF Global",
+      "role": "scaleup",
+      "what": "Operates the Haru Oni e-gasoline plant in Chile (with Porsche offtake) and is developing the world's largest e-fuels facility in Matagorda, Texas",
+      "signal": "Only operating commercial e-gasoline producer; first US CARB LCFS Tier II design pathway for e-fuels (March 2025); Texas project permitted with 1.8 GW electrolysis",
+      "status": "operating",
+      "source": "https://www.hydrogeninsight.com/innovation/hif-global-gets-green-light-to-build-worlds-largest-e-fuels-facility-in-texas-with-1-8gw-of-green-hydrogen-production/2-1-1440684"
+     },
+     {
+      "name": "Infinium",
+      "role": "scaleup",
+      "what": "Electrofuels producer whose Pathfinder plant (Corpus Christi) supplies e-diesel to Amazon trucking; building the larger Project Roadrunner in West Texas",
+      "signal": "Roadrunner FID/construction 2025 with Brookfield and Breakthrough Energy Catalyst backing and HSBC project financing; 23,000 t/yr from 2027",
+      "status": "operating",
+      "source": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2690011-infinium-takes-fid-on-100mw-texas-e-fuels-plant"
+     },
+     {
+      "name": "P1 Fuels",
+      "role": "startup",
+      "what": "Berlin maker of 100% fossil-free drop-in gasoline used in FIA rally/racing series, pushing toward road-fuel mass market",
+      "signal": "Demonstration plant opened in Germany 2024; raising for industrial-scale plant (~2029)",
+      "status": "operating",
+      "source": "https://www.gasworld.com/story/fossil-free-p1-fuels-expands-with-new-plant-and-finance-drive/2128925.article/"
+     },
+     {
+      "name": "Zero Petroleum",
+      "role": "startup",
+      "what": "UK synthetic-fuels company (Paddy Lowe) with proprietary DirectFT process making petrol, diesel and jet from air-captured CO2 and water",
+      "signal": "$36M raised; Plant Zero.1 near Oxford running, commercial-scale plant targeted for 2026 production; PwC Net Zero Future50 2025",
+      "status": "operating",
+      "source": "https://www.mychamplainvalley.com/business/press-releases/ein-presswire/804307568/zero-petroleum-named-to-pwcs-net-zero-future50-list-for-2025/"
+     },
+     {
+      "name": "Oberon Fuels",
+      "role": "startup",
+      "what": "Produces renewable dimethyl ether (rDME) from waste/biogas as a diesel substitute, propane blend, and hydrogen carrier",
+      "signal": "First commercial rDME facility (Brawley, CA); EPA RFS pathway approved; WEF Technology Pioneer 2025; DOE-funded rDME-to-hydrogen project with Los Alamos",
+      "status": "operating",
+      "source": "https://www.oberonfuels.com/"
+     },
+     {
+      "name": "Porsche",
+      "role": "incumbent",
+      "what": "Automaker anchor investor in HIF Global, using Haru Oni e-fuel in motorsport and dealer fueling to keep combustion models viable",
+      "signal": "~$75M+ invested in HIF; e-fuel used in Porsche Supercup and experience centers",
+      "status": "operating",
+      "source": "https://en.wikipedia.org/wiki/HIF_Global"
+     }
+    ],
+    "white_space": "Few players because green-H2 + DAC economics put e-gasoline at multiples of fossil prices, and most e-fuel capital is being diverted to aviation where SAF mandates guarantee demand. The EU's 2035 e-fuels carve-out for combustion cars creates a future certified e-gasoline supply-chain niche (certification, blending, distribution) that is nearly empty today."
+   },
+   {
+    "name": "Freight logistics optimization & intermodal shift software",
+    "description": "Software that pools partial truckloads, optimizes routing, and gives shippers real-time multimodal visibility cuts empty miles and enables shifting freight from road to rail \u2014 decarbonization through utilization rather than new hardware.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "project44",
+      "role": "scaleup",
+      "what": "End-to-end multimodal shipment visibility platform (ocean, rail, road) used for emissions tracking and modal decisions",
+      "signal": "Unicorn valued ~$2.7B (2022); weathered freight-recession workforce cuts and remains category leader",
+      "status": "operating",
+      "source": "https://www.freightwaves.com/news/project44-cuts-workforce-warns-of-changing-freighttech-investor-sentiment"
+     },
+     {
+      "name": "Flock Freight",
+      "role": "scaleup",
+      "what": "Shared-truckload brokerage that algorithmically pools partial shipments into one truck, eliminating LTL cross-docking and empty space",
+      "signal": "$60M Series E (May 2025) led by O'Neil Strategic Capital; AI engine evaluates trillions of freight combinations; largest STL broker in US",
+      "status": "operating",
+      "source": "https://www.globenewswire.com/news-release/2025/05/14/3081210/0/en/Flock-Freight-Secures-60-Million-Series-E-Funding-to-Continue-Scaling-Shared-Truckload.html"
+     },
+     {
+      "name": "Loadsmart",
+      "role": "scaleup",
+      "what": "AI-driven freight pricing, instant booking and dock scheduling; strategic investors include CSX and Maersk, linking it to intermodal shift",
+      "signal": "Raised $200M+ to date; expanded into logistics AI tooling through the freight downturn",
+      "status": "operating",
+      "source": "https://www.owler.com/company/loadsmart"
+     },
+     {
+      "name": "Convoy",
+      "role": "startup",
+      "what": "Digital freight network that promised to eliminate the ~35% of miles trucks drive empty",
+      "signal": "Raised ~$900M (peak $3.8B valuation) then shut down October 2023; tech sold to Flexport for ~$16M, and Convoy Platform resold to DAT for $250M in July 2025",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.freightwaves.com/news/convoy-shutdown-trucking-startup"
+     },
+     {
+      "name": "FourKites",
+      "role": "scaleup",
+      "what": "Real-time supply-chain visibility platform competing with project44 across modes",
+      "signal": "Survived FreightTech downturn restructurings; large enterprise shipper base",
+      "status": "operating",
+      "source": "https://www.freightwaves.com/news/project44-cuts-workforce-warns-of-changing-freighttech-investor-sentiment"
+     },
+     {
+      "name": "DAT Freight & Analytics",
+      "role": "incumbent",
+      "what": "Dominant US loadboard/marketplace incumbent that absorbed Convoy's matching and drop-trailer technology",
+      "signal": "Bought the Convoy Platform from Flexport for $250M (July 2025), consolidating digital freight matching",
+      "status": "operating",
+      "source": "https://en.wikipedia.org/wiki/Convoy_(company)"
+     },
+     {
+      "name": "Uber Freight",
+      "role": "incumbent",
+      "what": "Digital brokerage and managed-transportation arm of Uber optimizing network utilization at scale",
+      "signal": "Multi-billion-dollar revenue run-rate; survived sector shakeout that killed Convoy",
+      "status": "operating",
+      "source": "https://www.freightwaves.com/news/convoy-shutdown-trucking-startup"
+     }
+    ],
+    "white_space": "General freight software is crowded, but software purpose-built for road-to-rail modal shift (carbon-priced routing integrated with rail/intermodal capacity APIs) is nearly empty \u2014 most TMS tools optimize within trucking. A credible intermodal-shift engine pairing Class I capacity with shipper Scope 3 targets is an open seam."
+   },
+   {
+    "name": "Hydrogen fuel cell buses & coaches",
+    "description": "Transit buses are hydrogen's strongest road niche because depot-based fueling solves the station problem and duty cycles favor fast refueling; European fuel-cell bus registrations grew ~163% in 2025 even as truck players collapsed.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Solaris Bus & Coach",
+      "role": "incumbent",
+      "what": "European fuel-cell bus market leader (Urbino hydrogen family), owned by Spain's CAF Group",
+      "signal": "Delivered 306 hydrogen buses in 2025 for a 58% European FC-bus share; \u20ac1.18B revenue 2025",
+      "status": "operating",
+      "source": "https://www.sustainable-bus.com/news/solaris-results-2025/"
+     },
+     {
+      "name": "Wrightbus",
+      "role": "scaleup",
+      "what": "Northern Irish maker of the world's first hydrogen double-decker and Kite Hydroliner single-deckers, expanding fast in Germany",
+      "signal": "1,200+ buses produced in 2025 (+20% YoY); ~130 hydrogen buses on German roads by end-2025 (Saarbahn 28, Cottbus 46, WestVerkehr 12)",
+      "status": "operating",
+      "source": "https://www.sustainable-bus.com/news/wrightbus-record-2025/"
+     },
+     {
+      "name": "Van Hool",
+      "role": "incumbent",
+      "what": "Belgian bus/coach maker that was an early fuel-cell bus pioneer in Europe and the US",
+      "signal": "Declared bankrupt April 2024; bus activities taken over by VDL/Schmitz Cargobull; De Lijn retired its Van Hool H2 buses and dismantled the Antwerp H2 station",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.sustainable-bus.com/news/van-hool-vdl-crisis-future/"
+     },
+     {
+      "name": "CaetanoBus",
+      "role": "incumbent",
+      "what": "Portuguese builder (Toyota/Mitsui-backed) of the H2.City Gold fuel-cell bus using Toyota stacks",
+      "signal": "Fuel-cell bus fleets delivered across Spain, Portugal, Germany and UK",
+      "status": "operating",
+      "source": "https://www.sustainable-bus.com/fuel-cell-bus/fuel-cell-bus-hydrogen/"
+     },
+     {
+      "name": "New Flyer (NFI Group)",
+      "role": "incumbent",
+      "what": "North America's largest transit bus maker, building Xcelsior CHARGE FC hydrogen buses",
+      "signal": "Selected Hexagon Purus hydrogen tanks for the fifth consecutive year; growing US FC bus orders under FTA Low-No grants",
+      "status": "operating",
+      "source": "https://www.compositesworld.com/news/new-flyer-selects-hexagon-purus-h2-tanks-for-fifth-consecutive-year"
+     }
+    ]
+   },
+   {
+    "name": "Hydrogen passenger cars (light-duty FCEVs)",
+    "description": "Fuel-cell sedans and SUVs refuel in minutes with zero tailpipe emissions, but collapsing station networks and $30+/kg retail hydrogen have shrunk the market to a few OEM flagships and fleet niches, making this a contrarian bet on future infrastructure.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Toyota",
+      "role": "incumbent",
+      "what": "Mirai, the highest-volume FCEV car ever, plus third-generation fuel-cell systems licensed to other OEMs",
+      "signal": "Mirai sales slumped with California's station closures, but Toyota continues FC development and supplies BMW's 2028 program",
+      "status": "operating",
+      "source": "https://www.chemistryworld.com/news/is-hydrogen-the-future-for-cars-manufacturers-havent-given-up-on-it-yet/4020674.article"
+     },
+     {
+      "name": "Hyundai Motor",
+      "role": "incumbent",
+      "what": "Nexo FCEV SUV, refreshed with a new generation launched 2025 (from the Initium concept)",
+      "signal": "One of only two FCEV cars in series production globally; Korea remains the largest FCEV car market",
+      "status": "operating",
+      "source": "https://evmagazine.com/top10/top-10-hydrogen-cars"
+     },
+     {
+      "name": "Honda",
+      "role": "incumbent",
+      "what": "CR-V e:FCEV, a US-built plug-in hybrid fuel-cell SUV using a co-developed GM fuel-cell system",
+      "signal": "Low-volume lease program in California; keeps Honda's FC supply chain alive for trucks/stationary",
+      "status": "operating",
+      "source": "https://evmagazine.com/top10/top-10-hydrogen-cars"
+     },
+     {
+      "name": "BMW",
+      "role": "incumbent",
+      "what": "iX5 Hydrogen pilot fleet, with the brand's first series-production FCEV due 2028 using Toyota's gen-3 stack",
+      "signal": "1M+ km of pilot-fleet testing complete; 2028 series launch confirmed for Germany/France first",
+      "status": "operating",
+      "source": "https://fortune.com/2025/07/27/bmw-ix5-hydrogen-car-production-2028-battery-electric-vehicle/"
+     },
+     {
+      "name": "Riversimple",
+      "role": "startup",
+      "what": "Welsh maker of the ultra-light two-seat Rasa FCEV offered only via all-inclusive subscription (insurance, fuel, servicing bundled)",
+      "signal": "Beta testing in Abergavenny with subscription launch announced August 2025 \u2014 still pre-commercial after 20+ years",
+      "status": "operating",
+      "source": "https://drivinghydrogen.com/2025/08/15/riversimple-to-launch-all-inclusive-hydrogen-car-subscription/"
+     },
+     {
+      "name": "HysetCo",
+      "role": "scaleup",
+      "what": "Paris operator of Europe's largest hydrogen taxi fleet (Hype legacy) with its own urban refueling stations \u2014 the fleet-plus-depot model that makes FCEV cars pencil",
+      "signal": "Raised ~\u20ac200M in 2024 led by Hy24 to scale Paris-region fleet and stations",
+      "status": "operating",
+      "source": "https://www.hysetco.com"
+     },
+     {
+      "name": "Hopium",
+      "role": "startup",
+      "what": "French startup that abandoned its Machina hydrogen sedan after near-collapse and pivoted to selling fuel-cell stacks",
+      "signal": "Went through judicial reorganization in 2023; survival as a component supplier unproven",
+      "status": "uncertain",
+      "source": "https://www.hopium.com"
+     }
+    ],
+    "white_space": "Retail FCEV cars are in retreat \u2014 Shell closed all California light-duty stations in 2024 and Mirai resale values cratered \u2014 because chicken-and-egg station economics fail at low vehicle density. The viable opening is captive fleets with depot fueling (taxis, government fleets) as HysetCo demonstrates, not retail."
+   }
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Wabtec_FLXDrive",
+   "https://railway-news.com/germany-stadler-to-deliver-19-flirt-akku-battery-trains-in-central-thuringia/",
+   "https://www.hitachi.com/en/press/articles/2025/04/0403/",
+   "https://www.builtinla.com/articles/parallel-systems-raises-38m-electric-rail-pilot-20250414",
+   "https://www.freightwaves.com/news/autonomous-rail-intermodal-cars-to-begin-testing-this-month",
+   "https://www.railwayage.com/passenger/hydrogen-power-has-arrived/",
+   "https://www.railjournal.com/technology/alstom-shelves-hydrogen-development/",
+   "https://www.trains.com/trn/news-reviews/news-wire/german-hydrogen-trains-experience-problems/",
+   "https://www.cpkcr.com/en/sustainability/Hydrogen-locomotive-program",
+   "https://www.globalrailwayreview.com/article/234354/discontinuous-electrification-rail-2026/",
+   "https://www.railengineer.co.uk/next-steps-for-discontinuous-electrification/",
+   "https://www.railwayage.com/mechanical/locomotives/optifuel-lands-locomotive-repower-project-in-argentina/",
+   "https://ztr.com/news/the-future-of-hybrid-electric-locomotives/",
+   "https://www.truckingdive.com/news/nikola-files-for-bankruptcy-seeks-to-wind-down-operations/740317/",
+   "https://www.cleantrucking.com/hydrogen/article/15741766/hyzon-motors-approves-final-assets-sale",
+   "https://www.bloomberg.com/news/newsletters/2025-04-01/hydrogen-trucking-companies-are-going-under",
+   "https://www.fleetowner.com/emissions-efficiency/news/55312260/hyroad-acquires-nikola-hydrogen-trucks-and-assets-in-bankruptcy-auction",
+   "https://www.michelin.com/en/publications/group/clarifications-from-forvia-and-michelin-regarding-the-future-of-symbio",
+   "https://capital.com/en-int/market-updates/plug-power-stock-forecast-02-04-2026",
+   "https://www.sec.gov/Archives/edgar/data/0001453015/000127956925000867/ex991.htm",
+   "https://www.prnewswire.com/news-releases/hyster-yale-announces-strategic-business-realignment-302442676.html",
+   "https://www.sec.gov/Archives/edgar/data/0000026172/000002617225000010/cmi2025q18-kex99.htm",
+   "https://www.hyundainews.com/releases/4436",
+   "https://press.mantruckandbus.com/corporate/man-expands-its-zero-emission-portfolio/",
+   "https://www.keyou.de/news-and-blog/the-hydrogen-engine-is-coming-keyou-gives-first-pioneer-truck-to-logistics-group-ep-trans",
+   "https://www.hydraenergy.com/technology",
+   "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/021224-shell-permanently-closes-light-duty-hydrogen-fueling-stations",
+   "https://www.prnewswire.com/news-releases/firstelement-fuel-expands-its-true-zero-hydrogen-refueling-network-as-it-opens-its-41st-station-in-oakland-california-301961923.html",
+   "https://hexagonpurus.com/news/hexagon-purus-asa-results-for-the-fourth-quarter-2025",
+   "https://www.compositesworld.com/articles/composites-end-markets-pressure-vessels-2025",
+   "https://www.hydrogeninsight.com/innovation/hif-global-gets-green-light-to-build-worlds-largest-e-fuels-facility-in-texas-with-1-8gw-of-green-hydrogen-production/2-1-1440684",
+   "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2690011-infinium-takes-fid-on-100mw-texas-e-fuels-plant",
+   "https://www.oberonfuels.com/",
+   "https://www.mychamplainvalley.com/business/press-releases/ein-presswire/804307568/zero-petroleum-named-to-pwcs-net-zero-future50-list-for-2025/",
+   "https://www.gasworld.com/story/fossil-free-p1-fuels-expands-with-new-plant-and-finance-drive/2128925.article/",
+   "https://www.freightwaves.com/news/convoy-shutdown-trucking-startup",
+   "https://en.wikipedia.org/wiki/Convoy_(company)",
+   "https://www.globenewswire.com/news-release/2025/05/14/3081210/0/en/Flock-Freight-Secures-60-Million-Series-E-Funding-to-Continue-Scaling-Shared-Truckload.html",
+   "https://www.freightwaves.com/news/project44-cuts-workforce-warns-of-changing-freighttech-investor-sentiment",
+   "https://www.sustainable-bus.com/news/solaris-results-2025/",
+   "https://www.sustainable-bus.com/news/wrightbus-record-2025/",
+   "https://www.sustainable-bus.com/news/van-hool-vdl-crisis-future/",
+   "https://www.compositesworld.com/news/new-flyer-selects-hexagon-purus-h2-tanks-for-fifth-consecutive-year",
+   "https://fortune.com/2025/07/27/bmw-ix5-hydrogen-car-production-2028-battery-electric-vehicle/",
+   "https://drivinghydrogen.com/2025/08/15/riversimple-to-launch-all-inclusive-hydrogen-car-subscription/",
+   "https://www.chemistryworld.com/news/is-hydrogen-the-future-for-cars-manufacturers-havent-given-up-on-it-yet/4020674.article",
+   "https://www.daimlertruck.com/en/newsroom/pressrelease/fuel-cell-trucks-deployed-in-real-life-operations-start-of-initial-customer-trials-with-mercedes-benz-genh2-trucks-52775389",
+   "https://timharper.net/hydrogen-internal-combustion-engine-guide/"
+  ]
+ }
+}

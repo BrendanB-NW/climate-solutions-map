@@ -1,0 +1,848 @@
+{
+ "sector": "enabling",
+ "bucket": "VPPs, DERMS & Demand-Side Flexibility",
+ "census": {
+  "bucket": "VPPs, DERMS & Demand-Side Flexibility",
+  "variations": [
+   {
+    "name": "Residential VPP aggregation platforms",
+    "description": "Software enrolls fleets of home batteries, rooftop solar, and smart thermostats and dispatches them as a single power plant into utility programs and wholesale markets, displacing peaker plants.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Tesla Energy",
+      "role": "incumbent",
+      "what": "Runs Powerwall-based VPPs (CA ELRP with PG&E/SCE/SDG&E, Tesla Electric retail in Texas) coordinated by its own Autobidder/fleet software.",
+      "signal": "With Sunrun, ~100,000 CA home batteries delivered ~535 MW in a July 2025 statewide dispatch; paid Powerwall owners $9.9M in 2024 VPP credits",
+      "status": "operating",
+      "source": "https://cleantechnica.com/2025/08/11/california-vpp-links-100000-residential-storage-batteries/"
+     },
+     {
+      "name": "Sunrun",
+      "role": "incumbent",
+      "what": "Largest US residential solar+storage installer turning its installed base into utility-contracted dispatchable capacity (CalReady, Texas Flex with Tesla Electric).",
+      "signal": "CalReady: 56,000+ customers / ~75,000 batteries, ~250 MW average per event (375 MW peak) in 2025 \u2014 the largest single-owner US residential VPP",
+      "status": "operating",
+      "source": "https://www.energy-storage.news/sunrun-quadruples-california-vpp-from-2024-to-2025/"
+     },
+     {
+      "name": "Renew Home",
+      "role": "scaleup",
+      "what": "Google Nest Renew + OhmConnect merger (Sidewalk Infrastructure Partners-backed) aggregating smart thermostats and devices into utility-scale VPPs.",
+      "signal": "Building a 1 GW Texas VPP with NRG and Google Cloud (rollout began spring 2025) targeting ~200,000 homes; claims ~3 GW of flexibility under management",
+      "status": "operating",
+      "source": "https://www.canarymedia.com/articles/virtual-power-plants/google-nest-spinout-picks-texas-for-1gw-virtual-power-plant"
+     },
+     {
+      "name": "Base Power",
+      "role": "scaleup",
+      "what": "Vertically integrated Texas electricity retailer that installs its own large home batteries for a low fee and monetizes them in ERCOT and utility programs.",
+      "signal": "$1B Series C (Oct 2025, led by Addition) at $4B valuation; >100 MWh deployed in under two years; 100 MW program with co-op CoServ and El Paso Electric partnership",
+      "status": "operating",
+      "source": "https://www.canarymedia.com/articles/batteries/base-power-hauls-1b-for-mass-deployment-of-huge-home-batteries"
+     },
+     {
+      "name": "1KOMMA5\u00b0",
+      "role": "scaleup",
+      "what": "German clean-energy installer roll-up whose Heartbeat AI platform trades customers' heat pumps, batteries, EVs and solar against spot prices.",
+      "signal": "\u20ac150M pre-IPO round (extended Jul 2025); ~\u20ac520M 2024 revenue; >500 MW connected \u2014 claims Europe's largest integrated residential VPP",
+      "status": "operating",
+      "source": "https://www.eu-startups.com/2025/07/german-climatetech-startup-1komma5-extends-e150-million-pre-ipo-round-bring-in-new-investors-and-scale-their-heartbeat-ai/"
+     },
+     {
+      "name": "sonnen",
+      "role": "incumbent",
+      "what": "Pioneer of networked home batteries (sonnenVPP, sonnenCommunity) in Germany, Australia and the US.",
+      "signal": "First home-battery fleet prequalified by German TSOs for primary control reserve (Dec 2024); Shell-owned since 2019 and reportedly put up for sale",
+      "status": "operating",
+      "source": "https://www.ess-news.com/2024/12/13/german-grid-company-approves-sonnen-home-battery-vpp-for-primary-control-power/"
+     },
+     {
+      "name": "Swell Energy",
+      "role": "startup",
+      "what": "Asset-light residential solar+battery VPP aggregator with utility contracts in Hawaii, California (SMUD) and New York.",
+      "signal": "Raised ~$120M (incl. SoftBank); began insolvency/asset liquidation Dec 2024, halting Hawaiian Electric and SMUD VPP programs \u2014 marquee failure of pure-play aggregation",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.latitudemedia.com/news/scoop-swell-is-shutting-down/"
+     },
+     {
+      "name": "Haven Energy",
+      "role": "startup",
+      "what": "Installs home batteries and handles enrollment into California DSGS and other grid programs as a turnkey VPP service.",
+      "signal": "Seed/Series A-stage (Lerer Hippeau, Giant Ventures-backed); active battery + VPP enrollment programs in CA and TX",
+      "status": "operating",
+      "source": "https://www.havenenergy.com/"
+     }
+    ]
+   },
+   {
+    "name": "C&I demand response & flexibility aggregators",
+    "description": "Curtailment service providers pool flexible load from factories, cold storage, campuses and gensets and bid it into ISO capacity, energy and ancillary markets, getting paid for negawatts.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "CPower Energy",
+      "role": "incumbent",
+      "what": "LS Power-owned national curtailment service provider monetizing C&I load and DERs across all US wholesale markets.",
+      "signal": "~6 GW of capacity at ~27,000 sites; consistently ranked a top-2 US VPP/DR provider by Wood Mackenzie",
+      "status": "operating",
+      "source": "https://cpowerenergy.com/"
+     },
+     {
+      "name": "Enel North America (ex-EnerNOC)",
+      "role": "incumbent",
+      "what": "Operates one of the world's largest C&I demand response portfolios, built on the 2017 EnerNOC acquisition.",
+      "signal": "~4.7 GW of DR capacity in North America; 2025-2027 plan reaffirmed demand response as a core business",
+      "status": "operating",
+      "source": "https://www.enelnorthamerica.com/about-us/newsroom/search-press/press/2024/11/2025-2027-business-plan"
+     },
+     {
+      "name": "Voltus",
+      "role": "scaleup",
+      "what": "Software-only DER/DR platform that pays C&I customers for flexibility in every US and Canadian wholesale market.",
+      "signal": "Named a leading US/Canada VPP aggregator by Wood Mackenzie 2024; >3 GW under management; ~$190M raised",
+      "status": "operating",
+      "source": "https://www.voltus.co/press/virtual-power-plant-2024-wood-mackenzie-vpp-report"
+     },
+     {
+      "name": "GridBeyond",
+      "role": "scaleup",
+      "what": "Dublin-based AI 'hybrid VPP' stacking C&I demand response, on-site batteries and renewables across UK, Ireland, US, Australia and Japan.",
+      "signal": "\u20ac52M Series C (2024) from Klima/Alantra, Energy Impact Partners, ABB, Constellation, Yokogawa; ~$90M total raised",
+      "status": "operating",
+      "source": "https://www.datacenterdynamics.com/en/news/energy-management-startup-gridbeyond-closes-52m-funding-round/"
+     },
+     {
+      "name": "Sympower",
+      "role": "scaleup",
+      "what": "Amsterdam-based independent flexibility provider aggregating industrial loads (HVAC, pumps, generators) into Nordic and continental European balancing markets.",
+      "signal": "Series C-stage (Activate Capital, Rubio-backed); active in 9+ European markets with ~1 GW of flexibility",
+      "status": "operating",
+      "source": "https://activatecap.com/portfolio/sympower"
+     },
+     {
+      "name": "Flexitricity",
+      "role": "scaleup",
+      "what": "UK's first demand-side aggregator, monetizing C&I flexibility and batteries in GB balancing/reserve markets (Quinbrook-owned).",
+      "signal": "Operating since 2008; first to deliver aggregated EV charging into NESO reserve with ev.energy (2024)",
+      "status": "operating",
+      "source": "https://www.ev.energy/en-us/blog/ev-energy-and-flexitricity-collaborate-on-a-groundbreaking-ev-charging-flexibility-initiative-for-national-grid-eso-reserve-service"
+     },
+     {
+      "name": "Leap",
+      "role": "startup",
+      "what": "API market-access platform letting device OEMs and energy software companies monetize their fleets in CAISO, ERCOT and other markets without becoming aggregators themselves.",
+      "signal": "~$33M Series B; partner network of 70+ technology companies spanning thousands of MW of connected DERs",
+      "status": "operating",
+      "source": "https://www.leap.energy/"
+     },
+     {
+      "name": "Enersponse",
+      "role": "startup",
+      "what": "Automated, set-and-forget C&I demand response orchestration layered across hundreds of utility/ISO programs.",
+      "signal": "Growth-equity backed (Susquehanna); aggregates customers across 200+ North American DR programs",
+      "status": "operating",
+      "source": "https://www.enersponse.com/"
+     }
+    ]
+   },
+   {
+    "name": "Utility-grade DERMS",
+    "description": "Control-room and program software that lets utilities forecast, monitor and dispatch distributed energy resources against feeder constraints \u2014 the orchestration backbone for DOE's VPP liftoff targets.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "EnergyHub",
+      "role": "scaleup",
+      "what": "Alarm.com-owned edge-DERMS market leader orchestrating thermostats, EVs, batteries and water heaters for utility programs.",
+      "signal": "170+ utility clients, >2.5M DERs and >3.5 GW flexibility after acquiring Resideo Grid Services (Dec 2025); first DERMS to top 1M devices (2023)",
+      "status": "operating",
+      "source": "https://www.energyhub.com/news/50-utility-derms-deployments"
+     },
+     {
+      "name": "Uplight (AutoGrid)",
+      "role": "scaleup",
+      "what": "Combines utility customer-engagement software with AutoGrid Flex VPP/DERMS acquired from Schneider Electric (closed early 2024).",
+      "signal": "Serves 80+ utilities; AutoGrid deal created a ~700-person DER orchestration vendor with Schneider as strategic shareholder",
+      "status": "operating",
+      "source": "https://www.latitudemedia.com/news/schneider-electric-is-selling-autogrid-to-uplight/"
+     },
+     {
+      "name": "GE Vernova (GridOS DERMS / Opus One)",
+      "role": "incumbent",
+      "what": "Grid-DERMS embedded in its ADMS for distribution operators, built on the Opus One Solutions acquisition; partnered with EnergyHub for edge devices (2025).",
+      "signal": "Named a leading grid DERMS vendor in Verdantix 2025 buyer's guide",
+      "status": "operating",
+      "source": "https://www.verdantix.com/venture/report/buyer-s-guide-distributed-energy-resource-management-systems-derms-2025"
+     },
+     {
+      "name": "Schneider Electric",
+      "role": "incumbent",
+      "what": "One Digital Grid / EcoStruxure DERMS integrated with its ADMS for utility distribution control rooms.",
+      "signal": "Ranked a leading grid DERMS vendor (Verdantix 2025); retained utility DERMS after selling AutoGrid to Uplight",
+      "status": "operating",
+      "source": "https://www.verdantix.com/venture/report/buyer-s-guide-distributed-energy-resource-management-systems-derms-2025"
+     },
+     {
+      "name": "AspenTech OSI (Emerson)",
+      "role": "incumbent",
+      "what": "monarch ADMS/DERMS platform widely installed in North American utility control centers.",
+      "signal": "Named a leading grid DERMS vendor in Verdantix 2025 buyer's guide",
+      "status": "operating",
+      "source": "https://www.verdantix.com/venture/report/buyer-s-guide-distributed-energy-resource-management-systems-derms-2025"
+     },
+     {
+      "name": "Kraken Technologies (KrakenFlex)",
+      "role": "scaleup",
+      "what": "Octopus Energy's utility OS spanning billing-to-DER flexibility dispatch, licensed to EDF, E.ON, Origin and others.",
+      "signal": "Spinning out of Octopus at $8.65B valuation with $1B raise (Dec 2025/Jan 2026); 70M+ contracted accounts, >$500M contracted ARR",
+      "status": "operating",
+      "source": "https://www.cnbc.com/2025/12/30/octopus-energy-to-spinoff-ai-unit-kraken-at-8point65-billion-valuation.html"
+     },
+     {
+      "name": "Itron",
+      "role": "incumbent",
+      "what": "Grid-edge intelligence and DER management riding on its AMI meter footprint.",
+      "signal": "Listed among key global DERMS players (Grand View Research, 2025); tens of millions of endpoints deployed",
+      "status": "operating",
+      "source": "https://www.grandviewresearch.com/industry-analysis/distributed-energy-resource-management-system-market-report"
+     },
+     {
+      "name": "Generac Grid Services (ex-Enbala)",
+      "role": "incumbent",
+      "what": "Concerto DERMS tying Generac's PWRcell batteries, ecobee thermostats and C&I assets into utility programs.",
+      "signal": "Enbala acquired 2020; listed among key DERMS market players in 2025 analyses",
+      "status": "operating",
+      "source": "https://www.grandviewresearch.com/industry-analysis/distributed-energy-resource-management-system-market-report"
+     },
+     {
+      "name": "Camus Energy",
+      "role": "startup",
+      "what": "Grid-orchestration platform giving co-ops and munis transformer-aware visibility and DER dispatch (e.g., constraint-aware EV charging).",
+      "signal": "$25M+ Series A (extension closed Feb 2024, Congruent/Wave-led); Vermont Electric Co-op transformer-constrained DER pilot (2024)",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20240213268424/en/Grid-Orchestration-Platform-Camus-Energy-Surpasses-$25M-in-Series-A-Funding-to-Enable-Grid-Operators-to-Support-Booming-Electricity-Demand"
+     },
+     {
+      "name": "Virtual Peaker",
+      "role": "startup",
+      "what": "Cloud SaaS edge-DERMS purpose-built for small and mid-size utilities to run device-based VPP programs quickly.",
+      "signal": "Raised corporate minority round (Aug 2025); dozens of US utility deployments",
+      "status": "operating",
+      "source": "https://www.cbinsights.com/company/virtual-peaker/financials"
+     }
+    ]
+   },
+   {
+    "name": "EV managed charging & V2G aggregation software",
+    "description": "Telematics- and charger-based platforms shift EV charging into off-peak or renewable-rich hours for utilities, with vehicle-to-grid software (still early) discharging car batteries back to the grid.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "WeaveGrid",
+      "role": "scaleup",
+      "what": "Utility-grade EV managed-charging software using automaker telematics, deployed at PG&E, Xcel, BGE, PGE and others.",
+      "signal": "$28M round led by Toyota's Woven Capital with Hyundai/Kia joining (Jan 2025); supports utilities covering >40% of US EVs",
+      "status": "operating",
+      "source": "https://www.techbrew.com/stories/2025/01/29/ev-charging-weavegrid-hyundai-kia"
+     },
+     {
+      "name": "ev.energy",
+      "role": "startup",
+      "what": "Driver-app and API platform aggregating home EV charging into utility programs across North America and Europe.",
+      "signal": "$33M Series B led by National Grid Partners (2023); won $41M California Energy Commission REDWDS grant (2024); 80+ utility programs",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/evenergy-secures-33m-series-b-funding-to-drive-electric-vehicle-grid-integration-in-north-america-and-europe-301886850.html"
+     },
+     {
+      "name": "Kaluza",
+      "role": "scaleup",
+      "what": "OVO Energy spin-out whose flexibility platform runs smart EV charging and device orchestration for retailers like OVO and AGL.",
+      "signal": "AGL Energy took a 20% strategic stake (2023) valuing Kaluza around $500M; powers Intelligent-style smart-charging tariffs at scale",
+      "status": "operating",
+      "source": "https://www.kaluza.com/"
+     },
+     {
+      "name": "The Mobility House",
+      "role": "scaleup",
+      "what": "German charging/energy management company trading aggregated EV battery flexibility (incl. V2G) into power markets via its Marketplace.",
+      "signal": "Backed by Mercedes-Benz, Renault and Mitsui; manages charging for 1,500+ commercial sites and stadium-scale V2G projects",
+      "status": "operating",
+      "source": "https://www.mobilityhouse.com/"
+     },
+     {
+      "name": "Optiwatt",
+      "role": "startup",
+      "what": "Free consumer app aggregating EV telematics for smart charging and utility DR enrollment across most EV brands.",
+      "signal": "YC-backed; hundreds of thousands of connected EVs enrolled in utility programs",
+      "status": "operating",
+      "source": "https://www.optiwatt.com/"
+     },
+     {
+      "name": "GM Energy",
+      "role": "incumbent",
+      "what": "Automaker-native bidirectional charging (PowerBank, Ultium Home V2H) and utility integrations for its EV fleet.",
+      "signal": "V2H rolled out across Ultium-based EVs; partnership with EnergyHub to enroll GM EVs/storage in utility VPPs (2024-2025)",
+      "status": "operating",
+      "source": "https://gmenergy.gm.com/"
+     },
+     {
+      "name": "Nuvve",
+      "role": "startup",
+      "what": "V2G pioneer (school-bus and fleet bidirectional charging) now pivoting toward stationary storage projects.",
+      "signal": "Acquired Fermata Energy's assets (Apr 2025); Nasdaq delisting notices incl. late 10-Q filing (May 2026) \u2014 financially distressed",
+      "status": "uncertain",
+      "source": "https://www.businesswire.com/news/home/20260522205364/en/Nuvve-Announces-Receipt-of-Nasdaq-Notice-on-Late-Filing-of-Its-Form-10-Q"
+     },
+     {
+      "name": "Fermata Energy",
+      "role": "startup",
+      "what": "V2X bidirectional charging platform (Nissan LEAF demand-charge management pilots with utilities).",
+      "signal": "Substantially all assets acquired by Nuvve in April 2025 after failing to scale independently",
+      "status": "acquired",
+      "source": "https://www.renewableenergyworld.com/electric-vehicle/vehicle-to-grid/two-big-v2g-players-become-one-nuvve-acquires-fermata-energy/"
+     },
+     {
+      "name": "Enel X Way North America",
+      "role": "incumbent",
+      "what": "JuiceBox home/commercial smart chargers with JuiceNet load-management software.",
+      "signal": "Enel shut the North American e-mobility unit on Oct 11, 2024, discontinuing all software/apps and stranding ~170,000 JuiceBox chargers",
+      "status": "bankrupt-shutdown",
+      "source": "https://electrek.co/2024/10/02/enel-x-way-north-america-is-shutting-down-heres-what-we-know/"
+     }
+    ],
+    "white_space": "Managed charging is crowded, but credible V2G software is thin (Nuvve distressed, Fermata absorbed): bidirectional hardware cost, warranty risk and interconnection rules kill the economics \u2014 the opening is automaker-native V2G (GM, Tesla, Renault/Mobilize) and school-bus/fleet niches where duty cycles are predictable."
+   },
+   {
+    "name": "Home energy management systems & smart-panel software",
+    "description": "Smart electrical panels, circuit-level monitors and HEMS software give households granular control of loads and create the device layer that VPPs and utilities orchestrate.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "SPAN",
+      "role": "scaleup",
+      "what": "Flagship smart electrical panel with per-circuit metering/control and utility partnerships for panel-as-grid-asset programs.",
+      "signal": "~$230M raised (incl. $96M Series B2, 2023); layoffs in 2024 as residential electrification demand slowed",
+      "status": "operating",
+      "source": "https://www.canarymedia.com/articles/electrification/span-snags-96m-to-become-a-swiss-army-knife-for-electric-homes"
+     },
+     {
+      "name": "Lumin",
+      "role": "startup",
+      "what": "Retrofit smart panel controller that adds circuit-level management to existing panels, popular for battery load management.",
+      "signal": "Venture-backed; integrated with major battery OEMs and utility VPP pilots",
+      "status": "operating",
+      "source": "https://www.luminsmart.com/"
+     },
+     {
+      "name": "Savant Power",
+      "role": "incumbent",
+      "what": "Luxury smart-home company (owner of GE Lighting brand) selling power modules and whole-home energy automation.",
+      "signal": "GE Lighting acquired 2020; Savant Power Storage and panel products shipping nationally",
+      "status": "operating",
+      "source": "https://www.savant.com/"
+     },
+     {
+      "name": "Schneider Electric (Square D / Wiser)",
+      "role": "incumbent",
+      "what": "Schneider Home energy system: smart panel, inverter, battery and Wiser Energy monitoring (powered by Sense ML).",
+      "signal": "Global electrical incumbent shipping integrated home energy systems since 2023",
+      "status": "operating",
+      "source": "https://www.se.com/us/en/home/smart-home/"
+     },
+     {
+      "name": "Eaton",
+      "role": "incumbent",
+      "what": "AbleEdge smart breakers and home energy management integrated with its dominant load-center business.",
+      "signal": "Launched AbleEdge HEM with smart breakers 2023-2024; leverages #1 US panel installed base",
+      "status": "operating",
+      "source": "https://www.eaton.com/us/en-us/products/energy-management-home.html"
+     },
+     {
+      "name": "Sense",
+      "role": "scaleup",
+      "what": "ML load disaggregation from high-frequency meter/panel data, embedded in Landis+Gyr Revelo meters and Schneider panels.",
+      "signal": "$105M Series C (2021); Landis+Gyr partnership puts Sense in utility AMI rollouts (e.g., National Grid)",
+      "status": "operating",
+      "source": "https://sense.com/"
+     },
+     {
+      "name": "gridX",
+      "role": "scaleup",
+      "what": "European energy-management OS (XENON) that OEMs and utilities white-label to orchestrate heat pumps, EV chargers, PV and batteries per household.",
+      "signal": "E.ON-majority-owned; powers HEMS for dozens of European energy brands and \u00a714a-compliant control in Germany",
+      "status": "operating",
+      "source": "https://www.gridx.ai/"
+     },
+     {
+      "name": "Emporia",
+      "role": "startup",
+      "what": "Low-cost circuit monitors, EV chargers and home batteries with a consumer HEMS app and utility program integrations.",
+      "signal": "Hundreds of thousands of Vue monitors sold; expanding into VPP enrollment via partnerships",
+      "status": "operating",
+      "source": "https://www.emporiaenergy.com/"
+     },
+     {
+      "name": "Lunar Energy",
+      "role": "startup",
+      "what": "Home battery (Lunar System) plus Gridshare VPP software (ex-Moixa) orchestrating tens of thousands of devices in Japan/UK.",
+      "signal": "Raised ~$300M from SK Group and Sunrun (2022); subsequent layoffs amid slow US storage market",
+      "status": "uncertain",
+      "source": "https://www.lunarenergy.com/"
+     }
+    ],
+    "white_space": "Smart panels remain a four-figure hardware sale with electrician friction \u2014 SPAN's layoffs show the wedge is too expensive for mass VPP enrollment; openings are meter-collar adapters (ConnectDER) and software embedded in incumbent breakers/meters rather than panel replacement."
+   },
+   {
+    "name": "Behind-the-meter C&I energy optimization & efficiency-as-a-service",
+    "description": "Vendors finance, install and operate efficiency retrofits, HVAC/refrigeration AI controls and on-site storage at commercial sites, paid from measured savings \u2014 increasingly monetizing the flexibility too.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Redaptive",
+      "role": "scaleup",
+      "what": "Efficiency-as-a-service pioneer metering every circuit and funding portfolio-wide retrofits (lighting, HVAC, solar) repaid from verified savings.",
+      "signal": "Backed by CPP Investments and Linse Capital (>$650M raised since 2020's $156.5M round); thousands of C&I sites under contract",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/energy-efficiency-leader-redaptive-secures-156-5-million-in-funding-led-by-carval-investors-301147416.html"
+     },
+     {
+      "name": "Budderfly",
+      "role": "scaleup",
+      "what": "Takes over the utility bill of franchise/QSR sites, owns all efficiency equipment it installs, and keeps a share of savings.",
+      "signal": "$550M debt facility (GIP/BlackRock-led $250M upsize) plus $100M Nuveen facility (Mar 2026); >$1B total capital; >$250M revenue run-rate (Sept 2025)",
+      "status": "operating",
+      "source": "https://www.powermag.com/blackrocks-infrastructure-arm-leads-250-million-bet-on-commercial-building-efficiency-as-a-grid-asset/"
+     },
+     {
+      "name": "GridPoint",
+      "role": "scaleup",
+      "what": "Subscription smart-building controls + submetering for franchise chains, bundling energy management with demand response.",
+      "signal": "$100M round led by Goldman Sachs Asset Management (2022); ~15,000 sites under management",
+      "status": "operating",
+      "source": "https://www.gridpoint.com/"
+     },
+     {
+      "name": "Stem",
+      "role": "incumbent",
+      "what": "PowerTrack Optimizer (rebranded Athena) AI software optimizing C&I/FTM storage dispatch and solar asset management.",
+      "signal": "NYSE-listed; 2024 pivot to software (27% workforce cut, 1-for-20 reverse split); ~2 GWh storage and 36 GW solar under management, software now ~73% of revenue",
+      "status": "operating",
+      "source": "https://www.stocktitan.net/news/STEM/stem-unveils-power-track-tm-optimizer-flagship-enterprise-platform-gzgdi9znlnl7.html"
+     },
+     {
+      "name": "BrainBox AI",
+      "role": "startup",
+      "what": "Autonomous AI HVAC control retrofitting commercial buildings to cut energy 20%+ and enable grid-responsive operation.",
+      "signal": "Acquired by Trane Technologies (closed Jan 2025) after deploying across ~14,000 buildings",
+      "status": "acquired",
+      "source": "https://www.brainboxai.com/"
+     },
+     {
+      "name": "75F",
+      "role": "startup",
+      "what": "Out-of-the-box wireless building automation for mid-size commercial buildings, a segment incumbents ignore.",
+      "signal": "Backed by Breakthrough Energy Ventures and Siemens; deployments across North America, India, SE Asia",
+      "status": "operating",
+      "source": "https://www.75f.io/"
+     },
+     {
+      "name": "Phaidra",
+      "role": "startup",
+      "what": "Reinforcement-learning 'AI plant operator' for mission-critical cooling (data centers, pharma), founded by ex-DeepMind energy team.",
+      "signal": "Backed by Index Ventures and NVIDIA; commercial deployments in hyperscale data-center cooling",
+      "status": "operating",
+      "source": "https://www.phaidra.ai/"
+     },
+     {
+      "name": "David Energy",
+      "role": "startup",
+      "what": "Retail electricity supplier whose Mycor platform actively controls customers' HVAC/loads so the retailer profits from flexibility.",
+      "signal": "~$23M Series A (2022) plus retail book growth in NY/TX; pioneering 'retailer-as-VPP' model",
+      "status": "operating",
+      "source": "https://www.davidenergy.com/"
+     }
+    ]
+   },
+   {
+    "name": "Battery/storage fleet orchestration & microgrid control software",
+    "description": "Bidding, dispatch and control software that runs fleets of grid-scale and behind-the-meter batteries (and islandable microgrids) against wholesale prices, ancillary services and reliability needs.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Tesla (Autobidder)",
+      "role": "incumbent",
+      "what": "Real-time trading and dispatch platform operating Tesla and third-party battery fleets (Hornsdale, Moss Landing-class assets and VPPs).",
+      "signal": "Multiple GW of storage under algorithmic management globally across utility and aggregated fleets",
+      "status": "operating",
+      "source": "https://www.tesla.com/support/energy/tesla-software/autobidder"
+     },
+     {
+      "name": "Fluence",
+      "role": "incumbent",
+      "what": "Mosaic AI bidding and Nispera asset-performance software layered on its global BESS integration business.",
+      "signal": "NASDAQ-listed (Siemens/AES JV); tens of GWh deployed or contracted worldwide",
+      "status": "operating",
+      "source": "https://fluenceenergy.com/"
+     },
+     {
+      "name": "W\u00e4rtsil\u00e4 Energy Storage (GEMS)",
+      "role": "incumbent",
+      "what": "GEMS Digital Energy Platform controlling hybrid plants, storage fleets and microgrids (built on 2017 Greensmith acquisition).",
+      "signal": "Kept in-house after 17-month strategic review ended March 2025 with a standalone Energy Storage segment and growth targets",
+      "status": "operating",
+      "source": "https://www.ess-news.com/2025/03/31/wartsila-gives-up-on-energy-storage-business-divestment/"
+     },
+     {
+      "name": "FlexGen",
+      "role": "scaleup",
+      "what": "HybridOS energy management software and integration for utility-scale storage, a leading US independent BESS software vendor.",
+      "signal": "10+ GWh under HybridOS management across ERCOT and other US markets",
+      "status": "operating",
+      "source": "https://www.flexgen.com/"
+     },
+     {
+      "name": "Habitat Energy",
+      "role": "scaleup",
+      "what": "PowerIQ algorithmic trading/optimization of grid-scale batteries in GB, Australia and ERCOT (Quinbrook-owned).",
+      "signal": "Multi-GW optimization portfolio across three continents; US platform launched via Quinbrook",
+      "status": "operating",
+      "source": "https://www.quinbrook.com/news-insights/habitat-energy-launches-us-battery-storage-optimization-platform/"
+     },
+     {
+      "name": "Gridmatic",
+      "role": "startup",
+      "what": "AI power marketer trading storage and load in ERCOT/CAISO, claiming significant revenue uplift over rule-based dispatch.",
+      "signal": "$50M energy storage fund closed to manage up to 500 MW; backtested 46% revenue uplift in ERCOT",
+      "status": "operating",
+      "source": "https://pulse2.com/gridmatic-50-million-funding/"
+     },
+     {
+      "name": "Entrix",
+      "role": "startup",
+      "what": "Munich-based AI flexibility trading platform for grid-scale and C&I batteries across German and Iberian markets.",
+      "signal": "\u20ac43M round (Mar 2026, BNP Paribas Solar Impulse, Allianz); >3 GW / 8.5 GWh contracted capacity",
+      "status": "operating",
+      "source": "https://www.ess-news.com/2026/03/26/entrix-secures-e43-million-investment-eyes-growth-for-flexibility-services-in-iberian-market/"
+     },
+     {
+      "name": "PXiSE Energy Solutions",
+      "role": "startup",
+      "what": "High-speed phasor-based control software spanning hybrid plant control, microgrids and DERMS.",
+      "signal": "Acquired by Yokogawa Electric (Dec 2021) to anchor its grid-control software line",
+      "status": "acquired",
+      "source": "https://www.yokogawa.com/us/news/press-releases/2021/2021-12-02/"
+     },
+     {
+      "name": "Heila Technologies",
+      "role": "startup",
+      "what": "MIT-born decentralized 'plug-and-play' microgrid controller treating each DER as an intelligent node.",
+      "signal": "Managed ~24 North American microgrids at acquisition by Kohler (Jan 2022)",
+      "status": "acquired",
+      "source": "https://www.prnewswire.com/news-releases/kohler-co-acquires-heila-technologies-to-expand-its-clean-energy-management-offering-301453912.html"
+     },
+     {
+      "name": "Schweitzer Engineering Laboratories",
+      "role": "incumbent",
+      "what": "Hardened microgrid control systems (powerMAX) standard in military, campus and industrial microgrids.",
+      "signal": "Employee-owned protection-relay leader; hundreds of microgrid control deployments",
+      "status": "operating",
+      "source": "https://selinc.com/"
+     }
+    ]
+   },
+   {
+    "name": "Thermal & appliance fleet flexibility (water heaters, heat pump fleets)",
+    "description": "Controllers and VPP software turn electric water heaters, heat pumps and electric heating into dispatchable thermal batteries \u2014 cheap storage already sitting in buildings.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Voltalis",
+      "role": "scaleup",
+      "what": "Installs free load-control devices on electric heating, water heaters and heat pumps and sells the aggregated flexibility to grid operators across Europe.",
+      "signal": "\u20ac215M project financing for 1.4 GWp of DR capacity (2024); \u00a31B plan for 5 GWp in UK by 2030; ~3M devices / 200k+ homes",
+      "status": "operating",
+      "source": "https://group.voltalis.com/en/content-type/press-releases/voltalis-closes-the-financing-of-1-4-gwp-of-demand-response-capacity-for-a-total-amount-of-215-me-7964"
+     },
+     {
+      "name": "Shifted Energy",
+      "role": "startup",
+      "what": "Grid Maestro platform converting (heat pump) water heaters into grid assets via CTA-2045 controllers, focused on renters and hard-to-reach customers.",
+      "signal": "Multi-MW fleets dispatched for Hawaiian Electric; Hawai'i Energy-funded HPWH program; expanding mainland via co-op programs",
+      "status": "operating",
+      "source": "https://sepapower.org/knowledge/two-birds-one-water-heater-how-shifted-energy-and-hawaiian-electric-are-helping-hawaii-meet-its-clean-energy-goals/"
+     },
+     {
+      "name": "Packetized Energy",
+      "role": "startup",
+      "what": "UVM spin-out whose 'packetized' stochastic control coordinated water heater fleets without central schedules.",
+      "signal": "Acquired by EnergyHub (2022) to add water-heater flexibility to its DERMS",
+      "status": "acquired",
+      "source": "https://www.energyhub.com/news/"
+     },
+     {
+      "name": "Steffes",
+      "role": "incumbent",
+      "what": "Grid-interactive electric thermal storage (ETS) heaters and water-heater controls used by Midwest co-ops for decades of load shaping.",
+      "signal": "Tens of thousands of ETS units under utility control since the 1980s-90s",
+      "status": "operating",
+      "source": "https://www.steffes.com/"
+     },
+     {
+      "name": "Rheem",
+      "role": "incumbent",
+      "what": "Largest US water-heater OEM shipping EcoNet-connected, CTA-2045/EcoPort-ready units that satisfy Washington/Oregon connectivity mandates.",
+      "signal": "WA and OR now require CTA-2045 ports on electric storage water heaters, making every new unit fleet-enrollable",
+      "status": "operating",
+      "source": "https://www.rheem.com/"
+     },
+     {
+      "name": "Mixergy",
+      "role": "startup",
+      "what": "UK smart hot-water tanks that heat only what's needed and act as grid-flexible thermal storage via tariff/DSR integrations.",
+      "signal": "Tens of thousands of tanks installed; partnerships with UK utilities and flexibility programs",
+      "status": "operating",
+      "source": "https://www.mixergy.co.uk/"
+     },
+     {
+      "name": "Harvest Thermal",
+      "role": "startup",
+      "what": "Pod controller pairing a CO2 heat pump with a hot-water tank to time-shift home heating/DHW to cheap, clean hours.",
+      "signal": "Commercial in California; claims ~90% peak-hour heating load shift and 40%+ bill cuts",
+      "status": "operating",
+      "source": "https://www.harvest-thermal.com/"
+     },
+     {
+      "name": "tepeo",
+      "role": "startup",
+      "what": "ZEB 'heat battery' boiler replacement that charges off-peak and releases heat on demand \u2014 flexible electric heat without hydronics changes.",
+      "signal": "Series B-stage UK company; thousands of units and NESO flexibility trials",
+      "status": "operating",
+      "source": "https://tepeo.com/"
+     },
+     {
+      "name": "Quilt",
+      "role": "startup",
+      "what": "Design-led smart heat pump with native fleet software, built to be aggregated from day one.",
+      "signal": "$33M Series B (May 2024, Energy Impact Partners-led); shipping in California",
+      "status": "operating",
+      "source": "https://www.quilt.com/"
+     }
+    ],
+    "white_space": "Of ~50M US electric water heaters only a low single-digit percent are grid-connected; per-device revenue (~$50-100/yr) is too thin for standalone aggregators, which is why most plays are OEM- or utility-led. WA/OR CTA-2045 port mandates create a plug-and-play fleet beachhead, and cold-climate heat-pump fleet orchestration (winter peaks) remains underexploited."
+   },
+   {
+    "name": "Utility demand-side management & customer engagement/disaggregation analytics",
+    "description": "AMI-data analytics, appliance-level disaggregation and behavioral engagement platforms that target efficiency programs, recruit flexibility, and measure what device fleets actually deliver.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Oracle Opower",
+      "role": "incumbent",
+      "what": "Behavioral energy reports and peak-time-rebate engagement deployed at hundreds of utilities worldwide.",
+      "signal": "15+ years, ~60M households reached; the default behavioral DSM layer for large IOUs",
+      "status": "operating",
+      "source": "https://www.oracle.com/utilities/opower-energy-efficiency/"
+     },
+     {
+      "name": "Uplight",
+      "role": "scaleup",
+      "what": "Utility customer-engagement, marketplace and rates software now fused with AutoGrid's VPP orchestration.",
+      "signal": "Serves 80+ utilities covering >100M customers; acquired AutoGrid (2024)",
+      "status": "operating",
+      "source": "https://uplight.com/press/uplight-to-acquire-autogrid/"
+     },
+     {
+      "name": "Bidgely",
+      "role": "scaleup",
+      "what": "Patented NILM disaggregation (UtilityAI) identifying EVs, AC and appliances from meter data to target DSM/EV programs; now sold as APIs (DaaS).",
+      "signal": "16 disaggregation patents; #7 on Fast Company 2024 Applied AI list; deployments at NV Energy, Hydro One and dozens more",
+      "status": "operating",
+      "source": "https://www.bidgely.com/"
+     },
+     {
+      "name": "Copper Labs",
+      "role": "startup",
+      "what": "Wireless meter-reading hardware/analytics giving utilities real-time, neighborhood-level gas+electric visibility without full AMI.",
+      "signal": "Venture-backed; deployments with Xcel Energy and gas utilities for peak-day demand management",
+      "status": "operating",
+      "source": "https://www.copperlabs.com/"
+     },
+     {
+      "name": "CLEAResult",
+      "role": "incumbent",
+      "what": "Largest North American efficiency/DSM program implementer running utility rebate, DR and electrification programs end-to-end.",
+      "signal": "TPG-owned; delivers programs for 200+ utilities",
+      "status": "operating",
+      "source": "https://www.clearesult.com/"
+     },
+     {
+      "name": "Franklin Energy",
+      "role": "incumbent",
+      "what": "DSM program implementation plus NGAGE engagement software for efficiency and demand flexibility.",
+      "signal": "Hundreds of utility program contracts across North America",
+      "status": "operating",
+      "source": "https://www.franklinenergy.com/"
+     },
+     {
+      "name": "Logical Buildings",
+      "role": "startup",
+      "what": "GridRewards app turning multifamily buildings and residents into cash-paid demand response in NYC/NJ markets.",
+      "signal": "Tens of MW of multifamily VPP capacity in ConEd territory; smart-building energy software in 100M+ sq ft",
+      "status": "operating",
+      "source": "https://www.logicalbuildings.com/"
+     },
+     {
+      "name": "Arcadia",
+      "role": "scaleup",
+      "what": "Arc utility-data platform providing tariff/interval data APIs that power community solar billing and DER program targeting.",
+      "signal": "Raised $200M (2022) at ~$1.5B valuation; pivoted from consumer retail to data infrastructure",
+      "status": "operating",
+      "source": "https://www.arcadia.com/"
+     },
+     {
+      "name": "Texture",
+      "role": "startup",
+      "what": "DER connectivity/data platform unifying device telemetry and enrollment APIs for energy program operators.",
+      "signal": "Seed/Series A-stage; growing integrations across inverters, batteries, EVs and meters",
+      "status": "operating",
+      "source": "https://www.texturehq.com/"
+     }
+    ]
+   },
+   {
+    "name": "Local flexibility marketplaces for DSO procurement",
+    "description": "Neutral marketplaces where distribution system operators tender for location-specific flexibility from DERs to manage congestion and defer wires upgrades \u2014 procurement infrastructure for the distribution edge.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Piclo",
+      "role": "scaleup",
+      "what": "Piclo Flex marketplace running competitive DSO flexibility tenders; standard across GB DNOs and expanding internationally.",
+      "signal": "All GB DNOs plus NIE Networks; multi-GW of flexibility tendered; expansion into US (NY), Ireland and Italy",
+      "status": "operating",
+      "source": "https://www.piclo.com/"
+     },
+     {
+      "name": "NODES",
+      "role": "startup",
+      "what": "Continuously traded local flexibility market (NorFlex/IntraFlex designs) linking DSO congestion needs with aggregators.",
+      "signal": "JV of Agder Energi and Nord Pool; live markets across Nordics and pilots in UK/Germany",
+      "status": "operating",
+      "source": "https://nodesmarket.com/"
+     },
+     {
+      "name": "Electron",
+      "role": "startup",
+      "what": "ElectronConnect flexibility market software used by GB networks (e.g., SSEN) to run dynamic local procurement.",
+      "signal": "Backed by National Grid Partners and EDF; powers live DNO flexibility programs",
+      "status": "operating",
+      "source": "https://www.electron.net/"
+     },
+     {
+      "name": "GOPACS",
+      "role": "incumbent",
+      "what": "Dutch TSO/DSO joint congestion-management platform clearing intraday flexibility against grid constraints.",
+      "signal": "Central tool of the Netherlands' acute congestion crisis; procurement volumes growing yearly since 2019",
+      "status": "operating",
+      "source": "https://www.gopacs.eu/"
+     },
+     {
+      "name": "Equigy",
+      "role": "incumbent",
+      "what": "Crowd Balancing Platform of TSOs TenneT, Swissgrid, Terna and APG using shared infrastructure to let aggregated small DERs into balancing markets.",
+      "signal": "Multi-country TSO consortium platform live in NL/DE/CH/IT/AT",
+      "status": "operating",
+      "source": "https://equigy.com/"
+     },
+     {
+      "name": "Axle Energy",
+      "role": "startup",
+      "what": "API-first aggregator plugging home batteries, EVs and heaters from consumer apps directly into GB balancing and flexibility markets.",
+      "signal": "Seed-funded (2023-2024); dispatching into NESO Demand Flexibility Service and DNO markets",
+      "status": "operating",
+      "source": "https://axle.energy/"
+     }
+    ],
+    "white_space": "Almost entirely a UK/EU phenomenon: US regulation gives distribution utilities a capex bias and no DSO-style unbundled procurement, so no credible US marketplace exists \u2014 state PUC flexibility-procurement mandates or FERC distribution-interface reforms would open a first-mover platform opportunity."
+   },
+   {
+    "name": "Data center & large-load flexibility orchestration",
+    "description": "Software that flexes AI/data-center compute and other gigawatt-scale new loads during grid stress so they can interconnect years faster without new peak capacity \u2014 the newest frontier of demand-side flexibility.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Emerald AI",
+      "role": "startup",
+      "what": "Orchestration layer that throttles/shifts GPU workloads against grid signals without breaking compute SLAs.",
+      "signal": "$24.5M seed (NVIDIA NVentures, Radical Ventures); Oracle Phoenix pilot cut peak draw 25%; co-launched 96 MW power-flexible 'Aurora AI Factory' reference design with NVIDIA/EPRI/PJM (Oct 2025)",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/emerald-ai-teams-with-nvidia-and-partners-to-develop-power-flexible-ai-factory-and-reference-design-to-unlock-100-gw-of-grid-capacity-and-supercharge-the-ai-revolution-302597760.html"
+     },
+     {
+      "name": "Google",
+      "role": "incumbent",
+      "what": "Carbon-intelligent and demand-responsive computing that shifts ML workloads in time/space under utility demand-response contracts.",
+      "signal": "1 GW of data-center demand response integrated into utility contracts (I&M, TVA, Entergy Arkansas, Minnesota Power, DTE) as of 2025-2026",
+      "status": "operating",
+      "source": "https://www.renewableenergyworld.com/power-grid/smart-grids/google-has-integrated-1-gw-of-data-center-demand-response-with-us-utilities/"
+     },
+     {
+      "name": "Verrus",
+      "role": "startup",
+      "what": "Sidewalk Infrastructure Partners venture developing flexible data centers whose batteries and workloads double as grid assets.",
+      "signal": "SIP-incubated (launched 2024); pursuing multi-hundred-MW flexible campuses",
+      "status": "operating",
+      "source": "https://www.verrus.com/"
+     },
+     {
+      "name": "Enchanted Rock",
+      "role": "scaleup",
+      "what": "Gas/RNG microgrids-as-a-service giving data centers and groceries bridge power plus dispatchable grid services.",
+      "signal": "~1 GW of resiliency microgrids deployed/contracted in Texas and beyond, increasingly for data-center interconnection",
+      "status": "operating",
+      "source": "https://enchantedrock.com/"
+     }
+    ],
+    "white_space": "Only a handful of credible players because workload-flexibility software must sit inside hyperscaler orchestration stacks and SLA economics (lost GPU-hours) dwarf energy savings; the opening is flexibility-by-design certification (EPRI DCFlex/PJM reference designs) that lets 'flexible by contract' AI campuses jump multi-year interconnection queues."
+   }
+  ],
+  "sources": [
+   "https://www.latitudemedia.com/news/scoop-swell-is-shutting-down/",
+   "https://www.energy-storage.news/sunrun-quadruples-california-vpp-from-2024-to-2025/",
+   "https://cleantechnica.com/2025/08/11/california-vpp-links-100000-residential-storage-batteries/",
+   "https://www.canarymedia.com/articles/batteries/base-power-hauls-1b-for-mass-deployment-of-huge-home-batteries",
+   "https://www.canarymedia.com/articles/virtual-power-plants/google-nest-spinout-picks-texas-for-1gw-virtual-power-plant",
+   "https://www.eu-startups.com/2025/07/german-climatetech-startup-1komma5-extends-e150-million-pre-ipo-round-bring-in-new-investors-and-scale-their-heartbeat-ai/",
+   "https://www.ess-news.com/2024/12/13/german-grid-company-approves-sonnen-home-battery-vpp-for-primary-control-power/",
+   "https://www.verdantix.com/venture/report/buyer-s-guide-distributed-energy-resource-management-systems-derms-2025",
+   "https://www.energyhub.com/news/50-utility-derms-deployments",
+   "https://www.latitudemedia.com/news/schneider-electric-is-selling-autogrid-to-uplight/",
+   "https://www.cnbc.com/2025/12/30/octopus-energy-to-spinoff-ai-unit-kraken-at-8point65-billion-valuation.html",
+   "https://www.businesswire.com/news/home/20240213268424/en/Grid-Orchestration-Platform-Camus-Energy-Surpasses-$25M-in-Series-A-Funding-to-Enable-Grid-Operators-to-Support-Booming-Electricity-Demand",
+   "https://www.techbrew.com/stories/2025/01/29/ev-charging-weavegrid-hyundai-kia",
+   "https://www.prnewswire.com/news-releases/evenergy-secures-33m-series-b-funding-to-drive-electric-vehicle-grid-integration-in-north-america-and-europe-301886850.html",
+   "https://www.renewableenergyworld.com/electric-vehicle/vehicle-to-grid/two-big-v2g-players-become-one-nuvve-acquires-fermata-energy/",
+   "https://www.businesswire.com/news/home/20260522205364/en/Nuvve-Announces-Receipt-of-Nasdaq-Notice-on-Late-Filing-of-Its-Form-10-Q",
+   "https://electrek.co/2024/10/02/enel-x-way-north-america-is-shutting-down-heres-what-we-know/",
+   "https://www.canarymedia.com/articles/electrification/span-snags-96m-to-become-a-swiss-army-knife-for-electric-homes",
+   "https://www.powermag.com/blackrocks-infrastructure-arm-leads-250-million-bet-on-commercial-building-efficiency-as-a-grid-asset/",
+   "https://pv-magazine-usa.com/2026/03/26/budderfly-raises-550-million-to-scale-its-energy-as-a-service-platform/",
+   "https://www.stocktitan.net/news/STEM/stem-unveils-power-track-tm-optimizer-flagship-enterprise-platform-gzgdi9znlnl7.html",
+   "https://www.datacenterdynamics.com/en/news/energy-management-startup-gridbeyond-closes-52m-funding-round/",
+   "https://www.voltus.co/press/virtual-power-plant-2024-wood-mackenzie-vpp-report",
+   "https://group.voltalis.com/en/content-type/press-releases/voltalis-closes-the-financing-of-1-4-gwp-of-demand-response-capacity-for-a-total-amount-of-215-me-7964",
+   "https://sepapower.org/knowledge/two-birds-one-water-heater-how-shifted-energy-and-hawaiian-electric-are-helping-hawaii-meet-its-clean-energy-goals/",
+   "https://www.ess-news.com/2026/03/26/entrix-secures-e43-million-investment-eyes-growth-for-flexibility-services-in-iberian-market/",
+   "https://pulse2.com/gridmatic-50-million-funding/",
+   "https://www.yokogawa.com/us/news/press-releases/2021/2021-12-02/",
+   "https://www.prnewswire.com/news-releases/kohler-co-acquires-heila-technologies-to-expand-its-clean-energy-management-offering-301453912.html",
+   "https://www.ess-news.com/2025/03/31/wartsila-gives-up-on-energy-storage-business-divestment/",
+   "https://www.piclo.com/",
+   "https://www.bidgely.com/",
+   "https://www.renewableenergyworld.com/power-grid/smart-grids/google-has-integrated-1-gw-of-data-center-demand-response-with-us-utilities/",
+   "https://www.prnewswire.com/news-releases/emerald-ai-teams-with-nvidia-and-partners-to-develop-power-flexible-ai-factory-and-reference-design-to-unlock-100-gw-of-grid-capacity-and-supercharge-the-ai-revolution-302597760.html",
+   "https://www.enelnorthamerica.com/about-us/newsroom/search-press/press/2024/11/2025-2027-business-plan"
+  ]
+ }
+}

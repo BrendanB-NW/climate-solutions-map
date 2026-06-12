@@ -1,0 +1,629 @@
+{
+ "sector": "buildings",
+ "bucket": "Air-Source Heat Pumps & Electrified HVAC",
+ "census": {
+  "bucket": "Air-Source Heat Pumps & Electrified HVAC",
+  "sources": [
+   "https://techcrunch.com/2025/12/08/heat-pump-startup-quilt-raises-20m-series-b-to-expand-sales/",
+   "https://www.thecity.nyc/2025/02/27/nycha-electric-heat-pumps-housing-energy-queens/",
+   "https://nysfocus.com/2025/04/15/trump-china-tariffs-clean-energy-nycha-heat-pumps",
+   "https://www.pv-magazine.com/2025/08/11/swedish-heat-pump-maker-aira-raises-e150-million-plans-production-capacity-expansion/",
+   "https://www.johnsoncontrols.com/media-center/news/press-releases/2025/08/01/johnson-controls-completes-sale-of-residential-and-light-commercial-hvac-business",
+   "https://www.energy.gov/eere/buildings/doe-cold-climate-heat-pump-technology-challenge",
+   "https://www.achrnews.com/articles/155050-advances-in-heat-pump-rooftop-units-for-cold-climates",
+   "https://www.lpgasmagazine.com/stone-mountain-technologies-increases-production-of-gas-heat-pumps/",
+   "https://www.coolingpost.com/world-news/carrier-invests-in-solid-state-heat-pump/",
+   "https://www.pv-magazine.com/2025/04/02/copeland-invests-in-thermo-acoustic-heat-pump-developer/",
+   "https://www.eu-startups.com/2026/05/cambridge-spin-out-barocal-raises-e8-5-million-seed-round-for-refrigerant-free-heating-and-cooling-tech/",
+   "https://www.facilitiesdive.com/news/desiccant-based-storage-system-nearly-halves-cooling-bills-in-trials/759499/",
+   "https://www.prnewswire.com/news-releases/mojave-secures-9-5m-series-a-to-fuel-adoption-of-the-most-energy-efficient-commercial-air-conditioner-302335083.html",
+   "https://techcrunch.com/2024/11/05/how-a-box-on-a-roof-helped-transaera-to-land-8-2-million-in-funding/",
+   "https://www.stocktitan.net/sec-filings/AIRJ/10-k-air-joule-technologies-corp-files-annual-report-1da1bba0be8e.html",
+   "https://sustainabletechpartner.com/topics/ma/ma-sustainable-building-specialist-brainbox-ai-acquires-turntide-technologies-automation-division/",
+   "https://www.kel.vin/",
+   "https://www.harvest-thermal.com/news",
+   "https://www.coolingpost.com/world-news/solid-refrigerant-system-attracts-8m-investment/",
+   "https://www.coolingpost.com/world-news/magnetocaloric-firm-attracts-e6-3m-funding/"
+  ],
+  "variations": [
+   {
+    "name": "Central ducted & mini-split air-source heat pumps (incl. hybrid/dual-fuel)",
+    "description": "Inverter-driven vapor-compression units that move heat between outdoor air and the home through ducts or wall-mounted heads, replacing a gas furnace plus AC with one electric appliance \u2014 the single biggest lever for residential building decarbonization.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Daikin",
+      "role": "incumbent",
+      "what": "World's largest HVAC maker (incl. Goodman/Amana in the US); compact ducted 'Fit' inverter systems and the global champion of R32, with royalty-free patent pledges",
+      "signal": "~$30B+ annual HVAC revenue; heat pumps designated core growth business",
+      "status": "operating",
+      "source": "https://www.daikin.com/"
+     },
+     {
+      "name": "Mitsubishi Electric",
+      "role": "incumbent",
+      "what": "Mini-split pioneer; Hyper-Heat (H2i) lines and the intelli-HEAT dual-fuel A-coil that converts existing gas furnaces into hybrid heat-pump systems; US JV with Trane (METUS)",
+      "signal": "De-facto standard ductless brand in the US Northeast",
+      "status": "operating",
+      "source": "https://www.mitsubishicomfort.com/"
+     },
+     {
+      "name": "Carrier",
+      "role": "incumbent",
+      "what": "Infinity variable-speed ducted heat pumps; bet the portfolio on home electrification by buying Viessmann Climate Solutions for ~\u20ac12B (closed Jan 2024)",
+      "signal": "~$22B revenue; Viessmann deal was the largest-ever heat pump acquisition",
+      "status": "operating",
+      "source": "https://www.corporate.carrier.com/"
+     },
+     {
+      "name": "Trane Technologies",
+      "role": "incumbent",
+      "what": "XV-series variable-speed residential heat pumps plus the largest commercial electrification install base in North America",
+      "signal": "~$20B revenue, climate pure-play since 2020 spinoff",
+      "status": "operating",
+      "source": "https://www.tranetechnologies.com/"
+     },
+     {
+      "name": "Lennox",
+      "role": "incumbent",
+      "what": "SL25XPV flagship (first DOE Cold Climate Heat Pump Challenge unit to market) and a 2024 North America JV with Samsung for ductless/mini-split",
+      "signal": "NYSE: LII, ~$5B revenue",
+      "status": "operating",
+      "source": "https://www.lennox.com/"
+     },
+     {
+      "name": "Bosch Home Comfort",
+      "role": "incumbent",
+      "what": "IDS inverter ducted heat pumps; vaulted into the global top tier by buying Johnson Controls' residential/light-commercial HVAC plus the JCI-Hitachi JV (York, Coleman, Hitachi brands)",
+      "signal": "$8B acquisition closed Jul 31, 2025 \u2014 Bosch's largest ever; 33 plants post-deal",
+      "status": "operating",
+      "source": "https://www.johnsoncontrols.com/media-center/news/press-releases/2025/08/01/johnson-controls-completes-sale-of-residential-and-light-commercial-hvac-business"
+     },
+     {
+      "name": "Midea",
+      "role": "incumbent",
+      "what": "World's largest AC and compressor manufacturer; launched the EVOX G\u00b3 cold-climate ducted heat pump platform for North America and OEMs for many western brands",
+      "signal": "~$50B+ revenue appliance/HVAC group",
+      "status": "operating",
+      "source": "https://www.mideacomfort.us/"
+     },
+     {
+      "name": "Gree",
+      "role": "incumbent",
+      "what": "One of the two largest air conditioner and heat pump manufacturers on earth by volume; major OEM behind western-branded mini-splits",
+      "signal": "Tens of millions of units/year from Zhuhai-based plants",
+      "status": "operating",
+      "source": "https://global.gree.com/"
+     },
+     {
+      "name": "Quilt",
+      "role": "startup",
+      "what": "Vertically integrated 'Nest-style' mini-split system \u2014 flush wall heads, room-level smart controls, in-house design and managed installation",
+      "signal": "$20M Series B Dec 2025 (Energy Impact Partners + Galvanize; $64M total); ~1,000 units across 16 US states and 5 Canadian provinces",
+      "status": "operating",
+      "source": "https://techcrunch.com/2025/12/08/heat-pump-startup-quilt-raises-20m-series-b-to-expand-sales/"
+     }
+    ]
+   },
+   {
+    "name": "Air-to-water hydronic heat pumps",
+    "description": "Heat pumps that produce hot (and chilled) water for radiators, underfloor loops, and fan coils, letting the world's boiler-heated housing stock electrify without ripping out emitters \u2014 the dominant heat pump form factor in Europe.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Vaillant",
+      "role": "incumbent",
+      "what": "aroTHERM plus R290 monobloc (75\u00b0C flow) is Europe's benchmark air-to-water unit; dedicated heat pump megafactory in Senica, Slovakia",
+      "signal": "Among top-3 European heat pump producers by volume",
+      "status": "operating",
+      "source": "https://www.vaillant-group.com/"
+     },
+     {
+      "name": "Viessmann Climate Solutions",
+      "role": "incumbent",
+      "what": "Vitocal 250/252 R290 air-to-water family; the German champion sold to Carrier in the sector's landmark consolidation",
+      "signal": "Acquired by Carrier for ~\u20ac12B (closed Jan 2024); continues operating as Carrier's European heat pump arm",
+      "status": "acquired",
+      "source": "https://www.viessmann-climatesolutions.com/"
+     },
+     {
+      "name": "NIBE Industrier",
+      "role": "incumbent",
+      "what": "Nordic heat pump group; S2125 R290 air-to-water line; bellwether for the European market's 2023-24 slump and subsequent recovery",
+      "signal": "Stockholm-listed; cut ~500 jobs in 2024 downturn, demand recovering since",
+      "status": "operating",
+      "source": "https://www.nibe.eu/"
+     },
+     {
+      "name": "Daikin Europe",
+      "role": "incumbent",
+      "what": "Altherma air-to-water family; European heat pump market leader with dedicated EU factories (Belgium, Czechia, Poland)",
+      "signal": "Multi-billion-euro EU heat pump investment program",
+      "status": "operating",
+      "source": "https://www.daikin.eu/"
+     },
+     {
+      "name": "Stiebel Eltron",
+      "role": "incumbent",
+      "what": "German specialist in air-to-water heat pumps and integrated ventilation/heat-pump systems for low-energy homes",
+      "signal": "Family-owned, >\u20ac1B revenue, heat-pump-led growth",
+      "status": "operating",
+      "source": "https://www.stiebel-eltron.com/"
+     },
+     {
+      "name": "Aira",
+      "role": "scaleup",
+      "what": "Direct-to-consumer brand selling its own R290 air-to-water unit (built in Wroc\u0142aw, Poland) with in-house installer academies and a monthly subscription model",
+      "signal": "\u20ac150M equity Aug 2025 (Altor, Kinnevik, Temasek et al.); \u20ac200M sales run-rate, 1,200 employees across UK/Germany/Italy",
+      "status": "operating",
+      "source": "https://www.pv-magazine.com/2025/08/11/swedish-heat-pump-maker-aira-raises-e150-million-plans-production-capacity-expansion/"
+     },
+     {
+      "name": "Octopus Energy",
+      "role": "scaleup",
+      "what": "UK energy retailer that designed and manufactures its own Cosy 6 R290 heat pump, bundling installs with smart time-of-use tariffs",
+      "signal": "One of the UK's fastest-growing heat pump installers; Octopus group valued ~$9B",
+      "status": "operating",
+      "source": "https://octopus.energy/"
+     },
+     {
+      "name": "Harvest Thermal",
+      "role": "startup",
+      "what": "US system pairing a CO2 (SANCO2) heat pump water heater with a thermal-storage tank and 'Pod' controller to run home space + water heating on cheap off-peak power",
+      "signal": "TIME America's Top GreenTech list 2024 and 2025; opened its controls platform ('Harvest Open') to third-party heat pumps mid-2025",
+      "status": "operating",
+      "source": "https://www.harvest-thermal.com/news"
+     }
+    ],
+    "white_space": "Air-to-water is mature in Europe but nearly absent from US distribution despite millions of US hydronic and steam-heated homes \u2014 an opening for UL-listed high-temp monoblocs and storage-integrated hydronic packages."
+   },
+   {
+    "name": "Cold-climate heat pumps",
+    "description": "Units with vapor-injection compressors, enhanced-capacity refrigerant circuits, and smarter defrost that hold rated heating output at -15\u00b0C to -30\u00b0C, killing the 'heat pumps don't work in winter' objection in northern markets.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Mitsubishi Electric (METUS)",
+      "role": "incumbent",
+      "what": "Hyper-Heat H2i delivers 100% heating capacity at 5\u00b0F and operates to about -13\u00b0F; the reference product for US cold-climate installs",
+      "signal": "Decades of cold-climate field data; dominant in New England/Canada retrofits",
+      "status": "operating",
+      "source": "https://www.mitsubishicomfort.com/"
+     },
+     {
+      "name": "Lennox",
+      "role": "incumbent",
+      "what": "SL25XPV \u2014 the first DOE Cold Climate Heat Pump Challenge prototype to reach commercial sale (2023)",
+      "signal": "DOE CCHP Challenge graduate, commercialized ahead of all eight participating OEMs",
+      "status": "operating",
+      "source": "https://www.energy.gov/eere/buildings/doe-cold-climate-heat-pump-technology-challenge"
+     },
+     {
+      "name": "Trane",
+      "role": "incumbent",
+      "what": "DOE CCHP Challenge partner field-testing and commercializing cold-climate ducted units with utility partners",
+      "signal": "CCHP Challenge prototypes validated in northern-state field trials",
+      "status": "operating",
+      "source": "https://www.energy.gov/eere/buildings/doe-cold-climate-heat-pump-technology-challenge"
+     },
+     {
+      "name": "Midea",
+      "role": "incumbent",
+      "what": "EVOX G\u00b3 ducted cold-climate system rated to operate down to roughly -22\u00b0F at mass-market prices",
+      "signal": "DOE CCHP Challenge participant; leverages world's largest compressor supply chain",
+      "status": "operating",
+      "source": "https://www.mideacomfort.us/"
+     },
+     {
+      "name": "Bosch Home Comfort",
+      "role": "incumbent",
+      "what": "IDS Ultra cold-climate ducted heat pump heating to -13\u00b0F without resistance backup",
+      "signal": "Launched 2024 as Bosch's North America cold-climate flagship",
+      "status": "operating",
+      "source": "https://www.bosch-homecomfort.com/us/en/residential/"
+     },
+     {
+      "name": "Fujitsu General",
+      "role": "incumbent",
+      "what": "Airstage extra-low-temperature mini-splits long used in Nordic and Hokkaido markets",
+      "signal": "Decades of sub-zero ductless deployments",
+      "status": "operating",
+      "source": "https://www.fujitsugeneral.com/"
+     }
+    ]
+   },
+   {
+    "name": "Window, room & portable packaged heat pumps (120V saddle units)",
+    "description": "Self-contained plug-in heat pumps that hang over a window sill or slot through a wall on a standard 120V outlet, letting renters and aging multifamily buildings electrify apartment-by-apartment with no ductwork, refrigerant work, or panel upgrades.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Gradient",
+      "role": "startup",
+      "what": "Purpose-built saddle-style 120V cold-climate window heat pump that preserves window light/egress; co-winner of NYCHA's Clean Heat for All Challenge with a 10,000-unit contract",
+      "signal": "NYSERDA-backed; NYCHA large-scale deployment slowed during evaluation and 2025 China-tariff pressure, though the 10,000-unit contract remains in effect",
+      "status": "operating",
+      "source": "https://nysfocus.com/2025/04/15/trump-china-tariffs-clean-energy-nycha-heat-pumps"
+     },
+     {
+      "name": "Midea",
+      "role": "incumbent",
+      "what": "Packaged Window Heat Pump: 120V saddle unit delivering 100% heating at 5\u00b0F; anchor supplier for NYCHA's 20,000-unit Clean Heat for All contract",
+      "signal": "First full-building NYCHA retrofit (Woodside Houses, Queens) completed 2025; 5,000 more purchased; consumer sales launched at ~$2,800-3,000/unit",
+      "status": "operating",
+      "source": "https://www.thecity.nyc/2025/02/27/nycha-electric-heat-pumps-housing-energy-queens/"
+     },
+     {
+      "name": "Friedrich",
+      "role": "incumbent",
+      "what": "Legacy US room-AC maker selling reverse-cycle window and through-wall heat pump units into the multifamily replacement channel",
+      "signal": "Century-old brand with national distribution",
+      "status": "operating",
+      "source": "https://www.friedrich.com/"
+     },
+     {
+      "name": "LG Electronics",
+      "role": "incumbent",
+      "what": "Inverter PTAC/through-wall and room heat pump units for apartments and hospitality",
+      "signal": "Global top-5 room AC manufacturer",
+      "status": "operating",
+      "source": "https://lghvac.com/"
+     },
+     {
+      "name": "Ephoca",
+      "role": "scaleup",
+      "what": "Italian all-in-one through-wall packaged heat pumps (AIO) with no outdoor unit, distributed in North America for room-by-room electrification",
+      "signal": "Niche but growing US distribution via passive-house channels",
+      "status": "operating",
+      "source": "https://ephoca.com/"
+     }
+    ],
+    "white_space": "Only one venture pure-play (Gradient) exists and its flagship NYCHA rollout has already slowed while Midea's manufacturing scale sets a ~$3k price floor; the opening is a sub-$2,000 saddle unit, tariff-proof domestic assembly, and a landlord/MDU sales channel \u2014 the prize is millions of US steam-heated apartments."
+   },
+   {
+    "name": "Commercial rooftop unit (RTU) heat pumps & VRF/VRV systems",
+    "description": "Packaged rooftop heat pumps and variable-refrigerant-flow systems that electrify the gas-heated boxes conditioning roughly half of US commercial floor area and provide zoned heat recovery in large buildings.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "AAON",
+      "role": "incumbent",
+      "what": "Premium configurable RTUs with heat-pump and efficiency options far above code minimums; semi-custom approach makes it the electrification leader in packaged rooftops",
+      "signal": "NASDAQ: AAON, ~$1.2B revenue and growing data-center cooling arm (BASX)",
+      "status": "operating",
+      "source": "https://www.aaon.com/"
+     },
+     {
+      "name": "Daikin Applied",
+      "role": "incumbent",
+      "what": "Invented VRV/VRF in 1982 and sells the Rebel/Rebel Applied high-efficiency heat pump RTU lines in North America",
+      "signal": "Global VRF market leader",
+      "status": "operating",
+      "source": "https://www.daikinapplied.com/"
+     },
+     {
+      "name": "Trane",
+      "role": "incumbent",
+      "what": "Voyager/Precedent heat-pump RTUs; DOE Commercial Building Heat Pump Accelerator participant developing cold-climate HP RTUs with Symbio controls",
+      "signal": "DOE accelerator prototypes entered national-lab validation by June 2025, targeting commercial units by Dec 2027",
+      "status": "operating",
+      "source": "https://www.achrnews.com/articles/155050-advances-in-heat-pump-rooftop-units-for-cold-climates"
+     },
+     {
+      "name": "Carrier",
+      "role": "incumbent",
+      "what": "WeatherExpert high-efficiency heat pump RTUs and a DOE accelerator participant for cold-climate rooftop heat pumps",
+      "signal": "Largest US RTU installed base alongside Trane/Lennox",
+      "status": "operating",
+      "source": "https://www.achrnews.com/articles/155050-advances-in-heat-pump-rooftop-units-for-cold-climates"
+     },
+     {
+      "name": "LG Electronics",
+      "role": "incumbent",
+      "what": "Multi V VRF platform pushing all-electric heat-recovery systems for mid/high-rise commercial buildings",
+      "signal": "Top-3 global VRF vendor",
+      "status": "operating",
+      "source": "https://lghvac.com/"
+     },
+     {
+      "name": "Samsung HVAC",
+      "role": "incumbent",
+      "what": "DVM S2 VRF systems; formed a 2024 North America joint venture with Lennox to scale ductless and VRF distribution",
+      "signal": "Samsung-Lennox JV operational since 2024",
+      "status": "operating",
+      "source": "https://www.lennoxinternational.com/"
+     }
+    ],
+    "white_space": "Essentially zero startups: AHRI certification, dealer networks, and rooftop curb standards are incumbent moats \u2014 the opening is drop-in, curb-compatible cold-climate heat pump RTUs and gas-RTU retrofit kits, which is exactly what DOE's accelerator is trying to pull from incumbents by 2027."
+   },
+   {
+    "name": "High-temperature heat pumps for boiler & steam-system replacement",
+    "description": "Air-source units producing 70-90\u00b0C water so radiator- and steam-heated buildings can drop gas boilers without replacing emitters or repiping \u2014 the key to electrifying pre-war urban housing stock.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Daikin",
+      "role": "incumbent",
+      "what": "Altherma 3 H HT delivers 70\u00b0C flow at -15\u00b0C ambient, marketed explicitly as a drop-in boiler replacement for existing radiators",
+      "signal": "Sold at volume across European boiler-swap programs",
+      "status": "operating",
+      "source": "https://www.daikin.eu/"
+     },
+     {
+      "name": "OCHSNER",
+      "role": "incumbent",
+      "what": "Austrian high-temperature specialist; AIR HAWK and commercial series reach ~75\u00b0C+ for legacy hydronic buildings",
+      "signal": "Four decades of high-temp heat pump engineering",
+      "status": "operating",
+      "source": "https://www.ochsner.com/"
+     },
+     {
+      "name": "Lambda W\u00e4rmepumpen",
+      "role": "scaleup",
+      "what": "Austrian R290 units with patented eZeta injection cycle posting some of Europe's highest measured SCOPs at 65-70\u00b0C flow for radiator homes",
+      "signal": "Top of independent efficiency rankings (e.g. HTW Berlin tests); expanding DACH production",
+      "status": "operating",
+      "source": "https://lambda-wp.at/"
+     },
+     {
+      "name": "Mitsubishi Electric",
+      "role": "incumbent",
+      "what": "QAHV CO2 (R744) heat pump producing 90\u00b0C water, used to replace gas boilers in commercial and multifamily hot-water/hydronic loops",
+      "signal": "Deployed in US/UK commercial electrification projects",
+      "status": "operating",
+      "source": "https://www.mitsubishicomfort.com/"
+     },
+     {
+      "name": "Kelvin (formerly Radiator Labs)",
+      "role": "startup",
+      "what": "Brooklyn startup electrifying NYC steam buildings incrementally \u2014 Cozy smart radiator covers plus heat pumps and thermal storage ('hybrid electrification') claiming 60-80% of space heat electrified at ~20% of full-retrofit cost",
+      "signal": "$30M Series A (2022); NYSERDA-validated 25.5% average heating savings; hybrid system targeted commercial readiness ~2025",
+      "status": "operating",
+      "source": "https://www.kel.vin/"
+     }
+    ],
+    "white_space": "US steam and pre-war hydronic multifamily has almost no UL-listed high-temperature ASHP options \u2014 Europe's 70-75\u00b0C R290 monoblocs haven't crossed the Atlantic \u2014 leaving Kelvin nearly alone against tens of thousands of NYC-style steam buildings facing Local Law 97-type emissions fines."
+   },
+   {
+    "name": "Natural & low-GWP refrigerant heat pumps (R290, CO2, R32/R454B)",
+    "description": "Heat pumps charged with propane (GWP ~3), CO2, or lower-GWP HFO blends to eliminate the refrigerant half of HVAC's climate impact as the EU F-gas regulation and US AIM Act squeeze HFCs out.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Vaillant",
+      "role": "incumbent",
+      "what": "Bet its flagship aroTHERM plus line on R290 propane, proving natural refrigerants can lead the mass market while enabling 75\u00b0C flow temperatures",
+      "signal": "R290 monoblocs now the best-selling architecture in several EU markets",
+      "status": "operating",
+      "source": "https://www.vaillant-group.com/"
+     },
+     {
+      "name": "NIBE",
+      "role": "incumbent",
+      "what": "S2125 and successors moved NIBE's core air-to-water range to R290 ahead of F-gas deadlines",
+      "signal": "R290 across new Nordic product generations",
+      "status": "operating",
+      "source": "https://www.nibe.eu/"
+     },
+     {
+      "name": "Wolf",
+      "role": "incumbent",
+      "what": "German maker whose CHA-Monoblock was an early mainstream R290 air-to-water unit",
+      "signal": "R290 monobloc shipping at volume since 2020",
+      "status": "operating",
+      "source": "https://www.wolf.eu/"
+     },
+     {
+      "name": "Carrier",
+      "role": "incumbent",
+      "what": "Led the US residential transition to R454B ('Puron Advance') across heat pump and AC lines under the AIM Act's 2025 changeover",
+      "signal": "2025 industry-wide R454B transition (with a telling refrigerant-cylinder shortage) completed across US majors",
+      "status": "operating",
+      "source": "https://www.corporate.carrier.com/"
+     },
+     {
+      "name": "Octopus Energy",
+      "role": "scaleup",
+      "what": "Cosy 6 designed in-house around R290 from day one, paired with installer training to handle A3 flammable-refrigerant rules",
+      "signal": "Thousands of UK installs under government BUS grants",
+      "status": "operating",
+      "source": "https://octopus.energy/"
+     },
+     {
+      "name": "Midea",
+      "role": "incumbent",
+      "what": "Ships R290 monobloc air-to-water units into Europe and supplies R290-ready compressors at the largest scale of any manufacturer",
+      "signal": "World's largest compressor maker tooling for natural refrigerants",
+      "status": "operating",
+      "source": "https://www.mideacomfort.us/"
+     }
+    ],
+    "white_space": "US codes and UL listings still largely block A3 (flammable) refrigerants indoors, so R290 \u2014 Europe's winning answer \u2014 has no US residential foothold; first movers on US-listed R290 packaged/monobloc designs (charge kept outdoors or hermetically small, e.g. window units) get a multi-year head start when rules loosen."
+   },
+   {
+    "name": "Thermally driven & gas-absorption heat pumps",
+    "description": "Heat pumps driven by gas combustion or engine shaft power (ammonia-water absorption, gas-engine vapor compression) that deliver 130-160% of fuel heating value \u2014 a transitional niche for buildings whose grids, panels, or budgets can't yet support full electrification.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Stone Mountain Technologies (SMTI)",
+      "role": "startup",
+      "what": "Anesi ammonia-absorption gas heat pump (~140% AFUE, propane or natural gas) for homes and light commercial \u2014 the main new North American entrant",
+      "signal": "Commercially available since Feb 2024; expanding rep network 2025 (A to Z Sales midwest, BSAL Atlantic Canada); championed by the propane industry",
+      "status": "operating",
+      "source": "https://www.lpgasmagazine.com/stone-mountain-technologies-increases-production-of-gas-heat-pumps/"
+     },
+     {
+      "name": "Robur",
+      "role": "incumbent",
+      "what": "Italian manufacturer selling commercial gas-absorption heat pumps (GAHP) for decades, the established European supplier in the niche",
+      "signal": "Long-running commercial product line",
+      "status": "operating",
+      "source": "https://www.robur.com/"
+     },
+     {
+      "name": "Yanmar Energy System",
+      "role": "incumbent",
+      "what": "Gas-engine heat pumps (GHP) widely deployed in Japanese commercial buildings to shave peak electric demand",
+      "signal": "Hundreds of thousands of GHP units installed in Japan",
+      "status": "operating",
+      "source": "https://www.yanmar.com/"
+     },
+     {
+      "name": "Aisin (Toyota Group)",
+      "role": "incumbent",
+      "what": "Major manufacturer of gas-engine heat pump systems alongside Yanmar in the Japanese GHP duopoly",
+      "signal": "Decades-old commercial GHP line",
+      "status": "operating",
+      "source": "https://www.aisin.com/"
+     },
+     {
+      "name": "Tecogen",
+      "role": "incumbent",
+      "what": "US maker of natural-gas engine-driven chillers/heat pumps and CHP for buildings with constrained electric service",
+      "signal": "NYSE American: TGEN; niche but persistent installed base",
+      "status": "operating",
+      "source": "https://www.tecogen.com/"
+     }
+    ],
+    "white_space": "Sparse by design: at COP ~1.4 on fossil fuel versus 3-4 electric, the niche shrinks as grids decarbonize \u2014 it remains credible only where gas/propane infrastructure is sunk and electric capacity is scarce (rural propane markets, demand-constrained urban feeders), so few entrants is rational rather than an opportunity gap."
+   },
+   {
+    "name": "Solid-state & caloric heating/cooling (thermoelectric, elastocaloric, magnetocaloric, barocaloric, thermoacoustic)",
+    "description": "Replaces the vapor-compression cycle with solid refrigerants or acoustic/semiconductor effects \u2014 zero F-gases, no compressor wear, and theoretically higher efficiency \u2014 but power density and cost still trail compressors, so F-gas regulation is the commercial wedge.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Phononic",
+      "role": "scaleup",
+      "what": "Thermoelectric cooling chips shipping commercially in optical transceivers, cold-chain, and data-center niches \u2014 the only solid-state player with volume products, though not yet space conditioning",
+      "signal": "Commercial products shipping; profiled by RMI in 2025 as a leading low-emission cooling player",
+      "status": "operating",
+      "source": "https://energydigital.com/articles/phononic-magnotherm-rmi-target-low-emission-cooling-tech"
+     },
+     {
+      "name": "Exergyn",
+      "role": "startup",
+      "what": "Dublin company building shape-memory-alloy elastocaloric cores intended to slot into OEM heat pumps and chillers in place of compressors",
+      "signal": "~$64M raised; Carrier Ventures investment reportedly valuing it above \u20ac200M",
+      "status": "operating",
+      "source": "https://www.coolingpost.com/world-news/carrier-invests-in-solid-state-heat-pump/"
+     },
+     {
+      "name": "Pascal",
+      "role": "startup",
+      "what": "Harvard spinout (Cambridge, MA) using metal-halide perovskite barocaloric solid refrigerants that work at far lower pressures than prior barocaloric materials",
+      "signal": "$8M seed May 2024 led by Engine Ventures with Khosla Ventures",
+      "status": "operating",
+      "source": "https://www.coolingpost.com/world-news/solid-refrigerant-system-attracts-8m-investment/"
+     },
+     {
+      "name": "Barocal",
+      "role": "startup",
+      "what": "University of Cambridge (UK) spinout commercializing barocaloric organic crystals for refrigerant-free cooling, now extending into heat pumps",
+      "signal": "\u20ac8.5M seed May 2026; named a 'Race to First' solid-state cooling frontrunner",
+      "status": "operating",
+      "source": "https://www.eu-startups.com/2026/05/cambridge-spin-out-barocal-raises-e8-5-million-seed-round-for-refrigerant-free-heating-and-cooling-tech/"
+     },
+     {
+      "name": "Magnotherm",
+      "role": "startup",
+      "what": "TU Darmstadt spinout building magnetocaloric coolers \u2014 pilot beverage coolers today, heat pumps on the roadmap, plus a 2025 magnetic-cooling hydrogen-liquefaction demo with HZDR",
+      "signal": "\u20ac6.3M seed (2023) plus EU grants; pilot units delivered; claims 15% efficiency edge over propane coolers",
+      "status": "operating",
+      "source": "https://www.coolingpost.com/world-news/magnetocaloric-firm-attracts-e6-3m-funding/"
+     },
+     {
+      "name": "BlueHeart Energy",
+      "role": "startup",
+      "what": "Dutch thermoacoustic 'engine' using helium and sound waves as the heat-pump core, supplied to HVAC OEMs rather than sold direct",
+      "signal": "Strategic investment from compressor giant Copeland (Apr 2025); OEM availability targeted Q1 2027",
+      "status": "operating",
+      "source": "https://www.pv-magazine.com/2025/04/02/copeland-invests-in-thermo-acoustic-heat-pump-developer/"
+     },
+     {
+      "name": "Equium",
+      "role": "startup",
+      "what": "French thermoacoustic heat-pump core developer pursuing the same OEM-component model as BlueHeart",
+      "signal": "~$6.6M raised through a small Series B (Feb 2024)",
+      "status": "operating",
+      "source": "https://tracxn.com/d/companies/equium/__cUZOvuvVAloRps1-FN-UuhLhkUbatchikrfiAZa7d6Q"
+     }
+    ],
+    "white_space": "Crowded with startups but empty of shipped space-conditioning products \u2014 specific cooling power, cyclic fatigue, and cost per kW all still lose to a $300 rotary compressor; the realistic wedge is F-gas phase-down niches (refrigeration, dehumidification) before whole-building HVAC."
+   },
+   {
+    "name": "Ultra-efficient AC & dehumidification (desiccant/evaporative hybrids) + high-efficiency HVAC components",
+    "description": "Splits humidity removal from sensible cooling using liquid or solid desiccants and advanced evaporative stages \u2014 cutting AC electricity 30-90% and shaving peak demand \u2014 while next-gen motors and oil-free compressors squeeze the remaining watts out of conventional systems; cooling is the fastest-growing electricity end use on earth.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Blue Frontier",
+      "role": "startup",
+      "what": "Liquid-desiccant air conditioner with built-in thermochemical energy storage, cutting cooling electricity ~45-90% and peak draw >90% by recharging desiccant off-peak",
+      "signal": "$20M Series A led by Breakthrough Energy Ventures; 2025 R&D 100 Award; first Florida commercial installs with trials nearly halving cooling bills",
+      "status": "operating",
+      "source": "https://www.facilitiesdive.com/news/desiccant-based-storage-system-nearly-halves-cooling-bills-in-trials/759499/"
+     },
+     {
+      "name": "AirJoule Technologies (formerly Montana Technologies)",
+      "role": "startup",
+      "what": "Sorbent-contactor 'AirJoule Core' for industrial dehumidification and atmospheric water harvesting (up to 250 L/day), claiming up to 80% energy savings versus desiccant wheels; 50/50 JV with GE Vernova",
+      "signal": "NASDAQ: AIRJ via 2024 SPAC; still pre-revenue per FY2025 10-K \u2014 commercialization risk explicit",
+      "status": "operating",
+      "source": "https://www.stocktitan.net/sec-filings/AIRJ/10-k-air-joule-technologies-corp-files-annual-report-1da1bba0be8e.html"
+     },
+     {
+      "name": "Mojave Energy Systems",
+      "role": "startup",
+      "what": "ArctiDry liquid-desiccant dedicated outdoor air system (DOAS) for commercial buildings, manufactured in Anderson, South Carolina",
+      "signal": "$9.5M Series A Dec 2024 (Fifth Wall, At One Ventures); 19 sales-rep firms added in a year; DOE manufacturing scale-up support",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/mojave-secures-9-5m-series-a-to-fuel-adoption-of-the-most-energy-efficient-commercial-air-conditioner-302335083.html"
+     },
+     {
+      "name": "Transaera",
+      "role": "startup",
+      "what": "MIT spinout coating heat exchangers with metal-organic-framework (MOF) sorbents so standard HVAC can strip humidity with far less energy",
+      "signal": "$8.2M seed-2 (Nov 2024) + $2.3M DOE grants; multi-year Amazon warehouse deal after a Houston pilot; underlying MOF chemistry won the 2025 Nobel Prize",
+      "status": "operating",
+      "source": "https://techcrunch.com/2024/11/05/how-a-box-on-a-roof-helped-transaera-to-land-8-2-million-in-funding/"
+     },
+     {
+      "name": "Danfoss",
+      "role": "incumbent",
+      "what": "Turbocor oil-free magnetic-bearing centrifugal compressors \u2014 the enabling component behind the world's most efficient chillers",
+      "signal": "De-facto standard in high-efficiency chiller retrofits",
+      "status": "operating",
+      "source": "https://www.danfoss.com/"
+     },
+     {
+      "name": "Copeland",
+      "role": "incumbent",
+      "what": "World's largest compressor maker (ex-Emerson Climate, Blackstone-majority) driving variable-speed scroll adoption and placing strategic bets on novel cycles (BlueHeart investment)",
+      "signal": "~$5B revenue; 2025 strategic investment in thermoacoustics",
+      "status": "operating",
+      "source": "https://www.pv-magazine.com/2025/04/02/copeland-invests-in-thermo-acoustic-heat-pump-developer/"
+     },
+     {
+      "name": "Infinitum",
+      "role": "scaleup",
+      "what": "Axial-flux motors with printed-circuit-board stators for HVAC fans and air handlers \u2014 ~50% smaller/lighter with integrated drive",
+      "signal": "$185M Series E (2023, led by Just Climate); shipping into commercial HVAC OEMs",
+      "status": "operating",
+      "source": "https://goinfinitum.com/"
+     },
+     {
+      "name": "Turntide Technologies",
+      "role": "scaleup",
+      "what": "Switched-reluctance 'smart motor' retrofits for HVAC that failed to scale in buildings \u2014 sold its building-automation division to BrainBox AI (May 2024) and pivoted to off-highway/industrial electrification after 2022-23 layoffs",
+      "signal": "Raised >$400M at peak; exit from building HVAC is cautionary evidence for component-only plays",
+      "status": "operating",
+      "source": "https://sustainabletechpartner.com/topics/ma/ma-sustainable-building-specialist-brainbox-ai-acquires-turntide-technologies-automation-division/"
+     }
+    ],
+    "white_space": "A prior liquid-desiccant wave already died on cost and maintenance (Advantix bankrupt mid-2010s; 7AC's tech absorbed by Emerson in 2019), and Turntide's retreat shows components need OEM channels \u2014 the open ground is humid-climate DOAS, grid-interactive cooling with built-in storage, and proving desiccant O&M economics over multi-year fleets."
+   }
+  ]
+ }
+}

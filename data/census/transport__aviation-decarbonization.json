@@ -1,0 +1,782 @@
+{
+ "sector": "transport",
+ "bucket": "Aviation Decarbonization",
+ "census": {
+  "bucket": "Aviation Decarbonization",
+  "variations": [
+   {
+    "name": "HEFA sustainable aviation fuel",
+    "description": "Hydrotreats waste fats, used cooking oil, and vegetable oils into drop-in jet fuel; it supplies ~80% of all SAF today and is the only pathway producing at large commercial scale, making it the workhorse of near-term aviation decarbonization despite a hard ceiling on waste-lipid feedstock.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Neste",
+      "role": "incumbent",
+      "what": "World's largest SAF producer; converted refineries in Singapore and Rotterdam dedicate ~1.5 Mt/yr to SAF capability",
+      "signal": "Rotterdam SAF line (500 kt/yr) started April 2025, bringing global SAF capability to 1.5 Mt/yr; long-term offtakes with Lufthansa, United, Air France-KLM",
+      "status": "operating",
+      "source": "https://www.privatecharterx.blog/sustainable-aviation-fuel-market-2025/"
+     },
+     {
+      "name": "World Energy",
+      "role": "scaleup",
+      "what": "First commercial SAF supplier (Paramount, CA since 2016); converting its Houston biorefinery into a 250M gal/yr SAF hub",
+      "signal": "DOE invited Part II application for ~$2B loan guarantee (2024); 70M-gallon SAF supply pact with Montana Renewables (2025)",
+      "status": "operating",
+      "source": "https://worldenergy.net/press-release/world-energy-department-of-energy-loan-guarantee/"
+     },
+     {
+      "name": "Montana Renewables (Calumet)",
+      "role": "scaleup",
+      "what": "Great Falls, MT refinery conversion; one of North America's largest SAF producers, expanding via the MaxSAF project to ~300M gal/yr",
+      "signal": "Closed $1.44B DOE loan facility Jan 2025 ($1.67B program); first $782M tranche drawn in 2025 despite federal funding freeze delay",
+      "status": "operating",
+      "source": "https://calumet.com/montana-renewables-announces-closing-of-1-44-billion-doe-loan-facility-for-renewable-fuels-and-biomass-energy-facility/"
+     },
+     {
+      "name": "EcoCeres",
+      "role": "scaleup",
+      "what": "Hong Kong-based waste-feedstock biorefiner (used cooking oil) with HEFA plants in Zhangjiagang, China and Pasir Gudang, Malaysia",
+      "signal": "Malaysia plant (420 kt/yr HVO/SAF/naphtha) commissioned Oct 2025, inaugurated Jan 2026; ~770 kt/yr combined renewable fuels capacity; Bain Capital-backed",
+      "status": "operating",
+      "source": "https://biofuels-news.com/news/ecoceres-inaugurates-first-saf-plant-in-malaysia/"
+     },
+     {
+      "name": "Diamond Green Diesel (Valero/Darling)",
+      "role": "incumbent",
+      "what": "Largest US renewable diesel maker; added a 235M gal/yr SAF upgrade at Port Arthur, TX \u2014 the biggest single US SAF capacity",
+      "signal": "Port Arthur SAF unit online since late 2024; part of ~1.2B gal/yr renewable fuels JV",
+      "status": "operating",
+      "source": "https://farmdocdaily.illinois.edu/2025/01/estimates-of-sustainable-aviation-fuel-production-capacity-at-u-s-renewable-diesel-plants-through-2026.html"
+     },
+     {
+      "name": "Phillips 66",
+      "role": "incumbent",
+      "what": "Converted its Rodeo, CA oil refinery to one of the world's largest renewable fuels plants with SAF output",
+      "signal": "Rodeo Renewed (~50,000 bpd renewable fuels) ramped 2024-25 with SAF trains; supplying California airports",
+      "status": "operating",
+      "source": "https://farmdocdaily.illinois.edu/2025/01/estimates-of-sustainable-aviation-fuel-production-capacity-at-u-s-renewable-diesel-plants-through-2026.html"
+     },
+     {
+      "name": "TotalEnergies",
+      "role": "incumbent",
+      "what": "Converted French refineries (Grandpuits, Normandy) to co-process and produce HEFA SAF for the EU mandate market",
+      "signal": "Among top-3 global SAF suppliers by offtake volume; long-term airline contracts through 2030",
+      "status": "operating",
+      "source": "https://www.privatecharterx.blog/sustainable-aviation-fuel-market-2025/"
+     }
+    ]
+   },
+   {
+    "name": "Alcohol-to-jet SAF",
+    "description": "Chemically dehydrates and oligomerizes ethanol or isobutanol into jet fuel, unlocking the huge existing ethanol industry (and future CO2- or biogas-derived alcohols) as SAF feedstock far beyond the limited supply of waste fats.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "LanzaJet",
+      "role": "scaleup",
+      "what": "Built and operates the world's first commercial-scale ethanol-to-jet plant (Freedom Pines Fuels, Soperton, GA \u2014 10M gal/yr) and licenses its ATJ process globally",
+      "signal": "First commercial-scale ethanol-based jet fuel produced Nov 2025; backers include Suncor, Mitsui, Shell, Airbus, Microsoft Climate Fund; license projects in UK, Japan, Uzbekistan",
+      "status": "operating",
+      "source": "https://www.lanzajet.com/news-insights/lanzajet-makes-history"
+     },
+     {
+      "name": "Gevo",
+      "role": "scaleup",
+      "what": "Isobutanol/ethanol-to-jet developer; Net-Zero 1 (Lake Preston, SD) designed for ~60M gal/yr SAF with on-site CCS",
+      "signal": "$1.46B DOE loan commitment (Oct 2024); acquired Red Trail Energy ethanol+CCS plant; NZ1 FID still pending \u2014 economics strained by denied Summit CO2 pipeline permits",
+      "status": "operating",
+      "source": "https://esgnews.com/gevo-secures-1-46-billion-doe-loan-for-worlds-first-net-zero-aviation-fuel-plant/"
+     },
+     {
+      "name": "Swedish Biofuels",
+      "role": "startup",
+      "what": "Proprietary ATJ-SKA process making fully synthetic (100% drop-in) jet fuel from C2-C5 alcohols, biogas, or CO2+H2",
+      "signal": "20,000 t/yr demonstration plant at Brista, Sweden \u2014 basic engineering complete, EPCM selected, commissioning targeted mid-2020s",
+      "status": "operating",
+      "source": "https://swedishbiofuels.se/projects/biological-fully-synthetic-jet"
+     },
+     {
+      "name": "Summit Next Gen",
+      "role": "startup",
+      "what": "Developing a large Houston-area ethanol-to-SAF conversion plant using licensed technology, fed by Midwest ethanol",
+      "signal": "Part of Summit Agricultural Group; planned ~250M gal/yr facility, among the largest announced US ATJ projects",
+      "status": "operating",
+      "source": "https://www.resources.org/common-resources/the-promise-of-ethanol-to-jet-for-sustainable-aviation-fuel-in-the-united-states/"
+     },
+     {
+      "name": "Honeywell UOP",
+      "role": "incumbent",
+      "what": "Licenses ethanol-to-jet process technology (plus the dominant HEFA Ecofining process), letting refiners and developers buy rather than invent ATJ chemistry",
+      "signal": "ETJ technology selected by multiple announced US ATJ projects",
+      "status": "operating",
+      "source": "https://www.resources.org/common-resources/the-promise-of-ethanol-to-jet-for-sustainable-aviation-fuel-in-the-united-states/"
+     }
+    ]
+   },
+   {
+    "name": "Gasification & Fischer-Tropsch SAF from waste/biomass",
+    "description": "Gasifies municipal solid waste or woody biomass into syngas and synthesizes Fischer-Tropsch jet fuel \u2014 promising effectively unlimited cheap feedstock, but historically plagued by feedstock-handling failures, syngas cleanup problems, and capex blowouts.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Fulcrum BioEnergy",
+      "role": "startup",
+      "what": "Built the world's first municipal-waste-to-fuels plant (Sierra, NV) feeding FT synthesis",
+      "signal": "Chapter 11 in September 2024 after ~$1B raised from airlines and oil majors; Sierra plant disabled by nitric acid corrosion and feedstock sludge buildup",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2608211-fulcrum-bioenergy-files-for-chapter-11-relief"
+     },
+     {
+      "name": "Red Rock Biofuels",
+      "role": "startup",
+      "what": "Attempted a woody-biomass gasification + FT SAF plant in Lakeview, Oregon",
+      "signal": "Construction stalled ~2022 after cost overruns; unfinished plant sold at auction \u2014 a second high-profile gasification-FT failure alongside Fulcrum",
+      "status": "bankrupt-shutdown"
+     },
+     {
+      "name": "DG Fuels",
+      "role": "startup",
+      "what": "Developing a ~$4-5B cellulosic (bagasse/wood waste) FT SAF plant in St. James Parish, Louisiana (~180M gal/yr), one of the largest announced SAF projects",
+      "signal": "Strategic investment from Airbus; offtakes with Delta and Air France-KLM; FID targeted mid-2020s",
+      "status": "operating",
+      "source": "https://dgfuels.com"
+     },
+     {
+      "name": "Velocys",
+      "role": "scaleup",
+      "what": "Supplies microchannel Fischer-Tropsch reactors that make small-scale FT economic; technology behind the UK Altalto waste-to-SAF project",
+      "signal": "Taken private in 2024 in a ~$40M rescue (Carbon Direct, Lightrock, GenZero, Kibo); UK government SAF funding supports its black-bag-waste project",
+      "status": "operating",
+      "source": "https://velocys.com/fischer-tropsch-reactor-technology/"
+     },
+     {
+      "name": "Aether Fuels",
+      "role": "startup",
+      "what": "Temasek/Xora-incubated startup with 'Aether Aurora' flexible syngas-to-liquids platform tolerant of mixed waste-carbon feedstocks",
+      "signal": "Venture-stage (~$35M+ raised); pilot-scale technology development in Singapore and US",
+      "status": "operating",
+      "source": "https://aetherfuels.com"
+     },
+     {
+      "name": "Enerkem",
+      "role": "scaleup",
+      "what": "Canadian MSW gasification company (Edmonton pioneer plant; Varennes Carbon Recycling project in Qu\u00e9bec) producing methanol/ethanol convertible toward jet",
+      "signal": "Edmonton plant closed and major restructuring 2024-25; Varennes project continuing with government backing",
+      "status": "uncertain",
+      "source": "https://www.ieabioenergy.com/wp-content/uploads/2024/06/IEA-Bioenergy-Task-39-SAF-report.pdf"
+     },
+     {
+      "name": "Johnson Matthey (with bp)",
+      "role": "incumbent",
+      "what": "Co-developed FT CANS fixed-bed Fischer-Tropsch technology licensed to waste-to-SAF developers (was selected by Fulcrum, DG Fuels, Strategic Biofuels)",
+      "signal": "Established catalysis incumbent monetizing SAF via licensing rather than project risk",
+      "status": "operating",
+      "source": "https://en.wikipedia.org/wiki/Fischer%E2%80%93Tropsch_process"
+     }
+    ],
+    "white_space": "Two flagship failures (Fulcrum 2024, Red Rock ~2022) prove the chokepoint is feedstock prep and syngas cleanup at scale, not FT chemistry \u2014 yet waste feedstock remains the largest untapped SAF resource; the opening is for modular FT (Velocys/Ineratec-style) paired with already-proven gasifiers or with clean point-source syngas, and for developers who de-risk the front end before scaling."
+   },
+   {
+    "name": "Power-to-liquid e-SAF",
+    "description": "Synthesizes jet fuel from green hydrogen and captured CO2 (via Fischer-Tropsch, methanol, or direct CO2 electrolysis routes); feedstock is effectively unlimited and lifecycle carbon lowest of any pathway, but cost hinges on cheap clean electricity \u2014 EU/UK e-SAF sub-mandates from 2030 create guaranteed demand.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Infinium",
+      "role": "scaleup",
+      "what": "Operates Project Roadrunner in West Texas \u2014 the world's first commercial-scale eFuels facility \u2014 with the larger SAF-focused Project Pegasus next",
+      "signal": "Up to ~$1.1B framework from Brookfield (part of $1.7B raised by Infinium+Twelve); offtakes with IAG, American Express GBT",
+      "status": "operating",
+      "source": "https://www.greenairnews.com/?p=6129"
+     },
+     {
+      "name": "Twelve",
+      "role": "scaleup",
+      "what": "CO2 electrolysis (polymer-electrolyte CO2-to-CO) feeding its E-Jet fuel; AirPlant One in Moses Lake, WA is its first commercial facility",
+      "signal": "$645M raised (TPG Rise Climate-led project equity + Series C); AirPlant One production from ~2025; offtakes with Alaska Airlines and IAG",
+      "status": "operating",
+      "source": "https://www.greenairnews.com/?p=6129"
+     },
+     {
+      "name": "Ineratec",
+      "role": "scaleup",
+      "what": "German maker of modular Fischer-Tropsch reactors; building Europe's largest e-fuel plant (ERA ONE, Frankfurt)",
+      "signal": "\u20ac70M EIB venture debt + Breakthrough Energy Catalyst grant (Mar 2025) on top of ~$129M Series B; ERA ONE commissioning mid-2020s",
+      "status": "operating",
+      "source": "https://www.ineratec.de/en/news/e-fuel-producer-ineratec-has-received-funding-commitment-eu70-million-european-investment-bank"
+     },
+     {
+      "name": "Synhelion",
+      "role": "startup",
+      "what": "Solar-thermochemical route: concentrated sunlight drives thermochemical syngas production, cutting dependence on electrolysis",
+      "signal": "DAWN (J\u00fclich, Germany) \u2014 world's first industrial solar fuel plant (2024); SWISS/Lufthansa partnership; RISE commercial plant planned in Spain",
+      "status": "operating",
+      "source": "https://synhelion.com"
+     },
+     {
+      "name": "Air Company",
+      "role": "startup",
+      "what": "CO2-to-alcohols-to-jet (AIRMADE) using proprietary catalysts, originally proven on consumer products (vodka/fragrance)",
+      "signal": "US DoD contracts (incl. up to ~$65M military SAF deal); JetBlue offtake; venture-backed",
+      "status": "operating",
+      "source": "https://aircompany.com"
+     },
+     {
+      "name": "Norsk e-Fuel",
+      "role": "startup",
+      "what": "Building one of Europe's first industrial PtL e-SAF plants in Mosj\u00f8en, Norway, using Sunfire electrolysis and Climeworks DAC within a hydropower grid",
+      "signal": "Boeing investment (2025); first plant targeting production late 2020s",
+      "status": "operating",
+      "source": "https://www.biobased-diesel.com/post/boeing-norsk-e-fuel-expand-efforts-to-advance-efuels"
+     },
+     {
+      "name": "Arcadia eFuels",
+      "role": "startup",
+      "what": "Danish developer of the ENDOR e-SAF plant in Vordingborg \u2014 one of the only European e-SAF projects with completed FEED",
+      "signal": "FEED complete but FID repeatedly delayed awaiting offtakes and financing \u2014 emblematic of Europe's e-SAF FID gap",
+      "status": "operating",
+      "source": "https://arcadiaefuels.com/"
+     },
+     {
+      "name": "OXCCU",
+      "role": "startup",
+      "what": "Oxford spin-out with a one-step CO2+H2-to-jet catalyst that skips the separate FT/upgrading steps, cutting capex",
+      "signal": "$28M Series B (Sept 2025) with IAG, Safran, Orlen VC; first SAF company to win an ATI Non-CO2 grant; pilot plant at Oxford Airport",
+      "status": "operating",
+      "source": "https://www.oxccu.com/press-releases/oxccu-raises-28m-in-series-b-funding-to-scale-sustainable-aviation-fuel-from-waste-carbon"
+     },
+     {
+      "name": "Metafuels",
+      "role": "startup",
+      "what": "Swiss developer of 'aerobrew' methanol-to-jet technology offering high selectivity to jet from green methanol",
+      "signal": "$24M Series A (Energy Impact Partners et al.); demo unit with RWE in Germany",
+      "status": "operating",
+      "source": "https://www.esgtoday.com/metafuels-raises-24-million-to-scale-synthetic-sustainable-aviation-fuel-technology/"
+     }
+    ]
+   },
+   {
+    "name": "Emerging SAF routes: pyrolysis, HTL, algae, CO2-to-ethanol chains",
+    "description": "Earlier-stage chemistry \u2014 fast-pyrolysis oil upgrading, hydrothermal liquefaction of wet wastes like sewage biosolids, engineered algae oils, and waste-gas fermentation to ethanol \u2014 aimed at unlocking cheap, abundant feedstocks the mainstream pathways cannot use.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "LanzaTech",
+      "role": "scaleup",
+      "what": "Gas fermentation converting industrial waste gases and CO2 into ethanol that feeds LanzaJet's ATJ plants \u2014 the front half of the CO2-to-jet chain",
+      "signal": "NASDAQ-listed but distressed: going-concern doubt despite $40M preferred equity (May 2025), 1-for-100 reverse split (Aug 2025) for Nasdaq compliance; licensing deals continue (e.g., Uzbekistan ethanol+SAF complex)",
+      "status": "operating",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001843724/000162828025026378/lnzaex991-pressrelease1q25.htm"
+     },
+     {
+      "name": "Firefly Green Fuels",
+      "role": "startup",
+      "what": "Hydrothermal liquefaction of sewage biosolids into SAF \u2014 a negative-cost, city-scale feedstock nobody else uses",
+      "signal": "Wizz Air offtake; Synagro partnership for North American biosolids; Builders Vision backing; first UK plant targeted 2028/29",
+      "status": "operating",
+      "source": "https://biofuels-news.com/news/firefly-green-fuels-and-synagro-to-unlock-saf-production-from-biosolids-in-north-america/"
+     },
+     {
+      "name": "Alder Renewables",
+      "role": "startup",
+      "what": "Upgrades biomass pyrolysis oil into 'Alder SAF100', a 100% drop-in fuel candidate from woody residues",
+      "signal": "Backed by United Airlines Ventures, Boeing and Avfuel; pilot-scale production and SAF100 testing underway",
+      "status": "operating",
+      "source": "https://www.alderrenewables.com/latest-news-research/alder-saf100-accelerating-development-for-next-generation-sustainable-fuels"
+     },
+     {
+      "name": "Viridos",
+      "role": "startup",
+      "what": "Engineered high-lipid algae strains for algal jet fuel (the former ExxonMobil algae program)",
+      "signal": "ExxonMobil exited 2023 calling algae 'too difficult and expensive'; Chapter 11 April 2025; assets sold to Breakthrough Energy Ventures in a 64-day sale completed Nov 2025",
+      "status": "acquired",
+      "source": "https://elevenflo.com/blog/viridos-bankruptcy"
+     },
+     {
+      "name": "Honeywell UOP",
+      "role": "incumbent",
+      "what": "Offers upgrading technology (e.g., pyrolysis-oil and eFining routes) that lets emerging-feedstock developers reach ASTM-qualified jet",
+      "signal": "Technology licensed across multiple DOE-supported emerging SAF projects",
+      "status": "operating",
+      "source": "https://www.safinvestor.com/news/142325/us-department-of-energy-awards-108m-to-13-saf-projects/"
+     }
+    ],
+    "white_space": "Algae has now failed twice at corporate scale (Exxon exit 2023, Viridos Chapter 11 2025) \u2014 biology plus harvesting economics remain unsolved physics-of-cost; meanwhile wet-waste HTL has gate-fee-negative feedstock at every city wastewater plant and essentially one credible player (Firefly), so process developers that partner with water utilities face an almost empty field."
+   },
+   {
+    "name": "Battery-electric fixed-wing aircraft",
+    "description": "Replaces turbines with battery packs and electric motors for true zero-emission flight; today's cell energy density caps useful range at roughly 100-400nm, so the market is flight training, cargo feeders, and 9-90 seat regional designs that bet on future batteries.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "BETA Technologies",
+      "role": "scaleup",
+      "what": "ALIA CX300 fixed-wing electric (plus A250 eVTOL) with a build-the-charging-network strategy along the US East Coast",
+      "signal": "IPO'd on NYSE Oct-Nov 2025 (sought ~$825M at up to $7.2B valuation); $300M GE Aerospace investment; customers include UPS, Bristow, Air New Zealand",
+      "status": "operating",
+      "source": "https://www.cnbc.com/2025/10/16/beta-technologies-ipo-value-evtol.html"
+     },
+     {
+      "name": "Eviation",
+      "role": "startup",
+      "what": "Alice 9-passenger clean-sheet electric commuter (flew once in 2022); claimed $5B order book from Cape Air, DHL and others",
+      "signal": "Laid off most staff and paused Alice development indefinitely in Feb 2025 while seeking strategic partners",
+      "status": "uncertain",
+      "source": "https://www.ainonline.com/aviation-news/air-transport/2025-02-18/eviation-pauses-alice-electric-aircraft-while-seeking-new"
+     },
+     {
+      "name": "Elysian",
+      "role": "startup",
+      "what": "Dutch startup designing the E9X, a 90-seat battery-electric airliner premised on ~400 Wh/kg cells and ~400nm range",
+      "signal": "Design refined April 2026 (larger wing, more weight); scale model in 2-3 years, full prototype ~2030, service ~2033; Panta Holdings-backed",
+      "status": "operating",
+      "source": "https://www.flightglobal.com/air-transport/2026/04/elysian-tweaks-e9x-design-boosting-weight-and-wingspan-of-battery-powered-aircraft/"
+     },
+     {
+      "name": "Pipistrel (Textron eAviation)",
+      "role": "incumbent",
+      "what": "Velis Electro \u2014 the world's only EASA type-certified electric airplane, in serial production for flight schools",
+      "signal": "Hundreds delivered globally; acquired by Textron in 2022 as its eAviation anchor",
+      "status": "acquired",
+      "source": "https://www.pipistrel-aircraft.com"
+     },
+     {
+      "name": "Diamond Aircraft",
+      "role": "incumbent",
+      "what": "Developing the eDA40 electric trainer with quick-charge capability; parent Wanfeng also absorbed Volocopter's assets",
+      "signal": "eDA40 in flight test toward certification; established GA manufacturing base",
+      "status": "operating",
+      "source": "https://www.diamondaircraft.com"
+     },
+     {
+      "name": "Bye Aerospace",
+      "role": "startup",
+      "what": "eFlyer 2/4 electric trainers pursued since the mid-2010s",
+      "signal": "Certification repeatedly delayed amid persistent funding gaps; program continuation unclear",
+      "status": "uncertain",
+      "source": "https://byeaerospace.com"
+     }
+    ],
+    "white_space": "The 9-19 seat pure-battery commuter segment has been gutted (Eviation paused, Bye stalled) because ~250-300 Wh/kg pack-level density cannot close the payload-range business case; trainers (Pipistrel) and cargo feeders work today, and the opening reopens only when 400+ Wh/kg cells (solid-state/silicon-anode) reach aviation qualification \u2014 battery suppliers, not airframers, hold the bottleneck."
+   },
+   {
+    "name": "Hybrid-electric propulsion & retrofits",
+    "description": "Pairs combustion engines or turbogenerators with electric motors and batteries to cut fuel burn ~30-50% on regional aircraft, and de-risks certification by retrofitting existing airframes \u2014 the pragmatic bridge while batteries and hydrogen mature.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Heart Aerospace",
+      "role": "startup",
+      "what": "ES-30 30-seat hybrid-electric regional airliner (battery + turbogenerator 'Independent Hybrid'); built the full-scale Heart X1 demonstrator",
+      "signal": "~$145M raised (United, Air Canada, EQT, Breakthrough); relocated HQ from Gothenburg to Los Angeles Apr 2025 and shut Swedish operations; X1 electric first flight planned from Plattsburgh, NY, hybrid X2 to follow",
+      "status": "operating",
+      "source": "https://heartaerospace.com/newsroom/heart-aerospace-relocates-corporate-headquarters-to-los-angeles-california/"
+     },
+     {
+      "name": "Ampaire",
+      "role": "startup",
+      "what": "Hybrid-electric retrofits of in-service aircraft \u2014 Eco Caravan (Cessna Grand Caravan with AMP-H570 parallel hybrid) targeting the first FAA STC for hybrid propulsion",
+      "signal": "Most hybrid flight hours of any startup; STC program in progress with launch operators signed",
+      "status": "operating",
+      "source": "https://skiesmag.com/features/the-hybrid-electric-evolution/"
+     },
+     {
+      "name": "VoltAero",
+      "role": "startup",
+      "what": "Cassio 330 five-seat hybrid aircraft built around Safran's ENGINeUS electric motor plus combustion sustainer; also sells the HPU 210 kit powertrain",
+      "signal": "Safran ENGINeUS 100 certified Feb 2025 clears its propulsion path; Cassio 330 certification targeted ~2026",
+      "status": "operating",
+      "source": "https://www.militaryaerospace.com/home/article/55295098/voltaero-debuts-hybrid-powerplant-for-kit-aircraft"
+     },
+     {
+      "name": "Electra",
+      "role": "startup",
+      "what": "EL9 'Ultra-STOL' 9-seat hybrid with blown-lift wing \u2014 takes off in ~150 ft, opening thousands of unused airstrips with 1,100nm hybrid range",
+      "signal": "$115M Series B (2025); 2,000+ aircraft in LOIs/pre-orders; FAA Part 23 certification targeted ~2029",
+      "status": "operating",
+      "source": "https://www.electra.aero"
+     },
+     {
+      "name": "magniX",
+      "role": "scaleup",
+      "what": "Supplies certified-track electric propulsion units (magni350/650) powering Harbour Air's eBeaver, Eviation's Alice, and NASA's electrified Dash 7 demo; Samson battery line",
+      "signal": "NASA electrified powertrain flight demo contract; Clermont Group-owned",
+      "status": "operating",
+      "source": "https://www.magnix.aero"
+     },
+     {
+      "name": "Safran",
+      "role": "incumbent",
+      "what": "ENGINeUS 100 became the first type-certified electric aviation motor (EASA, Feb 2025), supplying VoltAero, Diamond eDA40 and others",
+      "signal": "First-mover certified electric motor among tier-1 engine makers",
+      "status": "operating",
+      "source": "https://www.militaryaerospace.com/home/article/55295098/voltaero-debuts-hybrid-powerplant-for-kit-aircraft"
+     },
+     {
+      "name": "Surf Air Mobility",
+      "role": "scaleup",
+      "what": "NYSE-listed regional operator developing electrified/hybrid Cessna Caravan powertrains (with magniX) to convert its own and SkyWest-linked fleets",
+      "signal": "Public (NYSE: SRFM); financially strained but advancing powertrain STC program",
+      "status": "operating",
+      "source": "https://www.surfair.com"
+     }
+    ],
+    "white_space": "Incumbent engine makers have retreated (Rolls-Royce sold off its electric-propulsion unit; Pratt & Whitney slowed its Dash 8 hybrid demo), and Heart's downsizing shows clean-sheet regional hybrids strain venture funding \u2014 certification cost versus a small regional market is the chokepoint, so retrofit STCs on existing airframes (Ampaire-style) are the nearest-term wedge and remain thinly contested."
+   },
+   {
+    "name": "Hydrogen fuel-cell & H2-combustion aircraft plus airport H2 fueling",
+    "description": "Uses hydrogen in fuel cells driving electric props (or burned directly in turbines) for zero-carbon flight beyond battery range; requires cryogenic or high-pressure storage on board and entirely new airport fueling infrastructure, creating a chicken-and-egg scaling problem.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "ZeroAvia",
+      "role": "scaleup",
+      "what": "Hydrogen-electric powertrains (ZA600 for 9-19 seats, ZA2000 for regionals) flight-tested on a Dornier 228; certification path with UK CAA/FAA",
+      "signal": "Warned Sept 2025 it had cash only to Q1 2026, then closed Series D Dec 2025 (Barclays Climate Ventures, Breakthrough, Horizons, UK National Wealth Fund); ~100-engine order from American Airlines",
+      "status": "operating",
+      "source": "https://www.flightglobal.com/aerospace/zeroavia-warns-of-funding-shortfall-beyond-first-quarter-of-2026-amid-series-d-investment-push/164672.article"
+     },
+     {
+      "name": "Universal Hydrogen",
+      "role": "startup",
+      "what": "Modular hydrogen capsule logistics ('nespresso pod' fueling) plus Dash 8 fuel-cell conversions; flew a 40-seat testbed in 2023",
+      "signal": "Shut down June-July 2024 after burning ~$100M (GE, Airbus, American, Toyota-backed); $1B+ conversion backlog evaporated; assets liquidated",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.canarymedia.com/articles/air-travel/universal-hydrogen-aircraft-shut-down-fuel-cell"
+     },
+     {
+      "name": "H2FLY",
+      "role": "startup",
+      "what": "Stuttgart-based fuel-cell aircraft pioneer; flew the world's first piloted liquid-hydrogen fuel-cell flight (HY4, Sept 2023)",
+      "signal": "Acquired by Joby Aviation in 2021; supplies hydrogen powertrain R&D for Joby's 561-mile hydrogen-electric S4 demo (2024)",
+      "status": "acquired",
+      "source": "https://www.h2fly.de"
+     },
+     {
+      "name": "Beyond Aero",
+      "role": "startup",
+      "what": "French startup designing BYA-1, a clean-sheet hydrogen-electric business jet (~800nm) \u2014 the only H2 program native to business aviation",
+      "signal": "~$44M+ raised; flew a sub-scale H2 testbed; entry into service targeted ~2030",
+      "status": "operating",
+      "source": "https://lowaltitudeeconomy.aero/ev-electric-aircraft/beyond-aeros-bya-1-hydrogen-aircraft-program-update-2025"
+     },
+     {
+      "name": "Airbus",
+      "role": "incumbent",
+      "what": "ZEROe program \u2014 the only large-airframer hydrogen airliner effort, now refocused on a fuel-cell concept",
+      "signal": "Feb 2025: pushed ZEROe from 2035 to the early 2040s and cut budget ~25%; airports scaled back H2 plans in response",
+      "status": "operating",
+      "source": "https://www.aerotime.aero/articles/airbus-pushes-back-development-of-zeroe-hydrogen-powered-aircraft-program"
+     },
+     {
+      "name": "Fabrum",
+      "role": "startup",
+      "what": "New Zealand maker of liquid-hydrogen storage, liquefaction and airport fueling systems \u2014 the ground half of hydrogen aviation",
+      "signal": "Supplying LH2 ground infrastructure for aviation trials incl. Christchurch/Air New Zealand hydrogen ecosystem work",
+      "status": "operating",
+      "source": "https://fabrum.nz"
+     },
+     {
+      "name": "Cranfield Aerospace Solutions",
+      "role": "startup",
+      "what": "Project Fresson \u2014 hydrogen fuel-cell retrofit of the 9-seat Britten-Norman Islander for short island routes",
+      "signal": "Safran-backed; planned merger with Britten-Norman called off in 2024; funding remains tight",
+      "status": "operating",
+      "source": "https://cranfieldaerospace.com"
+     },
+     {
+      "name": "Stralis Aircraft",
+      "role": "startup",
+      "what": "Australian startup converting a Beech Bonanza then 15-seat B1900D to hydrogen-electric with high-temperature PEM fuel cells",
+      "signal": "Seed-stage; Brisbane facility; targeting regional Australian routes",
+      "status": "operating",
+      "source": "https://www.stralis.aero"
+     }
+    ],
+    "white_space": "Universal Hydrogen's collapse and the Airbus ZEROe slip to the 2040s froze airline and airport H2 investment \u2014 the chicken-and-egg between aircraft and fueling infrastructure is the binding constraint, not the fuel cell; the credible near-term openings are sub-regional retrofits certified under existing rules and airport cryogenic ground equipment (Fabrum is nearly alone), which monetize before any H2 airliner exists."
+   },
+   {
+    "name": "eVTOL & urban air mobility",
+    "description": "Battery-powered vertical-takeoff air taxis replacing helicopters and congested car trips; zero operational emissions and far quieter, though net climate benefit depends on displacing higher-carbon modes at scale \u2014 and the sector just went through a brutal shakeout separating certifiers from the rest.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Joby Aviation",
+      "role": "scaleup",
+      "what": "S4 tilt-prop air taxi; furthest along in FAA certification and first Western commercial launch via Dubai",
+      "signal": "Flew first FAA-conforming TIA aircraft Mar 2026 (Stage 4); type certificate expected late 2026; acquired Blade's passenger business; Toyota-backed (~$894M)",
+      "status": "operating",
+      "source": "https://www.altitudesmagazine.com/joby-aviation-targets-late-2026-commercial-launch-faa-certification/"
+     },
+     {
+      "name": "Archer Aviation",
+      "role": "scaleup",
+      "what": "Midnight 4-passenger eVTOL; UAE early operations and LA28 Olympics partnership; Stellantis manufacturing alliance",
+      "signal": "Raised ~$850M in 2025; FAA Stage 3; began UAE test flights late 2025; bought Lilium's patent portfolio out of insolvency",
+      "status": "operating",
+      "source": "https://www.flyingmag.com/archer-secures-lilium-evtol-patents/"
+     },
+     {
+      "name": "EHang",
+      "role": "scaleup",
+      "what": "Autonomous 2-seat EH216-S \u2014 the first eVTOL in the world to hold full type, production, and operating certificates (China)",
+      "signal": "Paid autonomous sightseeing operations running in Chinese cities; one of only two companies globally with the full certificate set as of April 2026",
+      "status": "operating",
+      "source": "https://datadeep.tech/evtol-industry-2026-reckoning-joby-archer-beta-type-certification/"
+     },
+     {
+      "name": "Vertical Aerospace",
+      "role": "scaleup",
+      "what": "UK developer of the VX4 piloted eVTOL; also unveiled a longer-range hybrid-electric variant in 2025",
+      "signal": "NYSE-listed; survived 2024-25 refinancing led by Mudrick Capital; VX4 in expanding piloted flight test",
+      "status": "operating",
+      "source": "https://www.flyingmag.com/vertical-aerospace-unveils-hybrid-electric-complement-to-evtol-air-taxi/"
+     },
+     {
+      "name": "Wisk Aero",
+      "role": "scaleup",
+      "what": "Autonomous-first 4-seat Gen 6 air taxi \u2014 the only major program skipping piloted operations entirely",
+      "signal": "Wholly owned by Boeing since 2023; targeting commercial launch toward the end of the decade",
+      "status": "acquired",
+      "source": "https://evtol.news/news/evtol-leaders-separate-from-the-pack"
+     },
+     {
+      "name": "Eve Air Mobility",
+      "role": "scaleup",
+      "what": "Embraer-backed eVTOL leveraging the parent's certification and manufacturing experience, with one of the largest LOI order books",
+      "signal": "Raised $150M Jan 2026; prototype in flight test; NYSE-listed",
+      "status": "operating",
+      "source": "https://www.electrive.com/2026/01/26/evtol-developer-eve-air-mobility-secures-150-million/"
+     },
+     {
+      "name": "AutoFlight",
+      "role": "startup",
+      "what": "Chinese maker of the CarryAll cargo eVTOL \u2014 holds Chinese type and production certificates for cargo operations",
+      "signal": "One of only two companies worldwide with the full certificate set (cargo); backed by Team Global",
+      "status": "operating",
+      "source": "https://datadeep.tech/evtol-industry-2026-reckoning-joby-archer-beta-type-certification/"
+     },
+     {
+      "name": "Lilium",
+      "role": "startup",
+      "what": "German 6-seat ducted-fan Lilium Jet promising regional eVTOL range",
+      "signal": "Insolvent Oct 2024 after Bundestag blocked a \u20ac50M guarantee; rescue collapsed; second insolvency Feb 2025, ~1,000 laid off, aircraft scrapped, patents sold to Archer",
+      "status": "bankrupt-shutdown",
+      "source": "https://datadeep.tech/evtol-industry-2026-reckoning-joby-archer-beta-type-certification/"
+     },
+     {
+      "name": "Volocopter",
+      "role": "startup",
+      "what": "German multirotor VoloCity pioneer; post-insolvency pivoted to the VoloXPro, a \u20ac490k eVTOL for the general-aviation market",
+      "signal": "Insolvency Dec 2024; assets bought ~$11M in Mar 2025 by Wanfeng (Diamond Aircraft's Chinese parent); VoloXPro launched Apr 2026 targeting year-end approval",
+      "status": "acquired",
+      "source": "https://www.flightglobal.com/evtol/2026/04/volocopter-launches-voloxpro-as-first-product-and-targets-year-end-approval/"
+     },
+     {
+      "name": "Supernal (Hyundai)",
+      "role": "startup",
+      "what": "Hyundai's advanced air mobility unit developing the S-A2 eVTOL with automotive-scale manufacturing ambitions",
+      "signal": "Paused aircraft development Aug-Sept 2025 after CEO/CTO departures and layoffs; 2026 KAI memorandum aims to restart the program",
+      "status": "uncertain",
+      "source": "https://techcrunch.com/2025/09/07/hyundais-evtol-startup-supernal-pauses-work-following-ceo-and-cto-departures/"
+     }
+    ]
+   },
+   {
+    "name": "Flight-ops efficiency & contrail avoidance",
+    "description": "Software that optimizes routes, climb profiles, taxiing and fuel decisions \u2014 and now reroutes flights around ice-supersaturated air to avoid warming contrails \u2014 cutting 1-5% of fuel burn and potentially a large share of aviation's non-CO2 forcing at near-zero hardware cost.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "OpenAirlines",
+      "role": "scaleup",
+      "what": "SkyBreathe \u2014 the most widely used airline fuel-efficiency analytics platform, mining flight-data-recorder data for savings and coaching pilots",
+      "signal": "80+ airline customers; claims up to 5% fuel reduction with no aircraft modification",
+      "status": "operating",
+      "source": "https://www.openairlines.com/"
+     },
+     {
+      "name": "SATAVIA",
+      "role": "startup",
+      "what": "DECISIONX:NETZERO contrail forecasting and flight-plan optimization, converting avoided warming into tradable climate units; worked with Etihad, KLM and 12 operators",
+      "signal": "Acquired by GE Aerospace (Aerospace Carbon Solutions unit) Sept 2024 \u2014 first contrail-startup exit",
+      "status": "acquired",
+      "source": "https://aviationweek.com/air-transport/aircraft-propulsion/ge-aerospace-takes-over-contrail-prevention-startup-satavia"
+     },
+     {
+      "name": "Google Research / Breakthrough Energy",
+      "role": "incumbent",
+      "what": "AI contrail-risk maps from satellite + weather data, proven in the largest operational avoidance trial to date",
+      "signal": "2025 American Airlines trial across 2,400+ transatlantic flights cut observable contrails ~62% with no statistically significant fuel penalty",
+      "status": "operating",
+      "source": "https://www.rdworldonline.com/googles-ai-cut-contrails-62-on-american-airlines-flights-getting-the-whole-industry-to-follow-could-be-a-harder-problem/"
+     },
+     {
+      "name": "Flightkeys",
+      "role": "scaleup",
+      "what": "Vienna-based 5D flight-planning system embedding contrail forecasts and cost-optimal trajectories directly into dispatch",
+      "signal": "Integrated Google/Breakthrough contrail data for the American Airlines trial; growing share of tier-1 airline flight planning",
+      "status": "operating",
+      "source": "https://news.aa.com/sustainability/environment/contrail-avoidance/"
+     },
+     {
+      "name": "Estuaire",
+      "role": "startup",
+      "what": "French analytics startup quantifying and monitoring airline non-CO2 emissions and route-level climate impact",
+      "signal": "Engaged by Vueling and Wizz Air (2025) for contrail data analysis and disclosure",
+      "status": "operating",
+      "source": "https://www.blue-lines.org/airline-index"
+     },
+     {
+      "name": "SITA",
+      "role": "incumbent",
+      "what": "OptiFlight (acquired from Safety Line) \u2014 machine-learning climb-profile and in-flight fuel optimization sold through its huge airline IT footprint",
+      "signal": "Deployed across dozens of carriers as part of SITA's digital day-of-operations suite",
+      "status": "operating",
+      "source": "https://www.sita.aero"
+     },
+     {
+      "name": "Airspace Intelligence",
+      "role": "startup",
+      "what": "Flyways AI \u2014 dynamic ATC-aware route re-optimization first deployed fleet-wide with Alaska Airlines",
+      "signal": "Multi-year Alaska Airlines deployment; venture-backed Series B",
+      "status": "operating",
+      "source": "https://airspace-intelligence.com"
+     }
+    ],
+    "white_space": "Fuel-efficiency software is crowded, but contrail avoidance \u2014 arguably the cheapest large climate lever in all of aviation \u2014 has almost no independent commercial players left after SATAVIA sold to GE: there is still no regulatory or market mechanism that pays airlines for avoided contrails (EU non-CO2 MRV only began 2025), so whoever builds the verification-and-credit layer when regulation lands inherits the category."
+   },
+   {
+    "name": "Ultra-efficient airframes & next-gen engines (BWB, open fan, laminar flow)",
+    "description": "Redesigns the aircraft itself \u2014 blended-wing bodies, open-fan engines, truss-braced and laminar-flow wings \u2014 to cut fuel burn 20-50% regardless of what fuel is burned; the single biggest efficiency lever for the 2030s fleet and a multiplier on every SAF gallon.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "JetZero",
+      "role": "startup",
+      "what": "Z4 blended-wing-body 200-250 seat airliner claiming ~50% lower fuel burn; using a US Air Force demonstrator to leapfrog the duopoly",
+      "signal": "$235M USAF contract (2023); $175M Series B (Jan 2026, B Capital) with United/Alaska equity and conditional orders; $4.7B Greensboro, NC factory announced; demonstrator flight planned 2027",
+      "status": "operating",
+      "source": "https://www.flightglobal.com/airframers/all-wing-aircraft-developer-jetzero-raises-175m-for-demonstrator-advancement/165942.article"
+     },
+     {
+      "name": "CFM International (GE Aerospace + Safran)",
+      "role": "incumbent",
+      "what": "RISE open-fan engine demonstrator targeting ~20% lower fuel burn and full SAF/H2 compatibility for the next narrowbody generation",
+      "signal": "Airbus plans RISE-derived open-fan flight tests for its next-generation single-aisle; ground tests progressing",
+      "status": "operating",
+      "source": "https://www.flightglobal.com/airframers/airbus-still-sees-blended-wing-body-design-as-possible-for-larger-jets/164450.article"
+     },
+     {
+      "name": "Airbus",
+      "role": "incumbent",
+      "what": "Next-gen single-aisle program (~2035+) wrapping open-fan propulsion, long folding wings, and new materials; keeps BWB on the shelf for larger jets",
+      "signal": "CEO confirms open-fan baseline studies; 'Wing of Tomorrow' composites program complete",
+      "status": "operating",
+      "source": "https://www.flightglobal.com/airframers/airbus-still-sees-blended-wing-body-design-as-possible-for-larger-jets/164450.article"
+     },
+     {
+      "name": "Boeing",
+      "role": "incumbent",
+      "what": "X-66 truss-braced-wing NASA demonstrator exploring ~30% fuel-burn reduction for narrowbodies",
+      "signal": "Paused the X-66 build in 2025 to refocus on thin-wing research amid company-wide strain \u2014 evidence of incumbent slow-walking",
+      "status": "operating",
+      "source": "https://en.wikipedia.org/wiki/Boeing_X-66"
+     },
+     {
+      "name": "Otto Aviation",
+      "role": "startup",
+      "what": "Phantom 3500 business jet using super-laminar-flow fuselage to claim ~50-60% lower fuel burn per trip",
+      "signal": "First flight targeted ~2027; announced Jacksonville, FL production site (2025)",
+      "status": "operating",
+      "source": "https://www.ottoaviation.com"
+     },
+     {
+      "name": "Natilus",
+      "role": "startup",
+      "what": "Blended-wing-body freighters (Kona) and a 200-seat passenger BWB concept (Horizon) pitched at 30%+ efficiency gains",
+      "signal": "Claims multi-billion-dollar pre-order book for cargo BWB; sub-scale prototypes flown",
+      "status": "operating",
+      "source": "https://www.natilus.co"
+     }
+    ],
+    "white_space": "The Boeing-Airbus duopoly has no clean-sheet aircraft before ~2035 and Boeing even paused its own X-66 efficiency demonstrator, leaving a rare structural opening that JetZero is testing via military-funded demonstrators \u2014 but the $10B+ certification-and-industrialization moat means the realistic startup path is defense/cargo first, and almost no one else is attempting it."
+   },
+   {
+    "name": "Low-emission airships & hybrid lighter-than-air cargo",
+    "description": "Helium-buoyed hybrid and rigid airships trade speed for ~75-90% lower fuel burn (with electric or hydrogen variants planned), targeting remote-area cargo, surveillance, and short-haul passenger niches that need no runways or road infrastructure.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Hybrid Air Vehicles",
+      "role": "scaleup",
+      "what": "Airlander 10 hybrid airship (10-tonne payload) with hydrogen-electric zero-emission variant planned with ZeroAvia",
+      "signal": "Doncaster UK factory planned for 24 aircraft/yr; ~35 reservations incl. Air Nostrum (20) and a first military order; service entry ~2029",
+      "status": "operating",
+      "source": "https://aerospaceamerica.aiaa.org/year-in-review/airships-in-2025-orders-booked-production-sites-selected-and-flight-tests-progressing/"
+     },
+     {
+      "name": "LTA Research",
+      "role": "startup",
+      "what": "Sergey Brin-funded builder of Pathfinder 1, the first new rigid airship in 85 years, aimed at humanitarian cargo",
+      "signal": "Pathfinder 1 flew over the Golden Gate Bridge Oct 2025 in expanding flight-test campaign begun 2024",
+      "status": "operating",
+      "source": "https://aerospaceamerica.aiaa.org/year-in-review/airships-in-2025-orders-booked-production-sites-selected-and-flight-tests-progressing/"
+     },
+     {
+      "name": "Flying Whales",
+      "role": "scaleup",
+      "what": "French-Qu\u00e9b\u00e9cois LCA60T rigid airship for 60-tonne outsize cargo lift to roadless regions (forestry, grid, remote communities)",
+      "signal": "French/Qu\u00e9bec government backing; binding lease contract with France's National Forest Agency (Jul 2025); Laruscade factory site unveiled",
+      "status": "operating",
+      "source": "https://aerospaceamerica.aiaa.org/year-in-review/airships-in-2025-orders-booked-production-sites-selected-and-flight-tests-progressing/"
+     }
+    ],
+    "white_space": "A century of failed revivals (CargoLifter, Lockheed's exited LMH-1) plus helium cost, weather sensitivity, and unsolved variable-buoyancy ground handling keep credible players to three; the opening is narrow but real in remote logistics where the alternative is building roads or flying helicopters \u2014 and certification authorities have no modern airship rulebook, so the first type certificate effectively defines the category."
+   }
+  ],
+  "sources": [
+   "https://www.privatecharterx.blog/sustainable-aviation-fuel-market-2025/",
+   "https://farmdocdaily.illinois.edu/2025/01/estimates-of-sustainable-aviation-fuel-production-capacity-at-u-s-renewable-diesel-plants-through-2026.html",
+   "https://www.lanzajet.com/news-insights/lanzajet-makes-history",
+   "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2608211-fulcrum-bioenergy-files-for-chapter-11-relief",
+   "https://www.thechemicalengineer.com/features/why-the-lessons-of-the-fulcrum-fiasco-must-not-be-wasted/",
+   "https://www.ieabioenergy.com/wp-content/uploads/2024/06/IEA-Bioenergy-Task-39-SAF-report.pdf",
+   "https://www.greenairnews.com/?p=6129",
+   "https://uploads.transportenvironment.org/production/files/202504_e-kerosene_report.pdf",
+   "https://www.energy.gov/edf/articles/doe-announces-167-billion-montana-renewables-significantly-expand-us-sustainable",
+   "https://calumet.com/montana-renewables-announces-closing-of-1-44-billion-doe-loan-facility-for-renewable-fuels-and-biomass-energy-facility/",
+   "https://biofuels-news.com/news/ecoceres-inaugurates-first-saf-plant-in-malaysia/",
+   "https://esgnews.com/gevo-secures-1-46-billion-doe-loan-for-worlds-first-net-zero-aviation-fuel-plant/",
+   "https://www.ineratec.de/en/news/e-fuel-producer-ineratec-has-received-funding-commitment-eu70-million-european-investment-bank",
+   "https://www.oxccu.com/press-releases/oxccu-raises-28m-in-series-b-funding-to-scale-sustainable-aviation-fuel-from-waste-carbon",
+   "https://elevenflo.com/blog/viridos-bankruptcy",
+   "https://www.sec.gov/Archives/edgar/data/0001843724/000162828025026378/lnzaex991-pressrelease1q25.htm",
+   "https://biofuels-news.com/news/firefly-green-fuels-and-synagro-to-unlock-saf-production-from-biosolids-in-north-america/",
+   "https://www.cnbc.com/2025/10/16/beta-technologies-ipo-value-evtol.html",
+   "https://www.ainonline.com/aviation-news/air-transport/2025-02-18/eviation-pauses-alice-electric-aircraft-while-seeking-new",
+   "https://www.flightglobal.com/air-transport/2026/04/elysian-tweaks-e9x-design-boosting-weight-and-wingspan-of-battery-powered-aircraft/",
+   "https://heartaerospace.com/newsroom/heart-aerospace-relocates-corporate-headquarters-to-los-angeles-california/",
+   "https://skiesmag.com/features/the-hybrid-electric-evolution/",
+   "https://www.flightglobal.com/aerospace/zeroavia-warns-of-funding-shortfall-beyond-first-quarter-of-2026-amid-series-d-investment-push/164672.article",
+   "https://zeroavia.com/zeroavia-concludes-financing-round/",
+   "https://www.canarymedia.com/articles/air-travel/universal-hydrogen-aircraft-shut-down-fuel-cell",
+   "https://www.aerotime.aero/articles/airbus-pushes-back-development-of-zeroe-hydrogen-powered-aircraft-program",
+   "https://datadeep.tech/evtol-industry-2026-reckoning-joby-archer-beta-type-certification/",
+   "https://www.altitudesmagazine.com/joby-aviation-targets-late-2026-commercial-launch-faa-certification/",
+   "https://www.flightglobal.com/evtol/2026/04/volocopter-launches-voloxpro-as-first-product-and-targets-year-end-approval/",
+   "https://techcrunch.com/2025/09/07/hyundais-evtol-startup-supernal-pauses-work-following-ceo-and-cto-departures/",
+   "https://www.electrive.com/2026/01/26/evtol-developer-eve-air-mobility-secures-150-million/",
+   "https://aviationweek.com/air-transport/aircraft-propulsion/ge-aerospace-takes-over-contrail-prevention-startup-satavia",
+   "https://www.rdworldonline.com/googles-ai-cut-contrails-62-on-american-airlines-flights-getting-the-whole-industry-to-follow-could-be-a-harder-problem/",
+   "https://news.aa.com/sustainability/environment/contrail-avoidance/",
+   "https://www.blue-lines.org/airline-index",
+   "https://www.openairlines.com/",
+   "https://www.flightglobal.com/airframers/all-wing-aircraft-developer-jetzero-raises-175m-for-demonstrator-advancement/165942.article",
+   "https://www.flightglobal.com/airframers/airbus-still-sees-blended-wing-body-design-as-possible-for-larger-jets/164450.article",
+   "https://aerospaceamerica.aiaa.org/year-in-review/airships-in-2025-orders-booked-production-sites-selected-and-flight-tests-progressing/",
+   "https://www.greenairnews.com/?p=8577"
+  ]
+ }
+}

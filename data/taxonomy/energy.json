@@ -1,0 +1,137 @@
+{
+ "buckets": [
+  {
+   "name": "Solar",
+   "scope": "All PV and solar-thermal electricity generation, from cell technologies to deployment formats, plus PV circularity",
+   "variations": [
+    "utility-scale crystalline silicon PV (TOPCon, HJT, back-contact) incl. trackers & BOS hardware",
+    "perovskite, tandem & multijunction cells",
+    "thin-film PV (CdTe, CIGS, amorphous silicon)",
+    "emerging PV materials (organic, quantum dot, kesterite)",
+    "agrivoltaics",
+    "floating solar (inland reservoirs & offshore)",
+    "building- and vehicle-integrated PV incl. solar windows/transparent PV",
+    "concentrated solar power (power tower, parabolic trough, linear Fresnel, dish)",
+    "concentrator PV & space-based solar",
+    "PV recycling, repowering & module circularity"
+   ]
+  },
+  {
+   "name": "Wind",
+   "scope": "All wind electricity generation formats plus wind-asset life extension and circularity",
+   "variations": [
+    "onshore utility-scale turbines",
+    "fixed-bottom offshore wind (incl. foundations & installation tech)",
+    "floating offshore wind platforms & mooring systems",
+    "airborne wind energy (kites, tethered drones)",
+    "small & distributed wind (rooftop, ducted/shrouded)",
+    "vertical-axis & novel rotor designs (incl. bladeless/oscillating)",
+    "wind repowering, blade recycling & life extension"
+   ]
+  },
+  {
+   "name": "Geothermal",
+   "scope": "Earth-heat power generation and direct use, conventional through next-gen (subsurface pressure storage lives in the LDES bucket)",
+   "variations": [
+    "conventional hydrothermal (dry steam, flash, binary ORC)",
+    "enhanced geothermal systems (EGS)",
+    "closed-loop / advanced geothermal systems (AGS)",
+    "superhot rock geothermal",
+    "advanced drilling & exploration tech (millimeter-wave, plasma, AI prospecting)",
+    "oilfield co-produced & geopressured geothermal",
+    "geothermal district heating & direct use"
+   ]
+  },
+  {
+   "name": "Hydro & Marine Energy",
+   "scope": "Water-driven generation from rivers, tides, waves, and ocean gradients (pumped storage hydro lives in the LDES bucket)",
+   "variations": [
+    "conventional & run-of-river hydropower incl. modernization/uprating",
+    "small & modular hydro (low-head, fish-safe turbines)",
+    "hydrokinetic river & canal turbines",
+    "tidal stream turbines (seabed, floating, kite)",
+    "tidal range, barrages & lagoons",
+    "wave energy converters (point absorber, oscillating water column, attenuator, overtopping)",
+    "ocean thermal energy conversion (OTEC)",
+    "salinity-gradient / osmotic power"
+   ]
+  },
+  {
+   "name": "Nuclear Fission",
+   "scope": "Fission reactors of every size plus the fuel cycle and waste/recycling supply chain",
+   "variations": [
+    "large light-water reactors (GW-scale new build & restarts)",
+    "light-water small modular reactors (SMRs)",
+    "high-temperature gas-cooled & pebble-bed reactors (HTGR)",
+    "molten salt reactors incl. thorium fuel cycles",
+    "sodium- and lead-cooled fast reactors",
+    "microreactors (heat-pipe, transportable)",
+    "fuel cycle & enrichment (HALEU, TRISO) plus waste disposal & recycling"
+   ]
+  },
+  {
+   "name": "Fusion",
+   "scope": "All fusion confinement approaches plus the fusion-specific supply chain",
+   "variations": [
+    "tokamaks (high-field HTS, spherical, conventional)",
+    "stellarators",
+    "laser / inertial confinement fusion",
+    "magneto-inertial & magnetized target fusion",
+    "field-reversed configuration (FRC, incl. pulsed)",
+    "Z-pinch / sheared-flow",
+    "magnetic mirrors",
+    "electrostatic & exotic approaches (IEC, magneto-electrostatic, muon-catalyzed)",
+    "projectile / impact fusion",
+    "fusion supply chain (HTS magnets, lasers, targets, blankets, tritium handling)"
+   ]
+  },
+  {
+   "name": "Electrochemical Storage",
+   "scope": "Stationary grid-connected battery storage across every chemistry (EV traction batteries out of scope; they belong to transport)",
+   "variations": [
+    "lithium-ion grid BESS (LFP/NMC) & system integrators",
+    "sodium-ion & molten-sodium batteries",
+    "iron-air & other metal-air",
+    "flow batteries (vanadium, iron, zinc-bromine, organic)",
+    "zinc-based non-flow batteries (zinc-bromine static, zinc-air, zinc-manganese)",
+    "high-temperature liquid-metal & sodium-sulfur",
+    "nickel-hydrogen & novel aqueous chemistries (lead-carbon, aluminum-ion)",
+    "solid-state & advanced lithium for stationary use",
+    "supercapacitors & hybrid ion capacitors",
+    "second-life EV battery storage"
+   ]
+  },
+  {
+   "name": "Thermal & Mechanical Long-Duration Storage",
+   "scope": "Non-electrochemical storage: heat, gravity, compressed gas, water, flywheels, and hydrogen power-to-power",
+   "variations": [
+    "high-temperature thermal batteries (molten salt, bricks, sand, carbon blocks + TPV)",
+    "pumped thermal / Carnot batteries",
+    "phase-change & thermochemical storage",
+    "gravity storage (towers, mine shafts, rail, cranes)",
+    "compressed air energy storage (adiabatic & underground caverns)",
+    "liquid air & CO2 battery cycles",
+    "pumped storage hydro (conventional, closed-loop, high-density fluid, subsea)",
+    "geomechanical / subsurface pressurized-water storage",
+    "flywheels",
+    "hydrogen power-to-power LDES (electrolyzer + cavern/tank + fuel cell or turbine)"
+   ]
+  },
+  {
+   "name": "Grid & Transmission Hardware",
+   "scope": "Hardware that moves, converts, and stabilizes grid electricity, including grid-enhancing technologies",
+   "variations": [
+    "HVDC converter stations & interconnectors",
+    "high-voltage submarine & underground cable systems",
+    "advanced conductors & reconductoring",
+    "superconducting cables & fault current limiters",
+    "dynamic line rating & transmission monitoring sensors",
+    "power-flow control devices (FACTS, SSSC, modular power flow controllers)",
+    "grid-forming inverters, STATCOMs & synchronous condensers",
+    "transformers (conventional supply, mobile/modular, solid-state)",
+    "SF6-free switchgear & substation equipment",
+    "microgrids & islanding systems"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,738 @@
+{
+ "sector": "buildings",
+ "bucket": "Building Envelope: Insulation, Air Sealing & Roofs",
+ "census": {
+  "bucket": "Building Envelope: Insulation, Air Sealing & Roofs",
+  "variations": [
+   {
+    "name": "Cellulose and recycled-content insulation",
+    "description": "Loose-fill, dense-pack and batt insulation made from recycled paper, cardboard or textiles stores carbon, has very low embodied energy, and is already cost-competitive with fiberglass for attics and retrofit wall fills.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Greenfiber",
+      "role": "incumbent",
+      "what": "Largest North American cellulose insulation manufacturer; blow-in and dense-pack products made from ~85% recycled paper fiber (SANCTUARY brand).",
+      "signal": "Multi-plant national footprint with big-box retail distribution.",
+      "status": "operating",
+      "source": "https://www.greenfiber.com"
+     },
+     {
+      "name": "CleanFiber",
+      "role": "scaleup",
+      "what": "Makes cellulose insulation from recycled corrugated cardboard instead of dwindling newsprint, yielding lower dust and more consistent product.",
+      "signal": "$33M Series B (Spring Lane Capital) plus $20M DOE MESC grant and $10M 48C tax credit in 2024 (>$75M total); Buffalo plant operating with new plants planned in WA, TX, AZ, MI; ranked #1 manufacturer on 2024 Inc. 5000.",
+      "status": "operating",
+      "source": "https://techcrunch.com/2024/04/12/cleanfiber-series-b-fundraise/"
+     },
+     {
+      "name": "Nu-Wool",
+      "role": "incumbent",
+      "what": "Family-owned Michigan cellulose maker (since 1949) producing high-recycled-content wall and attic insulation with a certified installer network.",
+      "signal": "Long-established regional brand in US Midwest/East.",
+      "status": "operating",
+      "source": "https://www.nuwool.com"
+     },
+     {
+      "name": "Bonded Logic",
+      "role": "scaleup",
+      "what": "UltraTouch batts made from post-consumer recycled denim and cotton fiber, marketed as itch-free and safe to handle.",
+      "signal": "Longtime niche player sold through national retail channels.",
+      "status": "operating",
+      "source": "https://www.bondedlogic.com"
+     },
+     {
+      "name": "isofloc",
+      "role": "incumbent",
+      "what": "European supplier of cellulose blow-in insulation systems plus the installation machinery and installer training behind them.",
+      "signal": "Deployed for decades across DACH and wider Europe.",
+      "status": "operating",
+      "source": "https://www.isofloc.de"
+     }
+    ]
+   },
+   {
+    "name": "Wood-fiber insulation",
+    "description": "Batts, rigid boards and loose-fill made from softwood residuals offer fiberglass-class R-values with carbon storage and vapor-open performance, and are moving from a mature European niche into North America.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "TimberHP (GO Lab)",
+      "role": "startup",
+      "what": "Only North American producer of wood-fiber batts, boards and loose-fill, made in a converted Maine paper mill.",
+      "signal": "Filed Chapter 11 in March 2025 after >$30M construction overruns; emerged in 77 days (June 2025) with BlackRock-led bondholders converting debt to equity plus ~$29M new financing; TimberBoard rigid line now rolling out.",
+      "status": "operating",
+      "source": "https://www.centralmaine.com/2025/06/25/madisons-timberhp-emerges-from-chapter-11-bankruptcy-with-eye-on-sustainable-future/"
+     },
+     {
+      "name": "Steico",
+      "role": "incumbent",
+      "what": "World's largest wood-fibre insulation producer (flexible batts, rigid boards, I-joists) with 27 production lines in Poland and France.",
+      "signal": "Kingspan completed its \u20ac251M purchase of a 51% stake in January 2024; demand tied to EU renovation wave.",
+      "status": "acquired",
+      "source": "https://www.kingspangroup.com/en/news-insights/kingspan-announces-acquisition-of-majority-stake-in-steico-se/"
+     },
+     {
+      "name": "Gutex",
+      "role": "incumbent",
+      "what": "Black Forest wood-fibre boardmaker; new Eschbach plant with drying capacity up to 4,800 m\u00b3/day for renders, sarking and cavity boards.",
+      "signal": "Family-owned; major capacity expansion came online 2023-24.",
+      "status": "operating",
+      "source": "https://www.wbpionline.com/analysis/insulation-the-natural-way-11706164/"
+     },
+     {
+      "name": "Soprema (Pavatex)",
+      "role": "incumbent",
+      "what": "French waterproofing/roofing group that produces Pavatex wood-fibre insulation boards within its envelope portfolio.",
+      "signal": "Pavatex integrated since 2016 with pan-European distribution.",
+      "status": "operating",
+      "source": "https://www.soprema.com"
+     }
+    ],
+    "white_space": "North America has exactly one producer (TimberHP), and its Chapter 11 shows the capital intensity of mill conversions; as codes start counting embodied carbon, a second NA plant or low-cost import channel is an obvious opening."
+   },
+   {
+    "name": "Hemp, straw, sheep's wool, mycelium and other bio-based insulation",
+    "description": "Fast-growing fibers and fungal composites turn agricultural byproducts into carbon-storing batts, blocks and panels; hemp, straw and wool are commercially sold while mycelium remains pilot-stage.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Hempitecture",
+      "role": "startup",
+      "what": "US manufacturer of HempWool batts and PlantPanel rigid continuous insulation at its Jerome, Idaho plant.",
+      "signal": "$8.42M DOE award for a second plant in Tennessee; >$6M equity crowdfunding in 2025; PlantPanel launched 2025 under new ICC-ES natural-fiber standards.",
+      "status": "operating",
+      "source": "https://www.hempitecture.com/post/hempitecture-awarded-8-42-million-from-the-department-of-energy/"
+     },
+     {
+      "name": "EcoCocon",
+      "role": "scaleup",
+      "what": "Prefabricated structural straw-and-timber wall panels (98% bio-based) certified by the Passive House Institute.",
+      "signal": "Panels shipped to 30+ countries from Slovak production.",
+      "status": "operating",
+      "source": "https://ecococon.eu"
+     },
+     {
+      "name": "IsoHemp",
+      "role": "scaleup",
+      "what": "Belgian maker of hemp-lime masonry blocks for insulating, vapor-open envelope walls.",
+      "signal": "Automated Fernelmont plant with multi-million-block annual capacity.",
+      "status": "operating",
+      "source": "https://www.isohemp.com"
+     },
+     {
+      "name": "HempFlax Building Solutions",
+      "role": "incumbent",
+      "what": "Vertically integrated European hemp grower/processor producing hemp-fiber insulation (Thermo Natur lines).",
+      "signal": "Operating since 1993 across NL/DE/RO.",
+      "status": "operating",
+      "source": "https://www.hempflax.com"
+     },
+     {
+      "name": "Havelock Wool",
+      "role": "startup",
+      "what": "Reno-based maker of sheep's-wool batts and blow-in from New Zealand wool with no chemical binders.",
+      "signal": "National rollout via The Home Depot online announced December 2025; scaling production.",
+      "status": "operating",
+      "source": "https://www.globalinsulation.com/news/2167-havelock-wool-s-sheep-s-wool-insulation-rolls-out-at-the-home-depot"
+     },
+     {
+      "name": "Mykor",
+      "role": "startup",
+      "what": "Bristol/Lisbon startup growing MykoFoam, a carbon-negative mycelium insulation panel from industrial cellulosic waste.",
+      "signal": "\u20ac4.6M raised (~4x prior funding); Portuguese pilot plant; product in regulatory review for commercial deployment.",
+      "status": "operating",
+      "source": "https://thenextweb.com/news/mykor-46m-bristol-mycelium-construction-funding"
+     },
+     {
+      "name": "Biohm",
+      "role": "startup",
+      "what": "London mycelium-insulation developer that grew panels from food and agricultural waste streams.",
+      "signal": "Raised \u00a36.6M Series A (Formica Capital) but failed to reach scale; UK Companies House lists the company as 'In Administration'.",
+      "status": "bankrupt-shutdown",
+      "source": "https://find-and-update.company-information.service.gov.uk/company/10271534"
+     },
+     {
+      "name": "Ecovative",
+      "role": "scaleup",
+      "what": "Mycelium-materials pioneer (15+ years) whose MycoComposite platform spawned insulation experiments; today focused mainly on packaging and foam alternatives.",
+      "signal": "Category pioneer; insulation remains a side application.",
+      "status": "operating",
+      "source": "https://www.ecovative.com"
+     },
+     {
+      "name": "GROWN.bio",
+      "role": "startup",
+      "what": "Dutch producer of mycelium-based panels, acoustic products and small-batch insulation.",
+      "signal": "Small-scale EU operations.",
+      "status": "operating",
+      "source": "https://www.grown.bio"
+     }
+    ],
+    "white_space": "Bio-based materials are commercial but a rounding error of the insulation market \u2014 fragmented feedstock supply, code approvals and fire/moisture certification keep installed costs high, and Biohm's administration shows the cash-burn risk in mycelium. The opening is code-listed, price-competitive bio-based product in mainstream channels; Hempitecture's DOE-backed Tennessee plant and Havelock's Home Depot listing are the first moves."
+   },
+   {
+    "name": "Aerogel and vacuum-insulated panels for space-constrained retrofits",
+    "description": "Silica aerogels and vacuum panels deliver 2-10x the R-value per inch of conventional insulation, letting thin walls, terraces and historic facades be insulated where thickness is impossible \u2014 at a steep price premium.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Aspen Aerogels",
+      "role": "incumbent",
+      "what": "Category leader in silica-aerogel blanket insulation (Spaceloft for buildings; Pyrogel/Cryogel industrial); buildings is a niche line beside its EV thermal-barrier business.",
+      "signal": "NYSE: ASPN with ~$450M FY2024 revenue, mostly PyroThin EV barriers and energy-industrial.",
+      "status": "operating",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001145986/000095017025066992/aspn-20250331.htm"
+     },
+     {
+      "name": "Armacell",
+      "role": "incumbent",
+      "what": "Global flexible-foam insulation maker producing ArmaGel aerogel blankets for thin, high-R industrial and building applications.",
+      "signal": "Established global manufacturer with dedicated aerogel lines.",
+      "status": "operating",
+      "source": "https://www.armacell.com"
+     },
+     {
+      "name": "Cabot Corporation",
+      "role": "incumbent",
+      "what": "Produces particulate silica aerogel (Lumira/Enova) used in insulating daylighting panels, plasters and coatings.",
+      "signal": "Commercial aerogel production near Frankfurt since 2003.",
+      "status": "operating",
+      "source": "https://investor.cabot-corp.com/news-releases/news-release-details/cabot-launches-lumiratm-aerogel-brand-architectural-daylighting"
+     },
+     {
+      "name": "va-Q-tec",
+      "role": "scaleup",
+      "what": "Leading vacuum-insulation-panel (VIP) maker for buildings, appliances and cold chain.",
+      "signal": "Taken private by EQT X and delisted from Frankfurt in August 2023; pharma container business merged into Envirotainer in 2024 while VIP products continue as va-Q-tec Thermal Solutions.",
+      "status": "acquired",
+      "source": "https://www.va-q-tec.com/en/strategic-realignment-at-va-q-tec-focus-lies-on-five-growth-areas/"
+     },
+     {
+      "name": "Kingspan",
+      "role": "incumbent",
+      "what": "OPTIM-R vacuum insulated panels giving ultra-thin R performance for balconies, terraces and space-constrained retrofits.",
+      "signal": "Multi-billion-euro global insulation leader.",
+      "status": "operating",
+      "source": "https://www.kingspangroup.com"
+     },
+     {
+      "name": "KrossLinker",
+      "role": "startup",
+      "what": "Singapore deep-tech startup with a low-cost, water-based aerogel manufacturing process (Cryar boards), targeting cold chain and building efficiency.",
+      "signal": "Seed-funded (~$1.3M; Seeds Capital, ADB Ventures); opened Series A.",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/accelerating-energy-efficiency-adoption-deep-tech-startup-krosslinker-develops-a-cost-effective-aerogel-insulation-301736862.html"
+     },
+     {
+      "name": "AeroShield Materials",
+      "role": "startup",
+      "what": "MIT spinout making transparent silica-aerogel sheets that roughly double window/glazing insulation value.",
+      "signal": "$14.5M ARPA-E SCALEUP award; pilot manufacturing facility opened in Waltham, MA in 2024.",
+      "status": "operating",
+      "source": "https://news.mit.edu/2024/affordable-high-tech-windows-comfort-energy-savings-aeroshield-0916"
+     }
+    ],
+    "white_space": "Cost-per-R remains 5-10x bulk insulation, confining aerogel and VIPs to niches; cracking low-cost ambient-pressure aerogel drying (KrossLinker's bet) or VIP edge-loss and puncture durability would open thin-wall urban retrofit at scale."
+   },
+   {
+    "name": "Low-GWP spray foams (HFO-blown) and cavity-fill alternatives",
+    "description": "Closed-cell spray polyurethane delivers high R-per-inch plus air sealing, and the switch from HFC to HFO blowing agents (GWP ~1 vs ~700+) removed most of its lifecycle climate penalty.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Huntsman Building Solutions",
+      "role": "incumbent",
+      "what": "Heatlok HFO closed-cell foams using Honeywell Solstice blowing agent (GWP 1), including high-lift single-pass R-49 products.",
+      "signal": "Formed 2020 from Demilec and Icynene-Lapolla acquisitions; one of the world's largest spray-foam platforms.",
+      "status": "operating",
+      "source": "https://huntsmanbuildingsolutions.com/en-US/products/closed-cell-insulation/heatlok-hfo-pro"
+     },
+     {
+      "name": "Carlisle Spray Foam Insulation",
+      "role": "incumbent",
+      "what": "SealTite PRO HFO second-generation low-GWP closed-cell foam for residential and commercial cavities.",
+      "signal": "Part of Carlisle Companies' (NYSE: CSL) building-envelope portfolio.",
+      "status": "operating",
+      "source": "https://www.carlislesfi.com/products/sealtite-pro-hfo/"
+     },
+     {
+      "name": "Natural Polymers (Owens Corning)",
+      "role": "incumbent",
+      "what": "Cortland, IL spray-foam maker whose Natural-Therm 2.0 HFO uses Chemours Opteon blowing agent with GWP <2.",
+      "signal": "Acquired by Owens Corning in 2022 to enter spray foam.",
+      "status": "acquired",
+      "source": "https://www.greenbuildingadvisor.com/article/owens-corning-buys-spray-polyurethane-foam-maker"
+     },
+     {
+      "name": "BASF",
+      "role": "incumbent",
+      "what": "Global SPF and rigid polyurethane supplier converting product lines (Walltite/Spraytite) to HFO chemistry.",
+      "signal": "Chemical major with worldwide foam systems business.",
+      "status": "operating",
+      "source": "https://cen.acs.org/environment/greenhouse-gases/Rigid-foam-insulation-climate-chemistry/99/i20"
+     },
+     {
+      "name": "Honeywell",
+      "role": "incumbent",
+      "what": "Solstice LBA hydrofluoroolefin blowing agent (GWP ~1) that enabled the industry-wide low-GWP foam transition.",
+      "signal": "Solstice is a >$1B product franchise across refrigerants and blowing agents.",
+      "status": "operating",
+      "source": "https://cen.acs.org/environment/greenhouse-gases/Rigid-foam-insulation-climate-chemistry/99/i20"
+     },
+     {
+      "name": "Chemours",
+      "role": "incumbent",
+      "what": "Opteon 1100 low-GWP blowing agent supplied to foam formulators including Natural Polymers.",
+      "signal": "One of two dominant HFO blowing-agent suppliers.",
+      "status": "operating",
+      "source": "https://www.greenbuildingadvisor.com/article/owens-corning-buys-spray-polyurethane-foam-maker"
+     }
+    ]
+   },
+   {
+    "name": "Air-sealing technology: aerosolized envelope/duct sealing and membrane/tape systems",
+    "description": "Air leakage drives 25-40% of heating/cooling loads; aerosolized sealants plug leaks from inside ducts and whole envelopes in hours, while tapes, smart membranes and integrated sheathing achieve airtightness in new construction.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Aeroseal",
+      "role": "scaleup",
+      "what": "Aerosolized sealant (LBNL/UC Davis-licensed) that pressurizes ducts (Aeroseal) or whole envelopes (AeroBarrier) and seals leaks from the inside, reaching passive-house airtightness in hours.",
+      "signal": "$67M Series B (2023) led by Breakthrough Energy Ventures and Climate Investment; 300,000+ homes sealed, 1,500+ dealers in 90+ countries.",
+      "status": "operating",
+      "source": "https://aeroseal.com/blog/aeroseal-secures-67-million-in-series-b-funding/"
+     },
+     {
+      "name": "SIGA",
+      "role": "incumbent",
+      "what": "Swiss family firm making high-performance airtightness tapes, membranes and adhesives used in passive-house construction.",
+      "signal": "Staple of EU and North American high-performance building.",
+      "status": "operating",
+      "source": "https://www.siga.swiss"
+     },
+     {
+      "name": "Pro Clima (MOLL)",
+      "role": "incumbent",
+      "what": "INTELLO smart vapor-retarder membranes and complete airtight-system components.",
+      "signal": "German airtightness pioneer with decades in market.",
+      "status": "operating",
+      "source": "https://proclima.com"
+     },
+     {
+      "name": "Huber Engineered Woods",
+      "role": "incumbent",
+      "what": "ZIP System sheathing integrates the structural panel, water-resistive barrier and taped air barrier in one product, displacing housewrap.",
+      "signal": "Dominant US new-build air-barrier system; J.M. Huber subsidiary.",
+      "status": "operating",
+      "source": "https://www.huberwood.com"
+     },
+     {
+      "name": "3M",
+      "role": "incumbent",
+      "what": "Flashing and air-sealing tapes (8067 All Weather) and air-barrier membranes for residential and commercial envelopes.",
+      "signal": "Diversified materials incumbent.",
+      "status": "operating",
+      "source": "https://www.3m.com"
+     },
+     {
+      "name": "Henry (Carlisle)",
+      "role": "incumbent",
+      "what": "Blueskin self-adhered air/water barrier membranes for commercial and residential walls.",
+      "signal": "Acquired by Carlisle Companies for $1.575B in 2021.",
+      "status": "acquired",
+      "source": "https://www.henry.com"
+     }
+    ],
+    "white_space": "Aerosolized interior sealing is effectively a one-company category \u2014 Aeroseal holds the LBNL-lineage technology with no scaled competitor; automated or robot-applied sealing for the labor-starved retrofit market is open ground."
+   },
+   {
+    "name": "Weatherization diagnostics, tooling and retrofit robotics",
+    "description": "Blower doors, duct testers, IR cameras, drones and crawl-space robots find and fix where buildings leak, turning weatherization from guesswork into measured performance.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Retrotec",
+      "role": "incumbent",
+      "what": "Blower doors, duct testers and enclosure diagnostic instruments sold worldwide.",
+      "signal": "Founder retired in 2017; now part of Germany's W\u00f6hler instruments group.",
+      "status": "acquired",
+      "source": "https://retrotec.com/about.html"
+     },
+     {
+      "name": "The Energy Conservatory",
+      "role": "incumbent",
+      "what": "Minneapolis Blower Door \u2014 the de facto standard for residential airtightness testing \u2014 plus DG-1000 gauges and TrueFlow meters.",
+      "signal": "Decades-standard US diagnostic kit with refreshed product line.",
+      "status": "operating",
+      "source": "https://www.greenbuildingadvisor.com/article/the-energy-conservatorys-new-blower-door-kit"
+     },
+     {
+      "name": "Teledyne FLIR",
+      "role": "incumbent",
+      "what": "Thermal-imaging cameras used to find insulation gaps, thermal bridges and air leaks.",
+      "signal": "FLIR acquired by Teledyne for ~$8B in 2021; imaging market leader.",
+      "status": "operating",
+      "source": "https://www.flir.com"
+     },
+     {
+      "name": "QEA Tech",
+      "role": "startup",
+      "what": "Drone plus AI building-envelope audits that quantify heat loss per facade element and generate ROI-ranked retrofit roadmaps.",
+      "signal": "Up to C$4.2M in NRC IRAP support for its patented envelope-audit technology.",
+      "status": "operating",
+      "source": "https://qeatech.com/qea-tech-receives-support-to-advance-ai-driven-building-envelope-retrofit-technology/"
+     },
+     {
+      "name": "Lamarr.AI",
+      "role": "startup",
+      "what": "Georgia Tech/MIT/Syracuse spinout automating envelope diagnostics with autonomous drone thermography and AI defect analytics.",
+      "signal": "$1.1M pre-seed (Hazelview Ventures et al.); global early deployments.",
+      "status": "operating",
+      "source": "https://www.newswire.ca/news-releases/prop-tech-startup-lamarr-ai-raises-1-1-million-in-pre-seed-funding-to-bring-disruptive-building-diagnostics-technology-to-market-818820994.html"
+     },
+     {
+      "name": "Q-Bot",
+      "role": "startup",
+      "what": "Robots that crawl under suspended floors and spray-apply underfloor insulation without lifting floorboards.",
+      "signal": "\u00a33.5M (2023) plus \u00a31.6M follow-on; 3,000+ UK homes insulated; only BBA-certified robotic underfloor installer.",
+      "status": "operating",
+      "source": "https://techfundingnews.com/q-bots-robot-for-floor-insulation-that-reduces-energy-bills-jolts-3-5m-funding-also-praised-by-the-uk-energy-minister/"
+     },
+     {
+      "name": "Build Test Solutions",
+      "role": "startup",
+      "what": "UK maker of the Pulse low-pressure airtightness tester and SmartHTC measured whole-house heat-loss metric.",
+      "signal": "Adopted within UK building-regulation and retrofit measurement schemes.",
+      "status": "operating",
+      "source": "https://www.buildtestsolutions.com"
+     }
+    ],
+    "white_space": "Test hardware is a 40-year-old duopoly (Retrotec/TEC); the open ground is the software layer \u2014 cheap, automated measured-performance verification (drone thermography, smart-meter-derived heat-loss coefficients) that lets lenders and utilities underwrite retrofit outcomes at portfolio scale."
+   },
+   {
+    "name": "Exterior continuous insulation and overclad products",
+    "description": "Rigid boards and EIFS systems wrapped outside the structure eliminate thermal bridging through studs \u2014 now required by stretch energy codes \u2014 using polyiso, phenolic, mineral wool or wood fiber.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Kingspan",
+      "role": "incumbent",
+      "what": "Kooltherm phenolic boards and QuadCore panels for high-R thin exterior continuous insulation.",
+      "signal": "Multi-billion-euro global insulation leader; also majority owner of Steico for bio-based CI.",
+      "status": "operating",
+      "source": "https://www.kingspangroup.com"
+     },
+     {
+      "name": "Sto",
+      "role": "incumbent",
+      "what": "StoTherm ci exterior insulation and finish systems (EIFS) combining CI, air barrier and finish in one assembly.",
+      "signal": "Global EIFS leader with US manufacturing.",
+      "status": "operating",
+      "source": "https://www.stocorp.com"
+     },
+     {
+      "name": "Dryvit (Tremco CPG)",
+      "role": "incumbent",
+      "what": "Outsulation EIFS systems, among the most-installed exterior insulation claddings in North America.",
+      "signal": "Part of RPM's Tremco Construction Products Group since 2021.",
+      "status": "operating",
+      "source": "https://www.dryvit.com"
+     },
+     {
+      "name": "Carlisle (Hunter Panels)",
+      "role": "incumbent",
+      "what": "Xci polyiso continuous-insulation panels for walls plus integrated WIP air-barrier accessories.",
+      "signal": "Carlisle Weatherproofing Technologies portfolio company.",
+      "status": "operating",
+      "source": "https://www.hunterpanels.com"
+     },
+     {
+      "name": "Atlas Roofing",
+      "role": "incumbent",
+      "what": "EnergyShield polyiso wall CI boards for residential and commercial overclads.",
+      "signal": "Family-owned (Hood Companies) US manufacturer.",
+      "status": "operating",
+      "source": "https://www.atlasrwi.com"
+     },
+     {
+      "name": "ROCKWOOL",
+      "role": "incumbent",
+      "what": "Comfortboard rigid mineral-wool exterior CI \u2014 fire-safe and vapor-open alternative to foam.",
+      "signal": "Global stone-wool leader pushing CI in North American codes.",
+      "status": "operating",
+      "source": "https://www.rockwool.com"
+     }
+    ]
+   },
+   {
+    "name": "Prefabricated panelized deep-retrofit envelopes (Energiesprong-style)",
+    "description": "Laser-scan a building, factory-build insulated facade and roof cassettes with windows and ventilation already integrated, and clip them onto occupied apartment blocks in days \u2014 industrializing deep energy retrofits.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Energiesprong",
+      "role": "scaleup",
+      "what": "Dutch-origin market-development program that standardized net-zero serial retrofits (prefab envelope plus plug-in HVAC pods) and exported the model to DE/FR/UK/US.",
+      "signal": "Thousands of Dutch units retrofitted; replicated in 5+ countries with dena and national agencies.",
+      "status": "operating",
+      "source": "https://www.energiesprong.org/news/serial-renovation-germanys-first-pilot-project-completed/"
+     },
+     {
+      "name": "Ecoworks",
+      "role": "startup",
+      "what": "German serial-retrofit integrator: digital twin to factory-built insulated facade elements with windows and ventilation pre-installed, bringing buildings to net-zero (EH55) standard.",
+      "signal": "\u20ac23M raised March 2026 (Blackhorn Ventures et al.) to deliver Germany's largest serial renovation \u2014 192 apartments across 12 buildings in Hagen.",
+      "status": "operating",
+      "source": "https://www.eu-startups.com/2026/03/e23-million-backs-ecoworks-in-rolling-out-germanys-largest-serial-building-renovation/"
+     },
+     {
+      "name": "RENOWATE",
+      "role": "startup",
+      "what": "LEG Immobilien + Rhomberg Bau joint venture (founded 2021) using laser-scanned digital twins and prefab facade end-sections to renovate multifamily blocks with tenants in place.",
+      "signal": "Projects across the DACH region including the M\u00f6nchengladbach 'Reallabor'.",
+      "status": "operating",
+      "source": "https://www.leg-wohnen.de/en/corporation/leg-group/innovationen/renowate"
+     }
+    ],
+    "white_space": "Per-dwelling costs (~\u20ac60-100k) still depend on KfW-class subsidies and standardized social-housing stock, so players cluster in NL/DE; no one has industrialized this in the US despite DOE's Advanced Building Construction push \u2014 a US integrator pairing prefab overclads with IRA/state retrofit money is wide open."
+   },
+   {
+    "name": "Cool roofs and reflective roofing (incumbent products)",
+    "description": "White or solar-reflective membranes, shingles, coatings and pavements reject solar gain, cutting cooling loads 10-20% and urban heat-island temperatures \u2014 already code-mandated in hot US climate zones.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "GAF",
+      "role": "incumbent",
+      "what": "North America's largest roofing maker: cool-rated shingles and TPO plus the Cool Community urban-heat project and StreetBond reflective pavement coating (Time Best Inventions 2022).",
+      "signal": "Standard Industries unit; Pacoima, LA pilot measured 8-14\u00b0F cooler surfaces.",
+      "status": "operating",
+      "source": "https://www.gaf.com/en-us/about-us/community/cooling-urban-heat-islands"
+     },
+     {
+      "name": "Carlisle SynTec",
+      "role": "incumbent",
+      "what": "White reflective TPO/EPDM single-ply roofing membranes for commercial roofs.",
+      "signal": "One of the largest US commercial single-ply suppliers.",
+      "status": "operating",
+      "source": "https://www.carlislesyntec.com"
+     },
+     {
+      "name": "Sika",
+      "role": "incumbent",
+      "what": "Sarnafil reflective membranes and Sikalastic liquid-applied cool-roof coatings.",
+      "signal": "Swiss construction-chemicals major with global roofing share.",
+      "status": "operating",
+      "source": "https://www.sika.com"
+     },
+     {
+      "name": "Holcim (Elevate)",
+      "role": "incumbent",
+      "what": "Former Firestone Building Products; reflective TPO membranes and polyiso under Holcim's roofing/envelope push.",
+      "signal": "Core of Holcim's multi-billion-dollar US roofing acquisitions since 2021.",
+      "status": "operating",
+      "source": "https://www.holcimelevate.com"
+     }
+    ]
+   },
+   {
+    "name": "Passive radiative-cooling coatings and films",
+    "description": "Metamaterial films and ultra-white paints reflect ~95-98% of sunlight and radiate heat out through the atmosphere's 8-13\u00b5m window, cooling surfaces below ambient with zero electricity \u2014 a step beyond conventional cool roofs.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "SkyCool Systems",
+      "role": "startup",
+      "what": "Stanford spinout whose rooftop panels and films cool below ambient to pre-cool refrigeration condensers and HVAC in grocery and industrial buildings.",
+      "signal": "2025 revenue $3.3M (10x YoY) with $4.2M contracted backlog; raising $10-15M Series A; CEC-proposed $1.8M grant for a 100,000 sq ft roof demonstration.",
+      "status": "operating",
+      "source": "https://www.propelx.com/blog/skycool-systems-radiative-cooling-climate-tech/"
+     },
+     {
+      "name": "i2Cool",
+      "role": "startup",
+      "what": "City University of Hong Kong spinout selling electricity-free cooling paints, coatings and films inspired by Saharan silver ants (>95% solar reflection).",
+      "signal": "Deployments including a stadium pilot showing ~13\u00b0C surface reduction; expanding across Asia and the Middle East.",
+      "status": "operating",
+      "source": "https://www.reccessary.com/en/news/i2cool-passive-tech-redefines-urban-heat-solutions"
+     },
+     {
+      "name": "SPACECOOL",
+      "role": "startup",
+      "what": "Tokyo-based maker of a radiative-cooling membrane/film with >95% solar reflectivity and 95% atmospheric-window emissivity for warehouses, tents and infrastructure.",
+      "signal": "Backed by Mitsubishi HC Capital, SPARX, JR East Start Up and other Japanese corporates.",
+      "status": "operating",
+      "source": "https://pitchbook.com/profiles/company/465659-92"
+     },
+     {
+      "name": "Planck Energies",
+      "role": "startup",
+      "what": "Northeastern University spinout formulating ultra-white passive-cooling paints, working with 3M on sprayable roof products for warehouses and reefer trucks.",
+      "signal": "University Spark Fund-backed; field tests show \u22655\u00b0C indoor drops; pre-commercial.",
+      "status": "operating",
+      "source": "https://news.northeastern.edu/2024/09/06/cooling-paint-earth-temperature/"
+     },
+     {
+      "name": "3M",
+      "role": "incumbent",
+      "what": "Developing passive radiative cooling films and partnering with startups on cooling paint formulations.",
+      "signal": "Diversified materials incumbent entering via films and partnerships.",
+      "status": "operating",
+      "source": "https://www.technologyreview.com/2025/12/26/1129301/paint-coating-chemicals-materials-cooling-air-conditioning/"
+     },
+     {
+      "name": "Radi-Cool",
+      "role": "startup",
+      "what": "Commercializes CU Boulder-origin glass-bead metamaterial radiative-cooling film, with deployments concentrated in China.",
+      "signal": "Industrial deployments in Asia; limited verifiable Western presence.",
+      "status": "uncertain",
+      "source": "https://www.sphericalinsights.com/blogs/top-50-companies-in-radiative-cooling-technology-market-2025-strategic-overview-and-future-trends-2024-2035"
+     }
+    ],
+    "white_space": "Physics is proven but durability, dirt pickup and $/m\u00b2 are not solved at commodity scale; the field is seed-stage startups while coatings majors move slowly \u2014 Purdue's record 98.1%-reflective barium-sulfate paint is still in tech transfer, so a mass-market cooling paint pushed through Sherwin-Williams/PPG-class distribution is the opening."
+   },
+   {
+    "name": "Green roofs and vegetated envelopes",
+    "description": "Engineered soil-and-plant assemblies on roofs insulate, cut peak cooling, retain stormwater and reduce urban heat \u2014 a mature, mandate-driven industry in Europe now growing in North America.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "ZinCo",
+      "role": "incumbent",
+      "what": "German pioneer of engineered green-roof build-ups (drainage/retention layers, solar-plus-green combinations) sold in 50+ countries.",
+      "signal": "Decades-long category leader.",
+      "status": "operating",
+      "source": "https://zinco-greenroof.com/"
+     },
+     {
+      "name": "Optigr\u00fcn (Optigreen)",
+      "role": "incumbent",
+      "what": "German market leader in green and blue 'retention roof' systems engineered for stormwater control.",
+      "signal": "Top European market share.",
+      "status": "operating",
+      "source": "https://www.optigruen.de"
+     },
+     {
+      "name": "Sempergreen",
+      "role": "incumbent",
+      "what": "Dutch grower of pre-vegetated sedum blankets and living-wall systems with global distribution.",
+      "signal": "Q1 2024 strategic partnership with LiveRoof to co-develop modular systems for the US.",
+      "status": "operating",
+      "source": "https://www.sempergreen.com"
+     },
+     {
+      "name": "LiveRoof",
+      "role": "scaleup",
+      "what": "US patented modular pre-grown living-roof tray system installed full-grown.",
+      "signal": "Partnered with Sempergreen (2024) to expand US modular green-roof reach.",
+      "status": "operating",
+      "source": "https://liveroof.com"
+     },
+     {
+      "name": "Omni Ecosystems",
+      "role": "startup",
+      "what": "Chicago firm whose ultralight engineered growing media lets ordinary roof structures carry biodiverse intensive meadows.",
+      "signal": "US projects including high-profile commercial HQs.",
+      "status": "operating",
+      "source": "https://www.omniecosystems.com/omni-green-roof"
+     },
+     {
+      "name": "American Hydrotech (Sika)",
+      "role": "incumbent",
+      "what": "Garden Roof hot-applied membrane plus vegetated assembly, a longtime US specifier favorite.",
+      "signal": "Acquired by Sika in 2017; continues under Sika's roofing portfolio.",
+      "status": "acquired",
+      "source": "https://www.hydrotechusa.com"
+     }
+    ]
+   },
+   {
+    "name": "Conventional fiberglass and mineral wool with low-carbon manufacturing",
+    "description": "Fiberglass and stone wool remain the workhorse envelope insulation worldwide, and the incumbents are decarbonizing it \u2014 electrifying melters, raising recycled content and switching to bio-based binders \u2014 which matters because their volumes dwarf every alternative material combined.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Owens Corning",
+      "role": "incumbent",
+      "what": "World's largest fiberglass insulation maker; PINK Next Gen fiberglass with high recycled glass content and published EPDs.",
+      "signal": "NYSE: OC, ~$11B revenue with a multi-billion-dollar insulation segment.",
+      "status": "operating",
+      "source": "https://www.owenscorning.com"
+     },
+     {
+      "name": "Knauf Insulation",
+      "role": "incumbent",
+      "what": "Glass wool with bio-based ECOSE binder; building a \u00a3172M low-carbon rock-mineral-wool plant in the UK and acquired an electric-melt plant in Uzbekistan (Oct 2024).",
+      "signal": "Major capex committed to electric melting and low-embodied-carbon lines.",
+      "status": "operating",
+      "source": "https://knauf.com/en-GB/knauf-insulation/about-knauf-insulation/newsroom/new-low-carbon-rock-mineral-wool-factory"
+     },
+     {
+      "name": "ROCKWOOL",
+      "role": "incumbent",
+      "what": "Global stone-wool leader electrifying its melting process \u2014 the company's biggest decarbonization lever \u2014 with electric lines in Scandinavia and new plants planned.",
+      "signal": "\u20ac389M in decarbonization investments approved in 2025, including new electric production lines and PPAs in Poland and Spain.",
+      "status": "operating",
+      "source": "https://www.rockwool.com/group/about-us/sustainability/sustainability-spotlight-2025/"
+     },
+     {
+      "name": "Saint-Gobain",
+      "role": "incumbent",
+      "what": "Isover glass wool and CertainTeed North America; piloting electric glass-wool furnaces and expanding via its multi-billion-dollar CSR (Australia) acquisition in 2024.",
+      "signal": "\u20ac45B+ construction-materials major with stated 2050 net-zero roadmap.",
+      "status": "operating",
+      "source": "https://www.saint-gobain.com"
+     },
+     {
+      "name": "Johns Manville",
+      "role": "incumbent",
+      "what": "Berkshire Hathaway-owned maker of fiberglass and mineral wool insulation plus commercial roofing.",
+      "signal": "Top-four North American insulation producer.",
+      "status": "operating",
+      "source": "https://www.jm.com"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.centralmaine.com/2025/06/25/madisons-timberhp-emerges-from-chapter-11-bankruptcy-with-eye-on-sustainable-future/",
+   "https://www.mainepublic.org/business-and-economy/2025-03-26/timberhp-voluntarily-files-for-chapter-11-bankruptcy-reorganization",
+   "https://techcrunch.com/2024/04/12/cleanfiber-series-b-fundraise/",
+   "https://www.cleanfiber.com/press-release-2024-10-25-doe-mesc",
+   "https://www.hempitecture.com/post/hempitecture-awarded-8-42-million-from-the-department-of-energy/",
+   "https://aeroseal.com/blog/aeroseal-secures-67-million-in-series-b-funding/",
+   "https://www.kingspangroup.com/en/news-insights/kingspan-announces-acquisition-of-majority-stake-in-steico-se/",
+   "https://www.va-q-tec.com/en/strategic-realignment-at-va-q-tec-focus-lies-on-five-growth-areas/",
+   "https://find-and-update.company-information.service.gov.uk/company/10271534",
+   "https://thenextweb.com/news/mykor-46m-bristol-mycelium-construction-funding",
+   "https://www.globalinsulation.com/news/2167-havelock-wool-s-sheep-s-wool-insulation-rolls-out-at-the-home-depot",
+   "https://www.propelx.com/blog/skycool-systems-radiative-cooling-climate-tech/",
+   "https://www.reccessary.com/en/news/i2cool-passive-tech-redefines-urban-heat-solutions",
+   "https://news.northeastern.edu/2024/09/06/cooling-paint-earth-temperature/",
+   "https://www.technologyreview.com/2025/12/26/1129301/paint-coating-chemicals-materials-cooling-air-conditioning/",
+   "https://www.eu-startups.com/2026/03/e23-million-backs-ecoworks-in-rolling-out-germanys-largest-serial-building-renovation/",
+   "https://www.leg-wohnen.de/en/corporation/leg-group/innovationen/renowate",
+   "https://www.energiesprong.org/news/serial-renovation-germanys-first-pilot-project-completed/",
+   "https://techfundingnews.com/q-bots-robot-for-floor-insulation-that-reduces-energy-bills-jolts-3-5m-funding-also-praised-by-the-uk-energy-minister/",
+   "https://qeatech.com/qea-tech-receives-support-to-advance-ai-driven-building-envelope-retrofit-technology/",
+   "https://www.newswire.ca/news-releases/prop-tech-startup-lamarr-ai-raises-1-1-million-in-pre-seed-funding-to-bring-disruptive-building-diagnostics-technology-to-market-818820994.html",
+   "https://retrotec.com/about.html",
+   "https://www.greenbuildingadvisor.com/article/the-energy-conservatorys-new-blower-door-kit",
+   "https://www.greenbuildingadvisor.com/article/owens-corning-buys-spray-polyurethane-foam-maker",
+   "https://cen.acs.org/environment/greenhouse-gases/Rigid-foam-insulation-climate-chemistry/99/i20",
+   "https://huntsmanbuildingsolutions.com/en-US/products/closed-cell-insulation/heatlok-hfo-pro",
+   "https://www.carlislesfi.com/products/sealtite-pro-hfo/",
+   "https://www.rockwool.com/group/about-us/sustainability/sustainability-spotlight-2025/",
+   "https://knauf.com/en-GB/knauf-insulation/about-knauf-insulation/newsroom/new-low-carbon-rock-mineral-wool-factory",
+   "https://news.mit.edu/2024/affordable-high-tech-windows-comfort-energy-savings-aeroshield-0916",
+   "https://www.prnewswire.com/news-releases/accelerating-energy-efficiency-adoption-deep-tech-startup-krosslinker-develops-a-cost-effective-aerogel-insulation-301736862.html",
+   "https://www.sec.gov/Archives/edgar/data/0001145986/000095017025066992/aspn-20250331.htm",
+   "https://www.gaf.com/en-us/about-us/community/cooling-urban-heat-islands",
+   "https://pitchbook.com/profiles/company/465659-92",
+   "https://www.sphericalinsights.com/blogs/top-50-companies-in-radiative-cooling-technology-market-2025-strategic-overview-and-future-trends-2024-2035",
+   "https://www.marketresearchfuture.com/reports/green-roof-market-25954",
+   "https://www.wbpionline.com/analysis/insulation-the-natural-way-11706164/"
+  ]
+ }
+}

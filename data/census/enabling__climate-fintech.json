@@ -1,0 +1,725 @@
+{
+ "sector": "enabling",
+ "bucket": "Climate Fintech",
+ "census": {
+  "bucket": "Climate Fintech",
+  "variations": [
+   {
+    "name": "Clean energy & climate project finance platforms (origination, diligence, servicing)",
+    "description": "Software and marketplaces that digitize the origination, diligence, document management, and servicing of clean energy project debt so smaller deals (community solar, C&I, distributed energy) can be financed at lower transaction cost.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Banyan Infrastructure",
+      "role": "startup",
+      "what": "End-to-end project finance operating system (covenants, draws, portfolio monitoring) for sustainable infrastructure lenders and green banks.",
+      "signal": "$25M Series B led by Energize (2023, ~$42M total); June 2025 partnership to run lending ops for Coalition for Green Capital, the US national green bank.",
+      "status": "operating",
+      "source": "https://www.banyaninfrastructure.com/news/banyan-infrastructure-partners-with-cgc-to-accelerate-lending-for-americas-national-green-bank"
+     },
+     {
+      "name": "Crux",
+      "role": "startup",
+      "what": "Expanded from tax credit transfers into a debt capital marketplace for development, construction, and bridge loans for clean energy and manufacturing.",
+      "signal": "$50M Series B (2025); 1,000+ developers and investors on platform; launched debt marketplace 2025.",
+      "status": "operating",
+      "source": "https://www.latitudemedia.com/news/crux-launches-debt-capital-marketplace/"
+     },
+     {
+      "name": "Odyssey Energy Solutions",
+      "role": "startup",
+      "what": "Financing, procurement, and data platform for distributed renewables in emerging markets, underpinning World Bank/DFI programs like Nigeria's electrification (DARES) funding disbursement.",
+      "signal": "Venture-backed; platform of record for multi-hundred-million-dollar results-based financing programs in Africa.",
+      "status": "operating",
+      "source": "https://odysseyenergysolutions.com/"
+     },
+     {
+      "name": "Perl Street",
+      "role": "startup",
+      "what": "'Financial operating system' that helps distributed energy and hardware asset developers structure SPVs and become bankable for project finance.",
+      "signal": "Seed/early-stage, VC-backed.",
+      "status": "operating",
+      "source": "https://www.perlstreet.com/"
+     },
+     {
+      "name": "Sunstone Credit",
+      "role": "startup",
+      "what": "Technology-enabled lending platform for commercial (business-owned) solar loans sold through installer channels.",
+      "signal": "$20M Series A (2022) led by Greenbacker; part of the consortium that acquired Sunlight Financial out of Chapter 11 (2024).",
+      "status": "operating",
+      "source": "https://www.abfjournal.com/sunlight-financial-emerges-from-restructuring-process/"
+     },
+     {
+      "name": "Conductor Solar",
+      "role": "startup",
+      "what": "Online marketplace matching C&I solar/storage projects with project investors and financiers to standardize mid-market deal flow.",
+      "signal": "Early-stage; growing share of sub-$10M C&I deal matching.",
+      "status": "operating",
+      "source": "https://www.conductor.solar/"
+     },
+     {
+      "name": "T-REX",
+      "role": "scaleup",
+      "what": "Structured finance data and analytics software used by banks and issuers to model and manage esoteric ABS, including solar loan securitizations.",
+      "signal": "VC-backed fintech used across solar ABS issuance and servicing data management.",
+      "status": "operating",
+      "source": "https://www.trexgroup.com/"
+     }
+    ],
+    "white_space": "There is no incumbent software vendor \u2014 most project finance still runs on spreadsheets, lawyers, and bespoke advisors \u2014 so the economics of sub-$25M deals (community solar, C&I, heat pumps-as-infrastructure) remain prohibitive; standardized documents and data schemas (what Crux and Banyan are pushing) are the opening."
+   },
+   {
+    "name": "Transferable tax credit (ITC/PTC) marketplaces",
+    "description": "Marketplaces and specialty finance firms that match buyers and sellers of transferable clean energy tax credits created by the IRA, turning tax equity into a liquid, lower-cost financing instrument for developers and manufacturers.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Crux",
+      "role": "startup",
+      "what": "Largest transferable tax credit marketplace plus market intelligence reports that have become the industry benchmark.",
+      "signal": "$50M Series B (2025); 120+ transactions across a dozen technology types; projects 2025 transfer market at $55-60B (up from $52B in 2024).",
+      "status": "operating",
+      "source": "https://www.cruxclimate.com/insights/highlights-crux-2025-mid-year-market-intelligence-report"
+     },
+     {
+      "name": "Basis Climate",
+      "role": "startup",
+      "what": "Early-mover digital marketplace for ITC/PTC transfers, focused on streamlined diligence for mid-size solar, storage, and RNG deals.",
+      "signal": "Closed some of the first IRA transfer deals (2023); hundreds of millions+ in transfers closed since.",
+      "status": "operating",
+      "source": "https://www.basisclimate.com/"
+     },
+     {
+      "name": "Reunion",
+      "role": "startup",
+      "what": "Tax credit transfer marketplace and advisory that pairs large corporate buyers with clean energy sellers, with heavy transaction-structuring support.",
+      "signal": "Facilitated multi-billion-dollar transfer volume 2024-25; widely cited market guides.",
+      "status": "operating",
+      "source": "https://www.reunioninfra.com/"
+     },
+     {
+      "name": "Common Forge",
+      "role": "startup",
+      "what": "Newer tax credit transaction platform competing with Crux/Basis/Reunion on lower-fee standardized transfers.",
+      "signal": "Named among Crux's direct competitors in 2025 market coverage.",
+      "status": "operating",
+      "source": "https://heatmap.news/climate-tech/crux-budget-transferability"
+     },
+     {
+      "name": "Evergrow",
+      "role": "startup",
+      "what": "Specialty finance company that directly buys (rather than brokers) clean energy tax credits, including forward commitments that help projects reach financial close.",
+      "signal": "$14M raised (First Round, XYZ, Congruent); completed one of the first post-IRA ITC transfer fundings (Oct 2023) and first REIT solar transfer (2024).",
+      "status": "operating",
+      "source": "https://www.solarpowerworldonline.com/2024/07/evergrow-completes-its-first-solar-tax-credit-transfer-reit/"
+     },
+     {
+      "name": "Foss & Company",
+      "role": "incumbent",
+      "what": "Four-decade tax equity syndicator that now structures and places transferable credits alongside traditional partnership-flip tax equity.",
+      "signal": "Multi-billion-dollar cumulative tax equity placed; active transferability desk since 2023.",
+      "status": "operating",
+      "source": "https://www.fossandco.com/"
+     },
+     {
+      "name": "Monarch Private Capital",
+      "role": "incumbent",
+      "what": "State and federal tax credit syndicator (film, housing, renewables) that extended its buyer network into IRA transferable credits.",
+      "signal": "Long-established multi-state tax credit platform now active in clean energy transfers.",
+      "status": "operating",
+      "source": "https://monarchprivate.com/"
+     }
+    ],
+    "white_space": "Crowded for solar/wind ITC brokerage, but the 2025 OBBBA phase-outs shift future volume toward storage, nuclear, and 45X manufacturing credits and shorten the wind/solar runway \u2014 subscale marketplaces will likely consolidate, while insurance-wrapped forward purchases for non-investment-grade sellers remain underserved."
+   },
+   {
+    "name": "Residential clean energy lending & financing (solar loans, HVAC/efficiency financing)",
+    "description": "Point-of-sale lenders and third-party-ownership (lease/PPA) financiers that let homeowners pay for solar, batteries, heat pumps, and efficiency upgrades from savings rather than cash, funded via warehouse lines and asset-backed securitization.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "GoodLeap",
+      "role": "scaleup",
+      "what": "Largest US residential solar and sustainable home improvement lender, now also offering leases/PPAs post-tax-credit changes.",
+      "signal": "$32B+ financed since 2018; $523M securitization sponsored by Bank of America (Dec 2025); ~1,300 employees.",
+      "status": "operating",
+      "source": "https://pv-magazine-usa.com/2025/12/15/sustainable-home-upgrade-finance-platform-goodleap-announces-523-million-securitization/"
+     },
+     {
+      "name": "Mosaic (Solar Mosaic)",
+      "role": "scaleup",
+      "what": "Pioneer fintech solar lender (founded 2010) that originated ~$15B before rates, demand collapse, and tax credit uncertainty killed the model.",
+      "signal": "Ceased originations May 2025; Chapter 11 June 2025; emerged Sept 2025 as a servicing-only business under Forbright Bank for its $8B ABS portfolio.",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.davispolk.com/experience/solar-mosaic-emerges-chapter-11"
+     },
+     {
+      "name": "Sunnova",
+      "role": "scaleup",
+      "what": "NYSE-listed residential solar lease/PPA financier with a dealer network model.",
+      "signal": "Filed Chapter 11 in June 2025 alongside Mosaic; businesses sold/wound down in the deepest rooftop-solar finance shakeout on record.",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.pv-tech.org/sunnova-mosaic-file-chapter-11-bankruptcy/"
+     },
+     {
+      "name": "Sunlight Financial",
+      "role": "scaleup",
+      "what": "Point-of-sale solar/home improvement lender that de-SPACed in 2021, then was crushed by rate hikes.",
+      "signal": "Chapter 11 Oct 2023; emerged 2024 acquired by a consortium incl. Greenbacker, Sunstone Credit, IGS Ventures, and Cross River Bank.",
+      "status": "acquired",
+      "source": "https://www.abfjournal.com/sunlight-financial-emerges-from-restructuring-process/"
+     },
+     {
+      "name": "Dividend Finance",
+      "role": "incumbent",
+      "what": "Fifth Third Bank's solar and home improvement lending division \u2014 bank balance-sheet funding rather than capital-markets dependence.",
+      "signal": "Still originating as a Fifth Third division; facing state AG suits and CFPB scrutiny over hidden dealer fees (industry-wide issue).",
+      "status": "operating",
+      "source": "https://pv-magazine-usa.com/2024/04/26/minnesota-sues-goodleap-sunlight-mosaic-and-dividend-over-dealer-fees/"
+     },
+     {
+      "name": "EverBright",
+      "role": "incumbent",
+      "what": "NextEra Energy's residential financing platform combining software (acquired Sighten) with utility-scale-cheap capital for leases and loans.",
+      "signal": "Backed by NextEra's balance sheet; gained share as independent lenders failed 2024-25.",
+      "status": "operating",
+      "source": "https://www.goeverbright.com/"
+     },
+     {
+      "name": "PosiGen",
+      "role": "scaleup",
+      "what": "Solar lease provider focused on low-to-moderate-income households, with savings-guarantee underwriting instead of FICO cutoffs.",
+      "signal": "Backed by Magnetar and Builders Vision; survived the 2024-25 shakeout as the main LMI specialist.",
+      "status": "operating",
+      "source": "https://www.posigen.com/"
+     },
+     {
+      "name": "Palmetto",
+      "role": "scaleup",
+      "what": "Climate tech platform whose LightReach product finances third-party-owned residential solar/storage through installer partners.",
+      "signal": "Multiple warehouse and securitization facilities; LightReach grew rapidly as loan products lost the residential ITC.",
+      "status": "operating",
+      "source": "https://palmetto.com/"
+     },
+     {
+      "name": "EnFin",
+      "role": "incumbent",
+      "what": "Qcells' (Hanwha) captive residential solar financing arm pairing module supply with loans/TPO.",
+      "signal": "Backed by Hanwha; expanded offerings as independent lenders retrenched.",
+      "status": "operating",
+      "source": "https://www.enfin.com/"
+     },
+     {
+      "name": "Sungage Financial",
+      "role": "startup",
+      "what": "Solar loan platform funded through credit unions and community banks rather than securitization markets.",
+      "signal": "Operating since 2012; credit-union funding model proved more durable through the rate cycle.",
+      "status": "operating",
+      "source": "https://www.sungagefinancial.com/"
+     }
+    ]
+   },
+   {
+    "name": "Climate-focused neobanks, cards & consumer finance",
+    "description": "Banks and fintechs that channel consumer deposits and card spend into climate-positive lending or donations, betting that climate-conscious customers will switch banks for impact.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Aspiration",
+      "role": "scaleup",
+      "what": "Tree-planting 'climate neobank' that raised $250M+ and pivoted to corporate carbon credits (Catona Climate) before collapsing.",
+      "signal": "Chapter 11 March 2025 after co-founder Joe Sanberg's arrest and guilty plea for defrauding investors of $248M.",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.americanbanker.com/news/aspiration-a-tree-planting-neobank-felled-by-investor-fraud"
+     },
+     {
+      "name": "GreenFi",
+      "role": "startup",
+      "what": "Continuation of Aspiration's consumer climate banking accounts, spun off in 2024 under new ownership and shielded from the bankruptcy.",
+      "signal": "Operating successor brand to Aspiration's ~millions of consumer accounts.",
+      "status": "operating",
+      "source": "https://www.americanbanker.com/news/aspiration-a-tree-planting-neobank-felled-by-investor-fraud"
+     },
+     {
+      "name": "Atmos Financial",
+      "role": "startup",
+      "what": "Fintech whose FDIC-insured deposits are deployed exclusively into solar and clean energy loans, with climate nonprofit round-ups.",
+      "signal": "Banking-as-a-service partnership with Climate First Bank; niche but growing climate-positive deposit base.",
+      "status": "operating",
+      "source": "https://www.bankingdive.com/news/climate-first-bank-finds-fintech-partner-with-a-similarly-green-mission/600048/"
+     },
+     {
+      "name": "Climate First Bank",
+      "role": "startup",
+      "what": "Florida de novo community bank (2021) that recycles deposits into residential/commercial solar loans; launched OneEthos fintech subsidiary.",
+      "signal": "One of the fastest-growing new US banks, approaching ~$1B in assets within five years.",
+      "status": "operating",
+      "source": "https://www.climatefirstbank.com/our-impact"
+     },
+     {
+      "name": "Tomorrow",
+      "role": "startup",
+      "what": "Hamburg-based sustainable neobank (B Corp) investing customer money per strict ESG criteria on Solaris banking rails.",
+      "signal": "~125,000 customers and ~$30M raised \u2014 growth has been slow, illustrating thin green-neobank economics.",
+      "status": "operating",
+      "source": "https://www.tomorrow.one/en-EU/"
+     },
+     {
+      "name": "Tandem Bank",
+      "role": "scaleup",
+      "what": "UK digital bank repositioned as a 'green lender' focused on home energy-efficiency improvement loans and EV finance.",
+      "signal": "Reached profitability on green home-improvement lending; one of few green consumer banks with working unit economics.",
+      "status": "operating",
+      "source": "https://www.tandem.co.uk/"
+     },
+     {
+      "name": "Triodos Bank",
+      "role": "incumbent",
+      "what": "Dutch values-based bank lending only to sustainable economy sectors for 40+ years \u2014 the original proof that green banking can be a business.",
+      "signal": "~\u20ac25B AUM; consistently profitable mission-driven lender.",
+      "status": "operating",
+      "source": "https://www.triodos.com/"
+     },
+     {
+      "name": "Amalgamated Bank",
+      "role": "incumbent",
+      "what": "US union-owned commercial bank with net-zero commitments that banks climate organizations and finances solar/community projects.",
+      "signal": "~$8B assets; NYSE-listed; major banker to climate nonprofits and PACE/solar lenders.",
+      "status": "operating",
+      "source": "https://www.amalgamatedbank.com/"
+     }
+    ],
+    "white_space": "Repeated failures (Aspiration's fraud-tinged collapse, slow growth at Tomorrow, earlier shutdowns like Ando) show a climate brand alone doesn't beat customer-acquisition and deposit economics; the surviving models wire deposits to measurable green lending (Climate First, Atmos, Tandem) rather than offsets and tree-planting rewards \u2014 bundling deposits with financing for the customer's own electrification is the open play."
+   },
+   {
+    "name": "Spend-based carbon footprint APIs for banks & payment networks",
+    "description": "APIs that map card transaction data to estimated CO2 emissions so banks can show customers their footprint, drive engagement, and cross-sell green products at network scale.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "ecolytiq",
+      "role": "startup",
+      "what": "Berlin 'sustainability-as-a-service' engine distributed to European banks through Visa's Fintech Partner Connect program.",
+      "signal": "Acquired by Clarity AI in July 2025 \u2014 the segment's flagship consolidation event.",
+      "status": "acquired",
+      "source": "https://www.cbinsights.com/company/ecolytiq"
+     },
+     {
+      "name": "Doconomy",
+      "role": "scaleup",
+      "what": "Stockholm fintech behind the \u00c5land Index transaction-emissions standard powering Mastercard's Carbon Calculator and bank impact tools.",
+      "signal": "\u20ac34M Series B (2023, CommerzVentures et al.); acquired Dreams Technology to add behavioral engagement.",
+      "status": "operating",
+      "source": "https://doconomy.com/"
+     },
+     {
+      "name": "Connect Earth",
+      "role": "startup",
+      "what": "London carbon data API (Connect Insights) embedding transaction-level emissions into banking apps, incl. a Thought Machine core-banking integration.",
+      "signal": "~$5.6M seed (2023); bank and core-banking platform partnerships across UK/EU/US.",
+      "status": "operating",
+      "source": "https://connect.earth/api-integration-to-provide-banks-with-reliable-carbon-footprint-data/"
+     },
+     {
+      "name": "Cogo",
+      "role": "startup",
+      "what": "NZ-founded carbon footprint manager for retail and SME banking, measuring behavior change rather than just displaying footprints.",
+      "signal": "Deployed by 12+ banks across UK/EU/ANZ; NatWest integration passed 330,000+ active users.",
+      "status": "operating",
+      "source": "https://www.cogo.co/post/10-increase-in-natwest-customers-using-cogo-data-to-manage-their-carbon-footprint"
+     },
+     {
+      "name": "Mastercard",
+      "role": "incumbent",
+      "what": "Embeds a network-level Carbon Calculator (built on Doconomy's \u00c5land Index) that any issuing bank can switch on.",
+      "signal": "Global rollout across issuers since 2021.",
+      "status": "operating",
+      "source": "https://doconomy.com/"
+     },
+     {
+      "name": "Visa",
+      "role": "incumbent",
+      "what": "Offers 'Eco Benefits' bundles delivering carbon footprinting and offsets to issuers via partners (formerly ecolytiq).",
+      "signal": "Sustainability-as-a-service distributed through Visa Fintech Partner Connect across Europe.",
+      "status": "operating",
+      "source": "https://ecolytiq.com/press/ecolytiq-and-visa-bring-sustainability-as-a-service-to-banks-in-europe"
+     }
+    ],
+    "white_space": "Engagement-only footprinting commoditized fast \u2014 consumer carbon apps (e.g., Joro) died and ecolytiq sold to Clarity AI \u2014 because banks won't pay much for awareness widgets; the opening is tying spend data to green product origination (efficiency loans, EV finance) and to banks' own retail Scope 3 reporting obligations."
+   },
+   {
+    "name": "Financed emissions & portfolio carbon accounting (PCAF tooling)",
+    "description": "Software that calculates the emissions attributable to a financial institution's loans and investments under the PCAF standard, the data backbone for net-zero commitments and climate disclosure rules.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Persefoni",
+      "role": "scaleup",
+      "what": "Climate management platform built PCAF-first \u2014 first to encode all 10 PCAF asset classes with data-quality scoring for banks and asset managers.",
+      "signal": "~$160M raised since 2020 (TPG Rise-backed) plus additional funding March 2025; accredited PCAF partner.",
+      "status": "operating",
+      "source": "https://www.persefoni.com/blog/best-financed-emissions-software"
+     },
+     {
+      "name": "Watershed",
+      "role": "scaleup",
+      "what": "Enterprise carbon platform whose Watershed Finance module covers listed equity, loans, mortgages, sovereign debt, and insurance-associated emissions.",
+      "signal": "$100M Series C (Feb 2024) at ~$1.8B valuation; PCAF-accredited reporting partner.",
+      "status": "operating",
+      "source": "https://watershed.com/"
+     },
+     {
+      "name": "Sweep",
+      "role": "startup",
+      "what": "Paris-based carbon and ESG data management platform with a dedicated financed-emissions product for banks and PE firms.",
+      "signal": "~$100M raised (incl. $73M Series B led by Coatue, 2022).",
+      "status": "operating",
+      "source": "https://www.sweep.net/"
+     },
+     {
+      "name": "MSCI",
+      "role": "incumbent",
+      "what": "Total Portfolio Footprinting and Climate Lab built on its 2019 Carbon Delta acquisition, covering ~10,000 issuers for institutional portfolios.",
+      "signal": "Dominant index/analytics incumbent bundling financed emissions into existing risk subscriptions.",
+      "status": "operating",
+      "source": "https://www.msci.com/our-solutions/climate-investing"
+     },
+     {
+      "name": "Bloomberg",
+      "role": "incumbent",
+      "what": "PCAF-aligned financed-emissions estimates and transition data delivered through the Terminal and enterprise data feeds.",
+      "signal": "Default option for banks already on Bloomberg market data.",
+      "status": "operating",
+      "source": "https://www.bloomberg.com/professional/"
+     }
+    ]
+   },
+   {
+    "name": "Climate & transition risk analytics for financial institutions",
+    "description": "Models that translate physical climate hazards and decarbonization-policy scenarios into asset-level financial risk (default probability, valuation impact) for banks, insurers, and investors under regulatory stress-testing regimes.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Jupiter Intelligence",
+      "role": "scaleup",
+      "what": "Physical climate risk modeling (ClimateScore Global) at asset-level granularity for banks, insurers, and industrials.",
+      "signal": "~$100M raised (incl. $54M Series C); launched 'investment-grade climate analytics' standard July 2025.",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20250723646042/en/Jupiter-Intelligence-Establishes-New-Standard-for-Investment-Grade-Climate-Analytics"
+     },
+     {
+      "name": "Climate X",
+      "role": "startup",
+      "what": "London platform (Spectra) projecting climate-adjusted losses on real estate and infrastructure portfolios for lenders.",
+      "signal": "$18M Series A led by GV (June 2024); expanding into the US.",
+      "status": "operating",
+      "source": "https://sifted.eu/articles/climate-x-series-a-news"
+     },
+     {
+      "name": "First Street",
+      "role": "startup",
+      "what": "Property-level US climate risk scores (flood, fire, wind, heat) embedded directly in Zillow/Redfin listings and used by lenders.",
+      "signal": "$46M Series A (2024); de facto consumer-facing standard for US property climate risk.",
+      "status": "operating",
+      "source": "https://firststreet.org/"
+     },
+     {
+      "name": "Riskthinking.AI",
+      "role": "startup",
+      "what": "Toronto firm generating stochastic climate scenario sets (rather than single pathways) for financial stress testing.",
+      "signal": "Used by regulators and large FIs for CDN/US climate stress-test exercises.",
+      "status": "operating",
+      "source": "https://riskthinking.ai/"
+     },
+     {
+      "name": "Mitiga Solutions",
+      "role": "startup",
+      "what": "Barcelona physics-based catastrophe and climate risk modeler that absorbed Cervest's IP.",
+      "signal": "$14.4M Series A (2023); acquired Cervest's intellectual property June 2023.",
+      "status": "operating",
+      "source": "https://www.mitigasolutions.com/blog/mitiga-acquires-cervests-intellectual-property-rights-to-accelerate-growth-and-enhance-market-position"
+     },
+     {
+      "name": "Cervest",
+      "role": "startup",
+      "what": "UK AI climate intelligence startup (EarthScan) that raised $40M+ but failed to convert hype into revenue.",
+      "signal": "Entered administration June 2023 with no buyer found; IP sold to Mitiga \u2014 cautionary tale for horizontal climate-risk SaaS.",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.cbinsights.com/company/cervest"
+     },
+     {
+      "name": "The Climate Service",
+      "role": "startup",
+      "what": "Climanomics platform quantifying climate risk in financial terms (TCFD), absorbed into S&P's ESG stack.",
+      "signal": "Acquired by S&P Global (January 2022).",
+      "status": "acquired",
+      "source": "https://www.spglobal.com/esg/"
+     },
+     {
+      "name": "Moody's",
+      "role": "incumbent",
+      "what": "Built a full climate risk stack via Four Twenty Seven (2019) and RMS (~$2B, 2021) acquisitions, sold into ratings/banking clients.",
+      "signal": "Climate risk embedded across credit ratings and insurance analytics businesses.",
+      "status": "operating",
+      "source": "https://www.moodys.com/"
+     },
+     {
+      "name": "S&P Global Sustainable1",
+      "role": "incumbent",
+      "what": "Climate physical and transition risk datasets (Climanomics, Trucost) bundled with indices and ratings.",
+      "signal": "One-stop incumbent after The Climate Service and Trucost acquisitions.",
+      "status": "operating",
+      "source": "https://www.spglobal.com/esg/"
+     }
+    ]
+   },
+   {
+    "name": "Climate-dedicated funds, banks & asset managers (infrastructure, growth, debt)",
+    "description": "Dedicated pools of capital \u2014 infrastructure megafunds, growth equity, venture, and specialty credit \u2014 whose sole mandate is financing decarbonization assets and companies, setting the cost of capital for the whole transition.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Brookfield Asset Management",
+      "role": "incumbent",
+      "what": "Runs the world's largest energy-transition private funds plus a $5B Catalytic Transition Fund for emerging markets.",
+      "signal": "Brookfield Global Transition Fund II closed at a record $20B (Oct 2025); IFC invested $100M in its EM catalytic fund.",
+      "status": "operating",
+      "source": "https://bam.brookfield.com/press-releases/brookfield-raises-20-billion-record-transition-fund"
+     },
+     {
+      "name": "TPG Rise Climate",
+      "role": "incumbent",
+      "what": "Climate private equity franchise spanning growth, infrastructure, and a Global South strategy backed by UAE's ALT\u00c9RRA.",
+      "signal": "Rise Climate I $7.3B; Fund II passed $6.2B toward an $8B target (2025) incl. ~$1B from ALT\u00c9RRA.",
+      "status": "operating",
+      "source": "https://www.newprivatemarkets.com/tpg-plans-to-close-two-rise-funds-this-year-amid-an-expanding-opportunity-set/"
+     },
+     {
+      "name": "Generate Capital",
+      "role": "scaleup",
+      "what": "Permanent-capital sustainable infrastructure owner-operator that builds, owns, and finances distributed energy, waste, and transport assets.",
+      "signal": "Raised $1.5B (2021) and $880M+ (2022) of institutional equity; ~$10B platform.",
+      "status": "operating",
+      "source": "https://generatecapital.com/"
+     },
+     {
+      "name": "Copenhagen Infrastructure Partners",
+      "role": "incumbent",
+      "what": "Largest dedicated greenfield renewables fund manager (offshore wind, energy islands, PtX).",
+      "signal": "Flagship CI V closed at ~\u20ac12B (2025); >\u20ac30B raised across funds.",
+      "status": "operating",
+      "source": "https://www.cip.com/"
+     },
+     {
+      "name": "Breakthrough Energy Ventures",
+      "role": "scaleup",
+      "what": "Gates-backed venture firm funding sub-$0.05/ton 'green premium' elimination technologies across five grand challenges.",
+      "signal": "$3.5B+ across three funds; Fund III closed ~$840M (2025) \u2014 smaller than prior funds as Gates trimmed Breakthrough's policy arm.",
+      "status": "operating",
+      "source": "https://www.breakthroughenergy.org/"
+     },
+     {
+      "name": "Energy Impact Partners",
+      "role": "scaleup",
+      "what": "Venture/growth investor whose LP base of 30+ utilities and industrials gives portfolio companies built-in customers.",
+      "signal": "$4B+ AUM across venture, frontier (deep tech), and credit strategies.",
+      "status": "operating",
+      "source": "https://www.energyimpactpartners.com/"
+     },
+     {
+      "name": "HA Sustainable Infrastructure Capital (HASI)",
+      "role": "incumbent",
+      "what": "NYSE-listed pure-play climate investment firm providing programmatic debt/equity for distributed energy, RNG, and efficiency portfolios.",
+      "signal": "~$14B managed assets; investment-grade rated; decades-long track record.",
+      "status": "operating",
+      "source": "https://www.hasi.com/"
+     },
+     {
+      "name": "Galvanize Climate Solutions",
+      "role": "startup",
+      "what": "Tom Steyer's climate-dedicated manager spanning venture/growth and decarbonization-focused real estate.",
+      "signal": "Closed ~$1B Innovation + Expansion Fund I (2023); added real estate strategy.",
+      "status": "operating",
+      "source": "https://www.galvanizeclimate.com/"
+     },
+     {
+      "name": "Just Climate",
+      "role": "startup",
+      "what": "Generation IM-affiliated manager investing in highest-abatement industrial decarbonization and natural capital.",
+      "signal": "$1.5B Climate Assets Fund I (2023) with Microsoft and CalSTRS as LPs.",
+      "status": "operating",
+      "source": "https://www.justclimate.com/"
+     }
+    ]
+   },
+   {
+    "name": "Clean energy project insurance & performance risk transfer",
+    "description": "Specialty insurance \u2014 property, parametric weather, revenue puts, and technology performance wraps \u2014 that absorbs risks lenders won't take, directly lowering the cost of capital for renewable and first-of-a-kind climate projects.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "kWh Analytics",
+      "role": "scaleup",
+      "what": "Data-driven MGA underwriting renewables property insurance and the Solar Revenue Put (production guarantee) using the industry's largest asset performance dataset.",
+      "signal": "Expanded nat-cat capacity 2025 (+$20M severe convective storm cover); acquired by specialty insurer Beazley March 2026.",
+      "status": "acquired",
+      "source": "https://pv-magazine-usa.com/2026/03/10/beazley-acquires-kwh-analytics-to-scale-renewable-energy-underwriting/"
+     },
+     {
+      "name": "Energetic Capital",
+      "role": "startup",
+      "what": "EneRate Credit Cover \u2014 credit insurance on unrated C&I and community solar offtakers that unlocks otherwise unfinanceable deals.",
+      "signal": "Pioneered offtaker credit insurance; partners with institutional lenders to expand commercial solar credit boxes.",
+      "status": "operating",
+      "source": "https://energeticcapital.com/"
+     },
+     {
+      "name": "New Energy Risk",
+      "role": "scaleup",
+      "what": "Technology performance insurance for first-of-a-kind cleantech (fuel cells, waste-to-fuels, storage), converting technology risk into an insurable, bankable quantity.",
+      "signal": "Long-running AXA XL partnership; performance wraps have enabled hundreds of millions in FOAK project debt.",
+      "status": "operating",
+      "source": "https://www.newenergyrisk.com/"
+     },
+     {
+      "name": "Munich Re",
+      "role": "incumbent",
+      "what": "Green Tech Solutions unit offering PV module warranty backstops, battery and electrolyzer performance guarantees.",
+      "signal": "Writing solar warranty covers since 2009; the incumbent benchmark for performance risk transfer.",
+      "status": "operating",
+      "source": "https://www.munichre.com/"
+     },
+     {
+      "name": "GCube",
+      "role": "incumbent",
+      "what": "Dedicated renewables underwriter (wind, solar, BESS construction and operation) insuring projects across 35+ countries.",
+      "signal": "Acquired by Tokio Marine HCC (2020); insures 100GW+ of renewable assets.",
+      "status": "operating",
+      "source": "https://www.gcube-insurance.com/"
+     },
+     {
+      "name": "Ariel Green",
+      "role": "incumbent",
+      "what": "Ariel Re's clean energy technology performance insurance line covering solar, storage, and hydrogen equipment.",
+      "signal": "Launched 2022 as reinsurer capacity entered cleantech performance risk.",
+      "status": "operating",
+      "source": "https://www.arielre.com/"
+     },
+     {
+      "name": "Understory",
+      "role": "startup",
+      "what": "Parametric severe-weather (especially hail) insurance for utility-scale solar, paired with ground-sensor early warnings so operators can stow trackers.",
+      "signal": "$15M Series A (June 2024, True Ventures/Prelude); 500% YoY growth into renewables.",
+      "status": "operating",
+      "source": "https://techcrunch.com/2024/06/05/climate-insurance-understory-15m/"
+     },
+     {
+      "name": "Arbol",
+      "role": "startup",
+      "what": "Parametric climate risk platform writing weather and production covers for renewables and reinsurance via automated data triggers.",
+      "signal": "$60M Series B (2024); nine figures of annual parametric premium.",
+      "status": "operating",
+      "source": "https://www.instech.co/knowledge-centre/arbol-enabling-climate-risk-transfer-in-renewables-and-reinsurance/"
+     }
+    ],
+    "white_space": "Hail and severe-storm losses have made conventional capacity scarce and expensive for solar, and performance wraps for FOAK tech (electrolyzers, LDES, SAF) remain thin because few carriers hold the engineering data to underwrite them \u2014 Beazley buying kWh Analytics validates the data-driven MGA playbook as the entry point."
+   },
+   {
+    "name": "Community & retail climate investing/crowdfunding platforms",
+    "description": "Regulated platforms letting individuals invest small checks directly into climate projects or portfolios (Reg CF/Reg A notes, co-op ownership, robo-advisors), democratizing access to project returns and filling gaps banks won't touch.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Climatize",
+      "role": "startup",
+      "what": "SEC-registered Reg CF portal where retail investors fund solar, storage, and EV-charging project debt from $10.",
+      "signal": "$10M+ invested across 22 projects and 2,400+ investors by Sept 2025.",
+      "status": "operating",
+      "source": "https://www.superpowers4good.com/p/the-rise-of-climate-project-crowdfunding"
+     },
+     {
+      "name": "Raise Green",
+      "role": "startup",
+      "what": "First US climate-focused investment crowdfunding portal (community solar, green businesses).",
+      "signal": "Acquired by community-capital platform Honeycomb Credit (2024) after struggling to scale standalone.",
+      "status": "acquired",
+      "source": "https://www.superpowers4good.com/p/the-rise-of-climate-project-crowdfunding"
+     },
+     {
+      "name": "Ripple Energy",
+      "role": "startup",
+      "what": "UK consumer co-ownership of wind/solar farms with savings delivered via electricity bill discounts.",
+      "signal": "Filed for administration March 2025, leaving ~20,000 customers in limbo (co-op-owned farms kept operating) \u2014 the model's economics failed.",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.windpowermonthly.com/article/1911498/community-owned-wind-firm-ripple-energy-brink-collapse"
+     },
+     {
+      "name": "Trine",
+      "role": "startup",
+      "what": "Swedish platform crowdfunding loans to off-grid solar distributors in emerging markets.",
+      "signal": "\u20ac70M+ crowd-lent historically, but borrower defaults mounted and current origination status is unclear.",
+      "status": "uncertain",
+      "source": "https://trine.com/"
+     },
+     {
+      "name": "Energea",
+      "role": "startup",
+      "what": "Reg A+ platform offering retail investors dividend-paying portfolios of operating solar in the US, Brazil, and Africa.",
+      "signal": "Thousands of retail investors; monthly-distribution model.",
+      "status": "operating",
+      "source": "https://energea.com/"
+     },
+     {
+      "name": "Calvert Impact",
+      "role": "incumbent",
+      "what": "Nonprofit issuer of the retail Community Investment Note and Cut Carbon Notes (rated green securitizations for building decarbonization).",
+      "signal": "Hundreds of millions of notes outstanding across ~30 years; brokerage-distributed.",
+      "status": "operating",
+      "source": "https://calvertimpact.org/"
+     },
+     {
+      "name": "Carbon Collective",
+      "role": "startup",
+      "what": "Climate-focused robo-advisor and 401(k) provider building fossil-free, climate-solutions-weighted portfolios.",
+      "signal": "Seed-backed; growing via employer retirement plan channel.",
+      "status": "operating",
+      "source": "https://www.carboncollective.co/"
+     }
+    ],
+    "white_space": "Retail demand exists but unit economics are brutal \u2014 per-deal diligence and compliance costs against $10-$1,000 checks (Raise Green sold, Ripple collapsed, Mosaic's original crowd model pivoted long ago); the opening is distribution through existing rails (401(k)s, brokerage notes like Calvert's) rather than standalone portals."
+   }
+  ],
+  "sources": [
+   "https://www.cruxclimate.com/insights/highlights-crux-2025-mid-year-market-intelligence-report",
+   "https://heatmap.news/climate-tech/crux-budget-transferability",
+   "https://www.latitudemedia.com/news/crux-launches-debt-capital-marketplace/",
+   "https://www.pv-tech.org/sunnova-mosaic-file-chapter-11-bankruptcy/",
+   "https://www.davispolk.com/experience/solar-mosaic-emerges-chapter-11",
+   "https://www.canarymedia.com/articles/solar/sunnova-mosaic-bankruptcies-industry-challenges",
+   "https://www.abfjournal.com/sunlight-financial-emerges-from-restructuring-process/",
+   "https://pv-magazine-usa.com/2025/12/15/sustainable-home-upgrade-finance-platform-goodleap-announces-523-million-securitization/",
+   "https://pv-magazine-usa.com/2024/04/26/minnesota-sues-goodleap-sunlight-mosaic-and-dividend-over-dealer-fees/",
+   "https://www.americanbanker.com/news/aspiration-a-tree-planting-neobank-felled-by-investor-fraud",
+   "https://www.bankingdive.com/news/climate-first-bank-finds-fintech-partner-with-a-similarly-green-mission/600048/",
+   "https://www.cbinsights.com/company/ecolytiq",
+   "https://ecolytiq.com/press/ecolytiq-and-visa-bring-sustainability-as-a-service-to-banks-in-europe",
+   "https://connect.earth/api-integration-to-provide-banks-with-reliable-carbon-footprint-data/",
+   "https://www.cogo.co/post/10-increase-in-natwest-customers-using-cogo-data-to-manage-their-carbon-footprint",
+   "https://www.persefoni.com/blog/best-financed-emissions-software",
+   "https://www.businesswire.com/news/home/20250723646042/en/Jupiter-Intelligence-Establishes-New-Standard-for-Investment-Grade-Climate-Analytics",
+   "https://sifted.eu/articles/climate-x-series-a-news",
+   "https://www.cbinsights.com/company/cervest",
+   "https://www.mitigasolutions.com/blog/mitiga-acquires-cervests-intellectual-property-rights-to-accelerate-growth-and-enhance-market-position",
+   "https://bam.brookfield.com/press-releases/brookfield-raises-20-billion-record-transition-fund",
+   "https://www.newprivatemarkets.com/tpg-plans-to-close-two-rise-funds-this-year-amid-an-expanding-opportunity-set/",
+   "https://www.ifc.org/en/pressroom/2025/ifc-invests-in-brookfield-s-fund-to-support-energy-transition-sustainable-solution",
+   "https://pv-magazine-usa.com/2026/03/10/beazley-acquires-kwh-analytics-to-scale-renewable-energy-underwriting/",
+   "https://techcrunch.com/2024/06/05/climate-insurance-understory-15m/",
+   "https://www.instech.co/knowledge-centre/arbol-enabling-climate-risk-transfer-in-renewables-and-reinsurance/",
+   "https://www.windpowermonthly.com/article/1911498/community-owned-wind-firm-ripple-energy-brink-collapse",
+   "https://www.superpowers4good.com/p/the-rise-of-climate-project-crowdfunding",
+   "https://www.banyaninfrastructure.com/news/banyan-infrastructure-partners-with-cgc-to-accelerate-lending-for-americas-national-green-bank",
+   "https://www.solarpowerworldonline.com/2024/07/evergrow-completes-its-first-solar-tax-credit-transfer-reit/"
+  ]
+ }
+}

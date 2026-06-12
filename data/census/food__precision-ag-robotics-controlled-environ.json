@@ -1,0 +1,670 @@
+{
+ "sector": "food",
+ "bucket": "Precision Ag, Robotics & Controlled-Environment Ag",
+ "census": {
+  "bucket": "Precision Ag, Robotics & Controlled-Environment Ag",
+  "sources": [
+   "https://roboticsandautomationnews.com/2025/11/05/john-deere-customers-use-autonomous-see-spray-technology-across-5-million-acres-in-2025/96266/",
+   "https://igrownews.com/autonomous-weeding-robots-drew-more-precision-ag-investment-than-any-other-category-in-2025/",
+   "https://www.geekwire.com/2025/carbon-robotics-raises-20m-as-laserweeder-maker-plans-secretive-new-ai-robot-for-farms/",
+   "https://techcrunch.com/2025/11/19/monarch-tractor-preps-for-layoffs-and-warns-employees-it-may-shut-down/",
+   "https://www.farmprogress.com/technology/farmwise-closure-leaves-farmers-in-limbo-as-ag-tech-faces-investment-hurdles",
+   "https://agfundernews.com/israels-greeneye-technology-raises-20m-to-expand-precision-spray-tech-across-the-us",
+   "https://techcrunch.com/2025/03/24/vertical-farming-company-plenty-files-for-bankruptcy-after-raising-nearly-1b/",
+   "https://ageyetech.com/news/cea-industry-2025-review-vertical-farming-outlook-2026",
+   "https://agfundernews.com/with-115m-in-new-funding-80-acres-farms-tackles-the-next-big-unlock-for-vertical-farming-plant-genetics",
+   "https://www.producegrower.com/article/aerofarms-vertical-farm-closes-announcement/",
+   "https://www.prnewswire.com/news-releases/iunu-secures-20-million-to-accelerate-growth-in-ai-driven-greenhouse-technology-302428703.html",
+   "https://www.seafoodsource.com/news/business-finance/aquabounty-stock-price-plunges-as-company-ceases-salmon-farming-ceo-steps-over",
+   "https://www.alanwcook.com/blog/atlantic-sapphire-lessons-for-investors-from-the-1-billion-ras-experiment",
+   "https://www.cnbc.com/2025/02/07/efishery-the-impact-a-scandal-has-on-ecosystem-already-in-deep-water.html",
+   "https://aquaculturemag.com/2025/12/26/aquabyte-joins-forces-with-vitruvian-partners-to-drive-growth-of-its-ai-powered-monitoring-technology/",
+   "https://thefishsite.com/articles/recirculating-aquaculture-systems-money-makers-or-dream-breakers",
+   "https://igrownews.com/planet-labs-pbc-latest-news/",
+   "https://www.pixxel.space/news/pixxels-firefly-satellites-achieve-successful-first-light-beaming-down-the-worlds-highest-resolution-hyperspectral-images",
+   "https://spacenews.com/constellr-acquires-hyperspectral-firm-scanworld-in-a-move-set-to-disrupt-the-use-of-beyond-visual-data-in-smart-farming-worldwide/",
+   "https://news.mit.edu/2025/guardian-ag-crop-spraying-drone-replaces-dangerous-pilot-missions-0605",
+   "https://www.agtechnavigator.com/Article/2025/12/17/american-autonomy-targets-us-data-security-fears-as-ndaa-deadline-puts-chinese-ag-drones-on-notice/",
+   "https://www.digitalcommerce360.com/2025/07/28/farmers-business-network-fbn-50-million-funding-ai/",
+   "https://agfundernews.com/cropx-acquires-new-zealand-precision-effluent-and-smart-irrigation-decision-startup",
+   "https://www.geekwire.com/2025/agtech-startup-launched-by-brothers-in-rural-washington-raises-cash-to-grow-its-irrigation-tech/",
+   "https://thenextweb.com/news/halter-series-e-virtual-fencing-cattle",
+   "https://www.farmprogress.com/technology/virtual-fencing-technology-gains-ground-in-u-s-",
+   "https://electrek.co/guides/electric-tractors/",
+   "https://www.agnavigator.com/Article/2025/10/23/back-to-the-future-for-the-ag-industry-might-mean-more-greenhouses/",
+   "https://qaltivate.com/blog/farming-software-companies/",
+   "https://www.cbinsights.com/company/ceres-imaging/financials"
+  ],
+  "variations": [
+   {
+    "name": "Precision / variable-rate application & see-and-spray weeding",
+    "description": "Cameras, AI and variable-rate controllers on sprayers and drones apply herbicide and fertilizer only where individual plants need it, cutting chemical use 50-90% along with the upstream emissions from manufacturing and applying those inputs.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "John Deere (See & Spray)",
+      "role": "incumbent",
+      "what": "Factory and retrofit camera+AI spot-spraying built on its 2017 Blue River acquisition, targeting weeds in corn, soy and cotton",
+      "signal": "5M acres treated in 2025; ~50% average non-residual herbicide cut (31M gallons of mix saved); pay-only-on-savings guarantee introduced",
+      "status": "operating",
+      "source": "https://roboticsandautomationnews.com/2025/11/05/john-deere-customers-use-autonomous-see-spray-technology-across-5-million-acres-in-2025/96266/"
+     },
+     {
+      "name": "Greeneye Technology",
+      "role": "startup",
+      "what": "Retrofit AI precision-spraying kit (24 cameras, 12 GPUs) that converts any existing sprayer to plant-level green-on-green spraying",
+      "signal": "$20M round 2025 bringing total to ~$45M; backed by Syngenta Group Ventures and FBN founder; demonstrated ~87% non-residual herbicide reduction",
+      "status": "operating",
+      "source": "https://agfundernews.com/israels-greeneye-technology-raises-20m-to-expand-precision-spray-tech-across-the-us"
+     },
+     {
+      "name": "Ecorobotix",
+      "role": "scaleup",
+      "what": "Swiss maker of the ARA ultra-high-precision sprayer treating plants in 6x6cm cells for vegetables, sugar beet and pasture",
+      "signal": "$105M Series D Oct 2025 \u2014 largest precision-ag round of the year; claims 50-95% input reduction",
+      "status": "operating",
+      "source": "https://igrownews.com/autonomous-weeding-robots-drew-more-precision-ag-investment-than-any-other-category-in-2025/"
+     },
+     {
+      "name": "One Smart Spray (Bosch + BASF JV)",
+      "role": "incumbent",
+      "what": "Joint venture combining Bosch cameras/electronics with BASF agronomy for green-on-green smart spraying integrated on OEM sprayers (e.g. AGCO Fendt Rogator)",
+      "signal": "Commercial in North and South America 2024-25 as one of the four major smart-sprayer systems",
+      "status": "operating",
+      "source": "https://www.farmprogress.com/farming-equipment/which-of-these-smart-sprayers-is-best-for-your-operation-"
+     },
+     {
+      "name": "Precision Planting (AGCO)",
+      "role": "incumbent",
+      "what": "Retrofit precision hardware leader (planting meters, SymphonyVision nozzle-level spray control) sold through ag dealers",
+      "signal": "AGCO subsidiary anchoring its retrofit-first precision strategy alongside PTx Trimble",
+      "status": "operating",
+      "source": "https://www.farmprogress.com/farming-equipment/which-of-these-smart-sprayers-is-best-for-your-operation-"
+     },
+     {
+      "name": "DJI Agriculture",
+      "role": "incumbent",
+      "what": "Dominant global maker of Agras spray drones used for variable-rate spraying and spreading",
+      "signal": "Agras T50/T100 lead the category; largest installed ag-drone fleet worldwide; faces US NDAA restriction risk",
+      "status": "operating",
+      "source": "https://www.dslrpros.com/blogs/drone-trends/top-10-crop-spraying-drones-of-2025-reviews-comparisons-and-buying-guide"
+     },
+     {
+      "name": "XAG",
+      "role": "incumbent",
+      "what": "Chinese ag-drone maker whose P150 (18.5-gal tank, 30+ mph) is the largest, fastest spray drone on the market",
+      "signal": "P150 launched Dec 2024 and adopted into US fleets via distributors like Rantizo",
+      "status": "operating",
+      "source": "https://www.therobotreport.com/rantizo-adds-new-xag-p150-to-spray-drone-lineup/"
+     },
+     {
+      "name": "Hylio",
+      "role": "startup",
+      "what": "US-manufactured, NDAA-compliant spray drones (AG-272, HYL-150 ARES) positioned as the domestic alternative to Chinese drones",
+      "signal": "Holds an estimated 10-20% of the US ag-drone market; new HYL-150 launched 2025",
+      "status": "operating",
+      "source": "https://www.agtechnavigator.com/Article/2025/12/17/american-autonomy-targets-us-data-security-fears-as-ndaa-deadline-puts-chinese-ag-drones-on-notice/"
+     },
+     {
+      "name": "Guardian Agriculture",
+      "role": "startup",
+      "what": "Heavy-lift electric VTOL aircraft for crop spraying, replacing dangerous crewed crop-duster flights",
+      "signal": "First US-based ag eVTOL maker in commercial operation; >$100M in customer orders",
+      "status": "operating",
+      "source": "https://news.mit.edu/2025/guardian-ag-crop-spraying-drone-replaces-dangerous-pilot-missions-0605"
+     }
+    ]
+   },
+   {
+    "name": "Ag robotics & autonomous machinery (weeding, harvesting, tractors)",
+    "description": "Autonomous tractors and field robots weed, spray, haul and harvest with centimeter precision, replacing scarce labor and blanket chemical/diesel passes and enabling lower-input farming at scale.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "John Deere",
+      "role": "incumbent",
+      "what": "Autonomous 8R/9RX tractors and orchard equipment via second-generation autonomy kits; acquired Bear Flag Robotics (2021) and Blue River",
+      "signal": "Second-gen autonomy unveiled CES 2025; stated goal of fully autonomous corn/soy production system by 2030",
+      "status": "operating",
+      "source": "https://www.agweb.com/news/business/technology/autonomy-farming-what-manufacturers-and-tech-companies-are-working"
+     },
+     {
+      "name": "Carbon Robotics",
+      "role": "scaleup",
+      "what": "LaserWeeder uses deep learning and lasers to kill weeds thermally with zero herbicide; added Autonomous Tractor Kit",
+      "signal": "$177M raised including $20M in 2025; hundreds of customers; 2025 CNBC Disruptor 50; ~260 employees",
+      "status": "operating",
+      "source": "https://www.geekwire.com/2025/carbon-robotics-raises-20m-as-laserweeder-maker-plans-secretive-new-ai-robot-for-farms/"
+     },
+     {
+      "name": "Bluewhite",
+      "role": "scaleup",
+      "what": "Israeli retrofit autonomy kits (Pathfinder) turning existing orchard/vineyard tractors into autonomous fleets",
+      "signal": "GEN 4 system built on NVIDIA AGX Orin launched 2025; New Holland (CNH) partnership to automate specialty tractors",
+      "status": "operating",
+      "source": "https://igrownews.com/bluewhite-latest-news/"
+     },
+     {
+      "name": "Agtonomy",
+      "role": "startup",
+      "what": "Embedded autonomy software + 'TeleFarmer' services for OEM tractors and equipment in vineyards, orchards and nuts",
+      "signal": "$18M Series B led by DBL Partners; autonomous machine rental program expanding to Washington state",
+      "status": "operating",
+      "source": "https://agfundernews.com/agtonomy-bags-18m-to-bring-more-ai-to-the-next-frontier-of-automation-agricultural-equipment"
+     },
+     {
+      "name": "Naio Technologies",
+      "role": "startup",
+      "what": "French maker of Oz, Ted and Orio autonomous mechanical-weeding robots for vegetables and vineyards",
+      "signal": "Hundreds of robots deployed across Europe and North America; mainstay of FIRA ag-robotics shows",
+      "status": "operating",
+      "source": "https://revistacultivar.com/news/Robots-and-autonomous-machines-gain-space-at-the-USA-Fair-in-2025"
+     },
+     {
+      "name": "Verdant Robotics",
+      "role": "startup",
+      "what": "SharpShooter multi-action robot that sprays, weeds and fertilizes at plant level in a single pass",
+      "signal": "$97M+ raised; collaboration with SwarmFarm Robotics to bring precision to autonomous Midwest row crops",
+      "status": "operating",
+      "source": "https://robottoday.com/article/weeding-and-crop-management-robots-the-34-b-market-disruption-hiding-in-plain-sight"
+     },
+     {
+      "name": "Bonsai Robotics",
+      "role": "startup",
+      "what": "Vision-based (GPS-denied) autonomy for orchard harvesters and shakers in dusty tree-nut environments",
+      "signal": "$15M Series A closed 2025 focused on autonomous harvest",
+      "status": "operating",
+      "source": "https://igrownews.com/autonomous-weeding-robots-drew-more-precision-ag-investment-than-any-other-category-in-2025/"
+     },
+     {
+      "name": "GUSS Automation",
+      "role": "scaleup",
+      "what": "Semi-autonomous orchard and vineyard sprayers supervised remotely by one operator running multiple machines",
+      "signal": "Commercial fleets in California orchards; showcased at FIRA USA and Agritechnica 2025",
+      "status": "operating",
+      "source": "https://fruitgrowersnews.com/article/fira-usa-2025-ag-robotics-automation/"
+     },
+     {
+      "name": "FarmWise",
+      "role": "startup",
+      "what": "Camera-guided mechanical weeding implements (Vulcan, $645k/unit) for specialty crops in Salinas Valley",
+      "signal": "Raised ~$70M; closed April 1, 2025 when VC funding ran out; assets acquired by customer Taylor Farms",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.farmprogress.com/technology/farmwise-closure-leaves-farmers-in-limbo-as-ag-tech-faces-investment-hurdles"
+     },
+     {
+      "name": "Tortuga AgTech",
+      "role": "startup",
+      "what": "Strawberry-harvesting robots for greenhouses and vertical farms",
+      "signal": "Wound down and was acquired by vertical-farm grower Oishii in 2025, reportedly cutting Oishii's costs ~50% by bringing robotics in-house",
+      "status": "acquired",
+      "source": "https://ageyetech.com/news/cea-industry-2025-review-vertical-farming-outlook-2026"
+     }
+    ],
+    "white_space": "Harvest robotics specifically keeps failing (Tortuga, FarmWise; earlier Abundant and Traptic) \u2014 high capex and seasonal utilization break against thin farm margins; the opening is robotics-as-a-service priced per acre with OEM/dealer distribution, or selling autonomy software into incumbent equipment rather than building machines."
+   },
+   {
+    "name": "Electrified & alternative-fuel farm equipment",
+    "description": "Battery-electric and biomethane-powered tractors and implements replace diesel drivetrains, cutting on-farm fuel combustion emissions and enabling quieter, software-defined, autonomy-ready machines.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Monarch Tractor",
+      "role": "scaleup",
+      "what": "MK-V driver-optional electric compact tractor plus battery and autonomy software licensing to OEMs",
+      "signal": "$220M raised including $133M Series C (Jul 2024, largest-ever ag-robotics round); Nov 2025 warned 102 staff of layoffs and possible shutdown while pivoting to software licensing; sued by a dealer over defect claims",
+      "status": "uncertain",
+      "source": "https://techcrunch.com/2025/11/19/monarch-tractor-preps-for-layoffs-and-warns-employees-it-may-shut-down/"
+     },
+     {
+      "name": "Solectrac",
+      "role": "startup",
+      "what": "Compact battery-electric tractors (e25, e70N) for small farms, orchards and vineyards",
+      "signal": "Parent Ideanomics filed Chapter 11 in Dec 2024; reports of eviction and dealers abandoning the brand",
+      "status": "uncertain",
+      "source": "https://electrek.co/guides/electric-tractors/"
+     },
+     {
+      "name": "AGCO / Fendt",
+      "role": "incumbent",
+      "what": "Fendt e107 V Vario, the first series-production battery-electric utility tractor from a major OEM, sold in Europe",
+      "signal": "Commercially launched 2024-25; flagship of AGCO's electrification line",
+      "status": "operating",
+      "source": "https://electrek.co/guides/electric-tractors/"
+     },
+     {
+      "name": "CNH / New Holland",
+      "role": "incumbent",
+      "what": "T4 Electric Power utility tractor (developed with Monarch tech) and T6.180 Methane Power tractor running on biomethane from farm digesters",
+      "signal": "Both in commercial production \u2014 the only major OEM with a methane tractor line",
+      "status": "operating",
+      "source": "https://electrek.co/guides/electric-tractors/"
+     },
+     {
+      "name": "John Deere",
+      "role": "incumbent",
+      "what": "Battery-electric compact utility tractors and an electric autonomous orchard machine, backed by its Kreisel Electric battery acquisition",
+      "signal": "Electric and hybrid-electric models shown at CES 2025; Kreisel batteries power its e-equipment line",
+      "status": "operating",
+      "source": "https://electrek.co/guides/electric-tractors/"
+     },
+     {
+      "name": "Kubota",
+      "role": "incumbent",
+      "what": "LXe-261 compact electric tractor (limited release) and hydrogen fuel-cell tractor concepts",
+      "signal": "Limited commercial e-tractor availability in Japan/Europe; broad electrification roadmap",
+      "status": "operating",
+      "source": "https://electrek.co/guides/electric-tractors/"
+     }
+    ],
+    "white_space": "Few credible players because battery energy density can't yet match the duty cycle of full-size field tractors, farms lack charging infrastructure, and both dedicated US e-tractor startups are in distress despite ~$300M raised \u2014 the realistic openings are compact/orchard electric tractors, retrofit electrification, and biomethane tractors paired with on-farm digesters, mostly led by incumbents."
+   },
+   {
+    "name": "Farm-management, agronomy & decision-support software",
+    "description": "Software platforms aggregate field, machine, weather and market data to optimize seed, fertilizer, chemical and financial decisions per acre, squeezing more output from fewer inputs.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Bayer / Climate FieldView",
+      "role": "incumbent",
+      "what": "Brand-agnostic digital ag platform for field data analysis, yield prediction and variable-rate prescriptions",
+      "signal": "Covers 250M+ acres globally; ML-driven yield and pest-risk module launched Mar 2025",
+      "status": "operating",
+      "source": "https://qaltivate.com/blog/farming-software-companies/"
+     },
+     {
+      "name": "John Deere Operations Center",
+      "role": "incumbent",
+      "what": "Equipment-linked farm data platform tying agronomic data to Deere machines and dealer ecosystem",
+      "signal": "John Deere alone holds ~12% of global farm-software revenue; top-5 vendors hold ~43%",
+      "status": "operating",
+      "source": "https://qaltivate.com/blog/farming-software-companies/"
+     },
+     {
+      "name": "Farmers Business Network (FBN)",
+      "role": "scaleup",
+      "what": "Farmer network combining input e-commerce, financing and the 'Norm' AI agronomist across North America",
+      "signal": "$50M raised Jul 2025 (GV, Temasek, T. Rowe Price) after layoffs; spun off crop-solutions unit Oct 2025 to become a pure tech platform",
+      "status": "operating",
+      "source": "https://www.digitalcommerce360.com/2025/07/28/farmers-business-network-fbn-50-million-funding-ai/"
+     },
+     {
+      "name": "Semios",
+      "role": "scaleup",
+      "what": "IoT mesh networks (pest traps, frost/water sensors) plus Agworld farm-management for permanent crops like orchards and vineyards",
+      "signal": "Acquired Agworld, Altrac and Centricity; expanded orchard/vineyard analytics suite Jan 2025",
+      "status": "operating",
+      "source": "https://www.globenewswire.com/news-release/2025/09/12/3149077/28124/en/Agritech-Data-Management-and-Analysis-Market-Report-2025-2035-with-Profiles-of-TELUS-Agriculture-SemiosBio-Technologies-Trimble-Bushel-AgriWebb-Conservis-CropX-Arable-Labs-Valmont-.html"
+     },
+     {
+      "name": "Bushel",
+      "role": "startup",
+      "what": "Digital infrastructure and payments for the US grain industry plus Bushel Farm management/accounting software",
+      "signal": "Powers grower portals for hundreds of grain companies; profiled among top agritech data platforms 2025",
+      "status": "operating",
+      "source": "https://bushelfarm.com/"
+     },
+     {
+      "name": "AgriWebb",
+      "role": "startup",
+      "what": "Livestock and grazing management software (Australia/US/UK) tracking animal performance and pasture",
+      "signal": "Profiled among leading agritech data-management vendors 2025-2035",
+      "status": "operating",
+      "source": "https://www.globenewswire.com/news-release/2025/09/12/3149077/28124/en/Agritech-Data-Management-and-Analysis-Market-Report-2025-2035-with-Profiles-of-TELUS-Agriculture-SemiosBio-Technologies-Trimble-Bushel-AgriWebb-Conservis-CropX-Arable-Labs-Valmont-.html"
+     },
+     {
+      "name": "Traction Ag",
+      "role": "startup",
+      "what": "Cloud farm accounting and financial management built for US row-crop operations",
+      "signal": "Growing niche player in farm financials as Granular's exit left a gap",
+      "status": "operating",
+      "source": "https://tractionag.com/"
+     }
+    ]
+   },
+   {
+    "name": "Satellite / drone remote sensing, imaging & crop analytics",
+    "description": "Satellites and drones image fields daily at up to leaf-level resolution so growers can detect water stress, disease and nutrient needs early and treat only the acres that need it.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Planet Labs",
+      "role": "incumbent",
+      "what": "Daily global PlanetScope imagery plus fused Crop Biomass analytics (optical + radar) and Tanager hyperspectral satellites",
+      "signal": "Record $94.2M quarterly revenue (Q1 FY2027) led by ag and government; national ag-monitoring contracts (e.g. Czech SZIF)",
+      "status": "operating",
+      "source": "https://igrownews.com/planet-labs-pbc-latest-news/"
+     },
+     {
+      "name": "Pixxel",
+      "role": "startup",
+      "what": "Firefly constellation delivering the world's highest-resolution (5m, 130+ band) commercial hyperspectral imagery for crop health and soil",
+      "signal": "All six Firefly satellites launched and operational in 2025; ag partnerships (DataFarming Australia, Coactive Science Spain)",
+      "status": "operating",
+      "source": "https://www.pixxel.space/news/pixxels-firefly-satellites-achieve-successful-first-light-beaming-down-the-worlds-highest-resolution-hyperspectral-images"
+     },
+     {
+      "name": "Constellr",
+      "role": "startup",
+      "what": "German thermal-infrared satellite constellation measuring field-level land surface temperature to flag crop water stress weeks early",
+      "signal": "First satellites launched 2025; acquired hyperspectral firm ScanWorld to fuse thermal + spectral for smart farming",
+      "status": "operating",
+      "source": "https://spacenews.com/constellr-acquires-hyperspectral-firm-scanworld-in-a-move-set-to-disrupt-the-use-of-beyond-visual-data-in-smart-farming-worldwide/"
+     },
+     {
+      "name": "EOS Data Analytics",
+      "role": "startup",
+      "what": "EOSDA Crop Monitoring platform and EOS SAT, the first commercial satellite constellation designed specifically for agriculture",
+      "signal": "EOS SAT-1 in orbit; crop-monitoring platform used across 200+ countries/regions",
+      "status": "operating",
+      "source": "https://eos.com/blog/best-softwares-for-farming/"
+     },
+     {
+      "name": "Taranis",
+      "role": "scaleup",
+      "what": "Submeter 'leaf-level' aerial imagery with AI scouting sold through US ag retailers and co-ops",
+      "signal": "~$140M raised to date; HQ relocated to Indiana to be near US retail channel",
+      "status": "operating",
+      "source": "https://www.taranis.com/"
+     },
+     {
+      "name": "Ceres AI (ex-Ceres Imaging)",
+      "role": "startup",
+      "what": "Aerial multispectral/thermal imagery plus AI for irrigation and stress management in orchards, vines and row crops",
+      "signal": "$13M Series D-II (Nov 2025) on top of $25M Series D; rebranded from Ceres Imaging to broaden into climate analytics",
+      "status": "operating",
+      "source": "https://www.cbinsights.com/company/ceres-imaging/financials"
+     },
+     {
+      "name": "Sentera",
+      "role": "startup",
+      "what": "Drone sensors (6X multispectral) and FieldAgent platform converting drone imagery into stand counts and weed maps",
+      "signal": "$22.5M+ raised; sensors integrated with DJI enterprise drones and major ag retailers",
+      "status": "operating",
+      "source": "https://sentera.com/"
+     }
+    ]
+   },
+   {
+    "name": "IoT sensors & smart irrigation / water-efficiency tech",
+    "description": "Soil, plant and weather sensors paired with automated valves, drip systems and pivot telemetry schedule irrigation to actual crop demand, cutting water use and pumping energy 20-50%.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Netafim (Orbia)",
+      "role": "incumbent",
+      "what": "Global drip-irrigation pioneer and leader, now layering GrowSphere digital irrigation control on its hardware",
+      "signal": "~30% global drip share; operations in 100+ countries under Orbia Precision Agriculture",
+      "status": "operating",
+      "source": "https://www.netafim.com/"
+     },
+     {
+      "name": "Lindsay Corporation",
+      "role": "incumbent",
+      "what": "Zimmatic center pivots with FieldNET remote monitoring/control and irrigation scheduling",
+      "signal": "NYSE-listed; FieldNET deployed across millions of irrigated acres worldwide",
+      "status": "operating",
+      "source": "https://www.lindsay.com/"
+     },
+     {
+      "name": "Valmont (Valley Irrigation)",
+      "role": "incumbent",
+      "what": "Valley pivots with Valley 365/AgSense connected crop management and variable-rate irrigation",
+      "signal": "One of the two dominant global pivot makers; profiled among top agritech data platforms",
+      "status": "operating",
+      "source": "https://www.valmont.com/"
+     },
+     {
+      "name": "CropX",
+      "role": "scaleup",
+      "what": "Soil sensors fused with satellite and agronomic models in a farm decision platform; serial acquirer of irrigation-software startups",
+      "signal": "Acquired NZ effluent/irrigation startup Regen (2025), adding 130k+ acres; multiple prior acquisitions (Dacom, CropMetrics, Tule)",
+      "status": "operating",
+      "source": "https://agfundernews.com/cropx-acquires-new-zealand-precision-effluent-and-smart-irrigation-decision-startup"
+     },
+     {
+      "name": "Arable",
+      "role": "startup",
+      "what": "Mark 3 in-field sensor combining weather, crop and irrigation analytics in one device",
+      "signal": "Profiled among leading agritech data/analysis companies 2025; used by global food companies for sourcing visibility",
+      "status": "operating",
+      "source": "https://www.globenewswire.com/news-release/2025/09/12/3149077/28124/en/Agritech-Data-Management-and-Analysis-Market-Report-2025-2035-with-Profiles-of-TELUS-Agriculture-SemiosBio-Technologies-Trimble-Bushel-AgriWebb-Conservis-CropX-Arable-Labs-Valmont-.html"
+     },
+     {
+      "name": "Lumo",
+      "role": "startup",
+      "what": "Cloud-connected smart valves that automate and verify block-level irrigation in vineyards and orchards",
+      "signal": "~$16M raised (Bessemer, Fall Line); deployed on 200+ farms; ranked leader among smart-irrigation startups",
+      "status": "operating",
+      "source": "https://www.geekwire.com/2025/agtech-startup-launched-by-brothers-in-rural-washington-raises-cash-to-grow-its-irrigation-tech/"
+     },
+     {
+      "name": "N-Drip",
+      "role": "startup",
+      "what": "Gravity-powered micro-irrigation that converts flood-irrigated fields to drip without pumps or filtration",
+      "signal": "Partnerships with PepsiCo and state water agencies; deployments in US, India, Australia targeting flood-acreage conversion",
+      "status": "operating",
+      "source": "https://ndrip.com/"
+     }
+    ],
+    "white_space": "Hardware incumbents (Netafim, Lindsay, Valmont) own distribution and pure-software irrigation startups stall at low contract values; the open ground is cheap actuation \u2014 automated valves for the majority of specialty acreage still turned by hand (Lumo's wedge) \u2014 and financed flood-to-drip conversion in emerging markets where the biggest water/methane savings sit."
+   },
+   {
+    "name": "Controlled-environment agriculture (vertical farms, greenhouse automation, container farms)",
+    "description": "Climate-controlled greenhouses and vertical farms multiply yield per acre and cut water and pesticide use dramatically, but replacing free sunlight with electricity has bankrupted most pure vertical-farming players, leaving sun-fed high-tech greenhouses as the economic winners.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Gotham Greens",
+      "role": "scaleup",
+      "what": "Rooftop and standalone hydroponic greenhouses producing leafy greens near cities across the US",
+      "signal": "13 greenhouses in 9 states (~2M sq ft); ~100M lettuce heads/yr; distribution in all 50 states",
+      "status": "operating",
+      "source": "https://indooragtech.com/cea-updates/"
+     },
+     {
+      "name": "Little Leaf Farms",
+      "role": "scaleup",
+      "what": "Sunlight-fed automated greenhouse lettuce grower expanding methodically from New England",
+      "signal": "Largest US indoor lettuce producer; secured $300M in new funding (2025) for expansion",
+      "status": "operating",
+      "source": "https://www.agnavigator.com/Article/2025/10/23/back-to-the-future-for-the-ag-industry-might-mean-more-greenhouses/"
+     },
+     {
+      "name": "Oishii",
+      "role": "scaleup",
+      "what": "Premium vertical-farmed strawberries (Omakase berry) with in-house robotics after acquiring Tortuga AgTech",
+      "signal": "$134M Series B (2024); Tortuga acquisition reportedly cut costs ~50% \u2014 the rare vertical farm with pricing power",
+      "status": "operating",
+      "source": "https://ageyetech.com/news/cea-industry-2025-review-vertical-farming-outlook-2026"
+     },
+     {
+      "name": "80 Acres Farms",
+      "role": "scaleup",
+      "what": "Vertical farms consolidating the sector \u2014 merged with Soli Organic, acquired Plantae Biosciences to breed crops for indoor conditions",
+      "signal": "$115M raised 2025 (total >$370M); merged with Soli Organic Aug 2025; buying distressed competitors' assets",
+      "status": "operating",
+      "source": "https://agfundernews.com/with-115m-in-new-funding-80-acres-farms-tackles-the-next-big-unlock-for-vertical-farming-plant-genetics"
+     },
+     {
+      "name": "Plenty Unlimited",
+      "role": "scaleup",
+      "what": "High-density vertical farms; refocused on strawberries (Driscoll's partnership) at its Virginia farm after restructuring",
+      "signal": "Raised ~$940M then filed Chapter 11 Mar 2025 (99% valuation collapse from $1.9B); emerged in 53 days much smaller",
+      "status": "operating",
+      "source": "https://techcrunch.com/2025/03/24/vertical-farming-company-plenty-files-for-bankruptcy-after-raising-nearly-1b/"
+     },
+     {
+      "name": "Bowery Farming",
+      "role": "scaleup",
+      "what": "Was the largest US vertical-farming startup, growing greens in automated warehouses near East Coast cities",
+      "signal": "Raised $700M+ at a $2.3B peak valuation; ceased operations Nov 2024; Georgia farm liquidated 2025",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.fertilizerdaily.com/20251114-bowery-farmings-70m-georgia-vertical-farm-heads-to-liquidation-as-startups-collapse-triggers-nationwide-sell-offs/"
+     },
+     {
+      "name": "Freight Farms",
+      "role": "startup",
+      "what": "Container-farm pioneer selling 'Greenery' shipping-container hydroponic farms to schools, retailers and small growers",
+      "signal": "Went public via SPAC then collapsed; among the high-profile CEA bankruptcies of 2025",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.agnavigator.com/Article/2025/10/23/back-to-the-future-for-the-ag-industry-might-mean-more-greenhouses/"
+     },
+     {
+      "name": "AeroFarms",
+      "role": "scaleup",
+      "what": "Aeroponic vertical farms; pivoted to microgreens after 2023 Chapter 11, then closed its flagship Danville, Virginia farm in Dec 2025 (173 layoffs) while claiming continued supply",
+      "signal": "Emerged from Ch. 11 Sept 2023; Danville closure Dec 2025 leaves its operating footprint unclear",
+      "status": "uncertain",
+      "source": "https://www.producegrower.com/article/aerofarms-vertical-farm-closes-announcement/"
+     },
+     {
+      "name": "Priva",
+      "role": "incumbent",
+      "what": "Dutch greenhouse climate-control and process-automation leader, now integrating third-party AI (iUNU, Source.ag) into its control systems",
+      "signal": "Installed base across global high-tech greenhouse industry; expanded AI partnerships 2025-26",
+      "status": "operating",
+      "source": "https://www.priva.com/blog/horticulture/priva-iunu-partners-in-ai-driven-growing"
+     },
+     {
+      "name": "iUNU",
+      "role": "startup",
+      "what": "LUNA computer-vision rails and AI giving greenhouses plant-level yield forecasting, labor analytics and crop steering",
+      "signal": "$20M raised Apr 2025 (S2G); deployed in 100+ facilities across 18 countries; 330% vine-crop growth",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/iunu-secures-20-million-to-accelerate-growth-in-ai-driven-greenhouse-technology-302428703.html"
+     }
+    ],
+    "white_space": "Physics, not execution, killed pure vertical farming \u2014 paying for photons that sunlight provides free only pencils for premium crops; 14 CEA bankruptcies in 2025 alone. The durable opening is automation, vision AI and breeding for existing sun-fed greenhouses (retrofit software/robotics) rather than new electricity-hungry farms, plus consolidation plays buying distressed assets at cents on the dollar."
+   },
+   {
+    "name": "Precision & land-based aquaculture (RAS, monitoring)",
+    "description": "Recirculating aquaculture systems grow fish on land near consumers while AI cameras and sensors optimize feeding and health in pens and tanks, cutting feed waste, disease losses and pressure on wild fisheries.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Atlantic Sapphire",
+      "role": "scaleup",
+      "what": "World's largest land-based RAS salmon farm (Miami 'Bluehouse') intended to supply the US market locally",
+      "signal": "~$1B invested; repeated mass-mortality events and missed targets; Phase 2 stalled \u2014 the sector's cautionary tale",
+      "status": "uncertain",
+      "source": "https://www.alanwcook.com/blog/atlantic-sapphire-lessons-for-investors-from-the-1-billion-ras-experiment"
+     },
+     {
+      "name": "AquaBounty",
+      "role": "startup",
+      "what": "Pioneered FDA-approved genetically engineered fast-growth salmon raised in land-based RAS",
+      "signal": "Ceased all fish farming Dec 2024, sold farms, halted half-built Ohio facility (equipment auctioned 2025); shell pursuing strategic alternatives",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.seafoodsource.com/news/business-finance/aquabounty-stock-price-plunges-as-company-ceases-salmon-farming-ceo-steps-down"
+     },
+     {
+      "name": "Nordic Aquafarms",
+      "role": "scaleup",
+      "what": "Developer of large land-based salmon/yellowtail RAS farms in Scandinavia and the US",
+      "signal": "Abandoned its flagship Belfast, Maine project after permitting defeats and exited its California site; retains smaller European operations",
+      "status": "uncertain",
+      "source": "https://thefishsite.com/articles/recirculating-aquaculture-systems-money-makers-or-dream-breakers"
+     },
+     {
+      "name": "eFishery",
+      "role": "scaleup",
+      "what": "Indonesian smart-feeder and farmer platform for fish/shrimp that became aquatech's first unicorn ($1.4B)",
+      "signal": "Fraud exposed Dec 2024 \u2014 revenue inflated from $157M to $752M; founders detained; company wound down, chilling SE Asia agtech funding",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.cnbc.com/2025/02/07/efishery-the-impact-a-scandal-has-on-ecosystem-already-in-deep-water.html"
+     },
+     {
+      "name": "Aquabyte",
+      "role": "startup",
+      "what": "Computer-vision sea-lice counting, biomass estimation and welfare monitoring for salmon pens",
+      "signal": "$48M raised (NEA, Costanoa); acquired by PE firm Vitruvian Partners Dec 2025 to fund growth",
+      "status": "acquired",
+      "source": "https://aquaculturemag.com/2025/12/26/aquabyte-joins-forces-with-vitruvian-partners-to-drive-growth-of-its-ai-powered-monitoring-technology/"
+     },
+     {
+      "name": "Innovasea",
+      "role": "scaleup",
+      "what": "Full-stack aquaculture technology \u2014 submersible pens, environmental sensors, fish tracking and feed optimization",
+      "signal": "Backed by Cuna del Mar; named among precision-aquaculture market leaders 2025",
+      "status": "operating",
+      "source": "https://www.marketsandmarkets.com/Market-Reports/precision-aquaculture-market-242307580.html"
+     },
+     {
+      "name": "AKVA Group",
+      "role": "incumbent",
+      "what": "Norwegian aquaculture infrastructure incumbent (pens, barges, feed systems) with Fishtalk cloud precision-feeding software",
+      "signal": "Launched cloud-based Fishtalk 5 precision feeding platform Mar 2025",
+      "status": "operating",
+      "source": "https://www.marketsandmarkets.com/PressReleases/precision-aquaculture.asp"
+     },
+     {
+      "name": "ReelData",
+      "role": "startup",
+      "what": "AI for land-based RAS farms \u2014 appetite-based feeding, biomass and health analytics from tank cameras",
+      "signal": "Canadian startup named an emerging leader in precision aquaculture with strong growth potential",
+      "status": "operating",
+      "source": "https://www.marketsandmarkets.com/Market-Reports/precision-aquaculture-market-242307580.html"
+     },
+     {
+      "name": "AquaMaof",
+      "role": "scaleup",
+      "what": "Israeli RAS technology provider that designs, builds and licenses turnkey land-based fish farms globally",
+      "signal": "Technology behind multiple operating RAS facilities worldwide; one of the few profitable 'picks-and-shovels' RAS players",
+      "status": "operating",
+      "source": "https://www.cbinsights.com/company/aquamaof-aquaculture-technologies"
+     }
+    ],
+    "white_space": "RAS grow-out has consumed ~$5B across 150+ projects with repeated biology (mortality, off-flavor) and capex blowouts \u2014 Atlantic Sapphire, AquaBounty and Nordic all stumbled \u2014 so the economics favor selling shovels instead: monitoring/feeding AI, modular mid-scale RAS for high-value species, and rebuilding farmer-platform trust in Southeast Asia after eFishery's fraud vacated the field."
+   },
+   {
+    "name": "Precision livestock monitoring & virtual fencing",
+    "description": "Solar GPS collars and wearable/rumen sensors virtually fence and continuously monitor grazing animals, enabling intensive rotational grazing that raises pasture productivity per acre and cuts fencing, labor and feed waste.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Halter",
+      "role": "scaleup",
+      "what": "Solar-powered GPS collars that guide and virtually fence cattle via app, automating rotational grazing and heat/health detection",
+      "signal": "$100M Series D at ~$1B (Jun 2025) then $220M Series E at $2B; 2,000+ ranches across NZ, Australia and the US",
+      "status": "operating",
+      "source": "https://thenextweb.com/news/halter-series-e-virtual-fencing-cattle"
+     },
+     {
+      "name": "Nofence",
+      "role": "scaleup",
+      "what": "Norwegian inventor of commercial virtual fencing, with collars for cattle, sheep and goats",
+      "signal": "First mover with tens of thousands of collars across Europe/US; 2025 connectivity upgrade for remote rangeland",
+      "status": "operating",
+      "source": "https://www.agtechnavigator.com/Article/2025/09/03/nofence-upgrades-virtual-fencing-tech-to-collar-rural-area-connectivity/"
+     },
+     {
+      "name": "Vence (Merck Animal Health)",
+      "role": "startup",
+      "what": "Virtual fencing collars for large beef rangeland operations, sold alongside Merck's Allflex livestock-monitoring line",
+      "signal": "Acquired by Merck Animal Health (2022); one of four VF vendors active in the US",
+      "status": "acquired",
+      "source": "https://www.farmprogress.com/technology/virtual-fencing-technology-gains-ground-in-u-s-"
+     },
+     {
+      "name": "Gallagher (eShepherd)",
+      "role": "incumbent",
+      "what": "Century-old fencing incumbent commercializing the eShepherd virtual-fencing collar from Agersens",
+      "signal": "Global ag-fencing distribution now carrying virtual fencing; active in US, NZ, Australia, Canada",
+      "status": "operating",
+      "source": "https://www.farmprogress.com/technology/virtual-fencing-technology-gains-ground-in-u-s-"
+     },
+     {
+      "name": "smaXtec",
+      "role": "scaleup",
+      "what": "Rumen bolus sensors measuring inner-body temperature and rumination to catch dairy cow illness days early, cutting antibiotics and losses",
+      "signal": "Deployed in large dairies across Europe and North America; expanding US footprint",
+      "status": "operating",
+      "source": "https://smaxtec.com/"
+     }
+    ],
+    "white_space": "Only about four credible virtual-fencing vendors exist globally; collar cost (~$300+/head plus subscription) and patchy rural connectivity limit adoption on low-margin US beef rangeland \u2014 openings are lower-cost collars for extensive beef systems, satellite-connected devices, and bundling virtual fencing with grazing-based soil-carbon and methane programs."
+   }
+  ]
+ }
+}

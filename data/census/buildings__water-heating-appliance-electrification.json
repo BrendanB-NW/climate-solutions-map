@@ -1,0 +1,756 @@
+{
+ "sector": "buildings",
+ "bucket": "Water Heating & Appliance Electrification",
+ "census": {
+  "bucket": "Water Heating & Appliance Electrification",
+  "sources": [
+   "https://www.grandviewresearch.com/industry-analysis/heat-pump-water-heater-market-report",
+   "https://www.mordorintelligence.com/industry-reports/north-america-residential-water-heaters-market",
+   "https://www.greenbuildingadvisor.com/article/a-new-generation-of-heat-pump-water-heaters-is-on-the-way",
+   "https://www.advancedwaterheatinginitiative.org/120v-field-study",
+   "https://cleantechnica.com/2026/05/25/rheems-refreshed-proterra-heat-pump-water-heater-manufacturer-interview/",
+   "https://www.coolingpost.com/world-news/japanese-ecocute-shipments-pass-10-million/",
+   "https://naturalrefrigerants.com/news/mitsubishi-launches-co2-heat-pump-water-heater-in-the-u-s/",
+   "https://www.marketdataforecast.com/market-reports/north-america-commercial-heat-pump-water-heater-market",
+   "https://www.globenewswire.com/news-release/2024/08/06/2925183/0/en/Cala-Systems-Announces-5-6-Million-Seed-Round-and-Makes-its-Intelligent-Heat-Pump-Water-Heater-Available-for-Preorder.html",
+   "https://www.prweb.com/releases/aquanta-to-support-hawaiian-electrics-next-generation-smart-water-heater-control-program-302512407.html",
+   "https://www.ipgroupplc.com/news-and-events/portfolio-news/2025/2025-03-04",
+   "https://www.resource-innovations.com/resource/shifted-energy-press-release",
+   "https://www.energyhub.com/news/energyhub-acquires-packetized-energy",
+   "https://www.postandcourier.com/business/once-promising-sc-water-tech-startup-headed-for-the-auction-block/article_625aceac-6ffa-11ed-b9e0-4bac3618b265.html",
+   "https://www.harvest-thermal.com/news/harvest-to-turn-hvac-dreams-into-reality-with-2-million-doe-grant",
+   "https://www.businesswire.com/news/home/20241118414435/en/Villaras-AquaThermAire-Revolutionizes-Home-Energy-Efficiency-and-Wins-Top-Innovation-Honor",
+   "https://www.scottishhousingnews.com/articles/sunamp-wins-ps925m-funding-to-tackle-greener-heat-challenge",
+   "https://www.ecohome.net/en/guides/4193/drain-water-heat-recovery/",
+   "https://www.sharcenergy.com/",
+   "https://www.ren21.net/gsr-2025/technologies/solar-thermal/",
+   "https://www.myenergi.com/news/myenergi-ranks-30-in-the-2024-febe-growth-100/",
+   "https://www.munichre.com/hsb/en/press-and-publications/press-releases/2025/2025-03-06-flow-based-water-leak-homeowners-protection.html",
+   "https://www.prnewswire.com/news-releases/wint-announces-35-million-series-c-funding-round-301897125.html",
+   "https://www.fastcompany.com/91520703/copper-impulse-induction-stove-lawsuit",
+   "https://www.canarymedia.com/articles/electrification/battery-powered-induction-stoves-could-be-the-future-of-clean-cooking",
+   "https://reclaimenergy.com.au/rebates/",
+   "https://www.prnewswire.com/news-releases/save-water-without-even-knowing-it-brondells-new-nebia-merced-showerheads-blend-sustainability-with-optimal-pressure-302080578.html",
+   "https://www.globenewswire.com/news-release/2026/02/10/3235091/0/en/Pool-Heat-Pump-Market-Research-Report-2025-2030-Profiles-of-Key-Vendors-Rheem-AquaCal-Systemair-Pentair-Aldes-Hayward-Fluidra-Daikin-Fairland-Group-PHNIX.html",
+   "https://www.researchandmarkets.com/reports/5953234/solar-water-heaters-global-market-report"
+  ],
+  "variations": [
+   {
+    "name": "Unitary 240V heat pump water heaters",
+    "description": "A heat pump mounted on a storage tank pulls heat from surrounding air into the water at 3-4x the efficiency of resistance or gas units, making it the default drop-in appliance for electrifying the roughly 15-20% of home energy that goes to hot water.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Rheem",
+      "role": "incumbent",
+      "what": "Largest North American water heater maker; ProTerra hybrid HPWH line is the US volume leader and was refreshed for 2025-26.",
+      "signal": "First to market with a 120V plug-in HPWH (2022); next-gen ProTerra rollout 2025-26",
+      "status": "operating",
+      "source": "https://cleantechnica.com/2026/05/25/rheems-refreshed-proterra-heat-pump-water-heater-manufacturer-interview/"
+     },
+     {
+      "name": "A. O. Smith",
+      "role": "incumbent",
+      "what": "North America water-heating leader (Voltex HPWH line) investing heavily in heat pump and demand-response product development.",
+      "signal": "NYSE: AOS; opened a $30M Product Development Center focused on heat pump tech and demand-response connectivity",
+      "status": "operating",
+      "source": "https://www.mordorintelligence.com/industry-reports/north-america-residential-water-heaters-market"
+     },
+     {
+      "name": "Bradford White",
+      "role": "incumbent",
+      "what": "Employee-owned US major whose AeroTherm series is the third pillar of the US HPWH market alongside Rheem and A.O. Smith.",
+      "signal": "Acquired Bock Water Heaters (Apr 2025) to broaden commercial/specialty lines",
+      "status": "operating",
+      "source": "https://www.mordorintelligence.com/industry-reports/north-america-residential-water-heaters-market"
+     },
+     {
+      "name": "GE Appliances (Haier)",
+      "role": "incumbent",
+      "what": "Ships both 240V and 120V plug-in HPWHs in the US, one of only three brands covering the full voltage range.",
+      "signal": "Haier-owned; among the three makers fielding next-gen retrofit-ready HPWHs",
+      "status": "operating",
+      "source": "https://www.greenbuildingadvisor.com/article/a-new-generation-of-heat-pump-water-heaters-is-on-the-way"
+     },
+     {
+      "name": "Stiebel Eltron",
+      "role": "incumbent",
+      "what": "German family-owned manufacturer whose Accelera line was among the earliest HPWHs sold in North America.",
+      "signal": "Named key player in global HPWH market reports; decades of European HPWH volume",
+      "status": "operating",
+      "source": "https://www.grandviewresearch.com/industry-analysis/heat-pump-water-heater-market-report"
+     },
+     {
+      "name": "Ariston Group",
+      "role": "incumbent",
+      "what": "Milan-listed global water-comfort major whose NUOS heat pump water heaters lead European residential volumes.",
+      "signal": "Listed (BIT: ARIS); HPWH ranges sold across Europe and Asia",
+      "status": "operating",
+      "source": "https://www.aristongroup.com/"
+     },
+     {
+      "name": "LG Electronics",
+      "role": "incumbent",
+      "what": "Global appliance major that entered the US residential HPWH market with inverter-driven models.",
+      "signal": "Listed among leading HPWH players; US inverter HPWH launch circa 2024",
+      "status": "operating",
+      "source": "https://www.grandviewresearch.com/industry-analysis/heat-pump-water-heater-market-report"
+     }
+    ]
+   },
+   {
+    "name": "120V plug-in and low-amperage HPWHs for no-rewire retrofits",
+    "description": "Low-amperage heat pump water heaters plug into a standard 120V outlet (often sharing an existing circuit), eliminating the panel upgrades and rewiring that block gas-to-electric water heater swaps in older homes and multifamily buildings.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Rheem",
+      "role": "incumbent",
+      "what": "First to market (2022) with ProTerra Plug-in 120V models in dedicated-circuit and shared-circuit versions, the latter using a HydroBoost thermostatic mixing valve to stretch capacity.",
+      "signal": "120V ProTerra launched 2022; positioned explicitly as gas-unit replacement with zero electrical work",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/rheem-introduces-120-volt-proterra-plug-in-heat-pump-water-heaters-301587523.html"
+     },
+     {
+      "name": "A. O. Smith",
+      "role": "incumbent",
+      "what": "120V plug-in HPWH adding a backup heating element and field-convertibility to 240V, addressing slow-recovery objections.",
+      "signal": "Second-generation 120V entrant with backup element and 240V conversion",
+      "status": "operating",
+      "source": "https://www.greenbuildingadvisor.com/article/a-new-generation-of-heat-pump-water-heaters-is-on-the-way"
+     },
+     {
+      "name": "GE Appliances (Haier)",
+      "role": "incumbent",
+      "what": "GE Profile 120V plug-in HPWH aimed at one-for-one gas replacements; units evaluated in the Advanced Water Heating Initiative's multi-state 120V field study.",
+      "signal": "Participant in AWHI 120V field study validating real-world retrofit performance",
+      "status": "operating",
+      "source": "https://www.advancedwaterheatinginitiative.org/120v-field-study"
+     }
+    ],
+    "white_space": "Only the big three incumbents ship 120V units: shared-circuit operation forces small compressors and slow recovery (physics), and UL/SKU economics favor scale manufacturers. Openings: variable-speed low-amperage designs with predictive controls (the gap Cala Systems targets), 120V units bundled with mixing valves and storage intelligence, and multifamily channel plays where panel capacity is the binding constraint."
+   },
+   {
+    "name": "Split-system and CO2-refrigerant HPWHs (residential)",
+    "description": "Splitting the compressor outdoors from the indoor tank and using natural CO2 refrigerant (GWP of 1) delivers 130-175F water even below -15F with no indoor noise or space penalty; the approach is mature in Japan as 'Eco Cute' and scaling in the US and Australia.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "ECO2 Systems (SANCO2)",
+      "role": "startup",
+      "what": "US successor to Sanden's SANCO2 split CO2 HPWH; COP near 5, operation to -14F, 43/83/119-gallon tanks for cold-climate homes.",
+      "signal": "Carried the SANCO2 line forward after Sanden's exit; sold through efficiency distributors like Small Planet Supply",
+      "status": "operating",
+      "source": "https://www.smallplanetsupply.com/sanc02"
+     },
+     {
+      "name": "Reclaim Energy",
+      "role": "scaleup",
+      "what": "Australia's leading CO2 split-system HPWH brand with a smart controller built for solar self-consumption.",
+      "signal": "AU$5,000-6,500 installed; Victorian rebate raised to $1,400 for locally made units from Jul 2025, favoring its product",
+      "status": "operating",
+      "source": "https://reclaimenergy.com.au/rebates/"
+     },
+     {
+      "name": "Panasonic",
+      "role": "incumbent",
+      "what": "One of the major Japanese Eco Cute CO2 HPWH manufacturers.",
+      "signal": "Japanese Eco Cute cumulative shipments passed 10 million units as of March 2025",
+      "status": "operating",
+      "source": "https://www.coolingpost.com/world-news/japanese-ecocute-shipments-pass-10-million/"
+     },
+     {
+      "name": "Daikin",
+      "role": "incumbent",
+      "what": "Eco Cute CO2 HPWH maker inside the world's largest HVAC company.",
+      "signal": "Part of the >10M-unit Japanese Eco Cute installed base",
+      "status": "operating",
+      "source": "https://www.hptcj.or.jp/en/information/shipments/"
+     },
+     {
+      "name": "Mitsubishi Electric",
+      "role": "incumbent",
+      "what": "Eco Cute manufacturer that has exported its CO2 heat pump expertise into Western commercial markets via QAHV.",
+      "signal": "Launched QAHV CO2 water-heating heat pump in the US",
+      "status": "operating",
+      "source": "https://naturalrefrigerants.com/news/mitsubishi-launches-co2-heat-pump-water-heater-in-the-u-s/"
+     },
+     {
+      "name": "Corona",
+      "role": "incumbent",
+      "what": "Japanese heating manufacturer that launched the world's first Eco Cute residential CO2 HPWH in 2001.",
+      "signal": "First mover of a category that has since shipped >10M units in Japan",
+      "status": "operating",
+      "source": "https://heatpumpingtechnologies.org/publications/an-inside-story-behind-the-advent-of-eco-cute-co2-heat-pump-water-heater-for-residential-use/"
+     }
+    ],
+    "white_space": "Outside Japan only a couple of niche importers (ECO2 Systems, Reclaim) serve split-CO2 demand; $5-7k unit costs and installer unfamiliarity are the barriers. Tightening low-GWP refrigerant rules (A2L transition) create an opening for cost-reduced CO2 splits and for Japanese incumbents to localize Western residential product."
+   },
+   {
+    "name": "Central/commercial heat pump water heating plants (multifamily, hospitality, commercial)",
+    "description": "Large air-to-water heat pump plants \u2014 often CO2-based to reach 150F+ storage temperatures \u2014 centrally produce domestic hot water for apartment blocks, hotels and commercial kitchens, displacing the gas boilers that dominate multifamily water heating.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Mitsubishi Electric",
+      "role": "incumbent",
+      "what": "QAHV 40kW CO2 monobloc supplies 90C water at ambient temperatures down to -25C; launched in the US for commercial DHW.",
+      "signal": "QAHV deployed in UK/NZ/US commercial projects; flagship of code-driven central HPWH retrofits",
+      "status": "operating",
+      "source": "https://naturalrefrigerants.com/news/mitsubishi-launches-co2-heat-pump-water-heater-in-the-u-s/"
+     },
+     {
+      "name": "Lync by Watts",
+      "role": "incumbent",
+      "what": "Packages Aegis air-to-water CO2 heat pumps into engineered commercial water-heating plants under NYSE-listed Watts Water.",
+      "signal": "Watts (NYSE: WTS) brand created specifically for commercial heat pump water heating",
+      "status": "operating",
+      "source": "https://lyncbywatts.com/"
+     },
+     {
+      "name": "Nyle Water Heating Systems",
+      "role": "incumbent",
+      "what": "Maine manufacturer of modular commercial HPWHs (C-Series) for multifamily, industrial and institutional loads.",
+      "signal": "Named key player in North America commercial HPWH market reports",
+      "status": "operating",
+      "source": "https://www.marketdataforecast.com/market-reports/north-america-commercial-heat-pump-water-heater-market"
+     },
+     {
+      "name": "Colmac WaterHeat",
+      "role": "incumbent",
+      "what": "Decades-old Washington-state specialist in air- and water-source commercial heat pump water heaters.",
+      "signal": "Long-standing key vendor in the NA commercial HPWH segment",
+      "status": "operating",
+      "source": "https://www.marketdataforecast.com/market-reports/north-america-commercial-heat-pump-water-heater-market"
+     },
+     {
+      "name": "Intellihot",
+      "role": "scaleup",
+      "what": "Commercial tankless water-heating challenger expanding from gas into electric/heat-pump products (Electron line).",
+      "signal": "Venture/growth-backed gas incumbent-challenger pivoting its commercial install base toward electric",
+      "status": "operating",
+      "source": "https://www.intellihot.com/"
+     },
+     {
+      "name": "Lochinvar (A. O. Smith)",
+      "role": "incumbent",
+      "what": "Commercial boiler and water-heating brand under A.O. Smith adding commercial heat pump water heater lines.",
+      "signal": "Listed among leading commercial HPWH players in 2024-25 market analyses",
+      "status": "operating",
+      "source": "https://www.marketdataforecast.com/market-reports/north-america-commercial-heat-pump-water-heater-market"
+     }
+    ],
+    "white_space": "Demand is code-driven (Washington and California all-electric and HPWH-credit codes) but nearly every job is custom-engineered with long design cycles. Opening for standardized packaged central-HPWH skids, sizing/design software, and heat-as-a-service offers that de-risk multifamily gas-boiler conversions."
+   },
+   {
+    "name": "Smart and grid-interactive water heaters, connected tanks and intelligent controls",
+    "description": "Connected tanks and retrofit controllers treat every water heater as a pre-installed thermal battery, shifting heating into cheap, clean hours and selling demand response and even frequency-response services to utilities.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Cala Systems",
+      "role": "startup",
+      "what": "Variable-speed HPWH with NREL-derived predictive controls that plan heating around forecast hot-water use, solar output and grid prices.",
+      "signal": "$5.6M seed (Aug 2024, MassCEC/Clean Energy Venture Group); first deliveries H1 2025; 65-gal unit at $2,850",
+      "status": "operating",
+      "source": "https://www.globenewswire.com/news-release/2024/08/06/2925183/0/en/Cala-Systems-Announces-5-6-Million-Seed-Round-and-Makes-its-Intelligent-Heat-Pump-Water-Heater-Available-for-Preorder.html"
+     },
+     {
+      "name": "Aquanta",
+      "role": "startup",
+      "what": "Retrofit smart controller that clamps onto existing electric/gas tanks to enable monitoring and utility demand response.",
+      "signal": "Won Hawaiian Electric's next-gen program: 27,000 controllers / ~11MW of DR plus fast frequency response, rollout Q3 2025-2027",
+      "status": "operating",
+      "source": "https://www.prweb.com/releases/aquanta-to-support-hawaiian-electrics-next-generation-smart-water-heater-control-program-302512407.html"
+     },
+     {
+      "name": "Mixergy",
+      "role": "scaleup",
+      "what": "UK stratified smart hot-water tanks that heat only the water needed and aggregate into a virtual power plant.",
+      "signal": "\u00a312M Series C (Mar 2025) led by Barclays Climate Ventures; British Gas pays owners for flexible heating; pivoting to licensing model",
+      "status": "operating",
+      "source": "https://www.ipgroupplc.com/news-and-events/portfolio-news/2025/2025-03-04"
+     },
+     {
+      "name": "Shifted Energy",
+      "role": "startup",
+      "what": "Hawaii-born Grid Maestro platform retrofitting water heaters in multifamily and underserved housing into grid assets.",
+      "signal": "Built Hawaii's grid-interactive water heater fleet; acquired by Resource Innovations (Oct 2025)",
+      "status": "acquired",
+      "source": "https://www.resource-innovations.com/resource/shifted-energy-press-release"
+     },
+     {
+      "name": "Packetized Energy",
+      "role": "startup",
+      "what": "UVM spinout whose Mello controller 'packetized' water-heater demand for moment-to-moment grid balancing.",
+      "signal": "Acquired by EnergyHub (Mar 2022) and folded into its Mercury DERMS",
+      "status": "acquired",
+      "source": "https://www.energyhub.com/news/energyhub-acquires-packetized-energy"
+     },
+     {
+      "name": "Steffes",
+      "role": "incumbent",
+      "what": "Grid-enabled electric thermal storage water heating (GETS) deployed for decades with Midwestern co-ops and utilities.",
+      "signal": "Long-running utility programs (e.g., Great River Energy territory) using its grid-interactive storage water heaters",
+      "status": "operating",
+      "source": "https://steffes.com/"
+     },
+     {
+      "name": "Rheem",
+      "role": "incumbent",
+      "what": "EcoNet-connected, CTA-2045-ready water heaters that satisfy Washington and Oregon demand-response-port mandates.",
+      "signal": "CTA-2045 DR ports now standard on its connected units; utility water-heater programs scale on its fleet",
+      "status": "operating",
+      "source": "https://www.canarymedia.com/articles/grid-edge/home-water-heaters-a-new-ally-in-making-grids-cleaner"
+     },
+     {
+      "name": "Heatworks",
+      "role": "startup",
+      "what": "Smart ohmic (electrode) tankless water heater (Model 3) and countertop dishwasher; a cautionary tale in venture-backed water heating hardware.",
+      "signal": "TIME Best Invention 2018; entered receivership July 2022 after sales shortfalls; ~100 patents auctioned",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.postandcourier.com/business/once-promising-sc-water-tech-startup-headed-for-the-auction-block/article_625aceac-6ffa-11ed-b9e0-4bac3618b265.html"
+     }
+    ]
+   },
+   {
+    "name": "Combined space + water heating heat pump systems with integrated thermal storage",
+    "description": "A single heat pump charges a smart thermal-storage tank that serves both space heating/cooling and domestic hot water, cutting equipment count and letting the home buy heat at off-peak prices like a battery.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Harvest Thermal",
+      "role": "startup",
+      "what": "Harvest Pod controller pairs a CO2 (SANCO2) heat pump with a standard tank used as a thermal battery for whole-home heat and hot water.",
+      "signal": "~$15M raised across rounds; $2M DOE grant (Sep 2024) and $1.65M CEC RAMP grant; qualifies for $11,500 TECH rebates in CA",
+      "status": "operating",
+      "source": "https://www.harvest-thermal.com/news/harvest-to-turn-hvac-dreams-into-reality-with-2-million-doe-grant"
+     },
+     {
+      "name": "Villara Building Systems",
+      "role": "incumbent",
+      "what": "AquaThermAire single-compressor combi heat pump (air handler + ambient-pressure thermal tank) serving HVAC and DHW in production homes.",
+      "signal": "Installed across six California new-home communities; 2024 Sacramento Inno award; targeting $20-25k installed",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20241118414435/en/Villaras-AquaThermAire-Revolutionizes-Home-Energy-Efficiency-and-Wins-Top-Innovation-Honor"
+     },
+     {
+      "name": "Sunamp",
+      "role": "scaleup",
+      "what": "Phase-change-material 'Thermino' heat batteries that store heat-pump or off-peak energy in a quarter the space of a hot water cylinder.",
+      "signal": "\u00a39.25M UK LODES demonstration across 100 homes (2024-25); Midea pairing launched Mar 2025; expanding in US/Canada/Italy",
+      "status": "operating",
+      "source": "https://www.scottishhousingnews.com/articles/sunamp-wins-ps925m-funding-to-tackle-greener-heat-challenge"
+     },
+     {
+      "name": "Daikin",
+      "role": "incumbent",
+      "what": "Altherma air-to-water combi heat pumps with integrated DHW tanks \u2014 the European volume benchmark this category competes against.",
+      "signal": "Millions of Altherma units across Europe; integrated-DHW models standard",
+      "status": "operating",
+      "source": "https://www.daikin.eu/"
+     }
+    ],
+    "white_space": "US homes lack hydronic distribution and contractors treat combis as exotic, so only a handful of players exist despite combi dominance in Europe and Japan. Opening for packaged, forced-air-compatible combi kits and controls that let one heat pump serve HVAC + DHW with thermal storage as the load-shifting asset."
+   },
+   {
+    "name": "Drain-water heat recovery",
+    "description": "A copper heat exchanger wrapped around the shower drain passively preheats incoming cold water with heat that would go down the drain, recovering 30-50% of shower energy with no moving parts; at building scale, wastewater energy transfer does the same for whole districts.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "RenewABILITY Energy (Power-Pipe)",
+      "role": "incumbent",
+      "what": "Original falling-film DWHR leader with the widest size range; the code-compliance staple in Canadian and net-zero programs.",
+      "signal": "Specified in most major North American net-zero pilot projects; energy-code recognized",
+      "status": "operating",
+      "source": "https://www.ecohome.net/en/guides/4193/drain-water-heat-recovery/"
+     },
+     {
+      "name": "EcoDrain",
+      "role": "startup",
+      "what": "Plate-style heat exchangers that keep 30-45% recovery even in horizontal drain runs where vertical falling-film units cannot install.",
+      "signal": "Niche Quebec manufacturer; differentiated horizontal-install patent position",
+      "status": "operating",
+      "source": "https://ecodrain.com/en/"
+     },
+     {
+      "name": "ThermoDrain",
+      "role": "incumbent",
+      "what": "Quebec DWHR maker competing on price in Canada's code-driven new-construction market.",
+      "signal": "One of three brands dominating Canadian DWHR code compliance",
+      "status": "operating",
+      "source": "https://www.ecohome.net/en/guides/4193/drain-water-heat-recovery/"
+     },
+     {
+      "name": "SHARC Energy Systems",
+      "role": "scaleup",
+      "what": "Building- and district-scale wastewater energy transfer (SHARC, Piranha) that filters sewage and extracts heat for DHW and space conditioning.",
+      "signal": "Public company (CSE: SHRC); installs across North America/UK district and multifamily projects",
+      "status": "operating",
+      "source": "https://www.sharcenergy.com/"
+     },
+     {
+      "name": "Recoup Energy Solutions",
+      "role": "scaleup",
+      "what": "UK leader in vertical shower wastewater heat recovery (WWHRS) specified through SAP in new-build housing.",
+      "signal": "WWHRS routinely specified in UK volume housebuilding for SAP compliance",
+      "status": "operating",
+      "source": "https://recoupwwhrs.co.uk/"
+     },
+     {
+      "name": "Joulia",
+      "role": "startup",
+      "what": "Swiss maker of heat-recovery shower channels integrated directly into shower trays for new bathrooms.",
+      "signal": "Integrated into Swiss/European new-build and renovation bathroom supply chains",
+      "status": "operating",
+      "source": "https://www.joulia.com/"
+     }
+    ],
+    "white_space": "The tech is mature, passive and cheap, yet adoption is tiny: retrofits need drain-stack access and save only tens of dollars a year per home, so no venture-scale company has formed. The realistic openings are code mandates (UK SAP, Canadian energy codes), bundling into multifamily central hot-water packages, and building-scale sewage heat recovery where SHARC is nearly alone."
+   },
+   {
+    "name": "Solar thermal and PV-diversion water heating",
+    "description": "Rooftop thermal collectors \u2014 or, increasingly, diverters that dump surplus rooftop-PV electricity into the tank's element \u2014 heat water with on-site solar; classic collectors are ceding ground to PV-diversion as PV-plus-heat-pump economics win.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "myenergi",
+      "role": "scaleup",
+      "what": "Maker of the eddi, the category-defining solar PV power diverter for hot water, alongside its zappi EV charger.",
+      "signal": "~$76M raised; ~400 staff; #30 in 2024 FEBE Growth 100; eddi launched in France 2025",
+      "status": "operating",
+      "source": "https://www.myenergi.com/news/myenergi-ranks-30-in-the-2024-febe-growth-100/"
+     },
+     {
+      "name": "Marlec",
+      "role": "incumbent",
+      "what": "Long-standing UK manufacturer of the Solar iBoost+ immersion diverter, the main eddi alternative in retrofit.",
+      "signal": "Decades-old UK manufacturer with established installer channel",
+      "status": "operating",
+      "source": "https://www.marlec.co.uk/"
+     },
+     {
+      "name": "Fronius",
+      "role": "incumbent",
+      "what": "Austrian inverter maker whose Ohmpilot diverts surplus PV to resistive water heating within its inverter ecosystem.",
+      "signal": "Ohmpilot bundled across Fronius's large European inverter installed base",
+      "status": "operating",
+      "source": "https://www.fronius.com/"
+     },
+     {
+      "name": "SolarEdge",
+      "role": "incumbent",
+      "what": "Offers smart hot-water diversion controllers as an add-on to its globally deployed PV inverter platform.",
+      "signal": "Nasdaq: SEDG; hot-water diversion sold as ecosystem accessory at global scale",
+      "status": "operating",
+      "source": "https://www.solaredge.com/"
+     },
+     {
+      "name": "Solahart (Rheem)",
+      "role": "incumbent",
+      "what": "Australian solar water heating pioneer (since 1953) that added PowerStore PV-diverter water heating as collectors decline.",
+      "signal": "Rheem-owned; straddles legacy thermosiphon collectors and new PV-diversion products",
+      "status": "operating",
+      "source": "https://www.solahart.com.au/"
+     },
+     {
+      "name": "Himin Solar",
+      "role": "incumbent",
+      "what": "World's largest solar water heater manufacturer, anchored in China's evacuated-tube market.",
+      "signal": "China holds ~64% of global solar water collector sales; global market contracted 14.2% in 2024",
+      "status": "operating",
+      "source": "https://www.researchandmarkets.com/reports/5953234/solar-water-heaters-global-market-report"
+     },
+     {
+      "name": "SunEarth",
+      "role": "incumbent",
+      "what": "Veteran US flat-plate collector manufacturer serving the residual American solar-thermal niche.",
+      "signal": "US solar water heater market only ~$47M (2024) \u2014 a shrinking niche",
+      "status": "operating",
+      "source": "https://www.researchandmarkets.com/reports/5953234/solar-water-heaters-global-market-report"
+     },
+     {
+      "name": "Naked Energy",
+      "role": "startup",
+      "what": "UK maker of Virtu hybrid photovoltaic-thermal (PVT) vacuum tubes targeting commercial hot water decarbonization.",
+      "signal": "Corporate backing including E.ON; commercial deployments in UK, US and Japan",
+      "status": "operating",
+      "source": "https://www.nakedenergy.co.uk/"
+     }
+    ],
+    "white_space": "Global collector sales fell 14.2% in 2024 (REN21) as cheap PV plus heat pumps undercuts glycol plumbing; residential solar-thermal startups are effectively extinct in the West. The live opening is software-defined PV diversion, DC-coupled water heating, and PVT for space-constrained commercial loads \u2014 not new collector brands."
+   },
+   {
+    "name": "Hot-water efficiency: low-flow fixtures, demand recirculation, leak/flow monitoring",
+    "description": "Low-flow fixtures, demand-controlled recirculation pumps and AI leak/flow monitors cut the hot water \u2014 and the energy embedded in it \u2014 wasted in homes and commercial buildings, with insurers increasingly subsidizing deployment to avoid water-damage claims.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Moen (Fortune Brands)",
+      "role": "incumbent",
+      "what": "Flo smart water monitor and automatic shutoff, the highest-volume whole-home leak protection device, often insurer-discounted.",
+      "signal": "Flagship smart-water line of NYSE-listed Fortune Brands Innovations; documented insurance claim reductions",
+      "status": "operating",
+      "source": "https://shop.moen.com/products/flo-smart-water-monitor-and-shutoff"
+     },
+     {
+      "name": "Phyn",
+      "role": "scaleup",
+      "what": "Belkin/Uponor joint venture using high-frequency pressure-wave sensing and ML to identify fixture-level leaks.",
+      "signal": "Pilots found leak issues in >10% of homes; sold through plumbing-pro channel",
+      "status": "operating",
+      "source": "https://phyn.com/pages/technology"
+     },
+     {
+      "name": "Flume",
+      "role": "startup",
+      "what": "Strap-on meter sensor with ML that detects usage down to 0.01 gallon without cutting pipe \u2014 the no-plumber leak monitor.",
+      "signal": "HSB/Munich Re partnership (Mar 2025) distributing Flume through insurance carriers",
+      "status": "operating",
+      "source": "https://www.munichre.com/hsb/en/press-and-publications/press-releases/2025/2025-03-06-flow-based-water-leak-homeowners-protection.html"
+     },
+     {
+      "name": "WINT Water Intelligence",
+      "role": "scaleup",
+      "what": "AI water management and auto-shutoff for commercial buildings and construction sites, where leak losses are largest.",
+      "signal": "$35M Series C (Aug 2023, Insight Partners/Inven Capital); clients include Empire State Building, Microsoft, Suffolk Construction",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/wint-announces-35-million-series-c-funding-round-301897125.html"
+     },
+     {
+      "name": "Ondo InsurTech (LeakBot)",
+      "role": "scaleup",
+      "what": "Clip-on LeakBot sensor distributed free by home insurers, with a plumber-dispatch service closing the loop on found leaks.",
+      "signal": "LSE-listed (ONDO); insurer-funded rollouts in UK, US and Scandinavia",
+      "status": "operating",
+      "source": "https://www.ondoplc.com/"
+     },
+     {
+      "name": "Niagara Conservation",
+      "role": "incumbent",
+      "what": "High-efficiency 0.8 gpf toilets and low-flow showerheads/aerators that anchor utility and multifamily conservation programs.",
+      "signal": "Decades-long supplier to US utility direct-install efficiency programs",
+      "status": "operating",
+      "source": "https://www.niagaracorp.com/"
+     },
+     {
+      "name": "Nebia",
+      "role": "startup",
+      "what": "Atomizing showerheads creating 10x water surface area to cut shower water ~50% without comfort loss.",
+      "signal": "Acquired by Brondell (Jan 2023); nozzle tech on track to save ~1B gallons in 2024",
+      "status": "acquired",
+      "source": "https://www.prnewswire.com/news-releases/save-water-without-even-knowing-it-brondells-new-nebia-merced-showerheads-blend-sustainability-with-optimal-pressure-302080578.html"
+     },
+     {
+      "name": "ACT D'MAND Kontrols",
+      "role": "incumbent",
+      "what": "Demand-controlled hot-water recirculation pumps that deliver hot water fast without 24/7 recirc losses; earns California Title 24 compliance credits.",
+      "signal": "Long-standing niche standard for demand recirculation in US green building codes",
+      "status": "operating",
+      "source": "https://gothotwater.com/"
+     }
+    ]
+   },
+   {
+    "name": "Induction and battery-integrated cooking (residential and commercial kitchen)",
+    "description": "Magnetic induction puts heat directly into the cookware \u2014 roughly 3x more efficient than gas with zero combustion pollution indoors \u2014 and battery-integrated stoves plug into a standard 120V outlet, dodging panel upgrades while doubling as grid-interactive home storage.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Impulse Labs",
+      "role": "startup",
+      "what": "Battery-integrated induction cooktop with a 3kWh cell pack delivering 10kW peak per burner (boils water in ~40 seconds) on a standard circuit.",
+      "signal": "$25M raised (Lux-led Series A); cooktop shipping since Aug 2025",
+      "status": "operating",
+      "source": "https://www.canarymedia.com/articles/electrification/battery-powered-induction-stoves-could-be-the-future-of-clean-cooking"
+     },
+     {
+      "name": "Copper (Channing St. Copper Co.)",
+      "role": "startup",
+      "what": "120V plug-in battery induction range ('Charlie') aimed at no-rewire apartment electrification, including public housing.",
+      "signal": "~$35M raised (PitchBook); NYCHA deployments; patent-infringement suit against Impulse (2025) over battery-stove IP",
+      "status": "operating",
+      "source": "https://www.fastcompany.com/91520703/copper-impulse-induction-stove-lawsuit"
+     },
+     {
+      "name": "GE Appliances (Haier)",
+      "role": "incumbent",
+      "what": "Volume induction ranges and cooktops across GE Profile/Caf\u00e9 lines for the US mass market.",
+      "signal": "Among top US appliance brands pushing induction mainstream",
+      "status": "operating",
+      "source": "https://www.geappliances.com/"
+     },
+     {
+      "name": "BSH (Bosch/Siemens)",
+      "role": "incumbent",
+      "what": "European induction leader with broad premium induction lines sold in the US.",
+      "signal": "Induction is majority of its European cooktop sales",
+      "status": "operating",
+      "source": "https://www.bosch-home.com/us/"
+     },
+     {
+      "name": "Samsung",
+      "role": "incumbent",
+      "what": "Global top-2 appliance maker scaling smart induction ranges in North America.",
+      "signal": "Global appliance scale; induction range share growing in US",
+      "status": "operating",
+      "source": "https://www.samsung.com/us/home-appliances/"
+     },
+     {
+      "name": "CookTek (Middleby)",
+      "role": "incumbent",
+      "what": "Commercial countertop and delivery induction systems under foodservice-equipment giant Middleby.",
+      "signal": "Middleby (Nasdaq: MIDD) commercial-kitchen electrification portfolio brand",
+      "status": "operating",
+      "source": "https://www.cooktek.com/"
+     },
+     {
+      "name": "Vollrath",
+      "role": "incumbent",
+      "what": "Mirage commercial induction hobs widely used in catering and foodservice.",
+      "signal": "Major US foodservice equipment incumbent with established induction line",
+      "status": "operating",
+      "source": "https://www.vollrath.com/"
+     },
+     {
+      "name": "Garland (Ali Group)",
+      "role": "incumbent",
+      "what": "Heavy-duty commercial induction ranges and griddles for institutional kitchens replacing gas batteries de cuisine.",
+      "signal": "Flagship commercial induction brand within Ali Group/Welbilt",
+      "status": "operating",
+      "source": "https://www.garland-group.com/"
+     }
+    ],
+    "white_space": "Battery-integrated cooking has exactly two venture-backed players, now locked in patent litigation \u2014 evidence the niche is real but fragile. UL certification cost, appliance retail margins and incumbent brand power deter entrants; the opening is licensing battery-stove IP to incumbent OEMs and 120V multifamily retrofit channels rather than new D2C hardware brands."
+   },
+   {
+    "name": "Heat pump clothes dryers, combo washer-dryers and commercial laundry",
+    "description": "Heat pump dryers and ventless washer-dryer combos recycle hot air in a closed loop, using 40-60% less energy than resistance dryers, running on 120V and needing no exhaust vent \u2014 removing the two biggest barriers to electrifying laundry in existing buildings.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "GE Appliances (Haier)",
+      "role": "incumbent",
+      "what": "UltraFast ventless heat pump combo washer/dryer \u2014 the breakout US all-in-one, 120V plug-in with ~50% drying-energy savings.",
+      "signal": "One of GE Appliances' most successful launches; stocked at Home Depot, Best Buy, Costco",
+      "status": "operating",
+      "source": "https://www.geappliances.com/appliance/GE-Profile-ENERGY-STAR-4-8-cu-ft-Capacity-UltraFast-Combo-with-Ventless-Inverter-Heat-Pump-Technology-Washer-Dryer-PFQ97HSPVDS"
+     },
+     {
+      "name": "Whirlpool",
+      "role": "incumbent",
+      "what": "Launched its own ventless heat pump 2-in-1 combo (2024) to defend the US laundry market it leads.",
+      "signal": "US laundry share leader following GE into heat pump combos",
+      "status": "operating",
+      "source": "https://www.whirlpool.com/"
+     },
+     {
+      "name": "LG Electronics",
+      "role": "incumbent",
+      "what": "Global heat-pump laundry leader with WashCombo all-in-ones and standalone heat pump dryers.",
+      "signal": "Heat pump dryer volume leader globally; WashCombo a top US seller",
+      "status": "operating",
+      "source": "https://www.lg.com/us/"
+     },
+     {
+      "name": "Samsung",
+      "role": "incumbent",
+      "what": "Bespoke AI Laundry Combo all-in-one heat pump washer/dryer competing head-to-head with LG/GE.",
+      "signal": "Global top-2 appliance maker with full HP laundry lineup",
+      "status": "operating",
+      "source": "https://www.samsung.com/us/home-appliances/"
+     },
+     {
+      "name": "Miele",
+      "role": "incumbent",
+      "what": "Heat-pump dryer pioneer; premium European incumbent whose tech made HP drying the EU default.",
+      "signal": "HP dryers are the majority of European dryer sales \u2014 category it helped create",
+      "status": "operating",
+      "source": "https://www.miele.com/"
+     },
+     {
+      "name": "Beko (Ar\u00e7elik)",
+      "role": "incumbent",
+      "what": "European volume leader in affordable, highly efficient heat pump dryers.",
+      "signal": "Among Europe's largest appliance groups; repeatedly tops EU dryer efficiency rankings",
+      "status": "operating",
+      "source": "https://www.beko.com/"
+     },
+     {
+      "name": "Electrolux Professional",
+      "role": "incumbent",
+      "what": "Commercial heat-pump dryers for laundromats and on-premise laundries \u2014 closed-loop, vent-free, enabling gas dryer replacement.",
+      "signal": "Listed commercial-laundry major (EPRO-B) with shipping HP dryer lines",
+      "status": "operating",
+      "source": "https://www.electroluxprofessional.com/"
+     }
+    ],
+    "white_space": "No startups here \u2014 appliance manufacturing scale and thin retail margins lock the category to incumbents. The genuine white space is commercial laundry electrification (laundromats and hotels remain overwhelmingly gas-dryer) where heat-pump retrofit economics, panel constraints and financing are unsolved as a package."
+   },
+   {
+    "name": "Heat pump pool and spa heaters",
+    "description": "Air-source heat pumps heat swimming pools at COPs of 5+ for a fraction of the running cost and carbon of the natural-gas heaters that still dominate pool heating, making pools one of the easiest big gas loads to electrify.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Pentair",
+      "role": "incumbent",
+      "what": "UltraTemp and hybrid pool heat pumps from one of the two dominant US pool-equipment platforms.",
+      "signal": "NYSE: PNR; key vendor in $1.5B (2025) global pool heat pump market growing ~7% CAGR",
+      "status": "operating",
+      "source": "https://www.pentair.com/en-us/pool-spa/products/heaters-heat-pumps/pool-heat-pumps.html"
+     },
+     {
+      "name": "Hayward",
+      "role": "incumbent",
+      "what": "HeatPro pool heat pump line from the other dominant US pool-equipment maker.",
+      "signal": "NYSE: HAYW; named key vendor in 2025-2030 pool heat pump market report",
+      "status": "operating",
+      "source": "https://www.globenewswire.com/news-release/2026/02/10/3235091/0/en/Pool-Heat-Pump-Market-Research-Report-2025-2030-Profiles-of-Key-Vendors-Rheem-AquaCal-Systemair-Pentair-Aldes-Hayward-Fluidra-Daikin-Fairland-Group-PHNIX.html"
+     },
+     {
+      "name": "Raypak (Rheem)",
+      "role": "incumbent",
+      "what": "Leading pool-heating brand spanning gas and heat pumps \u2014 a direct gauge of the gas-to-heat-pump shift.",
+      "signal": "Rheem-owned; profiled among top pool heat pump vendors 2025-2030",
+      "status": "operating",
+      "source": "https://www.globenewswire.com/news-release/2026/02/10/3235091/0/en/Pool-Heat-Pump-Market-Research-Report-2025-2030-Profiles-of-Key-Vendors-Rheem-AquaCal-Systemair-Pentair-Aldes-Hayward-Fluidra-Daikin-Fairland-Group-PHNIX.html"
+     },
+     {
+      "name": "AquaCal (Team Horner)",
+      "role": "incumbent",
+      "what": "Dedicated US pool heat pump specialist, among the largest pure-play makers.",
+      "signal": "Profiled as key vendor in 2025-2030 pool heat pump market research",
+      "status": "operating",
+      "source": "https://www.globenewswire.com/news-release/2026/02/10/3235091/0/en/Pool-Heat-Pump-Market-Research-Report-2025-2030-Profiles-of-Key-Vendors-Rheem-AquaCal-Systemair-Pentair-Aldes-Hayward-Fluidra-Daikin-Fairland-Group-PHNIX.html"
+     },
+     {
+      "name": "Fluidra",
+      "role": "incumbent",
+      "what": "Spanish-listed global pool major (AstralPool, Zodiac) shipping inverter pool heat pumps worldwide.",
+      "signal": "BME-listed global pool equipment leader; key vendor in pool HP market reports",
+      "status": "operating",
+      "source": "https://www.globenewswire.com/news-release/2026/02/10/3235091/0/en/Pool-Heat-Pump-Market-Research-Report-2025-2030-Profiles-of-Key-Vendors-Rheem-AquaCal-Systemair-Pentair-Aldes-Hayward-Fluidra-Daikin-Fairland-Group-PHNIX.html"
+     },
+     {
+      "name": "Madimack",
+      "role": "scaleup",
+      "what": "Australian inverter pool heat pump scaleup expanding into commercial pools and broader hot-water electrification.",
+      "signal": "Fast-growing AU brand riding state gas-replacement rebate schemes",
+      "status": "operating",
+      "source": "https://madimack.com.au/"
+     },
+     {
+      "name": "Fairland",
+      "role": "incumbent",
+      "what": "Chinese full-inverter pool heat pump manufacturer supplying much of the global OEM/white-label volume.",
+      "signal": "Named key vendor (with PHNIX) in 2025-2030 pool heat pump market report",
+      "status": "operating",
+      "source": "https://www.globenewswire.com/news-release/2026/02/10/3235091/0/en/Pool-Heat-Pump-Market-Research-Report-2025-2030-Profiles-of-Key-Vendors-Rheem-AquaCal-Systemair-Pentair-Aldes-Hayward-Fluidra-Daikin-Fairland-Group-PHNIX.html"
+     }
+    ]
+   }
+  ]
+ }
+}

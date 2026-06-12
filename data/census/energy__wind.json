@@ -1,0 +1,594 @@
+{
+ "sector": "energy",
+ "bucket": "Wind",
+ "census": {
+  "bucket": "Wind \u2014 All wind electricity generation formats plus wind-asset life extension and circularity (Clean Energy Supply)",
+  "variations": [
+   {
+    "name": "Onshore utility-scale turbines",
+    "description": "Large three-blade horizontal-axis turbines (3-8+ MW) on land farms convert bulk wind into grid electricity and are among the cheapest sources of new generation worldwide; ~117 GW was installed globally in 2025 alone.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Vestas",
+      "role": "incumbent",
+      "what": "World's largest turbine OEM by cumulative installs with the EnVentus onshore platform and the industry's biggest global service fleet.",
+      "signal": "First OEM to pass 200 GW cumulative installed (2025); 12.9 GW installed outside China in 2025 and ~16 GW firm orders.",
+      "status": "operating",
+      "source": "https://www.windtech-international.com/industry-news/vestas-remains-global-leader-as-five-turbine-manufacturers-exceed-100-gw-installed"
+     },
+     {
+      "name": "Goldwind",
+      "role": "incumbent",
+      "what": "China's top OEM and pioneer of direct-drive permanent-magnet onshore turbines at massive domestic scale.",
+      "signal": "World #1 annual installer in 2025 with 29.7 GW installed in China; 163 GW cumulative (global #2).",
+      "status": "operating",
+      "source": "https://greentechlead.com/wind/global-wind-turbine-installations-jump-23-in-2025-as-vestas-crosses-200-gw-and-chinese-oems-dominate-market-gwec-53396"
+     },
+     {
+      "name": "GE Vernova",
+      "role": "incumbent",
+      "what": "US onshore leader running a simplified 'workhorse product' strategy (2.8/3.6 MW platforms) plus a large repowering franchise.",
+      "signal": "5.8 GW installed outside China in 2025; together with Vestas holds ~93% of the US market; 125 GW cumulative.",
+      "status": "operating",
+      "source": "https://www.gwec.net/news/gwec-records-sharp-rise-in-wind-turbine-installations-as-five-oems-exceed-100-gw"
+     },
+     {
+      "name": "Siemens Gamesa",
+      "role": "incumbent",
+      "what": "Top-3 Western OEM rebuilding its onshore business after the 4.X/5.X platform quality crisis while keeping offshore leadership.",
+      "signal": "148 GW cumulative installed; 5.4 GW installed outside China in 2025.",
+      "status": "operating",
+      "source": "https://www.windtech-international.com/industry-news/vestas-remains-global-leader-as-five-turbine-manufacturers-exceed-100-gw-installed"
+     },
+     {
+      "name": "Envision Energy",
+      "role": "incumbent",
+      "what": "Chinese 'smart turbine' OEM that couples wind with storage and green-hydrogen industrial parks.",
+      "signal": "Passed 100 GW cumulative (103 GW) in 2025; 21.8 GW installed in China plus 4.2 GW internationally that year.",
+      "status": "operating",
+      "source": "https://www.gwec.net/news/gwec-records-sharp-rise-in-wind-turbine-installations-as-five-oems-exceed-100-gw"
+     },
+     {
+      "name": "Nordex Group",
+      "role": "incumbent",
+      "what": "German mid-market OEM focused on onshore turbines for Europe, T\u00fcrkiye and Latin America.",
+      "signal": "Europe's #1 supplier in 2025 (7.7 GW installed ex-China); record ~10 GW order book.",
+      "status": "operating",
+      "source": "https://greentechlead.com/wind/global-wind-turbine-installations-jump-23-in-2025-as-vestas-crosses-200-gw-and-chinese-oems-dominate-market-gwec-53396"
+     },
+     {
+      "name": "Mingyang Smart Energy",
+      "role": "incumbent",
+      "what": "Chinese OEM pushing the largest rotors in the industry and expanding aggressively outside China.",
+      "signal": "18.6 GW installed in China in 2025 (global top-5 annual installer).",
+      "status": "operating",
+      "source": "https://greentechlead.com/wind/global-wind-turbine-installations-jump-23-in-2025-as-vestas-crosses-200-gw-and-chinese-oems-dominate-market-gwec-53396"
+     },
+     {
+      "name": "Enercon",
+      "role": "incumbent",
+      "what": "German specialist in gearless direct-drive onshore turbines with a deep EU installed base.",
+      "signal": "Among the five largest suppliers in the EU in 2025.",
+      "status": "operating",
+      "source": "https://www.gwec.net/news/gwec-records-sharp-rise-in-wind-turbine-installations-as-five-oems-exceed-100-gw"
+     },
+     {
+      "name": "Suzlon",
+      "role": "incumbent",
+      "what": "India's largest wind OEM, recovered from debt restructuring to a record domestic order book.",
+      "signal": "Top-15 global OEM; dominant share of India's fast-growing onshore market.",
+      "status": "operating",
+      "source": "https://www.blackridgeresearch.com/blog/top-wind-turbine-manufacturers-makers-companies-suppliers"
+     }
+    ]
+   },
+   {
+    "name": "Fixed-bottom offshore wind (incl. foundations & installation tech)",
+    "description": "Turbines of 11-20 MW mounted on monopile or jacket foundations in waters under ~60 m capture stronger, steadier sea winds; a specialized chain of foundation fabricators and jack-up installation vessels is as decisive as the turbines themselves.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Siemens Gamesa",
+      "role": "incumbent",
+      "what": "Offshore turbine market leader outside China with the SG 14-236 direct-drive platform.",
+      "signal": "Supplying Revolution Wind (first power Mar 2026), Sunrise Wind (84x11 MW) and Borkum Riffgrund 3 in 2025-26.",
+      "status": "operating",
+      "source": "https://www.offshorewind.biz/2026/03/31/first-turbine-being-installed-at-orsteds-new-us-offshore-wind-farm/"
+     },
+     {
+      "name": "Vestas",
+      "role": "incumbent",
+      "what": "Offshore challenger whose V236-15.0 MW flagship is entering serial deployment on European projects.",
+      "signal": "Multi-GW offshore backlog; among five OEMs above 100 GW cumulative (all segments).",
+      "status": "operating",
+      "source": "https://www.windtech-international.com/industry-news/vestas-remains-global-leader-as-five-turbine-manufacturers-exceed-100-gw-installed"
+     },
+     {
+      "name": "Ming Yang Smart Energy",
+      "role": "incumbent",
+      "what": "Builds the world's largest offshore turbines (MySE 18-20 MW class) and dominates Chinese offshore installations.",
+      "signal": "Global top-5 installer 2025; 18-20 MW typhoon-class machines commissioned in China.",
+      "status": "operating",
+      "source": "https://www.blackridgeresearch.com/blog/top-wind-turbine-manufacturers-makers-companies-suppliers"
+     },
+     {
+      "name": "GE Vernova",
+      "role": "incumbent",
+      "what": "Haliade-X pioneer (13-15.5 MW) now shrinking offshore wind to one workhorse model and running off its backlog rather than seeking new orders.",
+      "signal": "Abandoned its 18 MW model, triggering cancellation of three New York projects; offshore unit posting losses.",
+      "status": "operating",
+      "source": "https://www.utilitydive.com/news/new-york-offshore-wind-projects-cancelled-turbine/713833/"
+     },
+     {
+      "name": "\u00d8rsted",
+      "role": "incumbent",
+      "what": "World's largest offshore wind developer-operator; builds and owns fixed-bottom farms across Europe, Asia and the US.",
+      "signal": "Revolution Wind delivered first power to New England in Mar 2026 after surviving a federal stop-work order; completed ~DKK 60B rights issue in 2025 after US writedowns.",
+      "status": "operating",
+      "source": "https://energiesmedia.com/orsted-revolution-wind-offshore-development/"
+     },
+     {
+      "name": "Cadeler",
+      "role": "scaleup",
+      "what": "Operates the world's largest fleet of jack-up wind installation vessels handling both turbines and XXL monopile foundations.",
+      "signal": "Nine-plus vessel fleet incl. new A-class carrying six XXL monopile sets per trip; ~EUR 500M full-scope T&I contracts signed Nov 2025.",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20251109382611/en/Cadeler-Signs-Two-Significant-Contracts-for-Full-Scope-Foundation-and-Turbine-Transportation-and-Installation"
+     },
+     {
+      "name": "Sif Group",
+      "role": "incumbent",
+      "what": "Dutch monopile fabricator supplying XXL foundations from its Rotterdam Maasvlakte 2 plant.",
+      "signal": "~$450M expansion lifted capacity to ~500 kt/yr with robotic welding; 176 kt produced in 2025.",
+      "status": "operating",
+      "source": "https://offshoreindustry.co.uk/offshore-wind-installation-vessels-cadeler-van-oord-and-the-jack-up-shortage/"
+     },
+     {
+      "name": "EEW Group",
+      "role": "incumbent",
+      "what": "German manufacturer of XXL monopiles and transition pieces for North Sea and US projects.",
+      "signal": "Completed Nordlicht I monopiles ahead of schedule (2025); Sumitomo partnership to secure heavy steel plate.",
+      "status": "operating",
+      "source": "https://eew-group.com/products/structural-pipe-offshore-wind/monopiles/"
+     },
+     {
+      "name": "Havfram",
+      "role": "scaleup",
+      "what": "Norwegian wind-installation newcomer that ordered fourth-generation WTIV newbuilds.",
+      "signal": "Acquired by DEME in 2025 along with its two newbuild vessels.",
+      "status": "acquired",
+      "source": "https://www.windtech-international.com/company-news/deme-reports-steady-2025-activity-in-offshore-wind-across-key-markets"
+     },
+     {
+      "name": "DEME Offshore",
+      "role": "incumbent",
+      "what": "Belgian marine contractor installing foundations, cables and turbines across global offshore wind markets.",
+      "signal": "Reported steady 2025 offshore wind activity and expanded turbine-installation capacity via the Havfram acquisition.",
+      "status": "operating",
+      "source": "https://www.windtech-international.com/company-news/deme-reports-steady-2025-activity-in-offshore-wind-across-key-markets"
+     }
+    ]
+   },
+   {
+    "name": "Floating offshore wind platforms & mooring systems",
+    "description": "Turbines mounted on moored buoyant platforms (spar, semi-submersible, barge, TLP) unlock deep-water sites (>60 m) that hold most of the offshore wind resource near Japan, Korea, California and the Mediterranean; cost is still ~2-3x fixed-bottom.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Equinor",
+      "role": "incumbent",
+      "what": "Hywind spar pioneer operating the world's first and largest floating wind farms.",
+      "signal": "Hywind Scotland (30 MW, since 2017) and Hywind Tampen (88 MW, powering North Sea oil platforms) both operating.",
+      "status": "operating",
+      "source": "https://en.wikipedia.org/wiki/Floating_wind_turbine"
+     },
+     {
+      "name": "Principle Power",
+      "role": "scaleup",
+      "what": "WindFloat semi-submersible platform used on the WindFloat Atlantic (25 MW) and Kincardine (50 MW) arrays.",
+      "signal": "~105 MW of operating projects use its platform \u2014 the most of any independent floater designer; new CEO appointed 2025.",
+      "status": "operating",
+      "source": "https://www.principlepower.com/"
+     },
+     {
+      "name": "BW Ideol",
+      "role": "scaleup",
+      "what": "Damping-pool barge floater in steel or concrete, proven on Floatgen (France) and Hibiki (Japan) demonstrators since 2018.",
+      "signal": "EUR 126M in EU Innovation Fund + French state grants (Mar 2026) for the Fos3F serial concrete-foundation factory; DNV basic design cert for 15 MW barge; Holcim took an equity stake.",
+      "status": "operating",
+      "source": "https://www.offshorewind.biz/2026/03/25/eu-france-grant-eur-126-million-for-bw-ideols-floating-foundation-factory/"
+     },
+     {
+      "name": "Stiesdal Offshore",
+      "role": "startup",
+      "what": "Industrialized, factory-built modular TetraSpar/TetraSub floaters designed by wind pioneer Henrik Stiesdal for mass production.",
+      "signal": "TetraSpar demonstrator (3.6 MW) operating off Norway since 2021; commercial team expanded 2025.",
+      "status": "operating",
+      "source": "https://www.stiesdal.com/offshore/"
+     },
+     {
+      "name": "Gazelle Wind Power",
+      "role": "startup",
+      "what": "Hinged low-draft platform with a dynamic mooring/counterweight system that cuts steel mass and port-depth requirements.",
+      "signal": "Raised an additional EUR 2M (May 2025) toward its 2 MW Nau Azul demonstrator off Portugal.",
+      "status": "operating",
+      "source": "https://www.eu-startups.com/2025/05/portuguese-energy-startup-gazelle-wind-power-raises-an-additional-e2-million-for-its-offshore-wind-platform-tech/"
+     },
+     {
+      "name": "Aikido Technologies",
+      "role": "startup",
+      "what": "Fold-flat floating platform assembled quayside in ~40 hours and towed out without heavy-lift vessels; also proposing turbine-integrated offshore AI data centers (AO60DC).",
+      "signal": "$4M seed round; US pilot platform demonstrated 10x faster assembly claim.",
+      "status": "operating",
+      "source": "https://www.esgtoday.com/cleantech-startup-aikido-raises-4-million-in-seed-financing-for-low-cost-floating-offshore-wind-solution/"
+     },
+     {
+      "name": "X1 Wind",
+      "role": "startup",
+      "what": "Downwind, weathervaning PivotBuoy platform on a single-point TLP mooring that minimizes steel and seabed footprint.",
+      "signal": "X30 prototype delivered power off the Canary Islands; leading EU NextFloat 6 MW demo project.",
+      "status": "operating",
+      "source": "https://www.x1wind.com/"
+     },
+     {
+      "name": "Marine Power Systems",
+      "role": "startup",
+      "what": "Welsh developer of the PelaFlex tension-leg floating wind platform, evolved from wave-energy technology.",
+      "signal": "GBP 8M Welsh Government investment (Mar 2026) to commercialize PelaFlex; ~$21.6M raised in total.",
+      "status": "operating",
+      "source": "https://www.offshorewind.biz/2026/03/13/welsh-government-backs-marine-power-systems-floating-wind-tech-with-gbp-8-million/"
+     },
+     {
+      "name": "Ming Yang Smart Energy",
+      "role": "incumbent",
+      "what": "Built OceanX, a twin-rotor V-shaped floating platform (16.6 MW combined) \u2014 the largest single floating wind unit installed \u2014 plus typhoon-class floating demos in China.",
+      "signal": "OceanX installed off Guangdong in 2024; multiple Chinese floating demonstrators delivered.",
+      "status": "operating",
+      "source": "https://www.blackridgeresearch.com/blog/top-wind-turbine-manufacturers-makers-companies-suppliers"
+     }
+    ],
+    "white_space": "Many platform designers but almost no commercial-scale buyers yet: LCOE is still ~2-3x fixed-bottom and ports, dynamic cables, moorings and serial fabrication are the bottleneck \u2014 the EUR 126M bet on BW Ideol's foundation factory shows the opening is industrialized floater/mooring manufacturing and anchor/mooring supply chains rather than yet another platform geometry."
+   },
+   {
+    "name": "Airborne wind energy (kites, tethered drones)",
+    "description": "Tethered kites, rigid wings or drone-craft harvest the stronger, steadier winds at 200-800 m altitude using ~90% less material than a tower turbine, generating power via a ground winch (yo-yo cycle) or onboard rotors \u2014 attractive for off-grid, island and mobile uses.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "SkySails Power",
+      "role": "startup",
+      "what": "Soft-kite ground-generation systems (100-200 kW); the closest to serial sales with its new 'Kyo' unit.",
+      "signal": "Deployed Asia's first kite AWE system in Taiwan (Jul 2025) with partner AiSails; ENGIE joint pilot in Germany; official start of sales announced.",
+      "status": "operating",
+      "source": "https://www.windtech-international.com/company-news/skysails-power-and-aisails-power-expand-partnership-in-airborne-wind-energy"
+     },
+     {
+      "name": "Kitepower",
+      "role": "startup",
+      "what": "TU Delft spin-off making the 100 kW 'Falcon' mobile kite system for microgrids, islands and defense.",
+      "signal": "Operating pilots in the Caribbean (Aruba) and at RWE's consented Mayo, Ireland demonstration site.",
+      "status": "operating",
+      "source": "https://e360.yale.edu/features/after-a-shaky-start-airborne-wind-energy-is-slowly-taking-off"
+     },
+     {
+      "name": "Kitemill",
+      "role": "startup",
+      "what": "Norwegian rigid-wing VTOL kite with ground generation; KM2 has a 16 m wingspan producing ~100 kW average.",
+      "signal": "EUR 3.35M EU Innovation Fund award for the 12-system NAWEP array; targeting 24-hour autonomous and multi-device operation from 2025.",
+      "status": "operating",
+      "source": "https://www.world-energy.org/article/41336.html"
+     },
+     {
+      "name": "EnerKite",
+      "role": "startup",
+      "what": "German swept rigid-wing ground-gen system (EK200, 100 kW) aimed at farms and off-grid industry.",
+      "signal": "EUR 1.6M raised Nov 2025 toward Series A via crowd/angel financing; ~$1.85M total disclosed.",
+      "status": "operating",
+      "source": "https://tracxn.com/d/companies/enerkite/__LWNu719rK7F5x12MqqoOprWjyhj6CriMzMDIOeHFYh7k"
+     },
+     {
+      "name": "Kitekraft",
+      "role": "startup",
+      "what": "Munich startup flying a tethered electric multicopter kite with onboard generation (fly-gen), a miniature heir to Makani's concept.",
+      "signal": "Sub-100 kW prototypes in flight testing; seed-stage.",
+      "status": "operating",
+      "source": "https://www.kitekraft.de/airborne-wind-energy"
+     },
+     {
+      "name": "Windlift",
+      "role": "startup",
+      "what": "US maker of portable fly-gen 'airborne power systems' targeting defense and expeditionary power.",
+      "signal": "DoD development contracts; crowdfunding on Wefunder in 2025 at ~$34M valuation.",
+      "status": "operating",
+      "source": "https://kingscrowd.com/windlift-on-wefunder-2025/"
+     },
+     {
+      "name": "Makani Power",
+      "role": "startup",
+      "what": "Pioneered the 600 kW M600 fly-gen energy kite under Google X/Alphabet.",
+      "signal": "Shut down by Alphabet in Feb 2020 after ~13 years; technology open-sourced \u2014 the sector's defining failure.",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.theneweconomy.com/technology/will-airborne-wind-energy-ever-take-off"
+     },
+     {
+      "name": "Ampyx Power",
+      "role": "startup",
+      "what": "Dutch fixed-wing ground-gen developer (AP3 aircraft) once the sector's best-funded player.",
+      "signal": "Declared bankrupt after raising ~EUR 50M against an estimated EUR 500M development need; concept continued by successor Mozaero.",
+      "status": "bankrupt-shutdown",
+      "source": "https://siliconcanals.com/ampyx-power-bankrupt-wind-energy-technology/"
+     },
+     {
+      "name": "TwingTec",
+      "role": "startup",
+      "what": "Swiss 'energy drone' ground-gen developer spun out of Empa/EPFL.",
+      "signal": "Listed among only ~8 surviving AWE players (down from 22 in 2017); little public activity since 2023.",
+      "status": "uncertain",
+      "source": "https://rethinkresearch.biz/articles/airborne-wind-consolidates-in-last-gasp-attempt-to-commercialize/"
+     }
+    ],
+    "white_space": "The field consolidated from ~22 players (2017) to ~8 after Makani and Ampyx proved utility-scale AWE needs hundreds of millions that single-digit-MW unit economics cannot yet justify; the credible near-term opening is 100-500 kW mobile/off-grid systems competing with diesel on islands, mines and defense sites, with autonomy and tether reliability as the gating technologies."
+   },
+   {
+    "name": "Small & distributed wind (rooftop, ducted/shrouded)",
+    "description": "Turbines from sub-kW micro units to ~100 kW serve homes, farms, telecom towers and buildings on-site \u2014 valuable where grid power is expensive or absent \u2014 though cheap solar has pushed the segment into off-grid and hybrid niches.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Bergey Windpower",
+      "role": "incumbent",
+      "what": "Battle-proven 1-15 kW residential and farm HAWTs with decades-long track record.",
+      "signal": "35,000+ turbines installed across 120 countries; 2024 DOE award to upgrade blade manufacturing.",
+      "status": "operating",
+      "source": "https://www.globalgrowthinsights.com/blog/what-are-the-top-12-small-wind-turbines-companies-in-2025-global-growth-insights-945"
+     },
+     {
+      "name": "Ryse Energy",
+      "role": "scaleup",
+      "what": "Abu Dhabi-based integrator of small wind and hybrid wind-solar-storage systems for off-grid telecom, oil & gas and rural electrification.",
+      "signal": "Acquired US micro-wind maker Primus Wind Power; installations across 70+ countries.",
+      "status": "operating",
+      "source": "https://www.skyquestt.com/report/small-wind-power-market/companies"
+     },
+     {
+      "name": "Eocycle",
+      "role": "scaleup",
+      "what": "Canadian-Belgian maker of 25-100 kW direct-drive farm-scale turbines; consolidated the segment by absorbing XANT, Orenda and United Wind assets.",
+      "signal": "Transatlantic product line (EO/S-series) actively marketed; the segment's main roll-up.",
+      "status": "operating",
+      "source": "https://eocycle.com/putting-the-power-of-the-wind-to-work-eocycle-and-xant-join-forces-under-a-unified-name/"
+     },
+     {
+      "name": "Primus Wind Power",
+      "role": "scaleup",
+      "what": "Air-series micro turbines (40-160 W class) for off-grid, marine and telecom power, among the most-sold wind products ever.",
+      "signal": "Hundreds of thousands of units shipped; acquired by Ryse Energy.",
+      "status": "acquired",
+      "source": "https://www.skyquestt.com/report/small-wind-power-market/companies"
+     },
+     {
+      "name": "Aeromine Technologies",
+      "role": "startup",
+      "what": "Motionless rooftop wind units that use building-edge aerodynamics to amplify airflow through an internal rotor, pitched as solar's rooftop companion.",
+      "signal": "$9M Series A (May 2024); pilots with BASF and commercial building owners.",
+      "status": "operating",
+      "source": "https://www.globalgrowthinsights.com/blog/what-are-the-top-12-small-wind-turbines-companies-in-2025-global-growth-insights-945"
+     },
+     {
+      "name": "Flower Turbines",
+      "role": "startup",
+      "what": "Tulip-shaped quiet small VAWTs that perform better in clusters ('bouquet effect') for urban and commercial sites.",
+      "signal": ">$17M raised from 8,000+ crowd investors; launched Project Series 1 (2025) to finance commercial installations.",
+      "status": "operating",
+      "source": "https://www.superpowers4good.com/p/flower-turbines-project-series-1"
+     },
+     {
+      "name": "United Wind",
+      "role": "startup",
+      "what": "Pioneered no-money-down residential wind leasing (WindLease) in the US before folding.",
+      "signal": "Ceased independent operations; assets acquired by Eocycle.",
+      "status": "acquired",
+      "source": "https://eocycle.com/history/"
+     },
+     {
+      "name": "XZERES Wind",
+      "role": "startup",
+      "what": "Once-prominent Oregon maker of 2.4-10 kW residential turbines that collapsed after years of losses.",
+      "signal": "Effectively exited the market after financial distress in the early 2020s; brand assets changed hands.",
+      "status": "uncertain",
+      "source": "https://pitchbook.com/profiles/company/42229-63"
+     }
+    ],
+    "white_space": "Solar-PV's cost collapse hollowed out small wind \u2014 economics rarely close on-grid, urban rooftop wind has a long failure record (turbulence, low hub-height speeds), and the sector's history is bankruptcies and roll-ups; the openings are hybrid wind+solar+storage off-grid kits for telecom/islands/defense, and building-integrated designs with independently validated yields like Aeromine's."
+   },
+   {
+    "name": "Vertical-axis & novel rotor designs (incl. bladeless/oscillating)",
+    "description": "Alternative architectures \u2014 vertical-axis rotors, bladeless oscillating masts, track-mounted wings, multi- and single-rotor floaters \u2014 trade the mature three-blade format for lower height, lower center of gravity, denser packing or cheaper manufacture.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "SeaTwirl",
+      "role": "startup",
+      "what": "Swedish floating spar VAWT whose low center of gravity suits deep-water floating duty; Nasdaq First North-listed.",
+      "signal": "EUR 15M Horizon Europe 'Verti-Go' award (Sep 2025) to build and operate a 2 MW floating VAWT demonstrator; design phase began Oct 2025.",
+      "status": "operating",
+      "source": "https://www.offshorewind.biz/2025/09/02/verti-go-project-awarded-eur-15-million-for-2-mw-floating-vertical-axis-wind-turbine-demo/"
+     },
+     {
+      "name": "World Wide Wind",
+      "role": "startup",
+      "what": "Norwegian contra-rotating, tilting floating VAWT concept claimed scalable to 40 MW per unit.",
+      "signal": "Partnership with aluminum giant Hydro for tower materials; small-scale prototype testing in Norway.",
+      "status": "operating",
+      "source": "https://cleantechnica.com/2025/05/27/floating-offshore-wind-turbines-are-getting-a-vertical-axis-makeover-heres-why/"
+     },
+     {
+      "name": "Airloom Energy",
+      "role": "startup",
+      "what": "Wing-cars circulating on a low oval trackway (~25 m high) to deliver utility-scale power with far less steel, height and radar profile than a tower turbine.",
+      "signal": "$13.75M financing (Oct 2024) backed by Breakthrough Energy/Lowercarbon; broke ground on Wyoming utility-scale pilot Jun 2025, power expected late 2025 and commercial demos in 2027.",
+      "status": "operating",
+      "source": "https://techcrunch.com/2025/06/25/bill-gates-backed-airloom-begins-building-its-first-power-plant/"
+     },
+     {
+      "name": "XFlow Energy",
+      "role": "startup",
+      "what": "Seattle-area maker of a 30 kW low-maintenance VAWT (XFE-13) engineered with NREL/DOE support for distributed sites.",
+      "signal": "DOE Competitiveness Improvement Project awardee; first commercial units in field testing.",
+      "status": "operating",
+      "source": "https://www.xflowenergy.com/"
+     },
+     {
+      "name": "Vortex Bladeless",
+      "role": "startup",
+      "what": "Spanish bladeless mast that oscillates via vortex-induced vibration to make micro-power with no rotating parts.",
+      "signal": "More than a decade in development with heavy press but minimal verified commercial deployment.",
+      "status": "uncertain",
+      "source": "https://en.wikipedia.org/wiki/Vortex_Bladeless"
+     },
+     {
+      "name": "Alpha 311",
+      "role": "startup",
+      "what": "UK startup mounting small VAWTs on roadside lampposts to harvest vehicle-induced airflow.",
+      "signal": "Down to 1 employee at end-2024 ($2.61M raised); Southampton wind-tunnel testing reported in 2025 \u2014 barely alive.",
+      "status": "uncertain",
+      "source": "https://tracxn.com/d/companies/alpha-311/__TcdGRku4Q_OrksANv15lohISnCf9PInYbMd50cnineA"
+     },
+     {
+      "name": "TouchWind",
+      "role": "startup",
+      "what": "Dutch one-piece tilting single-rotor floating turbine designed to survive typhoons and slash manufacturing cost.",
+      "signal": "Investment from Mitsui O.S.K. Lines; scaled-model testing \u2014 full-scale demo not yet verified.",
+      "status": "uncertain",
+      "source": "https://touchwind.org/"
+     }
+    ],
+    "white_space": "Decades of VAWT failures (lower aerodynamic efficiency, fatigue cycling) plus the 40-year cost/reliability learning curve of three-blade HAWTs make head-on competition near-hopeless; credible openings exist only where the HAWT form factor itself fails \u2014 floating offshore (low center of gravity: SeaTwirl, World Wide Wind), height/radar-restricted land (Airloom, which is the segment's only well-funded utility-scale bet), and harsh-weather niches."
+   },
+   {
+    "name": "Wind repowering, blade recycling & life extension",
+    "description": "Replacing or upgrading aging turbines on existing permitted sites (repowering), recycling decommissioned fiberglass blades into new materials, and using robots, drones and predictive analytics to stretch asset life \u2014 keeping the existing fleet productive and circular as ~hundreds of GW age past year 15.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "NextEra Energy Resources",
+      "role": "incumbent",
+      "what": "Largest US renewables owner running the biggest fleet-scale wind repowering program.",
+      "signal": "Target raised to ~1.9 GW repowered through 2026 at 50-80% of new-build cost while restarting 10-year PTCs.",
+      "status": "operating",
+      "source": "https://www.hartenergy.com/exclusives/nextera-gears-wind-repower-projects-renewables-backlog-grows-206953"
+     },
+     {
+      "name": "RWE",
+      "role": "incumbent",
+      "what": "European utility repowering aging farms across Spain, Germany and Texas.",
+      "signal": "Forest Creek, TX: 54 old Siemens Gamesa units replaced by 45 new GE Vernova turbines adding ~30 years of life; Muel (Spain) repowering started Apr 2025.",
+      "status": "operating",
+      "source": "https://www.rwe.com/en/press/rwe-renewables-europe-australia/2025-04-08-rwe-starts-repowering-of-its-muel-wind-farm-in-spain/"
+     },
+     {
+      "name": "GE Vernova",
+      "role": "incumbent",
+      "what": "Sells OEM repowering packages (new rotors/nacelles on existing foundations) for the large aging US fleet.",
+      "signal": "Booked 1.1 GW of US onshore repowering orders in 2025, with CODs in 2026-27.",
+      "status": "operating",
+      "source": "https://www.cnbc.com/2025/04/27/wind-power-trump-climate-change-energy-policy.html"
+     },
+     {
+      "name": "Veolia",
+      "role": "incumbent",
+      "what": "Shreds decommissioned blades for cement-kiln co-processing (fuel plus raw material) at its Missouri facility.",
+      "signal": "Master agreement with GE since 2020; among the named leaders in the 2025 blade-recycling market report.",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20251007527996/en/Wind-Turbine-Blade-Recycling-Market-Trends-and-Forecast-Report-2025-with-Veolia-Environnement-Groupe-Lapeyre-Global-Fiberglass-Solutions-Geocycle-Carbon-Rivers-Regen-Fiber-Vestas-Wind-Systems---ResearchAndMarkets.com"
+     },
+     {
+      "name": "Carbon Rivers",
+      "role": "startup",
+      "what": "Pyrolysis process recovering 99.9%-purity glass fiber from blades for reuse in new composites.",
+      "signal": "DOE-supported; thousands of tonnes processed and a ~50,000 t/yr Knoxville facility in build-out.",
+      "status": "operating",
+      "source": "https://www.energy.gov/cmei/articles/eere-success-story-commercial-technology-enables-recycling-wind-turbine-blades"
+     },
+     {
+      "name": "REGEN Fiber",
+      "role": "startup",
+      "what": "Mechanical blade recycling into fiber reinforcement additives for concrete and asphalt (Alliant Energy/Travero subsidiary).",
+      "signal": "Iowa plant running at ~60 million lb/yr capacity, one of the few commercially operational recycling routes in 2025.",
+      "status": "operating",
+      "source": "https://solartechonline.com/blog/wind-turbine-blade-recycling-guide/"
+     },
+     {
+      "name": "Continuum",
+      "role": "startup",
+      "what": "Mechanically separates blades into fiber/resin/metal streams and remanufactures them into composite building panels.",
+      "signal": "First factory in Esbjerg, Denmark operational; six European factories planned incl. UK.",
+      "status": "operating",
+      "source": "https://www.compositesworld.com/news/continuum-targets-facility-capacity-transforms-composite-materials-to-advance-wind-blade-recycling"
+     },
+     {
+      "name": "Global Fiberglass Solutions",
+      "role": "startup",
+      "what": "Early blade-to-pellet recycler (EcoPoly) that became notorious for stockpiled, unprocessed blades in Texas and Iowa.",
+      "signal": "Still cited in market reports but with little verifiable processing activity \u2014 a cautionary tale on recycling economics.",
+      "status": "uncertain",
+      "source": "https://www.businesswire.com/news/home/20251007527996/en/Wind-Turbine-Blade-Recycling-Market-Trends-and-Forecast-Report-2025-with-Veolia-Environnement-Groupe-Lapeyre-Global-Fiberglass-Solutions-Geocycle-Carbon-Rivers-Regen-Fiber-Vestas-Wind-Systems---ResearchAndMarkets.com"
+     },
+     {
+      "name": "Aerones",
+      "role": "scaleup",
+      "what": "Robotic in-situ blade inspection and repair (leading-edge erosion, lightning-protection testing) that avoids cranes and rope teams.",
+      "signal": "$62M oversubscribed round (Jun 2025, Activate Capital/S2G); revenue nearly tripled YoY; new Dallas US hub.",
+      "status": "operating",
+      "source": "https://siliconangle.com/2025/06/03/ai-driven-robotic-wind-turbine-maintenance-firm-aerones-raises-62m/"
+     },
+     {
+      "name": "SkySpecs",
+      "role": "scaleup",
+      "what": "Autonomous drone blade inspections feeding the Horizon asset-health platform \u2014 the industry's largest blade-damage dataset.",
+      "signal": "$20M raised Mar 2025 (~$140M total, Series E); 270,000+ turbines inspected for 125 customers in 19 countries.",
+      "status": "operating",
+      "source": "https://www.cbinsights.com/company/skyspecs"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.gwec.net/news/gwec-records-sharp-rise-in-wind-turbine-installations-as-five-oems-exceed-100-gw",
+   "https://www.windtech-international.com/industry-news/vestas-remains-global-leader-as-five-turbine-manufacturers-exceed-100-gw-installed",
+   "https://greentechlead.com/wind/global-wind-turbine-installations-jump-23-in-2025-as-vestas-crosses-200-gw-and-chinese-oems-dominate-market-gwec-53396",
+   "https://www.blackridgeresearch.com/blog/top-wind-turbine-manufacturers-makers-companies-suppliers",
+   "https://www.businesswire.com/news/home/20251109382611/en/Cadeler-Signs-Two-Significant-Contracts-for-Full-Scope-Foundation-and-Turbine-Transportation-and-Installation",
+   "https://www.utilitydive.com/news/new-york-offshore-wind-projects-cancelled-turbine/713833/",
+   "https://energiesmedia.com/orsted-revolution-wind-offshore-development/",
+   "https://e360.yale.edu/features/east-coast-offshore-wind",
+   "https://www.offshorewind.biz/2026/03/25/eu-france-grant-eur-126-million-for-bw-ideols-floating-foundation-factory/",
+   "https://www.offshorewind.biz/2026/03/13/welsh-government-backs-marine-power-systems-floating-wind-tech-with-gbp-8-million/",
+   "https://www.eu-startups.com/2025/05/portuguese-energy-startup-gazelle-wind-power-raises-an-additional-e2-million-for-its-offshore-wind-platform-tech/",
+   "https://www.esgtoday.com/cleantech-startup-aikido-raises-4-million-in-seed-financing-for-low-cost-floating-offshore-wind-solution/",
+   "https://en.wikipedia.org/wiki/Floating_wind_turbine",
+   "https://e360.yale.edu/features/after-a-shaky-start-airborne-wind-energy-is-slowly-taking-off",
+   "https://rethinkresearch.biz/articles/airborne-wind-consolidates-in-last-gasp-attempt-to-commercialize/",
+   "https://siliconcanals.com/ampyx-power-bankrupt-wind-energy-technology/",
+   "https://www.windtech-international.com/company-news/skysails-power-and-aisails-power-expand-partnership-in-airborne-wind-energy",
+   "https://www.world-energy.org/article/41336.html",
+   "https://kingscrowd.com/windlift-on-wefunder-2025/",
+   "https://www.globalgrowthinsights.com/blog/what-are-the-top-12-small-wind-turbines-companies-in-2025-global-growth-insights-945",
+   "https://www.skyquestt.com/report/small-wind-power-market/companies",
+   "https://www.superpowers4good.com/p/flower-turbines-project-series-1",
+   "https://www.offshorewind.biz/2025/09/02/verti-go-project-awarded-eur-15-million-for-2-mw-floating-vertical-axis-wind-turbine-demo/",
+   "https://cleantechnica.com/2025/05/27/floating-offshore-wind-turbines-are-getting-a-vertical-axis-makeover-heres-why/",
+   "https://techcrunch.com/2025/06/25/bill-gates-backed-airloom-begins-building-its-first-power-plant/",
+   "https://tracxn.com/d/companies/alpha-311/__TcdGRku4Q_OrksANv15lohISnCf9PInYbMd50cnineA",
+   "https://www.cnbc.com/2025/04/27/wind-power-trump-climate-change-energy-policy.html",
+   "https://www.hartenergy.com/exclusives/nextera-gears-wind-repower-projects-renewables-backlog-grows-206953",
+   "https://www.rwe.com/en/press/rwe-renewables-europe-australia/2025-04-08-rwe-starts-repowering-of-its-muel-wind-farm-in-spain/",
+   "https://www.businesswire.com/news/home/20251007527996/en/Wind-Turbine-Blade-Recycling-Market-Trends-and-Forecast-Report-2025-with-Veolia-Environnement-Groupe-Lapeyre-Global-Fiberglass-Solutions-Geocycle-Carbon-Rivers-Regen-Fiber-Vestas-Wind-Systems---ResearchAndMarkets.com",
+   "https://www.compositesworld.com/news/continuum-targets-facility-capacity-transforms-composite-materials-to-advance-wind-blade-recycling",
+   "https://www.energy.gov/cmei/articles/eere-success-story-commercial-technology-enables-recycling-wind-turbine-blades",
+   "https://siliconangle.com/2025/06/03/ai-driven-robotic-wind-turbine-maintenance-firm-aerones-raises-62m/",
+   "https://www.cbinsights.com/company/skyspecs"
+  ]
+ }
+}

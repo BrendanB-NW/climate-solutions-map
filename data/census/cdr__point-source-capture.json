@@ -1,0 +1,706 @@
+{
+ "sector": "cdr",
+ "bucket": "Point-Source Capture",
+ "census": {
+  "bucket": "Point-Source Capture",
+  "variations": [
+   {
+    "name": "Amine solvent capture (incumbent licensors plus next-gen low-energy amines)",
+    "description": "Flue gas is bubbled through liquid amine solutions that chemically bind CO2 and release it when heated, the benchmark capture route used in nearly every operating commercial CCS plant today.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Mitsubishi Heavy Industries",
+      "role": "incumbent",
+      "what": "Most-deployed post-combustion licensor (KM CDR Process, ~15+ commercial plants incl. Petra Nova) with next-gen low-energy KS-21 solvent selected for Drax BECCS and multiple UK/US FEEDs.",
+      "signal": "Petra Nova restarted 2023; KS-21 in commercial FEEDs through 2025",
+      "status": "operating",
+      "source": "https://www.mhi.com"
+     },
+     {
+      "name": "Shell (CANSOLV)",
+      "role": "incumbent",
+      "what": "CANSOLV amine system running at SaskPower Boundary Dam since 2014 and selected for Net Zero Teesside Power, the first gas-CCGT-with-capture FID (Dec 2024).",
+      "signal": "Boundary Dam ~1 Mtpa design; NZT Power under construction",
+      "status": "operating",
+      "source": "https://www.shell.com"
+     },
+     {
+      "name": "SLB Capturi",
+      "role": "incumbent",
+      "what": "SLB-majority JV (ex-Aker Carbon Capture tech) that delivered Brevik CCS, the world's first industrial-scale cement capture plant (400 ktpa), opened June 2025 with CO2 shipped to Northern Lights.",
+      "signal": "Brevik operating since mid-2025; Hafslund Celsio waste-to-energy contract won 2025",
+      "status": "operating",
+      "source": "https://capturi.slb.com/projects/brevik-ccs"
+     },
+     {
+      "name": "Aker Carbon Capture ASA",
+      "role": "scaleup",
+      "what": "Former standalone Oslo-listed capture pureplay; folded its technology into the SLB Capturi JV (2024), then sold its remaining 20% stake (NOK 1.83B, 2025) and is being liquidated.",
+      "signal": "20% stake sold to Aker ASA May 2025; shareholder cash-out and liquidation",
+      "status": "acquired",
+      "source": "https://www.prnewswire.com/news-releases/aker-carbon-capture-has-decided-to-sell-its-20-percent-ownership-interest-in-slb-capturi-to-aker-targeting-cash-distribution-to-its-shareholders-and-subsequent-liquidation-302450845.html"
+     },
+     {
+      "name": "Fluor",
+      "role": "incumbent",
+      "what": "Econamine FG+ amine licensor (dozens of gas-processing references); capture provider for the $2B Project Tundra coal retrofit, now stalled after TC Energy's exit and no FID.",
+      "signal": "Project Tundra in limbo since Dec 2024 despite $350M DOE award",
+      "status": "operating",
+      "source": "https://www.powermag.com/north-dakota-carbon-capture-project-in-limbo-after-canada-groups-exit/"
+     },
+     {
+      "name": "BASF",
+      "role": "incumbent",
+      "what": "OASE blue low-energy amine solvent licensed globally for flue-gas capture, typically delivered through EPC partners such as JGC and Samsung E&A.",
+      "signal": "Multiple commercial licenses across gas treating and flue gas",
+      "status": "operating",
+      "source": "https://www.basf.com"
+     },
+     {
+      "name": "Axens",
+      "role": "incumbent",
+      "what": "Licenses IFPEN's DMX demixing (two-phase) solvent that cuts regeneration energy, demonstrated on steel-mill gas at ArcelorMittal Dunkirk in the EU 3D project.",
+      "signal": "DMX industrial demo operated 2023-2025",
+      "status": "operating",
+      "source": "https://www.axens.net"
+     },
+     {
+      "name": "Carbon Clean",
+      "role": "scaleup",
+      "what": "APBS-CDRMax solvent plus CycloneCC rotating packed beds that shrink absorber columns ~10x for skid-mounted industrial retrofits.",
+      "signal": "$150M Series C led by Chevron (2022); first industrial CycloneCC hit 4,000 hours at Fertiglobe Abu Dhabi, TRL7 (Apr 2025)",
+      "status": "operating",
+      "source": "https://www.carbonclean.com/en/press-releases/operational-hours-milestone"
+     },
+     {
+      "name": "ION Clean Energy",
+      "role": "startup",
+      "what": "Water-lean ICE-31 amine demonstrating 98-99% capture on gas-fired flue at TCM/NCCC; capture technology for Calpine's 1.75 Mtpa Sutter gas-plant decarbonization project.",
+      "signal": "$45M Series A led by Chevron New Energies (Apr 2024); DOE cost-share signed for Sutter",
+      "status": "operating",
+      "source": "https://www.ioncleanenergy.com/news-post/calpines-sutter-decarbonization-project-utilizing-ion-clean-energys-carbon-capture-technology-executes-cost-share-agreement-with-doe"
+     },
+     {
+      "name": "Entropy Inc.",
+      "role": "scaleup",
+      "what": "Advantage Energy spinout running modified-amine capture on natural gas plants; Glacier Phase 1 (32 ktpa) operating since 2022, Phase 2 ($127M, 160 ktpa) targeted Q2 2026.",
+      "signal": "C$200M Canada Growth Fund investment plus first carbon contract-for-difference; US$300M Brookfield commitment",
+      "status": "operating",
+      "source": "https://www.esgtoday.com/canada-invests-200-million-in-carbon-capture-startup-entropy/"
+     }
+    ]
+   },
+   {
+    "name": "Non-amine solvents (potassium carbonate, chilled ammonia, amino acids, ionic liquids, enzyme-catalyzed)",
+    "description": "Alternative liquid chemistries (hot potassium carbonate, ammonia, enzymes, alkali hydroxides) absorb CO2 with cheaper, non-degrading, non-toxic solvents, trading some kinetics for lower lifetime cost and cleaner emissions.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Capsol Technologies",
+      "role": "scaleup",
+      "what": "Oslo-listed licensor of Hot Potassium Carbonate end-of-pipe capture that needs no steam tie-in; technology behind Stockholm Exergi's BECCS plant (FID March 2025, under construction).",
+      "signal": "Holcim took a strategic equity stake in 2025 after CapsolGo demo at Dotternhausen; Saipem co-development agreement",
+      "status": "operating",
+      "source": "https://esgnews.com/holcim-invests-in-capsol-to-scale-carbon-capture-for-near-zero-cement/"
+     },
+     {
+      "name": "KC8 Capture Technologies",
+      "role": "startup",
+      "what": "Australian UNO MK3 potassium carbonate process with precipitating absorption, targeting cement and lime; PACER project at Cement Australia Gladstone and solvent testing at the US NCCC.",
+      "signal": "A$5.4M Australian CCTP grant for ReDeFINE demo facility; LETA co-investment",
+      "status": "operating",
+      "source": "https://kc8capture.com/about/"
+     },
+     {
+      "name": "Baker Hughes",
+      "role": "incumbent",
+      "what": "Owns the Chilled Ammonia Process for low-pressure flue gas (cement, WtE, refineries) alongside acquired rotating-bed and MOF capture lines.",
+      "signal": "CAP commercially offered; broader CCUS portfolio expanding via Chart acquisition (closing mid-2026)",
+      "status": "operating",
+      "source": "https://www.bakerhughes.com/process-solutions/chilled-ammonia-process"
+     },
+     {
+      "name": "Saipem",
+      "role": "incumbent",
+      "what": "Bluenzyme: carbonic-anhydrase enzyme-catalyzed carbonate solvent capture sold as pre-engineered 200 t/d plug-and-play units for small and medium emitters.",
+      "signal": "Bluenzyme 200 product line launched Sept 2023; first sales in EU",
+      "status": "operating",
+      "source": "https://www.saipem.com/en/media/press-releases/2023-09-07/net-zero-saipem-launches-bluenzymetm-most-sustainable-solution-co2"
+     },
+     {
+      "name": "CO2 Solutions",
+      "role": "startup",
+      "what": "Quebec pioneer of enzymatic CO2 capture that ran a 30 t/d unit at a pulp mill; entered insolvency in 2019 and its assets were bought by Saipem, becoming the basis of Bluenzyme.",
+      "signal": "Assets acquired by Saipem 2019 after creditor protection",
+      "status": "acquired",
+      "source": "https://bioenergyinternational.com/saipem-launches-bluenzyme-an-enzymatic-carbon-capture-solution/"
+     },
+     {
+      "name": "C-Capture",
+      "role": "startup",
+      "what": "University of Leeds spinout with an amine-free organic solvent claiming lower cost and no toxic emissions; XLR8 CCS compatibility trials at Heidelberg Materials cement, Glass Futures/Pilkington glass, and Energy Works Hull.",
+      "signal": "UK NZIP-backed multi-site trials running 2024-2025 with Wood as engineering partner",
+      "status": "operating",
+      "source": "https://www.thechemicalengineer.com/news/c-capture-uses-next-generation-carbon-capture-tech-for-uk-hard-to-abate-industries/"
+     },
+     {
+      "name": "CarbonFree",
+      "role": "startup",
+      "what": "Alkaline capture-to-mineral SkyCycle process turning flue CO2 into precipitated calcium carbonate; commercial plant built with U.S. Steel at Gary Works, Indiana.",
+      "signal": "SkyCycle Gary Works plant constructed 2024-2025 under offtake with U.S. Steel",
+      "status": "operating",
+      "source": "https://carbonfree.cc"
+     },
+     {
+      "name": "RTI International",
+      "role": "incumbent",
+      "what": "Non-profit developer of a non-aqueous solvent (NAS) with materially lower regeneration energy, piloted at Technology Centre Mongstad and SINTEF facilities.",
+      "signal": "DOE-funded TCM campaigns completed; licensing-stage technology",
+      "status": "operating",
+      "source": "https://www.rti.org"
+     }
+    ],
+    "white_space": "Ionic liquids and amino-acid salts still have no venture-scale champion - viscosity, solvent cost, and oxygen degradation have kept them in the lab - so the field is effectively three chemistries (HPC, ammonia, enzyme); an opening exists for oxygen-tolerant, dirt-cheap solvents for dirty flue gases and for a second enzymatic player beyond Saipem."
+   },
+   {
+    "name": "Solid sorbent capture (MOF/zeolite filter beds, VPSA/TSA cycles)",
+    "description": "Porous solids such as MOFs and amine-functionalized particles soak up CO2 from flue gas and release it with modest heat or vacuum swings, promising lower energy use and no liquid solvent emissions.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Svante",
+      "role": "scaleup",
+      "what": "Structured laminate filter cartridges (incl. CALF-20 MOF) cycled in a rotating TSA contactor; opened the world's first carbon capture filter gigafactory (Redwood, Burnaby) in May 2025.",
+      "signal": "US$318M Series E led by Chevron (2022); $145M gigafactory commissioned; investors incl. GE Vernova, Samsung, Temasek, Canada Growth Fund",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20250513713072/en/Svante-Launches-Worlds-First-Commercial-Gigafactory-for-Carbon-Capture-Removal-Filters"
+     },
+     {
+      "name": "Nuada (formerly MOF Technologies)",
+      "role": "startup",
+      "what": "Belfast company running MOF-based vacuum pressure swing adsorption that cuts capture energy up to 90%; pilots live at enfinium energy-from-waste and a biomass site, with cement and US lime partnerships.",
+      "signal": "EIC Accelerator EUR 2.5M (Apr 2025) plus BGF \u00a33.4M; two pilot plants operating",
+      "status": "operating",
+      "source": "https://www.irishtimes.com/business/2025/04/08/carbon-capture-specialist-nuada-wins-25m-in-funding-from-european-accelerator/"
+     },
+     {
+      "name": "Kawasaki Heavy Industries",
+      "role": "incumbent",
+      "what": "KCC moving-bed system using solid amine sorbent regenerated by ~60C waste-heat steam; 40 t/d demonstration on real coal flue gas at Kansai Electric's Maizuru plant.",
+      "signal": "5 t/d in-house facility plus 40 t/d utility demo since 2023",
+      "status": "operating",
+      "source": "https://cir.nii.ac.jp/crid/1390573407595236480"
+     },
+     {
+      "name": "Verdox",
+      "role": "startup",
+      "what": "All-electric electro-swing adsorption (quinone electrodes) needing no heat or steam; demonstrated capture from ~1% CO2 aluminum smelter off-gas with Hydro at Sunndal (Nov 2025).",
+      "signal": "$80M from Breakthrough Energy Ventures et al. (2022); pilot unit commissioned Oct 2025, first demo unit targeted 2027",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20251110789998/en/Verdox-Demonstrates-Electrochemical-Carbon-Capture-From-Aluminum-Smelting"
+     },
+     {
+      "name": "Mosaic Materials",
+      "role": "startup",
+      "what": "UC Berkeley spinout whose diamine-appended MOF 'molecular sponge' adsorbents were acquired by Baker Hughes (2022) to anchor its next-gen sorbent capture line.",
+      "signal": "Acquired by Baker Hughes, April 2022",
+      "status": "acquired",
+      "source": "https://www.bakerhughes.com/company/news/baker-hughes-acquires-mosaic-materials-advance-nextgeneration-carbon-dioxide-capture"
+     },
+     {
+      "name": "TDA Research",
+      "role": "startup",
+      "what": "Colorado developer of low-cost alkalized-alumina and supported-amine sorbents with multiple DOE-funded slipstream pilots on coal and gas flue gas.",
+      "signal": "Serial DOE awards through 2025; pilot campaigns at NCCC",
+      "status": "operating",
+      "source": "https://www.tda.com"
+     },
+     {
+      "name": "Promethean Particles",
+      "role": "startup",
+      "what": "Nottingham-based continuous-flow MOF manufacturer scaling tonne-per-day production of capture sorbents for filter beds, including trials on industrial flue slipstreams.",
+      "signal": "\u00a38M Series A (2023); UK flue-gas MOF trials",
+      "status": "operating",
+      "source": "https://prometheanparticles.co.uk"
+     }
+    ]
+   },
+   {
+    "name": "Membrane separation (polymeric and hybrid membrane-cryogenic)",
+    "description": "Selective polymer films let CO2 permeate faster than nitrogen or methane, separating gases with electricity alone - no steam, solvents, or chemicals - and pair naturally with cryogenic polishing for high purity.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "MTR Carbon Capture",
+      "role": "scaleup",
+      "what": "Polaris membrane developer that completed the world's largest membrane capture plant (150 t/d, ~55 ktpa, 99.9% liquid CO2) on coal flue gas at the Wyoming Integrated Test Center.",
+      "signal": "DOE large-pilot completed Oct 2024 and operating 2025; selected for cement (Holcim) DOE demo",
+      "status": "operating",
+      "source": "https://mtrccs.com/mtr-carbon-capture-announces-completion-of-the-worlds-largest-membrane-based-carbon-capture-plant/"
+     },
+     {
+      "name": "Air Liquide",
+      "role": "incumbent",
+      "what": "Runs commercial hybrid membrane-plus-cryogenic capture (CryoCap H2) on SMR hydrogen offgas at Port-Jerome since 2015 and sells Medal CO2 membranes for gas processing.",
+      "signal": "CryoCap commercial reference >100 ktpa; global membrane franchise",
+      "status": "operating",
+      "source": "https://www.airliquide.com"
+     },
+     {
+      "name": "Honeywell UOP",
+      "role": "incumbent",
+      "what": "Separex membrane systems are a decades-old workhorse for bulk CO2 removal in natural gas sweetening, with hundreds of installed units worldwide.",
+      "signal": "Mature commercial fleet in gas processing",
+      "status": "operating",
+      "source": "https://uop.honeywell.com"
+     },
+     {
+      "name": "Evonik",
+      "role": "incumbent",
+      "what": "SEPURAN Green hollow-fiber membranes commercially separate CO2 from methane in thousands of biogas upgrading installations, the largest deployed membrane-CO2 fleet.",
+      "signal": "Thousands of biogas references; capacity expansions through 2025",
+      "status": "operating",
+      "source": "https://www.evonik.com"
+     },
+     {
+      "name": "Aqualung Carbon Capture",
+      "role": "startup",
+      "what": "Norwegian NTNU-heritage facilitated-transport membranes operating without feed compression, piloted on natural gas processing, lime kilns, and waste-to-energy flue gas.",
+      "signal": "Closed Phase 1 of 2025 financing with a top-3 global membrane maker, LGE, Tupras Ventures and Delek (Apr 2025)",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20250423800926/en/Aqualung-Carbon-Capture-Successfully-Closes-Phase-1-2025-Financing-Round"
+     },
+     {
+      "name": "Ardent Process Technologies (formerly Compact Membrane Systems)",
+      "role": "startup",
+      "what": "Delaware company whose Optiperm fluoropolymer membranes deliver fully-electrified, chemicals-free capture; paid pilot rigs running at voestalpine (steel), RHI Magnesita (refractories), and OMV (petrochemicals).",
+      "signal": "Three paid industrial pilots delivered 2024-2025; Series A ~$16.5M (2023)",
+      "status": "operating",
+      "source": "https://www.ardenttechnologies.com/news/cms-and-vsp-pilot"
+     }
+    ],
+    "white_space": "At 4-15% CO2 flue concentrations membranes need multi-stage compression, so they lose to solvents on energy at large scale - hence few players; the opening is hybrid membrane-cryogenic trains, steam-less retrofits at mid-size sites, and high-CO2 industrial streams (biogas, ethanol, gas processing) where membranes already win."
+   },
+   {
+    "name": "Cryogenic capture (CO2 desublimation/frost)",
+    "description": "Flue gas is chilled until CO2 freezes out as solid frost or condenses to liquid, yielding ultra-pure, pipeline-ready CO2 using only electricity and refrigeration hardware instead of chemical solvents.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Chart Industries",
+      "role": "incumbent",
+      "what": "Owns Cryogenic Carbon Capture (CCC) desublimation technology (from SES acquisition) and the cryogenic boxes, tanks, and liquefiers used across the CO2 chain.",
+      "signal": "Being acquired by Baker Hughes for $13.6B all-cash, closing targeted mid-2026; shareholder approval secured",
+      "status": "operating",
+      "source": "https://www.chartindustries.com/News-And-Events/Baker-Hughes-to-Acquire-Chart-Industries"
+     },
+     {
+      "name": "Sustainable Energy Solutions",
+      "role": "startup",
+      "what": "BYU spinout that invented the CCC desublimation process demonstrating ~30% energy savings vs amines on coal/cement slipstreams; bought by Chart in December 2020.",
+      "signal": "Acquired by Chart Industries, Dec 2020",
+      "status": "acquired",
+      "source": "https://www.chartindustries.com/News-And-Events/Baker-Hughes-to-Acquire-Chart-Industries"
+     },
+     {
+      "name": "Carbon America",
+      "role": "startup",
+      "what": "Vertically-integrated developer whose FrostCC freezes CO2 from flue gas (99% capture, 99.97% purity in 1,000-hour NCCC pilot) while self-developing CCS at three Colorado ethanol plants (~525 ktpa).",
+      "signal": "NCCC pilot completed 2024; first standard commercial module in fabrication",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20240806990204/en/Carbon-Americas-FrostCC-Technology-Demonstrates-Ultraclean-Carbon-Capture"
+     },
+     {
+      "name": "REVCOO",
+      "role": "startup",
+      "what": "French startup capturing CO2 by cryogenic separation of flue gas into liquid CO2 onsite, targeting cement and lime kilns with containerized units.",
+      "signal": "Seed-stage; industrial pilot with French lime/cement partners",
+      "status": "operating",
+      "source": "https://revcoo.com"
+     },
+     {
+      "name": "Air Liquide",
+      "role": "incumbent",
+      "what": "CryoCap family applies cryogenic purification and liquefaction to high-CO2 streams (H2 PSA tail gas, oxyfuel flue), the commercial anchor of cryogenic capture today.",
+      "signal": "Commercial since 2015 at Port-Jerome",
+      "status": "operating",
+      "source": "https://www.airliquide.com"
+     }
+    ],
+    "white_space": "Physics keeps the field thin: refrigeration energy penalties and dry-ice fouling only pencil where CO2 is concentrated or cold is cheap, so credible players cluster around ethanol/biogas and hydrogen tail gas; an opening exists in coupling capture to LNG regasification cold and in steam-less modular units for sites with no boiler."
+   },
+   {
+    "name": "Oxy-fuel combustion and Allam-Fetvedt supercritical CO2 power cycles",
+    "description": "Burning fuel in pure oxygen instead of air produces an exhaust of nearly pure CO2 (no nitrogen to separate), making capture inherent to the combustion or power cycle itself.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "NET Power",
+      "role": "scaleup",
+      "what": "Commercializing the Allam-Fetvedt supercritical CO2 gas power cycle with 100% inherent capture; 50 MWth La Porte demo ran since 2018, utility-scale Project Permian in detailed design.",
+      "signal": "NYSE: NPWR; Permian re-baselined to $1.7-2.0B with ~2029 COD, FID targeted H2 2026; late-2025 pivot to gas-turbine-first hybrid strategy; facing investor class action",
+      "status": "operating",
+      "source": "https://www.rigzone.com/news/net_power_resets_project_permian_plans_on_higher_costs-13-mar-2025-179905-article/"
+     },
+     {
+      "name": "8 Rivers",
+      "role": "startup",
+      "what": "Inventor and licensor of the Allam-Fetvedt cycle and related inherent-capture processes (8RH2 hydrogen, Cormorant), monetizing via project development and licensing.",
+      "signal": "SK Inc. majority investment ($100M, 2022); restructured 2024 to focus flagship projects",
+      "status": "operating",
+      "source": "https://8rivers.com"
+     },
+     {
+      "name": "thyssenkrupp polysius",
+      "role": "incumbent",
+      "what": "Built the polysius pure oxyfuel demonstration kiln (450 t/d clinker) for the Catch4Climate consortium at Schwenk's Mergelstetten plant, the first dedicated oxyfuel cement line.",
+      "signal": "Demo kiln commissioned 2025 for Buzzi/Dyckerhoff, Heidelberg, Schwenk, and Vicat",
+      "status": "operating",
+      "source": "https://www.thyssenkrupp-polysius.com/en/green-technologies/polysius-pure-oxyfuel"
+     },
+     {
+      "name": "Heidelberg Materials",
+      "role": "incumbent",
+      "what": "Cement major co-funding the Catch4Climate oxyfuel demo and developing full oxyfuel kiln conversions in parallel with its operating Brevik amine plant.",
+      "signal": "Multiple capture routes funded across EU plants",
+      "status": "operating",
+      "source": "https://www.thyssenkrupp.com/en/stories/sustainability-and-climate-protection/ci4c-the-way-to-green-cement-production"
+     },
+     {
+      "name": "Clean Energy Systems",
+      "role": "startup",
+      "what": "Rocket-engine-derived oxy-combustors for carbon-negative biomass (BECCS) power; flagship Mendota, CA project with Chevron/Microsoft/SLB announced 2021 has stalled with no construction progress made public since.",
+      "signal": "$15M Series A led by Carbon Direct (2021); Mendota BECCS shelved",
+      "status": "uncertain",
+      "source": "https://www.prnewswire.com/news-releases/carbon-direct-leads-series-a-investment-in-clean-energy-systems-301387369.html"
+     },
+     {
+      "name": "Linde",
+      "role": "incumbent",
+      "what": "Supplies the air separation units, oxyfuel burners, and CO2 processing units that underpin oxy-combustion retrofits in cement, glass, and steel.",
+      "signal": "Global ASU fleet; multiple oxyfuel cement/glass trials",
+      "status": "operating",
+      "source": "https://www.linde.com"
+     }
+    ],
+    "white_space": "ASU capex and whole-plant redesign make this a consortium-only game, and NET Power's cost reset shows the FOAK penalty; the opening is licensing standardized pure-oxyfuel kiln conversions for cement and lime where a near-pure CO2 stream slashes downstream capture cost to compression-only."
+   },
+   {
+    "name": "Pre-combustion and inherent-capture routes (gasification, chemical looping, molten carbonate fuel cells)",
+    "description": "CO2 is separated before or during fuel conversion - from concentrated syngas in hydrogen/ammonia plants, via oxygen-carrier solids in chemical looping, or inside molten carbonate fuel cells - where high CO2 partial pressure makes capture far cheaper than from dilute flue gas.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Air Products",
+      "role": "incumbent",
+      "what": "Operates SMR capture at Port Arthur (~1 Mtpa since 2013) and is building the $7B+ Louisiana blue hydrogen complex with >5 Mtpa CO2 capture and sequestration.",
+      "signal": "Louisiana complex under construction; 2025 portfolio pruning under new CEO kept blue H2 flagship",
+      "status": "operating",
+      "source": "https://www.airproducts.com"
+     },
+     {
+      "name": "Shell",
+      "role": "incumbent",
+      "what": "Quest has captured >1 Mtpa from Scotford hydrogen units since 2015; FID taken on Polaris (2024) to add ~650 ktpa from refinery/chemicals process gas.",
+      "signal": "Quest ~9 Mt cumulative; Polaris under construction",
+      "status": "operating",
+      "source": "https://www.shell.com"
+     },
+     {
+      "name": "Topsoe",
+      "role": "incumbent",
+      "what": "SynCOR autothermal reforming licensor enabling ~95-99% capture-ready blue hydrogen and ammonia, selected for major US Gulf Coast projects.",
+      "signal": "Multiple blue H2/ammonia license wins 2023-2025",
+      "status": "operating",
+      "source": "https://www.topsoe.com"
+     },
+     {
+      "name": "Johnson Matthey",
+      "role": "incumbent",
+      "what": "LCH ATR/GHR low-carbon hydrogen technology chosen for EET Hydrogen's HPP1 at Stanlow, the UK's first large blue hydrogen plant in the HyNet cluster.",
+      "signal": "HPP1 in delivery as HyNet reached financial close milestones 2024-2025",
+      "status": "operating",
+      "source": "https://matthey.com"
+     },
+     {
+      "name": "FuelCell Energy",
+      "role": "scaleup",
+      "what": "Molten carbonate fuel cells that strip >90% of CO2 from another plant's flue gas while cogenerating power and hydrogen; joint pilot with ExxonMobil live at the Esso Rotterdam refinery since July 2025, CO2 to Porthos storage.",
+      "signal": "NASDAQ: FCEL; restructured 2024-2025 to cut cash burn; Rotterdam is first industrial CFC capture test",
+      "status": "operating",
+      "source": "https://www.portofrotterdam.com/en/news-and-press-releases/exxonmobil-to-build-pilot-plant-with-fuelcell-energy-for-co2-capture"
+     },
+     {
+      "name": "Babcock & Wilcox",
+      "role": "incumbent",
+      "what": "BrightLoop chemical looping (Ohio State heritage) splits fuels into hydrogen/steam with inherently separated CO2; commercial-scale Massillon, Ohio facility and Black Hills Energy Wyoming project advancing.",
+      "signal": "Funding Massillon partly via asset divestitures (2025) amid balance-sheet strain; $16M Wyoming grant",
+      "status": "operating",
+      "source": "https://www.babcock.com/home/about/corporate/news/babcock-and-wilcox-to-use-portion-of-proceeds-of-asset-sale-for-brightloop-technology-deployment-including-massillon-project"
+     },
+     {
+      "name": "Sinopec",
+      "role": "incumbent",
+      "what": "Built China's first megaton CCUS chain at Qilu-Shengli (1 Mtpa, operating since 2022), capturing from coal-to-hydrogen tail gas via liquefaction purification for EOR.",
+      "signal": "1 Mtpa operating; 109 km dense-phase CO2 pipeline",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/sinopec-completes-chinas-first-megaton-scale-carbon-capture-project-301471112.html"
+     }
+    ],
+    "white_space": "Gasification/reforming capture is scaling fast, but chemical looping and carbonate fuel cells each have effectively one committed champion (a financially strained B&W; Exxon/FuelCell's single pilot) because solids circulation and stack durability at scale are unproven - validation at Rotterdam or Massillon would open room for licensing-model fast followers."
+   },
+   {
+    "name": "Calcium looping and indirect calcination for cement/lime kilns",
+    "description": "Lime-based or molten-salt sorbents absorb CO2 at kiln temperatures, or limestone is calcined in an externally heated vessel, releasing pure process CO2 - approaches purpose-built for cement and lime where two-thirds of emissions come from the rock itself.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Calix / Leilac",
+      "role": "scaleup",
+      "what": "Externally-heated steel-tube calciner that separates pure process CO2 without solvents; LEILAC-1 piloted at Lixhe, and LEILAC-2 demonstration is a JV with Heidelberg Materials relocated to Ennigerloh, Germany, targeting ~2026 commissioning.",
+      "signal": "ASX: CXL; EUR 16M Horizon 2020 grant retained; licensing revenues forecast from 2027; pre-FEED completed Sept 2025",
+      "status": "operating",
+      "source": "https://www.leilac.com/news/future-proof-pathways-cleaner-cement/"
+     },
+     {
+      "name": "Origen",
+      "role": "startup",
+      "what": "ZerCaL oxy-fired flash calciner producing zero-carbon lime with CO2 captured at source; ZerCaL250 commercial demonstrator with Singleton Birch in the Humber, plus a North Dakota lime-DAC build.",
+      "signal": "$13M Series A led by Barclays Climate Ventures (Jan 2025)",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/origen-secures-13-million-series-a-to-deploy-limestone-based-direct-air-capture-technology-302352613.html"
+     },
+     {
+      "name": "Mantel Capture",
+      "role": "startup",
+      "what": "MIT spinout using molten borate salts that capture CO2 at ~600C inside boilers and kilns while returning high-grade heat, roughly halving the energy penalty; first industrial demo at Kruger's Wayagamack pulp mill (mid-2025).",
+      "signal": "$30M raised; FEED started Dec 2025 for commercial-scale SAGD project in Alberta",
+      "status": "operating",
+      "source": "https://news.mit.edu/2025/mantel-develops-new-take-carbon-capture-1119"
+     },
+     {
+      "name": "Heidelberg Materials",
+      "role": "incumbent",
+      "what": "Industrial anchor for indirect calcination as Leilac-2 JV partner and host plant owner, alongside its portfolio of amine and oxyfuel capture builds.",
+      "signal": "Brevik CCS operating; Leilac-2 hosted at its Ennigerloh plant",
+      "status": "operating",
+      "source": "https://www.heidelbergmaterials.com/en/pr-2025-06-18"
+     }
+    ],
+    "white_space": "Kiln integration risk plus cement's decade-long capital cycles deter startups, leaving roughly three credible technology owners worldwide; the nearer opening is lime (smaller kilns, purer limestone, simpler retrofit) and electrically heated calciners that double as flexible load - a slot Calix only partially occupies."
+   },
+   {
+    "name": "Modular small-emitter capture (containerized units, building exhaust, gensets)",
+    "description": "Factory-built, skid- or container-sized capture units (typically 1-100 kt/yr) cut site engineering to weeks, opening capture to waste-to-energy plants, gas engines, buildings, and other emitters too small for bespoke megaprojects.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "SLB Capturi",
+      "role": "incumbent",
+      "what": "Just Catch standardized 40-100 ktpa modular amine plants; Twence waste-to-energy unit handed over Jan 2025 and five Just Catch 100 units at Orsted's Kalundborg BECCS hub (430 ktpa) operational early 2026.",
+      "signal": "Repeat modular orders incl. Hafslund Celsio (2025); first mover in serial production",
+      "status": "operating",
+      "source": "https://capturi.slb.com/resources/news/2025/slb-capturi-drives-european-carbon-capture-forward-as-key-projects-come-to-life"
+     },
+     {
+      "name": "Carbon Clean",
+      "role": "scaleup",
+      "what": "CycloneCC containerized rotating-packed-bed units installable in under a week; 285 t/d C1 series factory-tested at commercial scale (May 2025) and partnership with MODEC for offshore FPSO capture.",
+      "signal": "First industrial unit ran 4,000 hours at Fertiglobe; TRL7",
+      "status": "operating",
+      "source": "https://www.carbonclean.com/en/press-releases/successful-factory-test"
+     },
+     {
+      "name": "CarbonQuest",
+      "role": "startup",
+      "what": "Distributed capture for buildings, data centers, and onsite power that liquefies CO2 in basements and sells it into concrete; six commercial deployments led by NYC multifamily towers.",
+      "signal": "$20M growth round led by Riverbend Energy Group (Feb 2025)",
+      "status": "operating",
+      "source": "https://www.axios.com/pro/climate-deals/2025/02/26/carbonquest-carbon-capture-riverbend-energy"
+     },
+     {
+      "name": "Entropy Inc.",
+      "role": "scaleup",
+      "what": "Repeatable modular capture skids for gas-fired engines and turbines at gas plants - Glacier Phase 2 retrofits nine engines plus a turbine for 160 ktpa total.",
+      "signal": "$127M Phase 2 FID; Canada Growth Fund carbon offtake underpins revenue",
+      "status": "operating",
+      "source": "https://sustainablebiz.ca/entropy-unveils-127m-plan-for-phase-2-of-glacier-ccs-project"
+     },
+     {
+      "name": "Capsol Technologies",
+      "role": "scaleup",
+      "what": "CapsolGo containerized demonstration units and CapsolEoP end-of-pipe plants for mid-size WtE/bioenergy emitters, run without steam integration.",
+      "signal": "CapsolGo demo completed at Holcim Dotternhausen 2025; multiple EU licenses",
+      "status": "operating",
+      "source": "https://www.capsoltechnologies.com/carbon-capture-solutions"
+     },
+     {
+      "name": "ION Clean Energy",
+      "role": "startup",
+      "what": "ICE Blocks: pre-engineered modular capture product line launched for smaller emission sources using the ICE-31 solvent.",
+      "signal": "Product launch Aug 2025",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20250821013394/en/ION-Clean-Energy-Announces-ICE-Blocks-Modular-Carbon-Capture-for-Smaller-Emission-Sources"
+     },
+     {
+      "name": "Saipem",
+      "role": "incumbent",
+      "what": "Bluenzyme 200 pre-engineered enzymatic skid (200 t/d) marketed as plug-and-play for small and medium industrial emitters.",
+      "signal": "Industrialized product line since 2023",
+      "status": "operating",
+      "source": "https://www.saipem.com/en/media/press-releases/2023-09-07/net-zero-saipem-launches-bluenzymetm-most-sustainable-solution-co2"
+     },
+     {
+      "name": "Compact Carbon Capture (3C)",
+      "role": "startup",
+      "what": "Norwegian developer of rotating-bed process intensification for small-footprint capture, acquired by Baker Hughes in 2020 as the basis of its modular capture line.",
+      "signal": "Acquired by Baker Hughes, Nov 2020",
+      "status": "acquired",
+      "source": "https://www.bakerhughes.com/carbon-capture-use-and-storage-ccus/carbon-capture"
+     },
+     {
+      "name": "Carbon Reform",
+      "role": "startup",
+      "what": "Carbon Capsule pods that scrub CO2 from commercial-building HVAC return air, cutting ventilation energy while capturing carbon; early seed stage.",
+      "signal": "Seed-funded (~$3M); pilot installations with university/commercial partners",
+      "status": "uncertain",
+      "source": "https://www.carbonreform.com"
+     }
+    ],
+    "white_space": "Below ~1 kt/yr (gensets, small boilers) there is still no credible player - parasitic load, footprint, and CO2 logistics destroy economics at that scale - so the open play is capture-as-a-service with centralized CO2 aggregation, viable mainly where the gas has onsite reuse value."
+   },
+   {
+    "name": "Mobile and maritime onboard capture (ships, trucks, locomotives)",
+    "description": "Compact capture systems ride on the vehicle itself - scrubbing CO2 from ship, truck, or locomotive exhaust and storing it onboard as liquid CO2 or solid carbonate for offload in port or at depots - decarbonizing engines that cannot easily switch fuels.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Wartsila",
+      "role": "incumbent",
+      "what": "Delivered the world's first full-scale marine CCS retrofit (7 MW system on Solvang's ethylene carrier Clipper Eris, ~70% capture, operating since Feb 2025) and launched a commercial OCCS product.",
+      "signal": "Commercial launch May 2025 at estimated EUR 50-70/tCO2 captured",
+      "status": "operating",
+      "source": "https://www.wartsila.com/media/news/07-05-2025-wartsila-launches-carbon-capture-solution-to-shipping-market-after-world-first-full-scale-installation-success-3582634"
+     },
+     {
+      "name": "Value Maritime",
+      "role": "scaleup",
+      "what": "Plug-and-play Filtree scrubber-plus-capture units with onboard 'CO2 battery' tanks offloaded for greenhouse reuse; the largest installed OCCS fleet, including MOL's 75,000 dwt tanker Nexus Victoria (2025).",
+      "signal": "10+ vessels equipped across container/tanker fleets; repeat orders from X-Press Feeders and MOL",
+      "status": "operating",
+      "source": "https://maritime-executive.com/magazine/value-chain-onboard-carbon-capture-is-advancing-rapidly"
+     },
+     {
+      "name": "Seabound",
+      "role": "startup",
+      "what": "Calcium-looping pods that convert exhaust CO2 into limestone pebbles onboard; world-first commercial project on cement carrier UBC Cork (Hartmann/InterMaritime), offloading captured limestone to Heidelberg's Brevik plant.",
+      "signal": "~$4.4M seed plus grants; commercial deployment launched July 2025 with up to 95% CO2 capture",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/seabound-launches-world-first-onboard-marine-carbon-capture-project-with-hartmann-intermaritime-and-heidelberg-materials-302506256.html"
+     },
+     {
+      "name": "Carbon Ridge",
+      "role": "startup",
+      "what": "Centrifugal (rotating packed bed) onboard capture needing ~75% less space than conventional columns; first centrifugal system at sea on Scorpio Tankers' LR2 STI Spiga (July 2025).",
+      "signal": ">$20M total funding led by Katapult Ocean and Alfa8 with Berge Bulk participation",
+      "status": "operating",
+      "source": "https://gcaptain.com/scorpio-tankers-tests-worlds-first-shipboard-centrifugal-carbon-capture-system/"
+     },
+     {
+      "name": "Mitsubishi Shipbuilding",
+      "role": "incumbent",
+      "what": "Ran CC-Ocean, the world's first marine-based CO2 capture demonstration on a coal carrier (2021), and is productizing compact onboard capture units for newbuilds.",
+      "signal": "Demo completed; commercial marine capture units in development",
+      "status": "operating",
+      "source": "https://www.mhi.com"
+     },
+     {
+      "name": "Langh Tech",
+      "role": "incumbent",
+      "what": "Finnish scrubber maker extending closed-loop SOx scrubbers into combined CO2 capture, with pilot units capturing at sea in 2025.",
+      "signal": "Pilot systems operating on own fleet vessels",
+      "status": "operating",
+      "source": "https://maritime-executive.com/magazine/value-chain-onboard-carbon-capture-is-advancing-rapidly"
+     },
+     {
+      "name": "Calcarea",
+      "role": "startup",
+      "what": "Caltech spinout reacting ship exhaust with limestone and seawater to form dissolved bicarbonate discharged safely to the ocean - eliminating onboard CO2 storage and port offload entirely (up to ~75% capture).",
+      "signal": "Lomar Labs collaboration; ship-design partnership with Aurelia (2025)",
+      "status": "operating",
+      "source": "https://techxplore.com/news/2025-06-shipboard-limestone-seawater-emissions.html"
+     },
+     {
+      "name": "STAX Engineering",
+      "role": "scaleup",
+      "what": "Barge-based at-berth exhaust capture-as-a-service (CARB-approved for all vessel classes); demonstrated first integrated PM/NOx/CO2 capture with Seabound at Port of Long Beach (98% CO2).",
+      "signal": "$70M raised (Feb 2025); 1,670 vessels serviced in 2025; fleet expanding to 27 barges by 2027",
+      "status": "operating",
+      "source": "https://www.staxengineering.com/stax-hub/stax-engineering-secures-70m-in-funding-to-expand-emissions/"
+     },
+     {
+      "name": "Remora",
+      "role": "startup",
+      "what": "Exhaust capture devices for semi-trucks and locomotives capturing up to ~90% (1 t CO2/hr), selling the purified CO2; locomotive pilots with Union Pacific and Norfolk Southern.",
+      "signal": "$117M total raised incl. $60M Series B led by Valor Equity Partners (2025)",
+      "status": "operating",
+      "source": "https://carbonherald.com/remora-aims-to-cut-freight-rail-emissions-with-co2-capture/"
+     },
+     {
+      "name": "Qaptis",
+      "role": "startup",
+      "what": "EPFL spinout retrofitting trucks with waste-heat-driven capture that liquefies CO2 onboard, targeting 90% capture from diesel exhaust.",
+      "signal": "CHF 1.3M initial round plus FIT seed loan; prototype-to-commercial phase",
+      "status": "operating",
+      "source": "https://www.startupticker.ch/en/news/chf-1-3m-to-develop-qaptis-mobile-carbon-capture-tech"
+     }
+    ],
+    "white_space": "Demand hinges on unsettled rules (IMO's net-zero pricing framework and EU ETS credit for captured CO2) and ports almost nowhere offer CO2 reception, so most systems are first-of-kind; trucks and rail are emptier still - Remora is the only well-funded player because weight, duty cycles, and CO2 logistics are brutal - leaving an opening for port/depot-side offload infrastructure and capture-as-a-service models like STAX's."
+   }
+  ],
+  "sources": [
+   "https://capturi.slb.com/resources/news/2025/slb-capturi-drives-european-carbon-capture-forward-as-key-projects-come-to-life",
+   "https://www.prnewswire.com/news-releases/aker-carbon-capture-has-decided-to-sell-its-20-percent-ownership-interest-in-slb-capturi-to-aker-targeting-cash-distribution-to-its-shareholders-and-subsequent-liquidation-302450845.html",
+   "https://www.heidelbergmaterials.com/en/pr-2025-06-18",
+   "https://totalenergies.com/news/press-releases/norway-first-co2-storage-northern-lights",
+   "https://www.rigzone.com/news/net_power_resets_project_permian_plans_on_higher_costs-13-mar-2025-179905-article/",
+   "https://www.carbonclean.com/en/press-releases/operational-hours-milestone",
+   "https://www.ioncleanenergy.com/news-post/calpines-sutter-decarbonization-project-utilizing-ion-clean-energys-carbon-capture-technology-executes-cost-share-agreement-with-doe",
+   "https://www.businesswire.com/news/home/20250513713072/en/Svante-Launches-Worlds-First-Commercial-Gigafactory-for-Carbon-Capture-Removal-Filters",
+   "https://www.irishtimes.com/business/2025/04/08/carbon-capture-specialist-nuada-wins-25m-in-funding-from-european-accelerator/",
+   "https://mtrccs.com/mtr-carbon-capture-announces-completion-of-the-worlds-largest-membrane-based-carbon-capture-plant/",
+   "https://www.chartindustries.com/News-And-Events/Baker-Hughes-to-Acquire-Chart-Industries",
+   "https://www.businesswire.com/news/home/20240806990204/en/Carbon-Americas-FrostCC-Technology-Demonstrates-Ultraclean-Carbon-Capture",
+   "https://www.leilac.com/news/future-proof-pathways-cleaner-cement/",
+   "https://news.mit.edu/2025/mantel-develops-new-take-carbon-capture-1119",
+   "https://www.prnewswire.com/news-releases/origen-secures-13-million-series-a-to-deploy-limestone-based-direct-air-capture-technology-302352613.html",
+   "https://www.babcock.com/home/about/corporate/news/babcock-and-wilcox-to-use-portion-of-proceeds-of-asset-sale-for-brightloop-technology-deployment-including-massillon-project",
+   "https://www.portofrotterdam.com/en/news-and-press-releases/exxonmobil-to-build-pilot-plant-with-fuelcell-energy-for-co2-capture",
+   "https://www.powermag.com/north-dakota-carbon-capture-project-in-limbo-after-canada-groups-exit/",
+   "https://esgnews.com/holcim-invests-in-capsol-to-scale-carbon-capture-for-near-zero-cement/",
+   "https://kc8capture.com/about/",
+   "https://www.saipem.com/en/media/press-releases/2023-09-07/net-zero-saipem-launches-bluenzymetm-most-sustainable-solution-co2",
+   "https://www.thechemicalengineer.com/news/c-capture-uses-next-generation-carbon-capture-tech-for-uk-hard-to-abate-industries/",
+   "https://www.bakerhughes.com/company/news/baker-hughes-acquires-mosaic-materials-advance-nextgeneration-carbon-dioxide-capture",
+   "https://www.businesswire.com/news/home/20251110789998/en/Verdox-Demonstrates-Electrochemical-Carbon-Capture-From-Aluminum-Smelting",
+   "https://www.businesswire.com/news/home/20250423800926/en/Aqualung-Carbon-Capture-Successfully-Closes-Phase-1-2025-Financing-Round",
+   "https://www.ardenttechnologies.com/news/cms-and-vsp-pilot",
+   "https://www.thyssenkrupp-polysius.com/en/green-technologies/polysius-pure-oxyfuel",
+   "https://www.prnewswire.com/news-releases/carbon-direct-leads-series-a-investment-in-clean-energy-systems-301387369.html",
+   "https://www.prnewswire.com/news-releases/sinopec-completes-chinas-first-megaton-scale-carbon-capture-project-301471112.html",
+   "https://www.esgtoday.com/canada-invests-200-million-in-carbon-capture-startup-entropy/",
+   "https://sustainablebiz.ca/entropy-unveils-127m-plan-for-phase-2-of-glacier-ccs-project",
+   "https://www.axios.com/pro/climate-deals/2025/02/26/carbonquest-carbon-capture-riverbend-energy",
+   "https://www.businesswire.com/news/home/20250821013394/en/ION-Clean-Energy-Announces-ICE-Blocks-Modular-Carbon-Capture-for-Smaller-Emission-Sources",
+   "https://www.wartsila.com/media/news/07-05-2025-wartsila-launches-carbon-capture-solution-to-shipping-market-after-world-first-full-scale-installation-success-3582634",
+   "https://maritime-executive.com/magazine/value-chain-onboard-carbon-capture-is-advancing-rapidly",
+   "https://www.prnewswire.com/news-releases/seabound-launches-world-first-onboard-marine-carbon-capture-project-with-hartmann-intermaritime-and-heidelberg-materials-302506256.html",
+   "https://gcaptain.com/scorpio-tankers-tests-worlds-first-shipboard-centrifugal-carbon-capture-system/",
+   "https://www.staxengineering.com/stax-hub/stax-engineering-secures-70m-in-funding-to-expand-emissions/",
+   "https://carbonherald.com/remora-aims-to-cut-freight-rail-emissions-with-co2-capture/",
+   "https://techxplore.com/news/2025-06-shipboard-limestone-seawater-emissions.html",
+   "https://insideclimatenews.org/news/10122024/north-dakota-coal-plant-carbon-capture-project-faces-new-delay/"
+  ]
+ }
+}

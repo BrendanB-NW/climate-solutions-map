@@ -1,0 +1,664 @@
+{
+ "sector": "buildings",
+ "bucket": "Geothermal, Thermal Networks & District Energy",
+ "census": {
+  "bucket": "Geothermal, Thermal Networks & District Energy",
+  "variations": [
+   {
+    "name": "Single-building ground-source heat pump equipment",
+    "description": "Closed- or open-loop borefields paired with electric heat pumps deliver 300-500%-efficient heating and cooling from stable ground temperatures for individual homes and buildings \u2014 the workhorse hardware of building geothermal.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "WaterFurnace International",
+      "role": "incumbent",
+      "what": "Leading North American residential/commercial geothermal heat pump manufacturer (NIBE-owned) selling variable-speed units through a large dealer network.",
+      "signal": "Estimated 10-15% share of the geothermal heat pump market; anchor supplier for US residential geothermal.",
+      "status": "operating",
+      "source": "https://www.factmr.com/report/geothermal-heat-pumps-market"
+     },
+     {
+      "name": "ClimateMaster",
+      "role": "incumbent",
+      "what": "Oklahoma-based maker of water-source/geothermal heat pumps (Tranquility/TT series) for residential and commercial buildings, part of NIBE's Climate Control Group.",
+      "signal": "TT series regarded as top-tier on price/efficiency; long-integrated into NIBE's North American geothermal portfolio.",
+      "status": "operating",
+      "source": "https://www.marketresearchfuture.com/reports/ground-source-heat-pump-market-30712"
+     },
+     {
+      "name": "NIBE Industrier",
+      "role": "incumbent",
+      "what": "Swedish heating group that is Europe's largest ground-source heat pump maker and the sector's consolidator (owns WaterFurnace, ClimateMaster/Climate Control Group, CTC and others).",
+      "signal": "Built the #1 European and North American geothermal positions via serial acquisitions; recovering from the 2023-24 European heat pump destocking slump.",
+      "status": "operating",
+      "source": "https://en.wikipedia.org/wiki/Nibe_Industrier"
+     },
+     {
+      "name": "Bosch Home Comfort",
+      "role": "incumbent",
+      "what": "Supplies geothermal and water-source heat pumps (Florida Heat Pump lineage) and is expanding US heat pump manufacturing capacity.",
+      "signal": "Among the top global GSHP players; investing in US production as IRA tax credits lift demand.",
+      "status": "operating",
+      "source": "https://www.fortunebusinessinsights.com/industry-reports/geothermal-heat-pump-market-100747"
+     },
+     {
+      "name": "Viessmann Climate Solutions",
+      "role": "incumbent",
+      "what": "German maker of ground-source and air-source heat pumps for European homes and light commercial buildings.",
+      "signal": "Acquired by Carrier Global for ~\u20ac12B (closed January 2024); continues operating as Carrier's European heat pump arm.",
+      "status": "acquired",
+      "source": "https://en.wikipedia.org/wiki/Viessmann"
+     },
+     {
+      "name": "Stiebel Eltron",
+      "role": "incumbent",
+      "what": "German family-owned maker of ground-source and air-source heat pumps and electric water heating.",
+      "signal": "Top-10 global ground-source heat pump manufacturer with major German production expansion.",
+      "status": "operating",
+      "source": "https://www.sourcifychina.com/top-ground-source-heat-pump-manufacturers-compare/"
+     }
+    ]
+   },
+   {
+    "name": "Residential geothermal developers & drilling cost reduction",
+    "description": "Vertically integrated installers attack the biggest residential geothermal cost \u2014 drilling \u2014 with purpose-built rigs, software and homebuilder partnerships to make home ground-source systems price-competitive with gas furnaces and air-source heat pumps.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Dandelion Energy",
+      "role": "startup",
+      "what": "Google X spinout doing vertically integrated home geothermal; pivoted from one-off retrofits to volume new-construction deployments with production homebuilders.",
+      "signal": "$40M Series C (2024) after $70M round co-led by Lennar's LenX; deploying geothermal in 1,500+ new Lennar homes in Colorado starting 2025 \u2014 one of the largest US residential geothermal deployments ever.",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/dandelion-energy-and-lennar-announce-one-of-the-largest-residential-geothermal-deployments-in-us-history-302417823.html"
+     }
+    ],
+    "white_space": "Retrofit drilling economics remain brutal \u2014 rig mobilization and per-foot costs dwarf the heat pump itself, which pushed even category leader Dandelion from one-off retrofits to new-build subdivisions where rigs amortize across adjacent lots. Openings: compact low-cost residential rigs and one-day installs, and replicating the Lennar playbook with other production builders in states with stacked geothermal incentives (CO, NY, MA) \u2014 almost no other venture-backed residential geothermal developer exists in the US."
+   },
+   {
+    "name": "Advanced boreholes & commercial-scale geo-exchange",
+    "description": "Startups apply oilfield drilling automation, groundwater heat exchange and subsurface digital modeling to cut borehole cost and footprint so offices, campuses, high-rises and data centers can replace chillers and boilers with geo-exchange.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Bedrock Energy",
+      "role": "startup",
+      "what": "Autonomous, sensor-guided drilling to 1,000+ ft depths enables geothermal HVAC under space-constrained urban sites and data centers, with guaranteed long-term thermal performance.",
+      "signal": "$12M Series A (Jan 2025) led by Titanium Ventures; first installations in Austin TX and Utah; claims up to 5x faster borehole construction.",
+      "status": "operating",
+      "source": "https://techcrunch.com/2025/01/23/bedrock-energy-wants-geothermal-to-make-data-centers-cooler-and-offices-more-comfortable/"
+     },
+     {
+      "name": "Celsius Energy (SLB)",
+      "role": "scaleup",
+      "what": "SLB (Schlumberger) venture using inclined 'compact borehole' star arrays plus digital monitoring to retrofit geo-exchange onto buildings with minimal land.",
+      "signal": "BNEF Pioneer award; first UK installation 2024; technology deployed in Eversource's Framingham networked geothermal pilot; scaling across France, UK and US.",
+      "status": "operating",
+      "source": "https://www.slb.com/newsroom/features/2025/feature-2025-10-29-slb-celsius-geothermal"
+     },
+     {
+      "name": "Darcy Solutions",
+      "role": "startup",
+      "what": "University of Minnesota spinout that taps flowing groundwater in aquifers as the heat-exchange medium, extracting roughly an order of magnitude more capacity per borehole than closed loops.",
+      "signal": "Nearly $5M in competitive DOE/NSF/USDA awards; commercial systems operating across the Upper Midwest.",
+      "status": "operating",
+      "source": "https://research.umn.edu/units/techcomm/news/umn-startup-darcy-solutions-decarbonizes-buildings-geothermal-innovation"
+     },
+     {
+      "name": "Brightcore Energy",
+      "role": "scaleup",
+      "what": "Turnkey commercial geothermal and clean-energy developer for the US Northeast, handling design, drilling and financing.",
+      "signal": "Delivered the 320-borehole heat exchanger for Lendlease's 1 Java Street in Brooklyn \u2014 New York State's largest residential geothermal project.",
+      "status": "operating",
+      "source": "https://www.coolingpost.com/features/brooklyn-high-rise-goes-geothermal/"
+     },
+     {
+      "name": "Geosource Energy",
+      "role": "scaleup",
+      "what": "Canadian specialty drilling contractor that builds geo-exchange borefields for high-rise and institutional buildings.",
+      "signal": "Drilled and looped 1 Java Street's 320 boreholes (each 499 ft); two decades of multi-residential geothermal across Ontario.",
+      "status": "operating",
+      "source": "https://www.enr.com/articles/56786-nyc-project-touts-record-for-residential-geothermal-heating"
+     }
+    ]
+   },
+   {
+    "name": "Networked geothermal & utility thermal energy networks (TENs)",
+    "description": "Shared borefields and ambient-temperature street loops connect whole neighborhoods to heat pumps, letting gas utilities redeploy pipe-laying crews and rate-based capital into low-carbon heating \u2014 enabled by thermal-energy-network legislation now passed in 10+ US states.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Eversource",
+      "role": "incumbent",
+      "what": "Built and operates the first US utility-owned networked geothermal system in Framingham, MA (36 buildings, ~135 customers).",
+      "signal": "~$15M pilot in service since June 2024; DOE awarded $8.6M (Dec 2025) with HEET and the City of Framingham to expand into the adjacent neighborhood.",
+      "status": "operating",
+      "source": "https://www.utilitydive.com/news/first-networked-geothermal-utility-eversource-framingham-building-decarbonization/718135/"
+     },
+     {
+      "name": "National Grid",
+      "role": "incumbent",
+      "what": "Gas utility developing networked geothermal pilots in Lowell, MA (with UMass Lowell) and at Boston Housing Authority's Franklin Field apartments in Dorchester.",
+      "signal": "Two Massachusetts pilots advancing under the DPU's new networked-geothermal guidelines.",
+      "status": "operating",
+      "source": "https://environmentamerica.org/center/articles/emerging-energy-technology-geothermal-networks/"
+     },
+     {
+      "name": "Con Edison",
+      "role": "incumbent",
+      "what": "Advancing utility thermal energy network pilots in NYC and Westchester, including a Chelsea loop moving data-center/office waste heat to NYCHA housing, Rockefeller Center waste-heat sharing, and a Mount Vernon shared borefield.",
+      "signal": "Nine New York utility TEN pilots advanced to design under the 2022 UTENJA law; construction phase starting from 2025.",
+      "status": "operating",
+      "source": "https://www.upgradeny.org/nine-utility-thermal-energy-network-pilot-projects-advance"
+     },
+     {
+      "name": "HEET",
+      "role": "startup",
+      "what": "Nonprofit incubator that invented the gas-utility 'GeoMicroDistrict' model and brokered the Framingham utility/community pilot; now spreading the playbook nationally.",
+      "signal": "Co-recipient of the $8.6M DOE Framingham expansion award (Dec 2025); model adopted in legislation across 10+ states.",
+      "status": "operating",
+      "source": "https://renewable-energy.mit.edu/old-blog-verion/massachusetts-community-builds-first-networked-geothermal-system-through-unlikely-alliance"
+     },
+     {
+      "name": "Kensa Group",
+      "role": "scaleup",
+      "what": "UK's largest ground-source heat pump maker; deploys 'shared ground array' street-by-street networks with in-home shoebox heat pumps \u2014 a private-capital version of networked geothermal.",
+      "signal": "\u00a370M investment from Octopus Energy and Legal & General (2023); UK's first investor-funded GSHP network for 100+ new homes in South Wales (2025); targeting 50,000 pumps/year by 2030.",
+      "status": "operating",
+      "source": "https://octopus.energy/press/pump-it-up-octopus-energy-and-legal-general-make-britains-biggest-investment-in-ground-source-heat-pumps/"
+     }
+    ],
+    "white_space": "Utility pilots depend on rate-based cost recovery and enabling legislation, and almost no independent thermal-energy-network developer-operators exist in the US yet \u2014 an opening for ESCO-style companies that design, build and operate networks for utilities, campuses and municipalities as the multi-state legislative wave (MA, NY, CO, WA, MN and others) creates structural demand."
+   },
+   {
+    "name": "District heating development & modernization (4th/5th-generation networks and components)",
+    "description": "Utilities are converting legacy fossil-fired steam and high-temperature networks to low-temperature 4th/5th-generation systems fed by heat pumps, waste heat and storage, supported by an incumbent supply chain of pre-insulated pipes, substations and smart meters.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Vattenfall",
+      "role": "incumbent",
+      "what": "Operates major district heating networks (Berlin, Amsterdam, Uppsala) plus UK heat ventures, and is publishing the 4G/5G playbook for low-temperature conversion.",
+      "signal": "One of Europe's largest district heat operators; Berlin coal exit and heat-pump/waste-heat buildout underway.",
+      "status": "operating",
+      "source": "https://heat.vattenfall.co.uk/news-and-insights/2025/11/understanding-fourth-and-fifth-generation-heat-networks/"
+     },
+     {
+      "name": "Fortum",
+      "role": "incumbent",
+      "what": "Nordic utility decarbonizing the ~2 TWh Espoo network \u2014 exited coal in 2025 and is integrating data-center heat, large heat pumps, electric boilers and storage.",
+      "signal": "Started operations at two heat-pump plants (180 MW district heat, 200 MW e-boilers, 800 MWh storage) for Microsoft data-center heat offtake, May 2026.",
+      "status": "operating",
+      "source": "https://www.fortum.com/en/media/2026/05/fortum-has-started-heat-production-two-large-data-centre-sites-finland"
+     },
+     {
+      "name": "E.ON",
+      "role": "incumbent",
+      "what": "Major district heating operator in Sweden and Germany and developer of ectogrid, a 5th-generation ambient loop that balances heating and cooling between buildings.",
+      "signal": "ectogrid running at Medicon Village in Lund and UK sites; among the European district heating market leaders.",
+      "status": "operating",
+      "source": "https://www.gminsights.com/industry-analysis/europe-district-heating-market"
+     },
+     {
+      "name": "ENGIE",
+      "role": "incumbent",
+      "what": "Develops and operates district heating and cooling concessions worldwide, from Paris (CPCU) to the Gulf.",
+      "signal": "Consistently ranked among the top five global district heating players.",
+      "status": "operating",
+      "source": "https://www.globenewswire.com/news-release/2024/02/02/2822652/0/en/District-Heating-Market-Forecasted-at-242-1-Billion-by-2028-Dominated-by-Fortum-Vattenfall-ENGIE-Danfoss-and-Statkraft.html"
+     },
+     {
+      "name": "Vicinity Energy",
+      "role": "scaleup",
+      "what": "Largest US district energy portfolio (Boston/Cambridge, Philadelphia and 10 other cities), electrifying legacy steam with 'eSteam' electric boilers and river-source heat pumps.",
+      "signal": "42 MW electric boiler already producing carbon-free eSteam; broke ground Nov 2025 on a 35 MW Charles River heat pump complex with Everllence and DCO Energy, billed as the world's largest industrial-scale heat pump complex (complete ~2028).",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20251104250895/en/Vicinity-Energy-Commences-Construction-of-Industrial-Scale-Heat-Pump-Complex-in-Partnership-with-DCO-Energy-and-Everllence"
+     },
+     {
+      "name": "Danfoss",
+      "role": "incumbent",
+      "what": "Supplies district energy substations, valves, controls and the Leanheat AI software suite that lowers network temperatures and peak loads.",
+      "signal": "Named among district heating market leaders; Leanheat deployed across thousands of buildings and dozens of networks.",
+      "status": "operating",
+      "source": "https://www.danfoss.com/en/products/dhs/software-solutions/products/danfoss-leanheat-software-suite-services/leanheat-network/"
+     },
+     {
+      "name": "Kamstrup",
+      "role": "incumbent",
+      "what": "Danish smart heat-meter and network-analytics maker whose ultrasonic meters enable low-temperature operation, billing and leak detection.",
+      "signal": "Standard metering kit for Nordic and German district heating; millions of heat meters shipped.",
+      "status": "operating",
+      "source": "https://www.kamstrup.com/en-en"
+     },
+     {
+      "name": "Logstor (Kingspan)",
+      "role": "incumbent",
+      "what": "Market-leading maker of pre-insulated bonded pipe systems for district heating and cooling networks.",
+      "signal": "Acquired by Kingspan (2021); supplies major European network buildouts.",
+      "status": "acquired",
+      "source": "https://www.openpr.com/news/4297936/district-cooling-market-to-reach-usd-53-3-billion-by-2033"
+     }
+    ]
+   },
+   {
+    "name": "District cooling providers & developers",
+    "description": "Central chiller plants and chilled-water loops serve dozens of buildings at roughly twice the efficiency of building-level air conditioning \u2014 critical infrastructure for hot-climate cities and increasingly financed like regulated utilities.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Tabreed",
+      "role": "incumbent",
+      "what": "Gulf district cooling pioneer operating 90+ plants across the UAE, Saudi Arabia, Oman and India.",
+      "signal": "With CVC DIF completed the ~$1.03B acquisition of PAL Cooling (Oct 2025), adding eight Abu Dhabi concessions and 182,000 RT.",
+      "status": "operating",
+      "source": "https://www.cvc.com/media/news/2025/tabreed-and-cvc-dif-to-acquire-abu-dhabi-s-pal-cooling-from-multiply-group/"
+     },
+     {
+      "name": "Empower (Emirates Central Cooling Systems)",
+      "role": "incumbent",
+      "what": "World's largest district cooling provider by connected capacity, serving Dubai's major developments.",
+      "signal": "Q3 2025 revenue up 5.5%; targeting ~1.73-1.75M RT connected capacity by 2026; new 47,000 RT Dubai Science Park plant signed Aug 2025.",
+      "status": "operating",
+      "source": "https://www.investing.com/news/company-news/empower-q3-2025-slides-district-cooling-giant-posts-55-revenue-growth-expands-capacity-93CH-4337648"
+     },
+     {
+      "name": "PAL Cooling Holding",
+      "role": "incumbent",
+      "what": "Abu Dhabi district cooling operator with eight long-term concessions (182,000 RT connected).",
+      "signal": "Acquired by Tabreed and CVC DIF from Multiply Group for ~$1.03B, completed October 2025.",
+      "status": "acquired",
+      "source": "https://www.cvc.com/media/news/2025/tabreed-and-cvc-dif-to-acquire-abu-dhabi-s-pal-cooling-from-multiply-group/"
+     },
+     {
+      "name": "Emicool",
+      "role": "incumbent",
+      "what": "Dubai district cooling utility expanding into solar-powered 'green cooling' districts.",
+      "signal": "Actis-backed; among the top Middle East district cooling providers.",
+      "status": "operating",
+      "source": "https://www.openpr.com/news/4297936/district-cooling-market-to-reach-usd-53-3-billion-by-2033"
+     },
+     {
+      "name": "Keppel",
+      "role": "incumbent",
+      "what": "Operates Singapore's large underground district cooling systems (Marina Bay) and exports the model across Asia, including data-center-coupled cooling.",
+      "signal": "Marina Bay DCS is among the world's largest underground district cooling networks.",
+      "status": "operating",
+      "source": "https://www.keppel.com/"
+     }
+    ]
+   },
+   {
+    "name": "Large-scale heat pumps & mechanical vapor recompression for district systems",
+    "description": "Multi-megawatt industrial heat pumps \u2014 often using natural refrigerants like CO2 and ammonia \u2014 lift heat from rivers, seawater, sewage, air or data centers to 70-150\u00b0C, replacing coal and gas CHP as the workhorse of district heat decarbonization.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Everllence (formerly MAN Energy Solutions)",
+      "role": "incumbent",
+      "what": "Builds the world's largest CO2-refrigerant heat pumps for district heating, adapted from marine turbomachinery.",
+      "signal": "70 MW seawater heat pump system in Esbjerg, Denmark ('biggest CO2 heat pump on the planet'); 33 MW Helsinki air-to-water unit ordered 2024 (world's largest, ~200 GWh/yr for 30,000 households); rebranded Everllence in 2025; supplying Boston's Vicinity complex.",
+      "status": "operating",
+      "source": "https://www.man-es.com/company/press-releases/press-details/2024/08/28/man-energy-solutions-to-supply-world-s-largest-air-to-water-heat-pump-for-helsinki-s-district-heating"
+     },
+     {
+      "name": "Siemens Energy",
+      "role": "incumbent",
+      "what": "Supplies large heat pumps delivering up to ~150\u00b0C for river-, sea- and waste-heat-source district heating.",
+      "signal": "20 MWth Rhine river-source heat pump for MVV Mannheim delivering heat at 99\u00b0C for ~3,500 households (~10,000 t CO2/yr avoided).",
+      "status": "operating",
+      "source": "https://www.marketsandmarkets.com/ResearchInsight/large-scale-natural-refrigerant-heat-pump-market.asp"
+     },
+     {
+      "name": "GEA Group",
+      "role": "incumbent",
+      "what": "German engineering group supplying ammonia heat pump systems for city-scale projects including mine-water and sewage-source schemes.",
+      "signal": "Heat pumps power Gateshead, the UK's largest mine-water heat network; Stadtwerke Lemgo wastewater-to-heat contract (2024).",
+      "status": "operating",
+      "source": "https://www.gea.com/en/customer-cases/gea-heat-pumps-turn-redundant-gateshead-mine-water-into-clean-energy/"
+     },
+     {
+      "name": "Star Refrigeration",
+      "role": "incumbent",
+      "what": "Glasgow-based independent ammonia heat pump pioneer behind Drammen, Norway's 90\u00b0C fjord-source district heating system.",
+      "signal": "Drammen 13+ MW system running since 2011; delivered Queens Quay Clydebank 5 MW river-source scheme in Scotland.",
+      "status": "operating",
+      "source": "https://www.star-ref.co.uk/"
+     },
+     {
+      "name": "Johnson Controls",
+      "role": "incumbent",
+      "what": "Supplies Sabroe-brand large natural-refrigerant heat pumps and chillers widely used in Scandinavian district energy plants.",
+      "signal": "Ranked among the top global large-scale natural-refrigerant heat pump suppliers.",
+      "status": "operating",
+      "source": "https://www.marketsandmarkets.com/ResearchInsight/large-scale-natural-refrigerant-heat-pump-market.asp"
+     },
+     {
+      "name": "Friotherm",
+      "role": "incumbent",
+      "what": "Swiss maker of Unitop turbo heat pumps powering flagship plants such as Helsinki's Katri Vala sewage/seawater heat pump station.",
+      "signal": "Katri Vala is among the world's largest heat-pump heating/cooling plants (150+ MW heating).",
+      "status": "operating",
+      "source": "https://www.friotherm.com/"
+     }
+    ]
+   },
+   {
+    "name": "Data-center & industrial waste-heat reuse into buildings and networks",
+    "description": "Compute and industrial facilities reject enormous low-grade heat; capturing it via heat exchangers and heat pumps into district networks \u2014 or placing compute directly inside pools and buildings \u2014 turns a cooling cost into revenue and displaces gas, increasingly mandated by laws like Germany's Energy Efficiency Act.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Stockholm Exergi",
+      "role": "incumbent",
+      "what": "Runs 'Open District Heating', a standing offer that pays data centers and supermarkets to feed recovered heat into Stockholm's network.",
+      "signal": "Recovers heat from dozens of data centers; the reference model for utility-side waste-heat offtake worldwide.",
+      "status": "operating",
+      "source": "https://www.districtenergy.org/blogs/district-energy/2025/10/14/from-waste-to-well-placed-data-center-heat-recover"
+     },
+     {
+      "name": "Microsoft",
+      "role": "incumbent",
+      "what": "Supplying waste heat from its new Finnish data center region to Fortum's Espoo district network in the world's largest data-center heat-recovery deal.",
+      "signal": "Heat offtake to cover ~40% of the 2 TWh annual demand for 250,000 users; Fortum's recovery plants live May 2026, ~400,000 t CO2/yr avoided.",
+      "status": "operating",
+      "source": "https://www.fortum.com/services/heating-cooling/data-centres-helsinki-region"
+     },
+     {
+      "name": "Deep Green",
+      "role": "startup",
+      "what": "UK firm dropping immersion-cooled 'digital boiler' edge data centers into swimming pools, leisure centres and heat networks, giving the heat away free.",
+      "signal": "\u00a3200M investment from Octopus Energy (Jan 2024); first pool cut heating bills >60%; pipeline of 100-150 pools.",
+      "status": "operating",
+      "source": "https://octopus.energy/press/deep-green-investment/"
+     },
+     {
+      "name": "Qarnot",
+      "role": "startup",
+      "what": "French 'computing heater' company whose QBx rack units deliver HPC waste heat directly into district heating networks.",
+      "signal": "Brescia deployment with utility A2A targeting 16 GWh/yr of heat for ~1,350 apartments; new European Innovation Council funding in 2025.",
+      "status": "operating",
+      "source": "https://www.datacenterdynamics.com/en/news/qarnot-launches-italian-data-center-waste-heat-to-be-used-in-local-district-heating-network/"
+     },
+     {
+      "name": "Heata",
+      "role": "startup",
+      "what": "Centrica/British Gas-incubated startup that mounts cloud compute servers on domestic hot-water cylinders, giving households free hot water.",
+      "signal": "~\u00a31M seed round; hundreds of UK homes hosting units.",
+      "status": "operating",
+      "source": "https://www.inc.com/chris-stokel-walker/recovering-waste-heat-from-data-centers/91244674"
+     },
+     {
+      "name": "Equinix",
+      "role": "incumbent",
+      "what": "Colocation giant offering formal heat-export programs from its data centers to nearby networks and facilities.",
+      "signal": "Its Saint-Denis data center heats the Paris 2024 Olympic Aquatics Centre; heat export offered across European IBX sites.",
+      "status": "operating",
+      "source": "https://www.equinix.com/data-centers/design/heat-export"
+     }
+    ]
+   },
+   {
+    "name": "Wastewater & sewage heat recovery",
+    "description": "Sewers carry 10-25\u00b0C water year-round; in-pipe or pumped heat exchangers plus heat pumps recover this heat for buildings and district loops \u2014 proven physics that remains under-deployed relative to the resource.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "SHARC Energy",
+      "role": "scaleup",
+      "what": "Vancouver-listed maker of SHARC and PIRANHA wastewater energy transfer systems for buildings, campuses and district energy plants.",
+      "signal": "Record 2025 revenue of $3.04M (+40% YoY) with $6.9M backlog; ~$4.6M new orders in early 2026 including Ottawa's LeBreton Flats district system and a Calgary treatment plant.",
+      "status": "operating",
+      "source": "https://www.sharcenergy.com/news/press-release/sharc-energy-announces-2025-year-end-financial-results/"
+     },
+     {
+      "name": "Huber SE",
+      "role": "incumbent",
+      "what": "German wastewater-technology maker whose ThermWin system harvests heat from raw sewage via screened above-ground heat exchangers.",
+      "signal": "Dozens of ThermWin installations across Europe; referenced in US state technology assessments.",
+      "status": "operating",
+      "source": "https://www.mass.gov/doc/wastewater-energy-recovery-technology-comparison-matrix/download"
+     },
+     {
+      "name": "Uhrig Energie",
+      "role": "incumbent",
+      "what": "German firm whose Therm-Liner modular heat exchangers retrofit directly into existing sewer pipes.",
+      "signal": "60+ installations including municipal projects across DACH markets.",
+      "status": "operating",
+      "source": "https://www.mass.gov/doc/wastewater-energy-recovery-technology-comparison-matrix/download"
+     }
+    ],
+    "white_space": "Cheap, proven physics but fragmented adoption: every project needs sewer-utility access agreements and custom engineering, and category leader SHARC's ~$3M revenue after a decade shows how slow sales cycles are. The opening is standardized, code-driven products sold through heat-network developers and mandates (Vancouver-style low-carbon energy systems, Scandinavian and German waste-heat rules)."
+   },
+   {
+    "name": "Seasonal & underground thermal energy storage (ATES, BTES, pit, caverns, heat batteries)",
+    "description": "Storing summer heat or cheap wind/solar electricity as heat in aquifers, boreholes, water pits, rock caverns or sand silos lets networks shift renewable heat across days to seasons, cutting peak fossil boilers and power-market exposure.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Polar Night Energy",
+      "role": "startup",
+      "what": "Finnish 'sand battery' pioneer storing 500\u00b0C+ heat in sand/crushed-rock silos charged with cheap electricity, discharged into district heating.",
+      "signal": "1 MW/100 MWh Pornainen unit commissioned June 2025 (world's largest, cut local DH emissions ~60%); 250 MWh order from Lahti Energia announced Nov 2025.",
+      "status": "operating",
+      "source": "https://www.pv-magazine.com/2025/11/25/finlands-polar-night-to-build-250-mwh-sand-battery-for-district-heating-provider/"
+     },
+     {
+      "name": "Vantaan Energia",
+      "role": "incumbent",
+      "what": "Finnish municipal utility building Varanto, the world's largest cavern thermal energy storage \u2014 1.1M m\u00b3 of 140\u00b0C water in bedrock caverns.",
+      "signal": "90 GWh capacity, ~\u20ac200M project with \u20ac19M state grant; excavation began 2024, completion ~2030.",
+      "status": "operating",
+      "source": "https://www.vantaanenergia.fi/en/about-us/projects/varanto-the-cavern-thermal-energy-storage/"
+     },
+     {
+      "name": "Aalborg CSP",
+      "role": "scaleup",
+      "what": "Danish integrated-energy EPC that owns the pit thermal energy storage (PTES) technology acquired from Arcon-Sunmark and delivers pit storage alongside solar district heating.",
+      "signal": "Acquired Arcon-Sunmark's PTES technology; active pit-storage and DH project pipeline in Denmark and Germany.",
+      "status": "operating",
+      "source": "https://www.saurenergy.com/solar-energy-news/aalborg-csp-buys-unique-ptes-technology-from-arcon-sunmark"
+     },
+     {
+      "name": "IF Technology",
+      "role": "incumbent",
+      "what": "Dutch subsurface engineering firm behind much of the Netherlands' ~3,500-system aquifer thermal energy storage (ATES) fleet and its high-temperature ATES pilots.",
+      "signal": "NL operates ~3,500 ATES systems \u2014 the world's densest fleet; IF led HT-ATES state-of-the-art work in the EU HEATSTORE program.",
+      "status": "operating",
+      "source": "https://www.heatstore.eu/national-project-netherlands.html"
+     },
+     {
+      "name": "Kyoto Group",
+      "role": "startup",
+      "what": "Oslo-listed maker of the Heatcube molten-salt power-to-heat battery feeding district heating and industrial steam.",
+      "signal": "4 MW/18 MWh Heatcube at Norbis Park district heating (Denmark); 56 MWh unit inaugurated at KALL Ingredients, Hungary (Oct 2025) \u2014 billed as the world's largest industrial TES; Iberdrola-backed.",
+      "status": "operating",
+      "source": "https://www.energy-storage.news/kyoto-group-begins-tests-at-4mw-18mwh-power-to-heat-energy-storage-project-in-denmark/"
+     },
+     {
+      "name": "Hyme Energy",
+      "role": "startup",
+      "what": "Danish Seaborg spinout storing heat in molten hydroxide salts for district heat and industrial steam.",
+      "signal": "MOSS demonstration plant in Esbjerg supplying district heating since 2024; early commercial industrial contracts.",
+      "status": "operating",
+      "source": "https://hyme.energy/"
+     }
+    ]
+   },
+   {
+    "name": "Solar thermal district heating",
+    "description": "Hectare-scale flat-plate or concentrating collector fields feed 40-90\u00b0C water directly into district networks, often paired with pit storage \u2014 proven at gigawatt scale in Denmark but now a consolidating, policy-sensitive niche squeezed by cheap large heat pumps.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Aalborg CSP",
+      "role": "scaleup",
+      "what": "Delivers turnkey solar-thermal district heating plants and hybrid integrated energy systems.",
+      "signal": "Recent orders include 4.7 MW for Stadtwerke Sondershausen (Germany) and an 8 MWth field for SK Forsyning (Denmark).",
+      "status": "operating",
+      "source": "https://www.aalborgcsp.com/projects/district-heating-projects-1"
+     },
+     {
+      "name": "Meriaura Energy (formerly Savosolar)",
+      "role": "scaleup",
+      "what": "Finnish maker of large MEGA flat-plate collectors for district heating and industrial heat; the chronically loss-making Savosolar business was restructured under Meriaura Group in June 2023.",
+      "signal": "Operating as Meriaura Energy since mid-2023; delivered some of Europe's largest collector fields (France, Denmark, Germany).",
+      "status": "operating",
+      "source": "https://www.linkedin.com/company/meriauraenergy"
+     },
+     {
+      "name": "Arcon-Sunmark",
+      "role": "incumbent",
+      "what": "Former world leader that built most of the world's large solar district heating fields from Denmark.",
+      "signal": "Wound down around 2020-21 as the Danish solar DH market stalled; its unique pit-storage (PTES) technology was sold to Aalborg CSP.",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.saurenergy.com/solar-energy-news/aalborg-csp-buys-unique-ptes-technology-from-arcon-sunmark"
+     },
+     {
+      "name": "GREENoneTEC",
+      "role": "incumbent",
+      "what": "Austrian operator of the world's largest flat-plate collector factory, supplying big district heating fields such as Graz.",
+      "signal": "Supplier behind record German and Austrian solar DH fields as that market hit new milestones.",
+      "status": "operating",
+      "source": "https://solarthermalworld.org/news/new-milestones-on-the-german-solar-district-heating-market/"
+     },
+     {
+      "name": "Heliac",
+      "role": "startup",
+      "what": "Danish maker of polymer Fresnel-lens collector fields producing district heat, aiming below flat-plate costs.",
+      "signal": "Two full-scale fields operating in Denmark (including ~1.2 MW Lendemarke); SDG Tech Awards finalist.",
+      "status": "operating",
+      "source": "https://heliac.dk/our-technology/our-installations/"
+     }
+    ],
+    "white_space": "The Danish home market stalled once utilities pivoted to large heat pumps and pit storage charged with cheap wind power \u2014 killing market leader Arcon-Sunmark and forcing Savosolar's restructuring. The remaining opening is hybrid plants (collectors + PTES + heat pumps) in Germany and Eastern Europe, where gas displacement economics and EU funds still favor solar heat."
+   },
+   {
+    "name": "Geothermal direct-use district heating (deep geothermal & mine water)",
+    "description": "Wells tap hot aquifers, deep closed loops or flooded coal mines to feed 40-110\u00b0C heat straight into district networks \u2014 zero-fuel baseload heat now being industrialized by developers with oil-and-gas drilling skills.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Innargi",
+      "role": "scaleup",
+      "what": "A.P. Moller Holding-backed developer that finances, drills and operates geothermal heat plants for district heating utilities under heat-as-a-service contracts.",
+      "signal": "EU's largest geothermal district heating project: first Aarhus plant online 31 Oct 2025 under a 30-year deal with utility Kredsl\u00f8b; ~110 MW across three facilities by 2030; pipeline in Germany and Poland.",
+      "status": "operating",
+      "source": "https://innargi.com/eus-largest-geothermal-district-heating-plant-begins-operations-in-aarhus-denmark/"
+     },
+     {
+      "name": "Eavor Technologies",
+      "role": "scaleup",
+      "what": "Calgary firm whose closed-loop multilateral 'Eavor-Loop' wells produce heat (and power) without needing a hydrothermal aquifer, enabling geothermal heat almost anywhere.",
+      "signal": "Geretsried, Bavaria plant delivered first closed-loop grid power Dec 2025 with heat offtake to the local district network; backed by a \u20ac91.8M EU Innovation Fund grant and EIB financing.",
+      "status": "operating",
+      "source": "https://www.powermag.com/eavors-first-of-its-kind-closed-loop-geothermal-project-produces-grid-power-in-germany/"
+     },
+     {
+      "name": "Stadtwerke M\u00fcnchen (SWM)",
+      "role": "incumbent",
+      "what": "Munich's city utility running Europe's most aggressive deep-geothermal district heating buildout (six plants including Sch\u00e4ftlarnstra\u00dfe).",
+      "signal": "Targets climate-neutral district heating by 2040, anchored on Bavarian Molasse Basin geothermal.",
+      "status": "operating",
+      "source": "https://www.swm.de/"
+     },
+     {
+      "name": "Gateshead Energy Company / Mining Remediation Authority",
+      "role": "incumbent",
+      "what": "Council-owned UK scheme pumping ~15\u00b0C flooded-mine water through GEA heat pumps into Gateshead's district network.",
+      "signal": "Live since March 2023; Britain's largest mine-water heat network, officially reviewed as a success and being expanded with new grant funding.",
+      "status": "operating",
+      "source": "https://www.gov.uk/government/news/gateshead-mine-water-heat-scheme-gets-official-seal-of-approval"
+     },
+     {
+      "name": "Mijnwater",
+      "role": "scaleup",
+      "what": "Heerlen (NL) operator of Europe's flagship 5th-generation mine-water heating and cooling grid built on abandoned coal mines.",
+      "signal": "\u20ac13.5M EU Just Transition grant (June 2025) to expand the Zuid-Limburg grid; plans ~30,000 home connections by 2030; 100% renewable supply.",
+      "status": "operating",
+      "source": "https://cinea.ec.europa.eu/news-events/news/european-support-sustainable-district-heating-and-cooling-grid-zuid-limburg-2025-06-04_en"
+     },
+     {
+      "name": "CeraPhi Energy",
+      "role": "startup",
+      "what": "UK firm retrofitting closed-loop downhole heat exchangers (CeraPhiWell) into existing oil, gas and legacy wells for direct-use heat.",
+      "signal": "Demonstrator at a former UK fracking site; commercial traction beyond demos remains limited.",
+      "status": "operating",
+      "source": "https://www.thinkgeoenergy.com/ceraphi-holds-geothermal-demonstrator-project-in-former-fracking-site-in-the-uk/"
+     }
+    ]
+   },
+   {
+    "name": "District energy digitalization & optimization software",
+    "description": "AI and digital-twin platforms model entire heating grids in real time to cut supply temperatures, peak loads and CO2 by 5-20% without new hardware \u2014 typically the cheapest decarbonization lever available to network operators.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Gradyent",
+      "role": "startup",
+      "what": "Rotterdam-based real-time digital twin for heating and cooling grids, used to run networks on 'autopilot' (Helen Helsinki, Vattenfall, Veolia Poland, Shell's Rotterdam steam grid, TU Delft).",
+      "signal": "\u20ac28M Series B (April 2025), total funding >\u20ac39M; claims up to 10% CO2 and 20% capex savings.",
+      "status": "operating",
+      "source": "https://tech.eu/2025/04/02/gradyent-secures-eur28m-for-real-time-digital-twin-platform/"
+     },
+     {
+      "name": "Danfoss (Leanheat)",
+      "role": "incumbent",
+      "what": "Leanheat AI software suite (acquired Finnish startup, 2019) for thermo-hydraulic network modeling plus building-level demand control.",
+      "signal": "Deployed across thousands of buildings and major utilities as part of Danfoss's district energy portfolio.",
+      "status": "operating",
+      "source": "https://www.danfoss.com/en/products/dhs/software-solutions/products/danfoss-leanheat-software-suite-services/leanheat-network/"
+     },
+     {
+      "name": "NODA Intelligent Systems",
+      "role": "startup",
+      "what": "Swedish AI platform for demand-side district heating optimization and data-center heat-reuse orchestration.",
+      "signal": "Two decades of deployments across Nordic and European networks; positioning in the data-center waste-heat boom.",
+      "status": "operating",
+      "source": "https://www.noda.ai/insights/data-centers-turning-waste-heat-asset"
+     },
+     {
+      "name": "Utilifeed",
+      "role": "startup",
+      "what": "Gothenburg SaaS using digital twins and ML for district heating analytics, forecasting and customer-demand matching.",
+      "signal": "SEK 21M (~\u20ac1.9M) raised from Hafslund, Eidsiva and angels; pilots with 10 Swedish district heating companies and the Swedish Energy Agency.",
+      "status": "operating",
+      "source": "https://www.mynewsdesk.com/se/utilifeed-ab/pressreleases/utilifeed-secures-sek-21-million-eu-19-million-in-investments-to-revolutionize-district-heating-and-promote-energy-efficiency-3260127"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.utilitydive.com/news/first-networked-geothermal-utility-eversource-framingham-building-decarbonization/718135/",
+   "https://www.prnewswire.com/news-releases/dandelion-energy-and-lennar-announce-one-of-the-largest-residential-geothermal-deployments-in-us-history-302417823.html",
+   "https://techcrunch.com/2025/01/23/bedrock-energy-wants-geothermal-to-make-data-centers-cooler-and-offices-more-comfortable/",
+   "https://www.slb.com/newsroom/features/2025/feature-2025-10-29-slb-celsius-geothermal",
+   "https://www.upgradeny.org/nine-utility-thermal-energy-network-pilot-projects-advance",
+   "https://octopus.energy/press/pump-it-up-octopus-energy-and-legal-general-make-britains-biggest-investment-in-ground-source-heat-pumps/",
+   "https://www.fortum.com/en/media/2026/05/fortum-has-started-heat-production-two-large-data-centre-sites-finland",
+   "https://www.cvc.com/media/news/2025/tabreed-and-cvc-dif-to-acquire-abu-dhabi-s-pal-cooling-from-multiply-group/",
+   "https://www.investing.com/news/company-news/empower-q3-2025-slides-district-cooling-giant-posts-55-revenue-growth-expands-capacity-93CH-4337648",
+   "https://www.man-es.com/company/press-releases/press-details/2024/08/28/man-energy-solutions-to-supply-world-s-largest-air-to-water-heat-pump-for-helsinki-s-district-heating",
+   "https://www.businesswire.com/news/home/20251104250895/en/Vicinity-Energy-Commences-Construction-of-Industrial-Scale-Heat-Pump-Complex-in-Partnership-with-DCO-Energy-and-Everllence",
+   "https://octopus.energy/press/deep-green-investment/",
+   "https://www.datacenterdynamics.com/en/news/qarnot-launches-italian-data-center-waste-heat-to-be-used-in-local-district-heating-network/",
+   "https://www.inc.com/chris-stokel-walker/recovering-waste-heat-from-data-centers/91244674",
+   "https://www.sharcenergy.com/news/press-release/sharc-energy-announces-2025-year-end-financial-results/",
+   "https://www.pv-magazine.com/2025/11/25/finlands-polar-night-to-build-250-mwh-sand-battery-for-district-heating-provider/",
+   "https://www.vantaanenergia.fi/en/about-us/projects/varanto-the-cavern-thermal-energy-storage/",
+   "https://www.energy-storage.news/kyoto-group-begins-tests-at-4mw-18mwh-power-to-heat-energy-storage-project-in-denmark/",
+   "https://www.heatstore.eu/national-project-netherlands.html",
+   "https://innargi.com/eus-largest-geothermal-district-heating-plant-begins-operations-in-aarhus-denmark/",
+   "https://www.powermag.com/eavors-first-of-its-kind-closed-loop-geothermal-project-produces-grid-power-in-germany/",
+   "https://www.gov.uk/government/news/gateshead-mine-water-heat-scheme-gets-official-seal-of-approval",
+   "https://cinea.ec.europa.eu/news-events/news/european-support-sustainable-district-heating-and-cooling-grid-zuid-limburg-2025-06-04_en",
+   "https://www.saurenergy.com/solar-energy-news/aalborg-csp-buys-unique-ptes-technology-from-arcon-sunmark",
+   "https://solarthermalworld.org/news/new-milestones-on-the-german-solar-district-heating-market/",
+   "https://tech.eu/2025/04/02/gradyent-secures-eur28m-for-real-time-digital-twin-platform/",
+   "https://www.gminsights.com/industry-analysis/europe-district-heating-market",
+   "https://www.factmr.com/report/geothermal-heat-pumps-market",
+   "https://www.mass.gov/doc/wastewater-energy-recovery-technology-comparison-matrix/download",
+   "https://environmentamerica.org/center/articles/emerging-energy-technology-geothermal-networks/"
+  ]
+ }
+}

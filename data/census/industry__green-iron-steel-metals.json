@@ -1,0 +1,568 @@
+{
+ "sector": "industry",
+ "bucket": "Green Iron, Steel & Metals",
+ "census": {
+  "bucket": "Green Iron, Steel & Metals",
+  "variations": [
+   {
+    "name": "Hydrogen direct reduced iron (H2-DRI) plants and green iron/HBI developers",
+    "description": "Green hydrogen replaces coal/coke to strip oxygen from iron ore in shaft or fluidized-bed furnaces, yielding direct reduced iron (DRI/HBI) that is melted in electric furnaces \u2014 the leading route to near-zero primary steel, cutting ~90% of blast-furnace CO2.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Stegra (formerly H2 Green Steel)",
+      "role": "scaleup",
+      "what": "Building the world's first new full-scale integrated green steel mill (5 Mtpa H2-DRI-EAF with ~700 MW electrolysis) in Boden, Sweden.",
+      "signal": "~\u20ac7.5B previously raised; \u20ac1.4B rescue round agreed April 2026 led by Wallenberg consortium with Temasek and IMAS after cost overruns; closing expected June 2026, timeline under review",
+      "status": "operating",
+      "source": "https://stegra.com/en/news-and-stories/stegra-has-agreed-in-principle-on-a-14-billion-financing-round"
+     },
+     {
+      "name": "SSAB / HYBRIT (with LKAB, Vattenfall)",
+      "role": "incumbent",
+      "what": "Co-developed the HYBRIT hydrogen sponge-iron process (piloted in Lule\u00e5 since 2021) and is converting its Nordic mills to fossil-free H2-DRI/EAF steel.",
+      "signal": "Delivered world's first fossil-free steel to Volvo in 2021; \u20ac4.5B, 2.5 Mtpa Lule\u00e5 EAF mini-mill permitted, startup ~2028-29",
+      "status": "operating",
+      "source": "https://www.gem.wiki/SSAB_Lule%C3%A5_steel_plant"
+     },
+     {
+      "name": "thyssenkrupp Steel",
+      "role": "incumbent",
+      "what": "Building tkH2Steel \u2014 a 2.5 Mtpa hydrogen-capable DRI plant with integrated electric melters replacing a Duisburg blast furnace.",
+      "signal": "\u20ac2B German/NRW subsidies; completion ~end 2026 with full hydrogen operation by 2029; management flagged green-hydrogen cost doubts in 2025 but reconfirmed the project",
+      "status": "operating",
+      "source": "https://www.gem.wiki/ThyssenKrupp_Steel_Duisburg_steel_plant"
+     },
+     {
+      "name": "GravitHy",
+      "role": "startup",
+      "what": "Merchant green iron (DRI/HBI) producer planning a 2 Mtpa plant at Fos-sur-Mer, France with ~750 MW of on-site electrolysis.",
+      "signal": "\u20ac60M round March 2025 (Rio Tinto, Ecolab, Marcegaglia, Siemens Financial Services, EIT InnoEnergy, ENGIE); \u20ac2.2B project, commissioning targeted ~2028",
+      "status": "operating",
+      "source": "https://www.gravithy.eu/gravithy-raises-e60-million-to-accelerate-steel-industry-decarbonization/"
+     },
+     {
+      "name": "Vulcan Green Steel",
+      "role": "scaleup",
+      "what": "Jindal Group venture building a hydrogen-ready 5 Mtpa DRI-EAF green steel complex in Duqm, Oman aimed at European and Japanese auto customers.",
+      "signal": "Construction slated to complete 2026 with production from 2027; DRI plant ordered from Danieli/Tenova; Volkswagen low-emission steel agreement",
+      "status": "operating",
+      "source": "https://www.gem.wiki/Jindal_Shadeed_Iron_&_Steel_Duqm_plant"
+     },
+     {
+      "name": "POSCO",
+      "role": "incumbent",
+      "what": "Developing HyREX, a fluidized-bed hydrogen reduction process that uses cheap ore fines (no pellets) coupled to an electric smelting furnace.",
+      "signal": "300 ktpa HyREX demonstration plant at Pohang targeted for 2028 commissioning; BHP ore-trial partnership signed October 2025",
+      "status": "operating",
+      "source": "https://www.bhp.com/news/media-centre/releases/2025/10/bhp-and-posco-partner-to-advance-hydrogen-based-ironmaking-technology"
+     },
+     {
+      "name": "Salzgitter",
+      "role": "incumbent",
+      "what": "SALCOS program staging replacement of German blast furnaces with a 100 MW electrolyzer, DRI plant and EAF.",
+      "signal": "Stage 1 under construction but startup delayed to 2027; stages 2-3 postponed ~3 years amid weak steel market and high power prices",
+      "status": "operating",
+      "source": "https://eurometal.net/salzgitter-delays-green-steel-plan-amid-economic-regulatory-headwinds/"
+     },
+     {
+      "name": "ArcelorMittal",
+      "role": "incumbent",
+      "what": "World #2 steelmaker that cancelled its flagship German H2-DRI conversions (Bremen, Eisenh\u00fcttenstadt) in mid-2025 citing green hydrogen's non-viability, while continuing gas-DRI/EAF projects elsewhere.",
+      "signal": "Walked away from ~\u20ac1.3B in approved German subsidies in June 2025 \u2014 the most prominent incumbent retreat from hydrogen steel",
+      "status": "operating",
+      "source": "https://www.recyclingtoday.com/news/hydrogen-power-steel-cliffs-arcelormittal-projects-canceled-2025/"
+     },
+     {
+      "name": "Cleveland-Cliffs",
+      "role": "incumbent",
+      "what": "Cancelled its DOE-backed ~$1.6B Middletown, Ohio hydrogen-DRI conversion in 2025 over hydrogen supply doubts, reverting to conventional ironmaking.",
+      "signal": "Project officially abandoned June 2025; CEO cited unavailable clean hydrogen and federal policy shift",
+      "status": "operating",
+      "source": "https://gmk.center/en/news/cleveland-cliffs-cancels-hydrogen-based-steel-project-in-ohio/"
+     },
+     {
+      "name": "Midrex Technologies",
+      "role": "incumbent",
+      "what": "Dominant DRI shaft-furnace licensor whose MIDREX H2 plants (with Paul Wurth) are the equipment inside Stegra and most announced H2-DRI projects.",
+      "signal": "Technology behind roughly 60% of global DRI output; first 100% hydrogen commercial reference (Stegra) starting up 2026",
+      "status": "operating",
+      "source": "https://www.midrex.com"
+     }
+    ]
+   },
+   {
+    "name": "Molten oxide electrolysis (MOE) of iron ore",
+    "description": "Electricity is passed through iron ore dissolved in a ~1,600\u00b0C molten oxide bath using an inert anode, splitting ore directly into liquid iron and oxygen with zero process CO2 when run on clean power.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Boston Metal",
+      "role": "scaleup",
+      "what": "MIT spinout running inert-anode MOE cells for green steel in Woburn, MA, plus a Brazilian subsidiary applying MOE to recover high-value metals (Nb, Ta, Sn) from mining waste as an early revenue wedge.",
+      "signal": "~$370M raised including $262M Series C (ArcelorMittal, Microsoft, BHP among investors); industrial-scale green-steel cell commissioned March 2025; Brazil 10 ktpa high-value-metals plant slated for 2026; first steel demonstration plant planned 2026",
+      "status": "operating",
+      "source": "https://www.globenewswire.com/news-release/2025/03/12/3041404/0/en/Boston-Metal-Commissions-Industrial-Scale-Cell-in-Crucial-Green-Steel-Milestone.html"
+     }
+    ],
+    "white_space": "Effectively a one-company field: inert anodes must survive 1,600\u00b0C corrosive oxide melts and the process needs very cheap firm clean power, so nobody else has followed Boston Metal out of the lab. Openings are alternative anode materials/chemistries and Boston Metal's own playbook \u2014 monetizing high-margin ferroalloys and critical metals first, where $/tonne tolerance is far higher than commodity steel."
+   },
+   {
+    "name": "Low-temperature aqueous/electrochemical ironmaking (iron electrowinning)",
+    "description": "Iron ore is dissolved in acid or alkaline solution and pure iron is electroplated out at 60-110\u00b0C, letting intermittent renewables make iron without coke ovens, DR-grade pellets, or hydrogen infrastructure.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Electra",
+      "role": "startup",
+      "what": "Acid-based electrowinning at ~60\u00b0C that accepts low-grade ores and produces 99% pure iron plates for EAF steelmaking.",
+      "signal": "$186M Series B April 2025 co-led by Capricorn and Temasek (BHP, Rio Tinto, Nucor, Breakthrough Energy among investors), >$214M total plus $30M follow-on; 500 tpy demonstration plant in Jefferson County, Colorado by early 2026; Meta bought its first green-iron EACs and Nucor partnership signed",
+      "status": "operating",
+      "source": "https://www.canarymedia.com/articles/green-steel/electra-clean-iron-investment-electrowinning"
+     },
+     {
+      "name": "ArcelorMittal + John Cockerill (Volteron)",
+      "role": "incumbent",
+      "what": "Industrializing the EU Siderwin alkaline iron-electrowinning process into Volteron, the first industrial-scale low-temperature iron electrolysis plant.",
+      "signal": "Siderwin pilot completed under Horizon 2020; first 40,000-80,000 tpa plant targeted to start production in 2027, with 0.3-1 Mtpa expansion intended",
+      "status": "operating",
+      "source": "https://johncockerill.com/en/press-and-news/news/arcelormittal-john-cockerill-announce-volteron/"
+     },
+     {
+      "name": "Element Zero",
+      "role": "startup",
+      "what": "Australian startup (ex-Fortescue scientists) using electrochemical reduction with ionic-liquid electrolytes to make green iron and other metals from ores.",
+      "signal": "Survived a two-year Fortescue trade-secrets lawsuit settled November 2025 with damages claims dismissed and cost orders vacated; described in court reporting as financially strained",
+      "status": "operating",
+      "source": "https://www.mining.com/fortescue-ends-bitter-green-iron-battle-with-element-zero/"
+     }
+    ],
+    "white_space": "Electrowinning's low current densities mean enormous cell area and capex per tonne \u2014 the physics that kept it out of ironmaking for a century \u2014 so only three credible players exist. The opening is pairing cells with cheap curtailed renewables (the process tolerates intermittency, unlike furnaces) and selling ultra-pure iron into premium niches like powders and electrical steel before attacking bulk steel."
+   },
+   {
+    "name": "Flash and single-step novel ironmaking reactors",
+    "description": "Fine iron ore concentrate reacts in seconds with hydrogen, methane, or concentrated laser/electric heat in a single vessel, skipping the pelletizing/sintering and multi-unit flowsheets that add cost and emissions to conventional and H2-DRI routes.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Hertha Metals",
+      "role": "startup",
+      "what": "Single-step reactor converting ore fines directly to molten steel and high-purity iron using methane today and hydrogen-ready chemistry, in Conroe, Texas.",
+      "signal": ">$17M from Khosla Ventures, Breakthrough Energy Fellows, Pear VC, Clean Energy Ventures; continuous 1 tonne/day pilot running since late 2024; 9,000 tpa plant groundbreaking January 2026",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20250722728868/en/Hertha-Metals-Unveils-Breakthrough-Process-to-Accelerate-American-Made-Steel-and-High-Purity-Iron-Production"
+     },
+     {
+      "name": "Limelight Steel",
+      "role": "startup",
+      "what": "Oakland, CA startup building a laser furnace that reduces iron ore to molten iron with roughly half the energy and >80% lower emissions than a blast furnace.",
+      "signal": "$2.9M ARPA-E award (part of a 2025 $28M federal iron/steel tech package); pre-seed/seed stage",
+      "status": "operating",
+      "source": "https://www.canarymedia.com/articles/green-steel/us-awards-28m-for-cutting-edge-tech-to-clean-up-iron-and-steel"
+     },
+     {
+      "name": "Calix",
+      "role": "scaleup",
+      "what": "ASX-listed company whose ZESTY electric flash calciner makes hydrogen-DRI directly from iron ore fines without agglomeration.",
+      "signal": "Rio Tinto signed a joint development agreement and invested $23M (Nov 2025) in the proposed ZESTY green iron demonstration plant at Kwinana, WA, alongside ARENA support",
+      "status": "operating",
+      "source": "https://www.esgtoday.com/rio-tinto-invests-23-million-in-green-iron-plant-pauses-bioiron-project/"
+     }
+    ],
+    "white_space": "Only ~4% of seaborne ore is DR-pellet grade, so fines-tolerant single-step reactors attack a real $50-80/t pellet-premium gap \u2014 yet the field is tiny because high-temperature fines handling and product consistency are unforgiving, and the University of Utah flash-ironmaking lineage (DOE-funded since the 2010s) still has no commercial operator. Room remains for new reactor entrants with capital-light pilots, as Hertha's $17M-to-1tpd economics demonstrated."
+   },
+   {
+    "name": "Hydrogen plasma, smelting reduction and electric smelting furnaces (ESF)",
+    "description": "Electrically powered smelting vessels or hydrogen plasma arcs melt and finish reducing ore or low-grade DRI, letting abundant mid-grade ores (which H2-DRI shaft furnaces cannot take) feed clean steelmaking without blast furnaces.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "voestalpine",
+      "role": "incumbent",
+      "what": "Runs the SuSteel hydrogen plasma smelting reduction pilot at Donawitz (with K1-MET and Montanuniversit\u00e4t Leoben) producing crude steel directly from ore, and hosts the Hy4Smelt demo at Linz.",
+      "signal": "SuSteel pilot operating; Hy4Smelt construction started July 2025 \u2014 Austria's largest climate research project \u2014 with production from end-2027",
+      "status": "operating",
+      "source": "https://www.voestalpine.com/group/en/media/press-releases/2025-07-29-voestalpine-hy4smelt-construction-on-Austrias-largest-climate-action-research-project-starts-at-the-voestalpine-site-in-Linz/"
+     },
+     {
+      "name": "Primetals Technologies (with Mitsubishi Corp)",
+      "role": "incumbent",
+      "what": "Supplies HYFOR \u2014 the first fluidized-bed hydrogen reduction of ore fines, piloted at Donawitz since 2021 \u2014 paired with its electric 'Smelter' furnace producing hot metal plus cement-grade slag.",
+      "signal": "Building the Hy4Smelt industrial-scale demonstration plant in Linz with voestalpine, Mitsubishi and Rio Tinto; startup planned end-2027",
+      "status": "operating",
+      "source": "https://www.primetals.com/en/news/2025083472-construction-begins-on-hydrogen-based-ironmaking-plant-in-linz-austria/"
+     },
+     {
+      "name": "NeoSmelt (BlueScope, BHP, Rio Tinto, Woodside, Mitsui JV)",
+      "role": "incumbent",
+      "what": "Consortium building Australia's largest ironmaking electric smelting furnace pilot at Kwinana, WA to prove DRI-ESF steelmaking from mid-grade Pilbara ores.",
+      "signal": "Expanded to five equal partners June 2025 with Australian federal government support; pilot targeted ~2028; DRI-ESF route claims up to 80% CO2 reduction",
+      "status": "operating",
+      "source": "https://www.riotinto.com/en/news/releases/2025/neosmelt-welcomes-federal-government-support-and-signs-two-new-participants-for-groundbreaking-steel-decarbonisation-project"
+     },
+     {
+      "name": "Fortescue",
+      "role": "incumbent",
+      "what": "Christmas Creek Green Metal Project combining on-site green hydrogen DRI with an electric smelting furnace to make green iron at an operating Pilbara mine.",
+      "signal": "US$50M project, >1,500 tpa capacity; first hot metal anticipated in the June quarter 2026 per its March 2026 quarterly report",
+      "status": "operating",
+      "source": "https://www.gem.wiki/Fortescue_Christmas_Creek_Green_Metal_Project"
+     },
+     {
+      "name": "Tata Steel (HIsarna)",
+      "role": "incumbent",
+      "what": "Developed the HIsarna coal-based smelting reduction reactor at IJmuiden (20% CO2 cut, capture-ready), piloted since 2011.",
+      "signal": "HIsarna deprioritized as Tata Steel Nederland chose the DRI-EAF route for IJmuiden's transition; technology's future deployment unclear",
+      "status": "operating",
+      "source": "https://www.tatasteeleurope.com"
+     }
+    ],
+    "white_space": "No startups operate here \u2014 smelting furnaces only pencil when bolted onto existing mills and need hundreds of MW of firm power, so the field is incumbent consortia. The strategic opening (and why BHP/Rio/BlueScope fund it) is unlocking mid-grade Pilbara ores for green steel; a licensable, ore-flexible ESF design would ride that need."
+   },
+   {
+    "name": "Alternative chemical reduction routes: sodium-cycle ironmaking and biocarbon/biochar reductants",
+    "description": "Coke is replaced with alternative reductants \u2014 recyclable sodium metal at 250-350\u00b0C oven temperatures, or sustainably grown charcoal/biomass in conventional-style furnaces \u2014 so iron can be made with little or no fossil CO2.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Helios",
+      "role": "startup",
+      "what": "Israeli startup (spun out of lunar oxygen-production research) whose Helios Cycle uses sodium to reduce iron ore at 250-350\u00b0C, claiming ~30% lower energy and cost.",
+      "signal": "~$20.5M raised; BlueScopeX partnership to trial its green iron from 2026; pilot plant scheduled 2026, first commercial units targeted 2028",
+      "status": "operating",
+      "source": "https://sustainablebrands.com/read/helios-solution-decarbonizing-steelmaking"
+     },
+     {
+      "name": "A\u00e7o Verde do Brasil (AVB)",
+      "role": "scaleup",
+      "what": "600 ktpa integrated Brazilian mill running mini blast furnaces entirely on captive eucalyptus charcoal from 50,000 ha of plantations.",
+      "signal": "SGS-certified carbon-neutral steel producer (since 2021, ~0.06-0.10 tCO2/t steel); recognized by the World Economic Forum among near-zero steel pioneers",
+      "status": "operating",
+      "source": "https://www.spglobal.com/commodityinsights/en/market-insights/latest-news/agriculture/032521-brazils-avb-receives-carbon-neutral-steel-certificate"
+     },
+     {
+      "name": "Aperam",
+      "role": "incumbent",
+      "what": "Stainless/specialty steelmaker whose BioEnergia unit supplies FSC-certified eucalyptus charcoal that fully fuels its Brazilian blast furnaces.",
+      "signal": "Charcoal-based ironmaking at Tim\u00f3teo, Brazil for over a decade with >100,000 ha of plantations",
+      "status": "operating",
+      "source": "https://www.aperam.com"
+     },
+     {
+      "name": "Rio Tinto (BioIron)",
+      "role": "incumbent",
+      "what": "BioIron process uses raw biomass and microwave energy instead of coal to reduce Pilbara ore fines, with net-negative potential when paired with CCS.",
+      "signal": "$143M R&D facility planned in WA after successful German pilot, but further furnace design work paused November 2025 pending technical de-risking; capital redirected to Calix ZESTY demo",
+      "status": "operating",
+      "source": "https://www.miningweekly.com/article/rio-tinto-pauses-bioiron-partners-on-new-low-emissions-steel-pilot-2025-11-17"
+     }
+    ],
+    "white_space": "Sodium-cycle ironmaking has exactly one player (Helios) \u2014 alkali-metal handling risk and the energy round-trip of regenerating sodium deter investors, but a proven closed loop at oven temperatures could enable small modular iron plants. Biocarbon is land-constrained (Brazil-style charcoal cannot scale to 2 Gt of global steel), so it stays a regional niche \u2014 Rio Tinto's BioIron pause underlines the engineering risk."
+   },
+   {
+    "name": "Scrap-EAF steelmaking expansion and DRI-EAF hybrid clean steel mills",
+    "description": "Electric arc furnaces melt recycled scrap (or scrap blended with DRI), cutting roughly 70-90% of emissions versus blast furnaces \u2014 the only clean-steel route that is already mainstream, profitable, and expanding worldwide.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Nucor",
+      "role": "incumbent",
+      "what": "Largest US steelmaker, 100% EAF-based, selling Econiq net-zero steel (renewable power plus offsets) to GM, and expanding sheet capacity.",
+      "signal": "~$3.1B Apple Grove, WV sheet mill under construction; Econiq shipped since 2022",
+      "status": "operating",
+      "source": "https://www.nucor.com"
+     },
+     {
+      "name": "Steel Dynamics",
+      "role": "incumbent",
+      "what": "EAF flat-rolled leader whose 3 Mtpa Sinton, Texas mill is the template for low-carbon greenfield EAF sheet capacity.",
+      "signal": "~$22B revenue EAF producer; Sinton ramped through 2023-25",
+      "status": "operating",
+      "source": "https://www.steeldynamics.com"
+     },
+     {
+      "name": "U.S. Steel (Big River Steel)",
+      "role": "incumbent",
+      "what": "Built the Big River 2 EAF mega-mill in Arkansas (started late 2024), shifting its footprint toward low-emissions EAF steel.",
+      "signal": "Acquired by Nippon Steel in June 2025 (~$14.9B with US government golden share); BR2 operating",
+      "status": "acquired",
+      "source": "https://www.ussteel.com"
+     },
+     {
+      "name": "Hyundai Steel",
+      "role": "incumbent",
+      "what": "Building a $5.8B, 2.7 Mtpa DRI-EAF integrated low-carbon mill in Ascension Parish, Louisiana to supply US auto plants.",
+      "signal": "Announced March 2025; 1,700-acre site purchased; construction from 2026, online ~2029-30",
+      "status": "operating",
+      "source": "https://www.recyclingtoday.com/news/hyundai-kia-steel-mill-louisiana-danieli-technology-land-purchase-development-award/"
+     },
+     {
+      "name": "Tata Steel UK",
+      "role": "incumbent",
+      "what": "Replacing Port Talbot's closed blast furnaces with a 3 Mtpa scrap-EAF \u2014 cutting ~90% of site emissions and ~7% of total UK industrial CO2.",
+      "signal": "\u00a31.25B project with \u00a3500M UK government support; construction began July 2025, commissioning targeted end-2027",
+      "status": "operating",
+      "source": "https://www.letsrecycle.com/news/tata-steel-begins-construction-on-1-25bn-port-talbot-eaf/"
+     },
+     {
+      "name": "Algoma Steel",
+      "role": "incumbent",
+      "what": "Completed Canada's highest-profile BF-to-EAF conversion at Sault Ste. Marie, producing its first EAF steel in 2025.",
+      "signal": "First EAF steel April 2025; full transition cuts ~70% of emissions; navigating US tariff pressure with Canadian government support",
+      "status": "operating",
+      "source": "https://algoma.com"
+     },
+     {
+      "name": "Hybar",
+      "role": "startup",
+      "what": "Greenfield 700 ktpa scrap-EAF rebar mill in Osceola, Arkansas powered by the largest behind-the-meter solar-plus-storage array in US industry.",
+      "signal": "~$1B financing from a 2023 standing start; first rebar June 2025, grand opening November 2025; second mill planned",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/hybar-produces-its-first-steel-rebar-302470801.html"
+     },
+     {
+      "name": "GFG Alliance / OneSteel (Whyalla Steelworks)",
+      "role": "incumbent",
+      "what": "Sanjeev Gupta's much-hyped Whyalla 'green steel' transformation collapsed; the South Australian government forced OneSteel into administration.",
+      "signal": "In administration since February 2025; plant kept running on ~A$1.9B+ government support; sale shortlisted to M Resources and Jindal Group (May 2026), targeted to close September 2026",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.minister.industry.gov.au/ministers/timayres/media-releases/final-bidders-shortlisted-sale-whyalla-steelworks"
+     },
+     {
+      "name": "British Steel",
+      "role": "incumbent",
+      "what": "Scunthorpe blast furnaces seized under the UK's April 2025 Steel Industry (Special Measures) Act after Chinese owner Jingye moved to close them; EAF decarbonization plan unresolved.",
+      "signal": "Under effective nationalization since April 2025; EAF transition plans remain undecided",
+      "status": "uncertain",
+      "source": "https://www.gem.wiki/British_Steel_Scunthorpe_plant"
+     }
+    ]
+   },
+   {
+    "name": "CCUS retrofits on BF-BOF/DRI, top-gas recycling, and steel offgas-to-products",
+    "description": "The CO/CO2-rich offgases of existing blast furnaces and DRI plants are captured, recycled back as reductant, or fermented/catalyzed into ethanol and chemicals \u2014 decarbonizing the ~2-billion-tonne installed fleet without rebuilding it.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "ADNOC / Emirates Steel (Al Reyadah)",
+      "role": "incumbent",
+      "what": "Operates the world's only commercial-scale steel CCUS \u2014 capturing ~0.8 Mtpa of CO2 from gas-based DRI in Abu Dhabi for enhanced oil recovery since 2016.",
+      "signal": "Nearly a decade of continuous commercial operation; cornerstone of ADNOC's CCUS buildout",
+      "status": "operating",
+      "source": "https://www.adnoc.ae"
+     },
+     {
+      "name": "LanzaTech",
+      "role": "scaleup",
+      "what": "Gas fermentation (Carbalyst) converting steel offgas CO into ethanol \u2014 flagship Steelanol plant with ArcelorMittal Gent plus commercial JV plants with Shougang in China.",
+      "signal": "Steelanol (80 ML/yr) ramped with first ethanol barge December 2024, but severe financial distress: going-concern doubt, $40M Carbon Direct preferred (May 2025), 1-for-100 reverse split (Aug 2025), and a $0.02/share take-private proposal",
+      "status": "uncertain",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001843724/000162828025026378/lnzaex991-pressrelease1q25.htm"
+     },
+     {
+      "name": "ArcelorMittal",
+      "role": "incumbent",
+      "what": "Hosts the \u20ac200M Steelanol offgas-to-ethanol plant at Gent and the 3D/DMX amine capture pilot at Dunkirk on blast furnace gas.",
+      "signal": "Steelanol producing and shipping ethanol; ~125 ktpa CO2 reduction at Gent",
+      "status": "operating",
+      "source": "https://corporate.arcelormittal.com/media/news/non-regulatory-news/arcelormittal-and-lanzatech-announce-first-ethanol-samples-from-commercial-flagship-carbon-capture-and-utilisation-facility-in-ghent-belgium"
+     },
+     {
+      "name": "China Baowu",
+      "role": "incumbent",
+      "what": "World's largest steelmaker; its HyCROF hydrogen-enriched, top-gas-recycling oxygen blast furnace (with CO2 separation) is the leading BF retrofit demonstration, plus a 1 Mt hydrogen shaft furnace at Zhanjiang.",
+      "signal": "2,500 m3 HyCROF commercial demonstration at Bayi Steel operating since September 2023 with ~16-21% CO2 cuts (~1 Mtpa avoided); group-wide rollout could cut >40 Mtpa",
+      "status": "operating",
+      "source": "https://worldsteel.org/case-studies/environment/china-baowu-development-and-application-of-low-carbon-metallurgical-technology-based-on-hycrof/"
+     },
+     {
+      "name": "thyssenkrupp (Carbon2Chem)",
+      "role": "incumbent",
+      "what": "Carbon2Chem pilot at Duisburg converts steel-mill gases into methanol and ammonia with partners including Fraunhofer and Covestro.",
+      "signal": "Pilot operating since 2018 with German federal funding across two project phases",
+      "status": "operating",
+      "source": "https://www.thyssenkrupp.com"
+     },
+     {
+      "name": "Nippon Steel (COURSE50)",
+      "role": "incumbent",
+      "what": "COURSE50/Super COURSE50 program injects hydrogen into blast furnaces and captures CO2 from top gas, proven on a test blast furnace in Japan.",
+      "signal": "Test furnace demonstrated >30% CO2 reduction; deployment planned on commercial furnaces around 2030",
+      "status": "operating",
+      "source": "https://www.nipponsteel.com"
+     },
+     {
+      "name": "Carbon Clean",
+      "role": "scaleup",
+      "what": "Modular CycloneCC capture units small enough to retrofit inside steel plants \u2014 piloted on Tata Steel Jamshedpur blast furnace gas (5 tpd) since 2021.",
+      "signal": "Backed by Chevron, Samsung Ventures and CEMEX; >$190M raised; multiple industrial pilots",
+      "status": "operating",
+      "source": "https://www.carbonclean.com"
+     }
+    ],
+    "white_space": "Only one commercial-scale capture system exists on steel worldwide (Al Reyadah \u2014 and on clean DRI gas, not dirty dilute BF gas), because thin steel margins cannot absorb capture costs without strong carbon pricing. The opening is modular capture plus utilization on Asia's young blast-furnace fleet (Baowu's HyCROF shows incumbent appetite), while LanzaTech's distress is a warning that offgas-to-chemicals must work without subsidy."
+   },
+   {
+    "name": "Green aluminum: inert-anode smelting, low-carbon alumina refining, and low-carbon smelting/remelt",
+    "description": "Inert anodes replace the consumable carbon anodes that burn into CO2 and PFCs (emitting only oxygen), while electrified alumina refining and renewable-powered or recycled-feed smelters attack the rest of aluminum's ~2% share of global emissions.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "ELYSIS (Alcoa + Rio Tinto JV)",
+      "role": "scaleup",
+      "what": "JV (with Apple, Canada and Quebec backing) industrializing carbon-free inert-anode smelting cells.",
+      "signal": "First commercial-size 450 kA inert-anode cell started up at the Alma, Quebec smelter in November 2025 \u2014 a world first; demonstration plant under construction at Arvida",
+      "status": "operating",
+      "source": "https://elysis.com/en/elysis-achieves-breakthrough-with-commercial-size-cell-a-first-in-aluminium-production-using-the"
+     },
+     {
+      "name": "Rio Tinto",
+      "role": "incumbent",
+      "what": "Hosting and scaling ELYSIS cells at its hydro-powered Quebec smelters and leading construction of the Arvida inert-anode demonstration plant.",
+      "signal": "Alma 450 kA cell live November 2025; ELYSIS positioned as a core pillar of its aluminum decarbonization strategy",
+      "status": "operating",
+      "source": "https://www.riotinto.com/en/news/releases/2025/elysis-achieves-breakthrough-with-commercial-size-cell"
+     },
+     {
+      "name": "Alcoa",
+      "role": "incumbent",
+      "what": "ELYSIS co-founder and inventor of its base technology; also piloting mechanical vapor recompression (MVR) to electrify alumina refining in Australia and selling Sustana low-carbon products.",
+      "signal": "ELYSIS milestone reached 2025; MVR refinery pilot backed by Australian government funding",
+      "status": "operating",
+      "source": "https://www.alcoa.com"
+     },
+     {
+      "name": "Rusal",
+      "role": "incumbent",
+      "what": "Developed its own inert-anode cells at Krasnoyarsk producing aluminum with the world's lowest smelting footprint (<0.01 tCO2e/t scope 1-2), branded ALLOW INERTA.",
+      "signal": "Confirmed operational stability of inert-anode technology September 2025; commercial batches shipped to Chinese foil makers in 2025",
+      "status": "operating",
+      "source": "https://www.lightmetalage.com/news/industry-news/smelting/rusal-produces-low-carbon-aluminum-using-inert-anode-technology/"
+     },
+     {
+      "name": "Norsk Hydro",
+      "role": "incumbent",
+      "what": "Developing HalZero \u2014 a chloride-route, fully decarbonized smelting process emitting only oxygen \u2014 alongside commercial CIRCAL 100R recycled and REDUXA low-carbon aluminum lines.",
+      "signal": "HalZero process steps maturing at its Porsgrunn test center; industrial concept pilot targeted toward end of the decade",
+      "status": "operating",
+      "source": "https://www.hydro.com/en/global/sustainability/our-roadmap-to-net-zero-emissions-in-aluminium-production/halzero-zero-emission-electrolysis-from-hydro"
+     },
+     {
+      "name": "Emirates Global Aluminium",
+      "role": "incumbent",
+      "what": "CelestiAL \u2014 the first aluminum smelted commercially with solar power (via Dubai's grid solar park), supplied to BMW and other customers since 2021.",
+      "signal": "Tens of thousands of tonnes of CelestiAL sold annually; expanding US recycling/remelt footprint",
+      "status": "operating",
+      "source": "https://www.ega.ae"
+     }
+    ],
+    "white_space": "Inert anodes are a 40-year graveyard of failed attempts (anode materials corrode at ~960\u00b0C in cryolite), so only deep-pocketed incumbents and state champions play \u2014 there is essentially no startup presence in primary aluminum. The under-explored opening is low-carbon alumina refining (MVR, electric calcination), which is ~25% of aluminum's footprint and has almost no dedicated companies."
+   },
+   {
+    "name": "Other low-carbon structural metals: magnesium from brines, low-carbon titanium, green silicon/ferroalloys",
+    "description": "Electrolytic and hydrogen/biocarbon chemistry is applied to other energy-intensive structural metals \u2014 magnesium from seawater/brines instead of China's coal-fired Pidgeon process, titanium powder without the energy-hungry Kroll process, biocarbon-reduced silicon \u2014 cutting emissions and import dependence together.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Magrathea Metals",
+      "role": "startup",
+      "what": "Electrolytic magnesium from seawater and brines with a proprietary low-cost dehydration step, claiming ~50% lower capex per tonne than competing routes.",
+      "signal": ">$100M total backing as of May 2026, including a $24M Series A (March 2026) and $19.6M from the US Department of Defense; pilot foundry operating; JV term sheet with TETRA Technologies for an Arkansas magnesium plant (Nov 2025)",
+      "status": "operating",
+      "source": "https://www.magratheametals.com/news/100million"
+     },
+     {
+      "name": "US Magnesium",
+      "role": "incumbent",
+      "what": "Was North America's only primary magnesium producer (Great Salt Lake brines, Utah) before halting production and collapsing.",
+      "signal": "Filed for bankruptcy September 2025 with the plant shuttered and no clear restart path \u2014 leaving the US with zero primary magnesium output",
+      "status": "bankrupt-shutdown",
+      "source": "https://grist.org/business/us-magnesium-shutdown-supply-chain-mineral/"
+     },
+     {
+      "name": "Latrobe Magnesium",
+      "role": "startup",
+      "what": "ASX-listed company extracting magnesium from brown-coal fly ash via a hydromet/thermal-reduction process in Victoria, Australia.",
+      "signal": "1,000 tpa demonstration plant commissioned September 2025 (~A$70M spent); production temporarily halted by an equipment defect; raised A$10M and pursuing US government support for a 10,000 tpa stage 2",
+      "status": "operating",
+      "source": "https://latrobevalleyexpress.com.au/news/2025/12/09/us-backing-to-make-latrobe-great-again/"
+     },
+     {
+      "name": "IperionX",
+      "role": "scaleup",
+      "what": "Produces titanium powder and parts from scrap and minerals in Virginia using the low-energy HAMR/HSPT processes (licensed from Univ. of Utah), bypassing the Kroll process.",
+      "signal": "NASDAQ-listed; 200 tpa powder capacity online in 2025 (up 60% without new capex), seven-fold scale-up to 1,400 tpa planned for 2027; $47.1M US DoD IBAS award fully obligated; EBITDA-positive inflection targeted end-2026",
+      "status": "operating",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001898601/000114036126002866/ef20064210_ex99-1.htm"
+     },
+     {
+      "name": "Metalysis",
+      "role": "startup",
+      "what": "UK company using the solid-state FFC Cambridge electrolytic process to make titanium and alloy powders directly from oxides without Kroll.",
+      "signal": "Bought out of administration in 2019 by Power Resources Group; continues niche powder production \u2014 a cautionary tale on scaling novel metal electrolysis",
+      "status": "acquired",
+      "source": "https://www.metalysis.com"
+     },
+     {
+      "name": "Elkem",
+      "role": "incumbent",
+      "what": "Norwegian silicon/ferrosilicon leader systematically substituting fossil coal with biocarbon in its smelting furnaces, targeting ~50% biocarbon in Norway.",
+      "signal": "Biocarbon used at industrial scale across Norwegian and Brazilian plants; pilot biocarbon production facilities operating",
+      "status": "operating",
+      "source": "https://www.elkem.com"
+     },
+     {
+      "name": "Ferroglobe",
+      "role": "incumbent",
+      "what": "Largest western silicon-metal and ferroalloy producer marketing lower-carbon silicon (hydropower-heavy assets, partial biocarbon) for solar and battery supply chains.",
+      "signal": "NASDAQ-listed incumbent positioned as the non-Chinese low-carbon silicon source amid US/EU trade measures",
+      "status": "operating",
+      "source": "https://www.ferroglobe.com"
+     }
+    ],
+    "white_space": "China produces ~90% of world magnesium via coal-fired Pidgeon retorts, and the 2025 US Magnesium bankruptcy erased North America's only primary supply \u2014 a wide-open, DoD-subsidized lane for electrolytic brine magnesium where Magrathea is nearly alone. The same import-dependence logic (and Kroll-process energy intensity) keeps low-carbon titanium underpopulated despite IperionX's traction."
+   }
+  ],
+  "sources": [
+   "https://stegra.com/en/news-and-stories/stegra-has-agreed-in-principle-on-a-14-billion-financing-round",
+   "https://www.canarymedia.com/articles/green-steel/stegra-funding-complete-mill",
+   "https://www.gem.wiki/ThyssenKrupp_Steel_Duisburg_steel_plant",
+   "https://www.recyclingtoday.com/news/hydrogen-power-steel-cliffs-arcelormittal-projects-canceled-2025/",
+   "https://gmk.center/en/news/cleveland-cliffs-cancels-hydrogen-based-steel-project-in-ohio/",
+   "https://www.gravithy.eu/gravithy-raises-e60-million-to-accelerate-steel-industry-decarbonization/",
+   "https://www.gem.wiki/Jindal_Shadeed_Iron_&_Steel_Duqm_plant",
+   "https://www.bhp.com/news/media-centre/releases/2025/10/bhp-and-posco-partner-to-advance-hydrogen-based-ironmaking-technology",
+   "https://eurometal.net/salzgitter-delays-green-steel-plan-amid-economic-regulatory-headwinds/",
+   "https://www.globenewswire.com/news-release/2025/03/12/3041404/0/en/Boston-Metal-Commissions-Industrial-Scale-Cell-in-Crucial-Green-Steel-Milestone.html",
+   "https://www.canarymedia.com/articles/green-steel/electra-clean-iron-investment-electrowinning",
+   "https://johncockerill.com/en/press-and-news/news/arcelormittal-john-cockerill-announce-volteron/",
+   "https://www.mining.com/fortescue-ends-bitter-green-iron-battle-with-element-zero/",
+   "https://www.businesswire.com/news/home/20250722728868/en/Hertha-Metals-Unveils-Breakthrough-Process-to-Accelerate-American-Made-Steel-and-High-Purity-Iron-Production",
+   "https://www.canarymedia.com/articles/green-steel/us-awards-28m-for-cutting-edge-tech-to-clean-up-iron-and-steel",
+   "https://www.esgtoday.com/rio-tinto-invests-23-million-in-green-iron-plant-pauses-bioiron-project/",
+   "https://www.miningweekly.com/article/rio-tinto-pauses-bioiron-partners-on-new-low-emissions-steel-pilot-2025-11-17",
+   "https://www.voestalpine.com/group/en/media/press-releases/2025-07-29-voestalpine-hy4smelt-construction-on-Austrias-largest-climate-action-research-project-starts-at-the-voestalpine-site-in-Linz/",
+   "https://www.primetals.com/en/news/2025083472-construction-begins-on-hydrogen-based-ironmaking-plant-in-linz-austria/",
+   "https://www.riotinto.com/en/news/releases/2025/neosmelt-welcomes-federal-government-support-and-signs-two-new-participants-for-groundbreaking-steel-decarbonisation-project",
+   "https://www.gem.wiki/Fortescue_Christmas_Creek_Green_Metal_Project",
+   "https://sustainablebrands.com/read/helios-solution-decarbonizing-steelmaking",
+   "https://www.spglobal.com/commodityinsights/en/market-insights/latest-news/agriculture/032521-brazils-avb-receives-carbon-neutral-steel-certificate",
+   "https://www.recyclingtoday.com/news/hyundai-kia-steel-mill-louisiana-danieli-technology-land-purchase-development-award/",
+   "https://www.letsrecycle.com/news/tata-steel-begins-construction-on-1-25bn-port-talbot-eaf/",
+   "https://www.gem.wiki/British_Steel_Scunthorpe_plant",
+   "https://www.minister.industry.gov.au/ministers/timayres/media-releases/final-bidders-shortlisted-sale-whyalla-steelworks",
+   "https://www.prnewswire.com/news-releases/hybar-produces-its-first-steel-rebar-302470801.html",
+   "https://worldsteel.org/case-studies/environment/china-baowu-development-and-application-of-low-carbon-metallurgical-technology-based-on-hycrof/",
+   "https://www.sec.gov/Archives/edgar/data/0001843724/000162828025026378/lnzaex991-pressrelease1q25.htm",
+   "https://elysis.com/en/elysis-achieves-breakthrough-with-commercial-size-cell-a-first-in-aluminium-production-using-the",
+   "https://www.lightmetalage.com/news/industry-news/smelting/rusal-produces-low-carbon-aluminum-using-inert-anode-technology/",
+   "https://www.hydro.com/en/global/sustainability/our-roadmap-to-net-zero-emissions-in-aluminium-production/halzero-zero-emission-electrolysis-from-hydro",
+   "https://www.magratheametals.com/news/100million",
+   "https://grist.org/business/us-magnesium-shutdown-supply-chain-mineral/",
+   "https://cen.acs.org/materials/Start-ups-advance-US-magnesium/103/web/2025/12",
+   "https://latrobevalleyexpress.com.au/news/2025/12/09/us-backing-to-make-latrobe-great-again/",
+   "https://www.sec.gov/Archives/edgar/data/0001898601/000114036126002866/ef20064210_ex99-1.htm",
+   "https://www.gem.wiki/SSAB_Lule%C3%A5_steel_plant"
+  ]
+ }
+}

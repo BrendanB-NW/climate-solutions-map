@@ -1,0 +1,143 @@
+{
+ "buckets": [
+  {
+   "name": "Air-Source Heat Pumps & Electrified HVAC",
+   "scope": "Air-source heat pump and electrified space-conditioning hardware for homes and commercial buildings, including novel cooling cycles (ground-source and district-scale covered separately)",
+   "variations": [
+    "central ducted & mini-split air-source heat pumps \u2014 incumbents (Daikin, Mitsubishi Electric, Carrier, Trane, Lennox, Midea, Gree) plus integrated-design challengers (Quilt) and hybrid/dual-fuel configurations",
+    "air-to-water hydronic heat pumps for radiator/underfloor systems (Vaillant, Viessmann, NIBE, Bosch, Aira)",
+    "cold-climate heat pumps engineered for sub-zero performance (DOE Cold Climate Heat Pump Challenge entrants, Mitsubishi Hyper-Heat class units)",
+    "window, room, and portable/packaged heat pumps incl. saddle-style 120V units for apartments (Gradient, Friedrich, NYCHA Clean Heat for All entrants)",
+    "commercial rooftop unit (RTU) heat pumps and VRF/VRV systems for light commercial and large buildings (AAON, Daikin VRV, LG Multi V)",
+    "high-temperature heat pumps for boiler and steam-system replacement in hydronic retrofits without radiator swaps",
+    "natural- and low-GWP-refrigerant heat pumps (R290 propane monoblocs, CO2/R744 systems, R32/R454B transitions)",
+    "thermally driven and gas-absorption heat pumps (Stone Mountain Technologies) \u2014 transitional niche",
+    "solid-state and caloric heating/cooling: thermoelectric (Phononic), elastocaloric, magnetocaloric (Magnotherm), barocaloric (Pascal), thermoacoustic (Blue Heart Energy, Equium)",
+    "ultra-efficient AC and dehumidification \u2014 liquid/solid desiccant and evaporative-hybrid cycles (Blue Frontier, Transaera, Montana Technologies AirJoule, Mojave Energy Systems) plus high-efficiency HVAC components (Turntide motors, Danfoss Turbocor compressors)"
+   ]
+  },
+  {
+   "name": "Geothermal, Thermal Networks & District Energy",
+   "scope": "Ground-source heat pumps, networked/community geothermal and utility thermal energy networks, and district heating & cooling infrastructure including waste-heat reuse and seasonal storage",
+   "variations": [
+    "single-building ground-source heat pump equipment (WaterFurnace, ClimateMaster, Bosch, NIBE)",
+    "residential geothermal developers and drilling cost-reduction plays (Dandelion Energy)",
+    "advanced boreholes and commercial-scale geo-exchange (Bedrock Energy, Celsius Energy, Darcy Solutions, Brightcore Energy)",
+    "networked geothermal / utility-owned thermal energy networks (Eversource and National Grid pilots, HEET-model projects, NY/MA TEN legislation ecosystem)",
+    "district heating development and modernization incl. 4th/5th-generation low-temperature networks (Vattenfall, Fortum) and components/metering (Danfoss, Kamstrup)",
+    "district cooling providers and developers (Tabreed, Empower)",
+    "large-scale heat pumps and mechanical-vapor-recompression units feeding district systems (MAN Energy Solutions, Siemens Energy, GEA, Star Refrigeration)",
+    "waste-heat reuse into buildings and networks \u2014 data-center heat (Deep Green, Qarnot, Heata), sewage/wastewater heat recovery (SHARC Energy), industrial heat offtake",
+    "seasonal and underground thermal storage: aquifer (ATES), borehole (BTES), pit storage, and sand/rock heat batteries for district heat (Polar Night Energy)",
+    "solar thermal district heating and geothermal direct-use heating (Aalborg CSP, Savosolar)"
+   ]
+  },
+  {
+   "name": "Water Heating & Appliance Electrification",
+   "scope": "Electrified water heating and gas-replacing residential/commercial appliances, including hot-water efficiency",
+   "variations": [
+    "unitary 240V heat pump water heaters (Rheem, A.O. Smith, Bradford White, Stiebel Eltron)",
+    "120V plug-in and low-amperage HPWHs for no-rewire retrofits",
+    "split-system and CO2-refrigerant HPWHs (SANCO2/ECO2 Systems, Reclaim Energy)",
+    "smart and grid-interactive water heaters, connected tanks and intelligent controls (Cala Systems, Aquanta, Shifted Energy, Mixergy)",
+    "combined space + water heating heat pump systems with integrated thermal storage (Harvest Thermal)",
+    "drain-water heat recovery (EcoDrain, RenewABILITY Power-Pipe)",
+    "solar thermal and PV-diversion water heating (myenergi eddi class diverters)",
+    "hot-water efficiency: low-flow fixtures, demand recirculation controls, leak/flow monitoring (Moen Flo, Phyn, Flume)",
+    "induction and battery-integrated cooking (Impulse Labs, Copper, incumbent induction lines; commercial kitchen induction)",
+    "heat pump clothes dryers and combo washer-dryers, plus commercial laundry and heat-pump pool heater electrification"
+   ]
+  },
+  {
+   "name": "Building Envelope: Insulation, Air Sealing & Roofs",
+   "scope": "Opaque-envelope demand reduction \u2014 all insulation materials including low-carbon/bio-based, air sealing, weatherization tech, and roof systems",
+   "variations": [
+    "cellulose and recycled-content insulation (Greenfiber, CleanFiber, Bonded Logic recycled denim)",
+    "wood-fiber insulation (TimberHP/GO Lab, Steico, Gutex)",
+    "hemp, straw, mycelium, sheep's wool and other bio-based insulation (Hempitecture, EcoCocon, Biohm, Havelock Wool)",
+    "aerogel and vacuum-insulated panels for space-constrained retrofits (Aspen Aerogels, Kingspan OPTIM-R)",
+    "low-GWP spray foams (HFO-blown) and foam alternatives for cavity fill",
+    "air-sealing technology \u2014 aerosolized envelope/duct sealing (Aeroseal) and membrane/tape systems (SIGA, Pro Clima)",
+    "weatherization diagnostics and tooling: blower doors, duct testers, IR imaging (Retrotec, The Energy Conservatory)",
+    "exterior continuous insulation and overclad systems for walls and roofs",
+    "cool roofs, radiative-cooling coatings and films (SkyCool Systems, i2Cool, GAF cool roofing, ultra-white paints)",
+    "green roofs and vegetated envelopes (ZinCo, Sempergreen, Omni Ecosystems)"
+   ]
+  },
+  {
+   "name": "Windows, Glazing & Solar Control",
+   "scope": "Fenestration efficiency \u2014 high-performance windows and frames, advanced glazing, retrofit attachments, shading, and daylighting",
+   "variations": [
+    "triple-pane and passive-house-grade windows and frames (Alpen High Performance Products, Zola, Internorm, Schuco)",
+    "vacuum-insulated glazing (LuxWall, Fineo/AGC, V-Glass, NSG/Pilkington, Panasonic)",
+    "electrochromic/dynamic smart glass (View, SageGlass, Halio, Tynt, Miru, Glass Dyenamics)",
+    "thermochromic and other passive-dynamic glazing (Suntuitive)",
+    "window inserts, secondary glazing and low-e storm windows (Indow, Magnetite, QuantaPanel)",
+    "solar-control and low-e retrofit window films (3M, Eastman LLumar)",
+    "transparent photovoltaic and energy-harvesting glazing (Ubiquitous Energy, ClearVue) \u2014 niche",
+    "automated exterior shading, screens and dynamic facades (incl. PV blinds like SolarGaps)",
+    "daylighting systems: tubular skylights and diffusing panels (Solatube, Kalwall)"
+   ]
+  },
+  {
+   "name": "Retrofit Delivery, Electrification Platforms & Financing",
+   "scope": "The delivery and capital layer \u2014 deep retrofit-as-a-service, whole-home electrification installers/platforms, contractor software, financing, incentives, and workforce",
+   "variations": [
+    "panelized/prefabricated deep energy retrofit (Energiesprong-model providers, RetrofitNY vendors, facade-integrated HVAC like Hydronic Shell, robotic underfloor insulation like Q-Bot)",
+    "whole-home electrification platforms and tech-enabled installers (Elephant Energy, QuitCarbon, Zero Homes, Sealed-style models; Europe: Aira, Enpal, 1KOMMA5)",
+    "HVAC contractor software and installer enablement: load calculation, design, sales (Conduit Tech, heat-load modeling tools)",
+    "heat-as-a-service and subscription comfort business models",
+    "efficiency-as-a-service and next-generation ESCOs for commercial portfolios (Redaptive, Budderfly, Metrus Energy, Sparkfund)",
+    "retrofit financing: residential/commercial PACE, on-bill and tariffed financing, green home-improvement lending (GoodLeap, Mosaic, PACE Equity, Inclusive Prosperity Capital)",
+    "incentive navigation and rebate processing software (Rewiring America calculator ecosystem, IRA/HEEHRA rebate platforms)",
+    "digital energy audits, benchmarking and retrofit planning software (Snugg Pro, Audette, Ekotrope, Measurabl-class portfolio carbon analytics)",
+    "multifamily/commercial retrofit program delivery and building-performance-standard compliance services (BlocPower, Bright Power, Logical Buildings; NYC LL97/Boston BERDO compliance)",
+    "electrification workforce training and contractor staffing tech (Interplay Learning, BlueRecruit)"
+   ]
+  },
+  {
+   "name": "Smart Controls, Demand Flexibility & Thermal Storage",
+   "scope": "Controls and grid-interactive operation \u2014 thermostats, HEMS, smart panels, AI building optimization, demand response/VPPs, behind-the-meter thermal storage, ventilation and lighting controls",
+   "variations": [
+    "smart thermostats and home energy management systems (ecobee, Google Nest, Mysa, Tado, Sensibo; whole-home orchestration via Savant, Schneider Home)",
+    "smart electrical panels and circuit-level control (SPAN, Lumin, Savant Power, Eaton)",
+    "meter collars and panel-upgrade-avoidance hardware enabling electrification on existing service (ConnectDER, NeoCharge, SimpleSwitch)",
+    "residential demand response and VPP aggregation platforms (Renew Home, EnergyHub, Virtual Peaker, Leap)",
+    "commercial AI building management and HVAC optimization (BrainBox AI, 75F, PassiveLogic, BuildingIQ heritage; steam/multifamily controls like Runwise, Parity)",
+    "fault detection & diagnostics, submetering and energy analytics (Clockworks Analytics, Verdigris, Sense, Emporia)",
+    "C&I demand response and flexibility market access (Voltus, CPower, Enel X, building-to-grid platforms like Blueprint Power)",
+    "behind-the-meter thermal energy storage for load shifting: ice storage (Nostromo, Trane/CALMAC), phase-change heat batteries (Sunamp, Phase Change Energy Solutions)",
+    "smart ventilation, HRV/ERV and IAQ-driven HVAC load reduction (Zehnder, enVerid sorbent air cleaning)",
+    "lighting and plug-load controls incl. networked LED systems (Lutron, Legrand, occupancy-driven controls)"
+   ]
+  },
+  {
+   "name": "Low-Carbon Structural Materials & Industrialized Construction",
+   "scope": "Low-carbon and carbon-storing structural materials and construction methods for buildings, plus embodied-carbon tooling (cement/steel production itself sits in the Industry sector)",
+   "variations": [
+    "mass timber manufacturing \u2014 CLT, glulam, DLT/NLT (Stora Enso, Binderholz, KLH, Mercer Mass Timber, SmartLam, Sterling Structural, Element5)",
+    "mass timber design-build, fabricators and developers (Timberlab, intelligent City, tall-timber project developers)",
+    "engineered bamboo and fast-growing-fiber structural products (BamCore, Rizome, ReNuTeq)",
+    "carbon-storing and bio-based boards, blocks and finishes \u2014 agricultural-fiber panels (Plantd), low-carbon plasterboard (Adaptavate), hempcrete blocks (IsoHemp, JustBioFiber)",
+    "prefab/modular low-energy construction and SIP systems (Vantem, Plant Prefab, Module, Cuby, Assembly OSM, Juno)",
+    "3D-printed and robotic construction with low-carbon material claims (ICON, Mighty Buildings, Alquist 3D)",
+    "passive-house components and certified high-performance assemblies (475 High Performance Building Supply, Phius/PHI component ecosystem)",
+    "embodied-carbon measurement, EPDs and low-carbon procurement software (Building Transparency EC3, One Click LCA, Tangible, Preoptima, cove.tool)",
+    "deconstruction, material reuse and circular-construction marketplaces (Rheaply, salvage/reclaimed structural material platforms)"
+   ]
+  },
+  {
+   "name": "Refrigerants & Commercial Refrigeration",
+   "scope": "Refrigerant transition and lifecycle management plus refrigeration-system efficiency in buildings (Project Drawdown's top-ranked solution area)",
+   "variations": [
+    "low-GWP refrigerant chemistry and production (Chemours Opteon, Honeywell Solstice, Koura)",
+    "natural-refrigerant equipment: CO2 transcritical racks, R290 self-contained cases, ammonia systems (Advansor, Hillphoenix, Copeland components)",
+    "refrigerant recovery, reclamation and destruction incl. carbon-credit-financed models (Tradewater, Recoolit, A-Gas, Hudson Technologies)",
+    "refrigerant leak detection and monitoring hardware (MSA Bacharach, Parasense-class systems)",
+    "refrigerant compliance and lifecycle management software (Trakref-class platforms for AIM Act/F-gas rules)",
+    "grocery and building refrigeration optimization \u2014 AI monitoring/controls, case doors and anti-sweat management (Axiom Cloud, GlacierGrid/Therma)",
+    "solid-state and novel-cycle refrigeration for merchandisers and cold cases (Phononic)"
+   ]
+  }
+ ]
+}

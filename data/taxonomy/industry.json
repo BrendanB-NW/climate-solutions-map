@@ -1,0 +1,147 @@
+{
+ "buckets": [
+  {
+   "name": "Green Iron, Steel & Metals",
+   "scope": "Production-side decarbonization of iron, steel, aluminum, and other structural metals (scrap sorting/recovery tech is censused in Battery & Materials Recycling)",
+   "variations": [
+    "hydrogen direct reduced iron (H2-DRI) plants and green iron/HBI developers (Stegra, HYBRIT/SSAB, tkH2Steel, GravitHy, POSCO HyREX fluidized-bed, Vulcan Green Steel)",
+    "molten oxide electrolysis of iron ore (Boston Metal)",
+    "low-temperature aqueous/electrochemical ironmaking and iron electrowinning (Electra, ArcelorMittal Volteron/Siderwin)",
+    "flash and single-step novel ironmaking reactors (Univ. of Utah flash ironmaking lineage, Hertha Metals, laser/novel-furnace concepts like Limelight Steel)",
+    "hydrogen plasma and smelting reduction (voestalpine SuSteel, HIsarna-type)",
+    "alternative chemical reduction routes: sodium-cycle ironmaking (Helios), biocarbon/biochar and bio-syngas reductants",
+    "scrap-EAF steelmaking expansion and DRI-EAF hybrid clean steel mills",
+    "CCUS retrofits on BF-BOF, top-gas recycling, and steel offgas-to-product (e.g., Carbalyst-type gas fermentation tie-ins)",
+    "green aluminum: inert-anode smelting (ELYSIS), low-carbon alumina refining (MVR/electric calcination), low-carbon anodes and remelt expansion",
+    "other low-carbon metals production: magnesium from seawater brines (Magrathea), green silicon/ferroalloys, low-carbon titanium (IperionX)"
+   ]
+  },
+  {
+   "name": "Low-Carbon Cement & Concrete",
+   "scope": "Binders, clinker production, kiln tech, CO2 curing/mineralization in building materials, and concrete-chain software (CO2-to-chemicals belongs to Green Chemicals bucket)",
+   "variations": [
+    "clinker substitution and engineered SCMs: calcined clays/LC3, natural pozzolans, ground glass, ag-ashes, tailings/clay-derived SCMs (Terra CO2, Material Evolution, Queens Carbon, Carbon Upcycling, Ecocem ACT)",
+    "non-Portland and alternative binder chemistries: geopolymers/alkali-activated, CSA, magnesium-based, brine-based (Partanna), cement-free pours (C-Crete), Brimstone silicate-rock OPC",
+    "electrochemical and low-temperature cement/lime synthesis (Sublime Systems, Chement)",
+    "biogenic and microbial cements (Biomason, Prometheus Materials)",
+    "kiln decarbonization hardware: electric kilns/calciners, solar calcination (Synhelion-Cemex, Heliogen), oxyfuel kilns, micro-modular kilns (Furno, Coolbrook)",
+    "CCUS on cement and lime plants: indirect calcination capture (Leilac/Calix), amine post-combustion (Brevik CCS), cryogenic and oxyfuel capture",
+    "CO2 mineralization and curing: in-mix injection (CarbonCure), flue-gas-cured concrete (CarbonBuilt, Solidia), carbonated recycled aggregates (Neustark, Carbonaide), reactive calcium carbonate cement (Fortera), olivine-to-SCM (Paebbl, Seratech), synthetic limestone aggregate (Blue Planet)",
+    "recycled cement and concrete circularity: EAF-route recycled clinker (Cambridge Electric Cement), smart crushing and recycled fines reactivation",
+    "performance additives and cement-reducing admixtures: graphene (Concretene), nano-silica, high-SCM-enabling chemistries, self-healing concrete",
+    "concrete AI/QC, EPDs, and low-carbon procurement software/marketplaces (Alcemy, Concrete.ai, Giatec)"
+   ]
+  },
+  {
+   "name": "Clean Hydrogen Production",
+   "scope": "All routes to low-emissions hydrogen: every electrolyzer class plus stack components, methane pyrolysis, geologic, blue-with-CCS, and biological/photo/waste routes",
+   "variations": [
+    "alkaline electrolyzers incl. pressurized and advanced-membrane designs (thyssenkrupp Nucera, John Cockerill, Verdagy, Stargate Hydrogen, Chinese OEMs like PERIC/LONGi/Sungrow)",
+    "PEM electrolyzers (Electric Hydrogen, ITM Power, Plug, Siemens Energy, Ohmium, Hystar thin-membrane)",
+    "solid oxide and proton-conducting ceramic electrolyzers, incl. industrial-steam- and nuclear-coupled HTE (Topsoe, Sunfire, Bloom, Ceres, FuelCell Energy)",
+    "AEM electrolyzers (Enapter, EvolOH, Versogen, Cipher Neutron)",
+    "novel electrolysis architectures: capillary-fed (Hysata), decoupled E-TAC (H2Pro), membraneless/high-pressure and supercritical (Supercritical Solutions), intermediate-temperature water vapor (Advanced Ionics), direct seawater electrolysis (sHYp)",
+    "electrolyzer components and supply chain: membranes/ionomers (Ionomr), PGM-thrifted and PGM-free catalysts, porous transport layers, bipolar plates, stack manufacturing equipment",
+    "methane pyrolysis (turquoise): plasma (Monolith, Plenesys, Sakowin), thermo-catalytic (Hazer, Molten Industries with graphite co-product), molten-media (C-Zero), microwave (Aurora Hydrogen), pulsed combustion (Ekona), distributed at-the-burner (Modern Hydrogen)",
+    "natural/geologic hydrogen: exploration (Koloma, Snowfox Discovery, Mantle8, HyTerra, Gold Hydrogen) and stimulated/orange hydrogen incl. subsurface microbial gold hydrogen (Eden GeoPower, Cemvita)",
+    "blue hydrogen with CCS and novel reforming: ATR/POX with capture, sorption-enhanced reforming, oxy-combustion (8 Rivers 8RH2), electricity-free solid-oxide gas conversion (Utility Global), in-situ subsurface gasification with downhole membranes (Proton Technologies)",
+    "biological, photo-, and waste-route hydrogen: biomass/waste gasification (SGH2, Raven SR, Boson), dark fermentation and microbial electrolysis (HydGene, Electro-Active), photocatalytic/photoelectrochemical (Sparc Hydrogen, SunHydrogen), solar thermochemical cycles, aluminum-water reaction (Found Energy)"
+   ]
+  },
+  {
+   "name": "Green Ammonia & Fertilizers",
+   "scope": "Nitrogen fixation and fertilizer decarbonization, from gigascale green ammonia to modular, electrochemical, plasma, and biological routes, plus ammonia-as-carrier and non-nitrogen fertilizer processing",
+   "variations": [
+    "gigascale green ammonia (electrolytic H2 + Haber-Bosch) project developers and offtake hubs (NEOM/ACWA, Yara, CF Industries, OCI, Indian/Australian megaprojects)",
+    "modular and distributed ammonia synthesis with relaxed Haber-Bosch conditions (Talus Renewables, Starfire Energy, Ammobia, Tsubame BHB electride catalysts, Nium)",
+    "electrochemical and lithium-mediated nitrogen reduction to ammonia (Jupiter Ionics, NitroFix, Atmonia)",
+    "plasma nitrogen fixation and on-farm nitrate production (Nitricity, N2 Applied, VitalFluid)",
+    "biological nitrogen fixation displacing synthetic N (Pivot Bio, Kula Bio, Switch Bioworks)",
+    "blue ammonia with CCS (retrofit and new-build)",
+    "N2O abatement catalysts and low-carbon nitric acid for fertilizer/acid plants",
+    "green urea and alternative nitrogen products (CO2-to-urea with captured carbon, green ammonium nitrate, chlorine-free KNO3)",
+    "ammonia cracking and ammonia-as-hydrogen-carrier technologies (Amogy, H2SITE membrane reactors, large-scale crackers)",
+    "low-carbon phosphate and potash processing and recovered-nutrient fertilizers (struvite recovery, phosphogypsum valorization)"
+   ]
+  },
+  {
+   "name": "Green Chemicals & Bio/CO2-Based Materials",
+   "scope": "Virgin chemical, solvent, and polymer production from biomass, CO2, waste gases, and electrochemistry (end-of-life recycling is censused in Plastics & Polymer Circularity)",
+   "variations": [
+    "fermentation and synbio platform chemicals from sugars (Geno/Genomatica BDO, Visolis, ZymoChem, Cathay Biotech)",
+    "chemo-enzymatic and cell-free biomanufacturing (Solugen Bioforge)",
+    "waste-gas fermentation: CO/CO2-to-ethanol, acetate, proteins-for-chemicals (LanzaTech, Again, Circe Bioscience)",
+    "CO2 electrolysis to CO, syngas, formate/formic acid, ethylene (Twelve, Dioxycle, OCOchem, CERT Systems, Avantium Volta, Oxylus)",
+    "thermocatalytic CO2 hydrogenation and e-methanol plants (Carbon Recycling International, European Energy Kass\u00f8, Liquid Wind)",
+    "CO2- and methane-derived polymers: PHB from methane (Newlight, Mango Materials), CO2-polyols and polycarbonates (Econic, Covestro)",
+    "bio-based polymers and monomers: PLA (NatureWorks, Futerro), PHA (Danimer, RWDC), PEF (Avantium), bio-PE/bio-naphtha (Braskem), furanics (Origin Materials)",
+    "lignin and wood-derived chemicals and materials (Stora Enso Lineo, UPM Leuna biorefinery, Lignin Industries, Bloom Biorenewables)",
+    "green surfactants, solvents, and specialty ingredients incl. on-site electrochemical H2O2 (Sironix, Holiferm, Locus PI, HPNow)",
+    "electrified synthesis beyond CO2 and catalyst-discovery platforms (electro-organic synthesis, Mattiq, Sunthetics)"
+   ]
+  },
+  {
+   "name": "Plastics & Polymer Circularity",
+   "scope": "End-of-life recycling and upcycling of plastics, textiles, tires, and composites: enzymatic, chemical, thermal, dissolution, and AI-sorting approaches",
+   "variations": [
+    "enzymatic depolymerization of PET, nylon, and polyolefins (Carbios, Samsara Eco, Protein Evolution, Epoch Biodesign, Birch Biosciences)",
+    "chemical depolymerization of condensation polymers: methanolysis (Eastman, Loop), glycolysis (revalyu), microwave-assisted hydrolysis (Gr3n), room-temperature PET (DePoly), PMMA and polyurethane chemolysis",
+    "pyrolysis and catalytic cracking of mixed polyolefins (Plastic Energy, Alterra, Nexus Circular, Freepoint, microwave pyrolysis: Resynergi, Pyrowave)",
+    "hydrothermal and supercritical-water recycling (Mura HydroPRS, Licella Cat-HTR, Aduro hydrochemolytic)",
+    "dissolution and purification recycling without depolymerization (PureCycle PP, Polystyvert PS, multilayer-film delamination like APK)",
+    "polyolefin upcycling to higher-value products (Novoloop PE-to-TPU, waste-plastic-to-surfactants/waxes)",
+    "textile fiber-to-fiber recycling (Circ, Ambercycle, Syre, Circulose, Eeden)",
+    "tire, thermoset, and composite recycling: recovered carbon black (Bolder Industries), devulcanization (Tyromer), carbon fiber reclamation (Fairmat, Vartega), wind-blade-adjacent epoxy chemolysis for industrial composites",
+    "AI/robotic sorting, markers, and feedstock prep (Greyparrot, Glacier, AMP, Digimarc and Polytag watermarking, NIR/hyperspectral sorters)"
+   ]
+  },
+  {
+   "name": "Industrial Heat & Process Electrification",
+   "scope": "Cross-industry process heat decarbonization and efficiency: thermal storage, heat pumps, electric heating and furnaces, solar and geothermal heat, waste-heat recovery, and optimization software",
+   "variations": [
+    "solid-media heat batteries delivering steam/hot air (Rondo brick, Antora carbon block + TPV, Kraftblock, MGA Thermal, Brenmiller, Electrified Thermal e-bricks, Polar Night sand, Magaldi fluidized sand)",
+    "molten-salt, molten-hydroxide, and phase-change industrial heat storage (Kyoto Group Heatcube, Hyme, EnergyNest concrete)",
+    "industrial and steam-generating heat pumps, MVR/steam recompression, and chemical heat transformers (AtmosZero, Heaten, Olvondo HighLift, Skyven Arcturus, Qpinch)",
+    "electric resistance and electrode boilers for process steam (PARAT, Vapor Power, hybrid grid-interactive boilers)",
+    "advanced electric heating: induction, infrared, microwave, plasma torches, e-beam, and shock-wave/rotodynamic heaters (Coolbrook RDR, Tetronics)",
+    "electrified steam crackers, calciners, glass and metal furnaces (BASF-SABIC-Linde e-cracker, electric glass melters)",
+    "concentrated solar industrial heat and steam (GlassPoint, Absolicon, Naked Energy, TVP Solar, Sunvapor, Azteq)",
+    "geothermal direct-use heat for industrial and district process loads",
+    "waste-heat recovery and upgrading: sCO2 and ORC power, thermoacoustic and thermoelectric conversion (Echogen, Climeon)",
+    "fuel-flexible decarbonized combustion and efficiency software/hardware: hydrogen-ready and biogas burners, oxyfuel, AI process control (Imubit, Phaidra, Gradyent), high-efficiency motors and drives (Infinitum, Turntide)"
+   ]
+  },
+  {
+   "name": "Critical Minerals Extraction & Refining",
+   "scope": "Primary supply of transition minerals \u2014 lithium, copper, nickel/cobalt, rare earths, graphite \u2014 across extraction, separation, refining, exploration, substitution, and low-impact mining",
+   "variations": [
+    "direct lithium extraction in all flavors: sorbent/ion-exchange (Lilac, Vulcan A-DLE), membrane (EnergyX, Summit Nanotech), solvent (Adionics), electrochemical/electrodialysis (Lithios, ElectraLith) plus geothermal and oilfield brine co-production (Vulcan, CTR)",
+    "lithium from clay and unconventional hard-rock processing (Thacker Pass-style leaching, low-energy spodumene conversion)",
+    "copper innovations: catalytic chalcopyrite heap leaching (Jetti, Ceibo), electrochemical reduction (Still Bright), in-situ copper recovery",
+    "nickel and cobalt supply tech: cleaner HPAL and tailings handling, bioleaching (Endolith), polymetallic seabed nodules (The Metals Company, Impossible Metals selective harvesting)",
+    "rare earth mining and novel separation: chromatography (ReElement), RapidSX (Ucore), solvent-free and biosorption separation, allied heavy-REE projects",
+    "critical-material substitution: rare-earth-free magnets (Niron iron nitride, Materials Nexus AI-designed alloys), cobalt-free and PGM-thrifted materials",
+    "battery-grade refining and midstream conversion: electrochemical lithium hydroxide (Mangrove), reagent regeneration (Aepnus), HPMSM, synthetic and bio-based graphite (Novonix, Anovion, CarbonScape, Graphjet), microwave-plasma materials (6K)",
+    "tailings and mine-waste reprocessing for metals recovery (Phoenix Tailings, Regeneration)",
+    "AI-driven exploration, geophysics, and drilling automation (KoBold, Earth AI, Fleet Space, VerAI, Durin)",
+    "bio-mining and phytomining (Genomines, Metalplant nickel hyperaccumulators) and low-impact methods: in-situ recovery, surgical/precision mining (Novamera), sustainable process chemistry (Travertine)"
+   ]
+  },
+  {
+   "name": "Battery & Materials Recycling",
+   "scope": "Secondary supply and circularity for the transition: batteries, e-waste, magnets, solar panels, blades/composites, alloy scrap sorting, and traceability software",
+   "variations": [
+    "hydrometallurgical lithium-ion recycling at scale, incl. LFP-specific routes (Redwood Materials, Ascend Elements, Cirba, American Battery Technology, cylib, tozero, Altilium)",
+    "direct cathode recycling and upcycling to pCAM/CAM (Princeton NuEnergy plasma, Green Li-ion, Ascend Hydro-to-Cathode)",
+    "pyrometallurgical recovery and black-mass pre-processing/logistics (Umicore, Glencore, Hydrovolt, SungEel)",
+    "electrochemical and novel-solvent metal recovery (Aqua Metals electrorefining, Nth Cycle electro-extraction, Descycle deep eutectic solvents)",
+    "second-life EV battery systems, diagnostics, and state-of-health analytics (B2U, Moment Energy, Connected Energy, Voltfang)",
+    "e-waste urban mining and precious-metal recovery (Mint Innovation bioleaching, Excir gold chemistry, formal e-scrap processors)",
+    "magnet and rare-earth recycling (Cyclic Materials, HyProMag hydrogen decrepitation, Noveon Magnetics, Ionic Technologies)",
+    "solar panel recycling and reuse (Solarcycle, ROSI, We Recycle Solar)",
+    "wind blade and fiber-composite recycling (Carbon Rivers, REGEN Fiber, Continuum, Vestas epoxy chemolysis)",
+    "advanced alloy scrap sorting and metals recovery plus materials traceability/battery-passport software (Sortera LIBS+AI, TOMRA/Steinert sensor sorting; Circulor, Minespider)"
+   ]
+  }
+ ]
+}

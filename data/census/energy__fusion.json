@@ -1,0 +1,532 @@
+{
+ "sector": "energy",
+ "bucket": "Fusion",
+ "census": {
+  "bucket": "Fusion \u2014 all confinement approaches plus fusion-specific supply chain (sector: Clean Energy Supply)",
+  "variations": [
+   {
+    "name": "Tokamaks (high-field HTS, spherical, conventional)",
+    "description": "Donut-shaped magnetic bottles \u2014 the most-studied fusion configuration \u2014 confine 100-million-degree plasma, and new high-temperature-superconductor (HTS) magnets shrink the machines dramatically, turning ITER-scale physics into venture-fundable power plants.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Commonwealth Fusion Systems",
+      "role": "scaleup",
+      "what": "MIT spinout building SPARC, the high-field HTS tokamak expected to demonstrate net energy gain, and ARC, a ~400 MW grid-scale plant in Chesterfield County, Virginia with Dominion Energy and a Google offtake for half the output.",
+      "signal": "$863M Series B2 (Google, Nvidia, Morgan Stanley) Aug 2025; ~$3B total raised; SPARC targeting operations 2026, ARC on grid early 2030s",
+      "status": "operating",
+      "source": "https://cfs.energy/news-and-media/commonwealth-fusion-systems-raises-863-million-series-b2-round-to-accelerate-the-commercialization-of-fusion-energy/"
+     },
+     {
+      "name": "Tokamak Energy",
+      "role": "scaleup",
+      "what": "UK spherical-tokamak pioneer; its ST40 was the first private machine to hit 100M \u00b0C ion temperature, and its TE Magnetics division sells HTS magnet systems into other markets.",
+      "signal": "$125M round Nov 2024 (East X, Lingotto, Furukawa Electric); $335M total since 2009; $52M ST40 upgrade with US DOE/UK government through 2026",
+      "status": "operating",
+      "source": "https://tokamakenergy.com/2024/11/20/tokamak-energy-raises-125m-to-commercialise-transformative-fusion-and-magnet-technologies/"
+     },
+     {
+      "name": "Energy Singularity",
+      "role": "startup",
+      "what": "Shanghai startup that built HH70, the world's first all-HTS tokamak to achieve plasma (June 2024), and set a 21.7-tesla record with its large-bore D-shaped HTS magnet.",
+      "signal": "~$110M raised; reportedly seeking $500M for next-gen HH170; ~135 staff",
+      "status": "operating",
+      "source": "https://interestingengineering.com/energy/500m-target-record-holding-hh70-tokamak"
+     },
+     {
+      "name": "Startorus Fusion",
+      "role": "startup",
+      "what": "Chinese spherical-tokamak startup (Shaanxi, founded 2021) applying AI plasma control and starting construction of NTST, billed as the world's first negative-triangularity spherical tokamak.",
+      "signal": "Operating its first experimental device; NTST construction announced Nov 2025; multiple Chinese VC rounds",
+      "status": "operating",
+      "source": "https://startorus.com/progress-news/300.html"
+     },
+     {
+      "name": "ENN (Energy Research Institute)",
+      "role": "incumbent",
+      "what": "Chinese gas-distribution conglomerate self-funding a proton-boron (aneutronic) spherical torus program; its EXL-50U reached a 1-million-amp plasma current on hydrogen-boron fuel in April 2025.",
+      "signal": "Helong-2 next-generation spherical torus planned for ~2027; 13 peer-reviewed H-B papers published 2025",
+      "status": "operating",
+      "source": "https://en.ennresearch.com/News/2025/0418/738.html"
+     },
+     {
+      "name": "nT-Tao",
+      "role": "startup",
+      "what": "Israeli startup developing a shipping-container-scale compact tokamak (10\u201320 MW) using ultra-fast plasma heating for on-site baseload power.",
+      "signal": "~$28M raised (incl. Honda); fourth consecutive Israel Innovation Authority grant ($5M over 3 years) Mar 2025",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/nt-tao-compact-fusion-power-awarded-additional-grant-from-israel-innovation-authority-to-advance-compact-fusion-technology-302389465.html"
+     },
+     {
+      "name": "General Atomics",
+      "role": "incumbent",
+      "what": "Operates the DOE's DIII-D National Fusion Facility (the US tokamak workhorse) and fabricated ITER's central solenoid, the world's most powerful magnet.",
+      "signal": "Marked completion of ITER central solenoid modules Sept 2025; decades of DOE fusion contracts",
+      "status": "operating",
+      "source": "https://www.ans.org/news/2025-09-04/article-7345/general-atomics-marks-completion-of-iters-superconducting-fusion-magnet/2/"
+     }
+    ]
+   },
+   {
+    "name": "Stellarators",
+    "description": "Twisted 3D magnet coils hold plasma in steady state without the driven current that causes tokamak disruptions, trading harder engineering for intrinsically stable always-on operation \u2014 the fastest-growing confinement race since Germany's W7-X validated the physics.",
+    "maturity": "lab",
+    "companies": [
+     {
+      "name": "Type One Energy",
+      "role": "startup",
+      "what": "Building Infinity One, a stellarator testbed inside TVA's retired Bull Run coal plant, with a follow-on agreement to develop the 350 MW Infinity Two power plant with TVA \u2014 the deepest utility partnership in stellarator fusion.",
+      "signal": "~$160M+ raised ($82.5M seed plus $87M convertible note); TVA 350 MW plant announcement Sept 2025, targeting mid-2030s",
+      "status": "operating",
+      "source": "https://neutronbytes.com/2025/09/20/tva-and-type-one-energy-to-build-350-mw-fusion-plant/"
+     },
+     {
+      "name": "Proxima Fusion",
+      "role": "startup",
+      "what": "Max Planck IPP (W7-X) spinout in Munich engineering 'Stellaris', a quasi-isodynamic HTS stellarator design, with a demo HTS magnet as next milestone.",
+      "signal": "\u20ac130M Series A (largest private fusion round in Europe) Feb 2025 plus \u20ac17.6M extension; ~$206M total",
+      "status": "operating",
+      "source": "https://spectrum.ieee.org/stellarator"
+     },
+     {
+      "name": "Thea Energy",
+      "role": "startup",
+      "what": "Princeton (PPPL) spinout replacing sculpted 3D coils with arrays of simple software-controlled planar magnets; first DOE Milestone Program awardee to complete its pilot-plant (Helios) design review, with Eos neutron source first.",
+      "signal": "$100M Series B May 2026 (US Innovative Technology Fund); $130M total private investment",
+      "status": "operating",
+      "source": "https://thea.energy/press-release/thea-energy-raises-100-million-series-b-funding-to-build-scalable-fusion-power-plants/"
+     },
+     {
+      "name": "Renaissance Fusion",
+      "role": "startup",
+      "what": "Grenoble startup simplifying stellarators by depositing wide HTS tracks directly onto cylinders and using flowing liquid-metal walls, selling HTS manufacturing as an interim business.",
+      "signal": "\u20ac32M Series A1 Mar 2025 (Cr\u00e9dit Mutuel Impact, Lowercarbon Capital)",
+      "status": "operating",
+      "source": "https://techcrunch.com/2025/03/06/renaissance-fusion-raises-e32m-to-radically-simplify-complex-fusion-reactors/"
+     },
+     {
+      "name": "Gauss Fusion",
+      "role": "startup",
+      "what": "European industry-consortium 'greenfield' venture (Munich) that published a full conceptual design report for GIGA, a 1 GWe stellarator plant, riding Germany's \u20ac2B fusion action plan.",
+      "signal": "GIGA conceptual design report released 2025; backed by European industrial magnet/vacuum suppliers",
+      "status": "operating",
+      "source": "https://www.world-nuclear-news.org/articles/gauss-fusion-releases-blueprint-for-development-of-its-giga-fusion-plant"
+     },
+     {
+      "name": "Helical Fusion",
+      "role": "startup",
+      "what": "Japanese spinout of the National Institute for Fusion Science's Large Helical Device line, designing the steady-state Helix reactor with HTS coils and liquid-metal blanket; signed Japan's first fusion power purchase agreement.",
+      "signal": "$15M Series A July 2025 + $5.5M extension (total ~$38M); Series B first close ~\u00a52.7B; Japan's first fusion PPA Dec 2025",
+      "status": "operating",
+      "source": "https://www.ans.org/news/2025-07-14/article-7189/japans-helical-fusion-raises-15m-in-series-a-funding/"
+     }
+    ]
+   },
+   {
+    "name": "Laser / inertial confinement fusion (ICF)",
+    "description": "Banks of lasers implode peppercorn-sized fuel capsules to ignition \u2014 the only fusion approach with demonstrated net energy gain (NIF, December 2022) \u2014 with commercialization now hinging on high-repetition-rate lasers and cheap mass-produced targets.",
+    "maturity": "lab",
+    "companies": [
+     {
+      "name": "Xcimer Energy",
+      "role": "startup",
+      "what": "Denver startup scaling NIF-proven hot-spot ignition with low-cost, high-energy excimer (krypton-fluoride) lasers up to 10 MJ \u2014 roughly 5x NIF energy at a fraction of the optics cost.",
+      "signal": "$100M Series A June 2024 (Hedosophia); DOE Milestone-Based Fusion Development Program awardee; building Phoenix laser facility",
+      "status": "operating",
+      "source": "https://www.ans.org/news/article-6100/fusion-fusion-energy-inertial-fusion-energy-xcimer-energy-lasers-doe-ifestar-milestonebased-fusion-development-program/"
+     },
+     {
+      "name": "Focused Energy",
+      "role": "startup",
+      "what": "German-American (Darmstadt/Austin) direct-drive ICF company using proton fast ignition; converting RWE's former Biblis nuclear plant site into a laser-fusion 'blueprint' facility with utility RWE as strategic investor.",
+      "signal": "$240M Series A May 2026 \u2014 largest fully secured Series A in fusion (RWE, SPRIND, EIC Fund, Prime Movers Lab); DOE hub participant",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20260527514871/en/Focused-Energy-Raises-$240-Million-in-Series-A-Financing"
+     },
+     {
+      "name": "Marvel Fusion",
+      "role": "startup",
+      "what": "Munich startup pairing ultrashort-pulse lasers with nanostructured silicon targets (with an aneutronic pB11 ambition); building a $150M laser facility with Colorado State University and designing an integrated plant with Siemens Energy.",
+      "signal": "Series B extended to \u20ac113M Mar 2025 (EQT Ventures, Siemens Energy Ventures, EIC Fund); \u20ac385M total incl. public programs",
+      "status": "operating",
+      "source": "https://www.world-nuclear-news.org/articles/germanys-marvel-fusion-raises-further-eur113-million"
+     },
+     {
+      "name": "Longview Fusion Energy Systems",
+      "role": "startup",
+      "what": "Founded by former NIF director Ed Moses to commercialize the exact laser-indirect-drive physics that achieved ignition, with Fluor contracted for commercial plant design.",
+      "signal": "Fluor engineering partnership and DOE IFE hub participation; targeting a plant in the 2030s",
+      "status": "operating",
+      "source": "https://www.powermag.com/fluor-to-design-longview-commercial-laser-fusion-power-plant/"
+     },
+     {
+      "name": "HB11 Energy",
+      "role": "startup",
+      "what": "Australian pioneer of laser-driven hydrogen\u2013boron-11 fusion (no tritium, no neutron-dominated output) using chirped-pulse-amplification lasers; expanding into the US market.",
+      "signal": "DOE INFUSE grant; joined the $180M TINEX US target-injector initiative Feb 2025",
+      "status": "operating",
+      "source": "https://hb11.energy/2025/02/11/hb11-energy-joins-180m-u-s-fusion-initiative-positioning-australia-as-a-leader-in-fusion/"
+     },
+     {
+      "name": "EX-Fusion",
+      "role": "startup",
+      "what": "Osaka University spinout commercializing the unglamorous essentials of laser fusion \u2014 target injection/tracking and beam control \u2014 selling components while building toward a reactor.",
+      "signal": "~$12M+ raised (\u00a51.8B seed); strategic investment from JX Advanced Metals Oct 2025",
+      "status": "operating",
+      "source": "https://www.jx-nmm.com/english/newsrelease/fy2025/20251014_02.html"
+     },
+     {
+      "name": "Blue Laser Fusion",
+      "role": "startup",
+      "what": "Co-founded by Nobel laureate Shuji Nakamura (blue LED inventor) to apply high-repetition GaN laser technology to a hydrogen-boron fusion reactor concept.",
+      "signal": "$25M seed 2023; ITOCHU capital and business alliance Mar 2024; leadership role in Japan's Moonshot fusion program Oct 2025",
+      "status": "operating",
+      "source": "https://www.itochu.co.jp/en/news/press/2024/240307.html"
+     }
+    ]
+   },
+   {
+    "name": "Magneto-inertial & magnetized target fusion (MTF/MIF)",
+    "description": "A pre-magnetized plasma target is crushed to fusion conditions by liquid-metal liners, pulsed electromagnetic drivers, or converging plasma jets \u2014 a middle path needing far less driver power than lasers and far less magnet than tokamaks, but one whose milestone-or-die economics have already produced the sector's most visible financial distress.",
+    "maturity": "lab",
+    "companies": [
+     {
+      "name": "General Fusion",
+      "role": "scaleup",
+      "what": "Canadian MTF pioneer (Bezos-backed, founded 2002) compressing magnetized plasma with pistons and a liquid-lithium liner in its LM26 machine, chasing scientific breakeven.",
+      "signal": "Hit cash crisis May 2025 (~25% layoffs, open letter seeking $125M); rescued with $22M Aug 2025 + $51M SAFE Nov 2025 (Segra Capital, PenderFund); ~$440M+ lifetime funding",
+      "status": "operating",
+      "source": "https://techcrunch.com/2025/08/21/struggling-fusion-power-company-general-fusion-gets-22m-lifeline-from-investors/"
+     },
+     {
+      "name": "Pacific Fusion",
+      "role": "startup",
+      "what": "Founded by NIF-ignition alumni and Eric Lander; uses ~150 impedance-matched Marx generator pulser modules to electromagnetically implode magnetized targets (scaled MagLIF), targeting net facility gain ~2030.",
+      "signal": "$900M committed Series A (out of stealth Nov 2024); 100+ consecutive pulser-module validation tests; $1B New Mexico R&D/manufacturing campus announced Sept 2025; General Atomics partnership",
+      "status": "operating",
+      "source": "https://www.ans.org/news/article-6523/whats-different-about-pacific-fusions-pulsed-magnetic-concept/"
+     },
+     {
+      "name": "Helicity Space",
+      "role": "startup",
+      "what": "Berkeley startup applying magneto-inertial fusion (merging helical plasma jets) to in-space propulsion rather than grid power, a niche where even modest gain is transformative.",
+      "signal": "~$5M seed plus Lockheed Martin Ventures investment Apr 2024; four-plasma-gun Helicity Drive prototype testing",
+      "status": "operating",
+      "source": "https://spacenews.com/lockheed-martin-ventures-invests-in-helicity-space/"
+     },
+     {
+      "name": "HyperJet Fusion",
+      "role": "startup",
+      "what": "Chantilly, VA developer of plasma-jet-driven magneto-inertial fusion (spherical array of plasma guns imploding a target), ARPA-E ALPHA-funded; team and technology merged into NearStar Fusion.",
+      "signal": "~$2M private + ARPA-E/DOE funding since 2017; absorbed by NearStar Fusion (PitchBook records merger/acquisition)",
+      "status": "acquired",
+      "source": "https://pitchbook.com/profiles/company/227351-17"
+     },
+     {
+      "name": "Compact Fusion Systems",
+      "role": "startup",
+      "what": "Santa Fe startup designing liquid-metal-liner MTF power cores (50\u2013500 MWe) for utilities; ARPA-E supported but with little public activity in recent years.",
+      "signal": "ARPA-E grant; minimal public news since \u2014 viability unclear as of mid-2026",
+      "status": "uncertain",
+      "source": "https://www.fusionenergybase.com/organization/compact-fusion-systems"
+     }
+    ],
+    "white_space": "MTF promised the cheapest path (mechanical drivers, no giant lasers/magnets) yet General Fusion's 2025 near-collapse after 23 years shows the milestone-vs-runway squeeze; the opening is modern pulsed-power electronics (Pacific Fusion's pulser modules) and non-grid niches like propulsion, where smaller gain still sells."
+   },
+   {
+    "name": "Field-reversed configuration (FRC, incl. pulsed)",
+    "description": "A self-organized plasma 'smoke ring' confines itself with its own internal currents inside a simple linear machine, enabling either pulsed merging-and-compression with direct electricity recovery (Helion) or steady beam-driven operation aimed at aneutronic fuels (TAE).",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Helion Energy",
+      "role": "scaleup",
+      "what": "Pulsed FRC machines that merge two plasmoids and recover electricity directly from the expanding magnetized plasma (no steam cycle), on a deuterium/helium-3 fuel path; building Orion, the world's first contracted commercial fusion plant, in Malaga, WA for Microsoft's 2028 PPA, plus a 500 MW Nucor deal.",
+      "signal": "$465M Series G June 2026; $425M Series F Jan 2025 ($5.4B valuation); Polaris became first private machine to demonstrate measurable D-T fusion (early 2026); Orion groundbreaking July 2025",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20260604740624/en/Helion-Raises-$465-Million-Series-G-Funding-Round-to-Meet-Surging-Global-Demand-for-Power"
+     },
+     {
+      "name": "TAE Technologies",
+      "role": "scaleup",
+      "what": "Longest-running private fusion company (1998); sustains FRCs with neutral particle beams aiming ultimately at aneutronic proton-boron fuel; its 2025 'Norm' simplification cut machine size/cost up to 50%, feeding the Copernicus net-energy-capability machine and Da Vinci plant design.",
+      "signal": ">$150M round June 2025 (Chevron, Google, NEA); >$1.3B total raised; Copernicus targeting net-energy validation before 2030",
+      "status": "operating",
+      "source": "https://tae.com/tae-technologies-raises-150-million-in-latest-funding-round/"
+     },
+     {
+      "name": "Princeton Fusion Systems (Princeton Satellite Systems)",
+      "role": "startup",
+      "what": "Small PPPL-linked team developing the PFRC \u2014 a clean, kW-to-MW-scale FRC heated by odd-parity rotating magnetic fields \u2014 for compact power and space propulsion; PFRC-2 holds the FRC plasma-duration record.",
+      "signal": "ARPA-E and DOE grant funded; PFRC-3 next-step device planned",
+      "status": "operating",
+      "source": "https://www.princetonfusionsystems.com/"
+     }
+    ],
+    "white_space": "Only ~3 credible players because FRC stability at reactor scale remains unproven physics and beam/pulsed machines are capital-hungry, yet the two leaders are among the best-funded in fusion; openings are second-source pulsed-FRC plays leveraging cheap modern power electronics and the helium-3 fuel supply chain Helion's D-He3 cycle will need."
+   },
+   {
+    "name": "Z-pinch / sheared-flow",
+    "description": "An electric current driven through a plasma column pinches it to fusion density with no external magnets or driver lasers \u2014 an approach killed for 50 years by kink instabilities and revived by sheared-flow stabilization \u2014 offering the cheapest, most compact hardware in fusion.",
+    "maturity": "lab",
+    "companies": [
+     {
+      "name": "Zap Energy",
+      "role": "scaleup",
+      "what": "Seattle company behind sheared-flow-stabilized Z-pinch (no magnets, no lasers); its Century platform demonstrated >1,000 consecutive plasmas into flowing liquid-metal walls and FuZE-3 reached record ~1.6 GPa plasma pressures (Nov 2025) en route to breakeven on FuZE-Q.",
+      "signal": "$130M round (led by Soros Fund Management) as Century began operations; >$450M total raised",
+      "status": "operating",
+      "source": "https://www.zapenergy.com/news/zap-attracts-130m-as-demo-system-begins-operations"
+     },
+     {
+      "name": "Fuse (Fuse Energy Technologies)",
+      "role": "startup",
+      "what": "Founded by JC Btaiche; sells pulsed-power X-ray/neutron radiation-effects testing to defense customers today (TITAN, the first high-energy impedance-matched Marx generator) as a revenue bridge toward Z-pinch fusion energy.",
+      "signal": "$32M Series A valuing the company >$200M (2025); US Air Force and defense contracts",
+      "status": "operating",
+      "source": "https://thebusinessdownload.com/nuclear-startup-fuse-valued-at-over-200-million-in-new-funding/"
+     },
+     {
+      "name": "MIFTI (Magneto-Inertial Fusion Technologies)",
+      "role": "startup",
+      "what": "Tustin, CA company developing the Staged Z-Pinch \u2014 a gas liner imploding onto a fusion fuel core to suppress instabilities \u2014 claiming national-lab-verified record neutron yields and launching an early-adopter program for radioisotope production.",
+      "signal": "Early adopter program launched Jan 2025; 20+ years of staged Z-pinch R&D, largely grant/private funded",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/mifti-patented-staged-z-pinch-fusion-technology-launches-early-adopter-program-for-groundbreaking-electric-energy-and-radioisotope-production-302363852.html"
+     },
+     {
+      "name": "LPP Fusion",
+      "role": "startup",
+      "what": "Eric Lerner's dense-plasma-focus venture chasing direct proton-boron 'focus fusion'; a 2,000-investor crowdfunded outlier that set its own yield record (0.26 J) in 2025 but operates on minimal cash.",
+      "signal": "~$11M raised over two decades from retail investors; ~$240k cash on hand Feb 2025 \u2014 financially marginal",
+      "status": "operating",
+      "source": "https://www.lppfusion.com/2025-fusion-in-review/"
+     }
+    ],
+    "white_space": "Sparse because classic m=0/m=1 instabilities killed the pinch for half a century; Zap's sheared-flow results plus magnet-free, fast-iteration hardware reopen a low-capex lane, and the Fuse model (defense radiation-testing revenue while maturing the pinch) shows how new entrants can self-fund the physics risk."
+   },
+   {
+    "name": "Magnetic mirrors",
+    "description": "Plasma is bottled in a straight tube between two high-field magnetic 'plugs'; the approach was abandoned in the 1980s over end losses (MFTF was mothballed on completion day) but is being revived because 20T+ HTS end magnets transform confinement, and the simple linear geometry suits near-term industrial heat and neutron sources.",
+    "maturity": "lab",
+    "companies": [
+     {
+      "name": "Realta Fusion",
+      "role": "startup",
+      "what": "UW\u2013Madison WHAM experiment spinout commercializing HTS-plugged axisymmetric tandem mirrors (Anvil demo), explicitly targeting industrial process heat as the first market; published a Q>5 tandem mirror plant design.",
+      "signal": "Oversubscribed $36M Series A June 2025 (Future Ventures, Khosla); strategic partnership and HTS magnet supply agreement with Commonwealth Fusion Systems (2026)",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/realta-fusion-raises-36-million-series-a-to-advance-compact-scalable-modular-fusion-energy-302452726.html"
+     },
+     {
+      "name": "Novatron Fusion Group",
+      "role": "startup",
+      "what": "Stockholm company whose NOVATRON mirror-cusp geometry is claimed to be inherently MHD-stable (plasma sits in a magnetic 'bowl' rather than on a 'hilltop'); N1 testbed hosted at KTH.",
+      "signal": "\u20ac10M Series A1 (2025) led by energy company St1; EIC backing",
+      "status": "operating",
+      "source": "https://www.novatronfusion.com/news/2025-novatron-fusion-group-secures-new-partners-in-recent-funding-roundnbsp"
+     },
+     {
+      "name": "Lockheed Martin (Compact Fusion Reactor program)",
+      "role": "incumbent",
+      "what": "Skunk Works' high-beta cusp/mirror-hybrid CFR, hyped in 2014 as a truck-sized reactor within a decade; the program was quietly halted before 2021 (publicly confirmed Aug 2024) after successive T4/T5 prototypes failed to scale as promised \u2014 the company itself continues, but the fusion effort is dead.",
+      "signal": "Program shut down ~2020 after ~10 years; cautionary tale for compact-mirror claims",
+      "status": "bankrupt-shutdown",
+      "source": "https://aviationweek.com/defense/aircraft-propulsion/skunk-works-halted-nuclear-fusion-effort-2021"
+     }
+    ],
+    "white_space": "Only two active companies worldwide: mirrors carry the stigma of the 1980s end-loss failures and the modern HTS revival is barely four years old, but the linear geometry is the cheapest credible route to fusion-grade neutrons and industrial heat \u2014 an opening for heat-first business models and for hyperscaler/industrial offtakers wanting small, serviceable units."
+   },
+   {
+    "name": "Electrostatic & exotic approaches (IEC, magneto-electrostatic, muon-catalyzed, levitated dipole)",
+    "description": "A grab-bag of unconventional schemes \u2014 electrostatic wells (IEC), hybrid magneto-electrostatic orbit traps, muon-catalyzed 'cold' fusion, and levitated dipoles \u2014 that trade mainstream plasma physics for radically smaller, cheaper devices, with most survivors monetizing fusion neutrons (isotopes, materials testing) long before net energy.",
+    "maturity": "lab",
+    "companies": [
+     {
+      "name": "Avalanche Energy",
+      "role": "startup",
+      "what": "Seattle developer of the Orbitron, a desk-scale magneto-electrostatic trap running at 300kV, and of FusionWERX, a first-of-kind shared test facility in Richland, WA with a broad-scope radioactive materials license and tritium handling for the whole industry.",
+      "signal": "$29M round 2025 (RA Capital, 8090 Industries) plus $10M Washington State grant July 2025 for FusionWERX",
+      "status": "operating",
+      "source": "https://www.avalanchefusion.com/news-release/avalanche-energy-awarded-10-million-grant-from-washington-state-to-develop-fusionwerx-neutron-factory"
+     },
+     {
+      "name": "Astral Systems",
+      "role": "startup",
+      "what": "Bristol, UK company selling compact 'multi-state fusion' (lattice-assisted IEC) reactors as neutron sources for medical isotopes and research \u2014 one of the only fusion firms with product revenue, and it bred tritium in its own reactors in Aug 2025.",
+      "signal": "\u20ac5.3M seed Feb 2025; >\u20ac2.3M research-contract revenue; three commercial fusion facilities running",
+      "status": "operating",
+      "source": "https://www.eu-startups.com/2025/02/deeptech-astral-systems-raises-e5-3-million-to-commercialise-fusion-technology/"
+     },
+     {
+      "name": "Acceleron Fusion",
+      "role": "startup",
+      "what": "Cambridge, MA startup reviving muon-catalyzed fusion \u2014 using accelerator-made muons to catalyze D-T fusion below 1,000\u00b0C \u2014 betting an efficient muon source plus high-density fuel cells can finally beat the historical energy-balance problem.",
+      "signal": "$24M Series A Dec 2024 (Lowercarbon Capital, Collaborative Fund); 28 hours of continuous D-T fusion data captured",
+      "status": "operating",
+      "source": "https://www.prweb.com/releases/acceleron-fusion-secures-24m-series-a-led-by-lowercarbon-capital-and-collaborative-fund-to-revolutionize-clean-energy-with-muon-catalyzed-fusion-302319341.html"
+     },
+     {
+      "name": "OpenStar Technologies",
+      "role": "startup",
+      "what": "Wellington, NZ startup building levitated-dipole reactors (an 'inside-out tokamak' with a floating HTS magnet); its Junior device achieved the first commercial levitated-dipole plasma in late 2024.",
+      "signal": "~$12M raised; NZ$35M New Zealand government loan (Regional Development Fund) Feb 2026 for a new research facility",
+      "status": "operating",
+      "source": "https://www.world-nuclear-news.org/articles/openstar-demonstrates-dipole-fusion-reactor-concept"
+     },
+     {
+      "name": "SHINE Technologies",
+      "role": "scaleup",
+      "what": "Wisconsin company running the world's brightest steady-state D-T beam-target fusion neutron sources (FLARE, ~5\u00d710^13 n/s) as a profitable business today \u2014 medical isotopes (Mo-99, Lu-177) and radiation testing, incl. supplying UKAEA's LIBRTI \u2014 as phase 3 of an explicit four-phase staircase to fusion energy.",
+      "signal": "Hundreds of millions raised; FLARE showcased 2024; UKAEA neutron-source contract; isotope plants in commissioning",
+      "status": "operating",
+      "source": "https://www.shinefusion.com/blog/shine-technologies-showcases-flare-tm-the-worlds-most-powerful-continuous-fusion-neutron-system"
+     },
+     {
+      "name": "EMC2 (Energy Matter Conversion Corp)",
+      "role": "startup",
+      "what": "Custodian of Robert Bussard's Polywell (magnetically shielded electrostatic well); US Navy funding ended after WB-8 produced no measurable fusion, and despite a website claiming continued R&D there are no recent public results \u2014 effectively dormant.",
+      "signal": "Navy program wound down in the 2010s; sought $30M for next phase in 2014 and never closed it",
+      "status": "uncertain",
+      "source": "https://en.wikipedia.org/wiki/Polywell"
+     }
+    ],
+    "white_space": "Thin for a physics reason \u2014 Todd Rider's thermodynamic limits on non-equilibrium electrostatic plasmas and the muon alpha-sticking problem have stood for decades \u2014 so the credible play is the one survivors already run: profitable neutron/isotope/testing products (Astral, SHINE, Avalanche's FusionWERX) that fund the long-shot energy claim, plus picks-and-shovels licensing of tritium-capable test infrastructure."
+   },
+   {
+    "name": "Projectile / impact fusion",
+    "description": "A hypervelocity projectile is fired into a target whose internal geometry amplifies the impact shock to ignition pressures \u2014 mechanically simple with no lasers or large magnets \u2014 but single-shot gain and repetition-rate economics pushed even the category leader out of power-plant ambitions in 2025.",
+    "maturity": "lab",
+    "companies": [
+     {
+      "name": "First Light Fusion",
+      "role": "startup",
+      "what": "Oxford pioneer of projectile-driven fusion and pressure-multiplying 'amplifier' targets; in March 2025 it scrapped its own power-plant route (Machine 4 cancelled, valuation cut >60% by IP Group from \u00a3236M to \u00a3100M) and pivoted to supplying amplifier/velocity-multiplication technology to other fusion and HED programs, including work on Sandia's Z machine.",
+      "signal": "\u00a325M first close led by East X Ventures with strategic investment from UKAEA; first commercial VIPER III amplifier shipment to Texas A&M announced Apr 2026",
+      "status": "operating",
+      "source": "https://www.world-nuclear-news.org/articles/first-light-fusion-switches-strategy-drops-plans-to-develop-power-plant"
+     },
+     {
+      "name": "NearStar Fusion",
+      "role": "startup",
+      "what": "Chantilly, VA startup whose 'Hypervelocity Gradient Field Fusion' fires gun-launched fuel projectiles into a magnetized plasma target \u2014 a gun-driven MTF hybrid designed for cheap, replaceable drivers; absorbed the HyperJet Fusion (PJMIF) team.",
+      "signal": "~$10.5M raised incl. Virginia VIPC/Virginia Venture Partners investments (2025) and NSF SBIR; StartEngine crowdfunding open",
+      "status": "operating",
+      "source": "https://climateinsider.com/2025/03/07/vipc-invests-in-nearstar-fusion-to-advance-clean-energy-and-virginias-nuclear-fusion-ecosystem/"
+     }
+    ],
+    "white_space": "Effectively a two-player niche, and the leader's 2025 retreat is the clearest market evidence in fusion that single-shot impact economics (driver rep-rate, target cost, gain) don't yet close for power; the remaining opening is exactly First Light's new shape \u2014 selling amplifier/target physics as a supply-chain product to laser ICF, pulsed-power, and defense HED customers \u2014 rather than standalone plants."
+   },
+   {
+    "name": "Fusion supply chain (HTS magnets, lasers, targets, blankets, tritium handling)",
+    "description": "The picks-and-shovels layer of fusion \u2014 HTS tape and magnets, driver lasers and diodes, precision targets, gyrotrons, breeding blankets, and tritium fuel-cycle plants \u2014 selling into every confinement camp and generating real revenue today regardless of which physics wins.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Faraday Factory Japan",
+      "role": "scaleup",
+      "what": "World's largest producer of HTS (REBCO) tape for fusion; has delivered >5,000 km (1 giga-ampere-meter) cumulatively to fusion companies and ramped production 10x since 2020.",
+      "signal": "Supply agreement for Proxima Fusion's demo stellarator magnet June 2025; capacity expansion ongoing",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/faraday-factory-announces-it-has-delivered-over-5-000-km-of-high-temperature-superconductor-tape-to-fusion-industry-302250067.html"
+     },
+     {
+      "name": "Fujikura",
+      "role": "incumbent",
+      "what": "Japanese cable/optics giant scaling REBCO HTS tape output multi-fold specifically on fusion-magnet demand (a key CFS supplier), one of two Japanese firms dominating today's tape market.",
+      "signal": "Industry analyses project ~10x HTS tape demand growth in five years driven by fusion; Fujikura among the leading expanders",
+      "status": "operating",
+      "source": "https://magneticsmag.com/hts-tape-manufacturers-scale-up-for-magnetic-tokamak-growth-for-fusion-energy/"
+     },
+     {
+      "name": "Shanghai Superconductor",
+      "role": "scaleup",
+      "what": "China's leading HTS tape manufacturer and supplier to Energy Singularity's all-HTS tokamak program, anchoring a domestic Chinese fusion magnet supply chain.",
+      "signal": "Major capacity expansion amid China's fusion push; supplied tape for the record 21.7T HH70-class magnets",
+      "status": "operating",
+      "source": "https://magneticsmag.com/hts-tape-manufacturers-scale-up-for-magnetic-tokamak-growth-for-fusion-energy/"
+     },
+     {
+      "name": "MetOx International",
+      "role": "startup",
+      "what": "Houston company using MOCVD deposition to mass-produce HTS tape at lower cost, positioning as the US-based second source the fusion (and grid) industry currently lacks.",
+      "signal": "Series B raised 2024 with strategic/DOE support; scaling toward ~100,000 km/yr-class capacity plans",
+      "status": "operating",
+      "source": "https://magneticsmag.com/hts-tape-manufacturers-scale-up-for-magnetic-tokamak-growth-for-fusion-energy/"
+     },
+     {
+      "name": "Kyoto Fusioneering",
+      "role": "scaleup",
+      "what": "Japan's fusion plant-equipment specialist: gyrotrons (first five-frequency unit; installed at Tokamak Energy's ST40, UKAEA's MAST-U, and DIII-D), breeding blankets, and the UNITY fuel-cycle test plants.",
+      "signal": "\u00a59.3B (~$46M) Series C extension + debt Sept 2025; gyrotron deliveries across three continents in 2025",
+      "status": "operating",
+      "source": "https://kyotofusioneering.com/en/news/2025/09/09/3395"
+     },
+     {
+      "name": "Fusion Fuel Cycles Inc.",
+      "role": "startup",
+      "what": "Kyoto Fusioneering\u2013Canadian Nuclear Laboratories joint venture building UNITY-2 at Chalk River, the world's first integrated full-loop tritium fuel-cycle test facility (up to 30 g tritium circulating per 24h cycle).",
+      "signal": "UNITY-2 construction began Nov 2025; $20M ten-year strategic investment from General Atomics Aug 2025",
+      "status": "operating",
+      "source": "https://kyotofusioneering.com/en/news/2025/11/07/3556"
+     },
+     {
+      "name": "General Atomics",
+      "role": "incumbent",
+      "what": "The do-everything fusion supplier: manufactured the NIF targets used in the ignition shots, fabricated ITER's central solenoid modules, builds diagnostics, and is co-developing Pacific Fusion's pulser modules.",
+      "signal": "ITER central solenoid completed 2025; $20M into Fusion Fuel Cycles; Pacific Fusion partnership Apr 2025",
+      "status": "operating",
+      "source": "https://www.ga.com/general-atomics-to-ship-world-s-most-powerful-magnet-to-iter"
+     },
+     {
+      "name": "TRUMPF",
+      "role": "incumbent",
+      "what": "German industrial-laser leader partnered with Focused Energy to develop the high-energy, high-repetition-rate driver lasers inertial fusion plants need at far lower cost-per-joule than NIF-era glass lasers.",
+      "signal": "Multi-year co-development partnership with Focused Energy; fusion named a strategic growth market",
+      "status": "operating",
+      "source": "https://www.laserfocusworld.com/lasers-sources/article/55368239/the-race-for-laser-driven-fusion-energy-heats-up"
+     },
+     {
+      "name": "Amplitude",
+      "role": "incumbent",
+      "what": "French ultrafast high-energy laser manufacturer supplying and co-developing driver and diagnostic lasers for fusion startups including Focused Energy and EX-Fusion.",
+      "signal": "Multiple fusion-startup laser partnerships announced 2023\u20132025",
+      "status": "operating",
+      "source": "https://www.laserfocusworld.com/lasers-sources/article/55368239/the-race-for-laser-driven-fusion-energy-heats-up"
+     },
+     {
+      "name": "Bridge12 Technologies",
+      "role": "startup",
+      "what": "Boston-area gyrotron specialist developing 1 MW, 250 GHz tubes for plasma heating in commercial tokamaks/stellarators \u2014 one of very few new entrants in a market long limited to a handful of incumbents.",
+      "signal": "DOE SBIR-backed gyrotron portfolio (100 kW\u20131 MW); sold its EPR spectroscopy line to Bruker in 2025 to focus on fusion",
+      "status": "operating",
+      "source": "https://www.bridge12.com/products/microwave-millimeter-wave-terahertz-sources/gyrotrons.html"
+     }
+    ],
+    "white_space": "HTS tape is the sector's hardest bottleneck (projected ~10x demand growth, with supply concentrated in two Japanese firms plus China) \u2014 an opening for Western second sources like MetOx; tritium handling and high-volume target manufacturing have almost no independent players (one JV, one defense incumbent) because licensing is brutal and demand awaits working plants, making both natural ground for first movers selling to every confinement camp."
+   }
+  ],
+  "sources": [
+   "https://www.fusionindustryassociation.org/over-2-5-billion-invested-in-fusion-industry-in-past-year/",
+   "https://techcrunch.com/2026/04/10/every-fusion-startup-that-has-raised-over-100m/",
+   "https://cfs.energy/news-and-media/commonwealth-fusion-systems-raises-863-million-series-b2-round-to-accelerate-the-commercialization-of-fusion-energy/",
+   "https://www.businesswire.com/news/home/20260604740624/en/Helion-Raises-$465-Million-Series-G-Funding-Round-to-Meet-Surging-Global-Demand-for-Power",
+   "https://www.world-nuclear-news.org/articles/first-light-fusion-switches-strategy-drops-plans-to-develop-power-plant",
+   "https://techcrunch.com/2025/08/21/struggling-fusion-power-company-general-fusion-gets-22m-lifeline-from-investors/",
+   "https://www.ans.org/news/article-6523/whats-different-about-pacific-fusions-pulsed-magnetic-concept/",
+   "https://spectrum.ieee.org/stellarator",
+   "https://neutronbytes.com/2025/09/20/tva-and-type-one-energy-to-build-350-mw-fusion-plant/",
+   "https://thea.energy/press-release/thea-energy-raises-100-million-series-b-funding-to-build-scalable-fusion-power-plants/",
+   "https://www.businesswire.com/news/home/20260527514871/en/Focused-Energy-Raises-$240-Million-in-Series-A-Financing",
+   "https://www.world-nuclear-news.org/articles/germanys-marvel-fusion-raises-further-eur113-million",
+   "https://www.zapenergy.com/news/zap-attracts-130m-as-demo-system-begins-operations",
+   "https://tae.com/tae-technologies-raises-150-million-in-latest-funding-round/",
+   "https://www.prnewswire.com/news-releases/realta-fusion-raises-36-million-series-a-to-advance-compact-scalable-modular-fusion-energy-302452726.html",
+   "https://aviationweek.com/defense/aircraft-propulsion/skunk-works-halted-nuclear-fusion-effort-2021",
+   "https://magneticsmag.com/hts-tape-manufacturers-scale-up-for-magnetic-tokamak-growth-for-fusion-energy/",
+   "https://kyotofusioneering.com/en/news/2025/11/07/3556",
+   "https://www.world-nuclear-news.org/articles/openstar-demonstrates-dipole-fusion-reactor-concept",
+   "https://interestingengineering.com/energy/500m-target-record-holding-hh70-tokamak"
+  ]
+ }
+}

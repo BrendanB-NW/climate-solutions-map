@@ -12317,4 +12317,5 @@ Every variation the census flagged as having few credible players, with the rese
 - Failed companies (⚠️ / ☠) are kept deliberately — they are white-space evidence, not noise. See [the graveyard](10-graveyard.md).
 - Only Clean Energy received a dedicated second-pass verification audit; other sectors rely on each researcher's own status checks. Treat any single company fact as unverified until you check the linked source — this is AI-compiled research, not investment advice.
 - A company may legitimately appear under several variations (e.g., diversified incumbents). "Company entries" counts rows; "unique companies" deduplicates by name.
+- Text and data are licensed [CC BY 4.0](LICENSE) — share and adapt freely with attribution. Not investment advice.
 

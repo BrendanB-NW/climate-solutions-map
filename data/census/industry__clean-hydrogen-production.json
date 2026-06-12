@@ -1,0 +1,821 @@
+{
+ "sector": "industry",
+ "bucket": "Clean Hydrogen Production",
+ "census": {
+  "bucket": "Clean Hydrogen Production",
+  "sources": [
+   "https://www.h2-view.com/story/nel-pauses-alkaline-electrolyser-production-in-heroya-announces-layoffs/2119593.article/",
+   "https://fuelcellsworks.com/2025/07/08/electrolyzer/mcphy-saved-john-cockerill-to-take-over-belfort-electrolyser-gigafactory",
+   "https://renewablesnow.com/news/green-hydrogen-systems-faces-bankruptcy-nucera-to-buy-assets-1277225/",
+   "https://www.gasworld.com/story/thyssenkrupp-nucera-shifts-to-efficiency-and-services-amid-hydrogen-slowdown/2249304.article/",
+   "https://www.h2-view.com/story/cummins-to-stop-new-electrolyser-activity-after-458m-hydrogen-related-charges/2137274.article/",
+   "https://www.topsoe.com/press-releases/topsoe-inaugurates-europes-largest-soec-manufacturing-facility",
+   "https://www.latitudemedia.com/news/electric-hydrogen-is-building-through-the-market-downturn/",
+   "https://www.ir.plugpower.com/press-releases/news-details/2025/Plug-Closes-Loan-Guarantee-from-the-U.S.-Department-of-Energy/default.aspx",
+   "https://www.h2-view.com/story/electrolyser-manufacturer-quest-one-to-cut-120-jobs-amid-market-challenges/2121538.article/",
+   "https://cen.acs.org/energy/hydrogen-power/Graphitic-Energy-starts-turquoise-hydrogen-pilot/103/web/2025/03",
+   "https://www.notchconsulting.com/post/monolith-at-risk-of-losing-doe-loan",
+   "https://hycamite.com/press-releases/hycamite-opens-europes-largest-methane-splitting-plant-for-low-carbon-hydrogen-production/",
+   "https://techcrunch.com/2025/07/07/tulum-energy-rediscovered-a-forgotten-hydrogen-tech-and-used-it-to-raise-27m/",
+   "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/012425-geologic-hydrogen-explorer-koloma-with-400-mil-in-funding-quiet-on-next-step",
+   "https://www.cnbc.com/2025/04/28/natural-hydrogen-mining-giants-and-big-oil-jump-on-the-bandwagon.html",
+   "https://mantle8.com/mantle8-raises-e31m-in-series-a-funding-to-prove-commercial-viability-of-natural-hydrogen-production",
+   "https://www.axios.com/pro/climate-deals/2025/02/18/vema-seed-stimulated-geologic-hydrogen",
+   "https://arena.gov.au/projects/hysata-capillary-fed-electrolyser-commercial-scale-demonstration-project/",
+   "https://www.supercritical.solutions/post/supercritical-secures-ps14-million-investment-led-by-shell-ventures-and-toyota-ventures",
+   "https://www.esgtoday.com/utility-global-raises-53-million-for-electricity-free-clean-hydrogen-technology-to-decarbonize-industry/",
+   "https://www.hy24partners.com/press-releases/hydrogen-equipment-pioneer-h2-site-successfully-raises-eur-36-million-from-a-consortium-of-investors-co-led-by-hy24-and-sc-net-zero-ventures/",
+   "https://www.wastedive.com/news/raven-sr-waste-hydrogen-construction-permit/806560/",
+   "https://www.technologyreview.com/2025/10/23/1126397/startup-aluminum-zero-carbon-fuel/",
+   "https://www.pv-magazine.com/2025/12/16/sparc-hits-production-milestone-at-hydrogen-pilot-plant-in-australia/",
+   "https://fuelcellsworks.com/2026/03/27/electrolyzer/hydrogenpro-reports-25m-loss-in-2025-amid-layoffs-and-project-costs"
+  ],
+  "variations": [
+   {
+    "name": "Alkaline electrolyzers (incl. pressurized and advanced-membrane designs)",
+    "description": "Century-old technology that splits water in a liquid potassium hydroxide electrolyte using cheap nickel-based electrodes, making it the lowest-capex and most widely deployed route to green hydrogen at gigawatt scale.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "thyssenkrupp nucera",
+      "role": "incumbent",
+      "what": "Scalum 20 MW alkaline modules built on chlor-alkali heritage; supplied the 2.2 GW NEOM project",
+      "signal": "Green H2 order intake collapsed to \u20ac26M in one 2025 quarter (vs \u20ac356M prior year); cost-containment program, abandoned US projects after tax-credit changes",
+      "status": "operating",
+      "source": "https://www.gasworld.com/story/thyssenkrupp-nucera-shifts-to-efficiency-and-services-amid-hydrogen-slowdown/2249304.article/"
+     },
+     {
+      "name": "John Cockerill Hydrogen",
+      "role": "incumbent",
+      "what": "Belgian pressurized-alkaline maker with gigafactories in Europe, India (JV) and China",
+      "signal": "Court-approved buyer of bankrupt McPhy's Belfort gigafactory, IP and 51 staff in July 2025, consolidating European alkaline",
+      "status": "operating",
+      "source": "https://johncockerill.com/en/press-and-news/news/john-cockerill-acquires-key-assets-from-mcphy-to-accelerate-the-development-of-its-new-generation-of-pressurized-alkaline-electrolysers/"
+     },
+     {
+      "name": "Nel Hydrogen",
+      "role": "scaleup",
+      "what": "Norwegian pure-play with automated alkaline line at Her\u00f8ya and PEM in the US",
+      "signal": "Paused Her\u00f8ya alkaline production in 2025 after alkaline order intake fell ~97% YoY; ~20% layoffs; won \u20ac135M EU grant for next-gen pressurized alkaline",
+      "status": "operating",
+      "source": "https://nelhydrogen.com/press-release/nel-asa-adjusts-capacity-to-market-demand/"
+     },
+     {
+      "name": "McPhy Energy",
+      "role": "scaleup",
+      "what": "French augmented-alkaline maker that built the Belfort gigafactory",
+      "signal": "Filed for bankruptcy protection June 2025; converted to judicial liquidation July 2025 with assets sold to John Cockerill; shares delisted",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.globenewswire.com/news-release/2025/07/08/3112106/0/en/McPhy-Energy-John-Cockerill-Hydrogen-appointed-as-the-buyer-of-the-majority-of-McPhy-s-activities-including-the-Belfort-Gigafactory-Judicial-reorganization-proceedings-converted-in.html"
+     },
+     {
+      "name": "Green Hydrogen Systems",
+      "role": "scaleup",
+      "what": "Danish maker of modular pressurized alkaline electrolyzers",
+      "signal": "Filed in-court restructuring March 2025, then bankruptcy mid-2025 after failing to find a buyer; thyssenkrupp nucera moved to pick up assets",
+      "status": "bankrupt-shutdown",
+      "source": "https://renewablesnow.com/news/green-hydrogen-systems-faces-bankruptcy-nucera-to-buy-assets-1277225/"
+     },
+     {
+      "name": "HydrogenPro",
+      "role": "scaleup",
+      "what": "Norwegian high-pressure alkaline supplier (delivered stacks for ACES Delta, Utah)",
+      "signal": "Reported ~$25M loss for 2025 amid layoffs and project cost overruns; Andritz partnership/stake provides backstop",
+      "status": "operating",
+      "source": "https://fuelcellsworks.com/2026/03/27/electrolyzer/hydrogenpro-reports-25m-loss-in-2025-amid-layoffs-and-project-costs"
+     },
+     {
+      "name": "Verdagy",
+      "role": "startup",
+      "what": "Single-element 'eDynamic' membrane-based alkaline cells with very wide turndown for variable renewables",
+      "signal": "Opened gigawatt-scale Newark, CA factory Oct 2024; 320 MW order from Petron Scientech (Jan 2025); $39.6M DOE grant; 20,000+ hours at Moss Landing pilot",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/verdagy-announces-grand-opening-of-its-gigawatt-scale-silicon-valley-factory-302284053.html"
+     },
+     {
+      "name": "Stargate Hydrogen",
+      "role": "startup",
+      "what": "Estonian maker of ceramic-electrode (PGM-free) alkaline 'Stellar' stacks targeting \u20ac1/kg",
+      "signal": "\u20ac42M equity+grants (2025, UG Investments, IPCEI, Repsol); opened 140 MW/yr Tallinn factory expandable to 1 GW",
+      "status": "operating",
+      "source": "https://climateinsider.com/2025/03/11/stargate-hydrogen-raises-e42-million-for-scaling-up-ceramic-based-electrolyzers/"
+     },
+     {
+      "name": "LONGi Hydrogen",
+      "role": "incumbent",
+      "what": "Chinese solar giant's electrolyzer arm shipping GW-scale, lowest-cost alkaline systems dominating Chinese tenders",
+      "signal": "Multi-GW/yr factory capacity; anchor supplier to Sinopec Kuqa-class mega-projects; Chinese OEMs hold ~half of global shipments",
+      "status": "operating",
+      "source": "https://www.longi.com/en/products/hydrogen/"
+     },
+     {
+      "name": "PERIC (CSSC 718th Institute)",
+      "role": "incumbent",
+      "what": "China's oldest electrolyzer manufacturer, supplying large-bore alkaline cells domestically and for export",
+      "signal": "Decades of installed base; among top global alkaline shippers by MW through 2024-2025",
+      "status": "operating",
+      "source": "http://www.peric.com.cn"
+     }
+    ]
+   },
+   {
+    "name": "PEM electrolyzers",
+    "description": "Proton-exchange-membrane cells split ultrapure water using iridium/platinum catalysts, offering compact footprint, high pressure and second-level ramping that pairs well with wind and solar \u2014 at the cost of precious-metal dependence.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Plug Power",
+      "role": "scaleup",
+      "what": "Vertically integrated US PEM maker that also operates its own hydrogen plants (Georgia, Louisiana, Texas)",
+      "signal": "Closed $1.66B DOE loan guarantee Jan 2025 for up to six plants; delivered first stacks for Galp's 100 MW Sines project; deep 'Quantum Leap' cost restructuring amid cash burn",
+      "status": "operating",
+      "source": "https://www.ir.plugpower.com/press-releases/news-details/2025/Plug-Closes-Loan-Guarantee-from-the-U.S.-Department-of-Energy/default.aspx"
+     },
+     {
+      "name": "ITM Power",
+      "role": "scaleup",
+      "what": "UK PEM pure-play with semi-automated Sheffield gigafactory and Linde channel partnership",
+      "signal": "5 GW/yr nameplate capacity; supplied RWE/Shell REFHYNE-class refinery projects; improved cash position vs peers through 2025",
+      "status": "operating",
+      "source": "https://itm-power.com"
+     },
+     {
+      "name": "Electric Hydrogen",
+      "role": "scaleup",
+      "what": "Sells complete standardized 100 MW PEM plants rather than stacks, targeting cost parity with alkaline",
+      "signal": "$380M Series C (2023, first electrolyzer unicorn); Devens, MA gigafactory online 2025; Infinium e-fuels supply deal; expanding to Latin America Dec 2025",
+      "status": "operating",
+      "source": "https://www.latitudemedia.com/news/electric-hydrogen-is-building-through-the-market-downturn/"
+     },
+     {
+      "name": "Siemens Energy",
+      "role": "incumbent",
+      "what": "Silyzer 300 PEM systems from a Berlin gigafactory run with Air Liquide",
+      "signal": "Multi-GW joint factory ramped since 2023; anchor supplier for European refinery and e-fuel projects",
+      "status": "operating",
+      "source": "https://www.siemens-energy.com/global/en/home/products-services/product-offerings/hydrogen-solutions.html"
+     },
+     {
+      "name": "Ohmium",
+      "role": "scaleup",
+      "what": "Modular 'Lotus' interlocking PEM stacks manufactured in India for global delivery",
+      "signal": "$250M Series C (2023, TPG Rise); ~2 GW/yr factory capacity; deals across India, US and Europe",
+      "status": "operating",
+      "source": "https://www.ohmium.com"
+     },
+     {
+      "name": "Hystar",
+      "role": "startup",
+      "what": "Ultra-thin-membrane PEM cells claiming ~10% more efficiency from drastically reduced membrane resistance",
+      "signal": "Series B led by Mitsubishi Corp/Nippon Steel Trading; building Norwegian factory; first multi-MW pilots in Europe",
+      "status": "operating",
+      "source": "https://hystar.com"
+     },
+     {
+      "name": "Quest One (formerly H-TEC Systems)",
+      "role": "scaleup",
+      "what": "Everllence/MAN-owned PEM stack maker with automated Hamburg 'Gigahub' (5 GW/yr potential)",
+      "signal": "Opened Gigahub Sep 2024, then cut ~120 jobs in 2025 restructuring as German H2 ramp lagged expectations",
+      "status": "operating",
+      "source": "https://www.h2-view.com/story/electrolyser-manufacturer-quest-one-to-cut-120-jobs-amid-market-challenges/2121538.article/"
+     },
+     {
+      "name": "Accelera (Cummins)",
+      "role": "incumbent",
+      "what": "HyLYZER PEM line (supplied B\u00e9cancour 20 MW, one of North America's largest)",
+      "signal": "Cummins announced stop to new electrolyzer activity after $458M of hydrogen-related charges (2025) \u2014 a marquee incumbent retreat",
+      "status": "operating",
+      "source": "https://www.h2-view.com/story/cummins-to-stop-new-electrolyser-activity-after-458m-hydrogen-related-charges/2137274.article/"
+     },
+     {
+      "name": "Bosch",
+      "role": "incumbent",
+      "what": "Entered the market with 'Hybrion' 1.25 MW PEM stacks made on automotive production lines for system-integrator partners",
+      "signal": "Series production started 2025 with multi-hundred-MW supply agreements; leverages fuel-cell manufacturing base",
+      "status": "operating",
+      "source": "https://www.bosch.com/stories/hydrogen-electrolysis/"
+     }
+    ]
+   },
+   {
+    "name": "Solid oxide and proton-conducting ceramic electrolyzers (high-temperature)",
+    "description": "Ceramic cells electrolyze steam at 500-850\u00b0C, cutting electricity demand 20-25% versus low-temperature routes when waste heat or nuclear steam is available \u2014 the efficiency king, but stack degradation and cost remain the hurdles.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Topsoe",
+      "role": "incumbent",
+      "what": "Danish catalysis major industrializing SOEC stacks for e-fuel and ammonia plants",
+      "signal": "Inaugurated Europe's largest SOEC factory (Herning, 500 MW/yr, \u20ac94M EU Innovation Fund) in 2025; paused US factory and cancelled a 100 MW order in 2026 as projects slipped",
+      "status": "operating",
+      "source": "https://www.topsoe.com/press-releases/topsoe-inaugurates-europes-largest-soec-manufacturing-facility"
+     },
+     {
+      "name": "Sunfire",
+      "role": "scaleup",
+      "what": "German maker of both SOEC and pressurized alkaline; supplied 100 MW alkaline plus multi-MW SOEC demos",
+      "signal": "\u20ac500M+ raised incl. \u20ac200M+ Series E and EIB debt; building 100 MW-class electrolysis for RWE Lingen; GW factory plans EU-funded",
+      "status": "operating",
+      "source": "https://www.sunfire.de/en/",
+      "role_note": null
+     },
+     {
+      "name": "Bloom Energy",
+      "role": "incumbent",
+      "what": "Repurposes its fuel-cell solid-oxide platform as the Bloom Electrolyzer",
+      "signal": "4 MW unit at NASA Ames was world's largest SOEC install; 1.8 MW Jeju Island demo with SK ecoplant; company increasingly focused on data-center fuel cells",
+      "status": "operating",
+      "source": "https://www.bloomenergy.com/news/bloom-energy-demonstrates-hydrogen-production-with-the-worlds-most-efficient-electrolyzer-and-largest-solid-oxide-system/"
+     },
+     {
+      "name": "Ceres Power",
+      "role": "scaleup",
+      "what": "Licenses metal-supported solid-oxide cell technology (SOFC/SOEC) to manufacturers rather than building factories",
+      "signal": "Licensees Doosan, Delta, Denso, Thermax; 1 MW SOEC demo with Shell Bangalore; Bosch's Feb 2025 exit from its partnership hit shares",
+      "status": "operating",
+      "source": "https://www.ceres.tech"
+     },
+     {
+      "name": "FuelCell Energy",
+      "role": "incumbent",
+      "what": "Molten-carbonate incumbent that built a solid-oxide electrolysis platform tested at Idaho National Laboratory (nuclear-coupled HTE)",
+      "signal": "Global restructuring 2024-2025 (~22% workforce cut) paused broad solid-oxide R&D to focus on electrolysis validation; its INL unit is the largest electrolyzer tested there",
+      "status": "operating",
+      "source": "https://investor.fce.com/press-releases/press-release-details/2024/FuelCell-Energy-Announces-Global-Restructuring-Focusing-Core-Technologies-on-Distributed-Power-Generation-Grid-Resiliency-and-Data-Center-Growth/default.aspx"
+     },
+     {
+      "name": "Elcogen",
+      "role": "scaleup",
+      "what": "Estonian merchant supplier of low-temperature (650\u00b0C) solid-oxide cells and stacks to system integrators",
+      "signal": "~\u20ac140M raised incl. HD Hyundai (\u20ac45M) and Baker Hughes; new Tallinn plant scaling to 360 MW/yr",
+      "status": "operating",
+      "source": "https://elcogen.com"
+     },
+     {
+      "name": "Genvia",
+      "role": "startup",
+      "what": "SLB-CEA joint venture industrializing high-efficiency SOEC from French national-lab research",
+      "signal": "Pilot manufacturing line in B\u00e9ziers; demonstrators with cement and steel partners under France 2030 funding",
+      "status": "operating",
+      "source": "https://www.genvia.com"
+     }
+    ]
+   },
+   {
+    "name": "AEM electrolyzers",
+    "description": "Anion-exchange-membrane cells aim to combine PEM's compact, differential-pressure design with alkaline's cheap, PGM-free materials by running an alkaline reaction across a polymer membrane \u2014 the cost holy grail if membrane lifetime is solved.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Enapter",
+      "role": "scaleup",
+      "what": "First commercial AEM vendor; thousands of modular 2.4 kW cores shipped, now scaling to MW 'Nexus' systems",
+      "signal": "Launched 2.5 MW Nexus 2500 (2025); raised ~\u20ac12M via capital increase Nov 2025 targeting 2026 break-even; production JV with China's Wolong",
+      "status": "operating",
+      "source": "https://fuelcellsworks.com/2025/11/25/electrolyzer/enapter-ag-launches-capital-increase-with-subscription-rights-financing-to-enable-break-even-in-2026"
+     },
+     {
+      "name": "EvolOH",
+      "role": "startup",
+      "what": "PGM-free, ultra-high-speed roll-to-roll manufacturable AEM stacks ('Clarity') using no exotic materials",
+      "signal": "$20M Series A (Engine Ventures, NextEra, 3M); Lowell, MA plant sized toward 3.75 GW/yr; 500 MW stack supply deal Dec 2024; commercial manufacturing started Oct 2025",
+      "status": "operating",
+      "source": "https://evoloh.com/evoloh-to-build-worlds-largest-green-hydrogen-electrolyzer-manufacturing-plant/"
+     },
+     {
+      "name": "Versogen",
+      "role": "startup",
+      "what": "Univ. of Delaware spinout (Yushan Yan) making durable PiperION AEM membranes and PGM-free stacks",
+      "signal": "$14.5M Series A led by Doosan/HyAxiom; scaling MW-class pilot stacks",
+      "status": "operating",
+      "source": "https://www.versogen.com/new-aem-electrolyzer-produces-low-cost-green-hydrogen/"
+     },
+     {
+      "name": "Cipher Neutron",
+      "role": "startup",
+      "what": "Canadian developer of 5-250 kW PGM-free AEM stacks for green hydrogen and reversible fuel-cell use",
+      "signal": "Partnership with TSX-listed dynaCERT; early commercial units and university pilots",
+      "status": "operating",
+      "source": "https://cipherneutron.com"
+     }
+    ],
+    "white_space": "Only a handful of credible players because pure-water-fed AEM membranes still degrade too fast for 60,000-hour industrial duty \u2014 the physics bottleneck is hydroxide-induced polymer breakdown; whoever proves a long-life membrane (Ionomr-class chemistry plus a stack integrator) captures PEM performance at alkaline cost, with no iridium supply ceiling."
+   },
+   {
+    "name": "Novel electrolysis architectures (capillary-fed, decoupled, membraneless, supercritical, mid-temperature vapor, direct seawater)",
+    "description": "A wave of startups re-architects the electrolysis cell itself \u2014 capillary feeds, decoupled O2/H2 steps, supercritical water, industrial-steam feeds, or raw seawater \u2014 chasing step-change efficiency or capex gains that incremental PEM/alkaline improvement cannot reach.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Hysata",
+      "role": "startup",
+      "what": "Australian capillary-fed alkaline cell eliminating bubbles for ~95% system efficiency (41.5 kWh/kg)",
+      "signal": "US$111M Series B (2024, bp Ventures, Templewater); 5 MW commercial-scale demo with Stanwell; ACWA Power deal (Feb 2025) for Saudi demonstrations",
+      "status": "operating",
+      "source": "https://hysata.com/news/hysata-and-acwa-power-sign-game-changing-deal-to-unlock-green-hydrogen-in-the-kingdom-of-saudi-arabia-and-the-gulf-with-world-leading-high-efficiency-electrolysers/"
+     },
+     {
+      "name": "H2Pro",
+      "role": "startup",
+      "what": "Israeli E-TAC/decoupled water electrolysis producing H2 and O2 in separate steps \u2014 no membrane, ~10-15% better efficiency than PEM",
+      "signal": "~$180M raised incl. $75M Series B (2024; BEV, Temasek, Hyundai, ArcelorMittal); MW-scale systems in validation",
+      "status": "operating",
+      "source": "https://www.h2-view.com/feature/h2pros-hyper-flexible-bid-to-beat-the-green-hydrogen-cost-curve/2134177.article/"
+     },
+     {
+      "name": "Supercritical Solutions",
+      "role": "startup",
+      "what": "UK membraneless electrolyzer operating in supercritical water, targeting 42 kWh/kg and high-pressure H2 delivery",
+      "signal": "\u00a314M Series A (Mar 2025) co-led by Shell Ventures and Toyota Ventures; UK government-funded distillery (WhiskHy) and green ammonia projects",
+      "status": "operating",
+      "source": "https://www.supercritical.solutions/post/supercritical-secures-ps14-million-investment-led-by-shell-ventures-and-toyota-ventures"
+     },
+     {
+      "name": "Advanced Ionics",
+      "role": "startup",
+      "what": "'Symbion' intermediate-temperature (100-650\u00b0C) water-vapor electrolyzer feeding on industrial waste steam, <35 kWh/kg, built from cheap steels",
+      "signal": "$12.5M Series A led by bp ventures plus $6.7M (Jan 2025; JERA, Lummus); pilot agreement with Shell",
+      "status": "operating",
+      "source": "https://www.globenewswire.com/news-release/2025/01/08/3006200/0/en/Advanced-Ionics-Raises-6-7M-to-Accelerate-Technology-Commercialization-and-Deployment.html"
+     },
+     {
+      "name": "sHYp",
+      "role": "startup",
+      "what": "Membraneless electrolyzer running directly on seawater or desalination brine \u2014 no desalination step \u2014 with mineral co-products",
+      "signal": "Early pilots for ports/offshore; public-benefit corporation operating across NYC and Aberdeen",
+      "status": "operating",
+      "source": "https://www.maritime-executive.com/article/developing-a-technology-to-produce-hydrogen-from-seawater-or-brine"
+     },
+     {
+      "name": "Clean Power Hydrogen (CPH2)",
+      "role": "scaleup",
+      "what": "Membrane-free electrolyzer with cryogenic gas separation, removing the costliest failure-prone cell component",
+      "signal": "LSE-listed; 1 MW MFE220 units delivered to first customers and licensees in Ireland and beyond",
+      "status": "operating",
+      "source": "https://www.cph2.com"
+     }
+    ]
+   },
+   {
+    "name": "Electrolyzer components and supply chain (membranes, ionomers, catalysts, PTLs, bipolar plates, stack manufacturing)",
+    "description": "The picks-and-shovels layer \u2014 ion-exchange membranes, iridium-thrifted or PGM-free catalysts, porous transport layers and coated bipolar plates \u2014 that sets the cost, durability and material-supply ceiling for every electrolyzer OEM.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Chemours",
+      "role": "incumbent",
+      "what": "Nafion PFSA membranes and ionomers \u2014 the default chemistry for PEM electrolysis",
+      "signal": "Investing ~$200M in French capacity dedicated to hydrogen membranes; supplies most Western PEM OEMs",
+      "status": "operating",
+      "source": "https://www.chemours.com/en/brands/nafion"
+     },
+     {
+      "name": "W. L. Gore",
+      "role": "incumbent",
+      "what": "Reinforced expanded-PTFE composite PEM membranes enabling thinner, more durable cells",
+      "signal": "Long-standing supplier across fuel cell and electrolyzer OEM base",
+      "status": "operating",
+      "source": "https://www.gore.com"
+     },
+     {
+      "name": "De Nora",
+      "role": "incumbent",
+      "what": "World leader in catalytic electrode coatings and activated electrodes for alkaline electrolyzers (supplies thyssenkrupp nucera)",
+      "signal": "Milan-listed; electrode capacity expansions tied to NEOM-scale alkaline orders",
+      "status": "operating",
+      "source": "https://www.denora.com"
+     },
+     {
+      "name": "Heraeus Precious Metals",
+      "role": "incumbent",
+      "what": "Iridium-thrifted and ruthenium-based OER catalysts plus PGM recycling loops to break the iridium bottleneck",
+      "signal": "Launched reduced-iridium catalyst lines 2023-2025; building US/China catalyst capacity",
+      "status": "operating",
+      "source": "https://www.heraeus-precious-metals.com"
+     },
+     {
+      "name": "Johnson Matthey",
+      "role": "incumbent",
+      "what": "Catalyst-coated membranes (CCMs) for PEM electrolyzers plus LCH blue-hydrogen ATR catalysis",
+      "signal": "3,000 MW/yr CCM capacity ambitions; supply partnerships with Plug Power and Hystar; LCH tech selected for UK HyNet (EET) and bp H2Teesside",
+      "status": "operating",
+      "source": "https://matthey.com"
+     },
+     {
+      "name": "Ionomr Innovations",
+      "role": "startup",
+      "what": "Hydrocarbon (PFAS-free) Aemion AEM and Pemion PEM membranes/ionomers sold to stack makers",
+      "signal": "~$38M raised; Series A-4 backed by Shell, Chevron, Asahi Kasei, Bekaert, Samsung",
+      "status": "operating",
+      "source": "https://www.bctechnology.com/news/2023/12/7/Vancouver-based-Ionomr-Innovations-Closes-27-Million-Series-A-4-Financing-With-Broad-Industry-Participation.cfm"
+     },
+     {
+      "name": "Bekaert",
+      "role": "incumbent",
+      "what": "Titanium fiber porous transport layers (Currento) \u2014 the key current-collector component in PEM stacks",
+      "signal": "Dedicated PTL plants in Belgium/US serving major PEM OEMs; also invested in Ionomr",
+      "status": "operating",
+      "source": "https://www.bekaert.com"
+     },
+     {
+      "name": "Mott Corporation",
+      "role": "incumbent",
+      "what": "Sintered porous metal transport layers and flow components for PEM and AEM stacks",
+      "signal": "Long-run supplier to US electrolyzer and fuel-cell OEMs; expanded clean-energy lines 2023-2025",
+      "status": "operating",
+      "source": "https://mottcorp.com"
+     },
+     {
+      "name": "H2U Technologies",
+      "role": "startup",
+      "what": "Caltech-spinout high-throughput discovery platform for non-iridium OER catalysts",
+      "signal": "Raised ~$11M (2023, incl. TDK Ventures, Freeport); little public progress since \u2014 viability unclear",
+      "status": "uncertain",
+      "source": "https://www.h2utechnologies.com"
+     }
+    ]
+   },
+   {
+    "name": "Methane pyrolysis (turquoise hydrogen)",
+    "description": "Cracks natural gas or biogas into hydrogen and solid carbon (instead of CO2) using plasma, molten media, catalysts, microwaves or pulsed combustion \u2014 roughly one-seventh the electricity of electrolysis per kg H2, with carbon black or graphite as a saleable co-product.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Monolith",
+      "role": "scaleup",
+      "what": "Plasma pyrolysis pioneer; Olive Creek 1 (Nebraska) produces carbon black plus hydrogen for ammonia",
+      "signal": "$1.04B conditional DOE loan for 12x expansion reported at risk of cancellation under DOE's 2025 loan review; Goodyear carbon-black offtake",
+      "status": "operating",
+      "source": "https://www.notchconsulting.com/post/monolith-at-risk-of-losing-doe-loan"
+     },
+     {
+      "name": "Hazer Group",
+      "role": "scaleup",
+      "what": "Iron-ore-catalyzed thermocatalytic pyrolysis yielding hydrogen plus synthetic graphite",
+      "signal": "ASX-listed; Perth commercial demonstration plant operating; FortisBC (Canada) and KHI/Chubu (Japan) projects advancing",
+      "status": "operating",
+      "source": "https://hazergroup.com.au"
+     },
+     {
+      "name": "Graphitic Energy (formerly C-Zero)",
+      "role": "startup",
+      "what": "Pivoted from molten-media to a process co-producing battery-grade graphite with hydrogen",
+      "signal": "Pilot at Southwest Research Institute (San Antonio) commissioned 2025: ~1 t/day solid carbon and several hundred kg/day H2; first commercial plant targeted ~10 kt H2/yr",
+      "status": "operating",
+      "source": "https://cen.acs.org/energy/hydrogen-power/Graphitic-Energy-starts-turquoise-hydrogen-pilot/103/web/2025/03"
+     },
+     {
+      "name": "Ekona Power",
+      "role": "startup",
+      "what": "Pulsed methane pyrolysis (xCaliber reactor) using combustion-driven shockwaves \u2014 no electricity-intensive plasma",
+      "signal": "C$79M Series A (Baker Hughes, Mitsui); 1 t/day pilot with industrial partner commissioning through 2025, first commercial deployments slated 2026",
+      "status": "operating",
+      "source": "https://fuelcellsworks.com/2025/04/30/green-hydrogen/b-c-cleantech-upstart-ekona-advances-novel-hydrogen-production-platform"
+     },
+     {
+      "name": "Aurora Hydrogen",
+      "role": "startup",
+      "what": "Microwave-driven pyrolysis enabling small-footprint, distributed turquoise hydrogen without water use",
+      "signal": "$10M Series A (Williams, Shell Ventures, EIC); completed pilot-scale microwave unit (announced Oct 2025 via NGIF)",
+      "status": "operating",
+      "source": "https://www.ngif.ca/aurora-hydrogen-completes-development-of-pilot-scale-microwave-methane-pyrolysis-unit-with-support-from-ngif-accelerator/"
+     },
+     {
+      "name": "Modern Hydrogen",
+      "role": "startup",
+      "what": "Distributed 'at-the-burner' pyrolysis units installed behind the meter with gas utilities, sequestering carbon into asphalt",
+      "signal": "~$100M raised incl. $32.8M round with NW Natural; units deployed with multiple North American gas utilities",
+      "status": "operating",
+      "source": "https://modernhydrogen.com"
+     },
+     {
+      "name": "Molten Industries",
+      "role": "startup",
+      "what": "Thermocatalytic pyrolysis optimized to co-produce battery-grade graphite, hedging hydrogen economics with anode material",
+      "signal": "$25M Series A (2024, Breakthrough-backed); pilot reactors in Oakland scaling toward graphite qualification",
+      "status": "operating",
+      "source": "https://www.moltenindustries.com"
+     },
+     {
+      "name": "Tulum Energy",
+      "role": "startup",
+      "what": "Repurposes off-the-shelf steel-industry electric-arc equipment for pyrolysis, skipping bespoke reactor development",
+      "signal": "$27M seed (Jul 2025, CDP Venture Capital, TDK Ventures, TechEnergy); pilot under construction at Ternium's Pesquer\u00eda, Mexico steel complex",
+      "status": "operating",
+      "source": "https://techcrunch.com/2025/07/07/tulum-energy-rediscovered-a-forgotten-hydrogen-tech-and-used-it-to-raise-27m/"
+     },
+     {
+      "name": "Hycamite",
+      "role": "startup",
+      "what": "Finnish thermocatalytic decomposition producing hydrogen plus high-purity carbon for batteries",
+      "signal": "Opened Europe's largest methane-splitting plant (Kokkola, 2,000 t H2/yr) in 2025; MOL shipping partnership",
+      "status": "operating",
+      "source": "https://hycamite.com/press-releases/hycamite-opens-europes-largest-methane-splitting-plant-for-low-carbon-hydrogen-production/"
+     },
+     {
+      "name": "Sakowin",
+      "role": "startup",
+      "what": "French microwave plasmalysis ('plasmalyse') modules for distributed decarbonized H2 and solid carbon",
+      "signal": "~$14M raised (Vol-V, EIC Fund); first industrial pilot delivered to Swiss manufacturer V-ZUG in 2025",
+      "status": "operating",
+      "source": "https://emag.directindustry.com/2025/04/23/this-french-startup-is-using-plasma-to-create-co%E2%82%82-free-hydrogen-from-methane/"
+     },
+     {
+      "name": "BASF",
+      "role": "incumbent",
+      "what": "In-house molten-media methane pyrolysis pilot reactor at Ludwigshafen for decarbonizing its own hydrogen demand",
+      "signal": "Pilot operating since 2021 under German-government funding; commercialization pace tied to power prices",
+      "status": "operating",
+      "source": "https://www.basf.com"
+     }
+    ]
+   },
+   {
+    "name": "Natural (geologic/white) hydrogen exploration",
+    "description": "Prospecting for hydrogen generated naturally underground by water-rock reactions (serpentinization) and radiolysis \u2014 if commercial accumulations prove out, it would be a primary energy source with potential sub-$1/kg cost and near-zero footprint.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Koloma",
+      "role": "scaleup",
+      "what": "Best-funded geologic hydrogen explorer, using proprietary subsurface data/AI to target US Midcontinent accumulations",
+      "signal": "~$403M raised (Khosla, BEV, United, Amazon; Osaka Gas/MHI partnership); drilled Kansas, permitted Idaho Twin Peaks well late 2025; notably quiet on results",
+      "status": "operating",
+      "source": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/012425-geologic-hydrogen-explorer-koloma-with-400-mil-in-funding-quiet-on-next-step"
+     },
+     {
+      "name": "Snowfox Discovery",
+      "role": "startup",
+      "what": "UK exploration company applying petroleum-systems science to find 'hydrogen provinces'",
+      "signal": "Series A first tranche led by bp Ventures with Rio Tinto and Oxford Science Enterprises (2025)",
+      "status": "operating",
+      "source": "https://www.sunya.ai/news/snowfox-discovery-secures-series-a-funding-for-natural-hydrogen-expansion"
+     },
+     {
+      "name": "Mantle8",
+      "role": "startup",
+      "what": "French explorer with HOREX seismic-based hydrogen-kitchen imaging; completed first 4D imaging of an active natural H2 system (Pyrenees)",
+      "signal": "\u20ac31M Series A (May 2026, Sandwater, BEV, Bpifrance; \u20ac37M total) funding Europe's most advanced natural-H2 drilling campaign; targets 10 Mt resource by 2030",
+      "status": "operating",
+      "source": "https://mantle8.com/mantle8-raises-e31m-in-series-a-funding-to-prove-commercial-viability-of-natural-hydrogen-production"
+     },
+     {
+      "name": "HyTerra",
+      "role": "startup",
+      "what": "ASX-listed explorer drilling the Nemaha Ridge (Kansas) for hydrogen and helium",
+      "signal": "Fortescue-backed (A$21.9M); three wells drilled 2025 with mud-gas shows up to 83-96% H2 and 5% helium at McCoy 1",
+      "status": "operating",
+      "source": "https://fuelcellsworks.com/2025/08/19/green-hydrogen/hyterra-confirms-83-percent-hydrogen-at-nemaha-project-s-mccoy-1-well"
+     },
+     {
+      "name": "Gold Hydrogen",
+      "role": "startup",
+      "what": "ASX-listed explorer of South Australia's Ramsay project, the most advanced Australian natural-H2 play",
+      "signal": "Well tests recorded ~95% hydrogen purity plus commercial-grade helium; pilot production studies underway",
+      "status": "operating",
+      "source": "https://www.cnbc.com/2025/04/28/natural-hydrogen-mining-giants-and-big-oil-jump-on-the-bandwagon.html"
+     },
+     {
+      "name": "Hydroma",
+      "role": "startup",
+      "what": "Operates the world's first producing natural-hydrogen field (Bourak\u00e9bougou, Mali), powering a village since 2012",
+      "signal": "Existence proof for the whole sector; expanding appraisal drilling and Canadian listing ambitions",
+      "status": "operating",
+      "source": "https://www.cnbc.com/2025/04/28/natural-hydrogen-mining-giants-and-big-oil-jump-on-the-bandwagon.html"
+     },
+     {
+      "name": "45-8 Energy",
+      "role": "startup",
+      "what": "French explorer pairing helium with native hydrogen across European permits",
+      "signal": "Holds France's first H2+He exploration licenses (Lorraine, Pyrenees); EU-supported drilling planned",
+      "status": "operating",
+      "source": "https://www.45-8energy.com"
+     },
+     {
+      "name": "Natural Hydrogen Energy",
+      "role": "startup",
+      "what": "Drilled the first dedicated US natural-hydrogen borehole (Nebraska, 2019)",
+      "signal": "Pioneer with little public activity since; founder Viacheslav Zgonnik remains a sector evangelist",
+      "status": "uncertain",
+      "source": "https://nh2e.com"
+     }
+    ]
+   },
+   {
+    "name": "Stimulated (orange) and subsurface-biological hydrogen",
+    "description": "Rather than hunting existing accumulations, these players manufacture hydrogen underground \u2014 injecting catalyst-bearing fluids into iron-rich rock to accelerate serpentinization, or feeding microbes in depleted oil reservoirs \u2014 turning geology itself into the reactor.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Vema Hydrogen",
+      "role": "startup",
+      "what": "Injects catalyst-bearing brine into shallow iron-rich formations to stimulate hydrogen generation at claimed <$1/kg",
+      "signal": "$13M seed (Feb 2025, Extantia + Propeller); developing first full-scale stimulated-hydrogen pilot wells in North America",
+      "status": "operating",
+      "source": "https://www.axios.com/pro/climate-deals/2025/02/18/vema-seed-stimulated-geologic-hydrogen"
+     },
+     {
+      "name": "Gold H2 (Cemvita spinout)",
+      "role": "startup",
+      "what": "Injects engineered microbes into depleted oil wells to bioconvert residual hydrocarbons into hydrogen in situ",
+      "signal": "Permian Basin field trial measured H2 three orders of magnitude above baseline; spun out of Cemvita as dedicated subsidiary",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20220927005409/en/Cemvitas-Successful-Field-Test-Demonstrates-Gold-Hydrogen-Production-in-Situ"
+     },
+     {
+      "name": "Eden GeoPower",
+      "role": "startup",
+      "what": "Electrical reservoir stimulation to enhance permeability and reaction rates in iron-rich rock for hydrogen generation",
+      "signal": "ARPA-E-funded serpentinization work; core stimulation business spans geothermal and mining",
+      "status": "operating",
+      "source": "https://www.edengeopower.com"
+     }
+    ],
+    "white_space": "Barely three credible players because the chemistry is unproven at field scale: serpentinization kinetics are slow, catalyst delivery and hydrogen recovery from the same wellbore is an unsolved engineering loop, and there is no offtake infrastructure at remote sites. ARPA-E seeded the science in 2024; the opening is for oilfield-services-grade execution (drilling, stimulation, downhole separation) married to geochemistry \u2014 a natural play for service majors or well-capitalized spinouts."
+   },
+   {
+    "name": "Blue hydrogen with CCS and novel reforming",
+    "description": "Reforms natural gas to hydrogen while capturing 90-99% of the CO2 \u2014 via ATR/POX with capture, oxy-combustion cycles, membrane reactors or electricity-free solid-oxide conversion \u2014 the only route currently capable of megaton-scale low-carbon hydrogen for industry.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Air Products",
+      "role": "incumbent",
+      "what": "World's largest hydrogen producer; building the $7B+ Louisiana Clean Energy Complex (ATR + >95% capture)",
+      "signal": "Louisiana project delayed to ~2028-29 and descoped under new CEO as company cancelled several US clean-H2 projects in 2025",
+      "status": "operating",
+      "source": "https://www.airproducts.com"
+     },
+     {
+      "name": "ExxonMobil",
+      "role": "incumbent",
+      "what": "Baytown plant designed for 1 Bcf/day hydrogen with ~98% capture \u2014 would be the world's largest low-carbon H2 facility",
+      "signal": "FID slipped amid 45V policy uncertainty; ADNOC/XRG agreed 35% equity stake; Air Liquide partnership for O2/N2",
+      "status": "operating",
+      "source": "https://corporate.exxonmobil.com"
+     },
+     {
+      "name": "Shell",
+      "role": "incumbent",
+      "what": "Operates Quest (Alberta), one of the longest-running blue-hydrogen CCS projects",
+      "signal": "~1 Mt CO2/yr captured since 2015 at its Scotford hydrogen units; Polaris expansion FID'd",
+      "status": "operating",
+      "source": "https://www.shell.ca/en_ca/about-us/projects-and-sites/quest-carbon-capture-and-storage-project.html"
+     },
+     {
+      "name": "Linde",
+      "role": "incumbent",
+      "what": "Builds and operates on-site ATR/SMR-with-capture complexes, incl. the $1.8B+ Beaumont, TX plant supplying OCI's blue ammonia",
+      "signal": "Beaumont complex started up 2025; multiple US Gulf Coast clean-H2 supply schemes",
+      "status": "operating",
+      "source": "https://www.linde.com"
+     },
+     {
+      "name": "8 Rivers",
+      "role": "scaleup",
+      "what": "8RH2 oxy-combustion/CO2-convective reforming claiming >99% capture without amine systems",
+      "signal": "First commercial deployment announced: Cormorant Clean Energy (Port Arthur, TX) for 880 kt/yr ultra-low-carbon ammonia; FID timing has slipped from Q1 2025",
+      "status": "operating",
+      "source": "https://8rivers.com/cormorant-clean-energy/"
+     },
+     {
+      "name": "Utility Global",
+      "role": "scaleup",
+      "what": "eXERO electricity-free solid-oxide process converting steel off-gases and other streams directly into hydrogen",
+      "signal": "$53M Series C (2024; OPG, ArcelorMittal XCarb, Aramco Ventures; ~$178M total); first H2 ever produced from blast-furnace gas in one reactor; first commercial H2Gen units targeted 2026 incl. ArcelorMittal Brazil",
+      "status": "operating",
+      "source": "https://www.esgtoday.com/utility-global-raises-53-million-for-electricity-free-clean-hydrogen-technology-to-decarbonize-industry/"
+     },
+     {
+      "name": "H2SITE",
+      "role": "startup",
+      "what": "Palladium-membrane reactors that reform or crack ammonia/methanol/biogas and separate pure H2 in a single unit",
+      "signal": "\u20ac36M Series B (Jan 2025, Hy24, BEV, Equinor Ventures); EIC-funded 1 t/day ammonia cracker at a NW-European port",
+      "status": "operating",
+      "source": "https://www.hy24partners.com/press-releases/hydrogen-equipment-pioneer-h2-site-successfully-raises-eur-36-million-from-a-consortium-of-investors-co-led-by-hy24-and-sc-net-zero-ventures/"
+     },
+     {
+      "name": "Syzygy Plasmonics",
+      "role": "startup",
+      "what": "Light- and electricity-driven photocatalytic reactors for ammonia cracking and low-carbon reforming (now also biogas-to-SAF)",
+      "signal": "$76M Series C; demo cells with Lotte/Sumitomo in Korea; NovaSAF biogas project in Uruguay",
+      "status": "operating",
+      "source": "https://www.syzygyplasmonics.com"
+     },
+     {
+      "name": "Proton Technologies",
+      "role": "startup",
+      "what": "In-situ subsurface combustion of heavy-oil reservoirs with downhole palladium membranes producing 'clear' hydrogen, leaving carbon underground",
+      "signal": "Saskatchewan Superb field test site; minimal public progress since ~2023 \u2014 commercial viability unclear",
+      "status": "uncertain",
+      "source": "https://proton.energy"
+     }
+    ]
+   },
+   {
+    "name": "Biomass and waste-to-hydrogen (gasification and non-combustion reforming)",
+    "description": "Converts municipal waste, biomass or forestry residues into hydrogen via plasma or steam/CO2 gasification and chemical looping \u2014 potentially carbon-negative when paired with CO2 storage, and paid twice via tipping fees plus hydrogen sales.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Raven SR",
+      "role": "startup",
+      "what": "Non-combustion steam/CO2 reforming of organic waste to hydrogen at closed landfill sites",
+      "signal": "Received final air permit Nov 2025 for $75M Richmond, CA facility (99 t/day waste \u2192 ~2,400 t H2/yr) with Chevron; investors incl. ITOCHU, Samsung Ventures; groundbreaking early 2026",
+      "status": "operating",
+      "source": "https://www.wastedive.com/news/raven-sr-waste-hydrogen-construction-permit/806560/"
+     },
+     {
+      "name": "SGH2 Energy",
+      "role": "startup",
+      "what": "Solena plasma-enhanced gasification of waste paper into 'greener-than-green' hydrogen (Lancaster, CA flagship)",
+      "signal": "Permits approved Feb 2023 but no construction/FID announced since \u2014 project appears stalled",
+      "status": "uncertain",
+      "source": "https://www.sgh2energy.com/projects"
+     },
+     {
+      "name": "Boson Energy",
+      "role": "startup",
+      "what": "Plasma-assisted gasification of non-recyclable waste into hydrogen 'energy hubs' for EV fast-charging and industry, with mineralized CO2",
+      "signal": "Siemens partnership; pipeline of first plants in Sweden/Poland/Germany toward claimed 300 plants by 2030 \u2014 none yet operating",
+      "status": "operating",
+      "source": "https://bosonenergy.com/"
+     },
+     {
+      "name": "Mote",
+      "role": "startup",
+      "what": "Gasifies forestry waste into hydrogen while geologically sequestering the biogenic CO2 (carbon-negative BECCS-H2)",
+      "signal": "$7M Series A first close (Mar 2025); Bakersfield and SMUD/Sacramento projects targeting operations 2027-28",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20250304282371/en/Mote-Secures-$7-Million-Funding-in-First-Close-of-Series-A-Round-to-Advance-Companys-Carbon-Negative-Biomass-to-Energy-Technology"
+     },
+     {
+      "name": "Babcock & Wilcox",
+      "role": "incumbent",
+      "what": "BrightLoop chemical-looping process converting biomass or waste fuels to hydrogen with inherent CO2 separation",
+      "signal": "First commercial-demonstration BrightLoop plant built in Massillon, Ohio; Wyoming and Louisiana projects in development",
+      "status": "operating",
+      "source": "https://www.babcock.com"
+     },
+     {
+      "name": "Ways2H",
+      "role": "startup",
+      "what": "Japanese-licensed thermochemical conversion of MSW and medical waste to hydrogen in modular units",
+      "signal": "Tokyo and California pilots circa 2020-2022; little public activity since \u2014 status unclear",
+      "status": "uncertain",
+      "source": "https://ways2h.com"
+     }
+    ],
+    "white_space": "Waste gasification has a 20-year graveyard (capex blowouts, feedstock contamination, syngas cleanup), and the two US flagships illustrate it \u2014 SGH2 stalled post-permit and Ways2H went quiet. The economics only close when tipping fees, LCFS/45V credits and hydrogen revenue stack; the opening is modular, non-combustion designs at existing landfill/utility sites with a creditworthy waste partner (the Raven SR\u2013Republic\u2013Chevron template)."
+   },
+   {
+    "name": "Biological, photocatalytic, solar-thermochemical and metal-water hydrogen routes",
+    "description": "Frontier routes that skip electrolysis entirely \u2014 engineered microbes fermenting crop waste, sunlight-driven photocatalysts splitting water directly, high-temperature solar redox cycles, and aluminum-water reactions that release hydrogen from scrap metal.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "HydGene Renewables",
+      "role": "startup",
+      "what": "Engineered biocatalyst (dark fermentation) converting agricultural residues into on-site, on-demand carbon-negative hydrogen",
+      "signal": "A$6M seed (Agronomics, CEFC) plus A$2.5M NSW grant (2025); pilot ran continuously >2 years, producing high-purity H2 from wheat straw (Mar 2026)",
+      "status": "operating",
+      "source": "https://www.hydgene.com/post/hydgene-awarded-nsw-government-cti-funding-to-scale-on-farm-hydrogen-innovation"
+     },
+     {
+      "name": "Sparc Hydrogen",
+      "role": "startup",
+      "what": "JV (Sparc Technologies, Fortescue, Univ. of Adelaide) running the world's first on-sun photocatalytic water-splitting pilot using concentrated solar",
+      "signal": "Roseworthy pilot opened Jun 2025; sustained hydrogen production achieved Dec 2025; A$2.75M federal AEA grant",
+      "status": "operating",
+      "source": "https://www.pv-magazine.com/2025/12/16/sparc-hits-production-milestone-at-hydrogen-pilot-plant-in-australia/"
+     },
+     {
+      "name": "SunHydrogen",
+      "role": "startup",
+      "what": "Photoelectrochemical nanoparticle panels generating hydrogen directly from sunlight and water",
+      "signal": "OTC-listed; square-meter-scale demonstration modules with university and industrial partners (incl. Honda R&D collaboration); pre-revenue",
+      "status": "operating",
+      "source": "https://www.sunhydrogen.com"
+     },
+     {
+      "name": "Found Energy",
+      "role": "startup",
+      "what": "Catalytically reacts scrap aluminum with water to deliver hydrogen plus steam/heat for industry, using waste metal as an energy carrier",
+      "signal": "$12M seed; switched on the largest-ever aluminum-water reactor in 2025 (MIT Technology Review); US Army funding ecosystem ($20M Georgia Tech-led program) validating the route",
+      "status": "operating",
+      "source": "https://www.technologyreview.com/2025/10/23/1126397/startup-aluminum-zero-carbon-fuel/"
+     },
+     {
+      "name": "Electro-Active Technologies",
+      "role": "startup",
+      "what": "ORNL-spinout microbial electrolysis converting food waste into hydrogen at the bin",
+      "signal": "Won early DOE/incubator awards (~2019-2022); minimal public activity since \u2014 status unclear",
+      "status": "uncertain",
+      "source": "https://www.electroactive.tech"
+     }
+    ],
+    "white_space": "Sparse because the physics is brutal: photocatalysis sits at ~1-5% solar-to-hydrogen versus ~10% needed to beat PV-plus-electrolysis, fermentation rates cap out on microbial kinetics, and solar thermochemical cycles (Sandia/DLR-class) remain lab projects with no dedicated commercial player after Heliogen's collapse. Credible openings are niche-first: distributed ag-waste hydrogen for fertilizer-dependent farms (HydGene's wedge) and aluminum-water systems for defense/remote power where logistics, not $/kg, set the bar \u2014 evidenced by the US Army's $20M program."
+   }
+  ]
+ }
+}

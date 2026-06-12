@@ -1,0 +1,540 @@
+{
+ "sector": "cdr",
+ "bucket": "CO2 Utilization: Fuels, Chemicals & Bio-products",
+ "census": {
+  "bucket": "CO2 Utilization: Fuels, Chemicals & Bio-products",
+  "sources": [
+   "https://www.transportenvironment.org/uploads/files/202504_e-kerosene_report.pdf",
+   "https://www.twelve.co/post/airplant-one-opens-in-moses-lake-america-s-first-commercial-e-jet-fuel-plant-begins-operations",
+   "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2690011-infinium-takes-fid-on-100mw-texas-e-fuels-plant",
+   "https://global-efuels.com/news/liquid-wind-declares-bankruptcy/",
+   "https://bioenergyinternational.com/2025-a-watershed-year-for-renewable-and-low-carbon-methanol-projects/",
+   "https://carbonrecycling.com/co2-methanol",
+   "https://www.topsoe.com/press-releases/topsoe-to-provide-technology-for-e-methanol-project-in-galicia-spain",
+   "https://www.uniper.energy/news/methanation-plant-in-falkenhagen-starts-operation-and-supplies-synthetic-methane--another-step-towards-a-successful-energy-transition",
+   "https://cleantech.com/decarbonizing-the-chemical-industry-the-role-of-co2-electrolysis/",
+   "https://dioxycle.com/dioxycle-raises-17m-to-turn-co%E2%82%82-emissions-into-sustainable-chemicals/",
+   "https://www.greenairnews.com/?p=5884",
+   "https://synhelion.com/solar-fuels-and-plants/solar-fuel-plants",
+   "https://www.sec.gov/Archives/edgar/data/0001843724/000162828025058573/ex991_lanzajetshareholde.htm",
+   "https://en.wikipedia.org/wiki/Solar_Foods",
+   "https://vegconomist.com/ingredients/savor-develops-dairy-plant-free-butter-from-co2-hydrogen/",
+   "https://www.econic-technologies.com/changhua-begins-commercial-production-of-co2-polyols-based-on-econics-technology/",
+   "https://www.plasticstoday.com/materials/covestro-opens-industrial-scale-co2-based-polyol-plant",
+   "https://www.prnewswire.com/news-releases/carbonova-selected-for-funding-through-emission-reduction-albertas-advanced-materials-challenge-302512639.html",
+   "https://www.geekwire.com/2025/ocochem-prepares-to-flip-the-switch-on-tech-for-turning-captured-co2-into-industrial-chemicals/",
+   "https://avantium.com/products-technologies/co2-based-polyesters-chemicals/",
+   "https://www.breatheesg.com/resources/brilliant-planet-revolutionizing-carbon-capture-with-algae-farms"
+  ],
+  "variations": [
+   {
+    "name": "Thermocatalytic e-fuels (RWGS + Fischer-Tropsch SAF & e-diesel)",
+    "description": "Green hydrogen and captured CO2 are combined via reverse water-gas shift into syngas and then Fischer-Tropsch-synthesized into drop-in synthetic aviation fuel and diesel, offering a fossil-free liquid fuel for hard-to-electrify aviation and shipping.",
+    "maturity": "demonstration",
+    "white_space": "First commercial plants are opening (Twelve, Infinium) but the economics are brutal: e-SAF costs several times fossil Jet A, each plant needs EUR 1-2B, and at least 16 large-scale EU e-SAF projects were paused/cancelled and Liquid Wind went bankrupt in 2026. The opening is cheap green H2 + cheap biogenic CO2 co-location plus long-dated offtake/mandate certainty; whoever cracks bankable project finance for Nth-of-a-kind plants wins.",
+    "companies": [
+     {
+      "name": "Twelve",
+      "role": "startup",
+      "what": "CO2 electrolysis to CO/syngas feeding Fischer-Tropsch to make E-Jet SAF and E-Naphtha at its AirPlant One facility in Moses Lake, WA.",
+      "signal": "Raised ~$645M in 2024 (TPG-led, incl. $400M project equity); AirPlant One opened June 10, 2026 as first US commercial CO2-to-jet plant, ~50,000 gal/yr initial, offtakers Alaska Airlines and Microsoft.",
+      "status": "operating",
+      "source": "https://www.twelve.co/post/airplant-one-opens-in-moses-lake-america-s-first-commercial-e-jet-fuel-plant-begins-operations"
+     },
+     {
+      "name": "Infinium",
+      "role": "startup",
+      "what": "Power-to-liquids e-fuels producer making e-SAF, e-diesel and e-naphtha; runs Project Pathfinder (Corpus Christi) and is building Project Roadrunner near Pecos, TX.",
+      "signal": "Brookfield committed up to ~$1B; Roadrunner FID taken (100MW Electric Hydrogen electrolyzer, ~23,000 t/yr), commercial output targeted 2027; Mitsui investment 2025.",
+      "status": "operating",
+      "source": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2690011-infinium-takes-fid-on-100mw-texas-e-fuels-plant"
+     },
+     {
+      "name": "HIF Global",
+      "role": "scaleup",
+      "what": "Develops e-fuels (e-gasoline, e-SAF, e-methanol) from green H2 + captured CO2; operates the Haru Oni pilot in Chile and is permitting the giant Matagorda facility in Texas.",
+      "signal": "Haru Oni (~130,000 L/yr) producing e-gasoline offtaken by Porsche; Matagorda planned at $6-7B / ~200M gal/yr but Chile expansion stalled with no updates for over a year.",
+      "status": "uncertain",
+      "source": "https://www.hydrogeninsight.com/innovation/hif-global-gets-green-light-to-build-worlds-largest-e-fuels-facility-in-texas-with-1-8gw-of-green-hydrogen-production/2-1-1440684"
+     },
+     {
+      "name": "Aether Fuels",
+      "role": "startup",
+      "what": "Singapore/US startup with 'Aether Aurora' gas-to-liquid + Fischer-Tropsch process converting diverse sustainable carbon feedstocks (incl. CO/CO2) into SAF.",
+      "signal": "VC-backed (Xora/Temasek, JetBlue Ventures, AP Ventures) developing pilot-scale Fischer-Tropsch conversion.",
+      "status": "operating",
+      "source": "https://www.startus-insights.com/innovators-guide/aviation-fuel-innovations/"
+     },
+     {
+      "name": "Liquid Wind",
+      "role": "startup",
+      "what": "Swedish e-fuels developer that aimed to build standardized e-methanol/e-fuel plants (FlagshipONE etc.) feeding shipping decarbonization.",
+      "signal": "Declared bankruptcy 11 May 2026 and put up for sale despite an Oct 2025 EUR 3.6M Swedish grant; collapse seen as a warning for e-fuel project finance and e-methanol shipping supply.",
+      "status": "bankrupt-shutdown",
+      "source": "https://global-efuels.com/news/liquid-wind-declares-bankruptcy/"
+     },
+     {
+      "name": "Sasol",
+      "role": "incumbent",
+      "what": "Holds decades of commercial Fischer-Tropsch operating know-how (coal/gas-to-liquids) now being repositioned toward green-H2 + CO2 power-to-liquids and SAF partnerships.",
+      "signal": "Established FT incumbent partnering on e-SAF/PtL studies (e.g. with Topsoe, ENEOS, Uniper); no own large CO2-fed FT plant yet operating.",
+      "status": "operating",
+      "source": "https://pubs.acs.org/doi/10.1021/acssuschemeng.4c03939"
+     }
+    ]
+   },
+   {
+    "name": "CO2-to-methanol and methanol derivatives (e-methanol)",
+    "description": "Captured CO2 is hydrogenated with green hydrogen over catalysts into methanol, the most commercially mature CO2-utilization fuel/chemical, usable directly as marine fuel or as a feedstock for olefins, formaldehyde and other chemicals.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Carbon Recycling International (CRI)",
+      "role": "scaleup",
+      "what": "Iceland-based licensor of Emissions-to-Liquids CO2-to-methanol technology; built the George Olah plant (Iceland) and the Shunli plant (Anyang, China), the first commercial-scale CO2-to-methanol facility (~110,000 t/yr).",
+      "signal": "Technology deployed at multiple Chinese plants; signed 2025 agreement with Tianying Group for China's first large-scale CRI e-methanol project in Liaoyuan.",
+      "status": "operating",
+      "source": "https://carbonrecycling.com/co2-methanol"
+     },
+     {
+      "name": "European Energy",
+      "role": "scaleup",
+      "what": "Danish developer/operator of the Kass\u00f8 e-methanol plant, the world's first commercial-scale e-methanol facility, supplying green methanol to Maersk.",
+      "signal": "Kass\u00f8 (~42 kt/yr) started May 2025 with Mitsui as partner; first molecules delivered to Maersk for container shipping.",
+      "status": "operating",
+      "source": "https://bioenergyinternational.com/2025-a-watershed-year-for-renewable-and-low-carbon-methanol-projects/"
+     },
+     {
+      "name": "Topsoe",
+      "role": "incumbent",
+      "what": "Catalyst and process licensor supplying e-methanol synthesis (incl. SOEC electrolysis) technology to multiple developers' plants.",
+      "signal": "Selected for Forestal del Atl\u00e1ntico's Triskelion e-methanol plant in Galicia, Spain (~40,000 t/yr, FID expected mid-2025, operation 2028) and other e-methanol projects.",
+      "status": "operating",
+      "source": "https://www.topsoe.com/press-releases/topsoe-to-provide-technology-for-e-methanol-project-in-galicia-spain"
+     },
+     {
+      "name": "Celanese",
+      "role": "incumbent",
+      "what": "Chemicals major operating the Fairway Methanol CCU unit (Clear Lake, TX) that captures industrial CO2 and converts it into low-carbon methanol at large scale.",
+      "signal": "Completed early 2024 at ~130,000 t/yr of low-carbon methanol from captured CO2, described as the world's largest CO2-to-methanol production site.",
+      "status": "operating",
+      "source": "https://bioenergyinternational.com/2025-a-watershed-year-for-renewable-and-low-carbon-methanol-projects/"
+     },
+     {
+      "name": "Liquid Wind",
+      "role": "startup",
+      "what": "Swedish developer of standardized commercial-scale e-methanol plants (FlagshipONE, planned \u00d6rnsk\u00f6ldsvik) targeting marine fuel offtake.",
+      "signal": "Filed for bankruptcy May 2026; the failure cast doubt on e-methanol supply for shipping decarbonization.",
+      "status": "bankrupt-shutdown",
+      "source": "https://global-efuels.com/news/liquid-wind-declares-bankruptcy/"
+     },
+     {
+      "name": "Mitsui & Co.",
+      "role": "incumbent",
+      "what": "Trading/industrial house co-developing and offtaking commercial e-methanol (Kass\u00f8 with European Energy) and investing across the e-fuels value chain.",
+      "signal": "Partner in the world's first commercial e-methanol plant (Kass\u00f8, 2025) and investor in Infinium (2025).",
+      "status": "operating",
+      "source": "https://www.mitsui.com/jp/en/topics/2025/1251209_14859.html"
+     }
+    ]
+   },
+   {
+    "name": "Power-to-methane (synthetic natural gas / e-methane)",
+    "description": "Green hydrogen and CO2 are combined via catalytic or biological methanation into synthetic methane that is fully interchangeable with fossil natural gas, letting existing gas grids, appliances and LNG infrastructure run on renewable carbon.",
+    "maturity": "demonstration",
+    "white_space": "Technically proven for years but stranded by economics: e-methane costs far more than fossil gas and loses energy versus using H2 directly, so it survives mainly where utilities need a drop-in grid gas and value molecule fungibility (notably Japanese city-gas firms). Opening is cheap surplus renewable power + concentrated CO2 (biogas upgrading) and policy that credits e-methane in gas mandates.",
+    "companies": [
+     {
+      "name": "Tokyo Gas",
+      "role": "incumbent",
+      "what": "Japanese city-gas utility developing e-methane (synthetic methane) synthesis to decarbonize its existing gas grid, testing in Yokohama.",
+      "signal": "Plans to scale e-methane testing to a facility ~30x its pilot, using recycled water and CO2 from a nearby waste-treatment plant.",
+      "status": "operating",
+      "source": "https://en.wikipedia.org/wiki/Power-to-gas"
+     },
+     {
+      "name": "Osaka Gas / Daigas Group",
+      "role": "incumbent",
+      "what": "Develops CO2 methanation technology (incl. SOEC co-electrolysis 'methanation') to produce synthetic methane for city gas.",
+      "signal": "Running a demonstration spanning H2 2024 through FY2025 to produce synthetic methane.",
+      "status": "operating",
+      "source": "https://www.daigasgroup.com/en/rd/topic/1768546_56103.html"
+     },
+     {
+      "name": "Uniper",
+      "role": "incumbent",
+      "what": "Energy company that operated the Falkenhagen power-to-gas methanation plant feeding synthetic methane into the German gas grid.",
+      "signal": "Falkenhagen methanation plant commissioned to supply synthetic methane to the grid as a demonstration of the energy transition.",
+      "status": "operating",
+      "source": "https://www.uniper.energy/news/methanation-plant-in-falkenhagen-starts-operation-and-supplies-synthetic-methane--another-step-towards-a-successful-energy-transition"
+     },
+     {
+      "name": "NaTran (formerly GRTgaz)",
+      "role": "incumbent",
+      "what": "French gas transmission operator running the Jupiter 1000 industrial power-to-gas demonstrator that produces e-methane at Fos-sur-Mer.",
+      "signal": "Jupiter 1000 operating since 2022 as an industrial-scale methanation/e-methane demonstrator.",
+      "status": "operating",
+      "source": "https://www.natrangroupe.com/en/new-gas/e-methane-production"
+     },
+     {
+      "name": "Electrochaea",
+      "role": "startup",
+      "what": "Provides biological methanation using archaea microbes to convert H2 + CO2 into grid-quality biomethane (BioCat process).",
+      "signal": "Has run grid-connected biomethanation demonstration plants (Denmark, Hungary, Switzerland) and licenses its power-to-gas technology.",
+      "status": "operating",
+      "source": "https://en.wikipedia.org/wiki/Power-to-gas"
+     }
+    ]
+   },
+   {
+    "name": "Direct CO2/CO electrolysis to syngas and chemical intermediates",
+    "description": "Electrochemical cells reduce CO2 (or water + CO2) directly into carbon monoxide, syngas, ethylene, formate or other building blocks at ambient conditions, replacing fossil-derived feedstocks for the chemical industry with electricity-driven 'electro-refineries'.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Twelve",
+      "role": "startup",
+      "what": "Built a proprietary CO2 electrolyzer (membrane electrode assembly) producing CO/syngas, ethylene and downstream e-chemicals and fuels.",
+      "signal": "~$645M raised (2024); electrolysis platform now feeding its AirPlant One SAF plant (operational June 2026).",
+      "status": "operating",
+      "source": "https://cleantech.com/decarbonizing-the-chemical-industry-the-role-of-co2-electrolysis/"
+     },
+     {
+      "name": "Dioxycle",
+      "role": "startup",
+      "what": "Develops modular electrolyzers that convert industrial CO2 directly into ethylene (and CO).",
+      "signal": "~$37M total funding incl. a $17M round co-led by Lowercarbon and Breakthrough Energy Ventures Europe; lab unit converts ~10 kg CO2/day, first large industrial prototype targeted 2026.",
+      "status": "operating",
+      "source": "https://dioxycle.com/dioxycle-raises-17m-to-turn-co%E2%82%82-emissions-into-sustainable-chemicals/"
+     },
+     {
+      "name": "OCOchem",
+      "role": "startup",
+      "what": "Operates a Carbon Flux Electrolyzer converting CO2 + water directly into formic acid / formate (H2 and potassium formate) as a hydrogen carrier and chemical feedstock.",
+      "signal": "Commissioned the first multi-cell industrial-scale pilot in Eastern Washington (~$5M, 60 t/yr formate); ~$7.5M private + ~$8.3M grants raised.",
+      "status": "operating",
+      "source": "https://www.geekwire.com/2025/ocochem-prepares-to-flip-the-switch-on-tech-for-turning-captured-co2-into-industrial-chemicals/"
+     },
+     {
+      "name": "Sunfire",
+      "role": "scaleup",
+      "what": "German maker of high-temperature solid-oxide co-electrolyzers that produce syngas (CO + H2) from CO2 and steam for downstream Fischer-Tropsch fuels.",
+      "signal": "Supplies SOEC co-electrolysis to e-fuel projects (e.g. Norsk e-Fuel, Concord/Total studies); raised large rounds for electrolyzer scale-up.",
+      "status": "operating",
+      "source": "https://pubs.acs.org/doi/10.1021/acsenergylett.4c00955"
+     },
+     {
+      "name": "CERT Systems",
+      "role": "startup",
+      "what": "Canadian startup (Toronto) commercializing electrochemical CO2 conversion to ethylene and other C2+ products; grew out of the NRG COSIA Carbon XPRIZE.",
+      "signal": "Carbon XPRIZE finalist scaling a CO2-to-ethylene electrolyzer at pilot scale.",
+      "status": "operating",
+      "source": "https://greyb.com/blog/electrochemical-conversion-startups/"
+     }
+    ]
+   },
+   {
+    "name": "Solar thermochemical fuel synthesis (sun-to-liquid)",
+    "description": "Concentrated solar heat drives high-temperature thermochemical reactions that split CO2 and water (or reform biogenic methane) into syngas, which is then converted into drop-in solar kerosene and gasoline, using sunlight rather than electrolysis as the primary energy input.",
+    "maturity": "demonstration",
+    "white_space": "Essentially one credible commercial player (Synhelion) plus academic spinouts; the physics (very high-temperature receivers, reactors, thermal storage) is hard and capital-intensive, and it competes with cheaper electrolysis-based PtL. The opening is high-DNI desert sites where round-the-clock thermal storage beats electrolysis economics, and licensing the reactor/receiver IP rather than owning plants.",
+    "companies": [
+     {
+      "name": "Synhelion",
+      "role": "startup",
+      "what": "Swiss spinout (ETH Zurich) running the full solar 'sun-to-liquid' chain: solar tower, thermochemical reactor and thermal storage producing solar syngas then kerosene/gasoline.",
+      "signal": "DAWN plant (J\u00fclich, Germany), the world's first industrial-scale solar fuels plant, producing fuel since late 2024 near nameplate; first commercial plant planned in Spain (~1,000 t/yr).",
+      "status": "operating",
+      "source": "https://synhelion.com/solar-fuels-and-plants/solar-fuel-plants"
+     },
+     {
+      "name": "Heliogen",
+      "role": "scaleup",
+      "what": "US concentrated-solar company developing AI-calibrated heliostat fields and high-temperature solar process heat that can drive thermochemical fuel/hydrogen production.",
+      "signal": "Publicly listed; pivoted toward solar process heat and storage; CSP-for-fuels remains pre-commercial.",
+      "status": "operating",
+      "source": "https://www.solarpaces.org/researchers-create-a-digital-twin-to-run-dawn-synhelions-solar-fuels-plant/"
+     }
+    ]
+   },
+   {
+    "name": "Gas fermentation and microbial CO2/CO conversion (ethanol, acetate)",
+    "description": "Engineered acetogenic microbes ferment CO/CO2-rich gases (steel off-gas, syngas, or captured CO2 + H2) into ethanol, acetate and other chemicals, turning waste industrial emissions into fuels and chemical feedstocks at commercial scale.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "LanzaTech",
+      "role": "scaleup",
+      "what": "Pioneer of gas fermentation, licensing its bioreactors that convert steel-mill and other waste gases (CO/CO2) into ethanol and chemicals; spun out LanzaJet for ethanol-to-SAF.",
+      "signal": "Multiple commercial plants licensed in China/India; LanzaJet Freedom Pines (GA) began commercial ethanol-to-jet production Nov 2025; won EUR 40M EU Innovation Fund grant (Nov 2025) for a Norway CCUS ethanol facility (~23.5 kt/yr).",
+      "status": "operating",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001843724/000162828025058573/ex991_lanzajetshareholde.htm"
+     },
+     {
+      "name": "LanzaJet",
+      "role": "scaleup",
+      "what": "Alcohol-to-jet company (LanzaTech spinout) turning ethanol, including CO2-derived ethanol, into ASTM-certified SAF and renewable diesel at its Freedom Pines plant.",
+      "signal": "World's first commercial-scale ethanol-to-jet plant fully operating Nov 2025 (Soperton, GA); LanzaTech holds ~36% equity.",
+      "status": "operating",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001843724/000162828025058573/ex991_lanzajetshareholde.htm"
+     },
+     {
+      "name": "Jupeng Bio",
+      "role": "startup",
+      "what": "Gas-fermentation company (formerly INEOS Bio lineage) converting syngas/CO-rich gases into bioethanol via proprietary microbes.",
+      "signal": "Holds INEOS Bio-derived gas fermentation IP; pursuing licensing and project development in Asia.",
+      "status": "uncertain",
+      "source": "https://renewable-carbon.eu/news/gas-fermentation-another-promising-biobased-technology/"
+     },
+     {
+      "name": "Synata Bio",
+      "role": "startup",
+      "what": "Acquired the Coskata syngas-fermentation technology, producing ethanol and chemicals from waste-gas/biomass syngas.",
+      "signal": "Holds legacy Coskata gas-fermentation assets; limited public deployment activity.",
+      "status": "uncertain",
+      "source": "https://renewable-carbon.eu/news/gas-fermentation-another-promising-biobased-technology/"
+     }
+    ]
+   },
+   {
+    "name": "CO2-to-food: single-cell protein from gas fermentation",
+    "description": "Hydrogen-oxidizing or methylotrophic microbes are fed CO2 (or methane), hydrogen and minerals and grown into edible single-cell protein, decoupling protein production from agriculture and land use.",
+    "maturity": "pilot",
+    "white_space": "Promising but pre-scale: only a handful of players, high green-H2 cost, and slow novel-food regulatory approval keep volumes tiny. The opening is co-locating with cheap renewable H2/CO2 and winning GRAS/EU novel-food clearances so the protein can sell into mainstream food rather than niche supplements.",
+    "companies": [
+     {
+      "name": "Solar Foods",
+      "role": "startup",
+      "what": "Makes Solein, a single-cell protein grown by feeding CO2 + hydrogen to a hydrogen-oxidizing microbe; operates Factory 01 in Finland.",
+      "signal": "Nasdaq First North listed; >$47M equity + EUR 10.6M EC grant; received US FDA GRAS (self-affirmed) and is approved for sale in Singapore; ESA space-food project.",
+      "status": "operating",
+      "source": "https://en.wikipedia.org/wiki/Solar_Foods"
+     },
+     {
+      "name": "Air Protein",
+      "role": "startup",
+      "what": "US startup using hydrogenotrophic fermentation to convert CO2 into protein for whole-cut meat alternatives.",
+      "signal": "Raised ~$32M to date; building pilot/'Air Protein Farm' production.",
+      "status": "operating",
+      "source": "https://stellarix.com/insights/blogs/air-derived-proteins-the-next-step-in-circular-food-economy/"
+     },
+     {
+      "name": "Deep Branch",
+      "role": "startup",
+      "what": "Uses gas fermentation of CO2 + H2 to make Proton, a single-cell protein aimed at animal feed (aquaculture, poultry).",
+      "signal": "EU/UK grant-backed pilot scale-up targeting feed-grade protein from industrial CO2.",
+      "status": "uncertain",
+      "source": "https://stellarix.com/insights/blogs/air-derived-proteins-the-next-step-in-circular-food-economy/"
+     },
+     {
+      "name": "Arkeon",
+      "role": "startup",
+      "what": "Austrian startup using archaea to convert CO2 + H2 directly into all 20 proteinogenic amino acids for food ingredients.",
+      "signal": "Seed/Series A backed; pilot-stage gas fermentation to amino acids.",
+      "status": "uncertain",
+      "source": "https://stellarix.com/insights/blogs/air-derived-proteins-the-next-step-in-circular-food-economy/"
+     }
+    ]
+   },
+   {
+    "name": "CO2-to-food: synthesized fats and ingredients (thermochemical)",
+    "description": "Rather than fermentation, CO2 + hydrogen are chemically built into fat molecules (or other ingredients) that are molecularly identical to dairy or plant fats, producing animal- and agriculture-free butter, oils and lipids.",
+    "maturity": "pilot",
+    "white_space": "Very thin field distinct from precision-fermentation fats: only Savor uses a genuinely CO2/thermochemical route at present, so it is early and capital-light but unproven at scale and facing food-regulatory and consumer-acceptance risk. Opening is cost parity with palm/dairy fat plus clean-label approvals; most 'animal-free fat' rivals still use sugar-fed fermentation, not CO2.",
+    "companies": [
+     {
+      "name": "Savor",
+      "role": "startup",
+      "what": "Builds fat molecules chemically identical to dairy butter from CO2 and hydrogen via a thermochemical (non-fermentation) process; launched animal- and plant-free butter.",
+      "signal": "~$33M backed by Breakthrough Energy Ventures (Bill Gates); commercial butter launch March 2025.",
+      "status": "operating",
+      "source": "https://vegconomist.com/ingredients/savor-develops-dairy-plant-free-butter-from-co2-hydrogen/"
+     },
+     {
+      "name": "Solar Foods",
+      "role": "startup",
+      "what": "Beyond protein, explores CO2-fed microbial routes to food ingredients/fats as an extension of its gas-fermentation platform.",
+      "signal": "Core CO2-to-protein platform commercial; ingredient/fat extensions early-stage.",
+      "status": "operating",
+      "source": "https://en.wikipedia.org/wiki/Solar_Foods"
+     }
+    ]
+   },
+   {
+    "name": "CO2-derived polymers and polyols",
+    "description": "CO2 is copolymerized into polyols, polycarbonates and surfactant precursors, embedding 20-50% captured carbon into plastics, foams and coatings, which both lowers product carbon footprint and reduces fossil feedstock use.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Covestro",
+      "role": "incumbent",
+      "what": "Produces cardyon CO2-based polycarbonate polyols (up to ~20% CO2) for flexible foams, mattresses and elastomers at its Dormagen plant.",
+      "signal": "Industrial-scale plant (~5,000 t/yr) operating in Germany; commercial product line marketed for years.",
+      "status": "operating",
+      "source": "https://www.plasticstoday.com/materials/covestro-opens-industrial-scale-co2-based-polyol-plant"
+     },
+     {
+      "name": "Econic Technologies",
+      "role": "startup",
+      "what": "UK catalyst licensor enabling CO2-based polyols (PCE 'Carnol' polyols) and CO2-derived surfactants for third-party producers.",
+      "signal": "Partner Changhua Chemical opened the first commercial-scale CO2 PCE polyol plant (~80,000 t in 2026, scaling toward 1M t); 2025 launched Recreaire CO2 surfactants.",
+      "status": "operating",
+      "source": "https://www.econic-technologies.com/changhua-begins-commercial-production-of-co2-polyols-based-on-econics-technology/"
+     },
+     {
+      "name": "Aramco Performance Materials (ex-Novomer)",
+      "role": "incumbent",
+      "what": "Holds Novomer's Converge catalyst IP making CO2-based polyols/polycarbonates and routes to acrylic acid from CO + ethylene oxide.",
+      "signal": "Novomer IP acquired into Aramco; commercial Converge polyols plus development of CO2-derived acrylics.",
+      "status": "operating",
+      "source": "https://www.plasticstoday.com/materials/covestro-opens-industrial-scale-co2-based-polyol-plant"
+     },
+     {
+      "name": "Econic / Changhua Chemical",
+      "role": "scaleup",
+      "what": "Taiwanese chemicals producer commercializing Carnol CO2-based PCE polyols at the world's first commercial-scale site using Econic's catalyst.",
+      "signal": "Plant producing ~80,000 t Carnol in 2026 with a stated path to >1M t, ~30% lower carbon footprint vs conventional polyols.",
+      "status": "operating",
+      "source": "https://carbonherald.com/econic-and-changhua-launch-first-commercial-co2-based-polyols-plant/"
+     },
+     {
+      "name": "Avantium",
+      "role": "scaleup",
+      "what": "Dutch renewable-chemistry company developing CO2-based polyesters and chemicals (incl. electrochemical routes to glycolic acid for PLGA polymers).",
+      "signal": "Operates an FDCA/PEF flagship plant and runs CO2-to-chemicals programs (Volta technology); EU-grant supported.",
+      "status": "operating",
+      "source": "https://avantium.com/products-technologies/co2-based-polyesters-chemicals/"
+     }
+    ]
+   },
+   {
+    "name": "CO2-to-solid-carbon products (carbon black, graphite, nanotubes, nanofibers)",
+    "description": "CO2 (often together with methane) is split into valuable solid carbon, such as carbon black, graphite, carbon nanotubes/nanofibers, locking carbon into durable materials for tires, batteries, composites and construction while displacing fossil-derived carbon.",
+    "maturity": "pilot",
+    "white_space": "Most credible players actually feed methane/natural gas (with CO2 as co-feed) rather than pure captured CO2, because direct CO2-to-solid-carbon is energetically expensive; volumes are small and funding rounds modest. Opening is the high-value end (battery-grade graphite, conductive CNTs) where product price tolerates the energy cost, plus tapping CO2/CH4 co-streams at industrial sites.",
+    "companies": [
+     {
+      "name": "Carbonova",
+      "role": "startup",
+      "what": "Canadian cleantech converting CO2 + methane into high-performance carbon nanofibers as a low-cost, lower-carbon alternative to carbon black/graphite/CNTs.",
+      "signal": "Won 2025 Emissions Reduction Alberta funding (~$4.38M) for its first commercial demonstration unit in Calgary; raised additional ~C$5.1M equity Dec 2025.",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/carbonova-selected-for-funding-through-emission-reduction-albertas-advanced-materials-challenge-302512639.html"
+     },
+     {
+      "name": "UP Catalyst",
+      "role": "startup",
+      "what": "Estonian startup using molten-salt CO2 electrolysis to make graphite and carbon nanomaterials directly from captured CO2.",
+      "signal": "EU/grant-backed; pilot production of CO2-derived graphite and CNTs for batteries.",
+      "status": "operating",
+      "source": "https://tracxn.com/d/trending-business-models/startups-in-carbon-nanotubes/__YrN05anFl2-S2btfFXhPTrPmgvHdjUNuw_81FTCzWng/companies"
+     },
+     {
+      "name": "Bergen Carbon Solutions",
+      "role": "startup",
+      "what": "Norwegian producer making carbon nanofibers/nanotubes from CO2 using renewable electricity.",
+      "signal": "Listed on Euronext Growth Oslo; published 2025 annual report; small-scale commercial CNF output.",
+      "status": "operating",
+      "source": "https://www.tipranks.com/news/company-announcements/bergen-carbon-solutions-publishes-2025-annual-report"
+     },
+     {
+      "name": "Solid Carbon Products",
+      "role": "startup",
+      "what": "Converts CO2 into solid carbon products such as nanotubes, carbon black and nanofibers.",
+      "signal": "Raised ~$17.5M over two rounds.",
+      "status": "uncertain",
+      "source": "https://tracxn.com/d/companies/solidcarbonproducts/__ziLFeUkcwdBcH3ghPC7Xx-N6DFotZnL8YN81Ww8_CUw"
+     },
+     {
+      "name": "Graphitic Energy",
+      "role": "startup",
+      "what": "Methane-pyrolysis company (C-Zero lineage) splitting natural gas into hydrogen and solid carbon, with CO2-avoidance positioning.",
+      "signal": "VC-backed (incl. Bill Gates-linked funds); pilot methane-to-solid-carbon + H2.",
+      "status": "operating",
+      "source": "https://tracxn.com/d/trending-business-models/startups-in-carbon-nanotubes/__YrN05anFl2-S2btfFXhPTrPmgvHdjUNuw_81FTCzWng/companies"
+     }
+    ]
+   },
+   {
+    "name": "CO2-to-specialty chemicals (formic acid, oxalic acid, surfactants)",
+    "description": "CO2 is converted, mostly electrochemically, into higher-value specialty chemicals such as formic/formate, oxalic acid, glycolic acid and surfactants that serve as hydrogen carriers, polymer precursors and industrial reagents.",
+    "maturity": "pilot",
+    "white_space": "Small, fragmented set of mostly pilot-stage players; specialty markets are smaller in volume than fuels but tolerate higher prices, which is exactly why they are an attractive beachhead. Opening is targeting drop-in replacements for high-cost incumbents (formate as a green H2 carrier, bio-glycolic acid for degradable polymers) where electrochemistry can win on price and footprint before tackling commodity fuels.",
+    "companies": [
+     {
+      "name": "OCOchem",
+      "role": "startup",
+      "what": "Electrochemically converts CO2 + water into formic acid/formate (incl. potassium formate and an H2 carrier) at ambient conditions.",
+      "signal": "Commissioned the world's first multi-cell industrial-scale formate electrolyzer pilot (60 t/yr) in Washington; ~$7.5M private + ~$8.3M grants.",
+      "status": "operating",
+      "source": "https://www.geekwire.com/2025/ocochem-prepares-to-flip-the-switch-on-tech-for-turning-captured-co2-into-industrial-chemicals/"
+     },
+     {
+      "name": "Avantium",
+      "role": "scaleup",
+      "what": "Via its Volta electrochemistry platform, converts CO2 into formic acid, oxalic acid and glycolic acid (feedstock for carbon-negative PLGA polymer).",
+      "signal": "Received a ~EUR 3.5M EU grant (starting Jan 2025) for CO2-to-formic-acid; integrates with its broader renewable-chemicals portfolio.",
+      "status": "operating",
+      "source": "https://avantium.com/products-technologies/co2-based-polyesters-chemicals/"
+     },
+     {
+      "name": "Twelve",
+      "role": "startup",
+      "what": "Beyond fuels, its CO2 electrolysis produces e-chemicals/intermediates (CO, syngas, precursors) for specialty and polymer applications.",
+      "signal": "~$645M raised; commercial CO2-conversion platform live (2026).",
+      "status": "operating",
+      "source": "https://cleantech.com/decarbonizing-the-chemical-industry-the-role-of-co2-electrolysis/"
+     },
+     {
+      "name": "Econic Technologies",
+      "role": "startup",
+      "what": "Extended its CO2 catalysis into surfactants, launching Recreaire carbonate-ethoxylate surfactants made with CO2.",
+      "signal": "Recreaire CO2 surfactants launched 2025 alongside its CO2 polyol licensing business.",
+      "status": "operating",
+      "source": "https://www.econic-technologies.com/changhua-begins-commercial-production-of-co2-polyols-based-on-econics-technology/"
+     }
+    ]
+   },
+   {
+    "name": "Flue-gas-fed algae products (fuels, feed, omega oils)",
+    "description": "Microalgae are grown on industrial flue-gas CO2 in ponds or photobioreactors and harvested for biofuels, feed, omega-3 oils or biomass, using photosynthesis to fix CO2 directly into useful products.",
+    "maturity": "pilot",
+    "white_space": "A long-troubled field: most 2010s algae-fuel ventures failed or pivoted to high-value nutrition/feed because fuel-grade economics never worked (harvesting/dewatering energy, land, water). Survivors mostly sell omega oils, pigments or carbon-removal credits, not cheap fuel. Opening is high-margin nutrition/feed co-products and carbon-removal revenue stacked on flue-gas CO2 utilization, not commodity biofuel.",
+    "companies": [
+     {
+      "name": "Brilliant Planet",
+      "role": "startup",
+      "what": "Grows algae in open coastal desert ponds on captured/dissolved CO2, then buries the biomass for durable carbon removal (with potential product co-streams).",
+      "signal": ">$25M backed (Toyota Ventures, Union Square Ventures); 30,000+ m2 pilot in Morocco, building a larger demonstration site targeting ~100 t CO2/yr then commercial scale.",
+      "status": "operating",
+      "source": "https://www.breatheesg.com/resources/brilliant-planet-revolutionizing-carbon-capture-with-algae-farms"
+     },
+     {
+      "name": "Algenol",
+      "role": "startup",
+      "what": "Uses photosynthetic cyanobacteria/algae fed flue-gas CO2 in photobioreactors to make ethanol and other fuels, licensing its technology.",
+      "signal": "Licensed photobioreactor technology to Indian Oil and ran a carbon-capture pilot with ExxonMobil (2024-2025); long pivoted away from large-scale fuel claims.",
+      "status": "uncertain",
+      "source": "https://biofuels-news.com/news/algenol-to-distribute-algae-based-ethanol-commercially/"
+     },
+     {
+      "name": "ExxonMobil (algae biofuels program)",
+      "role": "incumbent",
+      "what": "Ran a high-profile algae-to-biofuels R&D program (notably with Synthetic Genomics/Viridos) to engineer high-lipid algae for fuels.",
+      "signal": "Wound down major algae biofuels funding around 2023, a marquee signal of the pathway's poor fuel economics; limited residual activity.",
+      "status": "uncertain",
+      "source": "https://cen.acs.org/environment/pollution/Start-ups-supercharging-algae-clean/103/i4"
+     },
+     {
+      "name": "Viridos",
+      "role": "startup",
+      "what": "Former Synthetic Genomics algae unit engineering high-yield algae strains for low-carbon fuels and oils.",
+      "signal": "Lost major ExxonMobil backing; restructured/refocused around engineered algae oils, illustrating field-wide funding retrenchment.",
+      "status": "uncertain",
+      "source": "https://cen.acs.org/environment/pollution/Start-ups-supercharging-algae-clean/103/i4"
+     }
+    ]
+   }
+  ]
+ }
+}

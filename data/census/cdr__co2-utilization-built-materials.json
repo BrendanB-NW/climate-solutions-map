@@ -1,0 +1,364 @@
+{
+ "sector": "cdr",
+ "bucket": "CO2 Utilization: Built Materials",
+ "census": {
+  "bucket": "CO2 Utilization: Built Materials",
+  "sources": [
+   "https://www.carboncure.com/news/carboncure-producers-reach-milestone-of-10-million-truckloads/",
+   "https://www.neustark.com/en/news/neustark-to-rapidly-expand-permanent-carbon-removal-business-across-europe",
+   "https://www.heidelbergmaterials.com/en/pr-2025-07-09",
+   "https://www.globalcement.com/news/20145-carbon8-systems-enters-administration",
+   "https://oco.co.uk/o-c-o-secures-enhanced-range-of-materials-for-carbon-capture/",
+   "https://www.prnewswire.com/news-releases/carbicretes-cement-free-concrete-is-now-being-produced-in-ontario-by-canal-block-302573257.html",
+   "https://www.datacenterdynamics.com/en/news/meta-and-carbonbuilt-partner-to-accelerate-low-carbon-concrete-production/",
+   "https://www.canarymedia.com/articles/clean-industry/fortera-lands-85m-to-scale-up-low-carbon-cement",
+   "https://www.globalcement.com/news/20634-carbon-upcycling-secures-financing-for-mississauga-carbon-capture-project",
+   "https://www.esgtoday.com/climate-tech-startup-paebbl-raises-25-million-to-turn-captured-co2-into-building-materials/",
+   "https://carbonfree.cc/u-s-steel-and-carbonfree-sign-definitive-agreement-to-capture-carbon-dioxide-emissions-at-one-of-the-largest-north-american-integrated-steel-mills/",
+   "https://carbonherald.com/cop30-mci-carbon-launches-breakthrough-co2-to-material-plant-at-cop30/",
+   "https://www.twence.com/news/twence-co2-capture-plant-in-hengelo-sets-an-example-for-the-netherlands",
+   "https://www.canarymedia.com/articles/clean-industry/cement-has-an-emissions-problem-can-tech-that-mimics-coral-fix-it",
+   "https://carbonaide.com/news/elematic-and-carbonaide-launch-worlds-first-co2-cured-precast-concrete-solution-through-commercial-partnership/",
+   "https://www.kajima.co.jp/english/tech/c_sus_con/technology01/index.html",
+   "https://co2ncreat.com/",
+   "https://carboncapturemagazine.com/articles/concrete4change-raises-25m-to-permanently-lock-away-co2-in-concrete",
+   "https://www.carbonlimit.com/capturecrete",
+   "https://www.blueplanetsystems.com/",
+   "https://www.newswire.com/news/carbon-capture-utilization-pioneer-blue-planet-announces-worlds-first-22518347",
+   "https://www.cbinsights.com/company/prometheus-materials",
+   "https://www.crunchbase.com/organization/biomason",
+   "https://www.third-derivative.org/portfolio/greenore",
+   "https://www.imperial.ac.uk/news/247797/imperial-researcher-wins-award-concrete-that/",
+   "https://www.prnewswire.com/news-releases/solidia-technologies-licenses-low-carbon-cement-technology-302185452.html",
+   "https://www.sika.com/en/knowledge-hub/reco2ver-concrete-recycling.html",
+   "https://cleano2.ca/pages/our-story",
+   "https://tech.eu/2026/01/28/carbonaide-raises-eur37m-to-commercialise-co2-curing-and-permanent-carbon-storage-in-concrete/"
+  ],
+  "variations": [
+   {
+    "name": "CO2 mineral curing/injection in ready-mix and precast concrete",
+    "description": "Liquid CO2 is injected into fresh ready-mix or used to cure precast elements, where it mineralizes into calcium carbonate that permanently stores the CO2 while letting producers cut cement content at little or no extra cost \u2014 the lowest-friction retrofit path to storing CO2 in mainstream concrete.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "CarbonCure Technologies",
+      "role": "scaleup",
+      "what": "Retrofits ready-mix and masonry plants with CO2 injection systems and monetizes the stored CO2 through a shared-revenue carbon credit program.",
+      "signal": "$169M raised (Amazon, Microsoft, Breakthrough Energy, Blue Earth); 10 million truckloads and ~690,000 t CO2 milestone announced Nov 2025; systems in 25+ countries.",
+      "status": "operating",
+      "source": "https://www.carboncure.com/news/carboncure-producers-reach-milestone-of-10-million-truckloads/"
+     },
+     {
+      "name": "Solidia Technologies",
+      "role": "scaleup",
+      "what": "Pioneered CO2-cured calcium-silicate precast concrete and has pivoted to licensing its 300+ patent portfolio plus selling a CO2-mineralizing SCM (35-50% cement replacement).",
+      "signal": "Licensed low-carbon cement IP and sold plant/lab assets to CalPortland (Jun 2024); completed 25 pilot projects in 2024; San Antonio HQ pilot SCM line commissioned 2023.",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/solidia-technologies-licenses-low-carbon-cement-technology-302185452.html"
+     },
+     {
+      "name": "Carbonaide",
+      "role": "startup",
+      "what": "VTT spinout selling automated production-scale CO2-curing lines for precast concrete factories, halving cement content while mineralizing CO2.",
+      "signal": "Commercial production in Finland since early 2024; global rollout partnership with precast machinery maker Elematic (May 2025); \u20ac1.8M seed (2023) plus \u20ac3.7M round (Jan 2026).",
+      "status": "operating",
+      "source": "https://carbonaide.com/news/elematic-and-carbonaide-launch-worlds-first-co2-cured-precast-concrete-solution-through-commercial-partnership/"
+     },
+     {
+      "name": "Kajima Corporation (CO2-SUICOM consortium)",
+      "role": "incumbent",
+      "what": "Japanese construction giant that co-developed CO2-SUICOM carbon-negative concrete (with Chugoku Electric, Denka, Landes), replacing over half the cement with a CO2-hardening admixture.",
+      "signal": "CUCO-SUICOM blocks and shotcrete deployed at Expo 2025 Osaka (~3,300 m2 of paving fixing ~9.7 t CO2); joint DAC-to-concrete program with Kawasaki Heavy Industries.",
+      "status": "operating",
+      "source": "https://www.kajima.co.jp/english/tech/c_sus_con/technology01/index.html"
+     }
+    ]
+   },
+   {
+    "name": "Carbonation of recycled concrete and demolition fines",
+    "description": "Crushed demolition concrete and cement-paste fines are exposed to concentrated CO2, which reacts with the hydrated cement to re-form limestone \u2014 turning construction waste into a permanent CO2 sink and an improved aggregate or clinker substitute.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "neustark",
+      "role": "scaleup",
+      "what": "Builds modular carbonation units at concrete-recycling yards that inject biogas-sourced CO2 into demolition granulate, selling the result as certified carbon removal.",
+      "signal": "~30 sites operating across Europe by mid-2025 with ~40 more in pipeline; first UK site with Aggregate Industries; Holcim strategic partnership (2023); ~$69M growth round led by Decarbonization Partners (BlackRock/Temasek).",
+      "status": "operating",
+      "source": "https://www.neustark.com/en/news/neustark-to-rapidly-expand-permanent-carbon-removal-business-across-europe"
+     },
+     {
+      "name": "Heidelberg Materials",
+      "role": "incumbent",
+      "what": "Runs the ReConcrete process that separates recycled concrete paste and force-carbonates it into an SCM-like material for new composite cements.",
+      "signal": "Launched its first industrial-scale enforced-carbonation facility in Poland (Jul 2025); ReConcrete is core to its circularity/CCU roadmap.",
+      "status": "operating",
+      "source": "https://www.heidelbergmaterials.com/en/pr-2025-07-09"
+     },
+     {
+      "name": "Holcim",
+      "role": "incumbent",
+      "what": "World's largest cement/aggregates group rolling out neustark carbonation across its own concrete-recycling network and backing CO2-to-materials startups via Maqer Ventures.",
+      "signal": "Strategic investment and collaboration agreement with neustark (2023); Maqer Ventures is an investor in Paebbl.",
+      "status": "operating",
+      "source": "https://www.holcim.com/who-we-are/our-stories/carbon-removal-neustark"
+     },
+     {
+      "name": "Sika",
+      "role": "incumbent",
+      "what": "Developed the reCO2ver concrete-recycling process that breaks old concrete back into aggregate, sand and binder while injecting CO2 into the recovered fines.",
+      "signal": "Patented process demonstrated at pilot scale; backed by one of the world's largest admixture businesses.",
+      "status": "operating",
+      "source": "https://www.sika.com/en/knowledge-hub/reco2ver-concrete-recycling.html"
+     },
+     {
+      "name": "Zirkulit AG",
+      "role": "startup",
+      "what": "Eberhard Group venture selling 'zirkulit' circular concrete made with maximized recycled content plus an integrated CO2-storage step in the recycled granulate.",
+      "signal": "Commercially available in the Zurich region since 2021 as the first circular concrete with CO2 storage; built on Eberhard's demolition-recycling operations.",
+      "status": "operating",
+      "source": "https://www.zirkulit.ch/"
+     }
+    ]
+   },
+   {
+    "name": "Synthetic aggregates from carbonated industrial residues",
+    "description": "Alkaline industrial wastes \u2014 air-pollution-control residues, slags and ashes \u2014 are reacted with CO2 to form carbonate-bonded pellets that replace quarried aggregate, earning revenue twice: from waste-disposal gate fees and from carbon-negative product sales.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "O.C.O Technology",
+      "role": "scaleup",
+      "what": "Operates three UK plants using Accelerated Carbonation Technology to convert hazardous energy-from-waste APC residues into M-LS carbon-negative lightweight aggregate.",
+      "signal": "~350,000 t/yr aggregate produced, treating ~25% of UK APCr; JV with Petronor for a Bilbao facility; Japan partnership with Kobelco Eco-Solutions showcased at Expo 2025 Osaka.",
+      "status": "operating",
+      "source": "https://oco.co.uk/o-c-o-secures-enhanced-range-of-materials-for-carbon-capture/"
+     },
+     {
+      "name": "Carbon8 Systems",
+      "role": "startup",
+      "what": "Licensed modular CO2ntainer units for on-site carbonation of cement bypass dust, steel and EfW residues into CircaBuild aggregate (a Greenwich University spinout, distinct from O.C.O).",
+      "signal": "Raised \u00a35M from EDF and Vicat (2022) and won the Queen's Award (2017), but entered administration 12 Nov 2025 after failing to secure new funding; operations closed, 11 staff made redundant.",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.globalcement.com/news/20145-carbon8-systems-enters-administration"
+     },
+     {
+      "name": "Blue Planet Systems",
+      "role": "startup",
+      "what": "Geomimetic process coats particles with synthetic limestone made from dissolved CO2 and waste alkalinity (including returned concrete) to make coarse aggregate that is ~44% by mass permanently stored CO2.",
+      "signal": "Placed world's first net-zero embodied-carbon concrete slab with 75% synthetic aggregate (Feb 2025); expanding Pittsburg, CA plant toward ~10,000 t CO2/yr; backers include Chevron and Mitsubishi.",
+      "status": "operating",
+      "source": "https://www.newswire.com/news/carbon-capture-utilization-pioneer-blue-planet-announces-worlds-first-22518347"
+     },
+     {
+      "name": "MCi Carbon",
+      "role": "startup",
+      "what": "Australian mineral-carbonation platform converting industrial CO2 plus minerals/slags into calcium and magnesium carbonates and silica for construction materials.",
+      "signal": "'Myrtle' demonstration plant at Orica's Kooragang Island site launched in 2025 (showcased at COP30), converting ~1,000 t CO2/yr into ~10,000 t of materials; AU$14.6M federal CCUS grant.",
+      "status": "operating",
+      "source": "https://carbonherald.com/cop30-mci-carbon-launches-breakthrough-co2-to-material-plant-at-cop30/"
+     }
+    ],
+    "white_space": "Economics hinge on being paid to take hazardous waste (gate fees) plus carbon revenue \u2014 Carbon8's collapse shows equipment-licensing without owning the waste relationship struggles; the opening is operator models co-located at EfW/steel sites outside the UK, where regulation still sends most APC residue to landfill."
+   },
+   {
+    "name": "Cement-free slag- and lime-based blocks cured with CO2",
+    "description": "Concrete masonry made with steel-slag or hydrated-lime binders instead of Portland cement gains its strength inside CO2 curing chambers, eliminating cement emissions entirely while permanently mineralizing captured CO2 in the block.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "CarbiCrete",
+      "role": "startup",
+      "what": "Licenses a process for cement-free CMUs that replace cement with ground steel slag and cure with waste CO2, giving blocks a ~20x lower footprint than industry average.",
+      "signal": "Producing via licensees Patio Drummond (QC) and Canal Block (ON, Oct 2025); Isobloc ZERO insulated block launched Jun 2025; POINT.P (Saint-Gobain) plant in France slated Q1 2026; $8M NGen-supported scale-up completed.",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/carbicretes-cement-free-concrete-is-now-being-produced-in-ontario-by-canal-block-302573257.html"
+     },
+     {
+      "name": "CarbonBuilt",
+      "role": "startup",
+      "what": "UCLA spinout whose Reversa lime-based binder lets existing block plants cure with dilute CO2 (even from on-site biomass or DAC), cutting embodied carbon 70%+ at cost parity.",
+      "signal": "First commercial deployment at Blair Block, Alabama (2023); Meta capital partnership (Dec 2024) funding conversion of two more plants in Arizona and Alabama for data-center masonry.",
+      "status": "operating",
+      "source": "https://www.datacenterdynamics.com/en/news/meta-and-carbonbuilt-partner-to-accelerate-low-carbon-concrete-production/"
+     },
+     {
+      "name": "Orbix",
+      "role": "incumbent",
+      "what": "Belgian stainless-steel-slag processor whose patented Carbstone technology uses CO2 as the binder for slag-based blocks, industrialized with blockmaker Masterbloc.",
+      "signal": "Commercial Carbstone wall blocks on the Belgian market; CO2nstruct/CO2ncreat consortium (Prefer, Fluxys, Lhoist, Orbix) won \u20ac4.5M EU Innovation Fund grant; blocks used in BESIX/Vanhout renovation projects.",
+      "status": "operating",
+      "source": "https://co2ncreat.com/"
+     },
+     {
+      "name": "C-Crete Technologies",
+      "role": "startup",
+      "what": "Makes pourable cement-free binders from non-carbonate feedstocks (granite, zeolite) that absorb CO2 over time, demonstrated in cast-in-place commercial pours.",
+      "signal": "Multiple DOE awards and real-world cement-free pours in Seattle and New York (2023-2024), including CO2-injected versions.",
+      "status": "operating",
+      "source": "https://www.ccretetech.com/"
+     }
+    ]
+   },
+   {
+    "name": "Carbonated SCMs and recarbonated low-carbon cements",
+    "description": "CO2 is reacted with industrial byproducts, olivine, or recaptured kiln lime to produce supplementary cementitious materials and reactive carbonate cements that displace clinker \u2014 embedding captured CO2 in the binder itself rather than the aggregate.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Fortera",
+      "role": "scaleup",
+      "what": "ReCarb process captures a cement kiln's own CO2 and recombines it with calcined lime into reactive vaterite 'ReAct' cement, built from the ashes of Calera's chemistry.",
+      "signal": "$85M Series C (Aug 2024, led by Khosla Ventures and Temasek); Redding, CA plant operating at 15,000 t/yr cement capturing 6,000 t CO2; Microsoft partnership to scale Redding toward 400,000 t/yr.",
+      "status": "operating",
+      "source": "https://www.canarymedia.com/articles/clean-industry/fortera-lands-85m-to-scale-up-low-carbon-cement"
+     },
+     {
+      "name": "Carbon Upcycling Technologies",
+      "role": "scaleup",
+      "what": "Mechanochemically reacts flue-gas CO2 with fly ash, slag and natural minerals in pressurized reactors to make enhanced SCMs that cut clinker content.",
+      "signal": "$34.3M (2023) and $18M (2025) raised plus $10M equipment financing; first commercial unit at CRH's Ash Grove cement plant in Mississauga targeting ~30,000 t/yr SCM from H2 2026; CRH and Cemex are partners.",
+      "status": "operating",
+      "source": "https://www.globalcement.com/news/20634-carbon-upcycling-secures-financing-for-mississauga-carbon-capture-project"
+     },
+     {
+      "name": "Paebbl",
+      "role": "startup",
+      "what": "Continuously carbonates ground olivine with captured CO2 in pressurized reactors to produce a carbon-storing mineral filler/SCM for concrete.",
+      "signal": "$25M Series A (2024; Holcim Maqer Ventures, Amazon Climate Pledge Fund); Rotterdam demo plant producing ~3 t/day from H1 2025; offtake/development collaboration with Microsoft.",
+      "status": "operating",
+      "source": "https://www.esgtoday.com/climate-tech-startup-paebbl-raises-25-million-to-turn-captured-co2-into-building-materials/"
+     },
+     {
+      "name": "Seratech",
+      "role": "startup",
+      "what": "Imperial College spinout dissolving olivine in acid and using flue-gas CO2 to co-produce silica SCM and magnesium carbonate, enabling fully carbon-neutral concrete mixes.",
+      "signal": "Obel Award 2022; lab/pilot stage with first pilot facility planned and first industrial facility targeted around 2027.",
+      "status": "operating",
+      "source": "https://www.imperial.ac.uk/news/247797/imperial-researcher-wins-award-concrete-that/"
+     }
+    ]
+   },
+   {
+    "name": "Flue-gas direct mineralization to salable minerals (sodium bicarbonate, PCC, magnesium carbonates)",
+    "description": "CO2 scrubbed from flue gas is reacted with brines, lime or slag-derived calcium to precipitate salable minerals such as sodium bicarbonate and precipitated calcium carbonate, using product revenue rather than carbon credits to pay for capture.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "CarbonFree",
+      "role": "scaleup",
+      "what": "Runs the SkyMine plant (San Antonio, since 2015) making sodium bicarbonate and chemicals from cement flue gas, and is building SkyCycle to convert steel-mill CO2 into specialty calcium carbonate.",
+      "signal": "Definitive agreement with U.S. Steel (Apr 2024) for a 50,000 t CO2/yr SkyCycle plant at Gary Works, Indiana \u2014 first commercial CCU plant at a North American steel mill, operations slated 2027.",
+      "status": "operating",
+      "source": "https://carbonfree.cc/u-s-steel-and-carbonfree-sign-definitive-agreement-to-capture-carbon-dioxide-emissions-at-one-of-the-largest-north-american-integrated-steel-mills/"
+     },
+     {
+      "name": "Calera",
+      "role": "startup",
+      "what": "Khosla-backed pioneer that combined power-plant flue gas with seawater/brines to make cementitious calcium carbonate and fiber-cement board.",
+      "signal": "Raised well over $100M and built pilot lines, but shut down its CO2-to-materials business around 2015 because the economics never worked; former employees founded Fortera (2019) on successor chemistry.",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.canarymedia.com/articles/clean-industry/cement-has-an-emissions-problem-can-tech-that-mimics-coral-fix-it"
+     },
+     {
+      "name": "Twence",
+      "role": "incumbent",
+      "what": "Dutch waste-to-energy operator running the world's first WtE flue-gas-to-sodium-bicarbonate unit, closing the loop by reusing the bicarbonate for its own flue-gas cleaning.",
+      "signal": "Hengelo bicarbonate unit fully operational since 2016; added a 100,000 t/yr CO2 capture/liquefaction plant for greenhouse horticulture (2023).",
+      "status": "operating",
+      "source": "https://www.twence.com/news/twence-co2-capture-plant-in-hengelo-sets-an-example-for-the-netherlands"
+     },
+     {
+      "name": "Greenore",
+      "role": "startup",
+      "what": "Columbia University spinout that leaches calcium from steel slag and mineralizes dilute flue-gas CO2 at ambient conditions into carbon-negative PCC, silica and iron-oxide co-products.",
+      "signal": "Third Derivative portfolio company; named APAC Cleantech 25; piloting with steel-industry partners in China and the US.",
+      "status": "operating",
+      "source": "https://www.third-derivative.org/portfolio/greenore"
+     },
+     {
+      "name": "CleanO2",
+      "role": "startup",
+      "what": "Sells CarbinX micro-units that bolt onto commercial-building gas boilers and convert flue CO2 into potassium carbonate (pearl ash) sold into soaps and detergents.",
+      "signal": "Units deployed across Canada, the US and Japan (including 8 with Tokyo Gas); each unit captures ~6-8 t CO2/yr.",
+      "status": "operating",
+      "source": "https://cleano2.ca/pages/our-story"
+     },
+     {
+      "name": "Minerals Technologies (Specialty Minerals)",
+      "role": "incumbent",
+      "what": "Operates dozens of satellite PCC plants at paper mills that have for decades mineralized lime-kiln flue-gas CO2 into precipitated calcium carbonate filler \u2014 the mature commercial precedent for CO2-to-carbonate products.",
+      "signal": "NYSE-listed incumbent (~$2B revenue) with satellite PCC plants worldwide.",
+      "status": "operating",
+      "source": "https://www.mineralstech.com/"
+     }
+    ],
+    "white_space": "Salable-mineral markets (bicarbonate, PCC) are small and price-sensitive relative to CO2 volumes \u2014 Calera proved product revenue alone rarely pays for capture; viable openings are co-location with free CO2 and free alkalinity (steel slag, WtE residue, cement CKD) or high-purity specialty grades, not commodity scale."
+   },
+   {
+    "name": "CO2-absorbing cement additives and coatings",
+    "description": "Mineral additives mixed into fresh concrete, or lime-based coatings applied to surfaces, actively absorb and mineralize CO2 from the air or mix water over the product's life \u2014 adding carbon storage and often strength to otherwise conventional materials.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Concrete4Change",
+      "role": "startup",
+      "what": "Nottingham startup whose CO2-saturated carrier-material additive mineralizes CO2 inside fresh concrete, boosting strength ~20% so producers can cut cement.",
+      "signal": "\u00a32.5M seed (Jan 2024) led by Zacua Ventures with Goldbeck's family office; \u00a34.5M total raised incl. grants; Series A targeted late 2025/early 2026.",
+      "status": "operating",
+      "source": "https://carboncapturemagazine.com/articles/concrete4change-raises-25m-to-permanently-lock-away-co2-in-concrete"
+     },
+     {
+      "name": "Carbon Limit",
+      "role": "startup",
+      "what": "Florida startup selling CaptureCrete, a reactive natural-mineral powder additive that makes placed concrete pull CO2 from ambient air and mineralize it.",
+      "signal": "$740k federal award through the South Florida ClimateReady Tech Hub (2024-2025) to scale CaptureCrete; product commercially listed for ready-mix and precast.",
+      "status": "operating",
+      "source": "https://www.carbonlimit.com/capturecrete"
+     },
+     {
+      "name": "Graphenstone",
+      "role": "scaleup",
+      "what": "Spanish manufacturer of graphene-reinforced lime paints and coatings that reabsorb CO2 as the lime carbonates during curing.",
+      "signal": "Sold in dozens of countries; one of the most widely distributed 'CO2-absorbing paint' brands with Cradle-to-Cradle certification.",
+      "status": "operating",
+      "source": "https://www.graphenstone.com/"
+     }
+    ],
+    "white_space": "Sparse field because in-service CO2 uptake is diffusion-limited, slow, and hard to measure \u2014 MRV and prescriptive concrete codes block credit monetization; the opening is an additive with third-party-verified uptake tied to an approved carbon-credit methodology, sold through existing admixture giants (Sika, Master Builders, Mapei) rather than direct."
+   },
+   {
+    "name": "Biogenic CO2 mineralization into building products (biocement/bio-concrete)",
+    "description": "Microalgae or bacteria biologically precipitate calcium carbonate that binds aggregate into blocks, tiles and panels, locking photosynthetically captured CO2 into masonry without Portland cement \u2014 an extension variation added for completeness.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Prometheus Materials",
+      "role": "startup",
+      "what": "CU Boulder spinout using photosynthetic microalgae to grow a zero-carbon biocement for masonry units, pavers and acoustic panels (ProZERO).",
+      "signal": "Backed by Microsoft's Climate Innovation Fund and Autodesk Foundation; SOM design partnership; bio-concrete supplied to the New York Climate Exchange campus project (2025).",
+      "status": "operating",
+      "source": "https://www.cbinsights.com/company/prometheus-materials"
+     },
+     {
+      "name": "Biomason",
+      "role": "scaleup",
+      "what": "Grows Biolith tiles and precast units with carbonate-precipitating bacteria at ambient temperature, replacing fired and cement-bound products.",
+      "signal": "~$36.7M Series D (Jan 2025) on top of a $65M Series C; new CEO from the cement industry after restructuring and repeated layoffs \u2014 scaling has been rocky.",
+      "status": "operating",
+      "source": "https://www.crunchbase.com/organization/biomason"
+     },
+     {
+      "name": "Minus Materials",
+      "role": "startup",
+      "what": "CU Boulder spinout cultivating coccolithophore microalgae to grow biogenic limestone intended as a carbon-neutral feedstock for portland cement.",
+      "signal": "Pre-seed/lab stage; limited public activity since 2023.",
+      "status": "uncertain",
+      "source": "https://www.minusmaterials.com/"
+     }
+    ],
+    "white_space": "Biology is slow and nutrient/bioreactor costs are high against $100/t concrete, so few players survive scale-up (see Biomason's turbulence); the near-term opening is high-margin architectural, acoustic and facade products licensed into existing precast plants rather than owned commodity production."
+   }
+  ]
+ }
+}

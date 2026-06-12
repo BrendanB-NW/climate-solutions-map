@@ -1,0 +1,669 @@
+{
+ "sector": "industry",
+ "bucket": "Battery & Materials Recycling",
+ "census": {
+  "bucket": "Battery & Materials Recycling",
+  "variations": [
+   {
+    "name": "Hydrometallurgical lithium-ion recycling at scale (incl. LFP-specific routes)",
+    "description": "Shredded battery 'black mass' is leached in aqueous chemistry and refined back to battery-grade lithium, nickel and cobalt salts, creating a domestic secondary supply that displaces mining; LFP-specific flowsheets target lithium and phosphate recovery where contained-metal value is low.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Redwood Materials",
+      "role": "scaleup",
+      "what": "Largest North American recycler, integrating collection, hydromet refining and (planned) cathode production on one Nevada campus, plus LFP and copper streams",
+      "signal": ">$2B equity raised; processes the majority of North America's end-of-life lithium-ion volume; launched Redwood Energy second-life storage unit June 2025",
+      "status": "operating",
+      "source": "https://www.manufacturingdive.com/news/lithium-ion-battery-recyclers-trump-doe-cirba-abtc-li-cycle/757376/"
+     },
+     {
+      "name": "Ascend Elements",
+      "role": "scaleup",
+      "what": "Hydro-to-Cathode process that converts black mass directly into pCAM without full elemental separation, with a Georgia plant operating and Kentucky Apex-1 under construction",
+      "signal": "~$700M Series D (2023-24); Apex-1 Kentucky construction delayed after an offtaker withdrew and a $164M DOE grant was cancelled in 2025",
+      "status": "operating",
+      "source": "https://www.manufacturingdive.com/news/lithium-ion-battery-recyclers-trump-doe-cirba-abtc-li-cycle/757376/"
+     },
+     {
+      "name": "Cirba Solutions",
+      "role": "scaleup",
+      "what": "Operates the broadest US collection-and-processing network (lead, NiMH, lithium) and is building hydromet refining capacity in South Carolina",
+      "signal": "EQT/Heritage-backed; $200M DOE grant for Columbia SC plant intact; Lancaster OH plant production up ~600% since 2022",
+      "status": "operating",
+      "source": "https://www.manufacturingdive.com/news/lithium-ion-battery-recyclers-trump-doe-cirba-abtc-li-cycle/757376/"
+     },
+     {
+      "name": "American Battery Technology Company",
+      "role": "startup",
+      "what": "Combines de-manufacturing and selective hydromet leaching at its Reno plant, with a planned second integrated refinery",
+      "signal": "NASDAQ-listed; commercial Reno recycling plant operating; multiple DOE grant awards for recycling and refining buildout",
+      "status": "operating",
+      "source": "https://www.manufacturingdive.com/news/lithium-ion-battery-recyclers-trump-doe-cirba-abtc-li-cycle/757376/"
+     },
+     {
+      "name": "cylib",
+      "role": "startup",
+      "what": "RWTH Aachen spinout doing full-loop recycling (incl. water-based lithium and graphite recovery) and building Europe's first dedicated industrial LFP recycling line at Dormagen",
+      "signal": ">\u20ac140M raised incl. \u20ac63.4M German federal grant (Dec 2025) for the LFP line; planned 60,000 t/yr total capacity",
+      "status": "operating",
+      "source": "https://www.cylib.de/post/cylib-secures-eu63-4m-grant-funding-to-build-lfp-battery-recycling-facility"
+     },
+     {
+      "name": "tozero",
+      "role": "startup",
+      "what": "Munich startup recovering lithium and graphite from black mass via hydromet, targeting low-value chemistries",
+      "signal": "Seed-funded (~\u20ac11M plus grants); first industrial-scale plant in Germany came online March 2026",
+      "status": "operating",
+      "source": "https://www.tozero.solutions/"
+     },
+     {
+      "name": "Altilium",
+      "role": "startup",
+      "what": "UK EcoCathode process taking end-of-life EV packs through black mass to pCAM/CAM, including LFP streams, with a planned Teesside mega-refinery",
+      "signal": "\u00a318.5M UK DRIVE35 grant (2025) for Plymouth plant processing 24,000 EV batteries/yr; Teesside ACT4 refinery planned",
+      "status": "operating",
+      "source": "https://thenextweb.com/news/1417451-altilium-drive35-ev-battery-recycling-plymouth"
+     },
+     {
+      "name": "Fortum Battery Recycling",
+      "role": "incumbent",
+      "what": "Finnish utility subsidiary running one of Europe's few operating hydromet plants (Harjavalta) fed by its own mechanical pre-treatment",
+      "signal": "~\u20ac85M Business Finland grant plus EU Innovation Fund preparatory phase to expand Harjavalta from 3,000 to 28,000 t/yr black mass; phasing out Ikaalinen and Tornio sites by mid-2026",
+      "status": "operating",
+      "source": "https://www.euwid-recycling.com/news/business/fortum-battery-recycling-scale-up-moves-to-preparatory-phase-of-eu-grant-process-111125/"
+     },
+     {
+      "name": "GEM Co.",
+      "role": "incumbent",
+      "what": "One of China's (and the world's) largest battery recyclers, processing LFP and NMC at full industrial scale into pCAM for cell makers",
+      "signal": "Shenzhen-listed; named among the companies dominating the global EV battery recycling market alongside CATL(Brunp), Umicore and Glencore",
+      "status": "operating",
+      "source": "https://www.globenewswire.com/news-release/2025/05/07/3076256/28124/en/EV-Battery-Recycling-Industry-Research-2024-2035-Market-to-Grow-at-a-CAGR-of-40-9-with-Contemporary-Amperex-Technology-GEM-Umicore-Glencore-and-Fortum-Dominating.html"
+     },
+     {
+      "name": "Northvolt Revolt",
+      "role": "scaleup",
+      "what": "Built Europe's largest integrated (mechanical + hydromet) battery recycling plant alongside the Northvolt Ett gigafactory in Skellefte\u00e5",
+      "signal": "8,500 t/yr installed capacity; parent Northvolt declared bankruptcy March 2025; Lyten agreed to acquire the Revolt plant March 2026",
+      "status": "bankrupt-shutdown",
+      "source": "https://lyten.com/2026/03/13/lyten-to-acquire-northvolt-revolt-battery-recycling-plant/"
+     }
+    ],
+    "white_space": "Crowded for NMC chemistries, but LFP, graphite anode and electrolyte recovery remain thin in the West because low contained-metal value breaks the leach-and-sell-salts revenue model \u2014 openings for LFP-tolerant flowsheets (cylib, tozero, Ace Green are early) and anode/electrolyte valorization; Li-Cycle's and Northvolt's failures show capex discipline and feedstock contracts matter more than nameplate capacity."
+   },
+   {
+    "name": "Direct cathode recycling and upcycling to pCAM/CAM",
+    "description": "Instead of dissolving cathodes to elemental salts, these processes regenerate or 'heal' cathode crystal structure (or convert black mass straight to precursor CAM), preserving embedded value and cutting energy, cost and emissions versus full hydromet.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Princeton NuEnergy",
+      "role": "startup",
+      "what": "Low-temperature plasma-assisted purification (LPAS) that relithiates and regenerates cathode powder directly from production scrap and end-of-life cells",
+      "signal": ">$55M raised incl. $30M Series A (Samsung Ventures) and ~$18M of DOE awards; commercial-scale McKinney TX line claims >97% yield",
+      "status": "operating",
+      "source": "https://interestingengineering.com/energy/97-battery-recycling-yield-us-facility-turns-old-lithium-devices-into-new-energy-systems"
+     },
+     {
+      "name": "Green Li-ion",
+      "role": "startup",
+      "what": "GREEN HYDROREJUVENATION modules that convert unsorted black mass directly into battery-grade pCAM in ~12 hours, sold as drop-in plant units",
+      "signal": "Opened North America's first commercial pCAM-from-black-mass plant (Atoka, OK, 2024; ~2 t/day); raised a bridge round May 2025",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20240618645137/en/Green-Li-ion-Marks-the-Opening-of-its-First-Commercial-Scale-Lithium-Ion-Battery-Recycling-Plant-in-Oklahoma"
+     },
+     {
+      "name": "Ascend Elements",
+      "role": "scaleup",
+      "what": "Hydro-to-Cathode upcycling: impurity removal then co-precipitation of custom-ratio pCAM directly from leach solution, skipping elemental separation",
+      "signal": "~$700M raised; pCAM produced at Covington GA; Kentucky Apex-1 pCAM plant delayed in 2025",
+      "status": "operating",
+      "source": "https://www.manufacturingdive.com/news/lithium-ion-battery-recyclers-trump-doe-cirba-abtc-li-cycle/757376/"
+     },
+     {
+      "name": "OnTo Technology",
+      "role": "startup",
+      "what": "Oregon pioneer of 'cathode healing' direct recycling, primarily licensing IP and running DOE-funded pilots rather than owning plants",
+      "signal": "Long-running DOE/USABC project partner; licensing-stage with pilot demonstrations",
+      "status": "operating",
+      "source": "https://www.onto-technology.com/"
+     }
+    ],
+    "white_space": "Few players because direct recycling needs chemistry-sorted, format-consistent feedstock and OEM re-qualification of regenerated powder, while target chemistries keep churning (NMC to high-Ni to LFP) \u2014 an opening for chemistry-agnostic regeneration tied to cell-maker production scrap, where feedstock is clean and qualification loops are short."
+   },
+   {
+    "name": "Pyrometallurgical recovery and black-mass pre-processing/logistics",
+    "description": "Established smelters recover nickel, cobalt and copper from batteries in furnaces (losing lithium and graphite to slag), while a parallel layer of shredding 'spoke' plants and reverse logistics turns packs into transportable black mass \u2014 the workhorse front end of the whole recycling chain.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Umicore",
+      "role": "incumbent",
+      "what": "Runs the long-standing Hoboken battery smelter-refinery pilot and holds deep refining IP, but has postponed its European giga-scale plant",
+      "signal": "~7,000 t/yr pilot operating since 2011; large-scale EU battery recycling plant investment delayed to at least 2032 on slow EV volumes",
+      "status": "operating",
+      "source": "https://news.metal.com/newscontent/102886242/umicore-and-basf-pause-battery-recycling-investments-to-adapt-to-slower-growth-in-ev-market"
+     },
+     {
+      "name": "Glencore",
+      "role": "incumbent",
+      "what": "Processes battery scrap through its Sudbury smelter network and acquired Li-Cycle's spoke network and unfinished Rochester hydromet hub out of bankruptcy",
+      "signal": "Completed takeover of Li-Cycle assets Aug 8, 2025 (~$40M bid); signaled intent to restart Rochester Hub construction",
+      "status": "operating",
+      "source": "https://www.wastedive.com/news/glencore-completes-takeover-of-li-cycle-battery-recycling-assets/757199/"
+     },
+     {
+      "name": "Li-Cycle",
+      "role": "scaleup",
+      "what": "Built the leading North American 'spoke & hub' model \u2014 distributed shredding spokes feeding a planned Rochester hydromet hub that ran over budget",
+      "signal": "Raised >$1B incl. 2021 SPAC; paused Rochester Hub Oct 2023; filed for creditor protection May 2025; assets sold to Glencore Aug 2025",
+      "status": "acquired",
+      "source": "https://www.wastedive.com/news/glencore-completes-takeover-of-li-cycle-battery-recycling-assets/757199/"
+     },
+     {
+      "name": "Hydrovolt",
+      "role": "scaleup",
+      "what": "Operates Europe's largest EV battery shredding/black-mass plant in Fredrikstad, Norway, with high-recovery aluminum separation",
+      "signal": "Norsk Hydro bought out bankrupt Northvolt's stake for $6.8M (Jan 2025) to own 100%; plant continues operating",
+      "status": "operating",
+      "source": "https://www.ess-news.com/2025/01/14/aluminum-maker-to-acquire-northvolts-battery-recycling-business/"
+     },
+     {
+      "name": "SungEel HiTech",
+      "role": "incumbent",
+      "what": "Korea's leading battery recycler running black-mass pre-processing plants across Asia/Europe feeding its own hydromet refinery",
+      "signal": "KOSDAQ-listed; multi-country pre-processing network with Korean hydromet hub",
+      "status": "operating",
+      "source": "https://www.sungeelht.com/"
+     },
+     {
+      "name": "Ecobat",
+      "role": "incumbent",
+      "what": "World's largest lead-acid battery recycler diversifying into lithium black-mass production at plants in Germany, the UK and Arizona",
+      "signal": "Three lithium battery diagnostics/black-mass facilities operating; decades-old global collection network",
+      "status": "operating",
+      "source": "https://ecobat.com/"
+     },
+     {
+      "name": "Stena Recycling",
+      "role": "incumbent",
+      "what": "Pan-Nordic industrial recycler operating a dedicated EV battery recycling plant in Halmstad, Sweden with pack discharge/dismantling services",
+      "signal": "~10,000 t/yr Halmstad plant opened 2023 atop a multi-country collection network",
+      "status": "operating",
+      "source": "https://www.stenarecycling.com/"
+     },
+     {
+      "name": "Mercedes-Benz",
+      "role": "incumbent",
+      "what": "First automaker with an in-house integrated mechanical + hydromet battery recycling plant, closing its own materials loop",
+      "signal": "Kuppenheim plant opened Oct 2024; 2,500 t/yr, >96% claimed material recovery, built with Primobius (SMS group/Neometals) technology",
+      "status": "operating",
+      "source": "https://group.mercedes-benz.com/company/news/recycling-factory-kuppenheim.html"
+     },
+     {
+      "name": "BASF",
+      "role": "incumbent",
+      "what": "Operates a black-mass plant at Schwarzheide tied to its CAM business while holding its large Spanish refinery in reserve",
+      "signal": "15,000 t/yr Schwarzheide black-mass plant started 2024; Tarragona large-scale recycling refinery paused pending EV demand recovery",
+      "status": "operating",
+      "source": "https://rhomotion.com/news/basf-halts-construction-of-its-spanish-battery-recycling-plant-industry-update/"
+     }
+    ]
+   },
+   {
+    "name": "Electrochemical and novel-solvent metal recovery",
+    "description": "Electricity (electrowinning/electro-extraction) or designer solvents (deep eutectics, fully-electric flowsheets) replace furnaces and acid-intensive solvent extraction, promising modular, low-emission metal refining that can sit close to scrap sources.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Nth Cycle",
+      "role": "startup",
+      "what": "'Oyster' electro-extraction units that refine shredded scrap or black mass into nickel-cobalt MHP on-site, sold as modular systems",
+      "signal": "$44M Series B + non-dilutive (2024); first commercial facility in Fairfield, OH producing MHP since Sept 2024",
+      "status": "operating",
+      "source": "https://nthcycle.com/news/nth-cycle-closes-44-million-in-series-b-and-non-dilutive-financing-to-scale-clean-critical-metal-refining-technology/"
+     },
+     {
+      "name": "Aqua Metals",
+      "role": "startup",
+      "what": "Electrolytic 'AquaRefining' of black mass to lithium carbonate and metals without furnace or heavy chemical consumption, piloted in Nevada",
+      "signal": "5,000+ hours piloting and lithium carbonate produced, but FY2025 brought no revenue, a going-concern warning, asset sales and a pivot toward acquiring Lion Energy",
+      "status": "uncertain",
+      "source": "https://www.stocktitan.net/sec-filings/AQMS/10-k-aqua-metals-inc-files-annual-report-15a825532efb.html"
+     },
+     {
+      "name": "DEScycle",
+      "role": "startup",
+      "what": "UK developer using deep eutectic solvents to dissolve and selectively recover metals from e-waste and other feeds at near-ambient conditions",
+      "signal": "~\u20ac10M raised (2025) to scale distributed metals-recovery units; pilot stage",
+      "status": "operating",
+      "source": "https://rareearthexchanges.com/news/the-midstream-revolution-descycles-bet-on-distributed-metals-recovery-draws-e10-million/"
+     },
+     {
+      "name": "Ace Green Recycling",
+      "role": "startup",
+      "what": "Fully-electric, zero-Scope-1 GREENLEAD lead recycling plus LithiumFirst process deliberately aimed at LFP batteries",
+      "signal": "30,000-100,000 t/yr feedstock supply agreements signed for planned Texas flagship (production from 2026); announced plan to go public (Dec 2024)",
+      "status": "operating",
+      "source": "https://www.fastmarkets.com/insights/ace-green-ceo-lfp-rising-star-recycling-market/"
+     }
+    ],
+    "white_space": "Sparse because electrochemical routes must beat brutally cheap incumbent solvent-extraction refining in China, and scale-up is capital-hungry (Aqua Metals' going-concern struggles are the cautionary tale) \u2014 the opening is modular, distributed refining that monetizes intermediates like MHP near scrap sources in tariff-protected markets, as Nth Cycle is attempting."
+   },
+   {
+    "name": "Second-life EV battery systems, diagnostics, and state-of-health analytics",
+    "description": "Retired EV packs with 70-80% remaining capacity are tested, re-certified and reassembled into stationary storage \u2014 supported by software that estimates state-of-health from field data \u2014 extracting more value per battery before recycling.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "B2U Storage Solutions",
+      "role": "scaleup",
+      "what": "Pack-level 'plug and play' second-life BESS paired with solar plants in California, avoiding costly pack disassembly",
+      "signal": "Seven hybrid solar+storage projects (four grid-connected); launched a structured-finance fund Dec 2025; battery supply deal with Waymo",
+      "status": "operating",
+      "source": "https://www.globenewswire.com/news-release/2025/12/17/3206992/0/en/B2U-Storage-Solutions-Launches-Fund-for-Second-Life-Battery-Energy-Storage-Systems.html"
+     },
+     {
+      "name": "Moment Energy",
+      "role": "scaleup",
+      "what": "Manufactures UL-certified Luna second-life BESS (400 kWh/1 MWh blocks) from automaker-sourced packs at a dedicated Vancouver factory",
+      "signal": "US$40M Series B (May 2026); factory reached full-scale production in 2025",
+      "status": "operating",
+      "source": "https://www.momentenergy.com/news/series-b"
+     },
+     {
+      "name": "Connected Energy",
+      "role": "scaleup",
+      "what": "UK pioneer of containerized E-STOR second-life systems, moving into grid-scale second-life storage",
+      "signal": "Founded 2010; backed by Volvo Energy and Caterpillar Venture Capital; grid-scale second-life testing underway",
+      "status": "operating",
+      "source": "https://connected-energy.co.uk/"
+     },
+     {
+      "name": "Voltfang",
+      "role": "startup",
+      "what": "German maker of industrial second-life storage systems from EV batteries with its own qualification line",
+      "signal": "\u20ac15M Series B (Jun 2025); opened a 6,000 m\u00b2 Aachen plant billed as Europe's largest second-life battery factory, targeting 1 GWh/yr",
+      "status": "operating",
+      "source": "https://app.dealroom.co/companies/voltfang"
+     },
+     {
+      "name": "Element Energy",
+      "role": "scaleup",
+      "what": "Cell-level battery management that lets heterogeneous, partially-degraded modules run safely in large second-life arrays",
+      "signal": "Commissioned the world's largest second-life BESS (53 MWh, Texas, 2024); partnership with LG Energy Solution Vertech toward a 2 GWh pipeline",
+      "status": "operating",
+      "source": "https://www.utilitydive.com/news/element-energy-commissions-53-mwh-second-life-battery-energy-storage-projec/734020/"
+     },
+     {
+      "name": "Relectrify",
+      "role": "startup",
+      "what": "Australian cell-level inverter-less power electronics (AC1) that squeeze ~20% more lifetime energy from new or second-life cells",
+      "signal": "US$25M Series A (Oct 2025) with A$25M ARENA fast-track backing; Taiwan-manufactured product launched",
+      "status": "operating",
+      "source": "https://www.ess-news.com/2025/10/23/relectrify-inverterless-storage-system-fast-tracked-with-25-million-arena-backing/"
+     },
+     {
+      "name": "TWAICE",
+      "role": "scaleup",
+      "what": "Battery analytics platform whose digital-twin SOH models are used to qualify, warranty and operate second-life and grid storage assets",
+      "signal": "\u20ac24M EIB venture debt (Feb 2026); BESS analytics business roughly tripled in 2025",
+      "status": "operating",
+      "source": "https://www.electrive.com/2026/02/05/battery-analytics-startup-twaice-secures-e24-million/"
+     },
+     {
+      "name": "ACCURE Battery Intelligence",
+      "role": "startup",
+      "what": "Cloud analytics that estimate SOH/safety from field data across EV and storage fleets, feeding second-life qualification decisions",
+      "signal": "$34.5M raised including Series B (Feb 2025); monitors multi-GWh of fleets",
+      "status": "operating",
+      "source": "https://tracxn.com/d/companies/accure-battery-intelligence/__puxMMBtHMZGw6ylm3sWEoZ6EZ0P9XGysYP3SpUz6rXw"
+     }
+    ],
+    "white_space": "The economics are being squeezed from both sides \u2014 new LFP cell prices keep falling while recyclers bid up end-of-life packs \u2014 so pure repurposers struggle; the durable openings are cell-level electronics and bankable SOH certification (diagnostics + warranty + insurance) that make second-life assets financeable, plus captive OEM/fleet supply deals like Waymo-B2U."
+   },
+   {
+    "name": "E-waste urban mining and precious-metal recovery",
+    "description": "Circuit boards and electronics are 'mined' for gold, silver, palladium and copper \u2014 traditionally in giant copper smelters, now increasingly via clean chemistry (bioleaching, selective lixiviants) that recovers precious metals locally without cyanide or smelting.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Mint Innovation",
+      "role": "startup",
+      "what": "Uses microbes (bioleaching) plus chemistry to recover gold and copper from shredded PCBs in city-scale 'biorefineries'",
+      "signal": "Commercial plant operating in Sydney; first US facility in Longview, TX slated for completion end-2025",
+      "status": "operating",
+      "source": "https://www.mint.bio/news-and-press/mint-innovation-secures-site-for-first-us-e-waste-biotechnology-facility"
+     },
+     {
+      "name": "Excir",
+      "role": "startup",
+      "what": "Canadian selective-chemistry process that strips >99% of gold from circuit boards in minutes at room temperature",
+      "signal": "Technology deployed at The Royal Mint's Llantrisant plant (capacity 4,000 t PCBs/yr); Royal Mint took an equity stake April 2025",
+      "status": "operating",
+      "source": "https://www.royalmint.com/aboutus/press-centre/the-royal-mint-announces-investment-in-excir-to-strengthen-partnership-in-precious-metals-recovery/"
+     },
+     {
+      "name": "Umicore (Precious Metals Refining)",
+      "role": "incumbent",
+      "what": "Hoboken, Belgium smelter-refinery \u2014 the world benchmark for recovering 17+ metals from e-scrap and industrial residues",
+      "signal": "World's largest precious-metals recycler; ~500,000 t/yr feed capacity",
+      "status": "operating",
+      "source": "https://pmr.umicore.com/"
+     },
+     {
+      "name": "Boliden",
+      "role": "incumbent",
+      "what": "R\u00f6nnsk\u00e4r (Sweden) copper smelter is one of the world's largest e-scrap processors, integrated with mining feed",
+      "signal": "~120,000 t/yr electronic scrap capacity at R\u00f6nnsk\u00e4r",
+      "status": "operating",
+      "source": "https://www.boliden.com/"
+     },
+     {
+      "name": "Sims Lifecycle Services",
+      "role": "incumbent",
+      "what": "Global ITAD and e-scrap processing arm of Sims Ltd., feeding recovered boards to smelters and managing enterprise device reuse",
+      "signal": "Operations across dozens of sites globally; listed parent (ASX: SGM)",
+      "status": "operating",
+      "source": "https://www.simslifecycle.com/"
+     },
+     {
+      "name": "ERI",
+      "role": "incumbent",
+      "what": "Largest dedicated US electronics recycler with nationwide collection and certified data destruction",
+      "signal": "Eight US facilities; processes >100M lbs of e-waste annually",
+      "status": "operating",
+      "source": "https://eridirect.com/"
+     }
+    ],
+    "white_space": "Smelting capacity is ample; the real bottleneck is feedstock \u2014 only ~20% of global e-waste reaches formal recycling \u2014 so the opening is collection/reverse-logistics and automated PCB liberation rather than more refining chemistry; clean-chemistry players win where local processing avoids export of boards to distant smelters."
+   },
+   {
+    "name": "Magnet and rare-earth recycling",
+    "description": "End-of-life NdFeB magnets from motors, drives and electronics are recovered and either re-sintered magnet-to-magnet (e.g., via hydrogen decrepitation) or chemically refined to rare-earth oxides, building a Western supply of Nd, Pr, Dy and Tb outside China's near-monopoly.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Cyclic Materials",
+      "role": "startup",
+      "what": "MagCycle magnet harvesting plus REEPure hydromet refining to mixed rare-earth oxide, building hub-and-spoke plants in North America",
+      "signal": "US$53M Series B (2024; BMW i Ventures, Jaguar Land Rover, Microsoft CIF); Kingston, ON facility operating; magnet-waste deal with VACUUMSCHMELZE; MIT Tech Review 2025 'company to watch'",
+      "status": "operating",
+      "source": "https://www.technologyreview.com/2025/10/06/1124287/2025-climate-tech-companies-to-watch-cyclic-materials-rare-earth-recycling/"
+     },
+     {
+      "name": "HyProMag (Mkango/Maginito)",
+      "role": "startup",
+      "what": "Hydrogen decrepitation (HPMS) that turns scrap magnets directly back into sintered-magnet powder with >90% energy savings vs virgin",
+      "signal": "Tyseley UK plant commissioned; ~100 tpy German plant in commissioning 2025 and 500 tpy US plant planned 2025-26",
+      "status": "operating",
+      "source": "https://www.fastmarkets.com/insights/rare-earth-magnet-recycling-technology-branches-out/"
+     },
+     {
+      "name": "Noveon Magnetics",
+      "role": "scaleup",
+      "what": "Texas magnet manufacturer running commercial magnet-to-magnet recycling, selling finished NdFeB magnets rather than oxides",
+      "signal": "San Marcos plant operating; ~2,000 t of 2025 magnet production supported by end-of-life recycled feed; DoD-backed",
+      "status": "operating",
+      "source": "https://www.fastmarkets.com/insights/rare-earth-magnet-recycling-technology-branches-out/"
+     },
+     {
+      "name": "Ionic Technologies",
+      "role": "startup",
+      "what": "Belfast subsidiary of Ionic Rare Earths refining scrap magnets to separated high-purity rare-earth oxides",
+      "signal": "Leads \u00a311M CREEM UK consortium with EMR, Ford and Bentley to recover magnets from end-of-life vehicles",
+      "status": "operating",
+      "source": "https://rareearthexchanges.com/news/rare-earth-recycling-in-2025-progress-promises-and-persistent-bottlenecks/"
+     },
+     {
+      "name": "Carester (Caremag)",
+      "role": "startup",
+      "what": "French separation specialist building Europe's first large-scale combined rare-earth recycling and heavy-RE refining plant at Lacq",
+      "signal": "\u20ac216M secured (\u20ac106M French state + \u20ac110M JOGMEC/Iwatani JV, 2025); plant to recycle 2,000 t magnets/yr and refine 5,000 t concentrate from end-2026",
+      "status": "operating",
+      "source": "https://www.carester.fr/en/caremag-launch/"
+     }
+    ],
+    "white_space": "China refines ~90% of rare earths and its 2025 export controls turbo-charged demand for Western alternatives, yet collection of dispersed small magnets and the lack of Western sintering capacity keep the field thin \u2014 openings in automated magnet harvesting from motors/HDDs and OEM-backed closed loops (the VAC-Cyclic and CREEM models)."
+   },
+   {
+    "name": "Solar panel recycling and reuse",
+    "description": "End-of-life and damaged PV modules are de-framed, delaminated and separated to recover glass, aluminum, copper, silver and silicon (or resold as working used panels), heading off a multi-million-tonne waste wave arriving as 2000s-era installations retire.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "SOLARCYCLE",
+      "role": "scaleup",
+      "what": "US high-recovery recycling (glass, silver, silicon, copper) vertically integrating into recycled-content solar glass manufacturing",
+      "signal": "Cedartown, GA recycling plant started up Jan 2026 (5 GW/yr); up to $250M municipal-bond financing for co-located glass plant with >80% of capacity pre-committed",
+      "status": "operating",
+      "source": "https://resource-recycling.com/e-scrap/2026/01/30/solarcycle-starts-up-georgia-recycling-plant/"
+     },
+     {
+      "name": "ROSI",
+      "role": "startup",
+      "what": "French high-value recovery of ultrapure silicon, silver and copper from modules using thermal/chemical delamination",
+      "signal": ">\u20ac20M raised (2025) to scale; Grenoble plant ramping toward 10,000 t/yr and a second 10,000 t/yr plant planned in Teruel, Spain",
+      "status": "operating",
+      "source": "https://www.rosi-solar.com/news/rosi-secures-over-eu20-million-to-scale-solar-panel-recycling-across-europe"
+     },
+     {
+      "name": "We Recycle Solar",
+      "role": "startup",
+      "what": "Operates one of the largest US dedicated panel recycling plants (Yuma, AZ) plus a reuse/resale brokerage for working modules",
+      "signal": "Yuma plant can process thousands of panels per day; national decommissioning logistics network",
+      "status": "operating",
+      "source": "https://werecyclesolar.com/"
+     },
+     {
+      "name": "First Solar",
+      "role": "incumbent",
+      "what": "Runs in-house CdTe module recycling lines at its own factories \u2014 the longest-standing manufacturer take-back program in solar",
+      "signal": "Recycling at factory sites since 2005 with ~90% material recovery rates",
+      "status": "operating",
+      "source": "https://www.firstsolar.com/"
+     },
+     {
+      "name": "SecondSol",
+      "role": "startup",
+      "what": "German online marketplace for used and refurbished PV modules, extending panel life before recycling",
+      "signal": "Largest European secondary-market platform for PV modules and spare parts",
+      "status": "operating",
+      "source": "https://www.secondsol.com/"
+     }
+    ],
+    "white_space": "Volumes are still early (the big end-of-life wave hits ~2030) and recycling margins lean on tipping fees plus tariff-protected glass demand \u2014 Solarcycle's 2025 construction pause over federal tax-credit uncertainty shows policy sensitivity; the open ground is high-purity silver/solar-grade silicon recovery at cost, and reuse certification for the booming used-panel trade."
+   },
+   {
+    "name": "Wind blade and fiber-composite recycling",
+    "description": "Decommissioned turbine blades (glass/carbon fiber in thermoset epoxy) are shredded for cement co-processing, mechanically converted into fiber additives, or broken down by pyrolysis/chemolysis to recover clean fibers and resin feedstock \u2014 solving wind power's most visible waste problem.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "REGEN Fiber",
+      "role": "scaleup",
+      "what": "Alliant Energy (Travero) venture mechanically converting blades into fiber reinforcement additives for concrete and asphalt",
+      "signal": "Fairfax, IA plant commercially operating; tens of millions of pounds of annual processing capacity",
+      "status": "operating",
+      "source": "https://www.regenfiber.com/"
+     },
+     {
+      "name": "Continuum",
+      "role": "startup",
+      "what": "Danish mechanical recycler separating blades into fiber/resin fractions and pressing them into composite panels for construction",
+      "signal": "Esbjerg factory targeting minimum 36,000 t/yr blade capacity, with plans for multiple European plants",
+      "status": "operating",
+      "source": "https://www.compositesworld.com/news/continuum-targets-facility-capacity-transforms-composite-materials-to-advance-wind-blade-recycling"
+     },
+     {
+      "name": "Carbon Rivers",
+      "role": "startup",
+      "what": "DOE-supported pyrolysis that recovers clean, mechanically-intact glass fiber from blades for reuse in new composites",
+      "signal": "Several thousand tonnes processed; scaling toward a >50,000 t/yr facility near Knoxville, TN",
+      "status": "operating",
+      "source": "https://www.energy.gov/eere/wind/articles/carbon-rivers-makes-wind-turbine-blade-recycling-and-upcycling-reality-support"
+     },
+     {
+      "name": "Veolia",
+      "role": "incumbent",
+      "what": "Cement-kiln co-processing of shredded blades (GE Renewable Energy partnership) \u2014 the lowest-cost route operating at scale today",
+      "signal": "Thousands of blades processed into kiln fuel/raw material since 2020",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20251007527996/en/Wind-Turbine-Blade-Recycling-Market-Trends-and-Forecast-Report-2025-with-Veolia-Environnement-Groupe-Lapeyre-Global-Fiberglass-Solutions-Geocycle-Carbon-Rivers-Regen-Fiber-Vestas-Wind-Systems---ResearchAndMarkets.com"
+     },
+     {
+      "name": "Vestas",
+      "role": "incumbent",
+      "what": "CETEC epoxy chemolysis (with Olin and Stena) that breaks cured epoxy back to virgin-grade resin constituents, enabling recycling of existing blades without redesign",
+      "signal": "Chemical disassembly process unveiled 2023, in scale-up with partners",
+      "status": "operating",
+      "source": "https://cen.acs.org/environment/recycling/Wind-turbine-blade-recycling-picks/102/i31"
+     },
+     {
+      "name": "Fairmat",
+      "role": "scaleup",
+      "what": "French deep-tech recycling carbon-fiber composite offcuts and parts into engineered chips for new high-performance products",
+      "signal": ">$50M raised (Series B 2023); plants in France and Salt Lake City with aerospace supply deals",
+      "status": "operating",
+      "source": "https://www.fairmat.tech/"
+     },
+     {
+      "name": "Global Fiberglass Solutions",
+      "role": "startup",
+      "what": "Early US mover converting blades into composite pellets and panels",
+      "signal": "Drew attention for stockpiled blades in Texas/Iowa and has gone quiet; commercial activity unclear",
+      "status": "uncertain",
+      "source": "https://www.businesswire.com/news/home/20251007527996/en/Wind-Turbine-Blade-Recycling-Market-Trends-and-Forecast-Report-2025-with-Veolia-Environnement-Groupe-Lapeyre-Global-Fiberglass-Solutions-Geocycle-Carbon-Rivers-Regen-Fiber-Vestas-Wind-Systems---ResearchAndMarkets.com"
+     }
+    ],
+    "white_space": "Recovered glass fiber is worth little relative to the cost of moving and cutting 70-meter blades, so cement co-processing wins on economics and high-value routes stay subscale (GFS's stockpiles are the cautionary tale) \u2014 openings in mobile/on-site blade sectioning logistics, resin-recovery chemolysis as repowering accelerates through 2030, and higher-value carbon-fiber streams."
+   },
+   {
+    "name": "Advanced alloy scrap sorting and metals recovery",
+    "description": "Sensor fusion (LIBS, XRF, X-ray transmission) plus AI classifies and separates mixed metal scrap into specific alloy grades at belt speed, letting 'twitch' and zorba streams that were exported be re-melted domestically into high-value wrought alloys with ~95% energy savings versus primary.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Sortera Technologies",
+      "role": "startup",
+      "what": "Only US pure-play operating its own AI+LIBS plants that upgrade mixed aluminum shred into furnace-ready, alloy-specific products",
+      "signal": "$45M round (Nov 2025; T. Rowe Price-advised accounts, VXI, Yamaha Motor Ventures); second plant announced in Lebanon, TN",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/sortera-scales-solution-to-the-mixed-aluminum-problem-with-45-million-in-funding-and-new-tennessee-facility-302620885.html"
+     },
+     {
+      "name": "TOMRA Recycling",
+      "role": "incumbent",
+      "what": "Global sensor-sorting equipment leader; launched dynamic-LIBS AUTOSORT PULSE to split wrought aluminum into 5xxx/6xxx alloy families",
+      "signal": "Dynamic LIBS and deep-learning aluminum sorting products launched 2025 on an installed base of thousands of sorters",
+      "status": "operating",
+      "source": "https://www.tomra.com/waste-metal-recycling/media-center/webcasts/2025/from-ai-to-dynamic-libs"
+     },
+     {
+      "name": "STEINERT",
+      "role": "incumbent",
+      "what": "German metals-sorting incumbent supplying LIBS, XRF and X-ray transmission lines used by major shredders to upgrade zorba/twitch",
+      "signal": "Family-owned incumbent with sorting systems deployed across global scrap yards",
+      "status": "operating",
+      "source": "https://steinertglobal.com/"
+     }
+    ],
+    "white_space": "Thin because it demands simultaneous depth in sensors, ML and physical metallurgy plus plant capex, and incumbents sell equipment rather than operate \u2014 Sortera is nearly alone as an operator; tightening scrap-export flows and aluminum tariffs create an opening for more own-and-operate alloy upgrading hubs and for copper/steel alloy-level sorting beyond aluminum."
+   },
+   {
+    "name": "Materials traceability and battery-passport software",
+    "description": "Software (often blockchain-anchored) tracks critical materials from mine or recycler through manufacturing to end-of-life, underpinning the EU's mandatory digital battery passport (Feb 2027) and letting buyers verify recycled content, carbon footprint and ethical sourcing.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Circulor",
+      "role": "scaleup",
+      "what": "Market-leading traceability platform tracking minerals and embedded CO2 across live battery supply chains for automakers and miners",
+      "signal": "Materials traced for >150M batteries and ~500,000 EVs across 30+ supply chains; customers include Volvo Cars",
+      "status": "operating",
+      "source": "https://circulor.com/battery-passport"
+     },
+     {
+      "name": "Minespider",
+      "role": "startup",
+      "what": "Blockchain product-passport platform focused on raw-material provenance and EU Battery Regulation compliance",
+      "signal": "Named a leading battery-passport player; commercial deployments with metals producers ahead of the Feb 2027 EU mandate",
+      "status": "operating",
+      "source": "https://www.minespider.com/battery-passports"
+     },
+     {
+      "name": "Circularise",
+      "role": "startup",
+      "what": "Dutch digital-product-passport software using zero-knowledge proofs so suppliers can prove provenance without exposing trade secrets",
+      "signal": "~\u20ac11M raised; battery passport and chemicals traceability pilots with industrial partners",
+      "status": "operating",
+      "source": "https://www.circularise.com/industry/batteries"
+     },
+     {
+      "name": "Optel Group",
+      "role": "incumbent",
+      "what": "Canadian traceability incumbent (pharma serialization heritage) extending its supply-chain platform to battery passports",
+      "signal": "Cited among battery-passport market leaders in 2025-2035 industry analysis",
+      "status": "operating",
+      "source": "https://www.globenewswire.com/news-release/2026/03/03/3248073/28124/en/Battery-Passport-Industry-Research-2025-2035-Minespider-AVL-Siemens-Circulor-and-Optel-Group-Market-Shares-Growth-Strategies-and-Service-Offerings.html"
+     },
+     {
+      "name": "Siemens",
+      "role": "incumbent",
+      "what": "Offers battery-passport and product-carbon-footprint tooling integrated into its Xcelerator industrial software stack",
+      "signal": "Named among leading battery-passport providers; piloted passports with the Global Battery Alliance",
+      "status": "operating",
+      "source": "https://www.globenewswire.com/news-release/2026/03/03/3248073/28124/en/Battery-Passport-Industry-Research-2025-2035-Minespider-AVL-Siemens-Circulor-and-Optel-Group-Market-Shares-Growth-Strategies-and-Service-Offerings.html"
+     },
+     {
+      "name": "Everledger",
+      "role": "startup",
+      "what": "Blockchain provenance pioneer (diamonds, then batteries) whose standalone model failed to reach sustainable revenue",
+      "signal": "Raised ~$54M (Tencent-backed) but entered administration April 2023 with its UK arm liquidated; brand persists at reduced scale",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.ledgerinsights.com/everledger-bankruptcy-esg-blockchain-traceability/"
+     }
+    ],
+    "white_space": "Everledger's collapse showed standalone blockchain provenance doesn't monetize without a regulatory forcing function \u2014 the EU battery passport (mandatory Feb 2027) now provides one, but data onboarding from thousands of small suppliers is the unsolved pain; the opening is ERP/MES-integrated passports with automated supplier data capture rather than another ledger."
+   }
+  ],
+  "sources": [
+   "https://www.wastedive.com/news/glencore-completes-takeover-of-li-cycle-battery-recycling-assets/757199/",
+   "https://www.manufacturingdive.com/news/lithium-ion-battery-recyclers-trump-doe-cirba-abtc-li-cycle/757376/",
+   "https://www.cylib.de/post/cylib-secures-eu63-4m-grant-funding-to-build-lfp-battery-recycling-facility",
+   "https://thenextweb.com/news/1417451-altilium-drive35-ev-battery-recycling-plymouth",
+   "https://news.metal.com/newscontent/102886242/umicore-and-basf-pause-battery-recycling-investments-to-adapt-to-slower-growth-in-ev-market",
+   "https://rhomotion.com/news/basf-halts-construction-of-its-spanish-battery-recycling-plant-industry-update/",
+   "https://www.euwid-recycling.com/news/business/fortum-battery-recycling-scale-up-moves-to-preparatory-phase-of-eu-grant-process-111125/",
+   "https://www.ess-news.com/2025/01/14/aluminum-maker-to-acquire-northvolts-battery-recycling-business/",
+   "https://lyten.com/2026/03/13/lyten-to-acquire-northvolt-revolt-battery-recycling-plant/",
+   "https://www.businesswire.com/news/home/20240618645137/en/Green-Li-ion-Marks-the-Opening-of-its-First-Commercial-Scale-Lithium-Ion-Battery-Recycling-Plant-in-Oklahoma",
+   "https://interestingengineering.com/energy/97-battery-recycling-yield-us-facility-turns-old-lithium-devices-into-new-energy-systems",
+   "https://nthcycle.com/news/nth-cycle-closes-44-million-in-series-b-and-non-dilutive-financing-to-scale-clean-critical-metal-refining-technology/",
+   "https://www.stocktitan.net/sec-filings/AQMS/10-k-aqua-metals-inc-files-annual-report-15a825532efb.html",
+   "https://www.momentenergy.com/news/series-b",
+   "https://www.globenewswire.com/news-release/2025/12/17/3206992/0/en/B2U-Storage-Solutions-Launches-Fund-for-Second-Life-Battery-Energy-Storage-Systems.html",
+   "https://www.utilitydive.com/news/element-energy-commissions-53-mwh-second-life-battery-energy-storage-projec/734020/",
+   "https://www.ess-news.com/2025/10/23/relectrify-inverterless-storage-system-fast-tracked-with-25-million-arena-backing/",
+   "https://www.electrive.com/2026/02/05/battery-analytics-startup-twaice-secures-e24-million/",
+   "https://www.royalmint.com/aboutus/press-centre/the-royal-mint-announces-investment-in-excir-to-strengthen-partnership-in-precious-metals-recovery/",
+   "https://www.mint.bio/news-and-press/mint-innovation-secures-site-for-first-us-e-waste-biotechnology-facility",
+   "https://www.technologyreview.com/2025/10/06/1124287/2025-climate-tech-companies-to-watch-cyclic-materials-rare-earth-recycling/",
+   "https://www.fastmarkets.com/insights/rare-earth-magnet-recycling-technology-branches-out/",
+   "https://www.carester.fr/en/caremag-launch/",
+   "https://resource-recycling.com/e-scrap/2026/01/30/solarcycle-starts-up-georgia-recycling-plant/",
+   "https://www.rosi-solar.com/news/rosi-secures-over-eu20-million-to-scale-solar-panel-recycling-across-europe",
+   "https://www.businesswire.com/news/home/20251007527996/en/Wind-Turbine-Blade-Recycling-Market-Trends-and-Forecast-Report-2025-with-Veolia-Environnement-Groupe-Lapeyre-Global-Fiberglass-Solutions-Geocycle-Carbon-Rivers-Regen-Fiber-Vestas-Wind-Systems---ResearchAndMarkets.com",
+   "https://www.energy.gov/eere/wind/articles/carbon-rivers-makes-wind-turbine-blade-recycling-and-upcycling-reality-support",
+   "https://www.prnewswire.com/news-releases/sortera-scales-solution-to-the-mixed-aluminum-problem-with-45-million-in-funding-and-new-tennessee-facility-302620885.html",
+   "https://www.tomra.com/waste-metal-recycling/media-center/webcasts/2025/from-ai-to-dynamic-libs",
+   "https://www.globenewswire.com/news-release/2026/03/03/3248073/28124/en/Battery-Passport-Industry-Research-2025-2035-Minespider-AVL-Siemens-Circulor-and-Optel-Group-Market-Shares-Growth-Strategies-and-Service-Offerings.html",
+   "https://www.ledgerinsights.com/everledger-bankruptcy-esg-blockchain-traceability/",
+   "https://www.fastmarkets.com/insights/ace-green-ceo-lfp-rising-star-recycling-market/",
+   "https://rareearthexchanges.com/news/the-midstream-revolution-descycles-bet-on-distributed-metals-recovery-draws-e10-million/",
+   "https://www.globenewswire.com/news-release/2025/05/07/3076256/28124/en/EV-Battery-Recycling-Industry-Research-2024-2035-Market-to-Grow-at-a-CAGR-of-40-9-with-Contemporary-Amperex-Technology-GEM-Umicore-Glencore-and-Fortum-Dominating.html",
+   "https://group.mercedes-benz.com/company/news/recycling-factory-kuppenheim.html"
+  ]
+ }
+}

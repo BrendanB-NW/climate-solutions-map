@@ -1,0 +1,464 @@
+{
+ "sector": "food",
+ "bucket": "Cultivated Meat & Novel Protein Sources",
+ "census": {
+  "bucket": "Cultivated Meat & Novel Protein Sources",
+  "variations": [
+   {
+    "name": "Cultivated / cell-based meat (beef, pork, poultry)",
+    "description": "Animal muscle and fat cells are grown in bioreactors fed with nutrient media to produce real meat without raising or slaughtering livestock, cutting land use, emissions, and animal welfare harms versus conventional beef and poultry.",
+    "maturity": "demonstration",
+    "white_space": "This is the highest-profile sub-sector but is in a severe capital winter: sector funding fell from $989M (2021) to ~$65M (2025), and even approved, well-funded players (Believer $390M, Meatable $105M) collapsed because no one has cracked profitable production at scale (cost of goods, growth-media cost, and bioreactor capex remain orders of magnitude off parity). The opening is not another full-meat startup but cost-down enabling tech (cheap media, cheap bioreactors) and hybrid products that use a small fraction of cultivated cells in a plant-based matrix to reach price parity.",
+    "companies": [
+     {
+      "name": "UPSIDE Foods",
+      "role": "scaleup",
+      "what": "US cultivated chicken maker with FDA/USDA approval; runs its smaller 'EPIC' pilot facility in Emeryville, CA after pausing a planned large Glenview, IL plant.",
+      "signal": "~$611M raised across six rounds; paused large-scale facility 2025; suing Texas over its cultivated-meat ban (2025).",
+      "status": "operating",
+      "source": "https://www.fooddive.com/news/wildtype-upside-sue-texas-cultivated-meat-ban/759315/"
+     },
+     {
+      "name": "Mosa Meat",
+      "role": "scaleup",
+      "what": "Dutch pioneer (made the first cultivated burger in 2013) focused on cultivated beef and beef fat, with proprietary plant-based growth media cutting media cost ~80%.",
+      "signal": "Raised ~$43M (2024) plus \u20ac15M Dec 2025; claims 99.999% cost cut vs its \u20ac250k first burger; filed for UK approval of cultivated beef fat in hybrid products (2025).",
+      "status": "operating",
+      "source": "https://www.eu-startups.com/2025/12/as-meatable-shuts-down-dutch-based-mosa-meat-lands-e15m-and-achieves-99-999-cost-cut-from-its-e250k-first-burger/"
+     },
+     {
+      "name": "GOOD Meat (Eat Just)",
+      "role": "scaleup",
+      "what": "Cell-cultured chicken division of Eat Just; first company in the world to commercialize cultivated meat (Singapore 2020) and FDA/USDA-approved in the US.",
+      "signal": "Eat Just raised >$3B historically; GOOD Meat sued over unpaid invoices and settled with bioreactor supplier ABEC for $4.4M (2025); has not reached profitable scale.",
+      "status": "uncertain",
+      "source": "https://agfundernews.com/breaking-eat-just-good-meat-to-pay-abec-4-4m-to-settle-legal-dispute"
+     },
+     {
+      "name": "Aleph Farms",
+      "role": "scaleup",
+      "what": "Israeli maker of cultivated whole-cut steak; first to gain regulatory approval to sell cultivated beef in Israel.",
+      "signal": "~$140M raised historically; secured $29M (SAFE conversion + new round) in 2025 and unveiled a lower-cost whole-cut process; reported ~97% production-cost reduction vs 2022.",
+      "status": "operating",
+      "source": "https://agfundernews.com/exclusive-aleph-farms-raises-30m-unveils-lower-cost-version-of-whole-cut-technology"
+     },
+     {
+      "name": "Believer Meats (formerly Future Meat Technologies)",
+      "role": "scaleup",
+      "what": "Israeli-founded maker of cultivated chicken/lamb; built a ~200,000 sq ft Wilson, NC plant and was the first foreign firm to gain US cultivated-meat regulatory approval.",
+      "signal": "Raised ~$390M; abruptly ceased operations late 2025 despite USDA approval, after failing to secure further funding.",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.calcalistech.com/ctechnews/article/bknaajdzbe"
+     },
+     {
+      "name": "Meatable",
+      "role": "startup",
+      "what": "Dutch cultivated pork/beef startup using opti-ox tech for fast cell differentiation and proprietary growth media.",
+      "signal": "Raised ~$105M lifetime; dissolved December 2025 after key investor Agronomics wrote its \u00a311.9M stake to zero, unable to secure funding.",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.foodnavigator.com/Article/2026/01/22/cultivated-meat-who-is-ceasing-operations-and-why/"
+     },
+     {
+      "name": "SCiFi Foods",
+      "role": "startup",
+      "what": "US startup developing a cultivated-beef + plant hybrid burger using CRISPR-edited cell lines to lower cost.",
+      "signal": "Operated 2019-2024; shut down in 2024 stating it 'could not raise the capital we needed to commercialise.'",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.foodnavigator.com/Article/2026/01/22/cultivated-meat-who-is-ceasing-operations-and-why/"
+     }
+    ]
+   },
+   {
+    "name": "Cultivated seafood (fish, shellfish, crustaceans)",
+    "description": "Fish and shellfish cells are cultured in bioreactors to make real seafood (salmon, tuna, eel, shrimp) without wild-catch or aquaculture, addressing overfishing, bycatch, and contaminants like mercury and microplastics.",
+    "maturity": "demonstration",
+    "white_space": "Regulatory wins (Wildtype's FDA clearance) opened the US market, but the sector is thinly capitalized and Singapore \u2014 once the hub \u2014 has now seen three cultivated-protein firms wind up in three years (Avant, Shiok/Umami consolidation, others). Premium species (bluefin tuna toro, eel, salmon) where wild supply is constrained and prices are high are the credible wedge; commodity whitefish has no path to parity. Opening: high-value sashimi-grade products sold first into fine dining to build brand before cost-down.",
+    "companies": [
+     {
+      "name": "Wildtype",
+      "role": "scaleup",
+      "what": "San Francisco maker of cell-cultivated coho salmon, sold as sashimi-grade saku blocks.",
+      "signal": "First cultivated seafood to receive an FDA 'no questions' letter (May 2025); debuted at restaurants (Kann in Portland, OTOKO in Austin) and is expanding the restaurant footprint.",
+      "status": "operating",
+      "source": "https://agfundernews.com/fda-clears-wildtypes-cell-cultivated-salmon-for-us-debut"
+     },
+     {
+      "name": "BlueNalu",
+      "role": "scaleup",
+      "what": "San Diego maker of cell-cultured bluefin tuna toro, targeting a high-value supply-constrained species.",
+      "signal": "Raised $11M (convertible note + preferred, led by Agronomics) in 2025; expanded partnership with Nomad Foods for Europe; only US firm in the UK FSA novel-foods sandbox focused on seafood.",
+      "status": "operating",
+      "source": "https://www.seafoodsource.com/news/plant-based/bluenalu-investing-usd-11-million-into-production-of-cell-cultured-bluefin-tuna-toro"
+     },
+     {
+      "name": "Forsea Foods",
+      "role": "startup",
+      "what": "Israeli startup making cultivated freshwater eel (unagi) using an organoid approach that needs minimal growth media.",
+      "signal": "Announced a 'record-breaking' cell density >300M cells/ml (2025), claiming a path to lower media cost at scale.",
+      "status": "operating",
+      "source": "https://vegconomist.com/category/cultivated-cell-cultured-biotechnology/cultivated-seafood/"
+     },
+     {
+      "name": "Umami Bioworks (merged with Shiok Meats)",
+      "role": "startup",
+      "what": "Singapore cultivated-seafood platform (multiple finfish species) that absorbed cultivated-shrimp pioneer Shiok Meats.",
+      "signal": "Merged with Shiok Meats in 2024 in a sector consolidation; positioning as a B2B species platform.",
+      "status": "operating",
+      "source": "https://www.foodnavigator.com/Article/2026/01/22/cultivated-meat-who-is-ceasing-operations-and-why/"
+     },
+     {
+      "name": "Avant (Avant Meats / Avant Proteins)",
+      "role": "startup",
+      "what": "Hong Kong-founded maker of cultivated fish maw and fish protein; ran R&D out of a Singapore arm.",
+      "signal": "Wound up its Singapore arm (Avant Proteins) voluntarily in 2025 citing inability to meet liabilities; sold lab equipment to Cell AgriTech; says it still pursues Singapore approval.",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.greenqueen.com.hk/avant-meats-cultivated-fish-lab-grown-proteins-singapore-approval/"
+     }
+    ]
+   },
+   {
+    "name": "Cultivated pet food",
+    "description": "Cultivated or fermentation-derived animal-cell ingredients are blended into dog and cat food, giving carnivorous pets real meat protein without slaughter and with a far lower footprint than conventional pet-grade meat.",
+    "maturity": "demonstration",
+    "white_space": "Pet food is widely seen as the most realistic near-term cultivated-meat market because owners are less squeamish, the regulatory bar is lower, and inclusion rates can start small \u2014 but it is still a handful of small, lightly funded players, and even the leader operates at tiny volumes and gross prices. Opening: B2B cultivated-meat ingredients sold into existing pet-food brands (rather than standalone products) so cultivated cells need only be a premium topper or inclusion, not the whole bag.",
+    "companies": [
+     {
+      "name": "Meatly",
+      "role": "startup",
+      "what": "UK firm and the world's first company approved to sell cultivated meat for pet food; sells cultivated-chicken 'Chick Bites' and designs its own low-cost bioreactors.",
+      "signal": "First commercial sale Feb 2025 (Pets at Home, Brentford); raised \u00a310.4M Series A (May 2026, ~\u00a317.4M total) to build a 20,000-litre facility billed as Europe's largest; claims a ~95% bioreactor cost cut (\u00a312,500 vs \u00a3250,000).",
+      "status": "operating",
+      "source": "https://www.greenqueen.com.hk/meatly-lab-grown-cultivated-meat-pet-food-funding-facility-london/"
+     },
+     {
+      "name": "BioCraft Pet Nutrition (formerly Because Animals)",
+      "role": "startup",
+      "what": "Austria/US maker of cultured animal-cell ingredients (originally mouse cells) sold B2B to pet-food manufacturers.",
+      "signal": "Cleared to sell in the EU (March 2025); ~$7.3M raised to date.",
+      "status": "operating",
+      "source": "https://www.ift.org/news-and-publications/food-technology-magazine/issues/2025/july/columns/startups-innovators-next-gen-pet--foods-are-here"
+     },
+     {
+      "name": "Bond Pet Foods",
+      "role": "startup",
+      "what": "Boulder, CO firm using precision fermentation (not cell culture) to brew animal proteins like chicken protein for pet food.",
+      "signal": "Founded 2015; develops fermentation-derived meat proteins as drop-in ingredients for pet-food makers.",
+      "status": "operating",
+      "source": "https://www.ift.org/news-and-publications/food-technology-magazine/issues/2025/july/columns/startups-innovators-next-gen-pet--foods-are-here"
+     }
+    ]
+   },
+   {
+    "name": "Cultivation enabling tech (cell lines, growth media, bioreactors, scaffolds, CDMOs)",
+    "description": "Picks-and-shovels suppliers provide the cell lines, animal-free growth media, scaffolds, and low-cost bioreactors that cultivated-meat makers depend on, since growth media and bioprocess capex are the dominant cost drivers of the whole field.",
+    "maturity": "pilot",
+    "white_space": "This is arguably the most defensible niche in the bucket \u2014 media and bioreactor cost are the binding constraints, so a supplier that genuinely cuts them sells to every meat company regardless of which products win. But it is exposed: demand depends on cash-strapped customers who keep failing, and global bioreactor capacity must grow ~300-500x to matter. Opening: animal-free media at commodity (not biopharma) prices, off-the-shelf food-grade bioreactors, and shared CDMO infrastructure that lets thin startups avoid capex.",
+    "companies": [
+     {
+      "name": "Multus Biotechnology",
+      "role": "startup",
+      "what": "UK B2B supplier of animal-free, lower-cost growth media (Proliferum) for cultivated meat, using data science to screen ingredient libraries.",
+      "signal": "Funded to build a UK production-scale growth-media facility billed as a world-first for the sector.",
+      "status": "operating",
+      "source": "https://www.multus.bio/resources/the-4-s-of-media-sourcing-for-cultivated-meat-scale-security-sustainability-and-specific"
+     },
+     {
+      "name": "Extracellular",
+      "role": "startup",
+      "what": "UK CDMO dedicated to scaling up cultivated meat and seafood bioprocessing; co-launched a license-free cell bank (cow, pig, lamb) with Multus.",
+      "signal": "Positioned as a centralized bioprocessing/scale-up partner for the cultivated-protein industry.",
+      "status": "operating",
+      "source": "https://www.extracellular.com/"
+     },
+     {
+      "name": "Cell AgriTech",
+      "role": "startup",
+      "what": "Malaysia-based CDMO offering shared, ready-to-use cellular-agriculture infrastructure with bioreactors from 200ml to 5,000L; bought Avant's exited Singapore lab equipment.",
+      "signal": "Markets itself as the world's most affordable cellular-agriculture CDMO; acquired Avant Proteins' equipment after its 2025 Singapore exit.",
+      "status": "operating",
+      "source": "https://www.greenqueen.com.hk/cell-agritech-avant-proteins-cultivated-meat-lab-grown-equipment-singapore/"
+     },
+     {
+      "name": "GEA Group",
+      "role": "incumbent",
+      "what": "German process-engineering incumbent supplying industrial bioreactors and downstream processing equipment for cultivated meat and fermentation.",
+      "signal": "Established food/bioprocess equipment supplier with a dedicated cultivated-meat technology line.",
+      "status": "operating",
+      "source": "https://www.gea.com/en/new-food/cultivated-meat/"
+     },
+     {
+      "name": "Cultimate Foods",
+      "role": "startup",
+      "what": "Berlin specialist in cell-cultured animal fat sold as a flavor/texture ingredient to plant-based and hybrid products.",
+      "signal": "Filed for bankruptcy at the Charlottenburg court; provisional administrator appointed April 30, 2026.",
+      "status": "bankrupt-shutdown",
+      "source": "https://cultivated-x.com/company-news/cultimate-foods-gmbh-files-bankruptcy/"
+     },
+     {
+      "name": "CellRev",
+      "role": "startup",
+      "what": "Newcastle (UK) developer of continuous cell-culture bioprocess technology aimed at lowering cultivated-meat production cost.",
+      "signal": "Shut down in 2025; CEO said it 'couldn't deliver commercial milestones in time to secure Series A investment.'",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.foodnavigator.com/Article/2026/01/22/cultivated-meat-who-is-ceasing-operations-and-why/"
+     }
+    ]
+   },
+   {
+    "name": "Insect protein & farming (black soldier fly, mealworm, cricket)",
+    "description": "Insects such as black soldier fly larvae and mealworms are farmed at scale (often on food/agri side-streams) and processed into protein meal and oil for animal feed, aquafeed, and pet food, upcycling waste into protein on minimal land.",
+    "maturity": "scaling",
+    "white_space": "The most mature novel-protein category by tonnage, yet 2025 was a bloodbath: the global 'leader' \u0178nsect (>\u20ac600M raised) entered judicial liquidation, and ENORM, Agronutris, Aspire and Inseco all failed. Root cause is structural \u2014 insect meal costs 2-10x soy or fishmeal and high-temperature rearing is energy-intensive, so it cannot compete in commodity feed; human-food acceptance is low. The surviving model (Protix, Innovafeed, Entobel) is large single sites co-located with feedstock and aquafeed/pet-food offtake. Opening is narrow: only high-value applications (aquafeed, pet food, petfood-grade oils) where a sustainability or functional premium covers the cost gap.",
+    "companies": [
+     {
+      "name": "Innovafeed",
+      "role": "scaleup",
+      "what": "French black soldier fly producer co-locating farms with agri-industrial sites (e.g. ADM corn milling) to access feedstock and energy; targets aquafeed and pet food.",
+      "signal": "Completed a Phase 3 expansion at Nesle, France (~5x larval capacity, claimed world's largest site); but reported \u20ac5M revenue and \u20ac35M loss (2024) and suspended its US factory for ~18 months.",
+      "status": "operating",
+      "source": "https://techcrunch.com/2025/12/26/how-reality-crushed-ynsect-the-french-startup-that-had-raised-over-600m-for-insect-farming/"
+     },
+     {
+      "name": "Protix",
+      "role": "scaleup",
+      "what": "Dutch black soldier fly producer (protein, lipids, fertilizer) with a large automated facility; among the more stable players, partly backed by Tyson Foods.",
+      "signal": "Operates a ~14,000-ton site in the Netherlands; viewed as one of the sector's more financially stable producers.",
+      "status": "operating",
+      "source": "https://techcrunch.com/2025/12/26/how-reality-crushed-ynsect-the-french-startup-that-had-raised-over-600m-for-insect-farming/"
+     },
+     {
+      "name": "Entobel",
+      "role": "scaleup",
+      "what": "Vietnam-based black soldier fly producer scaling industrial insect farming in Southeast Asia for aquafeed and animal feed.",
+      "signal": "Expanding production capacity; frames itself as building the technology, market and talent for a long-term feed-grade business.",
+      "status": "operating",
+      "source": "https://thefishsite.com/articles/insect-meal-can-the-sector-still-deliver-on-its-2030-promise"
+     },
+     {
+      "name": "\u0178nsect",
+      "role": "scaleup",
+      "what": "French mealworm (Molitor) farming pioneer that built a flagship vertical-farming plant at Amiens and was long branded the global insect-protein leader.",
+      "signal": "Raised >\u20ac600M but reported only ~\u20ac656k turnover and >\u20ac80M losses (2023); laid off two-thirds of staff (2025); placed in judicial liquidation December 1, 2025.",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.petfoodindustry.com/insect-based-cat-and-dog-food/news/15773350/french-insect-protein-producer-nsect-enters-judicial-liquidation"
+     },
+     {
+      "name": "ENORM Biofactory",
+      "role": "startup",
+      "what": "Danish black soldier fly producer building large-scale insect protein and oil capacity for feed.",
+      "signal": "Declared bankrupt in 2025 after a failed ~6-month court-supervised reconstruction.",
+      "status": "bankrupt-shutdown",
+      "source": "https://agfundernews.com/breaking-danish-insect-ag-firm-enorm-declared-bankrupt-after-failed-reconstruction-process"
+     },
+     {
+      "name": "Aspire Food Group",
+      "role": "startup",
+      "what": "Cricket-protein producer that built a highly automated cricket farm in London, Ontario for human-food and pet ingredients.",
+      "signal": "Sold its Ontario cricket farm to a new owner in 2025 after buckling under debt.",
+      "status": "uncertain",
+      "source": "https://techcrunch.com/2025/12/26/how-reality-crushed-ynsect-the-french-startup-that-had-raised-over-600m-for-insect-farming/"
+     }
+    ]
+   },
+   {
+    "name": "Microalgae & duckweed protein",
+    "description": "Fast-growing aquatic plants and microalgae (spirulina, chlorella, Lemna duckweed) are cultivated in ponds, photobioreactors, or closed fermenters and processed into high-protein, often functional, food ingredients with very high per-acre protein yields and low freshwater use.",
+    "maturity": "scaling",
+    "white_space": "Microalgae (spirulina/chlorella) is genuinely commercial with established incumbents, but mostly as supplements and specialty nutrients (DHA, astaxanthin) rather than bulk protein, where it remains too costly. Duckweed protein is earlier but advancing on a functional-ingredient angle (RuBisCO as an egg-white-like protein). Opening: functional, label-friendly protein isolates (gelling, foaming, neutral color/taste) that command an ingredient premium, rather than competing with soy/pea on commodity protein price.",
+    "companies": [
+     {
+      "name": "Plantible Foods",
+      "role": "startup",
+      "what": "US firm extracting RuBisCO protein ('Rubi Protein') from Lemna duckweed grown on open-water farms, positioned as a functional egg/dairy-replacing ingredient.",
+      "signal": "Raised $30M Series B (Piva, Siddhi, Chipotle's Cultivate Next, Griffith's Nourish Ventures; ~$57M total); first commercial plant in Eldorado, TX now fully operational, seeking funding to triple capacity.",
+      "status": "operating",
+      "source": "https://agfundernews.com/plantible-foods-raises-30m-series-b-to-scale-duckweed-protein-deliver-on-multi-million-dollar-offtake-agreements"
+     },
+     {
+      "name": "Cyanotech",
+      "role": "incumbent",
+      "what": "Hawaii-based grower of organic spirulina and astaxanthin (BioAstin) at open-pond commercial scale for the nutrition-supplement market.",
+      "signal": "Long-established, publicly traded leader in commercial spirulina/chlorella supplements.",
+      "status": "operating",
+      "source": "https://www.gminsights.com/industry-analysis/algae-protein-market"
+     },
+     {
+      "name": "Corbion",
+      "role": "incumbent",
+      "what": "Dutch ingredients company using closed heterotrophic fermentation of algae to make AlgaPrime DHA and algae proteins for feed and food.",
+      "signal": "Global ingredients player; partnered with Kuehnle AgroSystems (Aug 2025) on non-GMO heterotrophic-algae astaxanthin.",
+      "status": "operating",
+      "source": "https://www.openpr.com/news/4305839/protein-rich-microalgae-market-reaches-all-time-high"
+     },
+     {
+      "name": "Allmicroalgae",
+      "role": "scaleup",
+      "what": "Portuguese producer of Chlorella vulgaris (>60% protein) in photobioreactors, with processing to improve digestibility and reduce bitterness.",
+      "signal": "Commercial-scale chlorella producer cited among the algae-protein market leaders.",
+      "status": "operating",
+      "source": "https://www.openpr.com/news/4305839/protein-rich-microalgae-market-reaches-all-time-high"
+     },
+     {
+      "name": "Sophie's Bionutrients",
+      "role": "startup",
+      "what": "Netherlands/Singapore startup growing microalgae in bioreactors (including on food side-streams) to make a neutral-tasting microalgae protein flour.",
+      "signal": "Founded 2017; ~$2.2M raised; circular-economy microalgae protein positioning.",
+      "status": "operating",
+      "source": "https://sophiesbionutrients.com/"
+     },
+     {
+      "name": "Lemnature AquaFarms",
+      "role": "startup",
+      "what": "US (Florida) grower of Lemna water lentil (duckweed) processed into protein and functional greens ingredients.",
+      "signal": "Operating duckweed grower among the small set of commercial Lemna-protein companies; limited recent public funding data.",
+      "status": "uncertain",
+      "source": "https://www.gminsights.com/industry-analysis/duckweed-protein-market"
+     }
+    ]
+   },
+   {
+    "name": "Gas fermentation / single-cell protein (CO2, H2, methane feedstocks)",
+    "description": "Microbes are grown in fermenters on gases \u2014 CO2 plus hydrogen, or methane/natural gas \u2014 to produce single-cell protein powders (often >80% protein) for feed or food, decoupling protein production from farmland, weather, and photosynthesis entirely.",
+    "maturity": "demonstration",
+    "white_space": "Two very different stories. Methane-to-protein for FEED is reaching real industrial scale (Calysta's 20,000 t/yr China JV; Unibio's Saudi plant), because cheap stranded gas plus aquafeed offtake can pencil out. The CO2+H2 'protein from air' route for FOOD is in crisis: green-hydrogen cost and slow regulatory/scale timelines killed Arkeon (insolvent), NovoNutrients (asset sale), and pushed Calysta to wind down its 'from air' pilots. Opening on the food side: only where cheap renewable electricity/H2 and a final investment decision converge (Solar Foods' Factory 02), so it is a capex-and-energy game, not a science game.",
+    "companies": [
+     {
+      "name": "Calysta",
+      "role": "scaleup",
+      "what": "Methane-fermentation single-cell protein (FeedKind) for aquaculture, livestock, and pet feed using natural gas as feedstock.",
+      "signal": "Operates a ~20,000 t/yr industrial plant in Chongqing, China via JV with Adisseo; wound down US/UK pilot plants and R&D labs in 2025 to focus on manufacturing.",
+      "status": "operating",
+      "source": "https://agfundernews.com/protein-from-air-co-calysta-winds-down-pilot-plants-rd-labs-in-us-and-uk-we-dont-need-them-anymore-says-ceo"
+     },
+     {
+      "name": "Solar Foods",
+      "role": "scaleup",
+      "what": "Finnish maker of Solein, a protein grown by hydrogen-oxidizing microbes on CO2, H2, and minerals; targets food applications.",
+      "signal": "Factory 01 (~160 t/yr) hit productivity targets; selected Lappeenranta for Factory 02 (3.2 kt expandable to 6.4 kt/yr, ~\u20ac110M IPCEI grant) with FID expected in 2026 and operation ~2028.",
+      "status": "operating",
+      "source": "https://www.proteinproductiontechnology.com/post/solar-foods-selects-lappeenranta-for-factory-02-as-solein-scale-up-plans-advance"
+     },
+     {
+      "name": "Unibio",
+      "role": "scaleup",
+      "what": "Danish methane-to-protein company licensing its U-Loop bioreactor to make single-cell protein (Uniprotein) for feed.",
+      "signal": "JV with Saudi Arabia's SIIG to build a single-cell protein plant in Al Jubail (~$373M investment) billed as among the world's largest.",
+      "status": "operating",
+      "source": "https://agfundernews.com/unibio-plans-worlds-largest-single-cell-protein-plant-in-saudi-arabia-as-food-security-moves-up-agenda"
+     },
+     {
+      "name": "LanzaTech",
+      "role": "scaleup",
+      "what": "US gas-fermentation company (publicly listed) best known for ethanol from waste CO/CO2; expanding its platform to nutritional single-cell protein direct from CO2.",
+      "signal": "Announced (Oct 2024) extension of its biorefining platform to commercial-scale protein from CO2; resulting biomass is >85% protein.",
+      "status": "operating",
+      "source": "https://www.technologyreview.com/2024/12/04/1107900/microbes-food/"
+     },
+     {
+      "name": "Air Protein",
+      "role": "startup",
+      "what": "California 'air protein' startup using hydrogenotrophic microbes on CO2 to make a meat-substitute protein for human food.",
+      "signal": "Developing US food products from its air-protein flour; earlier stage than the methane-feed players.",
+      "status": "operating",
+      "source": "https://www.levervc.com/wp-content/uploads/2024/07/Lever-VC-Insights-Gas-Fermentation-for-Single-Cell-Protein-Ingredient-Production.pdf"
+     },
+     {
+      "name": "Arkeon",
+      "role": "startup",
+      "what": "Vienna startup fermenting CO2 + H2 with archaea to produce free amino acids and protein directly for food.",
+      "signal": "Raised just over $13M; filed for insolvency June 2025 \u2014 CEO said it 'ran out of time' needing capital for a demo-scale facility.",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.greenqueen.com.hk/arkeon-bio-insolvency-gas-carbon-protein-from-air/"
+     },
+     {
+      "name": "NovoNutrients",
+      "role": "startup",
+      "what": "California gas-fermentation startup converting industrial CO2 (plus H2) into single-cell protein for feed and food.",
+      "signal": "Entered an Assignment for the Benefit of Creditors process and is selling assets after 7+ years, citing the investment environment.",
+      "status": "bankrupt-shutdown",
+      "source": "https://agfundernews.com/gas-fermentation-startup-novonutrients-calls-it-quits-seeks-buyer-for-assets-the-technologys-potential-remains-unchanged"
+     }
+    ]
+   },
+   {
+    "name": "Molecular farming (animal proteins grown in crops)",
+    "description": "Plants are genetically engineered to express animal proteins (casein, whey, egg, chymosin, heme, albumin) inside their leaves, seeds, or tubers, then harvested like crops, using farmland and sunlight as a cheap 'bioreactor' to make animal-identical proteins without fermentation tanks or animals.",
+    "maturity": "pilot",
+    "white_space": "Conceptually attractive because field-grown crops are far cheaper than steel fermenters, but the field is small and early: extraction/purification of low-titer proteins from plant biomass is unproven at scale, and GMO-crop regulation and consumer perception add friction. Most players are at pilot/stealth stage and several are pivoting feedstock crops (potato, oats, safflower) to chase titer and cost. Opening: high-value, low-volume animal proteins (chymosin/rennet, dairy caseins for cheese, egg/heme proteins) where even modest titers beat incumbent supply economics; bulk commodity protein is not viable yet.",
+    "companies": [
+     {
+      "name": "Moolec Science",
+      "role": "scaleup",
+      "what": "Nasdaq-listed molecular-farming company expressing animal proteins (e.g. chymosin) and lipids (GLA) in safflower, soybean, and pea.",
+      "signal": "Went public via a ~$504M SPAC deal with LightJump; in June 2025 combined with Bioceres Group, Nutrecon and Gentle Tech to broaden into ag biologicals and climate-resilient seeds.",
+      "status": "operating",
+      "source": "https://app.dealroom.co/companies/moolec_science"
+     },
+     {
+      "name": "Mozza Foods (Lovely Dairy)",
+      "role": "startup",
+      "what": "US startup producing dairy proteins (casein) in plants to make animal-free mozzarella, branded Lovely Cheese.",
+      "signal": "~$15M raised; aimed to bring its plant-made cheese to market around 2025.",
+      "status": "operating",
+      "source": "https://gfi.org/wp-content/uploads/2025/06/Plant-molecular-farming-Industry-overview-and-developments.pdf"
+     },
+     {
+      "name": "Plantopia (formerly Pigmentum)",
+      "role": "startup",
+      "what": "Israeli startup engineering plants (sprouted oats, romaine lettuce) to produce casein and other complex proteins, pigments and aromas.",
+      "signal": "Rebranded from Pigmentum; pursuing pilot-scale casein production in sprouted oats.",
+      "status": "operating",
+      "source": "https://agfundernews.com/plantopia-turns-to-sprouted-oats-for-cost-effective-production-of-animal-free-dairy"
+     },
+     {
+      "name": "Finally Foods",
+      "role": "startup",
+      "what": "Israeli molecular-farming startup engineering potatoes to grow dairy casein proteins as a low-cost expression and storage crop.",
+      "signal": "Emerged from stealth (2025) with a casein-from-potatoes approach.",
+      "status": "operating",
+      "source": "https://agfundernews.com/casein-from-potatoes-molecular-farming-startup-finally-foods-emerges-from-stealth"
+     },
+     {
+      "name": "Forte Protein",
+      "role": "startup",
+      "what": "US molecular-farming startup producing animal proteins (e.g. albumin and other functional proteins) in plants as food ingredients.",
+      "signal": "Listed among active plant molecular-farming companies in GFI's 2025 industry overview.",
+      "status": "operating",
+      "source": "https://gfi.org/wp-content/uploads/2025/06/Plant-molecular-farming-Industry-overview-and-developments.pdf"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.foodnavigator.com/Article/2026/01/22/cultivated-meat-who-is-ceasing-operations-and-why/",
+   "https://www.calcalistech.com/ctechnews/article/bknaajdzbe",
+   "https://www.greenqueen.com.hk/lab-grown-cultivated-meat-outlook-funding-companies-challenges/",
+   "https://www.eu-startups.com/2025/12/as-meatable-shuts-down-dutch-based-mosa-meat-lands-e15m-and-achieves-99-999-cost-cut-from-its-e250k-first-burger/",
+   "https://agfundernews.com/exclusive-aleph-farms-raises-30m-unveils-lower-cost-version-of-whole-cut-technology",
+   "https://www.fooddive.com/news/wildtype-upside-sue-texas-cultivated-meat-ban/759315/",
+   "https://agfundernews.com/fda-clears-wildtypes-cell-cultivated-salmon-for-us-debut",
+   "https://www.seafoodsource.com/news/plant-based/bluenalu-investing-usd-11-million-into-production-of-cell-cultured-bluefin-tuna-toro",
+   "https://www.greenqueen.com.hk/avant-meats-cultivated-fish-lab-grown-proteins-singapore-approval/",
+   "https://www.greenqueen.com.hk/meatly-lab-grown-cultivated-meat-pet-food-funding-facility-london/",
+   "https://www.ift.org/news-and-publications/food-technology-magazine/issues/2025/july/columns/startups-innovators-next-gen-pet--foods-are-here",
+   "https://www.multus.bio/resources/the-4-s-of-media-sourcing-for-cultivated-meat-scale-security-sustainability-and-specific",
+   "https://www.greenqueen.com.hk/cell-agritech-avant-proteins-cultivated-meat-lab-grown-equipment-singapore/",
+   "https://cultivated-x.com/company-news/cultimate-foods-gmbh-files-bankruptcy/",
+   "https://techcrunch.com/2025/12/26/how-reality-crushed-ynsect-the-french-startup-that-had-raised-over-600m-for-insect-farming/",
+   "https://www.petfoodindustry.com/insect-based-cat-and-dog-food/news/15773350/french-insect-protein-producer-nsect-enters-judicial-liquidation",
+   "https://agfundernews.com/breaking-danish-insect-ag-firm-enorm-declared-bankrupt-after-failed-reconstruction-process",
+   "https://thefishsite.com/articles/insect-meal-can-the-sector-still-deliver-on-its-2030-promise",
+   "https://agfundernews.com/plantible-foods-raises-30m-series-b-to-scale-duckweed-protein-deliver-on-multi-million-dollar-offtake-agreements",
+   "https://www.gminsights.com/industry-analysis/algae-protein-market",
+   "https://www.openpr.com/news/4305839/protein-rich-microalgae-market-reaches-all-time-high",
+   "https://agfundernews.com/protein-from-air-co-calysta-winds-down-pilot-plants-rd-labs-in-us-and-uk-we-dont-need-them-anymore-says-ceo",
+   "https://www.proteinproductiontechnology.com/post/solar-foods-selects-lappeenranta-for-factory-02-as-solein-scale-up-plans-advance",
+   "https://agfundernews.com/unibio-plans-worlds-largest-single-cell-protein-plant-in-saudi-arabia-as-food-security-moves-up-agenda",
+   "https://www.greenqueen.com.hk/arkeon-bio-insolvency-gas-carbon-protein-from-air/",
+   "https://agfundernews.com/gas-fermentation-startup-novonutrients-calls-it-quits-seeks-buyer-for-assets-the-technologys-potential-remains-unchanged",
+   "https://gfi.org/wp-content/uploads/2025/06/Plant-molecular-farming-Industry-overview-and-developments.pdf",
+   "https://app.dealroom.co/companies/moolec_science",
+   "https://agfundernews.com/casein-from-potatoes-molecular-farming-startup-finally-foods-emerges-from-stealth"
+  ]
+ }
+}

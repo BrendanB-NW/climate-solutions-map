@@ -1,0 +1,622 @@
+{
+ "sector": "enabling",
+ "bucket": "Corporate Carbon Accounting & Disclosure Software",
+ "census": {
+  "bucket": "Corporate Carbon Accounting & Disclosure Software",
+  "sources": [
+   "https://www.verdantix.com/venture/report/green-quadrant--enterprise-carbon-management-software-2026",
+   "https://www.verdantix.com/venture/report/green-quadrant-esg-sustainability-reporting-software-2025",
+   "https://www.finsmes.com/2024/02/watershed-raises-100m-in-series-c-at-1-8b-valuation.html",
+   "https://www.finsmes.com/2025/04/persefoni-ai-raises-23m-in-series-c-extension-funding.html",
+   "https://techcrunch.com/2024/03/20/greenly-series-b/",
+   "https://www.esgdive.com/news/workiva-launches-sustainable-solutions-platform-acquires-carbon-accounting/719426/",
+   "https://sustainabletechpartner.com/news/sustainable-technology-news-30-july-2024-osapiens-esg-software-funding-goldman-sachs-google-cloud-more/",
+   "https://www.esgtoday.com/sustainability-reporting-software-provider-novisto-raises-27-million/",
+   "https://sifted.eu/articles/lightspeed-plan-a-acquired",
+   "https://impactloop.com/artikel/plan-a-acquired-for-eur55m-here-are-3-other-carbon-accounting-deals-you-might-ve-missed",
+   "https://www.consilium.europa.eu/en/press/press-releases/2026/02/24/council-signs-off-simplification-of-sustainability-reporting-and-due-diligence-requirements-to-boost-eu-competitiveness/",
+   "https://www.axios.com/pro/climate-deals/2022/11/04/planetly-shuts-down-layoffs-carbon-accounting",
+   "https://sustainabletechpartner.com/news/ma-carbon-accounting-software-provider-green-project-technologies-buys-emitwise/",
+   "https://www.prnewswire.com/news-releases/asuene-asias-leading-climate-technology-decarbonization-accounting-cloud-service-provider-acquires-nzero-us-pioneering-startup-specializing-in-ai-powered-energy-intelligence-management-solutions-302452238.html",
+   "https://www.prnewswire.com/news-releases/gravity-announces-13m-in-series-a-funding-to-automate-reporting-and-accelerate-energy-optimization-302355444.html",
+   "https://www.climatiq.io/blog/climatiq-6m-funding-scale-embedded-carbon-intelligence-solution",
+   "https://www.facilitiesdive.com/news/measurabl-esg-93M-series-d-fundraise/651793/",
+   "https://esgnews.com/esg-data-intelligence-firm-deepki-raises-e150-million-to-help-real-estate-sector-reduce-its-environmental-impact-and-combat-climate-change/",
+   "https://oneclicklca.com/en/resources/press-release/40m-growth-equity-psg-infravia/",
+   "https://news.sap.com/2024/12/sap-green-ledger-general-availability/",
+   "https://www.esgtoday.com/esg-reporting-software-startup-atlas-metrics-raises-e12-2-million/",
+   "https://www.businesswire.com/news/home/20220404005766/en/Climate-Tech-Firm-Sweep-Raises-%2473-Million-in-Series-B-Funding-Led-by-Coatue"
+  ],
+  "variations": [
+   {
+    "name": "Horizontal enterprise carbon accounting platforms",
+    "description": "Cloud platforms that pull a large company's activity data (energy, travel, procurement, financial ledgers) into a GHG Protocol-compliant scope 1/2/3 inventory with reduction and reporting workflows, serving as the system of record for corporate climate data.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Watershed",
+      "role": "scaleup",
+      "what": "Enterprise climate platform with an audit-grade emissions ledger and in-house CEDA emissions-factor database (via VitalMetrics acquisition); customers include Walmart, BlackRock, and Stripe.",
+      "signal": "$100M Series C at $1.8B valuation (Feb 2024, led by Greenoaks); Verdantix 2026 Enterprise Carbon Management Leader",
+      "status": "operating",
+      "source": "https://www.finsmes.com/2024/02/watershed-raises-100m-in-series-c-at-1-8b-valuation.html"
+     },
+     {
+      "name": "Persefoni",
+      "role": "scaleup",
+      "what": "Climate management and accounting platform built with financial-control rigor, strongest in financial services and PCAF financed-emissions accounting; rebranded Persefoni AI.",
+      "signal": "~$179M total raised; $23M Series C extension (Mar 2025) after $50M C-1 led by TPG Rise; free Persefoni Pro tier passed 6,000 sign-ups",
+      "status": "operating",
+      "source": "https://www.finsmes.com/2025/04/persefoni-ai-raises-23m-in-series-c-extension-funding.html"
+     },
+     {
+      "name": "Sweep",
+      "role": "scaleup",
+      "what": "Montpellier-based platform using a networked data model that lets subsidiaries, business units, and suppliers each feed emissions data into one corporate graph.",
+      "signal": "$73M Series B led by Coatue (2022); named a Leader in Verdantix Green Quadrant Enterprise Carbon Management 2026",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20220404005766/en/Climate-Tech-Firm-Sweep-Raises-%2473-Million-in-Series-B-Funding-Led-by-Coatue"
+     },
+     {
+      "name": "Normative",
+      "role": "scaleup",
+      "what": "Stockholm pioneer of standards-driven automated carbon accounting; added GHGP-certified managed services in 2026 to fix the carbon-inventory build bottleneck.",
+      "signal": "Raised \u20ac10M from 2150 and ETF Partners; launched Carbon Inventory Managed Services Feb 2026",
+      "status": "operating",
+      "source": "https://www.globenewswire.com/news-release/2026/02/17/3238971/0/en/Normative-Launches-Carbon-Inventory-Managed-Services-to-Eliminate-the-Biggest-Bottleneck-in-Carbon-Accounting.html"
+     },
+     {
+      "name": "CO2 AI",
+      "role": "startup",
+      "what": "BCG spinout applying AI to large-enterprise footprint measurement and reduction; claims 300+ Mt CO2e under management.",
+      "signal": "$12M from Unusual Ventures and Partech at Sep 2023 spinout; BCG remains shareholder",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/co2-ai-now-a-standalone-software-company-backed-by-bcg-and-international-venture-capital-firms-301925559.html"
+     },
+     {
+      "name": "Optera",
+      "role": "startup",
+      "what": "Boulder-based carbon management focused on deep scope 3 accounting for operations, supply chains, and products of tech and consumer enterprises.",
+      "signal": "$12M Series A (Sep 2023, Next Frontier Capital); platform tracks emissions tied to $180B+ of supply-chain spend",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/optera-secures-12m-to-help-companies-prepare-for-new-sec-climate-disclosure-requirements-301923523.html"
+     },
+     {
+      "name": "IBM (Envizi)",
+      "role": "incumbent",
+      "what": "IBM's ESG data and carbon suite, built on the 2022 Envizi acquisition and integrated with IBM's enterprise software stack.",
+      "signal": "Leader in Verdantix Green Quadrant Enterprise Carbon Management 2026",
+      "status": "operating",
+      "source": "https://www.verdantix.com/venture/report/green-quadrant--enterprise-carbon-management-software-2026"
+     },
+     {
+      "name": "Wolters Kluwer Enablon",
+      "role": "incumbent",
+      "what": "EHS/operational-risk incumbent whose Enablon platform extends into enterprise carbon and ESG data management for industrial customers.",
+      "signal": "Leader in both Verdantix GQ ESG Reporting 2025 and Enterprise Carbon Management 2026",
+      "status": "operating",
+      "source": "https://www.wolterskluwer.com/en/expert-insights/verdantix-green-quadrant-esg-software-2025"
+     },
+     {
+      "name": "Planetly",
+      "role": "startup",
+      "what": "Berlin carbon accounting startup acquired by OneTrust in 2021, then shut down less than a year later with ~200 staff laid off when OneTrust retrenched.",
+      "signal": "Shut down November 2022 despite acquisition by OneTrust",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.axios.com/pro/climate-deals/2022/11/04/planetly-shuts-down-layoffs-carbon-accounting"
+     },
+     {
+      "name": "Emitwise",
+      "role": "startup",
+      "what": "UK carbon accounting platform for manufacturing and procurement; brand retired and technology folded into Green Project Technologies' suite50.",
+      "signal": "Raised ~$32M before being acquired by Green Project Technologies (Jul 2025); no longer sold standalone",
+      "status": "acquired",
+      "source": "https://sustainabletechpartner.com/news/ma-carbon-accounting-software-provider-green-project-technologies-buys-emitwise/"
+     }
+    ]
+   },
+   {
+    "name": "SMB / mid-market lightweight carbon accounting",
+    "description": "Low-cost, guided carbon footprinting that plugs into accounting software, bank feeds, and utility data so smaller companies can answer customer, lender, and tender ESG demands without hiring consultants.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Greenly",
+      "role": "scaleup",
+      "what": "SMB-first carbon accounting that auto-computes footprints from accounting and banking transaction data; thousands of SMB/mid-market customers across Europe and the US.",
+      "signal": "$52M Series B led by Fidelity International Strategic Ventures (Mar 2024), ~$75M total; later strategic investment from HPE",
+      "status": "operating",
+      "source": "https://techcrunch.com/2024/03/20/greenly-series-b/"
+     },
+     {
+      "name": "Plan A",
+      "role": "startup",
+      "what": "Berlin decarbonization and ESG reporting platform for the European mid-market (data collection through net-zero planning and reporting).",
+      "signal": "Raised ~$42M (Lightspeed, Visa, Deutsche Bank, BNP Paribas); acquired by Nasdaq-listed Diginex for \u20ac55M (\u20ac3M cash + \u20ac52M shares), Jan 2026",
+      "status": "acquired",
+      "source": "https://sifted.eu/articles/lightspeed-plan-a-acquired"
+     },
+     {
+      "name": "Sage (Sage Earth)",
+      "role": "incumbent",
+      "what": "Accounting-software incumbent embedding automated carbon footprinting in SMB bookkeeping via its 2022 acquisition of UK startup Spherics; partnering with AWS to turn accountants into carbon accountants.",
+      "signal": "Spherics acquired Nov 2022; Sage Earth distributed through Sage's SMB accounting base",
+      "status": "operating",
+      "source": "https://sifted.eu/articles/carbon-accounting-startups-acquisition"
+     },
+     {
+      "name": "Greenplaces",
+      "role": "startup",
+      "what": "Raleigh-based all-in-one sustainability platform for the mass market, integrating utilities, HR, and accounting tools for businesses outside the Fortune 500.",
+      "signal": "$13M Series A led by Redpoint (Jun 2023)",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20230620851324/en/GreenPlaces-raises-%2413M-to-bring-sustainability-solutions-to-the-mass-market-and-the-83-of-emissions-that-live-outside-the-Fortune-500"
+     },
+     {
+      "name": "Zevero",
+      "role": "startup",
+      "what": "Carbon measurement and management for growing brands in the UK, Japan, and Asia; merged with Singapore's LEVELUP under the Zevero brand.",
+      "signal": "$7M round (2024); $14M total raised",
+      "status": "operating",
+      "source": "https://www.esgtoday.com/zevero-raises-7-million-to-scale-carbon-management-platform-across-new-markets/"
+     },
+     {
+      "name": "Coolset",
+      "role": "startup",
+      "what": "Amsterdam-based sustainability management platform for mid-market European companies combining carbon accounting with pragmatic CSRD/VSME compliance.",
+      "signal": "Seed-stage; positions against osapiens and enterprise CSRD suites for the mid-market",
+      "status": "operating",
+      "source": "https://www.coolset.com/academy/top-osapiens-alternatives"
+     },
+     {
+      "name": "Tanso",
+      "role": "startup",
+      "what": "Munich software for mid-sized industrial manufacturers (Mittelstand) combining carbon accounting with CSRD/VSME and ISO 14064 workflows.",
+      "signal": "\u20ac12M Series A (Aug 2025, henQ/Fortino); 300+ customers incl. K\u00e4rcher and Paulaner",
+      "status": "operating",
+      "source": "https://www.eu-startups.com/2025/08/germanys-tanso-raises-e12-million-to-expand-their-environmental-compliance-platform/"
+     },
+     {
+      "name": "Zeroboard",
+      "role": "startup",
+      "what": "Tokyo-based cloud carbon accounting widely used by Japanese companies and their supply chains, with strong supplier data-sharing features.",
+      "signal": "Series A \u00a52.44B (~$18.4M); de facto standard among Japanese mid-caps alongside Asuene",
+      "status": "operating",
+      "source": "https://en.antaranews.com/news/273984/zeroboard-cloud-based-carbon-accounting-service-provider-raises-244-bil-yen-usd184-mil-in-series-a-financing"
+     },
+     {
+      "name": "Sustain.Life",
+      "role": "startup",
+      "what": "SMB/mid-market carbon and ESG platform acquired by Workiva and relaunched as Workiva Carbon.",
+      "signal": "Acquired by Workiva for $100M (Jun 2024) after $16M seed (2023)",
+      "status": "acquired",
+      "source": "https://sustainabletechpartner.com/topics/ma/workiva-acquires-sustain-life-for-100m-launches-carbon-accounting-software/"
+     }
+    ],
+    "white_space": "The EU Omnibus exempted SMEs from CSRD, collapsing the compliance driver for small-business willingness to pay; standalone SMB tools are exiting via acquisition (Plan A to Diginex, Sustain.Life to Workiva, Spherics to Sage), so the durable opening is distribution through accounting platforms, banks, and supply-chain mandates rather than direct SaaS sales."
+   },
+   {
+    "name": "ERP/CRM-embedded sustainability suites from software incumbents",
+    "description": "Carbon and ESG modules built directly into the ERP, CRM, and cloud systems where activity data already lives, letting companies book emissions alongside financial transactions instead of exporting data to a point tool.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "SAP",
+      "role": "incumbent",
+      "what": "Green Ledger posts carbon to ERP transactions like a financial ledger (GA Dec 2024), alongside Sustainability Control Tower and Sustainability Data Exchange.",
+      "signal": "Green Ledger GA Dec 2024, co-developed with Accenture, Deloitte, EY, PwC, and TCS",
+      "status": "operating",
+      "source": "https://news.sap.com/2024/12/sap-green-ledger-general-availability/"
+     },
+     {
+      "name": "Microsoft",
+      "role": "incumbent",
+      "what": "Microsoft Sustainability Manager (Cloud for Sustainability) provides an emissions data model across Azure/Dynamics with Copilot-assisted reporting.",
+      "signal": "GA product line within Microsoft Cloud; head-to-head with Salesforce Net Zero Cloud in buyer evaluations",
+      "status": "operating",
+      "source": "https://www.peerspot.com/products/comparisons/microsoft-cloud-for-sustainability_vs_salesforce-net-zero-cloud"
+     },
+     {
+      "name": "Salesforce",
+      "role": "incumbent",
+      "what": "Net Zero Cloud delivers carbon accounting, ESG data management, and AI-assisted disclosure drafting natively on the Salesforce platform.",
+      "signal": "Active product with Spring '26 release; generative-AI reporting features added",
+      "status": "operating",
+      "source": "https://www.salesforce.com/net-zero/cloud/"
+     },
+     {
+      "name": "Workiva",
+      "role": "incumbent",
+      "what": "Financial-reporting SaaS extended into a sustainability suite by acquiring Sustain.Life for $100M and launching Workiva Carbon (Jun 2024).",
+      "signal": "NYSE-listed; Leader in Verdantix GQ ESG & Sustainability Reporting 2025",
+      "status": "operating",
+      "source": "https://www.esgdive.com/news/workiva-launches-sustainable-solutions-platform-acquires-carbon-accounting/719426/"
+     },
+     {
+      "name": "IBM",
+      "role": "incumbent",
+      "what": "Envizi ESG Suite (acquired Jan 2022) integrated with IBM's data and AI stack for enterprise emissions and ESG reporting.",
+      "signal": "Verdantix 2026 Enterprise Carbon Management Leader",
+      "status": "operating",
+      "source": "https://www.verdantix.com/venture/report/green-quadrant--enterprise-carbon-management-software-2026"
+     },
+     {
+      "name": "Schneider Electric",
+      "role": "incumbent",
+      "what": "EcoStruxure Resource Advisor ties carbon accounting to energy procurement and efficiency services, augmented by its EcoAct consultancy acquisition.",
+      "signal": "Leader in Verdantix GQ Enterprise Carbon Management 2026",
+      "status": "operating",
+      "source": "https://www.verdantix.com/venture/report/green-quadrant--enterprise-carbon-management-software-2026"
+     },
+     {
+      "name": "Sage",
+      "role": "incumbent",
+      "what": "Embeds Sage Earth carbon tracking into its SMB accounting suites, making the ledger itself the data source.",
+      "signal": "Built on 2022 Spherics acquisition; AWS go-to-market partnership",
+      "status": "operating",
+      "source": "https://sifted.eu/articles/carbon-accounting-startups-acquisition"
+     }
+    ]
+   },
+   {
+    "name": "AI-automated emissions data ingestion",
+    "description": "Uses LLMs and OCR to parse utility bills, invoices, fuel receipts, and ledger entries into structured activity data automatically, attacking the manual data-collection bottleneck that consumes most of a carbon-accounting program's effort.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Gravity",
+      "role": "startup",
+      "what": "First platform to operationalize LLM-based utility-bill and invoice scanning at enterprise scale, paired with an energy-savings project marketplace; customers include WM, Autodesk, and PE firms.",
+      "signal": "$13M Series A (Jan 2025, Ansa), $20M+ total; claims 400% YoY revenue growth and 4,600 hours saved for one client",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/gravity-announces-13m-in-series-a-funding-to-automate-reporting-and-accelerate-energy-optimization-302355444.html"
+     },
+     {
+      "name": "Unravel Carbon",
+      "role": "startup",
+      "what": "AI-native sustainability platform automating data ingestion through decarbonization pathway modeling for enterprises across APAC and Australia.",
+      "signal": "Sequoia SEA-backed; ~$30M valuation (Aug 2024)",
+      "status": "operating",
+      "source": "https://www.cbinsights.com/company/unravel-carbon/financials"
+     },
+     {
+      "name": "Asuene",
+      "role": "scaleup",
+      "what": "Asia's leading carbon accounting cloud (10,000+ clients) pushing into AI-powered real-time energy and emissions intelligence via its acquisition of US startup nZero.",
+      "signal": "Acquired nZero May 2025; only Japanese carbon platform on TIME World's Top GreenTech 2025",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/asuene-asias-leading-climate-technology-decarbonization-accounting-cloud-service-provider-acquires-nzero-us-pioneering-startup-specializing-in-ai-powered-energy-intelligence-management-solutions-302452238.html"
+     },
+     {
+      "name": "nZero",
+      "role": "startup",
+      "what": "Reno-based 24/7 real-time carbon and energy data platform for enterprises and governments, replacing annual estimates with hourly measurement.",
+      "signal": "Acquired by Asuene (May 2025)",
+      "status": "acquired",
+      "source": "https://www.prnewswire.com/news-releases/asuene-asias-leading-climate-technology-decarbonization-accounting-cloud-service-provider-acquires-nzero-us-pioneering-startup-specializing-in-ai-powered-energy-intelligence-management-solutions-302452238.html"
+     },
+     {
+      "name": "Terrascope",
+      "role": "startup",
+      "what": "Olam-incubated enterprise carbon platform using AI-assisted measurement for food, agri, and complex supply chains in APAC.",
+      "signal": "Acquired by XeleratedFifty from Olam's Nupo Ventures (Feb 2026)",
+      "status": "acquired",
+      "source": "https://www.greenprojecttech.com/newsroom/top-10-carbon-accounting-platforms-in-apac-2026-guide"
+     }
+    ]
+   },
+   {
+    "name": "Emission factor databases & carbon calculation APIs",
+    "description": "Curated libraries of emission factors and developer APIs that return CO2e for a given activity, spend, or transaction, powering the calculations inside fintech, procurement, and sustainability products.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Climatiq",
+      "role": "startup",
+      "what": "Berlin API offering the largest normalized, version-controlled repository of vetted emission factors (ecoinvent, EXIOBASE, government sets) covering 300 regions.",
+      "signal": "\u20ac6M raised to scale embedded carbon intelligence",
+      "status": "operating",
+      "source": "https://www.climatiq.io/blog/climatiq-6m-funding-scale-embedded-carbon-intelligence-solution"
+     },
+     {
+      "name": "ecoinvent",
+      "role": "incumbent",
+      "what": "Swiss not-for-profit life-cycle inventory database that underpins most LCA and carbon-accounting tools worldwide.",
+      "signal": "De facto standard LCI database licensed across the industry",
+      "status": "operating",
+      "source": "https://www.climatiq.io/our-data"
+     },
+     {
+      "name": "Connect Earth",
+      "role": "startup",
+      "what": "London API that attaches carbon estimates to financial transactions so banks (e.g., KBC) can embed footprints in consumer and SME banking apps.",
+      "signal": "$5.6M seed (Mar 2023, Gresham House Ventures); integrations across EU/US banks and fintechs",
+      "status": "operating",
+      "source": "https://tech.eu/2023/03/28/connect-earth-captures-5-6-million-as-it-collects-carbon-data-on-financial-transactions/"
+     },
+     {
+      "name": "Lune",
+      "role": "startup",
+      "what": "API for embedding emissions calculations and vetted climate contributions into payments, logistics, and fintech products.",
+      "signal": "Partnership with Visa to embed climate features in financial products",
+      "status": "operating",
+      "source": "https://lune.co/blog/lune-visa-partnership-accelerate-climate-action"
+     },
+     {
+      "name": "Sphera",
+      "role": "incumbent",
+      "what": "Licenses the GaBi/Managed LCA Content factor databases used across enterprise LCA and carbon tools, alongside its own platform.",
+      "signal": "Blackstone-owned EHS&S incumbent; Verdantix 2026 Enterprise Carbon Management Leader",
+      "status": "operating",
+      "source": "https://www.verdantix.com/venture/report/green-quadrant--enterprise-carbon-management-software-2026"
+     }
+    ],
+    "white_space": "Pure-play API vendors remain seed-stage because the core factor sets (DEFRA, EPA, ecoinvent) are free or cheaply licensed, leaving thin margins; the opening is assurance-grade factor infrastructure \u2014 versioned, source-attributed factors with provenance trails \u2014 as third-party audits of carbon data tighten."
+   },
+   {
+    "name": "Industry-vertical carbon accounting (construction, real estate, healthcare, events)",
+    "description": "Platforms with sector-specific data models, integrations, and benchmarks (building meters, construction delivery tickets, hospital supply chains, event logistics) where generic spend-based tools are too coarse to drive decisions.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Measurabl",
+      "role": "scaleup",
+      "what": "Dominant US real-estate ESG data platform collecting meter/utility-level data across tens of billions of square feet for owners and investors.",
+      "signal": "$93M Series D (2023); launched a free tier in 2025 to widen the funnel",
+      "status": "operating",
+      "source": "https://www.facilitiesdive.com/news/measurabl-esg-93M-series-d-fundraise/651793/"
+     },
+     {
+      "name": "Deepki",
+      "role": "scaleup",
+      "what": "Paris-based ESG data intelligence for real estate portfolios across Europe; acquired French carbon platform Nooco to deepen building carbon accounting.",
+      "signal": "\u20ac150M Series C (2022, One Peak/Highland Europe)",
+      "status": "operating",
+      "source": "https://esgnews.com/esg-data-intelligence-firm-deepki-raises-e150-million-to-help-real-estate-sector-reduce-its-environmental-impact-and-combat-climate-change/"
+     },
+     {
+      "name": "One Click LCA",
+      "role": "scaleup",
+      "what": "Helsinki platform automating life-cycle assessment and embodied-carbon calculation for construction projects and manufacturers, aligned to building regulations.",
+      "signal": "\u20ac40M growth investment from PSG Equity and InfraVia (Nov 2023)",
+      "status": "operating",
+      "source": "https://oneclicklca.com/en/resources/press-release/40m-growth-equity-psg-infravia/"
+     },
+     {
+      "name": "Qflow",
+      "role": "startup",
+      "what": "Captures construction-site materials, waste, and carbon data in real time from delivery tickets and receipts so project teams can track embodied carbon as they build.",
+      "signal": "$9.1M raised (2023)",
+      "status": "operating",
+      "source": "https://techcrunch.com/2023/05/30/qflow-raises-9-1m-to-track-construction-receipts-making-it-easier-to-de-carbonize/"
+     },
+     {
+      "name": "isla (TRACE)",
+      "role": "startup",
+      "what": "Event-industry carbon measurement platform purpose-built for conferences and live events, rated top of 40 tools reviewed for the sector.",
+      "signal": "Ranked premier event-carbon platform in a 2024 industry review of 40 tools",
+      "status": "operating",
+      "source": "https://weareisla.co.uk/2024/04/29/trace-by-isla-triumphs-as-the-premier-carbon-measurement-platform-for-events/"
+     },
+     {
+      "name": "SustainaBase",
+      "role": "startup",
+      "what": "Carbon accounting tailored to healthcare networks and other verticals, tracking scope 1-3 across hospital and clinic operations.",
+      "signal": "Healthcare-specific GHG data offering; US-based",
+      "status": "operating",
+      "source": "https://sustainabase.com/industry/healthcare/"
+     },
+     {
+      "name": "Practice Greenhealth",
+      "role": "incumbent",
+      "what": "Nonprofit whose free Health Care Emissions Impact Calculator and scope 3 tools are the default footprinting method for US health systems.",
+      "signal": "Sector-standard free tools for US hospitals (scope 1, 2, and all 15 scope 3 categories)",
+      "status": "operating",
+      "source": "https://practicegreenhealth.org/tools-and-resources/health-care-emissions-impact-calculator"
+     }
+    ],
+    "white_space": "Real estate is crowded, but healthcare and events are served mainly by nonprofits and boutiques because budgets are thin and no disclosure mandate targets them directly; openings track sector mandates \u2014 NHS net-zero supplier requirements, EU embodied-carbon building rules, and hospital-system scope 3 commitments \u2014 where a vertical data moat (EHR/procurement or BIM integration) beats horizontal platforms."
+   },
+   {
+    "name": "CSRD/ESRS, ISSB & SEC disclosure and ESG reporting compliance software",
+    "description": "Workflow software that maps company data to ESRS/ISSB/California datapoint requirements, runs double-materiality assessments, and produces machine-readable, assurance-ready sustainability disclosures alongside financial filings.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Workiva",
+      "role": "incumbent",
+      "what": "The dominant controlled-disclosure platform (SEC filings, XBRL) extended to CSRD/ISSB sustainability statements, with carbon added via the Sustain.Life acquisition.",
+      "signal": "NYSE-listed; Leader in Verdantix GQ ESG & Sustainability Reporting 2025",
+      "status": "operating",
+      "source": "https://www.workiva.com/blog/workiva-named-leader-verdantix-green-quadrant-esg-sustainability-reporting-software-2025"
+     },
+     {
+      "name": "osapiens",
+      "role": "scaleup",
+      "what": "Mannheim compliance hub spanning CSRD, supply-chain due-diligence (LkSG/CSDDD), and EUDR on one platform; one of Europe's fastest-growing ESG vendors.",
+      "signal": "$120M Series B led by Goldman Sachs Alternatives (Jul 2024); 1,300+ customers, 470% customer growth 2023",
+      "status": "operating",
+      "source": "https://sustainabletechpartner.com/news/sustainable-technology-news-30-july-2024-osapiens-esg-software-funding-goldman-sachs-google-cloud-more/"
+     },
+     {
+      "name": "Novisto",
+      "role": "scaleup",
+      "what": "Montreal ESG data management and reporting platform for global enterprises; acquired UK carbon startup Minimum (Mar 2025) and launched a Broadridge partnership.",
+      "signal": "$27M Series C (May 2025, Inovia), $55M+ total; revenue ~3x since 2023",
+      "status": "operating",
+      "source": "https://www.esgtoday.com/sustainability-reporting-software-provider-novisto-raises-27-million/"
+     },
+     {
+      "name": "Atlas Metrics",
+      "role": "startup",
+      "what": "Berlin ESG compliance platform for mid-sized companies and financial institutions reporting under CSRD and related EU frameworks.",
+      "signal": "\u20ac12.2M round led by MMC Ventures (Sep 2024)",
+      "status": "operating",
+      "source": "https://www.esgtoday.com/esg-reporting-software-startup-atlas-metrics-raises-e12-2-million/"
+     },
+     {
+      "name": "Position Green",
+      "role": "scaleup",
+      "what": "Nordic ESG reporting platform pairing software with an advisory arm, strong in CSRD/ESRS implementations.",
+      "signal": "Among the 21 most prominent vendors benchmarked in Verdantix GQ 2025",
+      "status": "operating",
+      "source": "https://www.verdantix.com/venture/report/green-quadrant-esg-sustainability-reporting-software-2025"
+     },
+     {
+      "name": "Nasdaq (Metrio)",
+      "role": "incumbent",
+      "what": "Exchange incumbent's ESG reporting platform combining its OneReport and acquired Metrio engines for framework and disclosure management.",
+      "signal": "Named a Leader in the 2025 Verdantix Green Quadrant for ESG & Sustainability Reporting",
+      "status": "operating",
+      "source": "https://www.nasdaq.com/articles/sustainability/nasdaq-named-2025-verdatix-green-quadrant-leader"
+     },
+     {
+      "name": "Diginex",
+      "role": "scaleup",
+      "what": "Nasdaq-listed ESG reporting provider rolling up the sector, acquiring Plan A for \u20ac55M (Jan 2026) to add carbon accounting and EU mid-market reach.",
+      "signal": "Acquired Plan A for \u20ac55M (\u20ac3M cash + \u20ac52M shares), Jan 2026",
+      "status": "operating",
+      "source": "https://impactloop.com/artikel/plan-a-acquired-for-eur55m-here-are-3-other-carbon-accounting-deals-you-might-ve-missed"
+     }
+    ],
+    "white_space": "The EU Omnibus (in force Mar 2026) cut CSRD scope ~90% (only firms >1,000 employees and >\u20ac450M turnover) and slashed ESRS datapoints, shrinking the compliance TAM that funded this category and triggering consolidation (Workiva/Sustain.Life, Novisto/Minimum, Diginex/Plan A); remaining demand concentrates in ISSB-adopting jurisdictions (UK, Japan, Australia) and California SB 253/261, favoring multi-framework platforms over CSRD point tools."
+   },
+   {
+    "name": "Net-zero target setting, transition planning & decarbonization roadmap tools",
+    "description": "Models science-based targets and abatement scenarios against business growth, producing costed decarbonization roadmaps and the formal transition plans that CSRD/ISSB disclosure and investor frameworks now expect.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "SINAI Technologies",
+      "role": "startup",
+      "what": "Decarbonization planning platform for heavy industry (metals, mining, manufacturing) with scenario pathways, transition-risk analysis, and interactive MACCs.",
+      "signal": "Independent 2025 research cites market-leading functionality in target management, abatement identification, and MACC modeling",
+      "status": "operating",
+      "source": "https://www.prweb.com/releases/independent-research-highlights-sinais-leadership-in-carbon-accounting--decarbonization-302551889.html"
+     },
+     {
+      "name": "Terralytiq",
+      "role": "startup",
+      "what": "Decarbonization copilot for manufacturers that converts product carbon footprints into procurement-led abatement glidepaths with supplier-level business cases.",
+      "signal": "Strategic partnership with Bain & Company (Jun 2025) targeting 1 Gt of industrial emissions reductions by 2030",
+      "status": "operating",
+      "source": "https://www.bain.com/about/media-center/press-releases/20252/bain--company-announces-strategic-partnership-with-terralytiq-to-help-companies-accelerate-supply-chain-decarbonization/"
+     },
+     {
+      "name": "Sweep",
+      "role": "scaleup",
+      "what": "Trajectory-setting and action-tracking across a company's org/supplier network so reduction levers are owned by the business units that control them.",
+      "signal": "$73M Series B (Coatue); Verdantix 2026 Enterprise Carbon Management Leader",
+      "status": "operating",
+      "source": "https://www.verdantix.com/venture/report/green-quadrant--enterprise-carbon-management-software-2026"
+     },
+     {
+      "name": "Schneider Electric",
+      "role": "incumbent",
+      "what": "Pairs Resource Advisor software with EcoAct consulting and energy procurement so decarbonization roadmaps connect directly to PPA and efficiency execution.",
+      "signal": "Verdantix 2026 Leader; acquired climate consultancy EcoAct (2023)",
+      "status": "operating",
+      "source": "https://www.verdantix.com/venture/report/green-quadrant--enterprise-carbon-management-software-2026"
+     },
+     {
+      "name": "Salesforce",
+      "role": "incumbent",
+      "what": "Net Zero Cloud includes what-if scenario analysis and AI-assisted tracking against science-based targets on top of CRM-resident ESG data.",
+      "signal": "GA product with continuing releases (Spring '26)",
+      "status": "operating",
+      "source": "https://www.salesforce.com/net-zero/cloud/"
+     }
+    ],
+    "white_space": "Dedicated transition-planning software is thin \u2014 most corporate transition plans are still consultant-built spreadsheets (Big 4, McKinsey, BCG) refreshed annually; as ISSB/CSRD transition-plan disclosure and UK TPT norms harden, there is an opening for CFO-grade tools that tie abatement projects to capital planning and FP&A rather than sustainability-team slideware."
+   },
+   {
+    "name": "Carbon data assurance & audit-readiness tooling",
+    "description": "Controls, evidence trails, and verification workflows that make emissions data traceable to source documents and reproducible across periods, so third-party auditors can issue limited or reasonable assurance on climate disclosures.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Workiva",
+      "role": "incumbent",
+      "what": "Brings SOX-style controlled processes, audit trails, and XBRL tagging to sustainability statements, making it the default platform when disclosures face assurance.",
+      "signal": "Verdantix GQ 2025 Leader; platform of record for controlled SEC/CSRD filings",
+      "status": "operating",
+      "source": "https://www.workiva.com/resources/verdantix-green-quadrant-esg-sustainability-reporting-software-2025"
+     },
+     {
+      "name": "Persefoni",
+      "role": "scaleup",
+      "what": "Positions its carbon ledger as financial-control-grade, with method tracking and auditor collaboration features for CSRD/ISSB assurance review.",
+      "signal": "$23M Series C extension (Mar 2025); assurance-oriented positioning central to its enterprise pitch",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20250331135640/en/Persefoni-Secures-Series-C-Investment"
+     },
+     {
+      "name": "AuditBoard",
+      "role": "incumbent",
+      "what": "Internal audit and connected-risk SaaS whose ESG module centralizes evidence, controls testing, and sign-offs for assurance readiness inside the audit function.",
+      "signal": "Widely deployed internal-audit platform extending into ESG controls",
+      "status": "operating",
+      "source": "https://www.energycap.com/blog/sustainability-reporting-platform/"
+     },
+     {
+      "name": "KEY ESG",
+      "role": "startup",
+      "what": "Mid-market and private-equity-focused ESG/carbon software emphasizing audit-ready data lineage, version control, and calculation transparency.",
+      "signal": "Serves PE funds and portfolio companies; publishes audit-readiness methodology",
+      "status": "operating",
+      "source": "https://www.keyesg.com/article/audit-ready-carbon-accounting"
+     },
+     {
+      "name": "Minimum",
+      "role": "startup",
+      "what": "UK 'carbon data infrastructure' startup that pitched audit-grade emissions data pipelines before selling to Novisto.",
+      "signal": "Acquired by Novisto (Mar 2025)",
+      "status": "acquired",
+      "source": "https://techfundingnews.com/novisto-raises-27m-to-power-esg-reporting-for-global-enterprises-amid-europes-tougher-sustainability-rules/"
+     }
+    ],
+    "white_space": "Assurance itself is delivered by audit and verification firms (Big 4, DNV, SGS) using in-house tooling, and the ISSA 5000 assurance standard was only finalized in late 2024 \u2014 so dedicated 'carbon SOX' controls software barely exists; CSRD limited assurance plus California SB 253's third-party verification requirement creates an opening for purpose-built evidence-and-controls tooling that sits between preparers and auditors."
+   },
+   {
+    "name": "Internal carbon pricing & marginal abatement cost (MACC) tools",
+    "description": "Software that sets shadow or internal carbon prices and builds marginal abatement cost curves so capex, procurement, and product decisions internalize carbon, connecting climate strategy to the CFO's capital-allocation process.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "SINAI Technologies",
+      "role": "startup",
+      "what": "The clearest pure-play: interactive MACC construction and configurable internal-carbon-pricing modules embedded in capital planning for heavy industry.",
+      "signal": "Independent 2025 research rates its MACC modeling market-leading; serves metals, mining, and manufacturing clients",
+      "status": "operating",
+      "source": "https://www.prweb.com/releases/independent-research-highlights-sinais-leadership-in-carbon-accounting--decarbonization-302551889.html"
+     },
+     {
+      "name": "CO2 AI",
+      "role": "startup",
+      "what": "BCG-spinout platform with abatement simulation and reduction-ROI analytics at enterprise scale, drawing on BCG's consulting MACC practice.",
+      "signal": "$12M raised at spinout (2023); 300+ Mt CO2e managed",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/co2-ai-now-a-standalone-software-company-backed-by-bcg-and-international-venture-capital-firms-301925559.html"
+     },
+     {
+      "name": "Watershed",
+      "role": "scaleup",
+      "what": "Reduction-planning module models marginal cost and ROI of abatement levers on top of its emissions ledger for large enterprises.",
+      "signal": "$100M Series C at $1.8B (Feb 2024)",
+      "status": "operating",
+      "source": "https://watershed.com/blog/series-c"
+     },
+     {
+      "name": "Sphera",
+      "role": "incumbent",
+      "what": "Couples LCA-grade emissions data with operational-risk and abatement economics for industrial decarbonization decisions.",
+      "signal": "Blackstone-owned; Verdantix 2026 Enterprise Carbon Management Leader",
+      "status": "operating",
+      "source": "https://www.verdantix.com/venture/report/green-quadrant--enterprise-carbon-management-software-2026"
+     }
+    ],
+    "white_space": "Almost no dedicated vendors exist because ICP/MACC modeling is an episodic strategy exercise \u2014 consultants build the curve in Excel and leave \u2014 rather than a recurring workflow, making it hard to sell as SaaS; that changes as CBAM payments (2026) and EU ETS2 (2027) turn shadow prices into real cash costs, opening room for FP&A-integrated carbon-pricing tools sold to finance teams rather than sustainability teams."
+   }
+  ]
+ }
+}

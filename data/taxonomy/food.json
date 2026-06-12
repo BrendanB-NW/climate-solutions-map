@@ -1,0 +1,124 @@
+{
+ "buckets": [
+  {
+   "name": "Plant-Based & Fermentation Proteins",
+   "scope": "Animal-protein replacements made from plants or via fermentation (no animal cells)",
+   "variations": [
+    "Plant-based meat (ground, whole-cut, 3D-printed)",
+    "Plant-based dairy, cheese & yogurt",
+    "Plant-based eggs & seafood",
+    "Mycoprotein & filamentous-fungi / biomass fermentation",
+    "Precision fermentation of dairy proteins (whey, casein)",
+    "Precision fermentation of egg, heme & specialty proteins (collagen, etc.)",
+    "Animal-free fats & oils (fermented or synthetic)",
+    "B2B plant-protein ingredients, isolates & texturization tech",
+    "Fermentation scale-up infrastructure & contract manufacturing (CDMOs)"
+   ]
+  },
+  {
+   "name": "Cultivated Meat & Novel Protein Sources",
+   "scope": "Proteins from cultured animal cells or non-traditional organisms and feedstocks",
+   "variations": [
+    "Cultivated / cell-based meat (beef, pork, poultry)",
+    "Cultivated seafood",
+    "Cultivated pet food",
+    "Cultivation enabling tech (cell lines, growth media, bioreactors, scaffolds)",
+    "Insect protein & farming (black soldier fly, mealworm, cricket)",
+    "Microalgae & duckweed protein",
+    "Gas fermentation / single-cell protein (CO2, H2, methane feedstocks)",
+    "Molecular farming (animal proteins grown in crops)"
+   ]
+  },
+  {
+   "name": "Livestock & Rice Methane",
+   "scope": "Cutting CH4 from enteric fermentation, manure, and rice paddies",
+   "variations": [
+    "Enteric feed additives \u2014 seaweed / Asparagopsis",
+    "Enteric feed additives \u2014 synthetic (3-NOP), oils, tannins, probiotics/enzymes",
+    "Methane-reducing vaccines",
+    "Low-methane breeding, genetics & genomics",
+    "Manure management, slurry treatment & livestock biogas digesters",
+    "Rice paddy methane reduction (alternate wetting/drying, direct seeding, microbials, low-CH4 varieties)",
+    "Livestock & herd emissions monitoring / MRV"
+   ]
+  },
+  {
+   "name": "Fertilizer & Crop Inputs",
+   "scope": "Cutting N2O and the footprint of synthetic fertilizers and agrochemicals",
+   "variations": [
+    "Nitrogen-fixing microbes / biological nitrogen fixation",
+    "Enhanced-efficiency fertilizers, coatings & nitrification/urease inhibitors",
+    "Green, distributed & on-farm ammonia / nitrogen production (ag-side)",
+    "Microbial biostimulants, biofertilizers & mycorrhizae",
+    "Biopesticides, biocontrol & RNAi crop protection",
+    "Recovered / circular nutrients (struvite, nutrient recapture)"
+   ]
+  },
+  {
+   "name": "Precision Ag, Robotics & Controlled-Environment Ag",
+   "scope": "Tech to grow more with less land, water, energy, and chemical input",
+   "variations": [
+    "Precision / variable-rate application & see-and-spray weeding",
+    "Ag robotics & autonomous machinery (weeding, harvesting, tractors)",
+    "Electrified & alternative-fuel farm equipment",
+    "Farm-management, agronomy & decision-support software",
+    "Satellite / drone remote sensing, imaging & crop analytics",
+    "IoT sensors & smart irrigation / water-efficiency tech",
+    "Controlled-environment agriculture (vertical farms, greenhouse automation, container farms)",
+    "Precision & land-based aquaculture (RAS, monitoring)"
+   ]
+  },
+  {
+   "name": "Regenerative Agriculture & Soil Carbon",
+   "scope": "Building soil carbon and ecosystem health on working croplands and rangelands",
+   "variations": [
+    "Regenerative practice enablement & transition-financing platforms",
+    "Cover cropping, no-till & conservation-agriculture programs",
+    "Soil carbon measurement, dMRV & agricultural carbon-credit programs",
+    "Managed / rotational grazing & rangeland carbon",
+    "Agroforestry, silvopasture & tree intercropping",
+    "Biochar production & soil application",
+    "Perennial & cover-crop seed/genetics (e.g., perennial grains)"
+   ]
+  },
+  {
+   "name": "Food Loss & Waste",
+   "scope": "Preventing and valorizing food lost or wasted across the supply chain",
+   "variations": [
+    "Shelf-life extension coatings, packaging & treatments",
+    "Surplus food marketplaces, redistribution & dynamic pricing",
+    "Upcycled ingredients & byproduct valorization",
+    "Retail / kitchen waste analytics & demand forecasting (inventory AI)",
+    "Post-harvest loss reduction & off-grid cold chain / storage",
+    "Anaerobic digestion & composting of food / organic waste",
+    "Home & consumer food-waste tech (countertop digesters/composters)"
+   ]
+  },
+  {
+   "name": "Forests & Deforestation-Free Supply Chains",
+   "scope": "Protecting, restoring, and monitoring terrestrial carbon-rich ecosystems and supply chains",
+   "variations": [
+    "Reforestation / afforestation tech (drone seeding, seed & nursery tech, native species)",
+    "Restoration project developers & forest carbon project origination",
+    "Forest / biomass carbon MRV (satellite, lidar, AI)",
+    "Deforestation & conversion monitoring (incl. EUDR compliance)",
+    "Supply-chain traceability & sourcing platforms",
+    "Forest carbon credit ratings, registries & marketplaces",
+    "Peatland & wetland conservation / restoration",
+    "Wildfire-resilience forest management & post-fire reforestation"
+   ]
+  },
+  {
+   "name": "Blue Carbon & Coastal Ecosystems",
+   "scope": "Coastal and marine carbon sinks plus low-impact ocean food and biomass",
+   "variations": [
+    "Mangrove restoration & conservation",
+    "Seagrass & tidal salt-marsh restoration",
+    "Seaweed / kelp cultivation (food, feed, materials)",
+    "Seaweed / biomass carbon sequestration & sinking",
+    "Coastal / blue carbon MRV & credit methodologies",
+    "Shellfish / bivalve reef restoration"
+   ]
+  }
+ ]
+}

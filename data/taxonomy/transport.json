@@ -1,0 +1,142 @@
+{
+ "buckets": [
+  {
+   "name": "Passenger & Light-Duty EVs",
+   "scope": "OEMs and platforms for electric cars and personal light vehicles (commercial vans/trucks/buses are in the Commercial & Off-Road bucket)",
+   "variations": [
+    "pure-play battery-electric carmakers (Tesla, BYD, NIO, XPeng, Rivian, Lucid, VinFast, Zeekr)",
+    "incumbent OEM EV programs & sub-brands (VW ID., GM Ultium, Hyundai Ioniq, BMW i, Toyota bZ)",
+    "extended-range EV (EREV) specialists (Li Auto, Leapmotor, Scout Motors)",
+    "solar-integrated EVs (Aptera, Lightyear legacy, Sono solar retrofit)",
+    "microcars, quadricycles & low-speed EVs (Microlino, Citroen Ami, Wuling Mini, Eli Zero)",
+    "EV skateboard platforms & contract manufacturers (Foxconn MIH, Magna Steyr, REE, U Power)",
+    "ICE-to-EV passenger conversions & classic-car retrofits (Everrati, Electrogenic, Transition-One)"
+   ]
+  },
+  {
+   "name": "Electric Two/Three-Wheelers & Micromobility",
+   "scope": "OEMs of electric motorcycles, scooters, rickshaws, e-bikes and shared micromobility fleets (battery-swap networks are in the Charging bucket)",
+   "variations": [
+    "electric motorcycles (Zero Motorcycles, LiveWire, Ultraviolette, Can-Am)",
+    "electric scooters & mopeds (Gogoro, NIU, Ather, Ola Electric, Yadea, TVS, Bajaj Chetak)",
+    "electric three-wheelers & rickshaws for passenger transport (Mahindra Last Mile, Piaggio Ape E, Euler, OSM)",
+    "cargo e-bikes & electric delivery trikes (Urban Arrow, ONOMOTION, Fernhay, EAV)",
+    "e-bikes & e-bike drive systems (Bosch eBike, Bafang, Rad Power, Specialized Turbo)",
+    "shared micromobility fleet operators (Lime, Voi, Dott, Beam)",
+    "two-wheeler electric conversion/retrofit kits (RTO-approved kit makers, e.g. GoGoA1)"
+   ]
+  },
+  {
+   "name": "Commercial, Heavy-Duty & Off-Road EVs",
+   "scope": "Battery-electric trucks, vans, buses and off-highway equipment OEMs (hydrogen vehicles are in the Rail/Hydrogen/E-fuels bucket)",
+   "variations": [
+    "heavy-duty electric trucks, semis & electric freight services (Tesla Semi, Volvo, Daimler, BYD, Windrose, Einride)",
+    "medium-duty & vocational trucks incl. refuse and utility (Harbinger, Xos, Battle Motors, Mack LR Electric)",
+    "electric delivery & step vans (BrightDrop, Rivian EDV, Flexis, Farizon)",
+    "transit buses & coaches (BYD, Yutong, New Flyer, Solaris, Ebusco)",
+    "electric school buses (Blue Bird, GreenPower, Thomas Built, Micro Bird)",
+    "construction & compact equipment (Volvo CE, Komatsu, Bobcat, XCMG)",
+    "mining trucks & underground equipment (Epiroc, Sandvik, Fortescue Zero, MEDATech)",
+    "agricultural tractors & farm equipment (Monarch, Solectrac, John Deere, Fendt)",
+    "port/terminal tractors, airport ground support & material handling (Orange EV, Kalmar, ITW GSE, Toyota MH)",
+    "truck & bus repower/retrofit conversions (Pepper Motion, Evolectric, Lightning eMotors legacy)"
+   ]
+  },
+  {
+   "name": "EV Charging & Grid Integration",
+   "scope": "Charging networks, hardware, battery swapping, V2G and charging software across all vehicle classes",
+   "variations": [
+    "public DC fast-charging networks & CPOs (Tesla Supercharger, Ionity, EVgo, Fastned, Electrify America)",
+    "charging hardware manufacturers (Alpitronic, Kempower, ABB E-mobility, Autel, BTC Power)",
+    "home & workplace AC/L2 charging (ChargePoint, Wallbox, Emporia, Ohme)",
+    "fleet & depot charging / electrification-as-a-service (Voltera, Terawatt, Greenlane, Forum Mobility)",
+    "megawatt charging systems (MCS) for heavy trucks (Milence, WattEV, ABB MCS)",
+    "battery swapping for cars and 2/3-wheelers (NIO, Ample, CATL EVOGO, Gogoro Network, Battery Smart, Sun Mobility)",
+    "wireless/inductive charging & electric road systems (WiTricity, InductEV, Electreon)",
+    "V2G/bidirectional & managed-charging software (Nuvve, Fermata Energy, ev.energy, WeaveGrid, Kaluza)",
+    "battery-buffered, off-grid, solar-canopy & mobile chargers (ADS-TEC, Jolt, Beam Global, SparkCharge)",
+    "charging software platforms, roaming & payments (Monta, Driivz, Hubject, AMPECO)"
+   ]
+  },
+  {
+   "name": "Battery Cells & Next-Gen Chemistries",
+   "scope": "EV battery cell manufacturers and novel cell-chemistry developers (materials, packs, recycling are in the Components bucket)",
+   "variations": [
+    "incumbent giga-scale cell makers (CATL, BYD FinDreams, LG Energy Solution, Panasonic, Samsung SDI, SK On, EVE, CALB)",
+    "challenger & regional cell manufacturers (ACC, Verkor, PowerCo, AESC, ONE, Amplify Cell, Northvolt-successor Lyten)",
+    "solid-state batteries (QuantumScape, Solid Power, Factorial, ProLogium, Toyota program)",
+    "lithium-metal & anode-free cells (SES AI, Ion Storage Systems, Pure Lithium)",
+    "silicon-anode cell makers (Amprius, Enovix, Ionblox)",
+    "lithium-sulfur cells (Lyten, Theion, Zeta Energy)",
+    "sodium-ion for mobility (CATL Naxtra, HiNa, BYD, Faradion)",
+    "LFP/LMFP & manganese-rich cell innovation (Our Next Energy, Integrals Power)",
+    "extreme-fast-charge & niobium/LTO cells (StoreDot, Nyobolt, Echion, Toshiba SCiB)",
+    "high-power specialty cells for e-aviation & performance (Molicel, Cuberg legacy)"
+   ]
+  },
+  {
+   "name": "Battery Materials, Components, Powertrain & Recycling",
+   "scope": "Active materials, cell and pack components, EV powertrain hardware, battery software, manufacturing equipment, recycling and second-life",
+   "variations": [
+    "cathode active materials & precursors (Umicore, BASF, EcoPro, Nano One, Redwood cathode)",
+    "anode materials: graphite, synthetic & silicon (Novonix, Vianode, Anovion, Sila, Group14, OneD)",
+    "electrolytes, separators & inactive cell components (Enchem, Soulbrain, Celgard, Entek)",
+    "EV powertrain: motors, e-axles, inverters & SiC power electronics (YASA, Equipmake, BorgWarner, Wolfspeed)",
+    "packs, modules, enclosures & thermal management incl. cell-to-pack and immersion cooling (XING Mobility)",
+    "BMS & battery health analytics software (TWAICE, Zitara, ACCURE, Elysia)",
+    "battery manufacturing equipment & dry-electrode processing (Wuxi Lead, AM Batteries, LiCAP)",
+    "hydrometallurgical & pyrometallurgical recycling (Redwood Materials, Ascend Elements, Li-Cycle, Hydrovolt, Altilium, tozero)",
+    "direct & cathode-to-cathode recycling (Princeton NuEnergy, hydro-to-cathode processes)",
+    "second-life EV battery stationary storage (B2U, Connected Energy, Moment Energy, Octave)"
+   ]
+  },
+  {
+   "name": "Aviation Decarbonization",
+   "scope": "SAF production pathways, zero/low-emission aircraft and propulsion, and flight-operations efficiency",
+   "variations": [
+    "HEFA sustainable aviation fuel producers (Neste, World Energy, Montana Renewables, EcoCeres)",
+    "alcohol-to-jet SAF (LanzaJet, Gevo, Swedish Biofuels)",
+    "gasification & Fischer-Tropsch SAF from waste/biomass (DG Fuels, Velocys, Aether Fuels)",
+    "power-to-liquid e-SAF (Twelve, Infinium, Synhelion, Air Company, Arcadia eFuels, Norsk e-Fuel)",
+    "emerging SAF routes: pyrolysis, HTL, algae, CO2-to-ethanol chains (Alder Renewables, Viridos, LanzaTech chain)",
+    "battery-electric fixed-wing aircraft (BETA Technologies, Eviation, Elysian)",
+    "hybrid-electric propulsion & retrofits (Heart Aerospace, Ampaire, VoltAero, magniX)",
+    "hydrogen fuel-cell & H2-combustion aircraft plus airport H2 fueling (ZeroAvia, Joby/H2FLY, Beyond Aero, Fabrum)",
+    "eVTOL & urban air mobility (Joby, Archer, Vertical Aerospace, EHang, Wisk)",
+    "flight-ops efficiency & contrail avoidance (SATAVIA, Estuaire, Google/Breakthrough contrail routing)"
+   ]
+  },
+  {
+   "name": "Maritime Decarbonization",
+   "scope": "Alternative marine fuels, electric and wind propulsion, nuclear shipping, onboard capture, and vessel/port efficiency",
+   "variations": [
+    "green methanol vessels, engines & fuel supply (MAN ES/Maersk ecosystem, Liquid Wind, European Energy, WasteFuel)",
+    "ammonia propulsion & ammonia-to-power (MAN ES, WinGD, Wartsila, Amogy, Azane bunkering)",
+    "hydrogen & fuel-cell vessels (Norled, Future Proof Shipping, e1 Marine, Genevos)",
+    "battery-electric ships, ferries, workboats & hydrofoils (Corvus Energy, Fleetzero, Candela, Artemis, Navier, Arc)",
+    "wind-assisted propulsion: rotors, rigid wings, suction sails, kites (Norsepower, Anemoi, bound4blue, BAR Technologies, Michelin WISAMO)",
+    "primary-sail cargo shipping lines (TOWT, Neoline, Veer, Sailcargo)",
+    "drop-in marine biofuels & bio-LNG bunkering (FincoEnergies/GoodFuels, Titan)",
+    "onboard carbon capture (Value Maritime, Seabound, Carbon Ridge)",
+    "nuclear maritime propulsion (Core Power, HD KSOE programs, Ulstein Thor concept)",
+    "vessel & port efficiency: air lubrication, hull coatings/robots, route optimization, shore power (Silverstream, Jotun HullSkater, ZeroNorth, Sofar, Cavotec)"
+   ]
+  },
+  {
+   "name": "Rail, Hydrogen for Transport & E-fuels",
+   "scope": "Rail decarbonization, hydrogen fuel cells/refueling/storage and H2 road vehicles, road-focused e-fuels, and freight efficiency software",
+   "variations": [
+    "battery-electric trains & locomotives (Wabtec FLXdrive, Stadler FLIRT Akku, Siemens Mireo Plus B, Progress Rail Joule)",
+    "autonomous battery railcars & rail freight innovation (Parallel Systems, Intramotev)",
+    "hydrogen trains (Alstom Coradia iLint, Stadler FLIRT H2, CRRC)",
+    "rail electrification & discontinuous catenary technology (Furrer+Frey, Hitachi tri-mode)",
+    "locomotive repowering & hybrid retrofits (OptiFuel, ZTR)",
+    "fuel cell systems for road vehicles & material handling (Ballard, Plug Power, PowerCell, Cellcentric, Symbio)",
+    "hydrogen & H2-ICE trucks (Hyundai XCIENT, Cummins H2-ICE, JCB hydrogen engines, Keyou, Hydra Energy retrofits)",
+    "hydrogen refueling networks & onboard storage tanks (FirstElement Fuel, OneH2, Hexagon Purus, Verne, Cryomotive, NPROXX)",
+    "e-fuels & low-carbon road fuels: e-gasoline, e-diesel, rDME (HIF Global, Infinium, P1 Fuels, Zero Petroleum, Oberon Fuels)",
+    "freight logistics optimization & intermodal shift software (Flock Freight, project44, Loadsmart)"
+   ]
+  }
+ ]
+}

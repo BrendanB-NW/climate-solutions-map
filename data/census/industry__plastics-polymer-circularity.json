@@ -1,0 +1,651 @@
+{
+ "sector": "industry",
+ "bucket": "Plastics & Polymer Circularity",
+ "census": {
+  "bucket": "Plastics & Polymer Circularity",
+  "sources": [
+   "https://www.carbios.com/newsroom/en/carbios-maintains-its-commitment-to-build-the-longlaville-plant-and-adjusts-its-timeline/",
+   "https://resource-recycling.com/plastics/2025/08/01/eastman-to-delay-texas-plant-appeal-loss-of-doe-grant/",
+   "https://www.plasticsnews.com/news/brightmark-subsidiaries-file-bankruptcy-over-ashley-chemical-recycling-plant/",
+   "https://cen.acs.org/business/freepoint-eco-systems-shuts-down-plastics-pyrolysis-plant/104/web/2026/06",
+   "https://www.euwid-recycling.com/news/business/viridor-proposes-shutdown-of-quantafuel-chemical-recycling-activities-130526/",
+   "https://www.icis.com/explore/resources/news/2024/10/10/11040085/chemical-recycler-ioniqa-files-for-bankruptcy-protection/",
+   "https://cen.acs.org/materials/polymers/LyondellBasell-buys-plastics-recycling-technology/102/i27",
+   "https://www.thechemicalengineer.com/news/samsara-eco-unveils-commercial-textile-recycling-plant-using-ai-engineered-enzymes/",
+   "https://tech.eu/2026/06/05/gr3n-raises-eur155m-series-b-to-scale-pet-chemical-recycling/",
+   "https://www.businesswire.com/news/home/20250624087075/en/Novoloop-Raises-$21-Million-Series-B-Funding-Led-by-Taranis-to-Scale-Circular-Performance-Materials",
+   "https://www.businessoffashion.com/articles/sustainability/fashion-recycling-startups-industrial-scale-plants-circ-reju-syre/",
+   "https://cen.acs.org/business/start-ups/Textile-recycling-tries-gain-second/104/web/2026/04",
+   "https://www.recyclingtoday.com/news/bollegraaf-greyparrot-launch-strategic-ai-partnership/",
+   "https://ampsortation.com/articles/amp-raises-91m-seriesd",
+   "https://weibold.com/circtec-secures-150-million-euro-investment-to-build-europes-largest-tire-pyrolysis-facility",
+   "https://www.recyclingtoday.com/news/bolder-industries-tire-recycling-pyrolysis-investment-tiger-infrastructure-usa-belgium/",
+   "https://www.fairmat.tech/",
+   "https://www.compositesworld.com/news/vestas-unveils-circularity-solution-to-end-landfill-for-turbine-blades",
+   "https://polystyvert.com/en/polystyvert-expands-its-technology-platform-to-thermoplastics-and-becomes-upsolv/",
+   "https://www.prnewswire.com/news-releases/revalyu-resources-successfully-commissions-second-plant-of-worlds-largest-chemical-pet-plastic-recycling-site-302305699.html",
+   "https://www.pyrowave.com/en/blog/news/iw_06e3cbe0bfe43cf24d5d25437f67a818",
+   "https://www.stocktitan.net/sec-filings/PCT/10-k-pure-cycle-technologies-inc-files-annual-report-557244abf1d0.html",
+   "https://www.eu-startups.com/2026/03/epoch-biodesign-raises-e10-3-million-to-use-ai-and-enzymes-to-recycle-plastic-and-textile-waste-at-commercial-scale/",
+   "https://loopindustries.com/loop-industries-and-ester-industries-india-joint-venture-awards-detailed-engineering-contract-to-toyo-for-infinite-loop-india/",
+   "https://www.ainvest.com/news/aduro-clean-technologies-updates-hydrochemolytic-technology-pilot-plant-expansion-2508/",
+   "https://packagingeurope.com/news/depolys-showcase-plant-to-turn-500-tonnes-of-pet-into-raw-materials-yearly/12775.article",
+   "https://www.ptonline.com/news/resynergi-raises-64-million-to-scale-microwave-assisted-pyrolysis",
+   "https://tyromer.com/",
+   "https://www.ambercycle.com/news/inditex-signs-a-three-year-agreement-to-buy-textile-to-textile-recycled-polyester-cycora-r-for-over-eu70-million",
+   "https://www.businessoffashion.com/news/sustainability/exclusive-textile-recycler-circulose-is-restarting-its-recycling-plant/",
+   "https://www.packagingdive.com/news/digimarc-recycle-watermarking-expansion-epr/708666/",
+   "https://polytag.io/products/invisible-uv-tags/",
+   "https://www.muratechnology.com/news/mura-technology-opens-doors-to-worlds-first-commercial-scale-hydroprs-advanced-plastic-recycling-site-in-teesside-uk/",
+   "https://www.wastedive.com/news/agilyx-leaves-chemical-recycling-operations-greendot/811474/",
+   "https://www.closedlooppartners.com/closed-loop-partners-deploys-10-million-loan-to-greenmantra-technologies/",
+   "https://resource-recycling.com/plastics/2025/12/15/alterra-licenses-tech-for-two-new-recycling-sites/"
+  ],
+  "variations": [
+   {
+    "name": "Enzymatic depolymerization of PET, nylon and polyolefins",
+    "description": "Engineered enzymes (increasingly AI-designed) selectively break condensation polymers like PET and nylon back into their pure monomers under mild conditions, enabling true bottle-to-bottle / fiber-to-fiber circularity at lower energy than thermal routes.",
+    "maturity": "demonstration",
+    "white_space": "Enzymes work well on ester/amide bonds (PET, nylon) but struggle with carbon-carbon backbones of polyolefins (PE/PP), which dominate plastic waste; an enzyme or hybrid system that economically cracks polyolefins remains the major open prize.",
+    "companies": [
+     {
+      "name": "Carbios",
+      "role": "scaleup",
+      "what": "PET-hydrolase enzymatic depolymerization; building a 50kt/yr flagship plant at Longlaville, France in JV with Indorama",
+      "signal": "Public funding EUR42.5M secured; Longlaville financing being finalized, commissioning pushed to ~2028; offtakes with L'Oreal, L'Occitane and beverage majors",
+      "status": "operating",
+      "source": "https://www.carbios.com/newsroom/en/carbios-maintains-its-commitment-to-build-the-longlaville-plant-and-adjusts-its-timeline/"
+     },
+     {
+      "name": "Samsara Eco",
+      "role": "startup",
+      "what": "AI-designed enzymes (EosEco) for nylon 6,6 and polyester; opened first plant in Jerrabomberra, Australia (Sep 2025)",
+      "signal": "~US$100M+ raised; KBR engaged for a 20kt/yr nylon 6,6 plant targeted early 2028; partnerships with lululemon",
+      "status": "operating",
+      "source": "https://www.thechemicalengineer.com/news/samsara-eco-unveils-commercial-textile-recycling-plant-using-ai-engineered-enzymes/"
+     },
+     {
+      "name": "Protein Evolution",
+      "role": "startup",
+      "what": "AI-designed enzymes (Biopure) depolymerizing polyester/poly-blend textile waste in New Haven, CT",
+      "signal": "Launched from stealth with ~$25M; partnerships with Basecamp Research (PU/nylon) and Stella McCartney garment debut",
+      "status": "operating",
+      "source": "https://workinbiotech.com/companies/protein-evolution"
+     },
+     {
+      "name": "Epoch Biodesign",
+      "role": "startup",
+      "what": "London-based; AI+enzyme platform targeting nylon 6,6 and textile/plastic waste at commercial scale",
+      "signal": "Raised EUR10.3M (Mar 2026), total >EUR43M; scaling toward commercialization of recycled nylon",
+      "status": "operating",
+      "source": "https://www.eu-startups.com/2026/03/epoch-biodesign-raises-e10-3-million-to-use-ai-and-enzymes-to-recycle-plastic-and-textile-waste-at-commercial-scale/"
+     },
+     {
+      "name": "Birch Biosciences",
+      "role": "startup",
+      "what": "Engineering enzymes for plastic (incl. polyurethane) depolymerization using AI/ML enzyme discovery",
+      "signal": "Early stage; DOE SBIR Phase II grant for enzymatic PU recycling; small seed funding to date",
+      "status": "operating",
+      "source": "https://www.birchbiosciences.com/"
+     }
+    ]
+   },
+   {
+    "name": "Chemical depolymerization of PET via methanolysis",
+    "description": "Methanol reacts with PET under heat/pressure to cleave it into purified monomers (DMT and MEG) that re-polymerize to virgin-grade PET, handling colored and contaminated feedstock that mechanical recycling cannot.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Eastman",
+      "role": "incumbent",
+      "what": "Operates commercial methanolysis (Polyester Renewal Technology) at Kingsport, TN; planned a second $1.2B plant at Longview, TX",
+      "signal": "Kingsport running and debottlenecking toward 130% nameplate; Texas plant delayed ~2 yrs after DOE cancelled a $375M grant in 2025",
+      "status": "operating",
+      "source": "https://resource-recycling.com/plastics/2025/08/01/eastman-to-delay-texas-plant-appeal-loss-of-doe-grant/"
+     },
+     {
+      "name": "Loop Industries",
+      "role": "startup",
+      "what": "Low-energy depolymerization (Infinite Loop) producing DMT/MEG; building 70kt JV plant in Gujarat, India with Ester Industries",
+      "signal": "India JV ELITe acquired ~93 acres, awarded detailed engineering to Toyo (Dec 2025), capex cut to ~$165-170M, ops targeted 2028; Nike offtake; European site (with Reed/Societe Generale) in selection",
+      "status": "operating",
+      "source": "https://loopindustries.com/loop-industries-and-ester-industries-india-joint-venture-awards-detailed-engineering-contract-to-toyo-for-infinite-loop-india/"
+     },
+     {
+      "name": "Indorama Ventures",
+      "role": "incumbent",
+      "what": "Global PET producer; JV partner with Carbios at Longlaville and a major adopter/offtaker of depolymerized rPET",
+      "signal": "World's largest PET producer; strategic recycling investments across regions",
+      "status": "operating",
+      "source": "https://www.carbios.com/newsroom/en/carbios-maintains-its-commitment-to-build-the-longlaville-plant-and-adjusts-its-timeline/"
+     }
+    ]
+   },
+   {
+    "name": "Chemical depolymerization of PET via glycolysis",
+    "description": "Ethylene glycol breaks PET into BHET monomer that is purified and re-polymerized, a lower-temperature route that is among the most commercially advanced chemical-recycling methods for polyester.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "revalyu Resources",
+      "role": "scaleup",
+      "what": "Glycolysis-based PET recycling; operates the world's largest chemical PET recycling site at Nashik, India and building a $200M US plant in Statesboro, GA",
+      "signal": "$100M invested to reach 280 tpd at Nashik (3 plants); Georgia plant ~120 tpd, operational ~2027; claims 75% less water, 91% less energy vs virgin",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/revalyu-resources-successfully-commissions-second-plant-of-worlds-largest-chemical-pet-plastic-recycling-site-302305699.html"
+     },
+     {
+      "name": "Ioniqa Technologies",
+      "role": "startup",
+      "what": "Magnetic-nanoparticle-assisted glycolysis of PET (incl. colored/opaque) to BHET",
+      "signal": "Filed for bankruptcy protection Oct 2024, citing low virgin PET prices and immature rPET supply chain",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.icis.com/explore/resources/news/2024/10/10/11040085/chemical-recycler-ioniqa-files-for-bankruptcy-protection/"
+     },
+     {
+      "name": "Garbo (ChemPET)",
+      "role": "startup",
+      "what": "Italian glycolysis process recovering high-purity BHET from PET trays and complex packaging",
+      "signal": "Demonstration/early-commercial; cited among active European chemical recyclers in 2024 market surveys",
+      "status": "uncertain",
+      "source": "https://www.futuremarketsinc.com/the-global-market-for-chemical-recycling-and-dissolution-of-plastics-2024-2040/"
+     }
+    ]
+   },
+   {
+    "name": "Microwave-assisted and room-temperature PET depolymerization",
+    "description": "Novel low-energy routes break PET faster or at ambient conditions, including microwave-assisted depolymerization and solvent systems that avoid high heat/pressure, lowering both capex and energy cost for chemical recycling.",
+    "maturity": "demonstration",
+    "white_space": "These are first-of-a-kind energy-saving angles on a crowded PET-chemolysis field; the bet is that lower energy intensity finally beats virgin PET on cost, but none has yet proven full commercial-scale economics.",
+    "companies": [
+     {
+      "name": "Gr3n",
+      "role": "startup",
+      "what": "Microwave-assisted depolymerization (MADE) of PET/polyester incl. textiles; building MODUS, a 40kt/yr first-of-a-kind plant in Spain",
+      "signal": "Closed EUR15.5M Series B (Jun 2026); signed EUR35M EU Innovation Fund grant; commercial operation targeted Q2 2030",
+      "status": "operating",
+      "source": "https://tech.eu/2026/06/05/gr3n-raises-eur155m-series-b-to-scale-pet-chemical-recycling/"
+     },
+     {
+      "name": "DePoly",
+      "role": "startup",
+      "what": "Swiss room-temperature, solvent-based PET depolymerization to virgin-grade monomers (TPA + MEG) without heat/pressure",
+      "signal": "Building a showcase plant to process ~500 t/yr of PET into raw materials; backed by strategic and VC investors",
+      "status": "operating",
+      "source": "https://packagingeurope.com/news/depolys-showcase-plant-to-turn-500-tonnes-of-pet-into-raw-materials-yearly/12775.article"
+     }
+    ]
+   },
+   {
+    "name": "PMMA, polycarbonate and polyurethane chemolysis",
+    "description": "Chemical depolymerization tailored to non-PET condensation/addition polymers - cracking acrylic (PMMA) back to MMA monomer, polycarbonate to BPA, and polyurethane foam back to polyols - recovers high-value monomers from streams that otherwise have no circular route.",
+    "maturity": "pilot",
+    "white_space": "Beyond PET, monomer-recovery chemistry is fragmented and mostly pre-commercial; PMMA-to-MMA is closest to viability while PU and PC chemolysis remain economics-challenged, leaving room for a player that nails feedstock logistics and monomer purity.",
+    "companies": [
+     {
+      "name": "Trinseo",
+      "role": "incumbent",
+      "what": "PMMA (acrylic) depolymerization back to MMA monomer; opened a depolymerization pilot at Rho, Italy and scaling PC + PMMA recycling",
+      "signal": "Recycled-content product sales +47% YoY (2025); progressing commercial scale-up of PC and PMMA recycling",
+      "status": "operating",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001519061/000110465925107750/tse-20251106xex99d1.htm"
+     },
+     {
+      "name": "Dow (RENUVA)",
+      "role": "incumbent",
+      "what": "RENUVA process chemically breaks end-of-life polyurethane mattress foam back into polyol for new flexible foam",
+      "signal": "Operating mattress-recycling programs in Europe; representative incumbent route for PU circularity",
+      "status": "operating",
+      "source": "https://cen.acs.org/materials/polymers/LyondellBasell-buys-plastics-recycling-technology/102/i27"
+     },
+     {
+      "name": "Birch Biosciences",
+      "role": "startup",
+      "what": "Enzymatic (not chemical) PU depolymerization - a biological alternative to PU chemolysis",
+      "signal": "DOE SBIR Phase II grant for enzymatic polyurethane recycling",
+      "status": "operating",
+      "source": "https://www.birchbiosciences.com/"
+     }
+    ]
+   },
+   {
+    "name": "Pyrolysis and catalytic cracking of mixed polyolefins",
+    "description": "Heating mixed PE/PP/PS waste in the absence of oxygen cracks the polymer chains into pyrolysis oil (naphtha-like feedstock) that refineries and crackers turn back into new plastic, the dominant 'advanced recycling' route for hard-to-recycle polyolefins - but one plagued by weak economics and plant failures.",
+    "maturity": "demonstration",
+    "white_space": "Despite heavy investment, polyolefin pyrolysis is the epicenter of sector failures (Brightmark default, Freepoint shutdown, Viridor/Quantafuel exit) because virgin plastic is cheaper and feedstock prep is hard; the surviving model appears to be asset-light technology licensing plus tight integration with a downstream cracker/offtaker.",
+    "companies": [
+     {
+      "name": "Plastic Energy",
+      "role": "scaleup",
+      "what": "TAC (thermal anaerobic conversion) pyrolysis producing TACOIL; 50/50 SPEAR JV with SABIC at Geleen, Netherlands",
+      "signal": "Geleen plant produced first pyrolysis oil (2025), ~20kt/yr nameplate, ramping to commercial production; operates earlier plants in Spain",
+      "status": "operating",
+      "source": "https://www.plasticsnews.com/news/plastic-energy-sabic-produce-first-batch-pyrolysis-oil-geelen/"
+     },
+     {
+      "name": "Alterra Energy",
+      "role": "scaleup",
+      "what": "Liquefaction/pyrolysis technology licensor; operates a plant in Akron, OH and licenses to partners (Freepoint, others)",
+      "signal": "Licensed two new sites (Dec 2025) plus a 192-288kt/yr Gulf Coast Freepoint license; withdrew its own PA plant plan (Aug 2025)",
+      "status": "operating",
+      "source": "https://resource-recycling.com/plastics/2025/12/15/alterra-licenses-tech-for-two-new-recycling-sites/"
+     },
+     {
+      "name": "Nexus Circular",
+      "role": "scaleup",
+      "what": "Pyrolysis of landfill-bound film/flexibles into circular feedstock; Atlanta-based with expansion plans",
+      "signal": "Contracted to supply ~24,000 t/yr of pyrolysis feedstock to LyondellBasell",
+      "status": "operating",
+      "source": "https://resource-recycling.com/plastics/2023/02/21/chemical-recycling-licensing-deals-partnerships-announced/"
+     },
+     {
+      "name": "Brightmark",
+      "role": "startup",
+      "what": "Operated a $260M mixed-plastics pyrolysis 'Circularity Center' in Ashley, Indiana",
+      "signal": "Subsidiaries filed Chapter 11 (Mar 2025) after defaulting on $172.5M green bonds; plant reached only ~5% of nameplate; parent retained assets for ~$14.3M at auction",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.plasticsnews.com/news/brightmark-subsidiaries-file-bankruptcy-over-ashley-chemical-recycling-plant/"
+     },
+     {
+      "name": "Freepoint Eco-Systems",
+      "role": "startup",
+      "what": "Operated a large pyrolysis plant in Hebron, Ohio (Alterra-licensed) supplying oil to Shell's Norco refinery",
+      "signal": "Suspended/shut down the Hebron plant (reported 2026) amid activist and Ohio EPA pressure",
+      "status": "bankrupt-shutdown",
+      "source": "https://cen.acs.org/business/freepoint-eco-systems-shuts-down-plastics-pyrolysis-plant/104/web/2026/06"
+     },
+     {
+      "name": "Quantafuel (Viridor)",
+      "role": "scaleup",
+      "what": "Operated a plastics-to-liquids pyrolysis plant at Skive, Denmark plus activities in Malmo and Oslo",
+      "signal": "Owner Viridor proposed shutting all European chemical-recycling ops (May 2026), calling them 'commercially uninvestable' despite 70-75% dry yields",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.euwid-recycling.com/news/business/viridor-proposes-shutdown-of-quantafuel-chemical-recycling-activities-130526/"
+     }
+    ]
+   },
+   {
+    "name": "Microwave-assisted pyrolysis and depolymerization to monomers",
+    "description": "Electrified, microwave-driven reactors heat polyolefins or polystyrene faster and more controllably than conventional pyrolysis, enabling modular, lower-carbon units and - for polystyrene - direct recovery of styrene monomer rather than mixed oil.",
+    "maturity": "pilot",
+    "white_space": "Microwave/electrified pyrolysis promises modularity and lower carbon but is unproven at commercial scale; polystyrene-to-styrene is the most differentiated niche (clean monomer recovery) and the least crowded.",
+    "companies": [
+     {
+      "name": "Pyrowave",
+      "role": "startup",
+      "what": "Microwave catalytic depolymerization of polystyrene back to virgin-grade styrene monomer; Quebec-based",
+      "signal": "JV with Michelin to industrialize PS-to-styrene; Michelin produced a 4-tonne SBR prototype batch; backed by Fonds de solidarite FTQ",
+      "status": "operating",
+      "source": "https://www.pyrowave.com/en/blog/news/iw_06e3cbe0bfe43cf24d5d25437f67a818"
+     },
+     {
+      "name": "Resynergi",
+      "role": "startup",
+      "what": "Continuous Microwave Assisted Pyrolysis (CMAP) modules cracking HDPE/LDPE/PP/PS into pyrolysis oil; modular, rapid-deploy",
+      "signal": "Raised ~$6.4M Series B + $18M extension (Taranis-led, with Lummus); Lummus to fabricate and supply modules globally; first commercial-scale site planned",
+      "status": "operating",
+      "source": "https://www.ptonline.com/news/resynergi-raises-64-million-to-scale-microwave-assisted-pyrolysis"
+     }
+    ]
+   },
+   {
+    "name": "Hydrothermal and supercritical-water recycling",
+    "description": "Supercritical or near-critical water/steam acts as 'molecular scissors' to depolymerize mixed and contaminated plastics into hydrocarbon feedstock, tolerating dirtier streams than dry pyrolysis and producing more consistent yields.",
+    "maturity": "demonstration",
+    "white_space": "Only a handful of players hold viable hydrothermal IP (Licella's Cat-HTR underpins Mura; Aduro is independent); high-pressure reactor capex and scale-up risk are the barrier, so the opening is a partner with deep petrochemical engineering and offtake (as Dow is for Mura).",
+    "companies": [
+     {
+      "name": "Mura Technology",
+      "role": "scaleup",
+      "what": "HydroPRS supercritical-steam recycling (licensing Licella's Cat-HTR); opened world's first commercial-scale plant at Teesside/Wilton, UK",
+      "signal": "Wilton ~20kt/yr in commissioning, ops ~Q1 2026; Dow partnership to scale up to ~600kt/yr across Europe/US by 2030, incl. a large Bohlen, Germany facility",
+      "status": "operating",
+      "source": "https://www.muratechnology.com/news/mura-technology-opens-doors-to-worlds-first-commercial-scale-hydroprs-advanced-plastic-recycling-site-in-teesside-uk/"
+     },
+     {
+      "name": "Licella",
+      "role": "scaleup",
+      "what": "Developer of the Cat-HTR catalytic hydrothermal platform (16+ yrs R&D) licensed to Mura and others",
+      "signal": "Australian parent technology behind Mura's HydroPRS; multiple global licensing projects",
+      "status": "operating",
+      "source": "https://www.licella.com/2025/02/01/first-mura-technology-commercial-facility-enters-commissioning-phase-in-the-uk/"
+     },
+     {
+      "name": "Aduro Clean Technologies",
+      "role": "startup",
+      "what": "Hydrochemolytic Technology (HCT) using water chemistry to convert waste plastics/heavy oils at lower temperatures; Nasdaq-listed (ADUR)",
+      "signal": "Next-Gen Process pilot plant commissioning Sep-Oct 2025 (Siemens automation); site selection Jan 2026, ~8,000 t/yr demo targeted early 2027",
+      "status": "operating",
+      "source": "https://www.ainvest.com/news/aduro-clean-technologies-updates-hydrochemolytic-technology-pilot-plant-expansion-2508/"
+     }
+    ]
+   },
+   {
+    "name": "Dissolution and purification recycling (without depolymerization)",
+    "description": "Selective solvents dissolve a target polymer (PP, PS, multilayer films) out of mixed/contaminated waste and strip away color, additives and contaminants, recovering a near-virgin polymer without breaking it into monomers - lower energy than chemolysis but limited to compatible streams.",
+    "maturity": "demonstration",
+    "white_space": "Dissolution is energy-light but solvent recovery and feedstock purity drive economics; the field thinned after APK's insolvency, so a player that proves cheap, recyclable solvent loops on high-value streams (PP, multilayer flexibles) has room.",
+    "companies": [
+     {
+      "name": "PureCycle Technologies",
+      "role": "scaleup",
+      "what": "Solvent-based purification of polypropylene to near-virgin PP (UPRP-licensed); flagship plant in Ironton, Ohio",
+      "signal": "Ironton 107M lb/yr design ramping; raised $300M Series B preferred + ~$75M equity/bonds in 2025; planning Augusta GA (300M lb/yr by 2030, EUR40M EU grant) plus Thailand/Belgium",
+      "status": "operating",
+      "source": "https://www.stocktitan.net/sec-filings/PCT/10-k-pure-cycle-technologies-inc-files-annual-report-557244abf1d0.html"
+     },
+     {
+      "name": "UpSolv (formerly Polystyvert)",
+      "role": "startup",
+      "what": "Dissolution of polystyrene (incl. contaminated PS) in an essential-oil solvent; rebranded UpSolv and extending platform to other thermoplastics",
+      "signal": "Demonstrated contaminated-PS recycling; first commercial plant under development as of 2025",
+      "status": "operating",
+      "source": "https://polystyvert.com/en/polystyvert-expands-its-technology-platform-to-thermoplastics-and-becomes-upsolv/"
+     },
+     {
+      "name": "APK AG",
+      "role": "startup",
+      "what": "Newcycling solvent-based delamination/dissolution of multilayer LDPE flexible films",
+      "signal": "Entered insolvency mid-2024; fully acquired by LyondellBasell (deal announced Aug 2024, completed) and folded into LYB's Circular & Low Carbon Solutions",
+      "status": "acquired",
+      "source": "https://cen.acs.org/materials/polymers/LyondellBasell-buys-plastics-recycling-technology/102/i27"
+     },
+     {
+      "name": "Saperatec",
+      "role": "startup",
+      "what": "German delamination process separating multilayer film/composite packaging into component materials via a proprietary separation liquid",
+      "signal": "Cited in 2025 multilayer-recycling reviews; commercial status unclear",
+      "status": "uncertain",
+      "source": "https://onlinelibrary.wiley.com/doi/10.1002/mame.202400414"
+     }
+    ]
+   },
+   {
+    "name": "Polyolefin upcycling to higher-value products",
+    "description": "Rather than returning waste plastic to the same low-value polymer, these processes chemically convert it into higher-value materials - polyols/TPU, surfactants, waxes and additives - improving the economics of recycling polyolefins by selling up the value chain.",
+    "maturity": "demonstration",
+    "white_space": "Upcycling sidesteps the 'cheaper-than-virgin' trap by targeting premium chemicals, but each product market is small; scaling requires multiple offtakes and the field is thin, leaving room for platforms that flexibly tune output to whatever specialty market pays most.",
+    "companies": [
+     {
+      "name": "Novoloop",
+      "role": "startup",
+      "what": "Lifecycling technology converts post-consumer polyethylene into polyols and TPU (Oistre) for footwear/performance materials",
+      "signal": "Closed $21M Series B (Taranis-led, Jun 2025), total >$50M; continuous ops at India demo plant; siting first commercial facility; partners incl. Bata family office",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20250624087075/en/Novoloop-Raises-$21-Million-Series-B-Funding-Led-by-Taranis-to-Scale-Circular-Performance-Materials"
+     },
+     {
+      "name": "GreenMantra Technologies",
+      "role": "startup",
+      "what": "Molecular (thermal-catalytic) recycling of waste PE/PP into specialty waxes and polymer additives; Brantford, Ontario",
+      "signal": ">$10M loan from Closed Loop Infrastructure Group to expand equipment, expected to lift specialty-product output ~50%",
+      "status": "operating",
+      "source": "https://www.closedlooppartners.com/closed-loop-partners-deploys-10-million-loan-to-greenmantra-technologies/"
+     }
+    ]
+   },
+   {
+    "name": "Textile fiber-to-fiber recycling",
+    "description": "Chemical and hydrothermal processes regenerate polyester and cellulose (cotton) from end-of-life garments and polycotton blends back into virgin-grade fibers, closing the loop on fashion waste that is otherwise landfilled or incinerated.",
+    "maturity": "demonstration",
+    "white_space": "Sorting and separating blended polycotton is the hard part, and the sector's first generation (Renewcell) went bankrupt before relaunching; survival now hinges on multi-year brand offtakes (H&M, Inditex, Nike) underwriting capex - so the opening is reliable feedstock collection/sorting infrastructure feeding these plants.",
+    "companies": [
+     {
+      "name": "Circ",
+      "role": "startup",
+      "what": "Hydrothermal process separating and recycling polycotton blends into both polyester and lyocell-grade pulp; planning world-first industrial polycotton plant at Saint-Avold, France",
+      "signal": "$25M raise (Taranis-led, Mar 2025) with Inditex and Avery Dennison; ~EUR450M / 70kt/yr French plant targeted 2028",
+      "status": "operating",
+      "source": "https://www.businessoffashion.com/articles/sustainability/fashion-recycling-startups-industrial-scale-plants-circ-reju-syre/"
+     },
+     {
+      "name": "Syre",
+      "role": "scaleup",
+      "what": "Textile-to-textile polyester depolymerization; H&M and Vargas-backed, building a $1B plant in Vietnam plus a 'blueprint' plant in North Carolina",
+      "signal": "$100M round; $600M 7-yr H&M offtake; NC plant ops 2026, Vietnam up to 250kt/yr by 2028",
+      "status": "operating",
+      "source": "https://www.businessoffashion.com/articles/sustainability/fashion-recycling-startups-industrial-scale-plants-circ-reju-syre/"
+     },
+     {
+      "name": "Ambercycle",
+      "role": "startup",
+      "what": "Molecular regeneration of polyester textile waste into cycora regenerated polyester; LA-based, building first commercial factory",
+      "signal": "Inditex 3-yr offtake worth >EUR70M plus equity investment; brand partners incl. Arc'teryx, Reformation, Ganni; Zara Athleticz capsule with up to 50% cycora",
+      "status": "operating",
+      "source": "https://www.ambercycle.com/news/inditex-signs-a-three-year-agreement-to-buy-textile-to-textile-recycled-polyester-cycora-r-for-over-eu70-million"
+     },
+     {
+      "name": "Circulose (formerly Renewcell)",
+      "role": "scaleup",
+      "what": "Recycles cotton-rich textile waste into Circulose dissolving pulp for new viscose/lyocell fibers; Ortviken plant, Sundsvall, Sweden",
+      "signal": "Renewcell went bankrupt (2024), relaunched as Circulose after Altor acquisition; restart of commercial production targeted Q4 2026",
+      "status": "operating",
+      "source": "https://www.businessoffashion.com/news/sustainability/exclusive-textile-recycler-circulose-is-restarting-its-recycling-plant/"
+     },
+     {
+      "name": "Reju",
+      "role": "startup",
+      "what": "Polyester regeneration (Technip Energies / IBM-derived VolCat chemistry); first industrial 'Regeneration Hub' at Chemelot, Netherlands",
+      "signal": "~50kt/yr capacity (equiv. ~300M articles/yr) targeted, construction toward 2028 operations",
+      "status": "operating",
+      "source": "https://www.businessoffashion.com/articles/sustainability/fashion-recycling-startups-industrial-scale-plants-circ-reju-syre/"
+     },
+     {
+      "name": "Eeden",
+      "role": "startup",
+      "what": "German startup chemically separating and recycling cotton-rich textiles into pulp for new fibers",
+      "signal": "Raised EUR18M Series A led by Forbion's BioEconomy Fund",
+      "status": "operating",
+      "source": "https://cen.acs.org/business/start-ups/Textile-recycling-tries-gain-second/104/web/2026/04"
+     },
+     {
+      "name": "Infinited Fiber Company",
+      "role": "scaleup",
+      "what": "Finnish; converts cellulose-rich textile waste into Infinna regenerated fiber; planned EUR220M flagship plant in Finland",
+      "signal": "~$84M raised (Series C); Zalando and brand investors; flagship plant timeline has slipped",
+      "status": "uncertain",
+      "source": "https://www.cbinsights.com/company/infinited-fiber"
+     }
+    ]
+   },
+   {
+    "name": "Tire and rubber recycling: recovered carbon black and devulcanization",
+    "description": "End-of-life tires are pyrolyzed to recover carbon black (rCB) and oil, or mechanically/thermally devulcanized to restore reusable rubber, displacing virgin carbon black and rubber in new tires - one of the more economically grounded circularity niches thanks to strong rCB demand.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Bolder Industries",
+      "role": "scaleup",
+      "what": "Tire pyrolysis producing BolderBlack (rCB) and BolderOil; plant in Maryville, MO, expanding to Terre Haute, IN and Antwerp, Belgium",
+      "signal": "Tiger Infrastructure growth investment (Feb 2025); 2025 Tyre Pyrolysis Award; Terre Haute (~6.6M tires/yr) due 2026; EU net-zero fund support",
+      "status": "operating",
+      "source": "https://www.recyclingtoday.com/news/bolder-industries-tire-recycling-pyrolysis-investment-tiger-infrastructure-usa-belgium/"
+     },
+     {
+      "name": "CIRCTEC",
+      "role": "scaleup",
+      "what": "Tire pyrolysis producing recovered carbon black, circular naphtha and marine fuel; opened Europe's largest tire-pyrolysis plant at Delfzijl, Netherlands",
+      "signal": "EUR150M raise (Novo Holdings + A.P. Moller Holding); plant opened Jan 2026, handling ~5% of Europe's end-of-life tires; output fully sold via BP and Birla Carbon offtakes",
+      "status": "operating",
+      "source": "https://weibold.com/circtec-secures-150-million-euro-investment-to-build-europes-largest-tire-pyrolysis-facility"
+     },
+     {
+      "name": "Pyrum Innovations",
+      "role": "scaleup",
+      "what": "Thermolysis (pyrolysis) of tires into rCB and tire pyrolysis oil; supplies rCB to Continental; expanding in Germany and Czech Republic",
+      "signal": "New German plant (breaking ground late 2025) ~doubles rCB/TPO output; Czech JV with SUAS; plants planned in Greece",
+      "status": "operating",
+      "source": "https://weibold.com/pyrum-innovations-ag-to-establish-pyrolysis-plant-for-tire-recycling-in-czech-republic"
+     },
+     {
+      "name": "Wastefront",
+      "role": "startup",
+      "what": "Tire pyrolysis to recovered carbon black and biofuels; first plant planned in the UK (Sunderland)",
+      "signal": "Oslo-based; partnerships with VTTI, ENSO and Gateway Resources; targets ~80% emissions cut vs virgin carbon black",
+      "status": "operating",
+      "source": "https://www.waste360.com/waste-recycling/wastefront-on-track-to-make-carbon-black-and-biofuels-from-nine-million-waste-tires-a-year"
+     },
+     {
+      "name": "Tyromer",
+      "role": "startup",
+      "what": "Solvent-free extruder devulcanization of end-of-life tire rubber into Tire-Derived Polymer (TDP) for new tires; licensing model",
+      "signal": "Multi-year collaboration supplying devulcanized rubber to Continental; first plant in Windsor, Canada at ~9,000 t/yr TDP",
+      "status": "operating",
+      "source": "https://tyromer.com/"
+     },
+     {
+      "name": "Bridgestone",
+      "role": "incumbent",
+      "what": "Tire major building a pilot demonstration plant for 'precise pyrolysis' of end-of-life tires to enable tire-to-tire recycling",
+      "signal": "Announced pilot demonstration plant (2025) to accelerate horizontal tire recycling",
+      "status": "operating",
+      "source": "https://www.bridgestone.com/corporate/news/2025013001.html"
+     }
+    ]
+   },
+   {
+    "name": "Carbon fiber and composite reclamation",
+    "description": "Pyrolysis, solvolysis or plasma processes recover high-value carbon fiber from aerospace scrap, end-of-life parts and wind-blade composites, salvaging fiber worth far more than virgin alternatives from material that is otherwise landfilled.",
+    "maturity": "demonstration",
+    "white_space": "Recovered fiber loses some mechanical performance and faces qualification hurdles in aerospace; supply of clean end-of-life feedstock is also lumpy, so the field is small - an opening exists for processes (like cold-plasma) that preserve fiber strength and for firms that lock up aerospace/wind scrap streams.",
+    "companies": [
+     {
+      "name": "Fairmat",
+      "role": "startup",
+      "what": "Recovers and reformats carbon-fiber composite scrap (aerospace, wind blades) into new high-performance recycled materials using a cold atmospheric-plasma process",
+      "signal": "Claims ~10x lower CO2 than conventional methods; collects aerospace parts, wind blades and manufacturing scrap; venture-backed, scaling in France/US",
+      "status": "operating",
+      "source": "https://www.fairmat.tech/"
+     },
+     {
+      "name": "Vartega",
+      "role": "startup",
+      "what": "Recycles carbon fiber from aerospace, automotive and wind scrap into EasyFeed/Fenix recycled fiber for compounding and thermoset uses",
+      "signal": "Secured ~$10M to scale recycled carbon fiber supply; US-based (Colorado)",
+      "status": "operating",
+      "source": "https://www.compositesworld.com/news/vartega-secures-10-million-to-promote-recycled-carbon-fiber"
+     }
+    ]
+   },
+   {
+    "name": "Wind-blade and thermoset epoxy chemolysis for industrial composites",
+    "description": "Chemical processes break the epoxy resin in cured thermoset composites - notably wind-turbine blades - back into reusable virgin-grade materials, solving the long-standing problem that thermosets cannot be melted or remolded like thermoplastics.",
+    "maturity": "pilot",
+    "white_space": "Epoxy chemolysis for blades is still lab-to-pilot and driven mainly by an OEM consortium (Vestas/Olin/Stena) rather than independent startups; with tens of thousands of tonnes of blades reaching end-of-life yearly, there is wide-open space for a dedicated commercial-scale operator once the chemistry proves out economically.",
+    "companies": [
+     {
+      "name": "Vestas",
+      "role": "incumbent",
+      "what": "Wind-turbine OEM commercializing a chemical process (from the CETEC initiative) that breaks epoxy-based blades into virgin-grade materials without redesigning blades",
+      "signal": "CETEC consortium (with Aarhus Univ., Danish Tech. Institute, Olin) demonstrated lab-scale; 2024 JEC Composites Innovation Award; scaling toward blade circularity",
+      "status": "operating",
+      "source": "https://www.compositesworld.com/news/vestas-unveils-circularity-solution-to-end-landfill-for-turbine-blades"
+     },
+     {
+      "name": "Stena Recycling",
+      "role": "incumbent",
+      "what": "Recycling partner in the Vestas/Olin blade-circularity chain, handling disassembly and material recovery of wind-blade composites",
+      "signal": "Co-recipient of the 2024 JEC Global Innovation Award (Renewable Energies) for the blade-recycling solution",
+      "status": "operating",
+      "source": "https://www.stenarecycling.com/news-insights/newsroom/2024/stena-recycling-awarded-for-wind-turbine-blade-circularity-solution/"
+     },
+     {
+      "name": "Olin Corporation",
+      "role": "incumbent",
+      "what": "Epoxy producer supplying the chemistry/know-how to convert recovered blade epoxy back into virgin-grade resin materials",
+      "signal": "Founding CETEC partner with Vestas; provides the chemical-recycling chemistry for the consortium",
+      "status": "operating",
+      "source": "https://www.vestas.com/en/media/company-news/2023/vestas-unveils-circularity-solution-to-end-landfill-for-c3710818"
+     }
+    ]
+   },
+   {
+    "name": "AI/robotic sorting, digital markers and feedstock prep",
+    "description": "Computer-vision AI, robotic pickers, hyperspectral/NIR sensors and invisible digital watermarks identify and separate plastics by polymer, color and brand at material recovery facilities, dramatically improving the purity and yield of recyclate that all downstream recycling depends on.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "AMP Robotics (AMP)",
+      "role": "scaleup",
+      "what": "AI vision + robotic sorters for MRFs (mixed recyclables, C&D, e-waste); also builds AI-run sortation facilities",
+      "signal": "Raised $91M Series D (Dec 2024, Congruent-led; Sequoia, XN, CalSTRS), ~$267M total; named to Time's 2025 Top 100 Innovations",
+      "status": "operating",
+      "source": "https://ampsortation.com/articles/amp-raises-91m-seriesd"
+     },
+     {
+      "name": "Greyparrot",
+      "role": "startup",
+      "what": "AI waste-analytics platform that classifies material streams on conveyor belts for MRFs and producers",
+      "signal": "Strategic partnership with Bollegraaf (EUR12.8M investment + AI-vision business transfer); ~GBP24.3M Series B (2026); Time Top 100 2025",
+      "status": "operating",
+      "source": "https://www.recyclingtoday.com/news/bollegraaf-greyparrot-launch-strategic-ai-partnership/"
+     },
+     {
+      "name": "Glacier",
+      "role": "startup",
+      "what": "Compact AI-powered recycling robots and material-data analytics for MRFs",
+      "signal": "Raised $16M Series A (2025) plus earlier $7.7M (Amazon Climate Pledge Fund, NEA), ~$28M total; Time Top 100 2025",
+      "status": "operating",
+      "source": "https://www.wastedive.com/news/glacier-series-a-funding-recology-seattle-mrf-robotics-ai/746774/"
+     },
+     {
+      "name": "Recycleye",
+      "role": "startup",
+      "what": "Computer-vision + robotic waste sorting (Recycleye Vision and Robotics) for material recovery",
+      "signal": "~$23.4M raised over 6 rounds; latest Series A Oct 2024; UK-based",
+      "status": "operating",
+      "source": "https://pitchbook.com/profiles/company/399446-02"
+     },
+     {
+      "name": "Digimarc",
+      "role": "incumbent",
+      "what": "Imperceptible digital watermarks embedded across packaging artwork, read by MRF sorters to identify polymer/brand (basis of HolyGrail 2.0)",
+      "signal": "Pivoted go-to-market toward producer-responsibility orgs/central buyers for scale (2024-25)",
+      "status": "operating",
+      "source": "https://www.packagingdive.com/news/digimarc-recycle-watermarking-expansion-epr/708666/"
+     },
+     {
+      "name": "Polytag",
+      "role": "startup",
+      "what": "Invisible UV-readable GS1 tags printed on labels, detected by Polytag readers for item-level recycling tracking; open/interoperable",
+      "signal": "Partnerships with Pellenc ST (sorting), Saica Flex and Paragon Inks for UV-tagged labels",
+      "status": "operating",
+      "source": "https://polytag.io/products/invisible-uv-tags/"
+     },
+     {
+      "name": "Bollegraaf",
+      "role": "incumbent",
+      "what": "Global MRF sorting-systems builder integrating AI vision (via Greyparrot) into recycling-plant retrofits",
+      "signal": "Transferred its AI-vision business to Greyparrot, took a non-controlling stake (EUR12.8M) and became worldwide distributor",
+      "status": "operating",
+      "source": "https://www.recyclingtoday.com/news/bollegraaf-greyparrot-launch-strategic-ai-partnership/"
+     }
+    ]
+   },
+   {
+    "name": "Mixed-plastic feedstock aggregation and pre-processing",
+    "description": "Specialized 'circularity centers' collect, sort and engineer hard-to-recycle mixed plastics into consistent custom feedstock blends for both mechanical and advanced recyclers - solving the feedstock-supply bottleneck that has starved and sunk many chemical-recycling plants.",
+    "maturity": "demonstration",
+    "white_space": "Feedstock prep is the quiet linchpin of the whole bucket: pyrolysis plants failed partly for lack of clean, consistent input. Cyclyx is nearly alone at scale, so there is white space for independent aggregators that de-risk advanced recyclers by guaranteeing engineered feedstock.",
+    "companies": [
+     {
+      "name": "Cyclyx International",
+      "role": "scaleup",
+      "what": "Feedstock-management JV (Agilyx, ExxonMobil, LyondellBasell) building Circularity Centers that engineer custom mixed-plastic feedstock blends",
+      "signal": "Houston CCC1 starting up 2025; Fort Worth CCC2 ($135M, ~300M lb/yr) targeted H2 2026; 2026 restructuring splits center ownership among the partners",
+      "status": "operating",
+      "source": "https://www.wastedive.com/news/agilyx-leaves-chemical-recycling-operations-greendot/811474/"
+     },
+     {
+      "name": "Agilyx",
+      "role": "scaleup",
+      "what": "Polystyrene depolymerization and feedstock pre-processing; co-founder of Cyclyx, taking ownership of the Dallas-area circularity center",
+      "signal": "2026 unwinding of the Cyclyx JV reallocates assets; Agilyx to own the Dallas-area center while Exxon/LYB take Houston",
+      "status": "operating",
+      "source": "https://www.wastedive.com/news/agilyx-leaves-chemical-recycling-operations-greendot/811474/"
+     }
+    ]
+   }
+  ]
+ }
+}

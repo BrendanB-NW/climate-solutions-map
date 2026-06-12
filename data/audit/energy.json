@@ -1,0 +1,117 @@
+{
+ "status_flags": [
+  {
+   "company": "SkySails Power",
+   "finding": "Census lists 'operating' with official start of sales; in fact filed for insolvency Dec 9, 2025 (Hamburg District Court, provisional administrator Tjark Thies, ~120 employees) after a failed financing round. Operations continuing while it seeks rescue investors; status should be distressed/uncertain, not clean operating.",
+   "evidence": "https://deutschlandinenglish.com/p/skysails-power-gmbh-files-for-insolvency-amid-financial-challenges"
+  },
+  {
+   "company": "AW-Energy",
+   "finding": "Census lists 'operating' with USD 19.1M 2024 revenue; the company filed for bankruptcy (~2025) and is now marked inactive/'deadpooled' by PitchBook, Tracxn and CB Insights. Status should be bankrupt-shutdown \u2014 a major correction since it was the longest-running wave-energy player with real revenue.",
+   "evidence": "https://www.latitudemedia.com/news/are-thiel-funded-floating-data-centers-enough-to-make-wave-energy-pencil/ (also https://tracxn.com/d/companies/awenergy/__wbtjMrsggUKjOpPiITiZk4F_rab1yP39CB6W4zh6tDw)"
+  },
+  {
+   "company": "EnerVenue",
+   "finding": "Operating status correct, but the signal 'Kentucky gigafactory built' is misleading: EnerVenue vacated/abandoned the Kentucky plant in Nov 2024 without ramping (site taken over by Canadian Solar) and moved all high-volume manufacturing to Changzhou, China \u2014 which creates FEOC/domestic-content exposure worth noting alongside the $300M Series B.",
+   "evidence": "https://www.energy-storage.news/canadian-solar-to-manufacture-bess-and-cells-at-kentucky-plant-after-enervenue-backs-out/"
+  },
+  {
+   "company": "Aptera Motors",
+   "finding": "Needs update and nuance: no longer purely pre-production \u2014 first vehicle came off its low-volume validation line Mar 3, 2026, with first customer deliveries targeted late 2026. But Q1 2026 10-Q discloses ~$17.7M cash vs $1.7-2.0M/month burn, management states cash is insufficient for the next 12 months, and it needs another $45-50M for low-volume production ($140-160M for high volume). Operating but with explicit going-concern risk.",
+   "evidence": "https://www.stocktitan.net/sec-filings/SEV/10-q-aptera-motors-corp-quarterly-earnings-report-c9afe8127b02.html"
+  },
+  {
+   "company": "ESS Tech (ESS Inc.)",
+   "finding": "'Uncertain' status remains apt but the evidence is stale: as of May-June 2026 ESS is still operating after a ~$31M financing injection, reported Q2 2025 revenue up 578% YoY, won a $9.9M USAF/CTC contract, and acquired insolvent German rival VoltStorage's IP \u2014 yet going-concern doubt persists and it says it needs additional debt/equity.",
+   "evidence": "https://www.energy-storage.news/flow-battery-startup-ess-tech-inc-looks-to-acquisitions-big-name-us-partnerships-for-hope-in-future-profitability/"
+  },
+  {
+   "company": "AgriSolar",
+   "finding": "Census flags 'uncertain' \u2014 verification supports going further: no primary evidence the company exists (no website, press release, or independent coverage found); the $15M Series A claim traces only to the same Market Research Future agrivoltaics report. Likely a market-report artifact; recommend removing or annotating as unverifiable.",
+   "evidence": "https://www.marketresearchfuture.com/reports/agrivoltaics-market-33648 (sole circulating source; no corroboration found)"
+  }
+ ],
+ "missing": [
+  {
+   "where": "Solar / Utility-scale crystalline silicon PV",
+   "what": "JA Solar and Canadian Solar \u2014 two of the global top-5 module suppliers (Canadian Solar also a top-10 BESS integrator via e-STORAGE); their absence from the module-maker roster is the most obvious gap a PV analyst would catch."
+  },
+  {
+   "where": "Solar (missing variation): upstream polysilicon/ingot/wafer supply chain",
+   "what": "Tongwei (world's largest cell/polysilicon maker), GCL Technology, Daqo, Wacker, Hemlock \u2014 the census covers no upstream at all, even though polysilicon/wafer is where Chinese concentration risk and the 2024-25 price collapse live (and where REC Silicon's US restart just failed)."
+  },
+  {
+   "where": "Solar / distributed & utility-scale (missing variation): PV inverters & power conversion",
+   "what": "Huawei \u2014 the world's No. 1 inverter supplier by shipments \u2014 appears nowhere; Sungrow appears only via floating/BESS arms. Inverters/PCS are the decisive electrical BOS layer and a census of solar supply without the Huawei-Sungrow duopoly is visibly incomplete."
+  },
+  {
+   "where": "Wind (missing variation): blade & drivetrain component manufacturing",
+   "what": "TPI Composites \u2014 world's largest independent wind-blade maker, Chapter 11 Aug 2025 (T\u00fcrkiye plants sold, Vestas stalking-horse for the rest) \u2014 plus LM Wind Power (GE) and gearbox makers (ZF/Winergy). The census covers OEMs and blade recycling but skips the component tier whose distress defined 2024-25 wind economics."
+  },
+  {
+   "where": "Electrochemical Storage / Lithium-ion grid BESS",
+   "what": "EVE Energy (top-2 global ESS cell supplier), HyperStrong (China's No. 1 and a global top-3 BESS integrator), and W\u00e4rtsil\u00e4 ES&O (leading Western integrator alongside Fluence) \u2014 all bigger players than several names listed."
+  },
+  {
+   "where": "Electrochemical Storage (missing variation): battery recycling & materials circularity",
+   "what": "Redwood Materials, Li-Cycle (CCAA May 2025, acquired by Glencore Aug 2025), Ascend Elements, Cirba Solutions \u2014 census covers PV recycling, blade recycling and second-life packs but not cell recycling, the largest circularity industry in the sector."
+  },
+  {
+   "where": "Nuclear Fission / Large light-water reactors",
+   "what": "Framatome (EPR co-builder and one of the West's two major fuel/reactor-services firms) and AtkinsR\u00e9alis/CANDU Energy (only heavy-water reactor vendor; Candu Monark, Cernavoda units, and the global CANDU refurbishment franchise) are both absent."
+  },
+  {
+   "where": "Nuclear Fission / Fuel cycle & enrichment",
+   "what": "Kazatomprom \u2014 the world's largest uranium producer (~20%+ of mined supply); listing Cameco alone hides where front-end supply concentration actually sits."
+  },
+  {
+   "where": "Thermal & Mechanical LDES / High-temperature thermal batteries",
+   "what": "Hyme Energy (Denmark, Seaborg spin-out) \u2014 molten hydroxide salt heat storage with industrial pilots (Esbjerg/Bornholm); one of the few credible European molten-salt thermal startups and a natural peer to Kyoto Group/Malta."
+  },
+  {
+   "where": "Fusion / Fusion supply chain (tritium handling)",
+   "what": "Marathon Fusion (San Francisco; tritium fuel-processing/pumping components, venture-funded 2024-25) \u2014 directly relevant because the variation's white-space claims tritium handling has 'almost no independent players.'"
+  }
+ ],
+ "notable_failures": [
+  "Meyer Burger \u2014 premium European+US heterojunction module manufacturing against Chinese pricing \u2014 German/Swiss insolvency and US Chapter 11, >900 layoffs; US assets and patents sold to Swift Solar (2025)",
+  "SunPower \u2014 once-leading US residential solar sales/dealer platform \u2014 Chapter 11; brands and units sold to Complete Solaria for $45M (2024)",
+  "Sunnova \u2014 major US residential solar TPO financier \u2014 Chapter 11 with >$8B liabilities after DOE rescinded its partial loan guarantee (2025)",
+  "Titan Solar Power \u2014 one of the largest US dealer-model residential installers \u2014 abrupt shutdown, then bankruptcy (2024)",
+  "Lumio \u2014 PE-backed US residential solar installer roll-up \u2014 Chapter 11, sold to lender White Oak (2024)",
+  "iSun \u2014 listed US solar EPC/installer \u2014 Chapter 11 and asset sale (2024)",
+  "Pink Energy (PowerHome Solar) \u2014 US residential installer \u2014 abrupt collapse amid state consumer-protection lawsuits (2022)",
+  "Sunlight Financial \u2014 residential solar loan platform \u2014 Chapter 11 and distressed sale (2023)",
+  "Toledo Solar \u2014 US CdTe thin-film challenger to First Solar \u2014 ceased operations after First Solar IP lawsuit (2024)",
+  "REC Silicon \u2014 restart of US granular polysilicon (Moses Lake) for a domestic solar supply chain \u2014 failed product qualification, plant shut, exited polysilicon (2024-25)",
+  "Ubiquitous Energy \u2014 transparent solar-window coatings (>$70M raised) \u2014 staff terminated and wound down (2024)",
+  "Lightyear \u2014 solar passenger car \u2014 bankrupt weeks after starting production; IP pivot never scaled (2023)",
+  "Sono Motors \u2014 Sion solar car \u2014 program cancelled after ~$330M spent; company survived only by shrinking to solar retrofit kits for buses/vans (2023)",
+  "ASCA (Armor Group) \u2014 roll-to-roll printed organic PV films \u2014 liquidated by Armor on poor cost/return; brand and IP picked up by construction firm Hering Group (2023)",
+  "Ampyx Power \u2014 utility-scale rigid-wing airborne wind \u2014 bankrupt after ~EUR 50M raised vs ~EUR 500M need; concept continued by successor Mozaero (2023)",
+  "SkySails Power \u2014 closest-to-market airborne wind kite systems \u2014 filed for insolvency in Hamburg while seeking rescue investors (2025)",
+  "TPI Composites \u2014 world's largest independent wind turbine blade maker \u2014 Chapter 11 in Texas; Turkish plants sold, Vestas stalking-horse for remaining assets (2025)",
+  "Sustainable Marine Energy \u2014 floating tidal platforms, first floating tidal power to Canada's grid \u2014 withdrew from Bay of Fundy project blaming permitting, entered administration (2023)",
+  "Wello Oy \u2014 Penguin rotating-mass wave converter \u2014 bankruptcy after two full-scale devices failed at sea (2023)",
+  "AW-Energy \u2014 WaveRoller nearshore wave converter, the sector's longest-running revenue-generating player \u2014 filed for bankruptcy (2025)",
+  "Ultra Safe Nuclear Corporation \u2014 gas-cooled microreactors and TRISO fuel \u2014 Chapter 11 mid-demonstration; fuel assets reborn as Standard Nuclear (2024)",
+  "U-Battery \u2014 4 MWe HTGR microreactor consortium \u2014 wound down after Urenco found no commercial investors; IP to UK NNL (2023)",
+  "NuScale/UAMPS Carbon Free Power Project \u2014 first NRC-licensed US SMR deployment \u2014 cancelled on cost escalation, the SMR demand-side cautionary tale (2023)",
+  "Northvolt \u2014 Europe's flagship battery manufacturer incl. its largest BESS systems plant \u2014 bankruptcy; factories acquired by Lyten (2024-25)",
+  "Morrow Batteries \u2014 Norwegian LFP cell maker targeting stationary storage \u2014 filed for bankruptcy (2025)",
+  "Powin \u2014 top-3 US grid BESS integrator (11+ GWh installed) \u2014 Chapter 11; assets sold to FlexGen for $36M (2025)",
+  "Natron Energy \u2014 US sodium-ion pioneer for data-center power \u2014 shut down after funding fell through; $1.4B NC gigafactory cancelled (2025)",
+  "Redflow \u2014 Australian zinc-bromine flow batteries \u2014 voluntary administration, then liquidation (2024)",
+  "VoltStorage \u2014 German flow/iron-salt battery maker (EUR 66M raised) \u2014 insolvency and wind-down; IP and team acquired by ESS Tech (2024-25)",
+  "Ambri \u2014 calcium-antimony liquid-metal battery \u2014 Chapter 11, emerged under lender consortium at reduced scale (2024)",
+  "Moxion Power \u2014 mobile battery rental units for diesel-generator replacement \u2014 Chapter 7 shutdown after ~$110M raised (2024)",
+  "Britishvolt \u2014 UK 30+ GWh gigafactory venture \u2014 administration with minimal assets (2023)",
+  "Freyr Battery \u2014 Norwegian battery gigafactories \u2014 abandoned cell manufacturing entirely, pivoted to US solar as T1 Energy (2024-25)",
+  "Li-Cycle \u2014 North American lithium battery recycler (Rochester hub) \u2014 CCAA/Chapter 15 creditor protection; sold to Glencore for ~$40M vs ~$1B+ invested (2025)",
+  "Azelio \u2014 aluminum-alloy PCM storage with Stirling-engine output \u2014 abrupt bankruptcy after failing to raise (2023)",
+  "Heliogen \u2014 AI-aligned heliostat CSP SPAC valued ~$2B \u2014 demos cancelled, wound down into distressed sale to Zeo Energy (2025)",
+  "NGK Insulators (NAS line) \u2014 sole mass producer of sodium-sulfur grid batteries for 20+ years (~5 GWh fielded) \u2014 discontinued NAS manufacturing and new orders after BASF partnership talks ended (2025)",
+  "Corre Energy \u2014 listed European salt-cavern CAES developer \u2014 Dutch operating subsidiary bankrupt, group in distressed investor search (2025)",
+  "First Light Fusion \u2014 projectile-driven fusion power plants \u2014 abandoned its power-plant route, valuation cut >60%, pivoted to selling amplifier/target tech to other programs (2025)"
+ ]
+}

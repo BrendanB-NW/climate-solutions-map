@@ -1,0 +1,650 @@
+{
+ "sector": "cdr",
+ "bucket": "CO2 Transport & Geologic Storage",
+ "census": {
+  "bucket": "CO2 Transport & Geologic Storage",
+  "variations": [
+   {
+    "name": "CO2 trunk pipelines and regional aggregation networks",
+    "description": "Large-diameter pipelines (new-build or converted natural gas lines) gather CO2 from clusters of emitters and move it in dense phase to storage hubs; pipelines are by far the cheapest way to move large CO2 volumes onshore, making them the binding constraint on most CCS buildouts \u2014 and the most politically contested piece (eminent domain, siting).",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Kinder Morgan",
+      "role": "incumbent",
+      "what": "Operates the largest legacy US CO2 pipeline network (~1,500 miles incl. Cortez) feeding Permian EOR, the template for CO2 trunk economics.",
+      "signal": "Decades of operations moving >1 Bcf/d of CO2; positioning network for 45Q sequestration service",
+      "status": "operating",
+      "source": "https://www.kindermorgan.com"
+     },
+     {
+      "name": "ExxonMobil (Low Carbon Solutions)",
+      "role": "incumbent",
+      "what": "Owns the ~1,300-mile Denbury CO2 pipeline system on the Gulf Coast and is building it into an open CCS-as-a-service network for industrial emitters.",
+      "signal": "Acquired Denbury for $4.9B (Nov 2023); >5 Mtpa of third-party CO2 offtake contracts (CF Industries, Linde, Nucor)",
+      "status": "operating",
+      "source": "https://corporate.exxonmobil.com/news/news-releases/2024/10102024_exxonmobil-secures-largest-carbon-offshore-storage-site-in-the-us"
+     },
+     {
+      "name": "Summit Carbon Solutions",
+      "role": "scaleup",
+      "what": "Developing a ~2,500-mile Midwest trunk network aggregating CO2 from 50+ ethanol plants for North Dakota storage \u2014 the largest proposed CO2 pipeline in the world.",
+      "signal": "Raised >$1B (Continental Resources, TPG Rise, SK); Iowa permit 2024 but SD permit denied twice + 2025 SD eminent-domain ban; ND storage permit voided by court Mar 2026; rerouting west via Nebraska to Wyoming (May 2026)",
+      "status": "operating",
+      "source": "https://northdakotamonitor.com/2026/03/10/summit-permit-for-co2-storage-voided-as-second-judge-finds-north-dakota-law-unconstitutional/"
+     },
+     {
+      "name": "Navigator CO2 Ventures",
+      "role": "startup",
+      "what": "BlackRock-backed developer of the 1,300-mile Heartland Greenway ethanol CO2 pipeline across five Midwest states.",
+      "signal": "Cancelled the entire project Oct 2023 after permit denials in SD and IL opposition; company wound down \u2014 the marquee CO2 pipeline failure",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.spglobal.com/energy/en/news-research/blog/energy-transition/102523-navigator-co2-carbon-capture-heartland-greenway-pipeline-cancellation"
+     },
+     {
+      "name": "Wolf Midstream",
+      "role": "scaleup",
+      "what": "Owns and operates the Alberta Carbon Trunk Line (240 km, ~14.6 Mtpa design capacity \u2014 world's largest-capacity CO2 pipeline) and is expanding Edmonton-area connections.",
+      "signal": "ACTL operating since 2020; US affiliate Wolf Carbon Solutions withdrew its Iowa/Illinois pipeline applications (2023-24) after opposition",
+      "status": "operating",
+      "source": "https://pipelinefighters.org/news/victory-for-landowners-wolf-carbon-solutions-withdraws-co2-pipeline-project-application-at-iowa-utilities-commission/"
+     },
+     {
+      "name": "Tallgrass Energy",
+      "role": "incumbent",
+      "what": "Converted the 392-mile Trailblazer natural gas line to CO2 service (Nebraska ethanol belt to its Eastern Wyoming sequestration hub) \u2014 proving brownfield conversion beats greenfield permitting.",
+      "signal": "~$1.5B project in commercial CO2 service Sept 2025; ADM Columbus volumes flowing Nov 2025; >10 Mtpa capacity; new open season May 2026",
+      "status": "operating",
+      "source": "https://pgjonline.com/news/2025/september/tallgrass-392-mile-trailblazer-pipeline-to-begin-co2-transport-from-nebraska-to-wyoming"
+     },
+     {
+      "name": "Gasunie",
+      "role": "incumbent",
+      "what": "Dutch state gas TSO building the Porthos CO2 collection pipeline/compressor for Rotterdam and co-developing the ~22 Mtpa Aramis offshore trunkline; already runs the OCAP CO2 line to greenhouses.",
+      "signal": "Porthos operational 2026; Aramis FID targeted 2026 with \u20ac639M Dutch state support; Gasunie/EBN to own the trunkline 50/50",
+      "status": "operating",
+      "source": "https://www.gasunie.nl/en/news/aramis-takes-next-step-towards-investment-decision"
+     }
+    ]
+   },
+   {
+    "name": "CO2 shipping (liquefied CO2 carriers with port liquefaction/buffer terminals)",
+    "description": "CO2 is liquefied and buffered at port terminals, then moved in pressurized refrigerated carriers to offshore storage hubs \u2014 giving dispersed coastal emitters access to storage without dedicated pipelines, and creating a flexible cross-border CO2 market (now recognized under the EU ETS).",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Northern Lights JV (Equinor/Shell/TotalEnergies)",
+      "role": "incumbent",
+      "what": "Runs the world's first full-chain CO2 shipping service: purpose-built 7,500 cbm LCO2 carriers shuttle CO2 from European emitters to its \u00d8ygarden receiving terminal in Norway.",
+      "signal": "First commercial cargo shipped and injected Aug-Sep 2025; fleet of 4 ships (3rd, Northern Phoenix, named Apr 2025 under Bernhard Schulte charter); Phase 2 expansion to >5 Mtpa sanctioned",
+      "status": "operating",
+      "source": "https://cen.acs.org/environment/greenhouse-gases/Northern-Lights-injects-first-carbon/103/web/2025/09"
+     },
+     {
+      "name": "Ecolog",
+      "role": "startup",
+      "what": "Pure-play LCO2 shipping company planning the largest dedicated fleet, using medium-pressure carrier designs to cut transport cost.",
+      "signal": "Plans 65 vessels on the water by 2035; construction of first ships began Mar 2025 for 2027 delivery",
+      "status": "operating",
+      "source": "https://www.modernpowersystems.com/analysis/transporting-carbon-steering-a-course-to-a-sustainable-future/"
+     },
+     {
+      "name": "Knutsen NYK Carbon Carriers (KNCC)",
+      "role": "scaleup",
+      "what": "Knutsen-NYK JV commercializing elevated-pressure, ambient-temperature LCO2 tank technology (LCO2-EP) that skips deep refrigeration.",
+      "signal": "AiPs from ClassNK and ABS for designs up to 40,000 cbm; high-pressure shipping studies with terminal partners",
+      "status": "operating",
+      "source": "https://www.offshore-energy.biz/kncc-and-pace-complete-study-on-high-pressure-lco2-shipping/"
+     },
+     {
+      "name": "Capital Clean Energy Carriers",
+      "role": "scaleup",
+      "what": "Nasdaq-listed owner that placed the first speculative orders for large ammonia/LCO2-capable low-pressure carriers.",
+      "signal": "4x 22,000 cbm LCO2 carriers ordered at HD Hyundai Mipo (2023); first vessel floated out Apr 2025",
+      "status": "operating",
+      "source": "https://www.offshoreco2.com/post/the-emerging-market-for-lco2-carriers-shipbuilding-and-prospects"
+     },
+     {
+      "name": "Mitsui O.S.K. Lines (MOL)",
+      "role": "incumbent",
+      "what": "Operates Japan's demonstration LCO2 carrier for the national CCUS program and invested in Larvik Shipping to build Asia-Pacific CO2 shuttle capability.",
+      "signal": "Demo LCO2 carrier in service for Japanese CCS trials since 2024; multiple AiPs for larger carriers and floating LCO2 storage",
+      "status": "operating",
+      "source": "https://www.nyk.com/english/news/2025/20250327_02.html"
+     },
+     {
+      "name": "Larvik Shipping",
+      "role": "incumbent",
+      "what": "Norwegian operator that has shipped industrial food-grade CO2 since 1988 \u2014 the only company with decades of LCO2 marine operating experience, now applied to CCS.",
+      "signal": "35+ years of LCO2 cargo operations; MOL took an ownership stake to access its know-how",
+      "status": "operating",
+      "source": "https://maritime-executive.com/article/buildout-continues-of-emerging-co2-carriers-for-ccs"
+     },
+     {
+      "name": "HD Korea Shipbuilding & Offshore Engineering (HD KSOE)",
+      "role": "incumbent",
+      "what": "Dominant shipbuilder for the emerging LCO2 carrier orderbook (HD Hyundai Mipo yard), setting the de facto standard for 22k-40k cbm designs.",
+      "signal": "Holds the majority of global LCO2 newbuild orders incl. Capital Clean Energy and Greek/Japanese owners",
+      "status": "operating",
+      "source": "https://www.offshoreco2.com/post/the-emerging-market-for-lco2-carriers-shipbuilding-and-prospects"
+     },
+     {
+      "name": "CO2next (Gasunie/Vopak/Shell/TotalEnergies)",
+      "role": "incumbent",
+      "what": "Open-access LCO2 import/buffer terminal at Rotterdam Maasvlakte that will receive ship-borne CO2 and feed it into the Aramis offshore storage trunkline.",
+      "signal": "Development continuing toward FID alongside Aramis (expected 2026)",
+      "status": "operating",
+      "source": "https://www.porthosco2.nl/en/faq/how-do-the-porthos-aramis-and-co2next-projects-compare/"
+     },
+     {
+      "name": "Dan-Unity CO2",
+      "role": "startup",
+      "what": "Danish JV (Evergas/Ultragas) launched in 2021 as the first dedicated CO2 shipping company, targeting Danish and Icelandic storage trades.",
+      "signal": "Early MOUs (incl. with Carbfix) but no confirmed newbuild orders or recent activity found in 2024-2026 coverage",
+      "status": "uncertain",
+      "source": "https://www.rivieramm.com/news-content-hub/news-content-hub/150-175-gigatonnes-of-co2-will-need-to-be-shipped-annually-77325"
+     }
+    ]
+   },
+   {
+    "name": "Rail, barge, and truck CO2 logistics",
+    "description": "Cryogenic tank trailers, rail tank cars, and inland-waterway barges move liquefied CO2 in small parcels \u2014 already routine in the merchant (food-grade) CO2 business and now the bridge for emitters too small or stranded to justify a pipeline, or while pipelines are stuck in permitting.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Linde",
+      "role": "incumbent",
+      "what": "World's largest industrial-gas company; operates the biggest merchant CO2 liquefaction and trucking system, the existing template for small-parcel CO2 logistics.",
+      "signal": "Decades of merchant CO2 distribution; also a CCS project partner (e.g., contracted storage with ExxonMobil)",
+      "status": "operating",
+      "source": "https://www.linde.com"
+     },
+     {
+      "name": "Air Liquide",
+      "role": "incumbent",
+      "what": "Runs merchant CO2 liquefaction and truck distribution networks across Europe/US and is building port-side CO2 liquefaction capacity for CCS export chains.",
+      "signal": "Multiple CO2 liquefaction units tied to North Sea CCS export projects announced 2023-2025",
+      "status": "operating",
+      "source": "https://www.airliquide.com"
+     },
+     {
+      "name": "Messer",
+      "role": "incumbent",
+      "what": "Largest privately held industrial gas company; significant merchant CO2 sourcing, liquefaction and trucking in Europe and the Americas.",
+      "signal": "Long-established CO2 distribution business across 30+ countries",
+      "status": "operating",
+      "source": "https://www.messergroup.com"
+     },
+     {
+      "name": "Nippon Gases",
+      "role": "incumbent",
+      "what": "European arm of Nippon Sanso; merchant CO2 logistics operator participating in early ship/rail CO2 supply chains for European CCS clusters.",
+      "signal": "Operates CO2 liquefaction and distribution across Europe; partner in CCS logistics studies",
+      "status": "operating",
+      "source": "https://nippongases.com"
+     },
+     {
+      "name": "Chart Industries",
+      "role": "incumbent",
+      "what": "Builds the hardware layer of small-parcel CO2 logistics: cryogenic storage tanks, road trailers, ISO containers and liquefaction skids.",
+      "signal": "Acquisition by Baker Hughes (~$13.6B, announced Jul 2025) pending/closing 2026, folding CO2 logistics kit into an oilfield major",
+      "status": "operating",
+      "source": "https://www.chartindustries.com"
+     },
+     {
+      "name": "HGK Shipping",
+      "role": "incumbent",
+      "what": "Europe's largest inland-waterway operator, designing dedicated LCO2 barges to feed Rhine/ARA-region CO2 to Rotterdam/Antwerp export terminals.",
+      "signal": "Classification-approved inland LCO2 vessel designs unveiled 2023-2024 for German industrial CCS chains",
+      "status": "operating",
+      "source": "https://www.globalccsinstitute.com/wp-content/uploads/2025/11/Global-CCS-Institute-Needs-Opportunities-and-Prospects-for-CO2-Shipping-in-CCS-Projects.pdf"
+     }
+    ],
+    "white_space": "Few credible CCS-dedicated players because rail/truck costs ~2-4x pipeline at scale, so the mode stays niche (<100 ktpa sources); the opening is standardized LCO2 railcar fleets and transload terminals serving stranded ethanol/biogas plants in the post-Navigator Midwest, and inland-barge feeder systems into Rotterdam/Antwerp hubs \u2014 currently served only by food-grade incumbents with no pure-play startup."
+   },
+   {
+    "name": "Onshore saline aquifer storage developers (Class VI projects)",
+    "description": "Developers characterize sites, obtain Class VI (or state-primacy) injection permits, and drill wells into deep saline formations \u2014 the largest and most widely distributed storage resource \u2014 selling pore space as a fee-per-tonne disposal service backed by 45Q's $85/t.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "1PointFive (Occidental)",
+      "role": "scaleup",
+      "what": "Building saline sequestration hubs sized for both DAC and industrial CO2, anchored to Oxy's Permian and Gulf Coast land positions.",
+      "signal": "EPA Class VI permits for Stratos DAC sequestration granted Apr 2025 (first ever for DAC); King Ranch South Texas hub application under review",
+      "status": "operating",
+      "source": "https://www.globenewswire.com/news-release/2025/04/07/3057158/0/en/Occidental-and-1PointFive-Secure-Class-VI-Permits-for-STRATOS-Direct-Air-Capture-Facility.html"
+     },
+     {
+      "name": "BKV Corporation (dCarbon Ventures)",
+      "role": "scaleup",
+      "what": "Gas producer running its own CCS business: injects gas-processing CO2 at Barnett Zero and is expanding to additional Texas sites.",
+      "signal": "Barnett Zero injecting since Nov 2023; second project Cotton Cove (Tarrant Co., TX) with EPA-approved MRV plan Jul 2025",
+      "status": "operating",
+      "source": "https://www.epa.gov/system/files/documents/2025-07/cotton_cove_decision.pdf"
+     },
+     {
+      "name": "ADM",
+      "role": "incumbent",
+      "what": "Operates the first US commercial-scale saline storage wells (Decatur, Illinois, Mt. Simon sandstone) tied to its corn processing plant.",
+      "signal": "~4.5 Mt stored cumulatively; 2024 monitoring-well leak (8,000 t) triggered EPA enforcement; injections resumed Aug 2025 under final EPA order",
+      "status": "operating",
+      "source": "https://www.taxpayer.net/energy-natural-resources/adm-carbon-storage-site-restarts-injection/"
+     },
+     {
+      "name": "Carbon TerraVault (California Resources)",
+      "role": "incumbent",
+      "what": "Repurposing California reservoir positions into permitted storage vaults with a Brookfield JV funding development.",
+      "signal": "Received California's first EPA Class VI permits (CTV I, end-2023); multiple CDMAs signed with emitters",
+      "status": "operating",
+      "source": "https://www.californiaresources.com"
+     },
+     {
+      "name": "Milestone Carbon",
+      "role": "startup",
+      "what": "Sequestration-hub arm of Milestone Environmental Services (largest US energy-waste injection company), developing Permian/Midland Basin saline hubs for gas processors.",
+      "signal": "Multiple Texas hub sites under development leveraging parent's 40+ injection-well operating record",
+      "status": "operating",
+      "source": "https://milestone-es.com"
+     },
+     {
+      "name": "Gulf Coast Sequestration",
+      "role": "startup",
+      "what": "Landowner-led storage hub on the McCall family's SW Louisiana acreage, among the first independent Class VI applicants on the Gulf Coast.",
+      "signal": "EPA draft Class VI permits issued 2024 for its Calcasieu Parish hub",
+      "status": "operating",
+      "source": "https://gulfcoastsequestration.com"
+     },
+     {
+      "name": "Tenaska",
+      "role": "incumbent",
+      "what": "Private power developer assembling one of the largest US portfolios of independent CO2 storage hubs (10+ sites across TX, LA, MS, OH and more).",
+      "signal": "Multiple Class VI applications in EPA/state queues across several states",
+      "status": "operating",
+      "source": "https://www.tenaska.com"
+     },
+     {
+      "name": "Wabash Carbon Services (Wabash Valley Resources)",
+      "role": "startup",
+      "what": "Holds EPA Class VI permits to store CO2 from its Indiana ammonia/syngas plant in the Mt. Simon formation.",
+      "signal": "Two Class VI well permits issued 2024; project advancing through financing amid local opposition",
+      "status": "operating",
+      "source": "https://betterenergy.org/blog/epas-class-vi-well-program-key-to-deploying-co2-geologic-storage/"
+     },
+     {
+      "name": "Vault 44.01",
+      "role": "startup",
+      "what": "Calgary-based end-to-end storage developer holding Alberta carbon sequestration evaluation rights (Rocky Mountain Carbon Vault near Edson; Athabasca Banks hub with Moraine Initiatives).",
+      "signal": "Awarded Alberta hub evaluation rights; partner on Rocky Mountain Carbon BECCS storage",
+      "status": "operating",
+      "source": "https://www.vault4401.com/"
+     }
+    ]
+   },
+   {
+    "name": "Offshore storage hubs (subsea saline formations and depleted fields)",
+    "description": "Hub operators combine shared transport (pipelines or ships) with subsea injection wells beneath the seabed, selling open-access storage-as-a-service to industrial clusters \u2014 avoiding onshore landowner conflict and serving Europe and Asia where onshore storage is constrained.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Northern Lights JV",
+      "role": "incumbent",
+      "what": "Equinor/Shell/TotalEnergies JV operating the world's first open-access cross-border offshore storage service (Aurora saline formation, 2,600 m under the Norwegian North Sea).",
+      "signal": "First CO2 injected Aug 2025 (Heidelberg Materials Brevik cement); Phase 2 to >5 Mtpa under EPC with SLB OneSubsea; first storage certificates issued",
+      "status": "operating",
+      "source": "https://totalenergies.com/news/press-releases/norway-northern-lights-facilities-completed-and-ready-store-co2"
+     },
+     {
+      "name": "Porthos",
+      "role": "incumbent",
+      "what": "Port of Rotterdam/Gasunie/EBN JV storing Rotterdam industrial CO2 in the depleted P18 gas field 20 km offshore \u2014 the Netherlands' first hub.",
+      "signal": "~2.5 Mtpa, fully contracted (Shell, ExxonMobil, Air Liquide, Air Products); operational 2026",
+      "status": "operating",
+      "source": "https://www.porthosco2.nl/en/faq/how-do-the-porthos-aramis-and-co2next-projects-compare/"
+     },
+     {
+      "name": "Aramis (TotalEnergies/Shell/EBN/Gasunie)",
+      "role": "incumbent",
+      "what": "Next-generation Dutch trunkline hub designed for ~22 Mtpa, taking both piped and shipped CO2 (via CO2next) to offshore storage fields.",
+      "signal": "Dutch state committed \u20ac639M (~$726M); FID expected 2026 with Gasunie/EBN owning the infrastructure",
+      "status": "operating",
+      "source": "https://carboncredits.com/netherlands-commits-726-million-to-aramis-ccs-project-as-shell-and-total-shift-strategies/"
+     },
+     {
+      "name": "Northern Endurance Partnership (bp/Equinor/TotalEnergies)",
+      "role": "incumbent",
+      "what": "Operates the transport-and-storage backbone for the UK East Coast Cluster, injecting into the Endurance saline aquifer offshore Teesside.",
+      "signal": "FID Dec 2024 (~\u00a34B with UK government support); ~4 Mtpa initial, operations ~2028",
+      "status": "operating",
+      "source": "https://www.ccsassociation.org/ccus-in-action/ccus-in-the-uk/"
+     },
+     {
+      "name": "Storegga (Acorn)",
+      "role": "scaleup",
+      "what": "Independent UK developer leading the Acorn hub at St Fergus, Scotland (depleted fields + saline storage) with Shell, Harbour Energy and NSMP.",
+      "signal": "UK government committed development funding to Acorn in the June 2025 spending review; financial close targeted this Parliament",
+      "status": "operating",
+      "source": "https://www.gov.uk/government/news/funding-secured-for-britains-industrial-future"
+     },
+     {
+      "name": "Bayou Bend CCS (Chevron/TotalEnergies/Equinor)",
+      "role": "incumbent",
+      "what": "One of the largest US offshore/onshore storage positions (~140,000 acres in Texas state waters and Chambers County), Chevron-operated.",
+      "signal": "Appraisal wells drilled 2023-2024; Equinor bought in via Carbonvert's 25% stake (2024)",
+      "status": "operating",
+      "source": "https://www.chevron.com"
+     },
+     {
+      "name": "ExxonMobil",
+      "role": "incumbent",
+      "what": "Holds the largest US offshore CO2 storage lease (271,000 acres from the Texas General Land Office) complementing its onshore Gulf Coast network.",
+      "signal": "Record GLO lease executed Oct 2024; >5 Mtpa of emitter contracts feeding its Gulf storage system",
+      "status": "operating",
+      "source": "https://corporate.exxonmobil.com/news/news-releases/2024/10102024_exxonmobil-secures-largest-carbon-offshore-storage-site-in-the-us"
+     },
+     {
+      "name": "Petronas",
+      "role": "incumbent",
+      "what": "Building Kasawari CCS offshore Sarawak \u2014 the world's largest dedicated offshore CO2 processing platform (3.3 Mtpa into the M1 depleted field) \u2014 and positioning Malaysia as a storage hub for Japanese/Korean CO2 imports.",
+      "signal": "~$1B project; platform installed, first injection pulled forward to 2027; Malaysia CCUS Act passed 2025",
+      "status": "operating",
+      "source": "https://theedgemalaysia.com/node/798228"
+     }
+    ]
+   },
+   {
+    "name": "Depleted oil/gas field storage and CO2-EOR transition projects",
+    "description": "Re-using well-characterized depleted reservoirs (and CO2-EOR fields with existing pipelines and injection kit) cuts appraisal cost and time versus greenfield saline sites, though legacy wellbores add leak-management work; EOR operators are converting infrastructure to pure sequestration as 45Q now pays EOR and storage near-parity.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Occidental",
+      "role": "incumbent",
+      "what": "World's largest CO2-EOR operator (Permian) converting its CO2 pipelines, wells and subsurface expertise into a sequestration and DAC-anchored carbon management business.",
+      "signal": "Decades injecting ~20+ Mtpa for EOR; Stratos DAC + Class VI sequestration permits Apr 2025",
+      "status": "operating",
+      "source": "https://www.oxy.com/news/news-releases/occidental-and-1pointfive-secure-class-vi-permits-for-stratos-direct-air-capture-facility/"
+     },
+     {
+      "name": "Denbury",
+      "role": "incumbent",
+      "what": "The leading US CO2-EOR specialist and owner of the Gulf Coast 'Green Pipeline'; its network is now the backbone of ExxonMobil's CCS-as-a-service offering.",
+      "signal": "Acquired by ExxonMobil for $4.9B (Nov 2023) explicitly for its CO2 transport/storage value",
+      "status": "acquired",
+      "source": "https://www.ogj.com/pipelines-transportation/article/14302463/co2-pipeline-projects-struggle-to-gain-traction"
+     },
+     {
+      "name": "Santos",
+      "role": "incumbent",
+      "what": "Operates Moomba CCS, injecting into depleted Cooper Basin gas reservoirs onshore Australia at one of the lowest unit costs of any storage project.",
+      "signal": "1.7 Mtpa capacity; injecting since Oct 2024 with high uptime",
+      "status": "operating",
+      "source": "https://www.iea.org/energy-system/carbon-capture-utilisation-and-storage/co2-transport-and-storage"
+     },
+     {
+      "name": "Eni",
+      "role": "incumbent",
+      "what": "Converting depleted gas fields into storage hubs on two fronts: Ravenna CCS (Adriatic, injecting since Sept 2024) and HyNet/Liverpool Bay in the UK.",
+      "signal": "HyNet reached financial close Apr 2025 (~\u00a32B UK support; 4.5 Mtpa from ~2028); Ravenna phase 1 operating, targeting 4 Mtpa by 2030",
+      "status": "operating",
+      "source": "https://www.energyvoice.com/renewables-energy-transition/ccs/uk-ccs/571585/energy-sector-and-industrial-firms-react-to-2bn-hynet-carbon-capture-confirmation/"
+     },
+     {
+      "name": "INEOS Energy",
+      "role": "incumbent",
+      "what": "Leads Project Greensand, storing shipped CO2 in the depleted Nini oil field offshore Denmark \u2014 the EU's first operational full-scale CO2 storage facility.",
+      "signal": "World-first cross-border offshore injection pilot Mar 2023; Greensand Future commercial ops from end-2025/early-2026 at 0.4 Mtpa, scaling toward 8 Mtpa by 2030",
+      "status": "operating",
+      "source": "https://www.ineos.com/news/shared-news/ineos-led-greensand-to-become-the-first-full-scale-co2-storage-facility-in-eu-to-help-mitigate-climate-change/"
+     },
+     {
+      "name": "Perenco",
+      "role": "incumbent",
+      "what": "Developing Project Poseidon in the depleted Leman gas field (UK southern North Sea), re-using its own platforms and wells.",
+      "signal": "Completed the UK's first offshore CO2 injection test (Leman 27H, 15 cycles) Apr 2025",
+      "status": "operating",
+      "source": "https://www.ogj.com/energy-transition/article/55281024/perenco-concludes-co2-injection-test-at-project-poseidon"
+     },
+     {
+      "name": "Harbour Energy",
+      "role": "incumbent",
+      "what": "Developer of Viking CCS, repurposing depleted Rotliegend gas fields off the Humber for up to 15 Mtpa, plus a partner in Acorn.",
+      "signal": "FEED complete and onshore pipeline DCO granted 2025; awaiting UK Track 2 financial close \u2014 timeline risk acknowledged by company",
+      "status": "operating",
+      "source": "https://www.vikingccs.co.uk/news/harbour-energy-awarded-four-carbon-storage-licences"
+     },
+     {
+      "name": "CapturePoint",
+      "role": "scaleup",
+      "what": "Operates CO2-EOR fields in Texas/Louisiana while developing the CENLA dedicated sequestration hub in central Louisiana \u2014 a live EOR-to-storage transition play.",
+      "signal": "CENLA hub Class VI applications advancing under Louisiana primacy; existing EOR injection operations generate cash flow",
+      "status": "operating",
+      "source": "https://capturepointllc.com"
+     }
+    ]
+   },
+   {
+    "name": "Storage site characterization, modeling, and monitoring tech (seismic, fiber-optic, downhole, satellite)",
+    "description": "Seismic imaging, distributed fiber-optic sensing, downhole gauges, satellite InSAR and reservoir simulation that prove CO2 stays in the storage complex \u2014 mandatory for Class VI/EU permits and 45Q/credit MRV, and the main lever for cutting storage cost and earning public trust (the ADM leak made MMV a board-level issue).",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "SLB",
+      "role": "incumbent",
+      "what": "End-to-end carbon storage offering from site screening and the Sequestri digital well/reservoir ecosystem to long-term monitoring; deepest CCS subsurface bench in industry.",
+      "signal": "OneSubsea EPC for Northern Lights Phase 2 (2025); CCS tech deployed on dozens of storage projects",
+      "status": "operating",
+      "source": "https://www.slb.com/newsroom/press-release/2025/slb-onesubsea-secures-epc-contract-for-northern-lights-co2-transport-and-storage-project-expansion"
+     },
+     {
+      "name": "Baker Hughes",
+      "role": "incumbent",
+      "what": "CCUS measurement and digital monitoring (CarbonEdge platform) plus injection wellheads; buying Chart Industries to add CO2 handling hardware.",
+      "signal": "CarbonEdge launched 2024; strategic CCS partnership with Frontier Infrastructure (2025); Chart acquisition pending",
+      "status": "operating",
+      "source": "https://www.bakerhughes.com/surface-pressure-control/carbon-capture-and-injection-wellhead-solutions"
+     },
+     {
+      "name": "Viridien (formerly CGG)",
+      "role": "incumbent",
+      "what": "Dedicated carbon storage business line: seismic imaging, site screening databases and 4D monitoring design for storage permits.",
+      "signal": "Storage screening/monitoring contracts across US Gulf Coast, North Sea and Asia-Pacific hubs",
+      "status": "operating",
+      "source": "https://www.viridiengroup.com/markets/carbon-storage"
+     },
+     {
+      "name": "TGS",
+      "role": "incumbent",
+      "what": "Multi-client subsurface data giant mapping storage-suitable acreage and selling CO2 storage assessment and OBN-based monitoring packages.",
+      "signal": "Dedicated CO2 storage mapping/monitoring product line; merged with PGS (2024) adding acquisition fleet",
+      "status": "operating",
+      "source": "https://www.tgs.com/carbon-capture-and-storage/mapping-and-monitoring"
+     },
+     {
+      "name": "MicroSeismic",
+      "role": "scaleup",
+      "what": "Passive/induced-seismicity specialist whose CO2SeQure service provides real-time plume, fault and seismic-event monitoring for storage sites.",
+      "signal": "Multiple DOE grants since 2023 to commercialize CO2SeQure; monitoring deployments on US Class VI projects",
+      "status": "operating",
+      "source": "https://www.microseismic.com/uncategorized/microseismic-inc-moving-co2-storage-monitoring-forward/"
+     },
+     {
+      "name": "Silixa",
+      "role": "scaleup",
+      "what": "Distributed acoustic/temperature fiber sensing for CO2 plume tracking and well integrity, proven at CCS field labs (CaMI, Otway) and commercial sites.",
+      "signal": "Acquired by Luna Innovations (Dec 2023); DAS increasingly specified in Class VI monitoring plans",
+      "status": "acquired",
+      "source": "https://silixa.com"
+     },
+     {
+      "name": "STRYDE",
+      "role": "scaleup",
+      "what": "bp spinout making the world's smallest/cheapest nodal seismic sensors, enabling dense baseline and repeat 4D surveys over storage sites at a fraction of legacy cost.",
+      "signal": "Hundreds of thousands of nodes sold globally; used on CCS baseline surveys in Europe, North America and Asia",
+      "status": "operating",
+      "source": "https://www.strydefurther.com"
+     },
+     {
+      "name": "TRE Altamira (CLS Group)",
+      "role": "incumbent",
+      "what": "Satellite InSAR ground-deformation monitoring \u2014 the technique that flagged uplift at In Salah \u2014 now sold as low-cost surface MMV for storage sites.",
+      "signal": "InSAR monitoring used across CCS and injection projects worldwide",
+      "status": "operating",
+      "source": "https://site.tre-altamira.com"
+     },
+     {
+      "name": "Battelle",
+      "role": "incumbent",
+      "what": "Nonprofit R&D house that is the leading US contractor for storage site characterization, Class VI permitting support and DOE CarbonSAFE projects.",
+      "signal": "Supports dozens of Class VI applications and several CarbonSAFE storage complexes",
+      "status": "operating",
+      "source": "https://www.battelle.org"
+     }
+    ]
+   },
+   {
+    "name": "CO2 injection well services and specialty well engineering",
+    "description": "CO2 wells need corrosion-resistant alloys, CO2-tight cements, dedicated wellheads and subsea injection systems because wet CO2 forms carbonic acid and cold dense-phase injection thermally shocks casing \u2014 a specialty niche the oilfield service majors are productizing as Class VI drilling ramps.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "SLB",
+      "role": "incumbent",
+      "what": "Sequestri purpose-built CCS well construction portfolio (CO2-rated cements, materials, completions, digital well design) plus OneSubsea subsea CO2 injection systems.",
+      "signal": "Sequestri launched Nov 2024; Northern Lights Phase 2 subsea injection EPC (2025)",
+      "status": "operating",
+      "source": "https://www.slb.com/products-and-services/scaling-new-energy-systems/carbon-capture-utilization-and-sequestration/carbon-storage/well-design/ccs-well-design"
+     },
+     {
+      "name": "Halliburton",
+      "role": "incumbent",
+      "what": "CO2-resistant cementing systems and CCS well design/integrity services used on Gulf Coast Class VI and EOR-conversion wells.",
+      "signal": "Active CCS well construction work across US storage projects per 2025 earnings commentary",
+      "status": "operating",
+      "source": "https://oilgasleads.com/north-americas-balancing-act-what-slb-halliburton-and-baker-hughes-q3-2025-calls-reveal-about-the-u-s-oilfield-outlook/"
+     },
+     {
+      "name": "Baker Hughes",
+      "role": "incumbent",
+      "what": "Carbon capture and injection wellhead systems, CO2 compression trains, and CCS well completions.",
+      "signal": "Dedicated CCS wellhead product line; Frontier Infrastructure partnership (2025) bundling wells + storage development",
+      "status": "operating",
+      "source": "https://www.bakerhughes.com/surface-pressure-control/carbon-capture-and-injection-wellhead-solutions"
+     },
+     {
+      "name": "Expro",
+      "role": "incumbent",
+      "what": "CCS well testing, CO2 flow metering and well-integrity services adapted from gas well testing \u2014 a key niche since CO2 metering underpins 45Q claims.",
+      "signal": "CCS contracts on UK and US storage projects 2024-2025",
+      "status": "operating",
+      "source": "https://www.expro.com"
+     },
+     {
+      "name": "Vallourec",
+      "role": "incumbent",
+      "what": "Premium CO2-tight tubulars and casing connections qualified for dense-phase CO2 service, supplied to European CCS wells.",
+      "signal": "CCS-qualified OCTG product line with deliveries to North Sea storage projects",
+      "status": "operating",
+      "source": "https://www.vallourec.com"
+     },
+     {
+      "name": "Aker Solutions",
+      "role": "incumbent",
+      "what": "EPC specialist that delivered the Northern Lights receiving terminal and offshore injection infrastructure \u2014 the reference build for CO2 injection facilities.",
+      "signal": "Northern Lights Phase 1 delivered 2024-2025; follow-on CCS EPC backlog in Norway/UK",
+      "status": "operating",
+      "source": "https://www.akersolutions.com"
+     },
+     {
+      "name": "TechnipFMC",
+      "role": "incumbent",
+      "what": "Integrated subsea (iEPCI) CO2 injection systems for offshore storage hubs, adapting subsea production hardware to CO2 service.",
+      "signal": "Subsea CCS awards on UK/North Sea storage developments 2024-2025",
+      "status": "operating",
+      "source": "https://www.technipfmc.com"
+     }
+    ],
+    "white_space": "Almost no pure-play startups: oilfield incumbents already own the rigs, cements and metallurgy, and CCS well counts (~10s/year) are too small to support independents yet. Openings exist in Class VI-specialist drilling contractors, CO2-rated P&A/legacy-wellbore remediation around storage complexes (every depleted-field project must fix old wells), and independent CO2 flow metering/verification as 45Q audit scrutiny rises."
+   },
+   {
+    "name": "Novel storage media (in-situ mineralization, CO2 hydrates, enhanced coal-bed storage, engineered caverns)",
+    "description": "Alternatives to sedimentary pore space: reacting CO2 into solid carbonate in basalt/peridotite (permanent within ~2 years), locking it as solid hydrate under deep-sea pressure/temperature, adsorbing it in coal seams, or engineered caverns \u2014 extending storage to geographies without sedimentary basins and offering permanence beyond conventional trapping.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Carbfix",
+      "role": "scaleup",
+      "what": "Icelandic pioneer of dissolved-CO2 injection into basalt, mineralizing >95% of injected CO2 within about two years; stores for Climeworks' Orca/Mammoth DAC plants.",
+      "signal": "Injecting since 2012; Coda Terminal cross-border shipping + mineral storage hub won a large EU Innovation Fund grant (3 Mtpa design, ~\u20ac13/t target storage cost)",
+      "status": "operating",
+      "source": "https://www.carbfix.com/codaterminal"
+     },
+     {
+      "name": "44.01",
+      "role": "startup",
+      "what": "Omani/UAE startup mineralizing CO2 in peridotite \u2014 the most reactive rock on Earth \u2014 via water-dissolved injection, targeting low-cost permanent removal.",
+      "signal": "$37M Series A (Jul 2024, led by Equinor Ventures); ADNOC Fujairah scale-up to 300+ tonnes after a 10-tonne pilot mineralized in under 100 days; Earthshot Prize winner",
+      "status": "operating",
+      "source": "https://adnoc.ae/en/news-and-media/press-releases/2024/adnoc-and-4401-to-scale-up-carbon-torock-project-following-successful-pilot"
+     },
+     {
+      "name": "Cella Mineral Storage",
+      "role": "startup",
+      "what": "Developing basalt mineralization storage wells in the Kenyan Rift Valley to pair with East African DAC and geothermal energy.",
+      "signal": "Seed-stage; partnered with Octavia Carbon on Kenya's first DAC+storage pilot with early Frontier-ecosystem buyer interest",
+      "status": "operating",
+      "source": "https://frontierclimate.com/portfolio"
+     },
+     {
+      "name": "CO2 Lock Corp",
+      "role": "startup",
+      "what": "FPX Nickel spinout targeting CO2 mineralization in brucite-rich serpentinite bodies in British Columbia.",
+      "signal": "Field pilot stage circa 2023-2024; little public progress confirmed since",
+      "status": "uncertain",
+      "source": "https://co2lock.com"
+     }
+    ],
+    "white_space": "Outside mineralization, this is open field: CO2 hydrate storage has zero commercial players (only academic work and PFLOTRAN modeling through 2025) because formation kinetics, monitoring and deep-sea logistics are unsolved; enhanced coal-bed storage died with its 2000s pilots (swelling kills injectivity); salt caverns are unsuitable for permanent CO2 (creep/economics favor storing H2 instead). The realistic opening is geography-driven mineralization \u2014 basalt/peridotite provinces in Iceland, Oman/UAE, Kenya, India's Deccan and offshore Cascadia \u2014 co-sited with DAC, where conventional saline basins do not exist; a credible hydrate demonstration in Arctic/deepwater sediments would be genuinely novel but needs patient capital."
+   }
+  ],
+  "sources": [
+   "https://www.iea.org/energy-system/carbon-capture-utilisation-and-storage/co2-transport-and-storage",
+   "https://www.globalccsinstitute.com/wp-content/uploads/2025/11/Global-CCS-Institute-Needs-Opportunities-and-Prospects-for-CO2-Shipping-in-CCS-Projects.pdf",
+   "https://carboncapturecoalition.org/wp-content/uploads/2025/09/Class-VI-wells-fact-sheet-1.pdf",
+   "https://www.epa.gov/uic/current-class-vi-projects-under-review-epa",
+   "https://northdakotamonitor.com/2026/03/10/summit-permit-for-co2-storage-voided-as-second-judge-finds-north-dakota-law-unconstitutional/",
+   "https://iowacapitaldispatch.com/2026/05/13/proposed-new-route-for-summit-pipeline-would-impact-12-iowa-counties/",
+   "https://www.spglobal.com/energy/en/news-research/blog/energy-transition/102523-navigator-co2-carbon-capture-heartland-greenway-pipeline-cancellation",
+   "https://pgjonline.com/news/2025/september/tallgrass-392-mile-trailblazer-pipeline-to-begin-co2-transport-from-nebraska-to-wyoming",
+   "https://cen.acs.org/environment/greenhouse-gases/Northern-Lights-injects-first-carbon/103/web/2025/09",
+   "https://www.slb.com/newsroom/press-release/2025/slb-onesubsea-secures-epc-contract-for-northern-lights-co2-transport-and-storage-project-expansion",
+   "https://www.porthosco2.nl/en/faq/how-do-the-porthos-aramis-and-co2next-projects-compare/",
+   "https://www.gasunie.nl/en/news/aramis-takes-next-step-towards-investment-decision",
+   "https://carboncredits.com/netherlands-commits-726-million-to-aramis-ccs-project-as-shell-and-total-shift-strategies/",
+   "https://www.energyvoice.com/renewables-energy-transition/ccs/uk-ccs/571585/energy-sector-and-industrial-firms-react-to-2bn-hynet-carbon-capture-confirmation/",
+   "https://www.gov.uk/government/news/funding-secured-for-britains-industrial-future",
+   "https://www.taxpayer.net/energy-natural-resources/adm-carbon-storage-site-restarts-injection/",
+   "https://www.globenewswire.com/news-release/2025/04/07/3057158/0/en/Occidental-and-1PointFive-Secure-Class-VI-Permits-for-STRATOS-Direct-Air-Capture-Facility.html",
+   "https://www.epa.gov/system/files/documents/2025-07/cotton_cove_decision.pdf",
+   "https://corporate.exxonmobil.com/news/news-releases/2024/10102024_exxonmobil-secures-largest-carbon-offshore-storage-site-in-the-us",
+   "https://www.ogj.com/energy-transition/article/55281024/perenco-concludes-co2-injection-test-at-project-poseidon",
+   "https://www.ineos.com/news/shared-news/ineos-led-greensand-to-become-the-first-full-scale-co2-storage-facility-in-eu-to-help-mitigate-climate-change/",
+   "https://theedgemalaysia.com/node/798228",
+   "https://www.modernpowersystems.com/analysis/transporting-carbon-steering-a-course-to-a-sustainable-future/",
+   "https://maritime-executive.com/article/buildout-continues-of-emerging-co2-carriers-for-ccs",
+   "https://www.offshoreco2.com/post/the-emerging-market-for-lco2-carriers-shipbuilding-and-prospects",
+   "https://www.offshore-energy.biz/kncc-and-pace-complete-study-on-high-pressure-lco2-shipping/",
+   "https://www.microseismic.com/uncategorized/microseismic-inc-moving-co2-storage-monitoring-forward/",
+   "https://www.viridiengroup.com/markets/carbon-storage",
+   "https://www.tgs.com/carbon-capture-and-storage/mapping-and-monitoring",
+   "https://www.bakerhughes.com/surface-pressure-control/carbon-capture-and-injection-wellhead-solutions",
+   "https://www.slb.com/products-and-services/scaling-new-energy-systems/carbon-capture-utilization-and-sequestration/carbon-storage/well-design/ccs-well-design",
+   "https://www.carbfix.com/codaterminal",
+   "https://adnoc.ae/en/news-and-media/press-releases/2024/adnoc-and-4401-to-scale-up-carbon-torock-project-following-successful-pilot",
+   "https://www.vault4401.com/",
+   "https://www.vikingccs.co.uk/news/harbour-energy-awarded-four-carbon-storage-licences",
+   "https://www.ccsassociation.org/ccus-in-action/ccus-in-the-uk/",
+   "https://pipelinefighters.org/news/victory-for-landowners-wolf-carbon-solutions-withdraws-co2-pipeline-project-application-at-iowa-utilities-commission/"
+  ]
+ }
+}

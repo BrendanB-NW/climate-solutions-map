@@ -1,0 +1,664 @@
+{
+ "sector": "energy",
+ "bucket": "Nuclear Fission",
+ "census": {
+  "bucket": "Nuclear Fission",
+  "variations": [
+   {
+    "name": "Large light-water reactors (GW-scale new build & restarts)",
+    "description": "Conventional gigawatt-class pressurized/boiling-water reactors (AP1000, EPR, APR1400, VVER, Hualong One) that split uranium to raise steam at grid scale, plus the new business of restarting recently retired US plants \u2014 the workhorse supplying ~9% of world electricity and most of its firm carbon-free power.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Westinghouse Electric Company",
+      "role": "incumbent",
+      "what": "OEM of the AP1000, the only Gen III+ design recently completed in the US (Vogtle 3&4); leading a new US large-reactor build wave.",
+      "signal": "$80B partnership with US government/Brookfield/Cameco (Oct 2025) targeting 10 new AP1000s under construction by 2030; export pipeline in Poland, Bulgaria, Ukraine.",
+      "status": "operating",
+      "source": "https://www.klgates.com/US-Government-Announces-Historic-80-Billion-Nuclear-Partnership-with-Westinghouse-Electric-Company-Cameco-Corporation-and-Brookfield-Asset-Management-to-Construct-AP1000-Reactor-Fleet-10-30-2025"
+     },
+     {
+      "name": "EDF",
+      "role": "incumbent",
+      "what": "Builds and operates the 1,650 MWe EPR; runs the French fleet and the UK's two flagship new-build projects.",
+      "signal": "Flamanville-3 EPR reached full power in 2025; Hinkley Point C under construction; Sizewell C (2 EPRs, >$30B) approved with UK government backing in 2025; EPR2 domestic program launched.",
+      "status": "operating",
+      "source": "https://www.ans.org/news/article-7625/flamanville3-reaches-full-power/"
+     },
+     {
+      "name": "KHNP (Korea Hydro & Nuclear Power)",
+      "role": "incumbent",
+      "what": "Exports the APR1400 with a track record of roughly on-time delivery (UAE Barakah 4-unit plant).",
+      "signal": "Signed ~$18B contract in mid-2025 for two new units at Czech Dukovany, beating EDF and Westinghouse; Korea restarting domestic new build.",
+      "status": "operating",
+      "source": "https://www.powermag.com/three-nuclear-giants-will-vie-for-czech-republics-dukovany-expansion/"
+     },
+     {
+      "name": "Rosatom",
+      "role": "incumbent",
+      "what": "World's largest reactor exporter, building VVER-1200s on a state-financed build-own-operate model.",
+      "signal": "~20+ unit export order book including Akkuyu (Turkey, first unit commissioning), El Dabaa (Egypt), India and China \u2014 despite sanctions pressure.",
+      "status": "operating",
+      "source": "https://world-nuclear.org/information-library/country-profiles/countries-o-s/russia-nuclear-power"
+     },
+     {
+      "name": "CNNC / CGN",
+      "role": "incumbent",
+      "what": "China's state builders of the Hualong One; the fastest and cheapest large-reactor constructors in the world (~6-7 years per unit).",
+      "signal": "China approving ~10 new reactors per year since 2022 with ~30 units under construction \u2014 over half of all global nuclear construction.",
+      "status": "operating",
+      "source": "https://world-nuclear.org/information-library/country-profiles/countries-a-f/china-nuclear-power"
+     },
+     {
+      "name": "Holtec International",
+      "role": "incumbent",
+      "what": "Executing the first-ever restart of a fully retired US nuclear plant \u2014 the 800 MW Palisades PWR in Michigan.",
+      "signal": "$1.52B DOE loan guarantee closed; reactor returned to operating temperature/pressure late 2025 with grid return in early 2026 \u2014 first recommissioning in US history.",
+      "status": "operating",
+      "source": "https://www.energy.gov/edf/holtec-palisades"
+     },
+     {
+      "name": "Constellation Energy",
+      "role": "incumbent",
+      "what": "Largest US nuclear operator; restarting Three Mile Island Unit 1 (renamed Crane Clean Energy Center) on the back of hyperscaler demand.",
+      "signal": "20-year Microsoft PPA for the full 835 MW (Sept 2024); $1B federal loan backing (Nov 2025); restart accelerated to 2H 2027.",
+      "status": "operating",
+      "source": "https://www.cnbc.com/2025/11/18/trump-nuclear-three-mile-island-crane-loan-constellation-ceg.html"
+     },
+     {
+      "name": "NextEra Energy",
+      "role": "incumbent",
+      "what": "Restarting the ~600 MW Duane Arnold BWR in Iowa \u2014 the third US restart project, and the only BWR among them.",
+      "signal": "Google PPA signed Oct 2025; NRC license-change filings under way since Jan 2025; restart targeted late this decade.",
+      "status": "operating",
+      "source": "https://www.ans.org/news/2025-10-28/article-7501/nextera-and-google-ink-a-deal-to-restart-duane-arnold/"
+     }
+    ]
+   },
+   {
+    "name": "Light-water small modular reactors (SMRs)",
+    "description": "Shrunken, factory-built versions of proven water-cooled reactors (roughly 30-470 MWe) that trade economies of scale for series manufacturing, simpler passive safety, easier siting and smaller per-project capital risk.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "NuScale Power",
+      "role": "scaleup",
+      "what": "Holds the only NRC SMR design approvals (50 MWe in 2020, uprated 77 MWe module in May 2025) for its multi-module VOYGR plant.",
+      "signal": "NYSE: SMR; first project (Utah CFPP) cancelled 2023 on cost escalation \u2014 a key cautionary signal; now advancing RoPower (Romania) and a 6 GW ENTRA1/TVA deployment program.",
+      "status": "operating",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001822966/000182296625000131/a2025-08x07xpr8xknuscale.htm"
+     },
+     {
+      "name": "GE Vernova Hitachi Nuclear Energy",
+      "role": "incumbent",
+      "what": "BWRX-300 boiling-water SMR \u2014 the first SMR under construction in the Western world, at OPG's Darlington site in Ontario.",
+      "signal": "Canadian construction licence April 2025, first unit in service ~2029-30; follow-on pipeline at TVA Clinch River, Poland (Orlen Synthos) and the UK.",
+      "status": "operating",
+      "source": "https://neutronbytes.com/2025/05/17/geh-bwrx-300-smr-approved-for-construction-at-opgs-darlingtion-site/"
+     },
+     {
+      "name": "Rolls-Royce SMR",
+      "role": "scaleup",
+      "what": "470 MWe three-loop PWR derived from UK naval-reactor expertise, designed for factory modules assembled on site.",
+      "signal": "Selected June 2025 as Great British Energy-Nuclear's preferred bidder for the UK SMR program (initial 3 units); Czech utility CEZ took a ~20% stake.",
+      "status": "operating",
+      "source": "https://en.wikipedia.org/wiki/Rolls-Royce_SMR"
+     },
+     {
+      "name": "Holtec International",
+      "role": "incumbent",
+      "what": "SMR-300 pressurized-water SMR, with the first pair sited at its restarted Palisades campus to reuse grid and licensing infrastructure.",
+      "signal": "Selected for up to $400M of DOE Gen III+ SMR deployment funding (late 2025); targeting ~2030 first units; UK and India partnerships.",
+      "status": "operating",
+      "source": "https://holtecinternational.com"
+     },
+     {
+      "name": "Westinghouse",
+      "role": "incumbent",
+      "what": "AP300 \u2014 a 330 MWe single-loop derivative of the already-licensed AP1000, betting that licensing reuse beats novel designs.",
+      "signal": "Design development funded under the Brookfield/Cameco ownership; first deployments targeted early 2030s.",
+      "status": "operating",
+      "source": "https://www.westinghousenuclear.com"
+     },
+     {
+      "name": "CNNC",
+      "role": "incumbent",
+      "what": "Linglong One (ACP100, 125 MWe) at Changjiang, Hainan \u2014 the world's first onshore commercial SMR to finish construction.",
+      "signal": "Cold functional tests completed Oct 2025; turbine tests passed; commercial operation targeted 2026.",
+      "status": "operating",
+      "source": "https://www.world-nuclear-news.org/articles/cold-testing-of-chinese-smr-completed"
+     },
+     {
+      "name": "Rosatom",
+      "role": "incumbent",
+      "what": "RITM-200 series PWRs proven on icebreakers and the floating plant Akademik Lomonosov (operating since 2020); now first land-based unit.",
+      "signal": "RITM-200N SMR under construction in Yakutia targeting 2028; serial reactor production line running.",
+      "status": "operating",
+      "source": "https://www.nsenergybusiness.com/analysis/yakutia-smr-plan-progresses/"
+     },
+     {
+      "name": "EDF (Nuward)",
+      "role": "incumbent",
+      "what": "French 2x170 MWe SMR program \u2014 rebooted in mid-2024 to a simpler proven-technology design after the original proved too complex.",
+      "signal": "Design reset of Europe's flagship SMR is direct evidence of LWR-SMR engineering/cost risk; new basic design phase under way.",
+      "status": "operating",
+      "source": "https://en.wikipedia.org/wiki/Nuward"
+     },
+     {
+      "name": "Deep Fission",
+      "role": "startup",
+      "what": "Puts 15 MWe PWR modules at the bottom of 1.6 km boreholes, using rock overburden as the containment to slash plant capex.",
+      "signal": "Launched ~$150M Nasdaq IPO (ticker FISN) May 2026 at ~$1.66B target valuation; NRC pre-application engagement; data-center LOIs.",
+      "status": "operating",
+      "source": "https://www.world-nuclear-news.org/articles/deep-fission-aims-for-usd166-billion-valuation"
+     }
+    ]
+   },
+   {
+    "name": "High-temperature gas-cooled & pebble-bed reactors (HTGR)",
+    "description": "Helium-cooled reactors fueled with meltdown-tolerant TRISO particle fuel (pebbles or prisms) that run at 565-750\u00b0C, opening industrial process-heat and steam markets that water-cooled reactors physically cannot serve.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "X-energy",
+      "role": "scaleup",
+      "what": "Xe-100 80 MWe pebble-bed HTGR aimed at industrial steam and data-center power, with vertically integrated TRISO fuel (TRISO-X).",
+      "signal": "Amazon-backed; $700M Series D (Nov 2025); listed publicly Apr 2026 with shares up 27% on debut; Dow Seadrift 4-unit construction permit application filed with NRC; up to 12 units planned with Energy Northwest.",
+      "status": "operating",
+      "source": "https://www.cnbc.com/2026/04/24/nuclear-reactor-company-x-energy-begins-trading-as-ai-drives-interest-in-the-industry.html"
+     },
+     {
+      "name": "China Huaneng / CNNC / Tsinghua INET",
+      "role": "incumbent",
+      "what": "Built and operate HTR-PM at Shidao Bay \u2014 the world's only operating commercial pebble-bed HTGR (2x250 MWt driving one turbine).",
+      "signal": "Grid-connected 2021, commercial operation since late 2023; demonstrated inherent-safety shutdown tests; scaled HTR-PM600 planned.",
+      "status": "operating",
+      "source": "https://world-nuclear.org/information-library/country-profiles/countries-a-f/china-nuclear-power"
+     },
+     {
+      "name": "Radiant Nuclear",
+      "role": "startup",
+      "what": "1.2 MWe helium-cooled HTGR microreactor (Kaleidos) \u2014 the HTGR concept shrunk to a shipping container (also listed under microreactors).",
+      "signal": ">$400M raised across Series C ($100M, Jun 2025) and Series D (>$300M); first fueled test at INL's DOME facility in 2026.",
+      "status": "operating",
+      "source": "https://www.radiantnuclear.com/blog/series-d-announcement/"
+     },
+     {
+      "name": "Ultra Safe Nuclear Corporation (USNC)",
+      "role": "startup",
+      "what": "Developed the MMR gas-cooled microreactor and proprietary FCM TRISO fuel; was among the best-known Western HTGR ventures.",
+      "signal": "Filed Chapter 11 in Oct 2024 after capital ran out mid-demonstration; fuel division sold for $28M to Standard Nuclear.",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.world-nuclear-news.org/articles/ultra-safe-nuclear-corporation-files-chapter-11-petition"
+     },
+     {
+      "name": "U-Battery",
+      "role": "startup",
+      "what": "4 MWe HTGR micro-reactor consortium incubated by Urenco for off-grid and mining applications.",
+      "signal": "Wound down March 2023 after Urenco exhausted attempts to find commercial investors; IP transferred to UK National Nuclear Laboratory.",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.world-nuclear-news.org/Articles/Urenco-exits-U-Battery-micro-reactor-project"
+     }
+    ],
+    "white_space": "Only China operates a commercial HTGR, and two Western players (USNC, U-Battery) died in 2023-24 \u2014 high-temperature materials and TRISO fuel cost have outrun venture timelines; the opening is decarbonized industrial steam (500-600\u00b0C for chemicals/refining) that LWRs can't reach, now de-risked by the rebuilding US TRISO supply chain."
+   },
+   {
+    "name": "Molten salt reactors (incl. thorium fuel cycles)",
+    "description": "Reactors cooled \u2014 or directly fueled \u2014 by molten fluoride/chloride salts at near-atmospheric pressure, including thorium breeding cycles, promising walk-away safety, high-temperature output and eventual waste burning, but still proving salt chemistry and fuel qualification at small scale.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Kairos Power",
+      "role": "scaleup",
+      "what": "Fluoride-salt-cooled, TRISO-fueled reactor (FHR); iterating hardware fast with non-nuclear test units before its Hermes demo reactor.",
+      "signal": "Hermes under construction at Oak Ridge with up to $303M in milestone-based DOE funding; Google master agreement for 500 MW of plants by 2035.",
+      "status": "operating",
+      "source": "https://www.technologyreview.com/2025/10/06/1124290/2025-climate-tech-companies-to-watch-kairos-power-next-generation-nuclear-reactors/"
+     },
+     {
+      "name": "Terrestrial Energy",
+      "role": "scaleup",
+      "what": "Integral Molten Salt Reactor (IMSR) with sealed, swappable 7-year core units producing ~390 MWe per plant.",
+      "signal": "First publicly traded MSR developer \u2014 began trading on Nasdaq (IMSR) Oct 29, 2025 via SPAC with ~$292M gross proceeds; commercial plant sited at Texas A&M-RELLIS.",
+      "status": "operating",
+      "source": "https://www.globenewswire.com/news-release/2025/10/29/3176449/0/en/Terrestrial-Energy-Inc-Begins-Trading-on-the-Nasdaq-Stock-Market.html"
+     },
+     {
+      "name": "Copenhagen Atomics",
+      "role": "startup",
+      "what": "Mass-manufactured, container-sized thorium molten salt reactors with in-house salt pumps, valves and instrumentation sold as products.",
+      "signal": "Critical experiment with thorium salt planned at Paul Scherrer Institute ~2026-27 (first in Europe); first chain reaction targeted 2028.",
+      "status": "operating",
+      "source": "https://www.neimagazine.com/analysis/copenhagen-atomics-the-story-so-far/"
+     },
+     {
+      "name": "Saltfoss Energy (formerly Seaborg Technologies)",
+      "role": "startup",
+      "what": "Compact molten salt reactors for shipyard-built floating power barges (with Samsung Heavy Industries heritage partnership).",
+      "signal": "Survived a hard restructuring: renamed from Seaborg in Apr 2025 after raising ~DKK 200M; refocused on Denmark/Korea projects.",
+      "status": "operating",
+      "source": "https://www.world-nuclear-news.org/articles/denmarks-seaborg-changes-name-and-adds-to-board"
+     },
+     {
+      "name": "ThorCon",
+      "role": "startup",
+      "what": "500 MWe shipyard-built molten salt power plant ('thorium converter') towed to shallow-water sites, targeting Indonesia.",
+      "signal": "Received Indonesia's first-ever nuclear plant licensing approval (BAPETEN site evaluation, Aug 2025); construction possible 2027, full power ~2031.",
+      "status": "operating",
+      "source": "https://www.ans.org/news/2025-08-06/article-7260/thorcon-project-takes-forward-step-in-indonesia/"
+     },
+     {
+      "name": "Moltex Energy",
+      "role": "startup",
+      "what": "Stable Salt Reactor-Wasteburner (SSR-W) that runs on transuranics recycled from spent CANDU fuel via its WATSS process.",
+      "signal": "Demonstrated >95% transuranic extraction from real spent fuel with Canadian Nuclear Laboratories (2025); CNSC pre-licensing; sited at Point Lepreau, New Brunswick.",
+      "status": "operating",
+      "source": "https://www.moltexenergy.com/moltex-energy-achieves-breakthrough-in-nuclear-fuel-recycling-with-watss-technology/"
+     },
+     {
+      "name": "Natura Resources",
+      "role": "startup",
+      "what": "1 MWt liquid-fueled molten salt research reactor (MSR-1) at Abilene Christian University, with follow-on units aimed at Texas water desalination.",
+      "signal": "Won the first NRC construction permit ever issued for a liquid-fueled MSR (Sept 2024); Texas legislature funding; DOE enriched-salt allocation secured.",
+      "status": "operating",
+      "source": "https://www.world-nuclear-news.org/articles/construction-permit-granted-for-molten-salt-research-reactor"
+     },
+     {
+      "name": "SINAP (Shanghai Institute of Applied Physics, CAS)",
+      "role": "incumbent",
+      "what": "Operates TMSR-LF1, a 2 MWt thorium-bearing molten salt reactor in the Gobi desert \u2014 the only operating MSR in the world.",
+      "signal": "Demonstrated in-core thorium-to-uranium conversion; 10 MWt-class successor and pilot-scale thorium fuel cycle planned.",
+      "status": "operating",
+      "source": "https://world-nuclear.org/information-library/country-profiles/countries-a-f/china-nuclear-power"
+     },
+     {
+      "name": "Transatomic Power",
+      "role": "startup",
+      "what": "MIT-spinout MSR startup whose waste-burning claims had to be retracted after neutronics errors.",
+      "signal": "Shut down in 2018 and open-sourced its IP \u2014 the sector's canonical cautionary tale on overstated modeling claims.",
+      "status": "bankrupt-shutdown",
+      "source": "https://en.wikipedia.org/wiki/Transatomic_Power"
+     },
+     {
+      "name": "Flibe Energy",
+      "role": "startup",
+      "what": "Long-running advocate-led venture for the liquid-fluoride thorium reactor (LFTR).",
+      "signal": "Minimal disclosed funding or hardware progress in 2024-26; commercial viability unclear.",
+      "status": "uncertain",
+      "source": "https://flibe-energy.com"
+     }
+    ],
+    "white_space": "No Western MSR has yet gone critical \u2014 salt corrosion chemistry, liquid-fuel qualification and lack of licensing precedent keep most players pre-criticality, and thorium specifically is led by a Chinese state lab rather than companies; openings exist in salt-side supply chains (pumps, purification, instrumentation) and thorium fuel-cycle IP, where Copenhagen Atomics is nearly alone in the West."
+   },
+   {
+    "name": "Sodium- and lead-cooled fast reactors",
+    "description": "Liquid-metal-cooled reactors with fast neutron spectra that extract dramatically more energy from uranium and can burn plutonium and nuclear waste; the flagship US advanced build (Natrium) pairs one with molten-salt thermal storage so output can flex around renewables.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "TerraPower",
+      "role": "scaleup",
+      "what": "Natrium \u2014 345 MWe sodium-cooled fast reactor with gigawatt-hour molten-salt storage (co-developed with GE Hitachi), under construction at Kemmerer, Wyoming.",
+      "signal": "Bill Gates-founded; $650M raise in June 2025 incl. NVIDIA's NVentures; NRC construction permit completed Dec 2025-early 2026 (first for a US commercial advanced reactor); operation ~2030.",
+      "status": "operating",
+      "source": "https://www.ans.org/news/article-7818/nrc-approves-terrapower-construction-permit/"
+     },
+     {
+      "name": "Oklo",
+      "role": "scaleup",
+      "what": "Aurora \u2014 liquid-metal-cooled fast microreactor running on HALEU (and eventually recycled fuel), sold as power-as-a-service.",
+      "signal": "NYSE: OKLO (Sam Altman-backed, stock ~$70-80 in Apr 2026); first Aurora under construction at INL targeting first operations by end-2027; NRC approved its principal design criteria; multi-GW data-center and USAF pipeline.",
+      "status": "operating",
+      "source": "https://www.stocktitan.net/news/OKLO/oklo-s-nrc-principal-design-criteria-topical-report-approved-for-aue0ecb7z74l.html"
+     },
+     {
+      "name": "newcleo",
+      "role": "startup",
+      "what": "Lead-cooled fast reactors (LFR-AS-200) designed to run on MOX fuel made from reprocessed nuclear waste, closing the fuel cycle in Europe.",
+      "signal": "Europe's best-funded nuclear startup (>\u20ac500M raised since 2021); France/Italy/UK footprint; materials R&D partnership with Blykalla (2025).",
+      "status": "operating",
+      "source": "https://www.world-nuclear-news.org/articles/european-partnerships-for-fast-reactor-development"
+     },
+     {
+      "name": "ARC Clean Technology",
+      "role": "startup",
+      "what": "ARC-100 sodium-cooled fast reactor based directly on the 30-year EBR-II operating record, sited at Point Lepreau, New Brunswick.",
+      "signal": "New capital raised in 2025; collaboration with KHNP; CNSC vendor design review progressing.",
+      "status": "operating",
+      "source": "https://www.powermag.com/advanced-nuclear-developers-raise-new-capital-as-2025-investment-hits-record-levels-and-demonstrations-near/"
+     },
+     {
+      "name": "Blykalla",
+      "role": "startup",
+      "what": "Swedish KTH spinout building SEALER, a small lead-cooled reactor using proprietary corrosion-resistant steels.",
+      "signal": "Raised $50M in Dec 2025 to accelerate its SMR for data centers; electric (non-nuclear) prototype testing under way.",
+      "status": "operating",
+      "source": "https://www.nucnet.org/news/swedish-nuclear-startup-blykalla-raises-usd50-million-to-accelerate-work-on-smr-12-4-2025"
+     },
+     {
+      "name": "Hexana",
+      "role": "startup",
+      "what": "French startup (ASTRID program heritage) pairing twin 400 MWt sodium fast reactors with high-temperature heat storage for industrial sites.",
+      "signal": "\u20ac25M raised Jan 2025 (equity + France 2030 grant); entered preparatory regulatory review with French regulator ASNR; Tractebel partnership.",
+      "status": "operating",
+      "source": "https://www.nucnet.org/news/france-s-hexana-enters-preparatory-phase-with-regulator-for-generation-iv-reactor-project-6-1-2025"
+     },
+     {
+      "name": "Rosatom",
+      "role": "incumbent",
+      "what": "Only operator of commercial fast reactors \u2014 BN-600 and BN-800 sodium units at Beloyarsk \u2014 and building the BREST-OD-300 lead-cooled demo with on-site fuel recycling at Seversk.",
+      "signal": "Decades of sodium fast-reactor operating hours; BN-800 running on full MOX core; BREST targeted for late-2020s startup.",
+      "status": "operating",
+      "source": "https://world-nuclear.org/information-library/current-and-future-generation/fast-neutron-reactors"
+     },
+     {
+      "name": "CNNC",
+      "role": "incumbent",
+      "what": "CFR-600 sodium-cooled fast reactor at Xiapu (grid-connected demonstration) as a step to a CFR-1000 commercial breeder fleet.",
+      "signal": "CFR-600 operating/commissioning since 2023-24; second unit under construction; closed-fuel-cycle national strategy.",
+      "status": "operating",
+      "source": "https://world-nuclear.org/information-library/current-and-future-generation/fast-neutron-reactors"
+     }
+    ],
+    "white_space": "Operating experience is concentrated in Russia and China \u2014 the West dismantled its fast-reactor base after the 1994 IFR cancellation \u2014 and every Western startup is gated by HALEU/plutonium fuel availability; the opening is waste-burning economics (paid twice: for disposal relief and power) and supplying the sodium/lead component chain Natrium is now creating."
+   },
+   {
+    "name": "Microreactors (heat-pipe, transportable)",
+    "description": "Container-sized reactors from ~100 kW to ~20 MW, built whole in factories and trucked (or flown) to site to replace diesel generators at remote communities, mines, military bases and data centers; first fueled demonstrations begin in 2026 at INL's DOME test bed.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Radiant Nuclear",
+      "role": "startup",
+      "what": "Kaleidos \u2014 1.2 MWe helium-cooled microreactor in a shipping container, mass-production-first business model (50 units/yr factory goal).",
+      "signal": "$100M Series C (Jun 2025) then >$300M Series D within ~6 months; first fueled microreactor test at INL DOME in 2026; USAF deal to deploy at Eielson AFB.",
+      "status": "operating",
+      "source": "https://www.radiantnuclear.com/blog/series-d-announcement/"
+     },
+     {
+      "name": "Westinghouse (eVinci)",
+      "role": "incumbent",
+      "what": "5 MWe heat-pipe microreactor with no pumps or water \u2014 sodium heat pipes passively move heat from a TRISO core for 8+ years per fueling.",
+      "signal": "Selected alongside Radiant as the first two DOME test campaigns starting spring 2026; agreements in Saskatchewan and at Penn State.",
+      "status": "operating",
+      "source": "https://www.energy.gov/ne/articles/3-microreactor-experiments-watch-starting-2026"
+     },
+     {
+      "name": "BWXT",
+      "role": "incumbent",
+      "what": "Project Pele \u2014 the US DoD's transportable TRISO-fueled microreactor prototype, plus the commercial BANR variant.",
+      "signal": "~$300M DoD contract; full TRISO core fuel delivered to INL Dec 2025 with assembly and testing in 2026 \u2014 likely the first new-design US microreactor to operate.",
+      "status": "operating",
+      "source": "https://www.ans.org/news/2025-08-03/article-7253/bwxt-starts-building-pele-microreactor-core/"
+     },
+     {
+      "name": "Oklo",
+      "role": "scaleup",
+      "what": "Aurora 15-75 MWe fast microreactor 'powerhouse' sold on a build-own-operate power-as-a-service model (also listed under fast reactors).",
+      "signal": "First commercial unit under construction at INL targeting power by end-2027; NYSE: OKLO with multi-billion market cap.",
+      "status": "operating",
+      "source": "https://www.stocktitan.net/news/OKLO/"
+     },
+     {
+      "name": "Aalo Atomics",
+      "role": "startup",
+      "what": "Aalo-1 10 MWe sodium-cooled microreactor (DOE MARVEL lineage) clustered into 'Aalo Pods' \u2014 power plants co-built with the data center they feed.",
+      "signal": "$100M Series B (Aug 2025, Valor Equity/NRG); broke ground on Aalo-X experimental reactor at INL with criticality targeted 2026; first US advanced-fuel purchase deal.",
+      "status": "operating",
+      "source": "https://techcrunch.com/2025/08/19/aalo-atomics-raises-100m-to-build-a-microreactor-and-data-center-together/"
+     },
+     {
+      "name": "Last Energy",
+      "role": "startup",
+      "what": "Steel-encased 5-20 MWe micro-PWRs (PWR-5/PWR-20) using only proven LWR technology, sold as modular factory products for industrial parks.",
+      "signal": "$100M Series C (Dec 2025, Astera Institute); PWR-5 pilot at Texas A&M-RELLIS targeting criticality mid-2026; dozens of European/UK MOUs and a 30-plant Texas plan.",
+      "status": "operating",
+      "source": "https://techcrunch.com/2025/12/16/nuclear-startup-last-energy-raises-100m-for-its-steel-encased-micro-reactor/"
+     },
+     {
+      "name": "Antares",
+      "role": "startup",
+      "what": "R1 \u2014 100 kWe-1 MWe rapidly deployable microreactor aimed at defense, remote and space applications.",
+      "signal": "$30M Series A (Oct 2024) + $96M Series B (Dec 2025, Shine Capital); NRC pre-application engagement.",
+      "status": "operating",
+      "source": "https://techcrunch.com/2025/12/02/microreactor-startup-antares-raises-96m-for-land-sea-and-space-based-nuclear-power/"
+     },
+     {
+      "name": "NANO Nuclear Energy",
+      "role": "startup",
+      "what": "Publicly listed microreactor developer (KRONOS MMR at University of Illinois; ZEUS portable concept) plus HALEU logistics ambitions.",
+      "signal": "NASDAQ: NNE with ~$569M liquidity (Mar 2026) after a $400M placement; KRONOS construction permit application submitted to NRC, construction from ~2027.",
+      "status": "operating",
+      "source": "https://www.globenewswire.com/news-release/2026/05/14/3295394/0/en/nano-nuclear-reports-q2-fy-2026-financial-results-and-provides-business-update.html"
+     },
+     {
+      "name": "Ultra Safe Nuclear Corporation (USNC)",
+      "role": "startup",
+      "what": "Was a leading microreactor developer (MMR projects in Canada and Illinois) before its 2024 collapse.",
+      "signal": "Chapter 11 in Oct 2024 \u2014 evidence that microreactor capital intensity can outrun milestone revenue; assets dispersed at auction.",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.world-nuclear-news.org/articles/ultra-safe-nuclear-corporation-files-chapter-11-petition"
+     }
+    ]
+   },
+   {
+    "name": "Fuel cycle & enrichment (HALEU, TRISO, fabrication)",
+    "description": "The mining-to-fabrication supply chain \u2014 especially uranium enrichment and the HALEU (10-20% enriched) and TRISO particle fuels that advanced reactors require \u2014 being urgently rebuilt in the West after the 2024 US ban on Russian uranium imports.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Centrus Energy",
+      "role": "incumbent",
+      "what": "Operates America's only licensed HALEU production line (Piketon, Ohio) with US-origin centrifuge technology.",
+      "signal": "Delivered 900 kg HALEU to DOE by mid-2025; won a $900M DOE task order plus announced multi-billion-dollar Piketon expansion; NYSE: LEU.",
+      "status": "operating",
+      "source": "https://www.powermag.com/centrus-completes-900-kg-haleu-delivery-to-doe-in-u-s-nuclear-fuel-enrichment-milestone/"
+     },
+     {
+      "name": "Urenco",
+      "role": "incumbent",
+      "what": "One of the world's largest enrichers; expanding its Eunice, New Mexico plant and adding HALEU capability in the US and UK.",
+      "signal": "First new cascade of a 15% capacity expansion online May 2025 (complete 2027); selected under DOE's $2.7B LEU+HALEU program.",
+      "status": "operating",
+      "source": "https://www.ans.org/news/article-7652/doe-awards-27b-for-haleu-and-leu-enrichment/"
+     },
+     {
+      "name": "Orano",
+      "role": "incumbent",
+      "what": "French fuel-cycle major (Georges Besse II enrichment, conversion, La Hague recycling) now siting a new US centrifuge plant.",
+      "signal": "$900M DOE enrichment task order to Orano Federal Services (Jan 2026); Oak Ridge, TN selected for US expansion.",
+      "status": "operating",
+      "source": "https://www.energy.gov/articles/us-department-energy-awards-27-billion-restore-american-uranium-enrichment"
+     },
+     {
+      "name": "General Matter",
+      "role": "startup",
+      "what": "SpaceX-alumni-founded startup building dedicated HALEU enrichment capacity on the former Paducah Gaseous Diffusion Plant site.",
+      "signal": "Emerged from stealth Apr 2025; DOE site lease Aug 2025; $900M DOE production award Jan 2026 \u2014 fastest-rising new entrant in enrichment.",
+      "status": "operating",
+      "source": "https://www.wkms.org/energy/2026-01-07/general-matter-scores-900m-award-from-doe-to-support-haleu-enrichment-in-paducah"
+     },
+     {
+      "name": "Global Laser Enrichment (Silex/Cameco JV)",
+      "role": "scaleup",
+      "what": "Commercializing SILEX laser enrichment \u2014 a third-generation technology that can also re-enrich DOE's depleted uranium tails at Paducah.",
+      "signal": "Technology demo milestones passed; received a $28.5M DOE award (sought $900M) and is advancing the Paducah Laser Enrichment Facility.",
+      "status": "operating",
+      "source": "https://www.powermag.com/doe-issues-2-7b-orders-to-scale-domestic-nuclear-leu-and-haleu-enrichment/"
+     },
+     {
+      "name": "X-energy (TRISO-X)",
+      "role": "scaleup",
+      "what": "Building TF3 in Oak Ridge \u2014 the first commercial-scale TRISO fuel fabrication facility in North America.",
+      "signal": "Vertically integrates fuel for its Xe-100 fleet and third parties; backed by X-energy's $700M Series D and 2026 public listing.",
+      "status": "operating",
+      "source": "https://x-energy.com/media/news-releases/amazon-invests-in-x-energy-to-support-advanced-small-modular-nuclear-reactors-and-expand-carbon-free-power"
+     },
+     {
+      "name": "Standard Nuclear",
+      "role": "startup",
+      "what": "Bought bankrupt USNC's TRISO fuel assets for $28M and restarted production (~500 kg/yr) in Oak Ridge as an independent merchant fuel supplier.",
+      "signal": "$140M Series A (Jan 2026); joined DOE's advanced fuel pilot program; >$100M in projected 2027 fuel sales.",
+      "status": "operating",
+      "source": "https://techcrunch.com/2026/01/28/standard-nuclear-raises-140m-as-nuclear-power-enters-its-gold-rush-era/"
+     },
+     {
+      "name": "BWXT",
+      "role": "incumbent",
+      "what": "Sole maker of US naval reactor fuel; restarted the first US TRISO production line and supplies defense and microreactor fuel.",
+      "signal": "Delivered the complete TRISO core for Project Pele (Dec 2025); NNSA defense fuels contracts; expanding Lynchburg capacity.",
+      "status": "operating",
+      "source": "https://www.bwxt.com/bwxt-delivers-full-core-of-triso-nuclear-fuel-for-project-pele-microreactor/"
+     },
+     {
+      "name": "Lightbridge",
+      "role": "startup",
+      "what": "Developing metallic HALEU fuel rods that boost power and safety margins in existing LWRs and SMRs.",
+      "signal": "NASDAQ: LTBR; fabrication and irradiation work with DOE/INL progressing; long pre-revenue.",
+      "status": "operating",
+      "source": "https://www.ltbridge.com"
+     },
+     {
+      "name": "Cameco",
+      "role": "incumbent",
+      "what": "One of the world's largest uranium miners and fuel-services providers; 49% owner of Westinghouse and GLE stakeholder, spanning the whole front end.",
+      "signal": "Ramping McArthur River/Cigar Lake output into a post-Russian-ban uranium bull market; party to the $80B US AP1000 partnership.",
+      "status": "operating",
+      "source": "https://www.cameco.com"
+     }
+    ],
+    "white_space": "Post-2024 enrichment is suddenly crowded with DOE money, but uranium conversion/deconversion remains effectively single-source in the US (Honeywell's Metropolis plant) and TRISO kernel feedstock is a chokepoint \u2014 unglamorous mid-chain steps are the clearest opening for new entrants."
+   },
+   {
+    "name": "Waste disposal & recycling",
+    "description": "Engineered disposal of spent fuel (deep geological repositories, deep boreholes, dry-cask interim storage) and chemical recycling that recovers the ~95% of energy still in used fuel \u2014 the unsolved back end that gates public acceptance and now doubles as a domestic HALEU feedstock source.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Posiva",
+      "role": "incumbent",
+      "what": "Operating Onkalo in Finland \u2014 the world's first deep geological repository for spent fuel, using the KBS-3 copper-canister method.",
+      "signal": "Final disposal trial runs completed 2024-25; routine operations expected mid-decade \u2014 the global proof point that permanent disposal is doable.",
+      "status": "operating",
+      "source": "https://www.posiva.fi/en"
+     },
+     {
+      "name": "SKB",
+      "role": "incumbent",
+      "what": "Swedish counterpart building the Forsmark spent-fuel repository and Oskarshamn encapsulation plant on the same KBS-3 method.",
+      "signal": "Repository construction began 2025 after final court clearances; ~70-year operating program.",
+      "status": "operating",
+      "source": "https://skb.com"
+     },
+     {
+      "name": "Orano",
+      "role": "incumbent",
+      "what": "Runs La Hague, the West's only commercial-scale reprocessing complex (~1,100 tHM/yr), plus MOX fabrication and US dry storage (NUHOMS).",
+      "signal": "Partnering with SHINE on US recycling pilots; La Hague life-extension investment under way.",
+      "status": "operating",
+      "source": "https://www.ans.org/news/2025-09-08/article-7348/us-nuclear-fuel-recycling-takes-two-steps-forward/"
+     },
+     {
+      "name": "Oklo",
+      "role": "scaleup",
+      "what": "Building the first phase of a commercial US fuel recycling campus (electrorefining/pyroprocessing) to turn spent LWR fuel into fast-reactor fuel.",
+      "signal": "Announced up to $1.68B advanced fuel center in Oak Ridge, TN (2025); among five firms negotiating DOE surplus-plutonium allocations.",
+      "status": "operating",
+      "source": "https://www.axios.com/2025/09/05/oklo-curio-sam-altman-waste-electricity-fuel"
+     },
+     {
+      "name": "Curio",
+      "role": "startup",
+      "what": "NuCycle chemical recycling process designed to cut high-level waste volume to ~4% while recovering reactor fuel and valuable isotopes.",
+      "signal": "Lab-scale demonstrations with DOE national labs; selected for DOE recycling/plutonium negotiations; gained White House attention in late 2025.",
+      "status": "operating",
+      "source": "https://www.axios.com/2025/11/18/nuclear-waste-energy-oklo-curio-shine-fuel"
+     },
+     {
+      "name": "SHINE Technologies",
+      "role": "scaleup",
+      "what": "Fusion-neutron isotope producer using its irradiation/chemistry base as a stepping stone to a commercial spent-fuel recycling pilot (~2030 target).",
+      "signal": "Recycling pilot agreement with Orano; DOE grant for recycling process design incorporating transport/storage/disposal.",
+      "status": "operating",
+      "source": "https://www.ans.org/news/2025-09-08/article-7348/us-nuclear-fuel-recycling-takes-two-steps-forward/"
+     },
+     {
+      "name": "Deep Isolation",
+      "role": "startup",
+      "what": "Disposes of spent fuel and HLW in deep horizontal boreholes drilled with oil-and-gas directional techniques \u2014 repository safety without a mined repository.",
+      "signal": "DOE-funded canister and demonstration work; international pilots (incl. Estonia) and IAEA engagement.",
+      "status": "operating",
+      "source": "https://www.deepisolation.com"
+     },
+     {
+      "name": "Moltex Energy",
+      "role": "startup",
+      "what": "WATSS process recycles spent CANDU fuel into fast-reactor fuel, paired with its waste-burning SSR-W reactor (also listed under MSRs).",
+      "signal": ">95% transuranic recovery shown on real used fuel with CNL (2025); CNSC pre-licensing consultation under way.",
+      "status": "operating",
+      "source": "https://www.moltexenergy.com/moltex-energy-achieves-breakthrough-in-nuclear-fuel-recycling-with-watss-technology/"
+     },
+     {
+      "name": "Holtec International",
+      "role": "incumbent",
+      "what": "Dominant supplier of spent-fuel dry-cask storage worldwide and holder of an NRC license for a consolidated interim storage facility in New Mexico.",
+      "signal": "Thousands of casks deployed; CISF licensed but politically stalled \u2014 a live marker of US back-end gridlock.",
+      "status": "operating",
+      "source": "https://holtecinternational.com"
+     },
+     {
+      "name": "EnergySolutions",
+      "role": "incumbent",
+      "what": "Operates major US low-level waste disposal (Clive, Utah) and a large reactor decommissioning business.",
+      "signal": "Steady disposal/decommissioning revenue; positioned for the restart-era waste logistics market.",
+      "status": "operating",
+      "source": "https://www.energysolutions.com"
+     }
+    ],
+    "white_space": "Disposal is a government-monopoly market where the US has had no repository path since Yucca Mountain stalled, and recycling has historically lost to cheap fresh uranium plus proliferation concerns; the opening is recycling reframed as HALEU feedstock and waste-liability relief (Oklo/Curio model), plus borehole disposal for countries too small to afford a mined repository."
+   }
+  ],
+  "sources": [
+   "https://www.utilitydive.com/news/palisades-three-mile-island-duane-arnold-nuclear-reactor-restart-holtec-nextera-constellation-nrc/730393/",
+   "https://www.energy.gov/edf/holtec-palisades",
+   "https://www.cnbc.com/2025/11/18/trump-nuclear-three-mile-island-crane-loan-constellation-ceg.html",
+   "https://www.klgates.com/US-Government-Announces-Historic-80-Billion-Nuclear-Partnership-with-Westinghouse-Electric-Company-Cameco-Corporation-and-Brookfield-Asset-Management-to-Construct-AP1000-Reactor-Fleet-10-30-2025",
+   "https://www.ans.org/news/article-7625/flamanville3-reaches-full-power/",
+   "https://neutronbytes.com/2025/05/17/geh-bwrx-300-smr-approved-for-construction-at-opgs-darlingtion-site/",
+   "https://www.world-nuclear-news.org/articles/cold-testing-of-chinese-smr-completed",
+   "https://www.cnbc.com/2026/04/24/nuclear-reactor-company-x-energy-begins-trading-as-ai-drives-interest-in-the-industry.html",
+   "https://techcrunch.com/2025/06/11/standard-nuclear-emerges-from-the-ashes-of-a-failed-startup/",
+   "https://www.world-nuclear-news.org/articles/ultra-safe-nuclear-corporation-files-chapter-11-petition",
+   "https://www.world-nuclear-news.org/Articles/Urenco-exits-U-Battery-micro-reactor-project",
+   "https://www.globenewswire.com/news-release/2025/10/29/3176449/0/en/Terrestrial-Energy-Inc-Begins-Trading-on-the-Nasdaq-Stock-Market.html",
+   "https://www.technologyreview.com/2025/10/06/1124290/2025-climate-tech-companies-to-watch-kairos-power-next-generation-nuclear-reactors/",
+   "https://www.ans.org/news/article-7818/nrc-approves-terrapower-construction-permit/",
+   "https://www.energy.gov/ne/articles/3-microreactor-experiments-watch-starting-2026",
+   "https://www.radiantnuclear.com/blog/series-d-announcement/",
+   "https://techcrunch.com/2025/12/16/nuclear-startup-last-energy-raises-100m-for-its-steel-encased-micro-reactor/",
+   "https://techcrunch.com/2025/12/02/microreactor-startup-antares-raises-96m-for-land-sea-and-space-based-nuclear-power/",
+   "https://techcrunch.com/2025/08/19/aalo-atomics-raises-100m-to-build-a-microreactor-and-data-center-together/",
+   "https://www.powermag.com/doe-issues-2-7b-orders-to-scale-domestic-nuclear-leu-and-haleu-enrichment/",
+   "https://www.powermag.com/centrus-completes-900-kg-haleu-delivery-to-doe-in-u-s-nuclear-fuel-enrichment-milestone/",
+   "https://www.wkms.org/energy/2026-01-07/general-matter-scores-900m-award-from-doe-to-support-haleu-enrichment-in-paducah",
+   "https://techcrunch.com/2026/01/28/standard-nuclear-raises-140m-as-nuclear-power-enters-its-gold-rush-era/",
+   "https://www.axios.com/2025/11/18/nuclear-waste-energy-oklo-curio-shine-fuel",
+   "https://www.ans.org/news/2025-09-08/article-7348/us-nuclear-fuel-recycling-takes-two-steps-forward/",
+   "https://www.world-nuclear-news.org/articles/construction-permit-granted-for-molten-salt-research-reactor",
+   "https://www.ans.org/news/2025-08-06/article-7260/thorcon-project-takes-forward-step-in-indonesia/",
+   "https://www.moltexenergy.com/moltex-energy-achieves-breakthrough-in-nuclear-fuel-recycling-with-watss-technology/",
+   "https://www.world-nuclear-news.org/articles/denmarks-seaborg-changes-name-and-adds-to-board",
+   "https://www.nucnet.org/news/swedish-nuclear-startup-blykalla-raises-usd50-million-to-accelerate-work-on-smr-12-4-2025",
+   "https://www.nucnet.org/news/france-s-hexana-enters-preparatory-phase-with-regulator-for-generation-iv-reactor-project-6-1-2025",
+   "https://www.world-nuclear-news.org/articles/european-partnerships-for-fast-reactor-development",
+   "https://www.world-nuclear-news.org/articles/deep-fission-aims-for-usd166-billion-valuation",
+   "https://www.stocktitan.net/news/OKLO/oklo-s-nrc-principal-design-criteria-topical-report-approved-for-aue0ecb7z74l.html",
+   "https://www.ans.org/news/2025-10-28/article-7501/nextera-and-google-ink-a-deal-to-restart-duane-arnold/",
+   "https://www.nsenergybusiness.com/analysis/yakutia-smr-plan-progresses/",
+   "https://world-nuclear.org/information-library/current-and-future-generation/fast-neutron-reactors",
+   "https://www.globenewswire.com/news-release/2026/05/14/3295394/0/en/nano-nuclear-reports-q2-fy-2026-financial-results-and-provides-business-update.html",
+   "https://www.ans.org/news/2025-08-03/article-7253/bwxt-starts-building-pele-microreactor-core/",
+   "https://www.energy.gov/articles/us-department-energy-awards-27-billion-restore-american-uranium-enrichment"
+  ]
+ }
+}

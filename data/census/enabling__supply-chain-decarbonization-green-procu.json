@@ -1,0 +1,588 @@
+{
+ "sector": "enabling",
+ "bucket": "Supply Chain Decarbonization & Green Procurement",
+ "census": {
+  "bucket": "Supply Chain Decarbonization & Green Procurement",
+  "variations": [
+   {
+    "name": "Scope 3 supplier data collection & engagement platforms",
+    "description": "Platforms that survey, score and coach thousands of suppliers to obtain primary emissions data and reduction commitments, attacking the 70-90% of a typical corporate footprint that sits in purchased goods and services.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "CDP",
+      "role": "incumbent",
+      "what": "The de facto global environmental disclosure system; its supply chain program lets buyers request standardized climate data from tens of thousands of suppliers.",
+      "signal": "Nonprofit operating 20+ years; referenced alongside EcoVadis/TfS as a default channel for supplier carbon data collection",
+      "status": "operating",
+      "source": "https://normative.io/insight/scope-3-supplier-engagement/"
+     },
+     {
+      "name": "Manufacture 2030 (now Secaro)",
+      "role": "scaleup",
+      "what": "Facility-level supplier decarbonization program: measures plant emissions and drives implementation of reduction projects rather than just data collection.",
+      "signal": "Ford, GM, Toyota, Honda, Denso, Magna extending platform to ~20,000 supplier facilities (2024); 10 UK grocers (Tesco, Aldi, Sainsbury's) use it as decarbonization partner",
+      "status": "operating",
+      "source": "https://secaro.io/insights/news/2024/04/automotive-giants-partner-with-manufacture-2030-for-sustainable-supply-chain-decarbonization"
+     },
+     {
+      "name": "Sweep",
+      "role": "scaleup",
+      "what": "Paris-based sustainability data platform for collecting and centralizing scope 3 data from suppliers and distributed business units, CSRD-oriented.",
+      "signal": "Raised ~$100M total (Series B $73M, 2022, led by Coatue); positions as scope 3/value-chain leader",
+      "status": "operating",
+      "source": "https://www.sweep.net/blog/best-scope-3-software-in-2025"
+     },
+     {
+      "name": "Optera",
+      "role": "startup",
+      "what": "Boulder-based scope 1-3 emissions management with deep supplier-specific (vs spend-based) scope 3 modeling for enterprises.",
+      "signal": "$12M Series A (Sep 2023) led by Next Frontier Capital; founded from a sustainability consultancy",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/optera-secures-12m-to-help-companies-prepare-for-new-sec-climate-disclosure-requirements-301923523.html"
+     },
+     {
+      "name": "Emitwise",
+      "role": "startup",
+      "what": "AI-driven supplier engagement that helped procurement teams get PCFs and SBTi targets from thousands of suppliers in minutes.",
+      "signal": "Acquired by Green Project Technologies (ACT Group) July 28, 2025; no longer a standalone brand \u2014 consolidation evidence in a crowded field",
+      "status": "acquired",
+      "source": "https://www.esgtoday.com/green-project-technologies-acquires-supply-chain-decarbonization-platform-emitwise/"
+     },
+     {
+      "name": "SupplyShift",
+      "role": "startup",
+      "what": "Pioneer supplier sustainability network (founded 2012) with 100,000+ suppliers sharing assessment and scope 3 data with buyers.",
+      "signal": "Acquired by Sphera Jan 9, 2024 to bolt supplier data collection onto Sphera's LCA/ESG suite",
+      "status": "acquired",
+      "source": "https://sphera.com/company/news/sphera-acquires-supplyshift/"
+     },
+     {
+      "name": "Green Project Technologies",
+      "role": "scaleup",
+      "what": "ACT Group-owned carbon data platform consolidating supply-chain climate tooling (absorbed Emitwise's supplier engagement and PCF tech).",
+      "signal": "Acquirer-of-record in 2025 scope 3 consolidation; backed by ACT Group, a major environmental commodities trader",
+      "status": "operating",
+      "source": "https://www.greenprojecttech.com/newsroom/green-project-technologies-an-act-group-company-acquires-the-emitwise-technology-platform-introducing-the-best-in-class-supply-chain-climate-solution"
+     },
+     {
+      "name": "Avarni",
+      "role": "startup",
+      "what": "Sydney-based scope 3 data engine that ingests procurement spend and supplier data to map value-chain emissions; used by consultancies for client scope 3 work.",
+      "signal": "Active product releases through late 2025 targeting Australian ASRS mandatory climate reporting",
+      "status": "operating",
+      "source": "https://www.avarni.co/"
+     }
+    ]
+   },
+   {
+    "name": "Supplier sustainability ratings & assessment networks",
+    "description": "Shared assessment networks rate a supplier's ESG and carbon performance once and reuse that rating across many buyers, making sustainability a standard, comparable procurement criterion at global scale.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "EcoVadis",
+      "role": "incumbent",
+      "what": "Category-defining shared supplier sustainability ratings (medals) used in procurement decisions, plus a Carbon Action Module with 48,000+ GHG reporters.",
+      "signal": "$500M raise (June 2022) at >$1B valuation led by Astorg/BeyondNetZero; 175,000+ rated companies in 180+ countries",
+      "status": "operating",
+      "source": "https://www.axios.com/pro/climate-deals/2022/06/14/esg-sustainability-ratings-giant-ecovadis-unicorn"
+     },
+     {
+      "name": "IntegrityNext",
+      "role": "scaleup",
+      "what": "Munich-based supplier ESG assessment and monitoring platform (25+ ready-made assessments) built for EU regulations like LkSG/CSDDD.",
+      "signal": "\u20ac100M from EQT Growth (Mar 2023) after bootstrapping; 200+ customers monitoring ~1M suppliers (Siemens Gamesa, Infineon, Hilti)",
+      "status": "operating",
+      "source": "https://eqtgroup.com/news/eqt-growth-invests-eur-100-million-in-integritynext-a-sustainability-software-platform-dedicated-to-making-supply-chains-more-transparent-and-compliant-2023-03-23"
+     },
+     {
+      "name": "Sedex",
+      "role": "incumbent",
+      "what": "Long-standing responsible-sourcing data network whose SMETA audit is the world's most-used social/environmental audit format.",
+      "signal": "Decades-old membership network spanning tens of thousands of buyer and supplier members",
+      "status": "operating",
+      "source": "https://www.planetcompliance.com/esg/top-ecovadis-competitors/"
+     },
+     {
+      "name": "Worldly",
+      "role": "scaleup",
+      "what": "Exclusive host of Cascale's Higg Index tools \u2014 facility- and product-level environmental data for apparel/consumer goods supply chains.",
+      "signal": "40,000+ suppliers reporting on the platform; spun out of the Sustainable Apparel Coalition",
+      "status": "operating",
+      "source": "https://worldly.io/"
+     },
+     {
+      "name": "Assent",
+      "role": "scaleup",
+      "what": "Supplier ESG and product-compliance data network focused on complex manufacturing (electronics, aerospace, industrial).",
+      "signal": "$350M from Vista Equity (Jan 2022) at unicorn valuation; one of Canada's largest software raises",
+      "status": "operating",
+      "source": "https://techcrunch.com/2022/01/06/canadas-assent-compliance-lands-350m-from-vista-equity-for-supply-chain-data-management/"
+     },
+     {
+      "name": "Prewave",
+      "role": "scaleup",
+      "what": "Vienna-based AI that continuously monitors public signals on 140 risk types (ESG, deforestation, CBAM exposure) across n-tier supplier networks instead of relying on questionnaires.",
+      "signal": "\u20ac63M Series B (June 2024) led by Hedosophia; 200+ customers incl. Toyota, Ferrari, Lufthansa; 3x revenue growth 2023",
+      "status": "operating",
+      "source": "https://www.prewave.com/news/prewave-raises-63m-euro-series-b-to-revolutionise-supply-chain-risk-management-with-ai-driven-superintelligence-platform/"
+     }
+    ]
+   },
+   {
+    "name": "Product carbon footprinting & LCA software",
+    "description": "Software that models cradle-to-grave product footprints and EPDs, increasingly automated with AI and BOM/ERP integrations so manufacturers can footprint entire portfolios instead of commissioning one-off consultant studies.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Sphera",
+      "role": "incumbent",
+      "what": "Owner of GaBi, the dominant enterprise LCA software and dataset franchise, now bundled with ESG risk and (via SupplyShift) supplier data collection.",
+      "signal": "Blackstone-owned ESG software consolidator; acquired SupplyShift Jan 2024 to add scope 3 collection to its LCA stack",
+      "status": "operating",
+      "source": "https://sphera.com/solutions/product-stewardship/life-cycle-assessment-software-and-data/"
+     },
+     {
+      "name": "One Click LCA",
+      "role": "scaleup",
+      "what": "Construction-sector LCA/EPD market leader (BIM-integrated) expanding to all industries; now owns SimaPro, the classic expert LCA tool.",
+      "signal": "PSG Equity & InfraVia-backed; acquired SimaPro/PR\u00e9 Sustainability (Sep 2, 2025), claiming world's largest LCA platform with 500,000+ datasets",
+      "status": "operating",
+      "source": "https://www.esgtoday.com/one-click-lca-acquires-simapro-and-pre-sustainability-to-offer-carbon-footprint-solutions-across-industries/"
+     },
+     {
+      "name": "Makersite",
+      "role": "scaleup",
+      "what": "AI 'product digital twin' that auto-builds LCAs, cost and compliance models from BOMs across electronics, automotive and chemicals.",
+      "signal": "\u20ac60M Series B (summer 2025); ~50% growth since 2024; acquiring Siemens' SiGREEN (effective June 1, 2026)",
+      "status": "operating",
+      "source": "https://www.verdantix.com/client-portal/blog/makersite-acquires-sigreen-to-enhance-supplier-pcf-data-collection-and-sharing"
+     },
+     {
+      "name": "Carbonfact",
+      "role": "startup",
+      "what": "Apparel/footwear-specialized PCF platform using ML to footprint every SKU from incomplete product data.",
+      "signal": "$15M Series A (Apr 2024) led by Alven; 150+ brands incl. Columbia, New Balance, Carhartt",
+      "status": "operating",
+      "source": "https://www.esgtoday.com/carbonfact-raises-15-million-for-emissions-reporting-solution-for-fashion-industry/"
+     },
+     {
+      "name": "Ecochain",
+      "role": "startup",
+      "what": "Amsterdam LCA platform (Mobius/Helix) for footprinting full product portfolios of mid-size manufacturers at once.",
+      "signal": "Ranked among top-5 LCA providers in 2025 vendor comparisons",
+      "status": "operating",
+      "source": "https://www.devera.ai/resources/lca-software-comparison-in-2025-best-tools-ranking"
+     },
+     {
+      "name": "iPoint-systems",
+      "role": "incumbent",
+      "what": "German compliance-plus-LCA suite (Umberto) with 20+ years in automotive material compliance, adding supplier PCF outreach.",
+      "signal": "Named among LCA vendors investing in supplier engagement for primary data (2025-2026)",
+      "status": "operating",
+      "source": "https://makersite.io/insights/8-ai-powered-lca-software-solutions-for-manufacturers-in-2026/"
+     }
+    ]
+   },
+   {
+    "name": "Product carbon footprint data-exchange networks & standards infrastructure (PACT, Catena-X)",
+    "description": "Shared standards (PACT Pathfinder, Catena-X rulebooks) and conformant networks let verified product carbon footprints flow company-to-company across supply tiers, replacing industry-average estimates with primary data without exposing trade secrets.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "PACT (WBCSD)",
+      "role": "incumbent",
+      "what": "Neutral WBCSD-convened initiative defining the PCF methodology and technical data-exchange spec that vendor solutions certify against (PACT conformance).",
+      "signal": "Its framework is the alignment anchor for Catena-X, TfS and major vendors; growing ecosystem of conformant solutions",
+      "status": "operating",
+      "source": "https://www.carbon-transparency.org/resources/catena-x-product-carbon-footprint-rulebook"
+     },
+     {
+      "name": "Catena-X / Cofinity-X",
+      "role": "incumbent",
+      "what": "Automotive data ecosystem (BMW, Mercedes-Benz, Bosch, SAP, Siemens et al.) with a binding PCF Rulebook; Cofinity-X operates the live marketplace for standardized PCF exchange.",
+      "signal": "PCF Rulebook v3.0 published; first cross-OEM PCF exchanges live in European automotive and now extending to Asia",
+      "status": "operating",
+      "source": "https://catenax-ev.github.io/assets/files/CX-NFR-PCF-Rulebook_v.3.0-04874a80a6d27511df06e07ae3049278.pdf"
+     },
+     {
+      "name": "SiGREEN (Siemens)",
+      "role": "incumbent",
+      "what": "Siemens-built PCF exchange that uniquely bridges TfS (chemicals), Catena-X and PACT; powers the TfS PCF Exchange for the global chemical industry.",
+      "signal": "PACT-conformant (2024); sold by Siemens to Makersite, deal effective June 1, 2026 \u2014 a signal that even industrial giants struggled to monetize exchange infrastructure standalone",
+      "status": "acquired",
+      "source": "https://www.esgtoday.com/makersite-acquires-product-carbon-footprint-platform-sigreen-from-siemens/"
+     },
+     {
+      "name": "Glassdome",
+      "role": "startup",
+      "what": "US/Korean platform pulling real factory-floor sensor data into verified PCFs and exchanging them across borders without exposing raw process data.",
+      "signal": "$8.6M Series A (2023); ran Asia's first Catena-X-compliant PCF exchange with KG Mobility and LG Electronics (June 2026); works with Samsung SDI",
+      "status": "operating",
+      "source": "https://www.pr-web.com/2026/06/04/glassdome-leads-asias-first-carbon-data-exchange-via-catena-x-with-kgm-and-lg-electronics/"
+     },
+     {
+      "name": "SAP (Sustainability Data Exchange)",
+      "role": "incumbent",
+      "what": "PACT-conformant PCF exchange embedded directly in the SAP procurement/ERP stack, giving it default distribution to most large manufacturers.",
+      "signal": "Live product within SAP's sustainability portfolio; leverages SAP's installed base rather than a new network",
+      "status": "operating",
+      "source": "https://www.sap.com/products/scm/sustainability-data-exchange.html"
+     }
+    ],
+    "white_space": "Standards now exist but supplier-side adoption is the chicken-and-egg bottleneck: PCF exchange is consortium/nonprofit infrastructure with weak standalone monetization (Siemens divested SiGREEN). The opening is not another network but conformant exchange embedded in existing procurement/ERP rails and automated supplier-side PCF generation cheap enough for SME tiers 2-3."
+   },
+   {
+    "name": "Food & agriculture supply chain emissions platforms",
+    "description": "Ingredient-level emissions databases and agricultural supply-chain MRV translate recipes and sourcing decisions into product footprints and farm-level interventions for food brands and retailers, where scope 3 is typically >90% of impact.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "HowGood",
+      "role": "startup",
+      "what": "World's largest food/personal-care sustainability database \u2014 33,000+ ingredients, chemicals and materials \u2014 powering product-level impact scoring for CPGs and retailers.",
+      "signal": "$27.4M raised over 5 rounds (latest $12.5M, May 2022)",
+      "status": "operating",
+      "source": "https://www.crunchbase.com/organization/howgood"
+     },
+     {
+      "name": "CarbonCloud",
+      "role": "startup",
+      "what": "Swedish 'climate intelligence' engine that auto-calculates footprints for hundreds of thousands of food products and shares them via its ClimateHub network.",
+      "signal": "\u20ac7.5M Series A (Feb 2023); ~$14M total raised",
+      "status": "operating",
+      "source": "https://www.eu-startups.com/2023/02/carboncloud-just-scored-e7-5-million-to-become-the-food-industrys-leading-climate-intelligence-platform/"
+     },
+     {
+      "name": "Carbon Maps",
+      "role": "startup",
+      "what": "Paris-based carbon/ESG platform built specifically for agricultural supply-chain complexity, mobilizing food suppliers for primary data and PCF validation.",
+      "signal": "~\u20ac4M pre-seed (2023, Breega/Samaipata); growing in French/EU agrifood",
+      "status": "operating",
+      "source": "https://www.carbonmaps.io/"
+     },
+     {
+      "name": "Planet FWD",
+      "role": "startup",
+      "what": "Decarbonization platform for consumer brands with deep food/agriculture LCA models (founded by Zume's Julia Collins).",
+      "signal": "$10M Series A (Acre, Congruent); ~$16.8M total raised; Morgan Stanley-profiled",
+      "status": "operating",
+      "source": "https://xtalks.com/carbon-assessment-startup-planet-fwd-raises-10-million-in-funding-3096/"
+     },
+     {
+      "name": "Mondra",
+      "role": "startup",
+      "what": "AI platform generating product-level LCAs from retailer specification data (thousands of LCAs in <4 hours); runs the BRC Mondra Coalition standardizing PCF across UK grocery.",
+      "signal": "Coalition with Tesco, M&S, Ocado, ASDA (Sainsbury's, Lidl, Co-op piloting), in consultation with WRAP/IGD/WWF-UK",
+      "status": "operating",
+      "source": "https://www.mondra.com/blog/food-industry-coalition-paves-the-way-for-a-united-approach-to-product-carbon-footprinting-and-scope-3-emissions"
+     },
+     {
+      "name": "Regrow Ag",
+      "role": "scaleup",
+      "what": "Satellite + soil-model MRV that lets food companies verify regenerative practices and scope 3 reductions across sourcing regions (insetting).",
+      "signal": "$38M Series B (2022) led by Galvanize; General Mills monitoring 175M acres; Cargill and Kellogg's partnerships",
+      "status": "operating",
+      "source": "https://www.regrow.ag/post/regrow-ag-secures-38m-in-series-b-to-use-agriculture-to-meet-net-zero-targets"
+     }
+    ]
+   },
+   {
+    "name": "Freight & logistics emissions visibility and optimization",
+    "description": "Platforms calculate auditable per-shipment emissions across modes (GLEC framework / ISO 14083) and surface lower-carbon routing, modal-shift and consolidation choices, turning transport scope 3 from an annual estimate into an operational decision variable.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "project44",
+      "role": "scaleup",
+      "what": "Leading real-time transportation visibility platform that added GLEC-accredited Emissions Monitoring across all modes on top of its tracking network.",
+      "signal": "$2.7B valuation ($80M round led by Generation IM and A.P. Moller); Emissions Monitoring launched Aug 2024",
+      "status": "operating",
+      "source": "https://www.project44.com/press-releases/project44-launches-emissions-monitoring-to-improve-supply-chain-sustainability-and-compliance/"
+     },
+     {
+      "name": "Shipzero",
+      "role": "startup",
+      "what": "Hamburg data platform creating primary-data emissions records (fuel-level) for road/sea/air freight shared between shippers and carriers.",
+      "signal": "\u20ac8M Series A (May 2024, ETF Partners); tracks 80M+ transports across 100+ countries",
+      "status": "operating",
+      "source": "https://etfpartners.capital/articles/e8-million-series-a-for-shipzero-sustainable-logistics-pioneer-expands-its-innovative-emissions-cloud/"
+     },
+     {
+      "name": "Pledge",
+      "role": "startup",
+      "what": "London API/platform letting freight forwarders embed accredited emissions measurement and reporting into customer quotes and shipments.",
+      "signal": "$10M raise (2022, Zinal Growth) after $4.5M seed (Lowercarbon); Smart Freight Centre GLEC-accredited and ISO 14083-compliant",
+      "status": "operating",
+      "source": "https://www.pledge.io/resources/newsroom/pledge-raises-10-million-to-drive-decarbonisation-of-logistics-supply-chains/"
+     },
+     {
+      "name": "Searoutes",
+      "role": "startup",
+      "what": "Marseille-based APIs computing vessel/route-specific CO2 per shipment so shippers can pick lower-emission carriers and routings.",
+      "signal": "~$2.7M raised; niche but embedded in forwarder workflows",
+      "status": "operating",
+      "source": "https://tracxn.com/d/companies/searoutes/__HO_uvYsRMzt6CwFwW6aUvwEvBQBoDbivSx8sIQIoLdM"
+     },
+     {
+      "name": "EcoTransIT World",
+      "role": "incumbent",
+      "what": "The long-standing standard calculation engine for worldwide transport-chain emissions, accredited to GLEC/ISO 14083 and embedded in major carriers' and shippers' systems.",
+      "signal": "Operating since 2000s with broad industry adoption as the default freight-emissions calculator",
+      "status": "operating",
+      "source": "https://www.ecotransit.org/"
+     },
+     {
+      "name": "Convoy",
+      "role": "scaleup",
+      "what": "Digital freight network that marketed automated load-batching and empty-mile reduction as trucking decarbonization.",
+      "signal": "Raised ~$1.1B at a $3.8B peak valuation; ceased operations Oct 19, 2023 in the freight recession; tech sold to Flexport ($16M), then to DAT (2025)",
+      "status": "bankrupt-shutdown",
+      "source": "https://techcrunch.com/2023/11/01/flexport-acquires-technology-of-former-digital-freight-unicorn-convoy/"
+     }
+    ]
+   },
+   {
+    "name": "Green materials & low-carbon procurement marketplaces",
+    "description": "Databases and marketplaces that put EPD-backed carbon data next to price at the moment of specification and purchase, letting buyers choose low-carbon steel, cement, and other materials and converting Buy Clean-style policies into actual demand signals.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Building Transparency (EC3)",
+      "role": "incumbent",
+      "what": "Hosts EC3, the only free, open-access global embodied-carbon calculator with a huge digitized EPD database used in material specification and procurement.",
+      "signal": "Nonprofit formed 2020; observes 30%+ carbon reductions where EC3 is used to procure; backbone of US Buy Clean implementation",
+      "status": "operating",
+      "source": "https://www.buildingtransparency.org/tools/ec3/"
+     },
+     {
+      "name": "2050 Materials",
+      "role": "startup",
+      "what": "London-based API/platform aggregating sustainability data on 150,000+ construction products so architects and contractors can compare and specify low-carbon options.",
+      "signal": "Accelerator-backed early-stage; largest open construction-materials sustainability database claim",
+      "status": "operating",
+      "source": "https://2050-materials.com/"
+     },
+     {
+      "name": "Vanilla Steel",
+      "role": "startup",
+      "what": "Berlin B2B digital marketplace auctioning European steel (surplus/excess prime), a digital channel relevant to sourcing lower-carbon and circular steel.",
+      "signal": "$4.1M raised (seed led by June Fund); building AI price/demand forecasting with EU co-funding",
+      "status": "operating",
+      "source": "https://app.dealroom.co/companies/vanilla_steel"
+     },
+     {
+      "name": "Climate Earth",
+      "role": "startup",
+      "what": "Automated EPD generation for ready-mix concrete producers, feeding verified low-carbon concrete data into EC3 and procurement decisions.",
+      "signal": "EC3 ecosystem partner serving concrete producers across North America",
+      "status": "operating",
+      "source": "https://climateearth.com/partner/building-transparency-ec3-tool/"
+     },
+     {
+      "name": "Skanska",
+      "role": "incumbent",
+      "what": "Global contractor that co-created EC3 (with Microsoft) and applies embodied-carbon-based procurement on major projects.",
+      "signal": "EC3 originated from Skanska's 2019 initiative; now industry-standard practice at scale",
+      "status": "operating",
+      "source": "https://foresight.skanska.com/decarbonizing-construction/article-EC3/"
+     }
+    ],
+    "white_space": "Few transactional players because green premiums are uncertain, materials trade is regional and commoditized, and the best data infrastructure (EC3) is free and nonprofit \u2014 hard to monetize a standalone marketplace. The opening is the transaction layer: book-and-claim certificate systems and offtake aggregation for green steel/cement tied to Buy Clean and CBAM price signals, embedded into existing procurement/ERP and estimating software rather than new destinations."
+   },
+   {
+    "name": "CBAM & carbon border compliance software",
+    "description": "Software that collects installation-level embedded-emissions data from non-EU producers and automates EU CBAM reporting and certificate cost forecasting \u2014 turning the world's first carbon border tariff (definitive phase from 2026) into a procurement data problem.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "CarbonChain",
+      "role": "startup",
+      "what": "Commodity-grade emissions accounting (metals, energy, agri) with a CBAM Supplier Catalogue \u2014 shared infrastructure for installation-level emissions data exchange between operators and EU importers.",
+      "signal": "Supports ~35% of steel, ~40% of aluminium and ~50% of fertiliser EU import volumes; 1,750+ declarations covering 7.5 Mt of goods over three years",
+      "status": "operating",
+      "source": "https://www.carbonchain.com/blog/introducing-carbonchain-cbam-supplier-catalogue"
+     },
+     {
+      "name": "CBAMBOO",
+      "role": "startup",
+      "what": "London startup building the 'operating system for carbon border taxes' \u2014 importer exposure tracking plus free supplier-side tooling to generate compliant emissions data.",
+      "signal": "Founded May 2023 at Carbon13; Pale Blue Dot-backed; platform live for EU importers and non-EU manufacturers",
+      "status": "operating",
+      "source": "https://www.cbamboo.com/"
+     },
+     {
+      "name": "AEB",
+      "role": "incumbent",
+      "what": "Established German customs/global-trade software vendor integrating CBAM reporting into existing customs workflows via partnership with CBAMBOO.",
+      "signal": "Decades-old trade-compliance installed base; CBAM partner offering live",
+      "status": "operating",
+      "source": "https://www.aeb.com/en/partner/cbamboo.php"
+     },
+     {
+      "name": "Thomson Reuters (ONESOURCE)",
+      "role": "incumbent",
+      "what": "Global trade and tax compliance suite extending into CBAM declarations, giving multinationals CBAM inside the system that already files their customs entries.",
+      "signal": "Incumbent trade-compliance leader adding CBAM modules ahead of the 2026 definitive regime",
+      "status": "operating",
+      "source": "https://tax.thomsonreuters.com/en/onesource"
+     }
+    ],
+    "white_space": "The Oct 2025 Omnibus simplification (50-tonne de minimis) exempted ~182,000 mostly-SME importers while keeping 99% of emissions in scope \u2014 gutting the long-tail SME software market but deepening enterprise and supplier-side need. Openings: tooling for non-EU producers (where default values now cost real money), integration into customs/ERP rails rather than standalone portals, and expansion to UK CBAM (2027) and other emerging border regimes."
+   },
+   {
+    "name": "Deforestation-free supply chain (EUDR) monitoring & compliance",
+    "description": "Satellite monitoring plus supply-chain geodata platforms verify that cattle, cocoa, coffee, palm, rubber, soy and wood products weren't grown on deforested land and auto-file EU due-diligence statements \u2014 now mandatory for EU market access from 30 Dec 2026 after a one-year delay and simplification agreed in Dec 2025.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "osapiens",
+      "role": "scaleup",
+      "what": "Mannheim ESG-compliance HUB automating EUDR due diligence, traceability and TRACES reporting alongside CSDDD/CBAM modules.",
+      "signal": "$120M Series B (July 2024) led by Goldman Sachs Growth Equity; 1,300+ customers incl. Coca-Cola and Costco; 700+ users of its EUDR solution",
+      "status": "operating",
+      "source": "https://siliconangle.com/2024/07/29/esg-compliance-startup-osapiens-closes-120m-funding-round/"
+     },
+     {
+      "name": "LiveEO",
+      "role": "scaleup",
+      "what": "Berlin satellite-analytics firm whose TradeAware product screens supplier plot geodata against AI deforestation detection for EUDR.",
+      "signal": "\u20ac25M Series B; demand spiked into the original 2024-2025 deadlines and again in 2025",
+      "status": "operating",
+      "source": "https://www.coolset.com/academy/top-5-liveeo-tradeaware-alternatives-for-eudr-compliance"
+     },
+     {
+      "name": "Satelligence",
+      "role": "startup",
+      "what": "Dutch satellite deforestation-monitoring specialist that can issue official due-diligence statements on clients' behalf \u2014 a workflow differentiator.",
+      "signal": "Used by Cargill and Unilever for commodity deforestation risk",
+      "status": "operating",
+      "source": "https://satelligence.com/eudr/"
+     },
+     {
+      "name": "Sourcemap",
+      "role": "scaleup",
+      "what": "NYC supply-chain mapping pioneer covering the full EUDR workflow from farm-plot collection through deforestation screening to automated DDS submission to EU TRACES.",
+      "signal": "$47M raised total ($20M Series B, June 2023); 10+ years of deforestation-free supply chain mapping; clients incl. Oxford University Press",
+      "status": "operating",
+      "source": "https://www.sourcemap.com/solutions/eudr"
+     },
+     {
+      "name": "Orbify",
+      "role": "startup",
+      "what": "Earth-observation app platform offering configurable EUDR monitoring solutions built on open satellite data.",
+      "signal": "Early-stage; publishes EUDR vendor landscape and ships EO compliance blueprints",
+      "status": "operating",
+      "source": "https://orbify.com/blog/navigating-eudr-compliance-the-best-saas-solutions-for-deforestation-monitoring"
+     },
+     {
+      "name": "Global Forest Watch (WRI)",
+      "role": "incumbent",
+      "what": "Free, open satellite deforestation alert infrastructure (GLAD/RADD) that underpins much of the commercial EUDR tooling ecosystem.",
+      "signal": "De facto public data layer for forest monitoring globally",
+      "status": "operating",
+      "source": "https://www.globalforestwatch.org/"
+     }
+    ]
+   },
+   {
+    "name": "Materials traceability platforms for batteries, metals & critical minerals",
+    "description": "Chain-of-custody platforms track batteries, metals and critical minerals from mine to finished product \u2014 increasingly carrying embedded CO2 data \u2014 to satisfy the EU Battery Regulation's digital battery passport (mandatory Feb 2027) and responsible-sourcing rules.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Circulor",
+      "role": "scaleup",
+      "what": "First company to deploy battery passports at industrial scale, tracking raw materials, recycled content and CO2 end-to-end.",
+      "signal": "Powered the world's first EV battery passport on the Volvo EX90 (June 2024); 30 supply chains and 125+ facilities tracked; backed by Volvo and Jaguar Land Rover",
+      "status": "operating",
+      "source": "https://circulor.com/articles/worlds-first-battery-passport"
+     },
+     {
+      "name": "Minespider",
+      "role": "startup",
+      "what": "Blockchain-based mineral and battery passports (Open Battery Passport, May 2023) creating verifiable digital identities for raw material batches.",
+      "signal": "Integration trials with Microvast through 2024; Tata Elxsi collaboration (Jan 2025); named a top battery-passport company",
+      "status": "operating",
+      "source": "https://www.marketsandmarkets.com/ResearchInsight/battery-passport-market.asp"
+     },
+     {
+      "name": "Circularise",
+      "role": "startup",
+      "what": "Dutch digital product passports using zero-knowledge proofs so suppliers can prove provenance/footprint without revealing confidential composition data.",
+      "signal": "Active in battery, plastics and metals value chains; EU DPP pilot ecosystem participant",
+      "status": "operating",
+      "source": "https://www.circularise.com/industry/batteries"
+     },
+     {
+      "name": "Optel Group",
+      "role": "incumbent",
+      "what": "Canadian traceability-technology incumbent (pharma serialization heritage) applying its supply chain tracking stack to batteries and critical materials.",
+      "signal": "Named among top companies in the battery passport market (projected $0.15B in 2025 to $2.35B by 2035, 32% CAGR)",
+      "status": "operating",
+      "source": "https://www.marketsandmarkets.com/ResearchInsight/battery-passport-market.asp"
+     },
+     {
+      "name": "Everledger",
+      "role": "startup",
+      "what": "Blockchain provenance pioneer (diamonds, then batteries and critical minerals) \u2014 the sector's most prominent failure.",
+      "signal": "Raised $51.7M (incl. Tencent-led $20M Series A); entered administration April 2023 after a funding deal collapsed",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.ledgerinsights.com/everledger-bankruptcy-esg-blockchain-traceability/"
+     },
+     {
+      "name": "Glassdome",
+      "role": "startup",
+      "what": "Factory-floor-data PCF and digital carbon passports for the Korean battery/materials supply chain (Samsung SDI, L&F, Lotte aluminium chain).",
+      "signal": "$8.6M Series A with explicit EV-battery focus; organizer of a Global Battery Alliance passport pilot",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/glassdome-secures-8-6m-series-a-for-manufacturing-regulatory-platform-with-ev-battery-focus-301827222.html"
+     }
+    ],
+    "white_space": "Voluntary provenance repeatedly failed to find a payer (Everledger insolvent 2023; IBM/Maersk shut their blockchain supply-chain products citing lack of collaboration) \u2014 the value accrued to regulators and consumers, not the companies paying for it. The EU Battery Regulation's mandatory passport (Feb 2027) plus US critical-minerals sourcing rules create the first hard compliance demand; the opening is audit-grade passports embedded in OEM PLM/procurement systems with CO2 data attached, not standalone blockchain networks."
+   }
+  ],
+  "sources": [
+   "https://www.esgtoday.com/makersite-acquires-product-carbon-footprint-platform-sigreen-from-siemens/",
+   "https://www.verdantix.com/client-portal/blog/makersite-acquires-sigreen-to-enhance-supplier-pcf-data-collection-and-sharing",
+   "https://www.esgtoday.com/one-click-lca-acquires-simapro-and-pre-sustainability-to-offer-carbon-footprint-solutions-across-industries/",
+   "https://www.axios.com/pro/climate-deals/2022/06/14/esg-sustainability-ratings-giant-ecovadis-unicorn",
+   "https://eqtgroup.com/news/eqt-growth-invests-eur-100-million-in-integritynext-a-sustainability-software-platform-dedicated-to-making-supply-chains-more-transparent-and-compliant-2023-03-23",
+   "https://techcrunch.com/2022/01/06/canadas-assent-compliance-lands-350m-from-vista-equity-for-supply-chain-data-management/",
+   "https://www.prewave.com/news/prewave-raises-63m-euro-series-b-to-revolutionise-supply-chain-risk-management-with-ai-driven-superintelligence-platform/",
+   "https://sphera.com/company/news/sphera-acquires-supplyshift/",
+   "https://www.esgtoday.com/green-project-technologies-acquires-supply-chain-decarbonization-platform-emitwise/",
+   "https://secaro.io/insights/news/2024/04/automotive-giants-partner-with-manufacture-2030-for-sustainable-supply-chain-decarbonization",
+   "https://siliconangle.com/2024/07/29/esg-compliance-startup-osapiens-closes-120m-funding-round/",
+   "https://www.consilium.europa.eu/en/press/press-releases/2025/12/18/deforestation-council-signs-off-targeted-revision-to-simplify-and-postpone-the-regulation/",
+   "https://icapcarbonaction.com/en/news/eu-adopts-simplifications-cbam-rules-ahead-compliance-phase-starting-2026",
+   "https://www.carbonchain.com/blog/introducing-carbonchain-cbam-supplier-catalogue",
+   "https://www.cbamboo.com/",
+   "https://www.sourcemap.com/solutions/eudr",
+   "https://satelligence.com/eudr/",
+   "https://www.coolset.com/academy/top-5-liveeo-tradeaware-alternatives-for-eudr-compliance",
+   "https://techcrunch.com/2023/11/01/flexport-acquires-technology-of-former-digital-freight-unicorn-convoy/",
+   "https://www.ledgerinsights.com/everledger-bankruptcy-esg-blockchain-traceability/",
+   "https://circulor.com/articles/worlds-first-battery-passport",
+   "https://www.marketsandmarkets.com/ResearchInsight/battery-passport-market.asp",
+   "https://etfpartners.capital/articles/e8-million-series-a-for-shipzero-sustainable-logistics-pioneer-expands-its-innovative-emissions-cloud/",
+   "https://www.project44.com/press-releases/project44-launches-emissions-monitoring-to-improve-supply-chain-sustainability-and-compliance/",
+   "https://www.pledge.io/resources/newsroom/pledge-raises-10-million-to-drive-decarbonisation-of-logistics-supply-chains/",
+   "https://www.buildingtransparency.org/tools/ec3/",
+   "https://app.dealroom.co/companies/vanilla_steel",
+   "https://www.mondra.com/blog/food-industry-coalition-paves-the-way-for-a-united-approach-to-product-carbon-footprinting-and-scope-3-emissions",
+   "https://www.regrow.ag/post/regrow-ag-secures-38m-in-series-b-to-use-agriculture-to-meet-net-zero-targets",
+   "https://www.eu-startups.com/2023/02/carboncloud-just-scored-e7-5-million-to-become-the-food-industrys-leading-climate-intelligence-platform/",
+   "https://www.esgtoday.com/carbonfact-raises-15-million-for-emissions-reporting-solution-for-fashion-industry/",
+   "https://www.prnewswire.com/news-releases/glassdome-secures-8-6m-series-a-for-manufacturing-regulatory-platform-with-ev-battery-focus-301827222.html",
+   "https://www.pr-web.com/2026/06/04/glassdome-leads-asias-first-carbon-data-exchange-via-catena-x-with-kgm-and-lg-electronics/",
+   "https://www.carbon-transparency.org/resources/catena-x-product-carbon-footprint-rulebook",
+   "https://oneclicklca.com/en/resources/articles/lca-software",
+   "https://www.prnewswire.com/news-releases/optera-secures-12m-to-help-companies-prepare-for-new-sec-climate-disclosure-requirements-301923523.html",
+   "https://worldly.io/",
+   "https://www.planetcompliance.com/esg/top-ecovadis-competitors/",
+   "https://ecovadis.com/solutions/carbon/"
+  ]
+ }
+}

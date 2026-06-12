@@ -1,0 +1,529 @@
+{
+ "sector": "buildings",
+ "bucket": "Windows, Glazing & Solar Control",
+ "census": {
+  "bucket": "Windows, Glazing & Solar Control",
+  "sources": [
+   "https://www.bisnow.com/national/news/proptech/view-smart-glass-chapter-11-going-private-cantor-fitzgerald-123631",
+   "https://www.nextenergytech.com/post/lessons-learned-from-smart-glass-1-0",
+   "https://www.crainsdetroit.com/manufacturing/luxwall-lands-51m-fundraising-round",
+   "https://www.vitroglazings.com/about/news/vitro-architectural-glass-reaches-exclusive-long-term-agreement-to-manufacture-vacumax-vacuum-insulating-glass-vig-units-in-north-america/",
+   "https://solarbuy.com/solar-news/what-happened-to-ubiquitous-energy/",
+   "https://www.pv-magazine.com/2025/09/11/clearvue-unveils-gen3-solar-glass-with-66-higher-energy-output/",
+   "https://www.bctechnology.com/news/2026/1/21/Miru-Smart-Technologies-Receives-Investment-From-Specialty-Materials-Leader-Mativ-to-Accelerate-eWindow-Commercialization.cfm",
+   "https://www.prnewswire.com/news-releases/alpen-closes-18-million-capital-raise-302175539.html",
+   "https://aeroshield.tech/post/aeroshield-materials-selected-for-14-5m-arpa-e-award/",
+   "https://www.businesswire.com/news/home/20260317061588/en/V-Glass-Secures-$3M-Investment-to-Initiate-Move-from-Lab-Scale-Production-into-a-Pilot-Plant",
+   "https://suntuitiveglass.com/about-pleotint/",
+   "https://retrofitmagazine.com/kingspan-light-air-acquires-solatube-international/",
+   "https://www.globenewswire.com/news-release/2025/03/11/3040427/0/en/Gauzy-Ltd-Announces-Record-Fourth-Quarter-and-Full-Year-2024-Results.html",
+   "https://www.windowanddoor.com/news/aerc-certifies-commercial-secondary-window-systems",
+   "https://kyivindependent.com/how-a-ukrainian-company-reimagined-solar-panels-for-a-bright-renewable-future/",
+   "https://www.solarpowerworldonline.com/2025/02/next-energy-technologies-produces-5-ft-tall-transparent-solar-window/",
+   "https://tracxn.com/d/companies/tynt/__jGH4XbK0TDMTHEEeSDSmXvHSxP-Pz9Gu-xr7A57tGTY",
+   "https://www.pilkington.com/en/us/products/product-categories/thermal-insulation/pilkington-spacia"
+  ],
+  "variations": [
+   {
+    "name": "Triple-pane and passive-house-grade windows and frames",
+    "description": "Three glass panes plus thermally broken, airtight frames roughly halve window heat loss versus standard double-pane units, removing the weakest element of the building envelope; standard in Europe and now pushed in the US by ENERGY STAR 7.0 and IRA incentives.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Alpen High Performance Products",
+      "role": "scaleup",
+      "what": "Colorado maker of thin-glass triple/quad IGUs and ultra-efficient fiberglass windows that hit passive-house performance at lower weight",
+      "signal": "$18M raise Jun 2024 anchored by $5.9M DOE grant; factory expansion adding ~100 jobs",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/alpen-closes-18-million-capital-raise-302175539.html"
+     },
+     {
+      "name": "Zola Windows",
+      "role": "startup",
+      "what": "Boutique Colorado supplier of European-made Passive House-certified wood, uPVC and aluminum windows for high-end North American projects",
+      "signal": "Supplying NA passive-house custom market since 2008",
+      "status": "operating",
+      "source": "https://zolawindows.com/"
+     },
+     {
+      "name": "Intus Windows",
+      "role": "scaleup",
+      "what": "Volume supplier of European-style triple-pane uPVC windows for US multifamily, including Sendero Verde, the world's largest residential Passive House project",
+      "signal": "One of the largest European-style window suppliers in North America; PHIUS-verified Supera line",
+      "status": "operating",
+      "source": "https://www.intuswindows.com/"
+     },
+     {
+      "name": "Cascadia Windows",
+      "role": "scaleup",
+      "what": "BC-based manufacturer of fiberglass triple-glazed windows and the first fiberglass window-wall system for mid-rise construction",
+      "signal": "Universal Series Window Wall won 2024 Architizer A+ Product Award",
+      "status": "operating",
+      "source": "https://passivehouseaccelerator.com/articles/cascadia-component-spotlight-recap-versatility-and-value-in-passive-house-windows-systems"
+     },
+     {
+      "name": "Internorm",
+      "role": "incumbent",
+      "what": "Austria's family-owned window giant where triple glazing is the standard product across the entire range",
+      "signal": "Europe's leading premium window brand; tens of millions of units produced",
+      "status": "operating",
+      "source": "https://www.internorm.com/"
+     },
+     {
+      "name": "Sch\u00fcco",
+      "role": "incumbent",
+      "what": "German facade and window systems house supplying high-performance aluminum and uPVC frame systems to fabricators worldwide",
+      "signal": "Multi-billion-euro revenue; global spec leader for commercial fenestration systems",
+      "status": "operating",
+      "source": "https://www.schueco.com/"
+     },
+     {
+      "name": "Andersen Windows",
+      "role": "incumbent",
+      "what": "Largest North American window maker, now offering triple-pane options across mainstream lines and investing in glazing startups (was an Ubiquitous Energy investor)",
+      "signal": "~$3B revenue; triple-pane moving into volume residential with ENERGY STAR 7.0",
+      "status": "operating",
+      "source": "https://www.andersenwindows.com/"
+     }
+    ]
+   },
+   {
+    "name": "Vacuum-insulated glazing (VIG)",
+    "description": "Two panes separated by a sub-millimeter evacuated gap deliver wall-like center-of-glass insulation (R-10 to R-18) in a unit thin and light enough to drop into existing sashes, enabling deep window retrofits without replacing frames.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "LuxWall",
+      "role": "scaleup",
+      "what": "Michigan startup making Enthermal R-18 VIG and operating the first high-volume US VIG plant",
+      "signal": "$51M Series B Nov 2024 (Climate Investment, Barclays); Litchfield MI plant opened Aug 2024; second Detroit plant part of $165M, 450-job Michigan buildout; Breakthrough Energy-backed",
+      "status": "operating",
+      "source": "https://www.crainsdetroit.com/manufacturing/luxwall-lands-51m-fundraising-round"
+     },
+     {
+      "name": "NSG / Pilkington",
+      "role": "incumbent",
+      "what": "Maker of Spacia, the first commercial VIG (Japan, 1997), sold globally for slim heritage retrofits",
+      "signal": "25+ years of commercial VIG production",
+      "status": "operating",
+      "source": "https://www.pilkington.com/en/us/products/product-categories/thermal-insulation/pilkington-spacia"
+     },
+     {
+      "name": "AGC (Fineo)",
+      "role": "incumbent",
+      "what": "Runs a purpose-built Belgian plant making pump-port-free Fineo VIG aimed at monument and heritage window retrofit",
+      "signal": "Dedicated Brussels-area facility; 20-year warranty product sold across Europe",
+      "status": "operating",
+      "source": "https://www.fineoglass.eu/product/"
+     },
+     {
+      "name": "Vitro Architectural Glass",
+      "role": "incumbent",
+      "what": "North America's largest glassmaker, bringing tempered VacuMax VIG production onshore via an exclusive agreement with VIG Technologies/LandVac",
+      "signal": "Exclusive long-term NA manufacturing and licensing agreement signed Nov 2025",
+      "status": "operating",
+      "source": "https://www.vitroglazings.com/about/news/vitro-architectural-glass-reaches-exclusive-long-term-agreement-to-manufacture-vacumax-vacuum-insulating-glass-vig-units-in-north-america/"
+     },
+     {
+      "name": "LandGlass (LandVac)",
+      "role": "incumbent",
+      "what": "Leading Chinese producer of fully tempered VIG with the lowest U-values on the market, now licensing technology westward",
+      "signal": "Lowest U-value among major VIG products per independent comparisons; tech behind Vitro's VacuMax",
+      "status": "operating",
+      "source": "https://www.gowercroft.co.uk/news/whats-the-best-vacuum-glass-on-the-market/"
+     },
+     {
+      "name": "Panasonic",
+      "role": "incumbent",
+      "what": "Adapted plasma-display vacuum tech into Glavenir VIG and now sells complete turnkey VIG manufacturing lines to European and North American glass factories",
+      "signal": "Triple-pane-beating performance in a 6-8mm unit; pivoted to equipment-line sales model",
+      "status": "operating",
+      "source": "https://panasonic.net/phs/glavenir/"
+     },
+     {
+      "name": "V-Glass",
+      "role": "startup",
+      "what": "Wisconsin startup with a hermetic metal-seal VIG design targeting cost parity with conventional IGUs (50-75% below first-gen VIG cost)",
+      "signal": "$3M seed led by Grantham Foundation plus $1M ARPA-E GLASING award (Mar 2026); moving from lab to pilot plant; NREL-tested panels",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20260317061588/en/V-Glass-Secures-$3M-Investment-to-Initiate-Move-from-Lab-Scale-Production-into-a-Pilot-Plant"
+     }
+    ]
+   },
+   {
+    "name": "Electrochromic and other electrically dynamic smart glass",
+    "description": "Glazing that tints on demand under a small applied voltage (electrochromic, SPD or liquid-crystal), cutting cooling loads, glare and blind usage while preserving views \u2014 commercially proven for a decade but capital-heavy manufacturing bankrupted the first generation of pure-plays in 2024.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "View Inc.",
+      "role": "scaleup",
+      "what": "Built the largest dedicated EC fab (Olive Branch, MS) and the highest-profile smart-glass brand for US commercial real estate",
+      "signal": "Consumed well over $2B (incl. $1.1B SoftBank) and SPAC'd in 2021; Chapter 11 Apr 2024 wiped equity; emerged private May 2024 under lender/Cantor Fitzgerald- and RXR-linked ownership",
+      "status": "operating",
+      "source": "https://www.bisnow.com/national/news/proptech/view-smart-glass-chapter-11-going-private-cantor-fitzgerald-123631"
+     },
+     {
+      "name": "Halio (formerly Kinestral)",
+      "role": "scaleup",
+      "what": "Made fast-switching, color-neutral EC glass with fabs in California and Taiwan",
+      "signal": "~$564M raised over 11 rounds, incl. $70M from SKC in late 2023; became insolvent and shut down in H1 2024",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.nextenergytech.com/post/lessons-learned-from-smart-glass-1-0"
+     },
+     {
+      "name": "SageGlass (Saint-Gobain)",
+      "role": "incumbent",
+      "what": "The only smart-glass maker owned by a global building-materials group; produces EC glass at its Faribault, MN plant",
+      "signal": "Wholly owned by Saint-Gobain since 2012; commercial production since 2013; still actively selling worldwide as of 2025-26",
+      "status": "operating",
+      "source": "https://www.sageglass.com/company/sageglass-saint-gobain"
+     },
+     {
+      "name": "Miru Smart Technologies",
+      "role": "startup",
+      "what": "Vancouver startup making low-cost EC windows on existing glass-coating infrastructure, including the world's largest compound-curved EC sunroof for vehicles",
+      "signal": "C$27.4M Series A Aug 2024; US$5M venture debt Feb 2025; first commercial purchase orders 2025; strategic equity from Mativ Jan 2026",
+      "status": "operating",
+      "source": "https://www.bctechnology.com/news/2026/1/21/Miru-Smart-Technologies-Receives-Investment-From-Specialty-Materials-Leader-Mativ-to-Accelerate-eWindow-Commercialization.cfm"
+     },
+     {
+      "name": "Tynt Technologies",
+      "role": "startup",
+      "what": "CU Boulder spinout using reversible metal electrodeposition so windows tint continuously to full blackout, replacing both low-e shading and blinds",
+      "signal": "~$16M raised to date; Series A-II ($2.75M) Nov 2025; DOE-supported technology",
+      "status": "operating",
+      "source": "https://tracxn.com/d/companies/tynt/__jGH4XbK0TDMTHEEeSDSmXvHSxP-Pz9Gu-xr7A57tGTY"
+     },
+     {
+      "name": "Glass Dyenamics",
+      "role": "startup",
+      "what": "Early-stage developer pitching lower-cost dynamic glass for residential price points",
+      "signal": "Small seed-stage venture; little verifiable public activity since ~2023",
+      "status": "uncertain",
+      "source": "https://glassdyenamics.com/"
+     },
+     {
+      "name": "ChromoGenics",
+      "role": "scaleup",
+      "what": "Swedish maker of ConverLight foil-based dynamic glass laminated by partner glassworks",
+      "signal": "Delisted from Nasdaq First North Sep 2024 amid ~30% staff cuts; continuing at reduced scale as of late 2025",
+      "status": "operating",
+      "source": "https://chromogenics.com/"
+     },
+     {
+      "name": "Gauzy",
+      "role": "scaleup",
+      "what": "Israeli maker of SPD and liquid-crystal smart-glass films for architecture and transport (aircraft, automotive)",
+      "signal": "Nasdaq IPO Jun 2024 raised $75M at ~$244M valuation; FY2024 revenue $103.5M (+33%); guiding $130-140M for 2025",
+      "status": "operating",
+      "source": "https://www.globenewswire.com/news-release/2025/03/11/3040427/0/en/Gauzy-Ltd-Announces-Record-Fourth-Quarter-and-Full-Year-2024-Results.html"
+     }
+    ],
+    "white_space": "The 2024 collapse of View (>$2B consumed) and Halio ($564M) showed that dedicated EC fabs cannot survive construction-industry sales cycles; the opening is low-capex routes \u2014 retrofittable EC films, reversible-metal-electrodeposition chemistry, or licensing deposition onto existing float/coating lines \u2014 rather than another billion-dollar greenfield fab."
+   },
+   {
+    "name": "Thermochromic and passive-dynamic glazing",
+    "description": "Interlayers or coatings that darken automatically as direct sunlight heats the glass, providing dynamic solar control with zero wiring, power or controls \u2014 a cheap alternative to electrochromics, at the cost of occupant control.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Pleotint (Suntuitive)",
+      "role": "startup",
+      "what": "Michigan maker of the Suntuitive sunlight-responsive thermochromic interlayer, once billed as the world's most-adopted dynamic glass",
+      "signal": "Production and sales of the Suntuitive line suspended since the COVID era; suspension notice still posted in 2025, company says it hopes to return",
+      "status": "uncertain",
+      "source": "https://suntuitiveglass.com/about-pleotint/"
+     },
+     {
+      "name": "RavenWindow (RavenBrick)",
+      "role": "startup",
+      "what": "Denver startup that made thermochromic-filter retrofit windows switching at a set temperature",
+      "signal": "Raised VC and utility-partner funding in the 2010s; website and operations appear defunct since ~2020",
+      "status": "uncertain",
+      "source": "https://www.crunchbase.com/organization/ravenbrick"
+     }
+    ],
+    "white_space": "Effectively vacant after Pleotint suspended production and RavenWindow folded: passive tint tracks glass temperature rather than occupant intent (tinting on hot overcast days, lagging in winter sun) and offers no smart-building data story to justify premiums. The opening is commodity-priced thermochromic PVB bundled into standard laminating lines for hot-climate volume housing, where 'no controls' is a feature rather than a bug."
+   },
+   {
+    "name": "Window inserts, secondary glazing and low-e storm windows",
+    "description": "A second sealed pane added inside or outside existing windows captures most of the energy benefit of full replacement at roughly a quarter of the cost, making it the highest-ROI fenestration retrofit \u2014 especially for historic buildings and the huge single-pane commercial stock.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Indow",
+      "role": "scaleup",
+      "what": "Portland, OR maker of compression-fit acrylic interior inserts requiring no hardware, certified in standard and acoustic grades",
+      "signal": "AERC-certified for commercial use; claims ~20% heating/cooling savings and up to 70% noise reduction; widely used in historic preservation",
+      "status": "operating",
+      "source": "https://www.windowanddoor.com/news/aerc-certifies-commercial-secondary-window-systems"
+     },
+     {
+      "name": "Larson Manufacturing",
+      "role": "incumbent",
+      "what": "Largest US storm-window maker; ComfortSeal low-e interior storm windows sold at big-box price points",
+      "signal": "Four low-e interior models AERC-certified; acquired by Fortune Brands in 2020 and still the channel leader",
+      "status": "acquired",
+      "source": "https://www.larsondoors.com/"
+     },
+     {
+      "name": "Quanta Technologies (QuantaPanel)",
+      "role": "startup",
+      "what": "Pennsylvania maker of architectural low-e interior 'insulating glass systems' (600/700 series) that upgrade commercial and multifamily windows to near-replacement performance",
+      "signal": "ENERGY STAR and AERC certified; qualifies for federal retrofit tax credits; active through 2025",
+      "status": "operating",
+      "source": "https://www.quantapanel.com/"
+     },
+     {
+      "name": "Magnetite",
+      "role": "scaleup",
+      "what": "Long-running US/Australia franchise retrofitting magnetically attached acrylic secondary glazing over existing frames",
+      "signal": "Decades of installs across residential and commercial retrofit; active dealer network",
+      "status": "operating",
+      "source": "https://magnetite.com.au/"
+     },
+     {
+      "name": "Alpen (WinSert)",
+      "role": "scaleup",
+      "what": "Sells WinSert thin-glass, low-e insert panels purpose-built for commercial window retrofits without replacement",
+      "signal": "DOE-backed thin-glass IGU capacity expansion ($18M, 2024) supports insert line",
+      "status": "operating",
+      "source": "https://www.thinkalpen.com/blogs/alpen-secures-18-million-in-financing"
+     }
+    ],
+    "white_space": "Residential is well served, but commercial secondary glazing has only small players (Indow, Quanta) facing an enormous single-pane office stock under LL97-style carbon fines \u2014 the gap is scale-up capital, installer networks and financing models more than technology."
+   },
+   {
+    "name": "Solar-control and low-e retrofit window films",
+    "description": "Thin polymer films with spectrally selective or low-e metal/ceramic coatings applied to existing glass reject a large share of solar heat (and, in low-e versions, retain winter heat) at a small fraction of glazing-replacement cost.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "3M",
+      "role": "incumbent",
+      "what": "Inventor of much of the category; Prestige spectrally selective and Thinsulate low-e films that add roughly a pane's worth of performance to existing glass",
+      "signal": "Global market leader with decades of architectural film deployment",
+      "status": "operating",
+      "source": "https://www.3m.com/3M/en_US/window-film-us/"
+     },
+     {
+      "name": "Eastman (LLumar/SunTek/V-Kool)",
+      "role": "incumbent",
+      "what": "Owns the world's largest window-film brand portfolio spanning architectural solar-control and safety films",
+      "signal": "LLumar is the most widely distributed architectural film brand globally",
+      "status": "operating",
+      "source": "https://llumar.com/"
+     },
+     {
+      "name": "Madico",
+      "role": "incumbent",
+      "what": "Florida-based film maker (owned by Japan's Lintec) producing solar-control, safety and energy films",
+      "signal": "One of the oldest US film manufacturers, supplying global dealer networks",
+      "status": "operating",
+      "source": "https://www.madico.com/"
+     },
+     {
+      "name": "Saint-Gobain (Solar Gard)",
+      "role": "incumbent",
+      "what": "Architectural and automotive solar-control films arm of the French materials giant",
+      "signal": "Sold in 90+ countries with documented carbon-negative product footprint claims",
+      "status": "operating",
+      "source": "https://www.solargard.com/"
+     },
+     {
+      "name": "Avery Dennison (Hanita Coatings)",
+      "role": "incumbent",
+      "what": "Israeli coater Hanita, acquired by Avery Dennison in 2017, makes SolarZone exterior-grade solar-control films popular for commercial retrofits",
+      "signal": "Integrated into Avery Dennison's global films business since 2017",
+      "status": "operating",
+      "source": "https://hanitacoatings.com/"
+     }
+    ]
+   },
+   {
+    "name": "Transparent photovoltaic and energy-harvesting glazing",
+    "description": "Coatings or interlayers that convert ultraviolet/infrared light (or edge-routed visible light) to electricity while remaining see-through, turning windows and facades into generators \u2014 physics limits output to roughly 5-50 W/m\u00b2, so economics remain hard.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Ubiquitous Energy",
+      "role": "startup",
+      "what": "MIT-spinout leader in truly transparent UV/IR-harvesting coatings (UE Power) targeting residential windows with partner Andersen",
+      "signal": "Raised >$70M incl. Andersen strategic round; furloughed then terminated staff Apr 2024; website offline since Sep 2024 \u2014 effectively ceased operations",
+      "status": "bankrupt-shutdown",
+      "source": "https://solarbuy.com/solar-news/what-happened-to-ubiquitous-energy/"
+     },
+     {
+      "name": "ClearVue Technologies",
+      "role": "scaleup",
+      "what": "ASX-listed Australian firm whose glazing routes light to PV cells at panel edges, used in vision glass, skylights and solar greenhouses",
+      "signal": "Gen3 product >50 W/m\u00b2 (+66%) unveiled Sep 2025; $3M non-dilutive facility for certification; ASX:CPV",
+      "status": "operating",
+      "source": "https://www.pv-magazine.com/2025/09/11/clearvue-unveils-gen3-solar-glass-with-66-higher-energy-output/"
+     },
+     {
+      "name": "NEXT Energy Technologies",
+      "role": "startup",
+      "what": "Santa Barbara startup printing transparent organic-PV coatings that glass fabricators can laminate into standard IGUs",
+      "signal": "$13.4M Series C Feb 2024 (investors include fabricator Viracon); produced world's largest transparent OPV window (40x60 in) and installed six full-size units at HQ in 2025",
+      "status": "operating",
+      "source": "https://www.solarpowerworldonline.com/2025/02/next-energy-technologies-produces-5-ft-tall-transparent-solar-window/"
+     },
+     {
+      "name": "Physee",
+      "role": "startup",
+      "what": "Dutch firm behind PowerWindow edge-PV glazing, since pivoted toward sensor-driven SmartSkin facade controls",
+      "signal": "EU pilot installations; current commercial traction of PV glazing unclear",
+      "status": "uncertain",
+      "source": "https://www.physee.eu/"
+     },
+     {
+      "name": "Onyx Solar",
+      "role": "scaleup",
+      "what": "Spanish maker of semi-transparent amorphous-silicon BIPV glass for facades, canopies and skylights \u2014 trading some transparency for real output",
+      "signal": "500+ projects in 60+ countries incl. flagship US corporate campuses; profitable niche leader",
+      "status": "operating",
+      "source": "https://www.onyxsolar.com/"
+     }
+    ],
+    "white_space": "Physics caps fully transparent PV at tens of W/m\u00b2, and Ubiquitous Energy's collapse despite Andersen's backing shows VC-scale economics don't close on vision glass alone; the viable openings are semi-transparent applications (spandrels, skylights, greenhouses, balustrades) where transparency can be traded for output, or licensing coatings into existing IGU lamination lines rather than building fabs."
+   },
+   {
+    "name": "Automated exterior shading, screens and dynamic facades",
+    "description": "Motorized exterior venetian blinds, fabric screens and louvers intercept solar gain before it passes through the glass \u2014 cutting heat gain through windows by up to ~90% \u2014 making them the cheapest peak-cooling fenestration measure; standard in Europe, rare in North America.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Warema",
+      "role": "incumbent",
+      "what": "Europe's market leader in external venetian blinds and sun-shading control systems with full building-automation integration",
+      "signal": "Architects' Darling Gold award 2025; family-owned German leader with hundreds of millions of euros in revenue",
+      "status": "operating",
+      "source": "https://www.warema.com/en/external-venetian-blinds/"
+     },
+     {
+      "name": "Griesser",
+      "role": "incumbent",
+      "what": "Swiss maker of exterior lamella blinds and facade shading since 1882, dominant in the DACH spec market",
+      "signal": "140+ years operating; core supplier for European low-energy buildings",
+      "status": "operating",
+      "source": "https://www.griesser.ch/"
+     },
+     {
+      "name": "Renson",
+      "role": "incumbent",
+      "what": "Belgian specialist in tensioned fabric screens, structural louvers and ventilated facade systems",
+      "signal": "Major EU spec-market player exporting screen systems globally",
+      "status": "operating",
+      "source": "https://www.renson.eu/"
+     },
+     {
+      "name": "Somfy",
+      "role": "incumbent",
+      "what": "French maker of the motors, sensors and controls that power most of the world's automated blinds and shades",
+      "signal": "~\u20ac1.5B annual revenue; de facto standard drive platform for shading OEMs",
+      "status": "operating",
+      "source": "https://www.somfy.com/"
+     },
+     {
+      "name": "Hunter Douglas",
+      "role": "incumbent",
+      "what": "World's largest blinds and shades maker, incl. insulating honeycomb shades (Duette) and PowerView automation",
+      "signal": "3G Capital acquired 75% in Feb 2022 at ~$7.1B enterprise value; continues operating globally",
+      "status": "acquired",
+      "source": "https://www.hunterdouglas.com/"
+     },
+     {
+      "name": "SolarGaps",
+      "role": "startup",
+      "what": "Ukrainian startup making sun-tracking exterior venetian blinds with PV slats that shade while generating power",
+      "signal": "~$1.5M raised plus \u20ac1M EU Horizon grant; thousands installed; Kyiv factory operating through wartime, demand boosted by grid attacks",
+      "status": "operating",
+      "source": "https://kyivindependent.com/how-a-ukrainian-company-reimagined-solar-panels-for-a-bright-renewable-future/"
+     }
+    ],
+    "white_space": "Crowded and mature in Europe but structurally absent from North American volume construction \u2014 no installer base, hurricane/wind-code friction, and aesthetics resistance; an opening exists for a US-focused, code-compliant integrated window+exterior-shade product or utility-program channel, as DOE attachment studies show exterior shading beats most glazing upgrades on cost per ton of cooling."
+   },
+   {
+    "name": "Daylighting systems: tubular skylights and diffusing panels",
+    "description": "Tubular daylighting devices and translucent diffusing panels pipe or spread natural light deep into buildings, displacing 20-60% of daytime electric lighting without the heat gain and leak risk of conventional skylights.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Solatube International",
+      "role": "scaleup",
+      "what": "Category creator and worldwide leader in tubular daylighting devices with high-reflectance light-pipe optics",
+      "signal": "Acquired by Kingspan Light + Air (closed Dec 2021, announced Jun 2022); continues operating from Vista, CA under founder-era leadership",
+      "status": "acquired",
+      "source": "https://retrofitmagazine.com/kingspan-light-air-acquires-solatube-international/"
+     },
+     {
+      "name": "VELUX",
+      "role": "incumbent",
+      "what": "World's largest roof-window and skylight maker, including Sun Tunnel tubular daylights and commercial modular skylights",
+      "signal": "~\u20ac3B revenue Danish foundation-owned group",
+      "status": "operating",
+      "source": "https://www.velux.com/"
+     },
+     {
+      "name": "Kalwall",
+      "role": "incumbent",
+      "what": "New Hampshire family firm making translucent FRP sandwich panels for facades/skyroofs, with aerogel-filled options reaching U-0.05 while diffusing glare-free light",
+      "signal": "In continuous production since 1955; spec standard for museum/athletic daylighting",
+      "status": "operating",
+      "source": "https://www.kalwall.com/"
+     },
+     {
+      "name": "Kingspan Light + Air",
+      "role": "incumbent",
+      "what": "Kingspan division consolidating daylighting (CPI Daylighting, Solatube) plus smoke vents and louvers into one envelope offering",
+      "signal": "Serial acquirer building the daylighting category leader inside a ~\u20ac8B group",
+      "status": "operating",
+      "source": "https://www.kingspanlightandair.us/"
+     },
+     {
+      "name": "Parans Solar Lighting",
+      "role": "startup",
+      "what": "Swedish maker of sun-tracking collectors that pipe sunlight through fiber optics up to ~100m into windowless interiors",
+      "signal": "Niche player (~5 employees) operating since 2003; technology proven but volumes tiny",
+      "status": "operating",
+      "source": "https://www.paranslight.com/"
+     }
+    ]
+   },
+   {
+    "name": "Transparent aerogel and super-insulating glazing inserts",
+    "description": "Monolithic transparent silica aerogel sheets (or translucent aerogel granule fills) placed between panes add wall-like R-value with almost no added weight or thickness, promising triple-pane performance in a double-pane form factor.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "AeroShield Materials",
+      "role": "startup",
+      "what": "MIT spinout producing optically clear monolithic aerogel sheets to slot inside standard double-pane IGUs and door glass",
+      "signal": "$14.5M ARPA-E SCALEUP award Jun 2024 plus $5M equity Jul 2024; 12,000 sq ft Waltham pilot plant opened 2024; commissioned one of the world's largest critical-point dryers Jan 2025; first door-glass units produced",
+      "status": "operating",
+      "source": "https://aeroshield.tech/post/aeroshield-materials-selected-for-14-5m-arpa-e-award/"
+     },
+     {
+      "name": "Cabot Corporation",
+      "role": "incumbent",
+      "what": "Makes Lumira translucent aerogel granules used as insulating fill in Kalwall, polycarbonate and channel-glass daylighting panels",
+      "signal": "Commercial for over a decade across daylighting panel partners",
+      "status": "operating",
+      "source": "https://www.cabotcorp.com/"
+     },
+     {
+      "name": "Okalux (Glas Tr\u00f6sch)",
+      "role": "incumbent",
+      "what": "German specialty glazier whose OKAGEL aerogel-filled insulating glass delivers very low U-values with diffuse daylight",
+      "signal": "Long-standing specialty product line; part of Glas Tr\u00f6sch group since 2018",
+      "status": "operating",
+      "source": "https://www.okalux.de/"
+     }
+    ],
+    "white_space": "Only a handful of players because supercritical drying of clear, crack-free aerogel monoliths is slow and capex-heavy at window sizes \u2014 transparency-grade optics is much harder than industrial aerogel blankets; whoever industrializes continuous or ambient-pressure drying for clear monoliths unlocks triple-pane performance retrofittable into the existing double-pane manufacturing base."
+   }
+  ]
+ }
+}

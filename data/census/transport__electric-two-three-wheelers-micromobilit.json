@@ -1,0 +1,615 @@
+{
+ "sector": "transport",
+ "bucket": "Electric Two/Three-Wheelers & Micromobility",
+ "census": {
+  "bucket": "Electric Two/Three-Wheelers & Micromobility",
+  "sources": [
+   "https://www.autocarpro.in/analysis-sales/record-128-million-e-2ws-sold-in-cy2025-tvs-bajaj-ather-and-hero-clock-best-ever-retails-130376",
+   "https://www.autocarpro.in/analysis-sales/electric-3-wheeler-sales-hit-highest-level-in-november-and-cross-700000-in-11-months-130058",
+   "https://www.theautopian.com/electric-motorcycle-companies-are-dying-left-and-right-as-people-just-arent-buying-enough-bikes/",
+   "https://electrek.co/2025/05/14/how-one-of-the-only-profitable-electric-motorcycle-companies-got-there-with-street-legal-e-dirtbikes/",
+   "https://techcrunch.com/2025/12/17/rad-power-bikes-files-for-bankruptcy-and-is-looking-to-sell-the-business/",
+   "https://www.tradingview.com/news/tradingview:f1aaf33faeb3a:0-lime-shared-micromobility-platform-files-for-nasdaq-global-select-market-ipo/",
+   "https://www.ridebeam.com/newsroom/merger-completes-solidifying-asia-pacifics-leading-micromobility-operator",
+   "https://zagdaily.com/featured/the-questions-hanging-over-europes-micromobility-leaders/",
+   "https://techcrunch.com/2025/10/21/spiro-raises-100m-the-largest-ever-investment-in-africas-e-mobility/",
+   "https://www.mordorintelligence.com/industry-reports/india-electric-rickshaw-market",
+   "https://chinamotorworld.com/data-for-the-first-half-of-2025-for-yadea/",
+   "https://thebetterindia.com/262452/thane-mumbai-petrol-ev-conversion-kit-electric-motorcycle-gogoa1/",
+   "https://techcrunch.com/2025/08/11/tdk-backs-ultraviolette-with-21m-to-take-india-made-electric-motorcycles-global/",
+   "https://www.mercomindia.com/euler-motors-secures-%E2%82%B94-37-billion-in-series-e-funding-round",
+   "https://www.motorcycles.news/en/electric-motorcycles-africa-startups-boda-boda-electrification/",
+   "https://micromobilitybiz.com/zoomo-announces-new-partnerships-with-vok-and-fernhay-e-cargo-bikes/"
+  ],
+  "variations": [
+   {
+    "name": "Electric motorcycles (on-road and off-road)",
+    "description": "Battery-electric motorcycles replace petrol bikes for commuting, sport and off-road riding, eliminating tailpipe emissions and noise \u2014 but high prices and limited highway range have kept Western consumer demand thin, while India and profitable off-road niches grow.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Zero Motorcycles",
+      "role": "scaleup",
+      "what": "Longest-running dedicated electric motorcycle OEM (US), full street/dual-sport lineup on its Z-Force powertrain",
+      "signal": "Raised $120M (Oct 2024); sales declined from 3,979 units (2022) to ~1,944 in first 9 months of 2025",
+      "status": "operating",
+      "source": "https://techcrunch.com/2024/10/24/zero-motorcycles-is-raising-120-million/"
+     },
+     {
+      "name": "LiveWire",
+      "role": "incumbent",
+      "what": "Harley-Davidson's NYSE-listed electric spinoff selling premium S2/Del Mar models",
+      "signal": "Sold just 33 motorcycles in Q1 2025 (-72% YoY); kept afloat by Harley-Davidson backing, far from profitability",
+      "status": "operating",
+      "source": "https://www.theautopian.com/electric-motorcycle-companies-are-dying-left-and-right-as-people-just-arent-buying-enough-bikes/"
+     },
+     {
+      "name": "Stark Future",
+      "role": "scaleup",
+      "what": "Barcelona maker of the Varg electric motocross/supermoto bike; vertically integrated and one of the only profitable e-moto OEMs",
+      "signal": "2025 revenue ~EUR 115M (+77% YoY) with profitable months (Apr 2025: $20.5M revenue, +$3.1M EBITDA); 400 retail locations in 50+ countries",
+      "status": "operating",
+      "source": "https://electrek.co/2025/05/14/how-one-of-the-only-profitable-electric-motorcycle-companies-got-there-with-street-legal-e-dirtbikes/"
+     },
+     {
+      "name": "Ultraviolette",
+      "role": "startup",
+      "what": "Bengaluru maker of the F77 high-performance electric motorcycle, expanding from India into Europe and Latin America",
+      "signal": "~$75M raised incl. $21M from TDK Ventures (Aug 2025) and $45M Series E led by Zoho/Lingotto; targeting 14 models by early 2027",
+      "status": "operating",
+      "source": "https://techcrunch.com/2025/08/11/tdk-backs-ultraviolette-with-21m-to-take-india-made-electric-motorcycles-global/"
+     },
+     {
+      "name": "Oben Electric",
+      "role": "startup",
+      "what": "Bengaluru OEM of affordable LFP-battery commuter electric motorcycles (Rorr) built for Indian heat",
+      "signal": "Total funding ~INR 285 crore after INR 85 Cr pre-Series B (2025)",
+      "status": "operating",
+      "source": "https://india.entrepreneur.com/news-and-trends/oben-electric-bags-inr-85-cr-in-pre-series-b-round/501044"
+     },
+     {
+      "name": "Can-Am (BRP)",
+      "role": "incumbent",
+      "what": "Powersports giant re-entered motorcycles as electric-only with the Origin and Pulse on its Rotax E-Power platform",
+      "signal": "First deliveries 2025; one of the few incumbent powersports entries into electric two-wheelers",
+      "status": "operating",
+      "source": "https://www.revzilla.com/common-tread/riding-the-current-electric-motorcycle-brands-sink-and-soar"
+     },
+     {
+      "name": "Energica",
+      "role": "scaleup",
+      "what": "Italian pioneer of high-performance electric sportbikes (Ego, Experia); former MotoE supplier",
+      "signal": "Filed bankruptcy Oct 2024 under Ideanomics ownership; taken over by Singapore investor group in 2025 with relaunch underway",
+      "status": "acquired",
+      "source": "https://electrek.co/2025/07/19/its-true-high-performance-electric-motorcycle-brand-energica-is-back/"
+     },
+     {
+      "name": "Cake",
+      "role": "startup",
+      "what": "Swedish design-led lightweight e-motorcycles (Kalk, Osa) for urban and off-road use",
+      "signal": "Filed bankruptcy Feb 2024 and re-emerged under new Norwegian owner (Brages); small-scale relaunch",
+      "status": "acquired",
+      "source": "https://www.revzilla.com/common-tread/electric-motorcycle-startups-file-for-bankruptcy-as-investment-dries-up"
+     },
+     {
+      "name": "Fuell",
+      "role": "startup",
+      "what": "Erik Buell-founded e-motorcycle/e-bike startup (Fllow motorcycle, Flluid e-bikes)",
+      "signal": "Went out of business in 2024 leaving crowdfunding backers without products",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.theautopian.com/electric-motorcycle-companies-are-dying-left-and-right-as-people-just-arent-buying-enough-bikes/"
+     },
+     {
+      "name": "Sondors",
+      "role": "startup",
+      "what": "Crowdfunded budget e-bike maker that attempted the Metacycle low-cost electric motorcycle",
+      "signal": "Ceased operations/went out of business (2023-24) after Metacycle quality and delivery failures",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.theautopian.com/electric-motorcycle-companies-are-dying-left-and-right-as-people-just-arent-buying-enough-bikes/"
+     }
+    ],
+    "white_space": "Player count is high but financial credibility is thin: Western consumer demand never materialized at premium prices (Energica, Cake, Fuell, Sondors all failed 2023-25) because range/price economics at highway speed favor ICE; the proven openings are profitable performance niches with vertical integration (Stark model) and low-cost commuter bikes in motorcycle-first markets (India, SE Asia, LatAm)."
+   },
+   {
+    "name": "Electric scooters & mopeds (seated)",
+    "description": "Seated electric scooters and mopeds substitute the ~100-125cc petrol scooters that dominate Asian urban transport, offering far lower running costs and near purchase-price parity \u2014 the single biggest two-wheeler decarbonization lever globally.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Yadea",
+      "role": "incumbent",
+      "what": "World's largest electric two-wheeler maker (China), spanning lead-acid e-mopeds to lithium scooters at massive scale",
+      "signal": "1.85M unit sales in H1 2025 (-3.5% YoY) amid Chinese urban 2W restrictions; multi-year global volume leader",
+      "status": "operating",
+      "source": "https://chinamotorworld.com/data-for-the-first-half-of-2025-for-yadea/"
+     },
+     {
+      "name": "TVS Motor",
+      "role": "incumbent",
+      "what": "Indian 2W giant whose iQube took the CY2025 India e-scooter crown",
+      "signal": "298,967 e-scooters sold CY2025 (+35% YoY), ~23% market share \u2014 ended Ola's three-year lead",
+      "status": "operating",
+      "source": "https://www.autocarpro.in/analysis-sales/record-128-million-e-2ws-sold-in-cy2025-tvs-bajaj-ather-and-hero-clock-best-ever-retails-130376"
+     },
+     {
+      "name": "Bajaj Auto",
+      "role": "incumbent",
+      "what": "Maker of the Chetak electric scooter and contract manufacturer for Yulu fleet vehicles",
+      "signal": "269,836 units CY2025 (+39% YoY), ~21% India share, #2 position",
+      "status": "operating",
+      "source": "https://www.autocarpro.in/analysis-sales/record-128-million-e-2ws-sold-in-cy2025-tvs-bajaj-ather-and-hero-clock-best-ever-retails-130376"
+     },
+     {
+      "name": "Ather Energy",
+      "role": "scaleup",
+      "what": "Indian smart-scooter pioneer (450 series, Rizta family scooter) with its own fast-charging grid",
+      "signal": "IPO'd on Indian bourses 2025; 200,785 units CY2025 (+59%), ~16% share; Rizta is ~70% of sales",
+      "status": "operating",
+      "source": "https://www.autocarpro.in/analysis-sales/record-128-million-e-2ws-sold-in-cy2025-tvs-bajaj-ather-and-hero-clock-best-ever-retails-130376"
+     },
+     {
+      "name": "Ola Electric",
+      "role": "scaleup",
+      "what": "Vertically integrated Indian e-scooter maker (own gigafactory and cell program) that scaled fastest 2022-24",
+      "signal": "Sales fell ~51% in CY2025, slipping from #1 to #4 amid quality/service backlash; listed company under margin pressure",
+      "status": "operating",
+      "source": "https://www.autocarpro.in/analysis-sales/record-128-million-e-2ws-sold-in-cy2025-tvs-bajaj-ather-and-hero-clock-best-ever-retails-130376"
+     },
+     {
+      "name": "Gogoro",
+      "role": "scaleup",
+      "what": "Taiwanese Smartscooter OEM tightly coupled to its battery-swap ecosystem",
+      "signal": "NASDAQ-listed but distressed: FY2024 net loss ~$123M, Q3 2025 revenue -10.6% YoY, $447M debt vs $132M equity",
+      "status": "operating",
+      "source": "https://insightev.com/gogoro-is-there-a-future/"
+     },
+     {
+      "name": "NIU Technologies",
+      "role": "scaleup",
+      "what": "NASDAQ-listed Chinese maker of connected lithium e-scooters and kick scooters sold in 50+ countries",
+      "signal": "Consistently ranked among global e-scooter leaders in 2025-2033 market analyses",
+      "status": "operating",
+      "source": "https://www.globenewswire.com/news-release/2025/03/07/3038844/28124/en/Electric-Scooter-Market-Forecast-Report-and-Company-Analysis-2025-2033-Featuring-Yadea-Niu-Mahendra-Vmoto-Amper-Vehicles-BMW-Gogoro-Govecs-Hero-Electric-and-Zhejiang-Luyuan.html"
+     },
+     {
+      "name": "Honda",
+      "role": "incumbent",
+      "what": "World's largest motorcycle maker electrifying its best-seller: Activa e: with swappable Mobile Power Pack batteries plus QC1 fixed-battery scooter",
+      "signal": "Activa e: launched India Feb 2025 (from Rs 1.2 lakh); very slow early uptake (tens of units/month mid-2025) as swap network builds out",
+      "status": "operating",
+      "source": "https://www.business-standard.com/industry/auto/honda-unveils-activa-e-qc1-electric-scooter-in-india-check-details-here-nc-124112700852_1.html"
+     },
+     {
+      "name": "Hero MotoCorp (Vida)",
+      "role": "incumbent",
+      "what": "World's largest 2W maker by volume scaling its Vida electric scooter sub-brand",
+      "signal": "Clocked best-ever e-scooter retails in CY2025 (top-5 India e-2W OEM); also invested in Ather and Euler",
+      "status": "operating",
+      "source": "https://www.autocarpro.in/analysis-sales/record-128-million-e-2ws-sold-in-cy2025-tvs-bajaj-ather-and-hero-clock-best-ever-retails-130376"
+     },
+     {
+      "name": "River Mobility",
+      "role": "startup",
+      "what": "Bengaluru maker of the utility-focused Indie scooter; co-developing the RY01 global e-scooter with Yamaha",
+      "signal": "Yamaha invested $40M Series B (Feb 2024); record 1,518 units in July 2025; RY01 production slated from late 2025",
+      "status": "operating",
+      "source": "https://global.yamaha-motor.com/news/2024/0206/ev.html"
+     }
+    ]
+   },
+   {
+    "name": "Electric three-wheelers & rickshaws (passenger transport)",
+    "description": "Electric autos and e-rickshaws electrify paratransit and shared last-mile passenger transport in South Asia and Africa, where per-km energy costs far below CNG/petrol translate directly into higher driver income.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Mahindra Last Mile Mobility",
+      "role": "incumbent",
+      "what": "India's e-3W market leader (Treo, Zor, e-Alfa) spanning passenger autos and cargo",
+      "signal": "Record 10,786 e-3Ws delivered Nov 2025 (+51% YoY), ~13% market share in a 700k+ unit annual market",
+      "status": "operating",
+      "source": "https://www.autocarpro.in/analysis-sales/electric-3-wheeler-sales-hit-highest-level-in-november-and-cross-700000-in-11-months-130058"
+     },
+     {
+      "name": "Bajaj Auto",
+      "role": "incumbent",
+      "what": "World's largest autorickshaw maker electrifying with the GoGo e-rickshaw and RE E-TEC autos",
+      "signal": "71,025 e-3W units Jan-Nov 2025, ~10% market share, best-ever monthly sales during 2025",
+      "status": "operating",
+      "source": "https://www.autocarpro.in/analysis-sales/electric-3-wheeler-sales-hit-highest-level-in-november-and-cross-700000-in-11-months-130058"
+     },
+     {
+      "name": "YC Electric",
+      "role": "incumbent",
+      "what": "Largest of India's low-cost e-rickshaw specialists (Yatri), dominating the lead-acid/entry passenger segment",
+      "signal": "Named alongside Mahindra as a leading player in the global electric 3-wheeler market",
+      "status": "operating",
+      "source": "https://www.marketsandmarkets.com/ResearchInsight/asia-pacific-electric-3-wheeler-market.asp"
+     },
+     {
+      "name": "Piaggio",
+      "role": "incumbent",
+      "what": "Italian incumbent electrifying the iconic Ape (Ape E-City/Elektrik) for Indian and European markets",
+      "signal": "Launched battery-subscription model April 2025 cutting Ape Elektrik price to ~INR 2.59 lakh; covers up to 150,000 km over 8 years",
+      "status": "operating",
+      "source": "https://www.mordorintelligence.com/industry-reports/india-electric-rickshaw-market"
+     },
+     {
+      "name": "Euler Motors",
+      "role": "scaleup",
+      "what": "Delhi startup building lithium-ion cargo and passenger 3Ws (HiLoad) with telematics-validated TCO for e-commerce fleets",
+      "signal": "Series E INR 4.37B (2025); ~$254M total raised; Hero MotoCorp added up to INR 2.75B (Feb 2026)",
+      "status": "operating",
+      "source": "https://www.mercomindia.com/euler-motors-secures-%E2%82%B94-37-billion-in-series-e-funding-round"
+     },
+     {
+      "name": "Omega Seiki Mobility",
+      "role": "startup",
+      "what": "Indian OEM of electric cargo and passenger 3Ws (Rage+, Vicktor) pushing upmarket and into e-trucks",
+      "signal": "~$3M raised to date; planning ~$40M raise for electric truck expansion; showcased lineup at Bharat Mobility 2025",
+      "status": "operating",
+      "source": "https://www.cmv360.com/news/omega-seiki-mobility-plans-dollar40-million-funding-for-electric-trucks"
+     },
+     {
+      "name": "Montra Electric (TI Clean Mobility)",
+      "role": "incumbent",
+      "what": "Murugappa Group's EV arm whose Super Auto e-3W has rapidly climbed India's passenger e-auto sales charts",
+      "signal": "Ranked among India's top-10 e-3W OEMs through 2025 monthly sales tallies",
+      "status": "operating",
+      "source": "https://e-vehicleinfo.com/electric-three-wheeler-sales-data-in-april-2025-top-10-companies/"
+     },
+     {
+      "name": "Altigreen",
+      "role": "startup",
+      "what": "Bengaluru cargo e-3W maker (neEV) that raised from Reliance New Energy and others",
+      "signal": "Listed as a key Euler competitor, but little verifiable funding/sales news since 2024 amid reported financial stress",
+      "status": "uncertain",
+      "source": "https://tracxn.com/d/companies/eulermotors/__wlbk68pMcTXES4kecreBqyeE-Lhoj00bxSGL3VrwkXI"
+     }
+    ]
+   },
+   {
+    "name": "Cargo e-bikes & electric delivery trikes/quads",
+    "description": "Electric cargo bikes and four-wheeled e-quads replace vans for urban parcel and grocery last-mile delivery, cutting emissions, congestion and per-stop cost in dense low-emission-zone cities.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Urban Arrow",
+      "role": "incumbent",
+      "what": "Pon.Bike-owned Dutch leader in family and business front-loader cargo e-bikes (Tender line up to 300 kg payload)",
+      "signal": "European category leader; business line (Tender 1500) sold into commercial fleets across Europe",
+      "status": "operating",
+      "source": "https://www.cyclingelectric.com/in-depth/cargo-bikes-business"
+     },
+     {
+      "name": "ONOMOTION",
+      "role": "startup",
+      "what": "Berlin maker of the ONO e-quad with swappable cargo containers, run as vehicle-as-a-service for parcel carriers",
+      "signal": "Raised EUR 21M (equity+debt, Dec 2022); hundreds of vehicles deployed with UPS, DPD and Hermes in German cities",
+      "status": "operating",
+      "source": "https://techcrunch.com/2022/12/05/onomotion-raises-e21-million-to-expand-e-cargo-bike-urban-logistics-business/"
+     },
+     {
+      "name": "EAV",
+      "role": "startup",
+      "what": "UK builder of the EAVan lightweight delivery quad designed as a direct van substitute",
+      "signal": "Fleet deals with Evri and FedEx among UK/EU logistics customers",
+      "status": "operating",
+      "source": "https://www.cyclingelectric.com/in-depth/cargo-bikes-business"
+     },
+     {
+      "name": "Fernhay",
+      "role": "startup",
+      "what": "UK maker of the eQuad walking-pace delivery vehicle used in UPS city-logistics programs",
+      "signal": "Vehicles deployed across Europe and the US; UPS and the UK Department for Transport among clients; 2025 Zoomo financing/maintenance partnership",
+      "status": "operating",
+      "source": "https://micromobilitybiz.com/zoomo-announces-new-partnerships-with-vok-and-fernhay-e-cargo-bikes/"
+     },
+     {
+      "name": "Vok Bikes",
+      "role": "startup",
+      "what": "Estonian four-wheel cargo e-bike maker with full-suspension fleet-grade vehicles for delivery operators",
+      "signal": "Partnership with Zoomo (2025) for fleet financing and servicing; growing European fleet deployments",
+      "status": "operating",
+      "source": "https://micromobilitybiz.com/zoomo-announces-new-partnerships-with-vok-and-fernhay-e-cargo-bikes/"
+     },
+     {
+      "name": "Zoomo",
+      "role": "scaleup",
+      "what": "Australian fleet platform providing e-bikes/cargo quads-as-a-service with maintenance and software to gig and logistics riders",
+      "signal": "~$80M raised; partnerships to finance and service Fernhay, Vok and EAV vehicles",
+      "status": "operating",
+      "source": "https://micromobilitybiz.com/zoomo-announces-new-partnerships-with-vok-and-fernhay-e-cargo-bikes/"
+     },
+     {
+      "name": "Babboe (Accell Group)",
+      "role": "incumbent",
+      "what": "Dutch volume consumer cargo-bike brand",
+      "signal": "2024 \u5168-fleet recall after concealed frame failures: Dutch sales ban, 22,000 bikes replaced, criminal investigation; brand future under Accell unclear",
+      "status": "uncertain",
+      "source": "https://www.cyclingweekly.com/news/cargo-brand-to-replace-22000-bikes-in-mass-recall"
+     }
+    ],
+    "white_space": "The van-replacement e-quad niche remains thin: hardware is capex-heavy, fleet procurement cycles are slow, and quality failures (Babboe) show the durability bar; the opening is fleet-grade serviceable vehicles bundled with financing/maintenance (the Zoomo-style as-a-service model) rather than one-off hardware sales."
+   },
+   {
+    "name": "E-bikes & e-bike drive systems",
+    "description": "Pedal-assist e-bikes displace short car trips at among the lowest costs per tonne of CO2 avoided in transport, with a concentrated drive-system layer (motors, batteries, software) supplying hundreds of bike brands.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Bosch eBike Systems",
+      "role": "incumbent",
+      "what": "Dominant premium mid-drive system supplier in Europe with connected ABS/anti-theft ecosystem",
+      "signal": "Market-leading installed base across hundreds of OEM bike brands; consistently rated most trusted drive supplier",
+      "status": "operating",
+      "source": "https://bicyclingland.com/ebike-brands-what-you-can-trust-and-should-avoid-in-2025/"
+     },
+     {
+      "name": "Bafang",
+      "role": "incumbent",
+      "what": "Largest Chinese e-bike motor maker supplying hub and mid-drives across all price points worldwide",
+      "signal": "One of the highest-volume drive suppliers globally; standard choice for value e-bike brands",
+      "status": "operating",
+      "source": "https://bicyclingland.com/ebike-brands-what-you-can-trust-and-should-avoid-in-2025/"
+     },
+     {
+      "name": "Shimano",
+      "role": "incumbent",
+      "what": "Bicycle components giant supplying STEPS/EP-series mid-drive systems integrated with its drivetrains",
+      "signal": "Among the top global e-bike drive suppliers alongside Bosch and Bafang",
+      "status": "operating",
+      "source": "https://bicyclingland.com/ebike-brands-what-you-can-trust-and-should-avoid-in-2025/"
+     },
+     {
+      "name": "DJI (Avinox)",
+      "role": "incumbent",
+      "what": "Drone giant's e-bike drive unit whose high-power Avinox motor is rapidly winning premium eMTB design slots",
+      "signal": "16 OEM partnerships announced at Eurobike 2025; 12+ bike brands shipping Avinox-equipped models",
+      "status": "operating",
+      "source": "https://singletrackworld.com/2025/06/12-bike-brands-using-the-dji-avinox-motor/"
+     },
+     {
+      "name": "Specialized",
+      "role": "incumbent",
+      "what": "Major bike maker with the vertically developed Turbo e-bike range (Vado, Levo) and in-house motor tuning",
+      "signal": "Among the most established premium e-bike lines globally",
+      "status": "operating",
+      "source": "https://bicyclingland.com/ebike-brands-what-you-can-trust-and-should-avoid-in-2025/"
+     },
+     {
+      "name": "Lectric eBikes",
+      "role": "scaleup",
+      "what": "Bootstrapped Phoenix D2C brand selling sub-$1,500 folding e-bikes; profitable while VC-backed rivals collapsed",
+      "signal": "Record sales month in 2025 as competitors went bankrupt; among top US e-bike sellers by unit volume",
+      "status": "operating",
+      "source": "https://thenextweb.com/news/every-vc-backed-e-bike-company-went-bust-bootstrapped-lectric-just-had-its-biggest-month-ever"
+     },
+     {
+      "name": "Rad Power Bikes",
+      "role": "scaleup",
+      "what": "Formerly North America's #1 e-bike brand (once valued >$1B) selling value utility e-bikes D2C",
+      "signal": "Filed Chapter 11 on Dec 15, 2025 with $32M assets vs $73M liabilities, seeking a buyer after years of layoffs",
+      "status": "bankrupt-shutdown",
+      "source": "https://techcrunch.com/2025/12/17/rad-power-bikes-files-for-bankruptcy-and-is-looking-to-sell-the-business/"
+     },
+     {
+      "name": "VanMoof",
+      "role": "startup",
+      "what": "Dutch designer of fully integrated 'smartphone-on-wheels' city e-bikes sold D2C",
+      "signal": "Bankrupt July 2023 after burning >$200M; acquired by Lavoie (McLaren Applied) which shifted to third-party service networks",
+      "status": "acquired",
+      "source": "https://www.geeky-gadgets.com/ebike-startup-bankruptcies/"
+     },
+     {
+      "name": "Cowboy",
+      "role": "startup",
+      "what": "Belgian connected city e-bike brand known for app-first design",
+      "signal": "After prolonged financial distress, acquired in Dec 2025 by French micromobility group ReBirth; production restarting in France in 2026",
+      "status": "acquired",
+      "source": "https://upway.co/blogs/news/cowboy-electric-bike-brand-guide"
+     }
+    ]
+   },
+   {
+    "name": "Shared micromobility fleet operators",
+    "description": "App-rented shared e-scooter and e-bike fleets substitute short car and ride-hail trips and extend transit reach; after a brutal 2023-25 consolidation, the surviving operators run profitably at city scale.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Lime",
+      "role": "scaleup",
+      "what": "Global shared e-scooter/e-bike leader (~27% share across its countries, 37% in the US)",
+      "signal": "2024 net revenue $686M (+32%) with >$140M adj. EBITDA; filed for Nasdaq IPO disclosing ~$860M annual revenue and ~$846M near-term debt",
+      "status": "operating",
+      "source": "https://www.tradingview.com/news/tradingview:f1aaf33faeb3a:0-lime-shared-micromobility-platform-files-for-nasdaq-global-select-market-ipo/"
+     },
+     {
+      "name": "Voi",
+      "role": "scaleup",
+      "what": "Swedish operator focused on tender-won European city contracts",
+      "signal": "Record Q3 2025: net revenue EUR 57.5M (+34% YoY), strongest-ever operating cash flow EUR 19.8M",
+      "status": "operating",
+      "source": "https://zagdaily.com/featured/the-questions-hanging-over-europes-micromobility-leaders/"
+     },
+     {
+      "name": "Dott (merged with TIER)",
+      "role": "scaleup",
+      "what": "Combined Dott-TIER entity operating shared scooters/bikes across ~400 European cities under the Dott brand",
+      "signal": "Merged March 2024; adjusted-EBITDA profitable post-merger; raised EUR 85M to consolidate",
+      "status": "operating",
+      "source": "https://zagdaily.com/featured/the-questions-hanging-over-europes-micromobility-leaders/"
+     },
+     {
+      "name": "Neuron Mobility Holdings (Beam + Neuron)",
+      "role": "scaleup",
+      "what": "Singapore-based APAC leader formed by the Beam-Neuron merger, strongest in Australia, Korea, SE Asia, Canada, Turkey",
+      "signal": "Merger completed Sept 22, 2025; ~100,000 e-scooters across 100+ cities",
+      "status": "operating",
+      "source": "https://www.ridebeam.com/newsroom/merger-completes-solidifying-asia-pacifics-leading-micromobility-operator"
+     },
+     {
+      "name": "Bird",
+      "role": "scaleup",
+      "what": "US scooter-sharing pioneer that overexpanded, went bankrupt, and now operates leaner under Third Lane Mobility",
+      "signal": "Chapter 11 in Dec 2023 after NYSE delisting; assets acquired and restructured by Third Lane Mobility",
+      "status": "acquired",
+      "source": "https://www.investing.com/analysis/third-lane-offers-doubledigit-yield-as-micromobility-moves-past-restructuring-200675982"
+     },
+     {
+      "name": "Superpedestrian",
+      "role": "startup",
+      "what": "MIT-spinoff operator of the LINK scooter with onboard safety/geofencing computing",
+      "signal": "Shut down US operations and wound down in Dec 2023 after failing to find a buyer",
+      "status": "bankrupt-shutdown",
+      "source": "https://gadallon.substack.com/p/the-rise-and-reckoning-of-scooter"
+     },
+     {
+      "name": "Bolt",
+      "role": "incumbent",
+      "what": "Estonian ride-hailing super-app cross-subsidizing one of Europe's largest scooter/e-bike fleets",
+      "signal": "Among Europe's top micromobility operators by fleet size, bundled with ride-hail and delivery",
+      "status": "operating",
+      "source": "https://zagdaily.com/featured/the-questions-hanging-over-europes-micromobility-leaders/"
+     },
+     {
+      "name": "Lyft Urban Solutions (Citi Bike)",
+      "role": "incumbent",
+      "what": "Operator of major docked bikeshare systems including Citi Bike NYC, the largest in North America",
+      "signal": "Docked systems remain the highest-ridership shared micromobility in US cities",
+      "status": "operating",
+      "source": "https://gadallon.substack.com/p/the-rise-and-reckoning-of-scooter"
+     },
+     {
+      "name": "Yulu",
+      "role": "scaleup",
+      "what": "Indian shared e-bike operator focused on gig-delivery riders, with vehicles manufactured by Bajaj Auto",
+      "signal": "Bajaj-backed; fleet vehicles counted within Bajaj's record CY2025 e-2W output",
+      "status": "operating",
+      "source": "https://www.autocarpro.in/analysis-sales/record-128-million-e-2ws-sold-in-cy2025-tvs-bajaj-ather-and-hero-clock-best-ever-retails-130376"
+     }
+    ]
+   },
+   {
+    "name": "Two-wheeler electric conversion & retrofit kits",
+    "description": "Type-approved retrofit kits convert existing petrol scooters/motorcycles (and ordinary bicycles) to electric drive at a fraction of new-vehicle cost, decarbonizing the installed fleet instead of waiting for replacement cycles.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "GoGoA1",
+      "role": "startup",
+      "what": "Thane-based maker of India's first RTO-approved electric conversion kits for petrol motorcycles and scooters (50+ models incl. Hero Splendor, Honda Activa)",
+      "signal": "ARAI-approved kits from ~INR 35,000 (to ~INR 95,000 with battery); installation network across 36 RTOs",
+      "status": "operating",
+      "source": "https://thebetterindia.com/262452/thane-mumbai-petrol-ev-conversion-kit-electric-motorcycle-gogoa1/"
+     },
+     {
+      "name": "Swytch",
+      "role": "scaleup",
+      "what": "UK maker of compact wheel-swap kits that convert any pedal bicycle into an e-bike",
+      "signal": "80,000+ bikes converted worldwide; claims 1 in 14 new UK e-bikes is a Swytch conversion; MAX+ kit rolled out 2025",
+      "status": "operating",
+      "source": "https://www.cnn.com/cnn-underscored/reviews/swytch-electric-bike-conversion-kit"
+     },
+     {
+      "name": "Skarper",
+      "role": "startup",
+      "what": "London startup with a clip-on DiskDrive e-bike conversion system mounting to the disc brake in seconds",
+      "signal": "Shipping since 2024; featured among 2025 best conversion kits",
+      "status": "operating",
+      "source": "https://ebiketips.road.cc/content/advice/buyers-guide/best-e-bike-conversion-kits-2025-motorise-the-bike-you-already-have-5927"
+     }
+    ],
+    "white_space": "Genuinely sparse: per-model homologation (RTO/ARAI type approval) is slow and expensive, kit-plus-battery cost approaches a cheap used EV, and liability/battery certification scares installers \u2014 so only a handful of credible players exist; the opening is B2B fleet retrofits (delivery fleets, boda-boda cooperatives, municipal fleets) where one approved model covers thousands of identical vehicles and TCO math is decisive."
+   },
+   {
+    "name": "Emerging-market electric moto-taxis (Africa & SE Asia commercial two-wheelers)",
+    "description": "Purpose-built, locally assembled electric motorcycles bundled with rider financing and energy services electrify commercial moto-taxi and delivery fleets in Africa and Southeast Asia, where 100+ km/day duty cycles make fuel savings pay back within months.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Spiro",
+      "role": "scaleup",
+      "what": "Africa's largest e-motorcycle OEM-operator (Benin, Togo, Rwanda, Kenya, Uganda, Nigeria+), pairing its own bikes with rider financing",
+      "signal": "Raised $100M (Oct 2025) \u2014 the largest-ever African e-mobility investment; millions of battery swaps completed",
+      "status": "operating",
+      "source": "https://techcrunch.com/2025/10/21/spiro-raises-100m-the-largest-ever-investment-in-africas-e-mobility/"
+     },
+     {
+      "name": "Ampersand",
+      "role": "startup",
+      "what": "Rwanda/Kenya pioneer building e-motorcycles with AI-optimized battery and energy service for boda-boda riders",
+      "signal": "Raised ~$7M (late 2025) to grow fleet to 13,000 motorcycles by end-2026",
+      "status": "operating",
+      "source": "https://www.motorcycles.news/en/electric-motorcycles-africa-startups-boda-boda-electrification/"
+     },
+     {
+      "name": "Roam (ex-Opibus)",
+      "role": "startup",
+      "what": "Swedish-Kenyan OEM locally designing and manufacturing the Roam Air e-motorcycle in Nairobi with boda-boda rider input",
+      "signal": "Opened Kenya's first fast-charging network for light EVs (Roam Point, Nov 2025)",
+      "status": "operating",
+      "source": "https://www.motorcycles.news/en/electric-motorcycles-africa-startups-boda-boda-electrification/"
+     },
+     {
+      "name": "Zembo",
+      "role": "startup",
+      "what": "Uganda operator bundling e-boda motorcycles with solar-integrated swap stations and pay-as-you-go financing",
+      "signal": "Operating swap network across Kampala with solar-hybrid stations",
+      "status": "operating",
+      "source": "https://www.motorcycles.news/en/electric-motorcycles-africa-startups-boda-boda-electrification/"
+     },
+     {
+      "name": "MAX (Metro Africa Xpress)",
+      "role": "scaleup",
+      "what": "Nigerian mobility platform financing and deploying electric two/three-wheelers to commercial drivers",
+      "signal": "Among Africa's most-funded e-mobility players, expanding battery-swap-backed fleets across Nigerian cities",
+      "status": "operating",
+      "source": "https://techpoint.africa/guide/africa-ev-energy-grid-war/"
+     },
+     {
+      "name": "Dodai",
+      "role": "startup",
+      "what": "Ethiopia-based assembler of affordable electric motorcycles scaling rapidly in Addis Ababa's delivery market",
+      "signal": "Cited among the leading two-wheeler players in Africa's 2025 e-mobility boom analyses",
+      "status": "operating",
+      "source": "https://insights.techcabal.com/africas-e-mobility-boom-2-wheelers/"
+     }
+    ],
+    "white_space": "Few players have scaled beyond one country because the model is triple-capital-intensive (vehicles + energy infrastructure + rider credit) in weak-currency markets; the opening is OEM partnerships with dedicated financiers/energy providers and pan-African battery standardization rather than fully vertically integrated plays."
+   },
+   {
+    "name": "Standing e-kickscooters & personal light EV OEMs",
+    "description": "Standing electric kickscooters and related personal light EVs from consumer-electronics-scale OEMs provide cheap first/last-mile transport and supply the ruggedized hardware behind shared fleets worldwide.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Segway-Ninebot",
+      "role": "incumbent",
+      "what": "World's #1 electric kickscooter maker, supplying both consumers and most major shared operators",
+      "signal": "Powers millions of shared vehicles across 47+ countries via its B2B division",
+      "status": "operating",
+      "source": "https://b2b.segway.com/"
+     },
+     {
+      "name": "Okai",
+      "role": "scaleup",
+      "what": "Chinese OEM specializing in fleet-grade scooters/e-bikes with IoT and swappable batteries for sharing operators",
+      "signal": "Long-time hardware supplier to major Western scooter-share fleets (e.g., ES400 fleet platform)",
+      "status": "operating",
+      "source": "https://more4motion.com/products/okai-es400b-iot-integrated-with-swappable-battery-kick-scooter-for-sharing-or-rental-fleets-pack-of-4"
+     },
+     {
+      "name": "Xiaomi",
+      "role": "incumbent",
+      "what": "Consumer electronics giant selling mass-market folding e-scooters at electronics-retail price points",
+      "signal": "Consistently ranked among the top global micromobility hardware companies",
+      "status": "operating",
+      "source": "https://www.sphericalinsights.com/blogs/top-20-companies-in-micromobility-market-in-the-world-in-2025-market-research-report-2024-2035"
+     }
+    ],
+    "white_space": "Consumer kickscooter manufacturing is locked up by Chinese electronics-scale incumbents competing on price, leaving little room for hardware startups; remaining openings are regulatory-compliance niches (UL 2272-certified batteries, EU type approval) and durable fleet-spec hardware with repairability guarantees."
+   }
+  ]
+ }
+}

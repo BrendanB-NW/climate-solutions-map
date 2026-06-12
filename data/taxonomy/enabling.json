@@ -1,0 +1,148 @@
+{
+ "buckets": [
+  {
+   "name": "Corporate Carbon Accounting & Disclosure Software",
+   "scope": "Software for measuring, managing, and reporting an organization's own scope 1/2/3 emissions and climate disclosures (company-level; product/supplier-level lives in Supply Chain bucket)",
+   "variations": [
+    "horizontal enterprise carbon accounting platforms",
+    "SMB/mid-market lightweight carbon accounting",
+    "ERP/CRM-embedded sustainability suites from software incumbents",
+    "AI-automated emissions data ingestion (utility bills, invoices, ledgers)",
+    "emission factor databases & carbon calculation APIs",
+    "industry-vertical carbon accounting (construction, real estate, healthcare, events)",
+    "CSRD/ESRS, ISSB, and SEC disclosure & ESG reporting compliance software",
+    "net-zero target setting, transition planning & decarbonization roadmap tools",
+    "carbon data assurance & audit-readiness tooling",
+    "internal carbon pricing & marginal abatement cost (MACC) tools"
+   ]
+  },
+  {
+   "name": "Emissions Monitoring & Climate Intelligence",
+   "scope": "Measured/observed emissions data \u2014 satellites, sensors, and AI-derived inventories \u2014 as distinct from activity-based accounting software",
+   "variations": [
+    "satellite methane & GHG detection and quantification",
+    "aerial, drone & flyover plume surveys",
+    "ground-based continuous emissions sensors at facilities (laser, IoT)",
+    "facility CEMS and industrial stack-monitoring software",
+    "AI-derived global asset-level emissions inventories (power plants, steel, cement)",
+    "real-time grid carbon intensity data & APIs for carbon-aware computing/loadshifting",
+    "land-use change, deforestation & wildfire emissions monitoring",
+    "commodity-flow and trade emissions intelligence",
+    "super-pollutant tracking beyond CO2/CH4 (N2O, SF6, HFCs)",
+    "atmospheric flux networks & inversion modeling analytics"
+   ]
+  },
+  {
+   "name": "Carbon Market Infrastructure & Services",
+   "scope": "The plumbing and assurance of voluntary and compliance carbon markets (demand-side and market middle layer; supply-side developers in next bucket)",
+   "variations": [
+    "carbon credit registries (legacy standards bodies & next-gen digital registries)",
+    "spot/futures exchanges, marketplaces & brokerage desks",
+    "API-based credit retail & embedded offsetting for consumer apps",
+    "buyer-side procurement & credit portfolio management platforms",
+    "CDR-specific procurement platforms & advance market commitments",
+    "credit ratings & risk-scoring agencies",
+    "carbon credit insurance & buffer-pool alternatives",
+    "tokenized carbon & blockchain registry infrastructure",
+    "compliance market software (ETS allowance management & trading, cap-and-trade tooling)",
+    "Article 6 / sovereign carbon infrastructure and market intelligence/price data providers"
+   ]
+  },
+  {
+   "name": "Carbon Credit Project Developers & Digital MRV",
+   "scope": "Supply side of carbon markets: originating nature-based and avoidance credit projects plus the dMRV verifying them (engineered CDR supply censused in the CDR sector)",
+   "variations": [
+    "avoided deforestation / REDD+ developers",
+    "afforestation, reforestation & restoration (ARR) developers",
+    "improved forest management & agroforestry programs",
+    "soil carbon & regenerative agriculture credit programs",
+    "blue carbon (mangrove, seagrass, wetland) developers",
+    "household device programs (clean cookstoves, water purification credits)",
+    "methane destruction projects (landfill gas, coal-mine methane, ODS/refrigerant destruction)",
+    "agricultural methane credit programs (rice cultivation, livestock)",
+    "digital MRV & remote-sensing verification platforms for carbon projects",
+    "carbon project finance, streaming & origination platforms"
+   ]
+  },
+  {
+   "name": "VPPs, DERMS & Demand-Side Flexibility",
+   "scope": "Aggregating and orchestrating distributed energy resources and flexible loads behind and at the grid edge (DOE VPP Liftoff territory)",
+   "variations": [
+    "residential VPP aggregation platforms",
+    "C&I demand response & flexibility aggregators",
+    "utility-grade DERMS",
+    "EV managed charging & V2G aggregation software",
+    "home energy management systems & smart-panel software",
+    "behind-the-meter C&I energy optimization and efficiency-as-a-service software",
+    "battery/storage fleet orchestration & microgrid control software",
+    "thermal and appliance fleet flexibility (water heaters, heat pump fleets)",
+    "utility demand-side management & customer engagement/disaggregation analytics",
+    "local flexibility marketplaces for DSO procurement"
+   ]
+  },
+  {
+   "name": "Grid Operations, Planning & Network AI",
+   "scope": "Software and AI for the wires side \u2014 utility network operations, planning, and asset management (market-facing trading software in next bucket)",
+   "variations": [
+    "next-gen ADMS/OMS/SCADA and grid orchestration platforms",
+    "AI control-room copilots & grid operations automation",
+    "interconnection queue & hosting capacity automation",
+    "transmission planning & expansion analytics",
+    "grid-enhancing technology software (dynamic line ratings, topology optimization)",
+    "network digital twins & grid model management",
+    "asset inspection & predictive maintenance AI (drones, imagery, sensors)",
+    "vegetation management & utility wildfire risk analytics",
+    "AMI/meter data management & grid-edge intelligence",
+    "utility load & DER growth forecasting"
+   ]
+  },
+  {
+   "name": "Energy Markets, Forecasting & Trading Software",
+   "scope": "Market-facing software monetizing clean energy: forecasting, bidding, PPAs, certificates, and retail",
+   "variations": [
+    "renewable generation forecasting services (solar, wind)",
+    "power price forecasting & market analytics",
+    "algorithmic bidding & storage trading optimization",
+    "route-to-market & aggregation software for IPPs",
+    "PPA marketplaces, pricing & risk analytics",
+    "REC/EAC registries, tracking & trading software",
+    "24/7 carbon-free energy matching & granular certificates",
+    "clean-energy retail & billing platforms (green tariff engines)",
+    "community solar management & subscriber platforms",
+    "weather & climate data services for energy trading"
+   ]
+  },
+  {
+   "name": "Climate Fintech",
+   "scope": "Moving money into decarbonization: lending, project finance, tax credits, banking, insurance, and investor analytics",
+   "variations": [
+    "clean energy & climate project finance platforms (origination, diligence, servicing)",
+    "transferable tax credit (ITC/PTC) marketplaces",
+    "residential clean energy lending & financing (solar loans, HVAC/efficiency financing)",
+    "climate-focused neobanks, cards & consumer finance",
+    "spend-based carbon footprint APIs for banks & payment networks",
+    "financed emissions & portfolio carbon accounting (PCAF tooling)",
+    "climate & transition risk analytics for financial institutions",
+    "climate-dedicated funds, banks & asset managers (infrastructure, growth, debt)",
+    "clean energy project insurance & performance risk transfer",
+    "community & retail climate investing/crowdfunding platforms"
+   ]
+  },
+  {
+   "name": "Supply Chain Decarbonization & Green Procurement",
+   "scope": "Product- and supplier-level emissions: scope 3 data exchange, LCA, logistics, and buying greener (company-level accounting in bucket 1)",
+   "variations": [
+    "scope 3 supplier data collection & engagement platforms",
+    "supplier sustainability ratings & assessment networks",
+    "product carbon footprinting & LCA software",
+    "product carbon footprint data-exchange networks & standards infrastructure (PACT, Catena-X)",
+    "food & agriculture supply chain emissions platforms",
+    "freight & logistics emissions visibility and optimization",
+    "green materials & low-carbon procurement marketplaces",
+    "CBAM & carbon border compliance software",
+    "deforestation-free supply chain (EUDR) monitoring & compliance",
+    "materials traceability platforms for batteries, metals & critical minerals"
+   ]
+  }
+ ]
+}

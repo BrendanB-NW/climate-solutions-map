@@ -1,0 +1,839 @@
+{
+ "sector": "transport",
+ "bucket": "Battery Materials, Components, Powertrain & Recycling",
+ "census": {
+  "bucket": "Battery Materials, Components, Powertrain & Recycling",
+  "variations": [
+   {
+    "name": "Cathode active materials & precursors",
+    "description": "Producing the lithium-bearing crystal powders (NMC, NCA, LFP/LMFP) and precursor chemicals that store energy on the positive electrode \u2014 the single most valuable material in a battery and the key lever on cost, range and critical-mineral dependence.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Umicore",
+      "role": "incumbent",
+      "what": "Belgian materials group making high-nickel NMC CAM and precursors in Europe/Asia with a paused Ontario plant",
+      "signal": "One of the largest Western CAM makers; cut battery-materials capex ~50% and delayed plants in 2024-25 amid weak EV demand and <40% Western plant utilization",
+      "status": "operating",
+      "source": "https://cen.acs.org/energy/energy-storage-/Cathode-projects-advance-North-America/100/i41"
+     },
+     {
+      "name": "BASF",
+      "role": "incumbent",
+      "what": "Runs the Schwarzheide (Germany) high-nickel CAM plant plus Harjavalta precursors, but has put parts of the battery materials business under review",
+      "signal": "Schwarzheide began production 2023 targeting ~100 kt/yr; investment scaled back ~50% with facilities delayed in 2024-25",
+      "status": "operating",
+      "source": "https://cen.acs.org/energy/energy-storage-/Cathode-projects-advance-North-America/100/i41"
+     },
+     {
+      "name": "EcoPro BM",
+      "role": "incumbent",
+      "what": "Korea's high-nickel NCA/NCM cathode leader supplying Samsung SDI and SK On, expanding into Canada (with Ford/SK)",
+      "signal": "Multi-hundred-kt/yr capacity across Korea; KOSDAQ-listed large cap",
+      "status": "operating",
+      "source": "https://www.ecopro.co.kr/eng/"
+     },
+     {
+      "name": "POSCO Future M",
+      "role": "incumbent",
+      "what": "Korea's only integrated cathode-plus-anode materials maker, vertically tied to POSCO lithium/nickel",
+      "signal": "GM Ultium CAM JV; tens of kt/yr NCMA capacity ramping",
+      "status": "operating",
+      "source": "https://www.poscofuturem.com/en/"
+     },
+     {
+      "name": "Hunan Yuneng",
+      "role": "incumbent",
+      "what": "World's largest LFP cathode producer, anchor supplier to CATL and BYD",
+      "signal": "Largest global LFP CAM market share; Shenzhen-listed",
+      "status": "operating",
+      "source": "https://www.datamintelligence.com/research-report/cathode-materials-market"
+     },
+     {
+      "name": "Nano One Materials",
+      "role": "scaleup",
+      "what": "Patented one-pot LFP process that skips the wasteful precursor step, run at its Candiac (Qu\u00e9bec) plant and offered as licensed technology",
+      "signal": "Targeting first commercial LFP supply agreements by end-2026; ~$17.8M cash plus $7M raise and $5M NRCan award (late 2025); CEO transition June 2026",
+      "status": "operating",
+      "source": "https://www.bestmag.co.uk/nano-one-lfp-2026/"
+     },
+     {
+      "name": "Mitra Chem",
+      "role": "startup",
+      "what": "AI-accelerated development and US manufacturing of iron-based (LFP/LMFP) cathode materials",
+      "signal": "~$96M raised, Series B May 2025; selected for up to $125M in DOE/Michigan awards for a Muskegon plant",
+      "status": "operating",
+      "source": "https://tracxn.com/d/companies/mitra-chem/__gRSnKxYTH9eg4nULG97pdctpH3JcdwVB4w1yuePgmF8"
+     },
+     {
+      "name": "6K Energy",
+      "role": "startup",
+      "what": "UniMelt microwave-plasma process making NMC and LFP CAM in seconds without wastewater, replacing multi-day co-precipitation",
+      "signal": "$50M DOE award executed for the ~$200M+ PlusCAM plant in Jackson, TN (13 kt/yr design)",
+      "status": "operating",
+      "source": "https://www.6kinc.com/news/press-release/the-us-department-of-energy-and-6k-energy-execute-agreement-for-the-50m-grant-for-the-pluscam-battery-material-production-plant-in-jackson-tn/"
+     },
+     {
+      "name": "Redwood Materials",
+      "role": "scaleup",
+      "what": "Planned recycled-content cathode active material in Nevada to feed Panasonic, closing the loop from its recycling business",
+      "signal": "~$2B raised incl. $425M Series E (Jan 2026, Google joined); cathode buildout slowed as the company prioritized storage and metals",
+      "status": "operating",
+      "source": "https://www.energy-storage.news/us-battery-recycling-in-doldrums-updates-from-redwood-materials-ascend-elements/"
+     },
+     {
+      "name": "Forge Nano",
+      "role": "startup",
+      "what": "Atomic layer deposition (Atomic Armor) particle coatings that extend cathode powder cycle life and enable higher-nickel chemistries",
+      "signal": "Venture-backed; coating lines sold to CAM and cell makers, plus its own Forge Battery cell line",
+      "status": "operating",
+      "source": "https://www.forgenano.com/"
+     }
+    ]
+   },
+   {
+    "name": "Anode materials: graphite, synthetic & silicon",
+    "description": "Making the carbon or silicon powders for the negative electrode \u2014 graphite is a mature, China-dominated commodity being onshored for supply security, while silicon-rich anodes promise 20%+ more energy density and faster charging and are just reaching automotive scale.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "BTR New Material",
+      "role": "incumbent",
+      "what": "World's largest anode producer across natural and synthetic graphite, supplying most major cell makers",
+      "signal": "Roughly a quarter of global anode output; expanding to Indonesia/Morocco to skirt trade barriers",
+      "status": "operating",
+      "source": "https://www.btrchina.com/en/"
+     },
+     {
+      "name": "Novonix",
+      "role": "scaleup",
+      "what": "First large-scale synthetic graphite production in North America at its Riverside plant in Chattanooga",
+      "signal": "20 kt/yr Riverside capacity fully allocated to Panasonic, Stellantis and PowerCo; $754M DOE loan commitment for a second ~31.5 kt/yr plant",
+      "status": "operating",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001859795/000095017025098146/nvx-ex99_4.htm"
+     },
+     {
+      "name": "Vianode",
+      "role": "scaleup",
+      "what": "Norwegian low-carbon synthetic graphite maker (Her\u00f8ya) using hydropower-based processing",
+      "signal": "Announced $3.2B phased St. Thomas, Ontario plant (Nov 2025; production 2028, up to 150 kt/yr) with ~C$670M Ontario loan support",
+      "status": "operating",
+      "source": "https://www.investontario.ca/press-release/vianode-plans-build-north-americas-first-large-scale-clean-synthetic-graphite-plant-ontario"
+     },
+     {
+      "name": "Anovion",
+      "role": "startup",
+      "what": "US synthetic graphite pure-play building an $800M facility in Bainbridge, Georgia",
+      "signal": "~$117M DOE grant support; 40 kt/yr planned capacity",
+      "status": "operating",
+      "source": "https://www.manufacturingdive.com/news/anovion-technologies-800m-facility-in-georgia/650808/"
+     },
+     {
+      "name": "Syrah Resources",
+      "role": "scaleup",
+      "what": "Vertically integrated natural graphite \u2014 Balama mine (Mozambique) feeding the Vidalia, Louisiana active anode material plant",
+      "signal": "Balama shut ~1 year by protests triggering DFC/DOE loan defaults; $98M DOE loan now under forbearance to 2027 and Tesla offtake dispute resolved; ~$291M total debt",
+      "status": "operating",
+      "source": "https://investingnews.com/tesla-withdraws-syrah-termination-notice/"
+     },
+     {
+      "name": "Sila",
+      "role": "scaleup",
+      "what": "Titan Silicon nano-composite silicon anode powder as a drop-in graphite replacement",
+      "signal": ">$1.3B raised; automotive-scale Moses Lake, WA plant started production 2025; Mercedes-Benz and Panasonic deals",
+      "status": "operating",
+      "source": "https://www.geekwire.com/2025/next-gen-battery-company-sila-starts-manufacturing-in-washington-at-first-of-a-kind-facility/"
+     },
+     {
+      "name": "Group14 Technologies",
+      "role": "scaleup",
+      "what": "SCC55 silicon-carbon anode material made in scaled silane-to-powder factories",
+      "signal": "$463M round (Aug 2025) led by SK with Porsche, ATL, Microsoft; three factories operating across US and Korea",
+      "status": "operating",
+      "source": "https://techcrunch.com/2025/08/20/group14-lands-463m-from-sk-porsche-and-others-to-make-silicon-anodes-for-evs/"
+     },
+     {
+      "name": "NanoGraf",
+      "role": "startup",
+      "what": "Silicon-oxide anode materials powering US military cells, with EV-grade Onyx material next",
+      "signal": "Hundreds of thousands of defense cells in 2025; Michigan plant targeted online 2027",
+      "status": "operating",
+      "source": "https://www.batterytechonline.com/battery-manufacturing/nanograf-s-silicon-anode-technology-powers-critical-defense-equipment"
+     },
+     {
+      "name": "Nexeon",
+      "role": "startup",
+      "what": "UK-developed silicon anode material produced in Gunsan, Korea, co-located with OCI for fenceline silane supply",
+      "signal": "First volume plant delivering from 2025 under a binding Panasonic supply agreement",
+      "status": "operating",
+      "source": "https://www.nexeonglobal.com/media/groundbreaking-on-first-volume-production-site"
+     },
+     {
+      "name": "OneD Battery Sciences",
+      "role": "startup",
+      "what": "SINANODE silicon nanowires fused onto graphite \u2014 shut down after EV demand softened",
+      "signal": "Shuttered its Moses Lake pilot plant and ceased operations (2024-25) despite GM backing \u2014 evidence of silicon-anode shakeout",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.inlander.com/news/market-trends-have-hurt-moses-lake-battery-suppliers-but-protectionist-trade-policies-could-jumpstart-production/article_16c388f6-97ff-4038-9b1b-f9a928efac7f.html"
+     }
+    ]
+   },
+   {
+    "name": "Electrolytes, separators & inactive cell components",
+    "description": "Supplying the ion-carrying liquid electrolyte, the microporous separator film between electrodes, and inactive parts like foils, binders and current collectors \u2014 low-glamour commodities that gate cell safety, cost and the localization of battery supply chains.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Asahi Kasei",
+      "role": "incumbent",
+      "what": "World-leading separator maker (Hipore wet-process plus Celgard dry-process subsidiary); building a C$1.8B separator plant in Port Colborne, Ontario with Honda",
+      "signal": "Multi-billion-m2/yr capacity; Canada plant announced 2024 for ~2027 production",
+      "status": "operating",
+      "source": "https://www.asahi-kasei.com/"
+     },
+     {
+      "name": "SEMCORP (Yunnan Enjie)",
+      "role": "incumbent",
+      "what": "World's largest wet-process separator producer, expanding from China into Hungary and the US",
+      "signal": "Dominant global separator share; supplies CATL, LG, Samsung",
+      "status": "operating",
+      "source": "https://www.semcorp.com/"
+     },
+     {
+      "name": "SK IE Technology",
+      "role": "incumbent",
+      "what": "Korean premium ceramic-coated separator maker with plants in Korea and Poland",
+      "signal": "KRX-listed; capacity rationalized in 2024-25 amid EV slowdown",
+      "status": "operating",
+      "source": "https://www.skietechnology.com/"
+     },
+     {
+      "name": "ENTEK",
+      "role": "incumbent",
+      "what": "The only US-owned lithium-ion separator manufacturer, building a wet-process plant in Terre Haute, Indiana",
+      "signal": "Up to $1.2B DOE loan with first $77M disbursement approved (2025); ~$1.7B total project",
+      "status": "operating",
+      "source": "https://www.energy.gov/edf/articles/doe-approves-loan-disbursement-entek-supporting-american-manufacturing-and-securing"
+     },
+     {
+      "name": "Tinci Materials",
+      "role": "incumbent",
+      "what": "World's largest electrolyte producer with backward integration into LiPF6 and LiFSI salts",
+      "signal": "Leading global electrolyte share; Shenzhen-listed; building European capacity",
+      "status": "operating",
+      "source": "https://www.tinci.com/"
+     },
+     {
+      "name": "Enchem",
+      "role": "incumbent",
+      "what": "Korean electrolyte maker that followed SK and Ultium to the US with Georgia and Tennessee plants",
+      "signal": "KOSDAQ-listed; among first localized US electrolyte suppliers",
+      "status": "operating",
+      "source": "https://www.enchem.net/"
+     },
+     {
+      "name": "Soulbrain",
+      "role": "incumbent",
+      "what": "Korean specialty chemicals group supplying electrolytes and high-purity process chemicals, with US production for auto cell plants",
+      "signal": "Long-standing supplier to Samsung SDI/LG; US subsidiaries operating",
+      "status": "operating",
+      "source": "https://www.soulbrain.co.kr/"
+     },
+     {
+      "name": "South 8 Technologies",
+      "role": "startup",
+      "what": "Liquefied gas (LiGas) electrolyte that keeps cells working to -60\u00b0C and vents inertly for safety",
+      "signal": "Venture-backed San Diego startup; defense and cold-climate cell programs",
+      "status": "operating",
+      "source": "https://south8technologies.com/"
+     },
+     {
+      "name": "Soteria Battery Innovation Group",
+      "role": "startup",
+      "what": "Metallized-film current collectors and ceramic separator architecture that stop internal-short fires, licensed through an industry consortium",
+      "signal": "100+ member licensing consortium including major materials and cell makers",
+      "status": "operating",
+      "source": "https://www.soteriabig.com/"
+     }
+    ],
+    "white_space": "Asian incumbents control ~90% of separator and electrolyte capacity at brutal commodity cost points, so almost no startups attack the category head-on; the opening is policy-driven localization (ENTEK is the lone US-owned separator maker) and step-change chemistries like liquefied-gas or solid electrolytes rather than cost competition."
+   },
+   {
+    "name": "EV powertrain: motors, e-axles, inverters & SiC power electronics",
+    "description": "The hardware that turns battery energy into motion \u2014 electric motors, integrated e-axles, inverters and silicon-carbide power semiconductors \u2014 where efficiency gains directly buy range and cost reduction per vehicle.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "BorgWarner",
+      "role": "incumbent",
+      "what": "Full e-propulsion portfolio: integrated drive modules, 800V SiC inverters and motors for global OEMs",
+      "signal": "Multi-billion-dollar ePropulsion segment shipping at volume",
+      "status": "operating",
+      "source": "https://www.borgwarner.com/"
+     },
+     {
+      "name": "ZF Friedrichshafen",
+      "role": "incumbent",
+      "what": "E-axles and electric drive systems for cars and commercial vehicles; restructuring its E-division amid slower EV ramp",
+      "signal": "Millions of e-drive units delivered; announced major cost restructuring 2024-25",
+      "status": "operating",
+      "source": "https://www.zf.com/"
+     },
+     {
+      "name": "Nidec",
+      "role": "incumbent",
+      "what": "Largest merchant e-axle supplier (E-Axle) in the China/Japan market, fighting a bruising price war",
+      "signal": "Took losses on EV traction business and restructured, incl. reworked Stellantis JV",
+      "status": "operating",
+      "source": "https://www.nidec.com/en/"
+     },
+     {
+      "name": "YASA",
+      "role": "scaleup",
+      "what": "Axial-flux motors with ~4x power density of radial machines, powering Mercedes-AMG, Ferrari and Lamborghini hybrids; now developing an in-wheel motor",
+      "signal": "Mercedes-Benz subsidiary since 2021; opened UK axial-flux 'super factory' in 2025 scaling beyond 25,000 motors/yr",
+      "status": "acquired",
+      "source": "https://www.electrive.com/2025/12/03/yasa-develops-axial-flux-in-wheel-motor/"
+     },
+     {
+      "name": "DeepDrive",
+      "role": "startup",
+      "what": "Munich dual-rotor radial-flux motor claimed to cut magnet/iron use and cost ~20%, offered as central drive and in-wheel unit",
+      "signal": "\u20ac30M Series B (Sep 2024, Leitmotif + BMW i Ventures); co-development with 8 of the 10 largest OEMs",
+      "status": "operating",
+      "source": "https://www.eu-startups.com/2024/09/munich-based-deepdrive-raises-e30-million-series-b-to-build-production-lines-of-ev-motor-tech/"
+     },
+     {
+      "name": "Equipmake",
+      "role": "startup",
+      "what": "UK spoke-architecture motors, inverters and electrification kits for buses, aerospace and specialty vehicles",
+      "signal": "FY25 results show severe financial difficulty \u2014 net assets fell to \u00a30.3M after losses, impairment and restructuring, despite new contracts (JCB, Textron)",
+      "status": "uncertain",
+      "source": "https://www.investegate.co.uk/announcement/rns/equipmake-holdings-plc--eqip/final-results-for-the-year-ended-31-may-2025/9260020"
+     },
+     {
+      "name": "Niron Magnetics",
+      "role": "startup",
+      "what": "Iron-nitride permanent magnets with zero rare earths, aimed at EV traction motors exposed to China's rare-earth export controls",
+      "signal": "GM/Stellantis-backed; Plant 1 in Sartell, MN under construction (operations early 2027) with $10M state grant; site hunt for $1.8B full-scale plant",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20251020598039/en/Niron-Magnetics-Receives-Minnesota-Forward-Fund-Award-to-Advance-Sartell-Manufacturing-Facility"
+     },
+     {
+      "name": "Wolfspeed",
+      "role": "incumbent",
+      "what": "Vertically integrated silicon-carbide wafers and devices (200mm Mohawk Valley fab) for EV inverters",
+      "signal": "Emerged from Chapter 11 on Sep 29, 2025 with ~70% less debt and ~$926M liquidity after SiC demand undershot",
+      "status": "operating",
+      "source": "https://www.sec.gov/Archives/edgar/data/0000895419/000119312525224251/d22768dex991.htm"
+     },
+     {
+      "name": "Infineon",
+      "role": "incumbent",
+      "what": "World's #1 power semiconductor maker; SiC and IGBT modules for most EV inverter platforms, with the Kulim SiC mega-fab",
+      "signal": "Multi-billion-euro automotive power semi revenue; SiC capacity ramping",
+      "status": "operating",
+      "source": "https://www.infineon.com/"
+     },
+     {
+      "name": "Vitesco Technologies",
+      "role": "incumbent",
+      "what": "EV inverters, e-axles and power electronics spun off from Continental",
+      "signal": "Acquired by Schaeffler \u2014 merger completed October 2024, forming a top-tier e-mobility supplier",
+      "status": "acquired",
+      "source": "https://www.schaeffler.com/"
+     }
+    ]
+   },
+   {
+    "name": "Packs, modules, enclosures & thermal management (cell-to-pack, immersion cooling)",
+    "description": "Engineering how cells are structured, protected and kept at temperature \u2014 cell-to-pack/cell-to-body integration cuts weight and cost, while thermal barriers and immersion cooling prevent fires and enable extreme fast charging.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "CATL",
+      "role": "incumbent",
+      "what": "Pioneer of cell-to-pack integration; third-gen Qilin pack reaches ~72% volume utilization without modules",
+      "signal": "World's largest battery maker; CTP deployed across hundreds of GWh",
+      "status": "operating",
+      "source": "https://www.catl.com/en/"
+     },
+     {
+      "name": "BYD",
+      "role": "incumbent",
+      "what": "Blade LFP cell-to-body architecture where long cells are structural pack members",
+      "signal": "Blade packs in millions of vehicles; licensed/supplied to Tesla, Toyota",
+      "status": "operating",
+      "source": "https://www.byd.com/"
+     },
+     {
+      "name": "XING Mobility",
+      "role": "scaleup",
+      "what": "Taiwanese immersion-cooled battery packs where cells sit in dielectric fluid, sold for EVs, ESS and AI data-center backup power",
+      "signal": "TotalEnergies MOU (July 2025) on immersion fluids; debuted 800V immersion-cooled BBU at Supercomputing 2025 and CES 2026",
+      "status": "operating",
+      "source": "https://finance.yahoo.com/news/xing-mobility-showcases-decade-immersion-130000989.html"
+     },
+     {
+      "name": "Carrar",
+      "role": "startup",
+      "what": "Israeli two-phase immersion-cooled modules claiming passive containment of thermal runaway even with a cell above 800\u00b0C",
+      "signal": "$5.3M Series A with strategic investor Gentherm; moving to commercial module production",
+      "status": "operating",
+      "source": "https://theevreport.com/carrar-secures-5-3m-for-ev-advances"
+     },
+     {
+      "name": "Aspen Aerogels",
+      "role": "scaleup",
+      "what": "PyroThin aerogel cell-to-cell thermal barriers that stop runaway propagation, designed into GM and Toyota EV packs",
+      "signal": "NYSE-listed; energy industrial + EV thermal barrier revenue in the hundreds of millions",
+      "status": "operating",
+      "source": "https://www.aerogel.com/"
+     },
+     {
+      "name": "Constellium",
+      "role": "incumbent",
+      "what": "Aluminum battery enclosures and crash-management structures for high-volume EV platforms",
+      "signal": "Supplies major EU/US OEM battery programs from automotive structures plants",
+      "status": "operating",
+      "source": "https://www.constellium.com/"
+     },
+     {
+      "name": "Our Next Energy (ONE)",
+      "role": "startup",
+      "what": "Michigan LFP pack maker (Aries) with a Gemini dual-chemistry range-extender architecture",
+      "signal": "Raised ~$300M Series B (2023) then hit a funding crunch with layoffs and CEO change; operations continue at reduced scale",
+      "status": "uncertain",
+      "source": "https://one.ai/"
+     }
+    ],
+    "white_space": "Cold plates are good enough for mainstream passenger EVs, so immersion cooling has few players despite better physics; the opening is fast-charge heavy-duty trucks, defense vehicles and AI data-center backup units where extreme duty cycles justify the fluid's cost and weight \u2014 exactly where XING and Carrar are pivoting."
+   },
+   {
+    "name": "BMS & battery health analytics software",
+    "description": "Software that estimates battery state, predicts degradation and optimizes charging/dispatch from onboard controllers or the cloud \u2014 squeezing more life, safety and revenue out of every installed kWh in EVs and grid storage.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "TWAICE",
+      "role": "startup",
+      "what": "Munich battery analytics platform for grid storage and EV fleets covering performance, warranty and safety monitoring",
+      "signal": "~$75M raised plus \u20ac24M EIB venture debt (2025); analytics across large BESS fleets",
+      "status": "operating",
+      "source": "https://www.energy-storage.news/battery-data-analytics-software-specialist-twaice-nets-european-investment-bank-funding/"
+     },
+     {
+      "name": "ACCURE Battery Intelligence",
+      "role": "startup",
+      "what": "Aachen-based predictive analytics that flags cell anomalies before fires across storage, bus and marine fleets",
+      "signal": "$34.5M raised; Series B closed Feb 2025; multi-GWh monitored",
+      "status": "operating",
+      "source": "https://tracxn.com/d/companies/accure-battery-intelligence/__puxMMBtHMZGw6ylm3sWEoZ6EZ0P9XGysYP3SpUz6rXw"
+     },
+     {
+      "name": "Zitara",
+      "role": "startup",
+      "what": "Embedded plus cloud battery state-estimation software used by operators from grid storage to satellites",
+      "signal": "$29M raised; acquired by Fortescue's Elysia in January 2026 \u2014 early consolidation signal",
+      "status": "acquired",
+      "source": "https://www.zitara.com/resources/zitara-acquired-by-elysia-expanding-battery-intelligence-capabilities"
+     },
+     {
+      "name": "Elysia (Fortescue)",
+      "role": "scaleup",
+      "what": "Battery intelligence platform born from Williams Advanced Engineering, combining onboard controls with cloud analytics; bought Zitara to deepen the stack",
+      "signal": "Backed by Fortescue's balance sheet; Zitara acquisition closed Jan 2026",
+      "status": "operating",
+      "source": "https://elysia.co/news/press-release/elysia-expands-battery-intelligence-capability-with-acquisition-of-zitara/"
+     },
+     {
+      "name": "Breathe Battery Technologies",
+      "role": "startup",
+      "what": "Physics-based adaptive charging and battery models embedded into BMS firmware for Volvo and consumer-electronics OEMs",
+      "signal": "$21M Series B (May 2025) led by Kinnevik with Lowercarbon and Volvo Cars Tech Fund",
+      "status": "operating",
+      "source": "https://www.finsmes.com/2025/05/breathe-battery-technologies-raises-21m-in-series-b-funding.html"
+     },
+     {
+      "name": "Eatron Technologies",
+      "role": "startup",
+      "what": "Automotive-grade AI BMS software stack (edge + cloud) licensed to OEMs and cell makers",
+      "signal": "Raised new growth funding; partnerships for AI-powered battery health on mainstream silicon",
+      "status": "operating",
+      "source": "https://eatron.com/ai-powered-battery-management-software-pioneer-eatron-technologies-secures-millions-in-new-funding-to-further-accelerate-its-global-growth/"
+     },
+     {
+      "name": "Qnovo",
+      "role": "startup",
+      "what": "Adaptive charging algorithms that extend cycle life, long deployed in smartphones and moving into EVs",
+      "signal": "Long-running adaptive-charging pioneer licensing to consumer and automotive OEMs",
+      "status": "operating",
+      "source": "https://qnovo.com/"
+     },
+     {
+      "name": "Analog Devices",
+      "role": "incumbent",
+      "what": "Precision battery-monitoring ICs and the wireless BMS chipset used in GM's Ultium packs",
+      "signal": "Dominant share in battery monitoring silicon",
+      "status": "operating",
+      "source": "https://www.analog.com/"
+     }
+    ]
+   },
+   {
+    "name": "Battery manufacturing equipment & dry-electrode processing",
+    "description": "The machines that mix, coat, calender, stack and form cells \u2014 a sector dominated by Chinese full-line suppliers, with solvent-free dry-electrode coating emerging as the disruptive process that deletes giant drying ovens and slashes plant energy and capex.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Wuxi Lead Intelligent",
+      "role": "incumbent",
+      "what": "World's largest battery manufacturing equipment supplier, delivering full turnkey cell production lines to CATL, Tesla and European gigafactories",
+      "signal": "Dominant global market share in Li-ion production tools",
+      "status": "operating",
+      "source": "https://www.leadintelligent.com/en/"
+     },
+     {
+      "name": "D\u00fcrr",
+      "role": "incumbent",
+      "what": "German plant engineering group supplying electrode coating and solvent-recovery lines (with Techno Smart)",
+      "signal": "Active battery coating equipment orders in EU/US",
+      "status": "operating",
+      "source": "https://www.durr.com/"
+     },
+     {
+      "name": "B\u00fchler",
+      "role": "incumbent",
+      "what": "Continuous electrode slurry mixing systems that replace batch mixers at gigafactory scale",
+      "signal": "Continuous mixers deployed at multiple gigafactories",
+      "status": "operating",
+      "source": "https://www.buhlergroup.com/"
+     },
+     {
+      "name": "Manz AG",
+      "role": "incumbent",
+      "what": "German battery cell production equipment maker that collapsed when European gigafactory orders evaporated",
+      "signal": "Filed insolvency Dec 2024; proceedings opened Feb 2025; Reutlingen site sold to Tesla Automation, remaining business wound down",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.ess-news.com/2025/02/28/tesla-to-buy-site-of-insolvent-battery-production-equipment-maker-manz/"
+     },
+     {
+      "name": "AM Batteries",
+      "role": "startup",
+      "what": "Electrostatic powder-to-electrode spray that deposits dry active material directly onto foil, cutting coating energy ~40%",
+      "signal": "TIME Best Inventions recognition; roll-to-roll pilot lines with cell-maker partners",
+      "status": "operating",
+      "source": "https://battery-tech.net/dry-coating-technology-providers/"
+     },
+     {
+      "name": "LiCAP Technologies",
+      "role": "startup",
+      "what": "Activated Dry Electrode process producing free-standing electrode films under heat and pressure, claiming up to 50% cost reduction",
+      "signal": "300 MWh dry-coating line commissioned in Sacramento; scaling with European equipment partners",
+      "status": "operating",
+      "source": "https://www.batterytechonline.com/battery-manufacturing/licap-showcases-dry-electrode-innovation"
+     },
+     {
+      "name": "Anaphite",
+      "role": "startup",
+      "what": "Bristol (UK) dry-coating process IP designed to retrofit into existing gigafactory lines, now focused on LFP",
+      "signal": ">$15M raised incl. \u00a31.4M/\u20ac1.6M top-up (Dec 2025) for LFP dry-coating development",
+      "status": "operating",
+      "source": "https://www.electrive.com/2025/12/12/anaphite-secures-1-4m-to-advance-dry-electrode-coating-for-ev-batteries/"
+     },
+     {
+      "name": "Matthews International",
+      "role": "incumbent",
+      "what": "Owns key dry-electrode calendering equipment and IP (supplied Tesla's 4680 dry process; litigated over trade secrets)",
+      "signal": "Energy division equipment shipped to multiple dry-electrode programs",
+      "status": "operating",
+      "source": "https://www.matw.com/"
+     }
+    ],
+    "white_space": "Manz's insolvency shows Western toolmakers cannot beat Wuxi Lead and peers on cost or speed for conventional wet lines; the credible wedge is dry-electrode processing, which resets the capex stack (no NMP solvent ovens or recovery) and is still young enough that no equipment incumbent owns the standard."
+   },
+   {
+    "name": "Hydrometallurgical & pyrometallurgical recycling",
+    "description": "Shredding end-of-life batteries and production scrap into black mass and then recovering lithium, nickel and cobalt with acid leaching (hydromet) or smelting (pyromet) \u2014 the backbone of battery circularity, currently long on shredding capacity and short on profitable refining.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Redwood Materials",
+      "role": "scaleup",
+      "what": "Largest North American recycler integrating collection, black mass and refined nickel/lithium products at its Nevada and South Carolina campuses",
+      "signal": "~$2B raised; $425M Series E closed Jan 2026 (Google joined); ~$200M revenue; turned down its DOE loan",
+      "status": "operating",
+      "source": "https://www.manufacturingdive.com/news/lithium-ion-battery-recyclers-trump-doe-cirba-abtc-li-cycle/757376/"
+     },
+     {
+      "name": "Ascend Elements",
+      "role": "scaleup",
+      "what": "Hydro-to-Cathode process turning black mass directly into pCAM/CAM at Apex 1 in Kentucky",
+      "signal": "$542M Series D (2023); delayed Kentucky CAM line after an offtaker pulled out and lost a $164M DOE grant (a $316M grant remains)",
+      "status": "operating",
+      "source": "https://www.canarymedia.com/articles/batteries/battery-recycling-ascend-elements"
+     },
+     {
+      "name": "Li-Cycle",
+      "role": "startup",
+      "what": "Spoke-and-hub hydromet model whose Rochester hub cost ballooned from $560M toward $1B and never ran",
+      "signal": "Filed for bankruptcy May 2025; Glencore (its secured lender) bought the assets for ~$40M, completed Aug 8, 2025",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.wastedive.com/news/glencore-completes-takeover-of-li-cycle-battery-recycling-assets/757199/"
+     },
+     {
+      "name": "Cirba Solutions",
+      "role": "scaleup",
+      "what": "US battery materials processor (EQT/Marubeni-backed) running multiple plants and building lithium-ion capacity in Ohio and South Carolina",
+      "signal": "Lancaster, OH output up ~600% since 2022 on ~$82M DOE grants; $200M DOE grant for Columbia, SC intact",
+      "status": "operating",
+      "source": "https://www.manufacturingdive.com/news/lithium-ion-battery-recyclers-trump-doe-cirba-abtc-li-cycle/757376/"
+     },
+     {
+      "name": "Glencore",
+      "role": "incumbent",
+      "what": "Feeds batteries and black mass into its Sudbury nickel smelter and now owns the former Li-Cycle spoke network",
+      "signal": "Completed Li-Cycle takeover Aug 2025, adding NA/EU recycling footprint",
+      "status": "operating",
+      "source": "https://www.metaltechnews.com/story/2025/08/13/tech-metals/glencore-buys-li-cycle-out-of-bankruptcy/2428.html"
+     },
+     {
+      "name": "Brunp (CATL)",
+      "role": "incumbent",
+      "what": "World's largest battery recycler, closing the loop into CATL's own cathode supply in China",
+      "signal": "100kt+/yr class processing capacity; majority-owned by CATL",
+      "status": "operating",
+      "source": "https://www.catl.com/en/"
+     },
+     {
+      "name": "Umicore",
+      "role": "incumbent",
+      "what": "Pyro+hydro refining of battery and precious metals at Hoboken, Belgium, with recycled-content CAM offerings",
+      "signal": "Decades of metals refining; battery recycling expansion slowed with the EU market",
+      "status": "operating",
+      "source": "https://www.umicore.com/"
+     },
+     {
+      "name": "Hydrovolt",
+      "role": "scaleup",
+      "what": "Norway's large-scale pack shredding/black-mass producer (Hydro JV), which opened Europe's first industrial-scale hydromet plant in June 2025",
+      "signal": "~10,000 t/yr hydromet capacity; survived co-parent Northvolt's collapse (Northvolt's own Revolt hub closed)",
+      "status": "operating",
+      "source": "https://www.batterytechonline.com/battery-recycling/europe-s-battery-recycling-boom-powers-circular-economy-shift"
+     },
+     {
+      "name": "cylib",
+      "role": "startup",
+      "what": "Aachen spinout with end-to-end water-based recycling recovering lithium and graphite as well as metals",
+      "signal": "\u20ac55M Series A; building a \u20ac180M+ Dormagen plant billed as Europe's largest, with ~$30M EU grant (Sep 2025)",
+      "status": "operating",
+      "source": "https://thenextweb.com/news/german-startup-cylib-starts-building-europes-largest-ev-battery-recycling-plant"
+     },
+     {
+      "name": "tozero",
+      "role": "startup",
+      "what": "Munich startup recovering lithium and graphite from black mass, scaling from pilot toward industrial output",
+      "signal": "Venture-backed; transitioning pilot processes to industrial scale in Germany",
+      "status": "operating",
+      "source": "https://www.webpronews.com/a-munich-startup-wants-to-crack-the-battery-recycling-code-and-europe-is-betting-it-can/"
+     },
+     {
+      "name": "Altilium",
+      "role": "startup",
+      "what": "UK EcoCathode hydromet recovering lithium, nickel and graphite, building the UK's first commercial-scale recycling plant with integrated refining (Plymouth ACT3, Teesside planned)",
+      "signal": "SQM-backed; ACT3 under construction with EV OEM sample agreements",
+      "status": "operating",
+      "source": "https://www.batterytechonline.com/battery-recycling/europe-s-battery-recycling-boom-powers-circular-economy-shift"
+     },
+     {
+      "name": "Eramet",
+      "role": "incumbent",
+      "what": "French miner that designed a Dunkirk battery-recycling hydromet plant, then suspended it for lack of European feedstock and pCAM customers",
+      "signal": "Dunkirk project suspended (late 2024) \u2014 emblematic of Europe's recycling overcapacity vs. weak downstream demand",
+      "status": "operating",
+      "source": "https://www.circularenergystorage-online.com/post/eramet-suspends-battery-recycling-plant-comment"
+     }
+    ]
+   },
+   {
+    "name": "Direct & cathode-to-cathode recycling",
+    "description": "Regenerating cathode powder while preserving its engineered crystal structure (plasma, relithiation or direct precursor synthesis) instead of dissolving everything to metal salts \u2014 promising far lower cost and emissions, but only if feedstock chemistry is known and still in demand.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Princeton NuEnergy",
+      "role": "startup",
+      "what": "Low-temperature plasma-assisted (LPAS) purification that regenerates NMC and LFP cathode directly from spent cells",
+      "signal": ">$55M raised (Honda, Samsung, Shell Ventures, LKQ); Chester, SC flagship \u2014 the first US commercial-scale direct-recycling/CAM plant \u2014 fully commissioned Aug 2025, expanding to 15 kt/yr in 2026",
+      "status": "operating",
+      "source": "https://pnecycle.com/the-u-s-battery-circular-economy-advances-with-pnes-south-carolina-flagship-recycling-facility/"
+     },
+     {
+      "name": "Ascend Elements",
+      "role": "scaleup",
+      "what": "Hydro-to-Cathode direct precursor synthesis that skips separating black mass into individual metal salts",
+      "signal": "Process running at Covington, GA base plant; Kentucky CAM expansion delayed",
+      "status": "operating",
+      "source": "https://www.canarymedia.com/articles/batteries/battery-recycling-ascend-elements"
+     },
+     {
+      "name": "Green Li-ion",
+      "role": "startup",
+      "what": "Modular GLMC units converting black mass straight into battery-grade pCAM/cathode rather than metal salts",
+      "signal": "First US plant in Atoka, Oklahoma started 2024 at ~2 t pCAM/day with plans to quadruple",
+      "status": "operating",
+      "source": "https://www.wastedive.com/news/green-li-ion-battery-materials-processing-atoka-oklahoma-black-mass-recycling/713045/"
+     },
+     {
+      "name": "OnTo Technology",
+      "role": "startup",
+      "what": "Oregon pioneer of 'cathode healing' direct recycling, licensing IP rather than building plants",
+      "signal": "Long-running R&D/licensing shop; current commercial traction unclear",
+      "status": "uncertain",
+      "source": "https://www.onto-technology.com/"
+     },
+     {
+      "name": "Aqua Metals",
+      "role": "startup",
+      "what": "Electrochemical Li AquaRefining that plates metals back out of black mass with electricity instead of chemical reagents",
+      "signal": "Nasdaq micro-cap; pilot ran 24/7 for over a year producing >99.5% lithium carbonate and signed a supply agreement with 6K Energy, but capital constraints stalled its Sierra ARC campus",
+      "status": "operating",
+      "source": "https://ir.aquametals.com/press-releases/detail/310/aqua-metals-reports-milestone-advancements-strategic"
+     }
+    ],
+    "white_space": "Direct recycling stays thin because it needs clean, single-chemistry feedstock and the regenerated cathode must still match market demand \u2014 recovered NMC risks obsolescence as the fleet shifts to LFP. The opening is LFP and manufacturing scrap: metal values there are too low for hydromet to pencil, so structure-preserving regeneration is the only route that creates value, which is why PNE's LFP-capable SC plant matters."
+   },
+   {
+    "name": "Second-life EV battery stationary storage",
+    "description": "Repurposing retired EV packs \u2014 which typically retain 75-80% capacity \u2014 into stationary storage at roughly half the cost of new batteries, deferring recycling while supplying cheap grid and commercial power capacity.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "B2U Storage Solutions",
+      "role": "startup",
+      "what": "Pack-level plug-and-play architecture using unmodified EV packs in cabinet enclosures for utility-scale solar+storage",
+      "signal": "Multiple operating CA sites plus Texas expansion; launched a 7-project structured finance fund and a battery supply deal with Waymo (2025)",
+      "status": "operating",
+      "source": "https://www.evinfrastructurenews.com/second-life-batteries/b2u-storage-solutions-scores-supply-agreement-with-waymo"
+     },
+     {
+      "name": "Moment Energy",
+      "role": "startup",
+      "what": "UL-certified commercial-scale second-life BESS manufactured at its Vancouver hub with OEM supply deals (Mercedes-Benz, Nissan)",
+      "signal": "$40M Series B (May 2026), >$100M total raised; full-scale production reached 2025; DOE award toward a US gigafactory",
+      "status": "operating",
+      "source": "https://www.momentenergy.com/news/series-b"
+     },
+     {
+      "name": "Redwood Energy (Redwood Materials)",
+      "role": "scaleup",
+      "what": "Repurposes inbound EV packs into microgrids before recycling them, including the 12MW/63MWh Crusoe AI-data-center microgrid in Nevada",
+      "signal": "Launched 2025 with the world's largest second-life deployment; GWh-scale pack pipeline from Redwood's collection network",
+      "status": "operating",
+      "source": "https://www.manufacturingdive.com/news/lithium-ion-battery-recyclers-trump-doe-cirba-abtc-li-cycle/757376/"
+     },
+     {
+      "name": "Element Energy",
+      "role": "startup",
+      "what": "Cell-level adaptive BMS that safely mixes heterogeneous used cells, enabling the 53 MWh Texas plant \u2014 the largest second-life grid system",
+      "signal": "53 MWh ERCOT system commissioned Nov 2024 with LG Energy Solution Vertech partnership targeting 2 GWh",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/element-energy-announces-commissioning-of-worlds-largest-second-life-battery-storage-project-302312877.html"
+     },
+     {
+      "name": "Connected Energy",
+      "role": "startup",
+      "what": "UK E-STOR containerized systems built on Renault and Forsee Power packs for C&I sites",
+      "signal": "Backed by Caterpillar, Volvo Energy and M&G; positioning for the late-2020s EV retirement wave",
+      "status": "operating",
+      "source": "https://www.energy-storage.news/second-life-energy-storage-firms-position-themselves-ahead-of-ev-battery-boom/"
+     },
+     {
+      "name": "Voltfang",
+      "role": "startup",
+      "what": "Aachen-based maker of C&I storage from requalified European automotive battery modules",
+      "signal": "\u20ac15M Series B (June 2025); opened 'Europe's largest second-life battery factory' scalable to 1 GWh/yr, targeting +250 MWh deployed by end-2026",
+      "status": "operating",
+      "source": "https://www.ess-news.com/2025/06/13/voltfang-opens-europes-largest-second-life-battery-factory/"
+     },
+     {
+      "name": "Octave",
+      "role": "startup",
+      "what": "Brussels startup pairing second-life (and LFP) cabinets with its own energy-management software for SMEs and industrial sites",
+      "signal": "100+ battery cabinets sold, >13 MWh of packs given a second life; seed-funded (SPDG, P\u00e9rier-D'Ieteren)",
+      "status": "operating",
+      "source": "https://octave.energy/en/about/"
+     },
+     {
+      "name": "Smartville",
+      "role": "startup",
+      "what": "Containerized MOAB storage built from validated second-life packs across mixed OEMs, made in California",
+      "signal": "$5.9M DOE award; commercial deployments with utility partners",
+      "status": "operating",
+      "source": "https://smartville.io/doe-awarded-5-9-million/"
+     },
+     {
+      "name": "4R Energy (Nissan/Sumitomo)",
+      "role": "incumbent",
+      "what": "The original second-life venture, refabricating Nissan Leaf packs for storage and replacement batteries in Japan since 2010",
+      "signal": "Operating Namie plant; longest-running second-life program",
+      "status": "operating",
+      "source": "https://www.nissan-global.com/EN/STORIES/RELEASES/4r/"
+     },
+     {
+      "name": "Mercedes-Benz Energy",
+      "role": "incumbent",
+      "what": "Builds grid-scale storage in Germany from retired and spare-part EV packs and supplies packs to partners like Moment Energy",
+      "signal": "Multiple MW-scale German second-life plants since 2016",
+      "status": "operating",
+      "source": "https://www.mercedes-benz-energy.com/"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   "https://cen.acs.org/energy/energy-storage-/Cathode-projects-advance-North-America/100/i41",
+   "https://www.bestmag.co.uk/nano-one-lfp-2026/",
+   "https://www.6kinc.com/news/press-release/the-us-department-of-energy-and-6k-energy-execute-agreement-for-the-50m-grant-for-the-pluscam-battery-material-production-plant-in-jackson-tn/",
+   "https://www.geekwire.com/2025/next-gen-battery-company-sila-starts-manufacturing-in-washington-at-first-of-a-kind-facility/",
+   "https://techcrunch.com/2025/08/20/group14-lands-463m-from-sk-porsche-and-others-to-make-silicon-anodes-for-evs/",
+   "https://www.inlander.com/news/market-trends-have-hurt-moses-lake-battery-suppliers-but-protectionist-trade-policies-could-jumpstart-production/article_16c388f6-97ff-4038-9b1b-f9a928efac7f.html",
+   "https://www.sec.gov/Archives/edgar/data/0001859795/000095017025098146/nvx-ex99_4.htm",
+   "https://www.investontario.ca/press-release/vianode-plans-build-north-americas-first-large-scale-clean-synthetic-graphite-plant-ontario",
+   "https://www.manufacturingdive.com/news/anovion-technologies-800m-facility-in-georgia/650808/",
+   "https://investingnews.com/tesla-withdraws-syrah-termination-notice/",
+   "https://www.energy.gov/edf/articles/doe-approves-loan-disbursement-entek-supporting-american-manufacturing-and-securing",
+   "https://www.sec.gov/Archives/edgar/data/0000895419/000119312525224251/d22768dex991.htm",
+   "https://www.electrive.com/2025/12/03/yasa-develops-axial-flux-in-wheel-motor/",
+   "https://www.eu-startups.com/2024/09/munich-based-deepdrive-raises-e30-million-series-b-to-build-production-lines-of-ev-motor-tech/",
+   "https://www.investegate.co.uk/announcement/rns/equipmake-holdings-plc--eqip/final-results-for-the-year-ended-31-may-2025/9260020",
+   "https://www.businesswire.com/news/home/20251020598039/en/Niron-Magnetics-Receives-Minnesota-Forward-Fund-Award-to-Advance-Sartell-Manufacturing-Facility",
+   "https://finance.yahoo.com/news/xing-mobility-showcases-decade-immersion-130000989.html",
+   "https://theevreport.com/carrar-secures-5-3m-for-ev-advances",
+   "https://www.energy-storage.news/battery-data-analytics-software-specialist-twaice-nets-european-investment-bank-funding/",
+   "https://www.zitara.com/resources/zitara-acquired-by-elysia-expanding-battery-intelligence-capabilities",
+   "https://www.finsmes.com/2025/05/breathe-battery-technologies-raises-21m-in-series-b-funding.html",
+   "https://www.ess-news.com/2025/02/28/tesla-to-buy-site-of-insolvent-battery-production-equipment-maker-manz/",
+   "https://www.electrive.com/2024/12/19/manz-files-for-insolvency/",
+   "https://www.batterytechonline.com/battery-manufacturing/licap-showcases-dry-electrode-innovation",
+   "https://www.electrive.com/2025/12/12/anaphite-secures-1-4m-to-advance-dry-electrode-coating-for-ev-batteries/",
+   "https://www.wastedive.com/news/glencore-completes-takeover-of-li-cycle-battery-recycling-assets/757199/",
+   "https://www.metaltechnews.com/story/2025/08/13/tech-metals/glencore-buys-li-cycle-out-of-bankruptcy/2428.html",
+   "https://www.manufacturingdive.com/news/lithium-ion-battery-recyclers-trump-doe-cirba-abtc-li-cycle/757376/",
+   "https://www.energy-storage.news/us-battery-recycling-in-doldrums-updates-from-redwood-materials-ascend-elements/",
+   "https://www.canarymedia.com/articles/batteries/battery-recycling-ascend-elements",
+   "https://thenextweb.com/news/german-startup-cylib-starts-building-europes-largest-ev-battery-recycling-plant",
+   "https://www.batterytechonline.com/battery-recycling/europe-s-battery-recycling-boom-powers-circular-economy-shift",
+   "https://www.circularenergystorage-online.com/post/eramet-suspends-battery-recycling-plant-comment",
+   "https://pnecycle.com/the-u-s-battery-circular-economy-advances-with-pnes-south-carolina-flagship-recycling-facility/",
+   "https://www.wastedive.com/news/green-li-ion-battery-materials-processing-atoka-oklahoma-black-mass-recycling/713045/",
+   "https://ir.aquametals.com/press-releases/detail/310/aqua-metals-reports-milestone-advancements-strategic",
+   "https://www.evinfrastructurenews.com/second-life-batteries/b2u-storage-solutions-scores-supply-agreement-with-waymo",
+   "https://www.momentenergy.com/news/series-b",
+   "https://www.prnewswire.com/news-releases/element-energy-announces-commissioning-of-worlds-largest-second-life-battery-storage-project-302312877.html",
+   "https://www.ess-news.com/2025/06/13/voltfang-opens-europes-largest-second-life-battery-factory/",
+   "https://octave.energy/en/about/",
+   "https://smartville.io/doe-awarded-5-9-million/"
+  ]
+ }
+}

@@ -1,0 +1,695 @@
+{
+ "sector": "food",
+ "bucket": "Food Loss & Waste",
+ "census": {
+  "bucket": "Food Loss & Waste",
+  "sources": [
+   "https://refed.org/downloads/refed-2025-us-food-waste-report.pdf",
+   "https://refed.org/uploads/2026-food-waste-report-design-final-1.pdf",
+   "https://www.cbinsights.com/company/apeel-technologies",
+   "https://www.cbinsights.com/company/hazel-technologies",
+   "https://www.fooddive.com/news/upcycled-chicken-producer-do-good-foods-files-for-bankruptcy/685709/",
+   "https://agfundernews.com/judicial-liquidation-for-ynsect-as-insect-farming-sector-struggles-to-become-competitive",
+   "https://techcrunch.com/2025/12/26/how-reality-crushed-ynsect-the-french-startup-that-had-raised-over-600m-for-insect-farming/",
+   "https://www.prnewswire.com/news-releases/afresh-raises-34m-to-scale-ai-across-the-grocery-industry--driving-fresher-food-stronger-margins-and-less-waste-302747794.html",
+   "https://www.cbinsights.com/company/shelf-engine",
+   "https://www.businesswire.com/news/home/20260422595258/en/Anaergia-Technologies-LLC-to-Supply-Vanguard-Renewables-with-Advanced-Anaerobic-Digestion-Technology",
+   "https://www.utilitydive.com/news/divert-enbridge-renewable-natural-gas-anaerobic-digestion/643884/",
+   "https://americanbiogascouncil.org/divert-inc-secures-funding-to-scale-infrastructure-addressing-the-wasted-food-crisis-in-north-america/",
+   "https://www.hospitalitynet.org/news/4095500.html",
+   "https://www.foodbusinessmea.com/kenyan-agritech-sokofresh-targets-us1-5m-raise-to-expand-solar-cold-rooms-for-avocado-exports/",
+   "https://www.coldhubs.com/coldhubnews/2025/1/29/coldhubs-ambitious-course-for-2025",
+   "https://www.waste360.com/food-waste/how-dynamic-pricing-tech-is-cutting-grocers-food-waste",
+   "https://www.thepacker.com/news/sustainability/how-food-waste-apps-are-reshaping-grocery-retail",
+   "https://www.mainsights.io/ma-news/too-good-to-go-is-weighing-a-eur-200-300m-funding-round-to-support-business-expansion-acc-to-bloomberg",
+   "https://www.businesswire.com/news/home/20220607005258/en/Strella-Raises-$8-Million-to-Bring-Freshness-Data-to-the-Food-Supply-Chain",
+   "https://www.axios.com/pro/retail-deals/2023/09/06/food-recycling-startup-mill-industries-series-c",
+   "https://www.foodnavigator-usa.com/Article/2023/10/17/tyson-foods-expands-into-insect-protein-production-with-protix-partnership/",
+   "https://www.foodnavigator-usa.com/Article/2022/07/07/EverGrain-starts-commercial-production-of-upcycled-barley-protein/",
+   "https://www.sciencedirect.com/science/article/pii/S235255092400191X",
+   "https://orbisk.com/blog/press-release-orbisk-secures-more-than-8-million-series-a-funding/"
+  ],
+  "variations": [
+   {
+    "name": "Shelf-life extension coatings, packaging & treatments",
+    "description": "Edible coatings, ripening-control treatments (e.g., 1-MCP), and active packaging slow respiration and moisture loss so produce survives longer in transit and on shelf, cutting spoilage-driven waste and the emissions embodied in lost food.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Apeel Sciences",
+      "role": "scaleup",
+      "what": "Plant-derived edible coatings applied at packhouses that extend shelf life of avocados, citrus, cucumbers and more by days to weeks.",
+      "signal": "Raised ~$640M total incl. $250M Series E (2021, ~$2B valuation); deployed with major US/EU retailers; restructured 2023-24 amid slower-than-hoped commercialization",
+      "status": "operating",
+      "source": "https://www.cbinsights.com/company/apeel-technologies"
+     },
+     {
+      "name": "Hazel Technologies",
+      "role": "scaleup",
+      "what": "Drop-in sachets and packaging inserts that release vapor-phase ripening inhibitors inside produce boxes during transit.",
+      "signal": "~$110M raised through Series C; used by hundreds of produce suppliers across dozens of crops",
+      "status": "operating",
+      "source": "https://www.cbinsights.com/company/hazel-technologies"
+     },
+     {
+      "name": "AgroFresh",
+      "role": "incumbent",
+      "what": "Dominant supplier of 1-MCP post-harvest freshness treatments (SmartFresh) used on a large share of the world's stored apples, plus coatings and digital tools.",
+      "signal": "NASDAQ-listed until taken private by Paine Schwartz Partners (completed 2023); decades of global deployment",
+      "status": "acquired",
+      "source": "https://www.agrofresh.com/"
+     },
+     {
+      "name": "Mori",
+      "role": "startup",
+      "what": "Silk-protein (fibroin) edible coating with FDA GRAS status applied to produce and proteins to slow spoilage.",
+      "signal": "Raised >$80M venture funding (Series B 2022); commercial pilots with US produce and protein processors",
+      "status": "operating",
+      "source": "https://www.mori.com/"
+     },
+     {
+      "name": "Ryp Labs",
+      "role": "startup",
+      "what": "StixFresh produce stickers that release natural antimicrobial vapors to delay mold and over-ripening on individual fruit.",
+      "signal": "Venture/grant-backed; retail and packer pilots in US and Europe",
+      "status": "operating",
+      "source": "https://www.ryplabs.com/"
+     },
+     {
+      "name": "RipeLocker",
+      "role": "startup",
+      "what": "Patented low-atmospheric-pressure storage containers that hold berries, hops, and flowers in suspended animation for weeks.",
+      "signal": "Commercial trials with major berry and hop shippers; named alongside Apeel/Hazel as a category leader",
+      "status": "operating",
+      "source": "https://www.ripelocker.com/"
+     },
+     {
+      "name": "Sufresca",
+      "role": "startup",
+      "what": "Israeli developer of invisible, washable edible coatings tailored per-crop (cucumbers, peppers, citrus).",
+      "signal": "Seed-stage; pilots with European produce packers",
+      "status": "operating",
+      "source": "https://www.sufresca.com/"
+     },
+     {
+      "name": "Saveggy",
+      "role": "startup",
+      "what": "Swedish plant-based coating replacing plastic shrink-wrap on cucumbers and peppers.",
+      "signal": "Early commercial rollout with Nordic retailer ICA; seed/EU-grant funded",
+      "status": "operating",
+      "source": "https://www.saveggy.com/"
+     },
+     {
+      "name": "Xampla",
+      "role": "startup",
+      "what": "Cambridge spinout making Morro-brand natural polymer coatings and films from plant protein as edible/compostable barriers for food.",
+      "signal": "Raised ~$20M+; commercial partnerships incl. Huhtamaki and food brands",
+      "status": "operating",
+      "source": "https://www.xampla.com/"
+     }
+    ]
+   },
+   {
+    "name": "Surplus food marketplaces, redistribution & dynamic pricing",
+    "description": "Apps and B2B platforms match soon-to-expire or surplus food with discount buyers, charities, or secondary channels \u2014 and dynamically mark down prices \u2014 so edible food gets eaten instead of landfilled.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Too Good To Go",
+      "role": "scaleup",
+      "what": "Consumer app selling 'surprise bags' of unsold food from restaurants, bakeries, and grocers at steep discounts; the category's global leader.",
+      "signal": "EUR 194M revenue and positive EBIT in 2024; ~100M+ registered users; reported mid-2025 to be weighing a EUR 200-300M growth round",
+      "status": "operating",
+      "source": "https://www.mainsights.io/ma-news/too-good-to-go-is-weighing-a-eur-200-300m-funding-round-to-support-business-expansion-acc-to-bloomberg"
+     },
+     {
+      "name": "Flashfood",
+      "role": "scaleup",
+      "what": "App platform grocers use to sell near-dated meat, produce, and dairy at ~50% off for in-store pickup.",
+      "signal": "Partnered with thousands of stores (Meijer and other chains) across North America; 100M+ lbs of food diverted",
+      "status": "operating",
+      "source": "https://www.thepacker.com/news/sustainability/how-food-waste-apps-are-reshaping-grocery-retail"
+     },
+     {
+      "name": "Misfits Market",
+      "role": "scaleup",
+      "what": "Online grocer built on 'ugly' and surplus produce and short-coded pantry goods delivered to consumers.",
+      "signal": "Raised $526.5M (SoftBank, Accel, Valor); acquired rival Imperfect Foods in 2022",
+      "status": "operating",
+      "source": "https://www.cbinsights.com/company/misfits-market"
+     },
+     {
+      "name": "Imperfect Foods",
+      "role": "scaleup",
+      "what": "Pioneer of imperfect-produce subscription boxes; consolidated into Misfits Market as standalone economics proved hard.",
+      "signal": "Acquired by Misfits Market (2022) after raising ~$229M; brand retained",
+      "status": "acquired",
+      "source": "https://www.cbinsights.com/company/misfits-market"
+     },
+     {
+      "name": "Phenix",
+      "role": "scaleup",
+      "what": "French anti-waste app plus donation logistics that routes retailer surplus to consumers and charities across Western Europe.",
+      "signal": "B Corp; thousands of partner merchants in France/Spain/Portugal/Italy/Belgium; raised ~EUR 15M+",
+      "status": "operating",
+      "source": "https://wearephenix.com/"
+     },
+     {
+      "name": "OLIO",
+      "role": "scaleup",
+      "what": "Neighbor-to-neighbor and store-to-community sharing app where volunteers redistribute retailer surplus for free.",
+      "signal": "Raised ~$43M Series B (2021, VNV Global); millions of users; Tesco volunteer partnership",
+      "status": "operating",
+      "source": "https://olioapp.com/"
+     },
+     {
+      "name": "Goodr",
+      "role": "startup",
+      "what": "Atlanta-based surplus-food logistics company routing edible surplus from airports, stadiums, and corporates to nonprofits, with waste audits.",
+      "signal": "Venture-backed (raised ~$8M+); clients include major airports and arenas",
+      "status": "operating",
+      "source": "https://goodr.co/"
+     },
+     {
+      "name": "Spoiler Alert",
+      "role": "scaleup",
+      "what": "B2B private marketplace where CPG brands liquidate excess and short-dated inventory to discount/secondary channels.",
+      "signal": "Raised ~$32M; used by Kraft Heinz, Nestl\u00e9, Danone and other top food brands",
+      "status": "operating",
+      "source": "https://www.spoileralert.com/"
+     },
+     {
+      "name": "Wasteless",
+      "role": "startup",
+      "what": "AI dynamic-pricing engine that marks down perishables by remaining shelf life via electronic shelf labels and POS integration.",
+      "signal": "Live in ~1,000 stores across 18 grocery chains in US/Europe; users report ~40% waste reduction",
+      "status": "operating",
+      "source": "https://www.waste360.com/food-waste/how-dynamic-pricing-tech-is-cutting-grocers-food-waste"
+     },
+     {
+      "name": "Full Harvest",
+      "role": "startup",
+      "what": "B2B marketplace selling farms' off-grade and surplus produce directly to food & beverage manufacturers.",
+      "signal": "Raised ~$23M Series B (Telus Ventures); still operating as of 2025 industry coverage",
+      "status": "operating",
+      "source": "https://www.fullharvest.com/techcrunch-series-b-full-harvest-tackles-food-waste"
+     }
+    ]
+   },
+   {
+    "name": "Upcycled ingredients & byproduct valorization",
+    "description": "Turns high-volume food-processing byproducts (spent grain, okara, fruit peels, coffee waste, veg trim) into flours, proteins, snacks, and functional actives, capturing the nutrition and embedded emissions of food that would otherwise be discarded.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Upcycled Foods Inc. (ReGrained)",
+      "role": "startup",
+      "what": "Converts brewers' spent grain into SuperGrain+ flour and supplies a B2B upcycled-ingredient platform; co-founded the Upcycled Food Association certification.",
+      "signal": "B Corp; ingredient partnerships with major bakeries/CPGs; certification scheme now covers 500+ products industry-wide",
+      "status": "operating",
+      "source": "https://www.upcycledfoods.com/"
+     },
+     {
+      "name": "Renewal Mill",
+      "role": "startup",
+      "what": "Mills okara (soymilk byproduct) and oat-milk solids into gluten-free flours and baking mixes for retail and bakery B2B.",
+      "signal": "B Corp; products in national retail and on Amazon; active as of 2025",
+      "status": "operating",
+      "source": "https://www.renewalmill.com/"
+     },
+     {
+      "name": "Matriark Foods",
+      "role": "startup",
+      "what": "Upcycles farm surplus and fresh-cut vegetable trim into low-sodium sauces and broths for foodservice and institutions.",
+      "signal": "Sold into schools, hospitals, and city institutional buyers; Upcycled Certified",
+      "status": "operating",
+      "source": "https://www.matriarkfoods.com/"
+     },
+     {
+      "name": "RIND Snacks",
+      "role": "startup",
+      "what": "Dried whole-fruit snacks that keep the nutrient-dense peel on, diverting peel waste from processing.",
+      "signal": "Raised ~$9.5M Series A (2022); national retail incl. Whole Foods",
+      "status": "operating",
+      "source": "https://www.rindsnacks.com/"
+     },
+     {
+      "name": "Kaffe Bueno",
+      "role": "startup",
+      "what": "Danish biorefinery extracting active ingredients for cosmetics, nutrition, and functional food from spent coffee grounds.",
+      "signal": "Raised ~EUR 6M+; supplies ingredients to personal-care and food customers",
+      "status": "operating",
+      "source": "https://www.kaffebueno.com/"
+     },
+     {
+      "name": "Agrain (Circular Food Technology)",
+      "role": "startup",
+      "what": "Danish brand turning brewers' spent grain into flours, granola, and snack products at commercial bakery scale.",
+      "signal": "Sold in Danish retail/foodservice; EU circular-economy grant backing",
+      "status": "operating",
+      "source": "https://agrainproducts.com/"
+     },
+     {
+      "name": "Toast Brewing",
+      "role": "startup",
+      "what": "UK brewery replacing part of its brewing barley with surplus bakery bread, donating profits to food-waste charities.",
+      "signal": "B Corp; UK supermarket listings; brewed with millions of bread slices to date",
+      "status": "operating",
+      "source": "https://www.toastbrewing.com/"
+     },
+     {
+      "name": "EverGrain",
+      "role": "incumbent",
+      "what": "AB InBev subsidiary industrializing barley protein (EverPro) and fiber from the brewer's 1.4M tonnes/yr of spent grain.",
+      "signal": "$100M commercial plant on AB InBev's St. Louis campus (2022); Upcycled Certified; partnerships with Nestl\u00e9 and Post",
+      "status": "operating",
+      "source": "https://www.foodnavigator-usa.com/Article/2022/07/07/EverGrain-starts-commercial-production-of-upcycled-barley-protein/"
+     },
+     {
+      "name": "Do Good Foods",
+      "role": "scaleup",
+      "what": "Built capital-intensive plants converting grocery food waste into chicken feed to sell 'carbon-reduced' chicken at retail.",
+      "signal": "Filed for Chapter 11 in June 2023 just two years after launch despite ~$169M financing; had diverted 27M lbs of food waste",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.fooddive.com/news/upcycled-chicken-producer-do-good-foods-files-for-bankruptcy/685709/"
+     }
+    ],
+    "white_space": "Consumer 'story brands' keep stalling on distribution and price premiums, and capex-heavy vertically integrated models are fragile (Do Good Foods' 2023 bankruptcy is the cautionary tale); the credible opening is B2B ingredients that win on cost and functionality at parity, co-located with large processors for free feedstock (the EverGrain model), rather than selling the upcycled story at a markup."
+   },
+   {
+    "name": "Retail / kitchen waste analytics & demand forecasting (inventory AI)",
+    "description": "AI cameras, smart scales, and forecasting software show commercial kitchens and grocers exactly what they over-produce or over-order so they buy and prep less \u2014 preventing waste before it happens, the highest-value intervention in the hierarchy.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Afresh Technologies",
+      "role": "scaleup",
+      "what": "AI ordering and inventory platform purpose-built for fresh departments at grocery chains.",
+      "signal": "Raised $34M (Apr 2026, Just Climate); live in 12,500+ store departments; 70% YoY revenue growth in 2025; ~8B ordering decisions/yr",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/afresh-raises-34m-to-scale-ai-across-the-grocery-industry--driving-fresher-food-stronger-margins-and-less-waste-302747794.html"
+     },
+     {
+      "name": "Crisp",
+      "role": "scaleup",
+      "what": "Retail data collaboration platform unifying POS/supply data for CPGs and grocers; added automated perishable ordering by buying Shelf Engine.",
+      "signal": "Raised ~$112M total; acquired Shelf Engine March 2025",
+      "status": "operating",
+      "source": "https://www.cbinsights.com/company/shelf-engine"
+     },
+     {
+      "name": "Shelf Engine",
+      "role": "startup",
+      "what": "Automated demand forecasting and guaranteed-sale ordering for highly perishable grocery SKUs.",
+      "signal": "Raised ~$58M, downsized in 2022, then acquired by Crisp in March 2025 \u2014 consolidation marker for standalone forecasting startups",
+      "status": "acquired",
+      "source": "https://www.cbinsights.com/company/shelf-engine"
+     },
+     {
+      "name": "Winnow",
+      "role": "scaleup",
+      "what": "Computer-vision scales under kitchen bins that identify and cost every item thrown away in hotel and foodservice kitchens.",
+      "signal": "~$20M Series C (Ingka/IKEA among investors); 3,500+ sites in 94 countries; clients (Hilton, Accor, Marriott, IKEA) saving $100M+/yr; IKEA cut food waste 54%",
+      "status": "operating",
+      "source": "https://www.hospitalitynet.org/news/4095500.html"
+     },
+     {
+      "name": "Leanpath",
+      "role": "scaleup",
+      "what": "The original food-waste tracking hardware/software for institutional kitchens (founded 2004), now with photo-based AI.",
+      "signal": "Deployed in 40+ countries with Sodexo, Aramark, Google cafeterias",
+      "status": "operating",
+      "source": "https://www.leanpath.com/"
+     },
+     {
+      "name": "Orbisk",
+      "role": "startup",
+      "what": "Fully automated camera-over-bin monitor that recognizes wasted ingredients without staff input.",
+      "signal": "EUR 8M+ Series A (Dec 2024); expanding to US incl. Carnival Cruise Line deployments in 2025",
+      "status": "operating",
+      "source": "https://orbisk.com/blog/press-release-orbisk-secures-more-than-8-million-series-a-funding/"
+     },
+     {
+      "name": "KITRO",
+      "role": "startup",
+      "what": "Swiss automated food-waste measurement (camera + scale) for hotels and staff restaurants in DACH and beyond.",
+      "signal": "Raised ~CHF 5M+; deployments across European hospitality groups",
+      "status": "operating",
+      "source": "https://www.kitro.ch/"
+     },
+     {
+      "name": "RELEX Solutions",
+      "role": "incumbent",
+      "what": "Finnish retail supply-chain planning suite whose forecasting/replenishment measurably cuts grocery spoilage at chain scale.",
+      "signal": "Raised $568M (2022) at ~$5.7B valuation; hundreds of major grocery customers globally",
+      "status": "operating",
+      "source": "https://www.relexsolutions.com/"
+     },
+     {
+      "name": "Blue Yonder",
+      "role": "incumbent",
+      "what": "Panasonic-owned supply-chain software giant providing demand forecasting and fresh replenishment for the world's largest grocers.",
+      "signal": "Acquired by Panasonic (2021, ~$8B); incumbent standard in grocery planning",
+      "status": "operating",
+      "source": "https://blueyonder.com/"
+     }
+    ]
+   },
+   {
+    "name": "Post-harvest loss reduction & off-grid cold chain / storage",
+    "description": "Solar-powered cold rooms, milk chillers, modular packhouses, and hermetic storage protect crops in the hours and weeks after harvest in regions without reliable grid power, where 30-40% of food can be lost before it ever reaches a market.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "ColdHubs",
+      "role": "startup",
+      "what": "Nigerian network of pay-per-crate solar walk-in cold rooms installed in produce markets and farm clusters.",
+      "signal": "Operating ~50+ hubs; announced 2025 expansion of 45 new hubs incl. five 100-ton units",
+      "status": "operating",
+      "source": "https://www.coldhubs.com/coldhubnews/2025/1/29/coldhubs-ambitious-course-for-2025"
+     },
+     {
+      "name": "SokoFresh",
+      "role": "startup",
+      "what": "Kenyan cooling-as-a-service: mobile solar cold rooms plus market-linkage aggregation for smallholders and avocado exporters.",
+      "signal": "Cut user spoilage to ~2%; Acumen PEII+ backed; raising ~$1.5M bridge with >$10M Series A planned for 2027",
+      "status": "operating",
+      "source": "https://www.foodbusinessmea.com/kenyan-agritech-sokofresh-targets-us1-5m-raise-to-expand-solar-cold-rooms-for-avocado-exports/"
+     },
+     {
+      "name": "Ecozen",
+      "role": "scaleup",
+      "what": "Indian maker of Ecofrost solar cold rooms (with thermal-battery storage) and solar pumps; among the largest agri-cooling fleets in India.",
+      "signal": "Thousands of systems deployed; named a leading global solar cold-storage player; venture and debt funded through Series C-stage",
+      "status": "operating",
+      "source": "https://www.polarismarketresearch.com/industry-analysis/solar-powered-cold-storage-market"
+     },
+     {
+      "name": "Inficold",
+      "role": "startup",
+      "what": "Indian thermal-energy-storage retrofits that let cold rooms and bulk milk coolers run on solar without batteries.",
+      "signal": "100+ installations across India; national cleantech awards",
+      "status": "operating",
+      "source": "https://www.inficold.com/"
+     },
+     {
+      "name": "InspiraFarms Cooling",
+      "role": "startup",
+      "what": "Modular pre-cooling and packhouse cold rooms for export horticulture in East and Southern Africa, financeable as energy-efficient assets.",
+      "signal": "DFI-backed; installed with major flower/veg exporters in Kenya, Rwanda, Ethiopia",
+      "status": "operating",
+      "source": "https://www.inspirafarms.com/"
+     },
+     {
+      "name": "GrainPro",
+      "role": "incumbent",
+      "what": "Hermetic storage pioneer (Cocoons, GrainSafe bags) that suffocates pests and stops mold in stored grain without chemicals.",
+      "signal": "Products used in 100+ countries for 30+ years across smallholder and commodity storage",
+      "status": "operating",
+      "source": "https://www.grainpro.com/"
+     },
+     {
+      "name": "Promethean Power Systems",
+      "role": "startup",
+      "what": "Thermal-battery rapid milk chillers that work on intermittent grid power at Indian village dairy collection points.",
+      "signal": "Deployed across thousands of rural collection centers with Indian dairy processors",
+      "status": "operating",
+      "source": "https://www.prometheanpower.com/"
+     },
+     {
+      "name": "Vestergaard (ZeroFly)",
+      "role": "incumbent",
+      "what": "Insecticide-incorporated ZeroFly storage bags protecting smallholder grain from storage pests, sold via humanitarian and agri channels.",
+      "signal": "Global health/agri incumbent; ZeroFly distributed across Africa and Asia",
+      "status": "operating",
+      "source": "https://www.vestergaard.com/"
+     }
+    ],
+    "white_space": "The physics is solved; the economics aren't \u2014 smallholders can't pay upfront for cold rooms, so deployment still leans on donors and DFIs and few players reach VC scale. The opening is cooling-as-a-service with embedded finance (pay-per-crate, loss-linked or carbon-linked payments) bundled with market aggregation, the model SokoFresh and ColdHubs are proving, plus first-loss capital to crowd in commercial debt."
+   },
+   {
+    "name": "Anaerobic digestion & composting of food / organic waste",
+    "description": "Anaerobic digesters and composting facilities convert unavoidable food waste into renewable natural gas, electricity, and soil amendments, displacing fossil fuels and avoiding the landfill methane that makes food waste a top climate problem.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Vanguard Renewables",
+      "role": "scaleup",
+      "what": "US leader in farm-based co-digestion of food & beverage waste with dairy manure into RNG, with end-to-end depackaging and organics logistics.",
+      "signal": "Acquired by BlackRock Real Assets (2022, reported ~$700M); building out national pipeline incl. new Minnesota advanced AD facility (2026)",
+      "status": "acquired",
+      "source": "https://www.businesswire.com/news/home/20260422595258/en/Anaergia-Technologies-LLC-to-Supply-Vanguard-Renewables-with-Advanced-Anaerobic-Digestion-Technology"
+     },
+     {
+      "name": "Divert",
+      "role": "scaleup",
+      "what": "Retail-focused wasted-food processing: recovers edible food, then converts the rest to RNG at integrated facilities serving grocery chains.",
+      "signal": "$1B infrastructure agreement with Enbridge (2023, ~$1B valuation); $90M+ Nuveen investment (2025); partners incl. Raley's and US Cold Storage",
+      "status": "operating",
+      "source": "https://www.utilitydive.com/news/divert-enbridge-renewable-natural-gas-anaerobic-digestion/643884/"
+     },
+     {
+      "name": "Bioenergy Devco",
+      "role": "scaleup",
+      "what": "Develops and operates anaerobic digestion campuses (e.g., Maryland Bioenergy Center) digesting food processing and organics streams.",
+      "signal": "Raised $100M+ (Irradiant Partners); operating flagship Seaford/Jessup facilities",
+      "status": "operating",
+      "source": "https://bioenergydevco.com/"
+     },
+     {
+      "name": "Anaergia",
+      "role": "scaleup",
+      "what": "Supplies advanced AD technology (mixers, biogas upgrading, organics extraction from MSW) and operates plants globally.",
+      "signal": "TSX-listed; recapitalized 2024 after financial strain; C$8M follow-on technology contract from Vanguard Renewables (Apr 2026)",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20260422595258/en/Anaergia-Technologies-LLC-to-Supply-Vanguard-Renewables-with-Advanced-Anaerobic-Digestion-Technology"
+     },
+     {
+      "name": "Generate Upcycle",
+      "role": "incumbent",
+      "what": "Generate Capital's organics arm owning/operating AD and industrial composting assets (incl. Atlas Organics sites) across North America.",
+      "signal": "Backed by Generate's $10B+ sustainable-infrastructure balance sheet; multiple operating organics facilities",
+      "status": "operating",
+      "source": "https://generatecapital.com/"
+     },
+     {
+      "name": "HomeBiogas",
+      "role": "scaleup",
+      "what": "Prefab household and commercial-kitchen biodigesters producing cooking gas and fertilizer from food scraps, strong in off-grid markets.",
+      "signal": "Tel Aviv-listed (TASE); tens of thousands of systems in 100+ countries",
+      "status": "operating",
+      "source": "https://www.homebiogas.com/"
+     },
+     {
+      "name": "WM (Waste Management)",
+      "role": "incumbent",
+      "what": "North America's largest waste company; CORe facilities slurry commercial food waste for codigestion and it operates large compost sites.",
+      "signal": "Multi-billion sustainability capex program incl. organics processing expansion",
+      "status": "operating",
+      "source": "https://www.wm.com/"
+     },
+     {
+      "name": "Veolia",
+      "role": "incumbent",
+      "what": "Global environmental utility operating food-waste anaerobic digestion and organics recycling plants across Europe, UK, and Asia.",
+      "signal": "EUR 40B+ revenue incumbent with long-standing AD fleet",
+      "status": "operating",
+      "source": "https://www.veolia.com/"
+     },
+     {
+      "name": "Denali",
+      "role": "incumbent",
+      "what": "Largest US organics-recycling specialist, collecting and processing food waste, depackaging, and land-applying/composting at national scale.",
+      "signal": "PE-backed roll-up processing ~10M tons of organics annually",
+      "status": "operating",
+      "source": "https://www.denaliusa.com/"
+     }
+    ]
+   },
+   {
+    "name": "Home & consumer food-waste tech (countertop digesters/composters)",
+    "description": "Countertop and under-sink appliances dry, grind, or microbially ferment household food scraps into feedstock, compost precursor, or animal-feed ingredients, diverting kitchen waste from landfill where it would generate methane.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Mill Industries",
+      "role": "scaleup",
+      "what": "Subscription kitchen bin (from Nest's co-founder) that dries and grinds scraps into shelf-stable grounds with a mail-back pathway into chicken feed.",
+      "signal": "Raised ~$200M total incl. ~$100M Series C (2023); expanded into workplace/B2B channels",
+      "status": "operating",
+      "source": "https://www.axios.com/pro/retail-deals/2023/09/06/food-recycling-startup-mill-industries-series-c"
+     },
+     {
+      "name": "Lomi (Pela)",
+      "role": "scaleup",
+      "what": "Best-known countertop electric 'composter' grinding and dehydrating scraps into soil amendment; Lomi 2 added smart features.",
+      "signal": "Hundreds of thousands of units sold DTC; piloting at-home recycling and curbside collection programs in Canada",
+      "status": "operating",
+      "source": "https://www.newswire.ca/news-releases/lomi-doubles-down-on-mission-pilots-at-home-food-waste-recycling-and-curbside-collection-program-869670334.html"
+     },
+     {
+      "name": "Vitamix (FoodCycler)",
+      "role": "incumbent",
+      "what": "Appliance incumbent whose FoodCycler line anchors municipally subsidized household diversion programs across Canadian towns.",
+      "signal": "Deployed via 100+ municipal pilot/subsidy programs in Canada",
+      "status": "operating",
+      "source": "https://www.foodcycler.com/"
+     },
+     {
+      "name": "Reencle",
+      "role": "startup",
+      "what": "Korean microbial fermentation home composter that digests scraps continuously with a living culture rather than just drying them.",
+      "signal": "Large Korean install base; expanded US DTC/retail sales",
+      "status": "operating",
+      "source": "https://reencle.com/"
+     },
+     {
+      "name": "Sepura Home",
+      "role": "startup",
+      "what": "Under-sink appliance that automatically separates food scraps from sink waste into a sealed collection bin, replacing the garbage disposal.",
+      "signal": "Shipping in North America; CES-awarded hardware startup",
+      "status": "operating",
+      "source": "https://sepurahome.com/"
+     },
+     {
+      "name": "GEME",
+      "role": "startup",
+      "what": "European-market microbial countertop composter positioning on true aerobic fermentation versus dry-grind rivals.",
+      "signal": "DTC sales across EU; competes head-on with Lomi/Mill/Reencle",
+      "status": "operating",
+      "source": "https://www.geme.bio/blog/best-composter-daily-operation-comparison-lomi-mill-reencle-geme"
+     }
+    ],
+    "white_space": "Net climate benefit is contested \u2014 drying isn't composting, devices embed energy and materials, and output often still lands in the trash \u2014 while $300-1,000 price points cap the addressable market. The defensible openings are municipally subsidized diversion where curbside organics collection is impractical (the FoodCycler model) and verified end-use of output (Mill's feed pathway), not more DTC gadgets."
+   },
+   {
+    "name": "Freshness sensing, smart labels & shelf-life prediction",
+    "description": "Biosensors, time-temperature labels, and NIR scanners measure how fresh food actually is \u2014 instead of relying on conservative printed dates \u2014 enabling dynamic expiry, first-expired-first-out routing, and fewer premature discards across the cold chain and at home.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Strella Biotech",
+      "role": "startup",
+      "what": "Ethylene biosensors in controlled-atmosphere storage that predict ripeness so packers open and ship the ripest rooms first.",
+      "signal": "$11.3M raised (latest $5.6M, Feb 2024; GV among investors); monitors a meaningful share of US apple storage",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20220607005258/en/Strella-Raises-$8-Million-to-Bring-Freshness-Data-to-the-Food-Supply-Chain"
+     },
+     {
+      "name": "Mimica",
+      "role": "startup",
+      "what": "Touch-based 'bumpy when spoiled' caps and labels whose gel decays at the same rate as the food, giving accurate tactile expiry.",
+      "signal": "UK startup; award-winning; pilots with dairy, juice, and meat brands",
+      "status": "operating",
+      "source": "https://www.mimicalab.com/"
+     },
+     {
+      "name": "Evigence",
+      "role": "startup",
+      "what": "Time-temperature freshness indicators printed on packs that visually show remaining real shelf life through the supply chain.",
+      "signal": "Deployed with major foodservice and CPG customers in US/EU",
+      "status": "operating",
+      "source": "https://www.evigence.com/"
+     },
+     {
+      "name": "OneThird",
+      "role": "startup",
+      "what": "Handheld/inline NIR scanners plus AI that predict remaining shelf life of avocados, berries, and tomatoes at DCs and stores.",
+      "signal": "Dutch startup working with major grocery distribution centers; venture/EU funded",
+      "status": "operating",
+      "source": "https://onethird.io/"
+     },
+     {
+      "name": "Tive",
+      "role": "scaleup",
+      "what": "Real-time multi-sensor shipment trackers and platform that catch cold-chain excursions before loads are lost.",
+      "signal": "Raised ~$82M total (Series B $54M, 2022); thousands of shipper customers",
+      "status": "operating",
+      "source": "https://www.tive.com/"
+     },
+     {
+      "name": "Sensitech",
+      "role": "incumbent",
+      "what": "Carrier-owned market leader in cold-chain monitoring (TempTale) used across global perishable logistics.",
+      "signal": "Decades-deployed incumbent within Carrier's $20B+ portfolio",
+      "status": "operating",
+      "source": "https://www.sensitech.com/"
+     },
+     {
+      "name": "DeltaTrak",
+      "role": "incumbent",
+      "what": "Long-standing supplier of temperature data loggers and FlashLink real-time trackers for produce and protein shippers.",
+      "signal": "30+ year incumbent across North American produce logistics",
+      "status": "operating",
+      "source": "https://www.deltatrak.com/"
+     }
+    ],
+    "white_space": "Adoption is throttled by static date-label regulation and by per-unit label costs that don't fit penny-margin packaged food, so most players stay pilot-scale point solutions; EU date-marking reform or retailer shrink mandates tying markdowns to measured freshness (pairing sensing with dynamic pricing engines like Wasteless) would crack the market open."
+   },
+   {
+    "name": "Insect bioconversion of food waste",
+    "description": "Black soldier fly larvae and mealworms eat food waste and processing byproducts and are harvested as protein for animal feed, pet food, and aquaculture plus frass fertilizer, valorizing streams unsuitable for human consumption.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Protix",
+      "role": "scaleup",
+      "what": "Operates the world's first industrial-scale black soldier fly facility (Bergen op Zoom, NL) producing feed and pet-food protein.",
+      "signal": "Strategic investment and US joint venture with Tyson Foods (2023) to build a larger US plant",
+      "status": "operating",
+      "source": "https://www.foodnavigator-usa.com/Article/2023/10/17/tyson-foods-expands-into-insect-protein-production-with-protix-partnership/"
+     },
+     {
+      "name": "InnovaFeed",
+      "role": "scaleup",
+      "what": "French BSF producer co-locating plants with grain processors (ADM in Decatur, IL) to use byproduct feedstock and waste heat.",
+      "signal": "Raised ~EUR 250M+ (Series D); cited as the sector's healthiest survivor due to staged scale-up",
+      "status": "operating",
+      "source": "https://techcrunch.com/2025/12/26/how-reality-crushed-ynsect-the-french-startup-that-had-raised-over-600m-for-insect-farming/"
+     },
+     {
+      "name": "Better Origin",
+      "role": "startup",
+      "what": "Containerized AI-run X1 insect mini-farms that convert food waste into larvae feed on-site at UK egg farms.",
+      "signal": "Deployed with Morrisons' egg supply chain; venture-backed (Fly Ventures et al.)",
+      "status": "operating",
+      "source": "https://betterorigin.co.uk/"
+     },
+     {
+      "name": "Goterra",
+      "role": "startup",
+      "what": "Australian robotic BSF modules ('MIBs') placed at supermarkets and waste sites to process food waste autonomously.",
+      "signal": "Contracts with Woolworths and Australian councils; venture-backed",
+      "status": "operating",
+      "source": "https://goterra.com.au/"
+     },
+     {
+      "name": "Entocycle",
+      "role": "startup",
+      "what": "Sells BSF breeding technology and turnkey farm design so waste companies can build their own insect bioconversion capacity.",
+      "signal": "London demonstration facility; UK government grant backing",
+      "status": "operating",
+      "source": "https://www.entocycle.com/"
+     },
+     {
+      "name": "Ynsect",
+      "role": "scaleup",
+      "what": "French mealworm pioneer that built a giant vertical insect 'farm of the future' (Amiens) for feed and food proteins.",
+      "signal": "Raised $600M+ but entered receivership Mar 2025 and judicial liquidation Dec 2025; flagship plant closed \u2014 only EUR 656k revenue in 2023 vs EUR 80M losses",
+      "status": "bankrupt-shutdown",
+      "source": "https://agfundernews.com/judicial-liquidation-for-ynsect-as-insect-farming-sector-struggles-to-become-competitive"
+     },
+     {
+      "name": "AgriProtein",
+      "role": "scaleup",
+      "what": "South African early mover feeding true mixed food waste to BSF at industrial scale for feed protein.",
+      "signal": "Raised ~$105M at ~$200M valuation, then collapsed (~2021) \u2014 variable waste substrate at scale proved unworkable",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.sciencedirect.com/science/article/pii/S235255092400191X"
+     }
+    ],
+    "white_space": "The two biggest players failed on unit economics \u2014 insect meal costs 2-10x fish/soy meal and EU/US feed rules bar most true post-consumer food waste as substrate, which strands the cheapest feedstock. Openings: small modular on-farm/at-store units that skip central logistics (Better Origin, Goterra), co-location with processors for clean byproduct streams (InnovaFeed), and regulatory change permitting former-foodstuffs substrates."
+   }
+  ]
+ }
+}

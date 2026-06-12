@@ -1,0 +1,639 @@
+{
+ "sector": "transport",
+ "bucket": "Battery Cells & Next-Gen Chemistries",
+ "census": {
+  "bucket": "Battery Cells & Next-Gen Chemistries",
+  "variations": [
+   {
+    "name": "Incumbent giga-scale cell makers",
+    "description": "Vertically integrated giants mass-produce lithium-ion EV cells (NMC and LFP) at tens-to-hundreds of GWh per year, driving the cost declines that make EVs competitive with combustion cars.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "CATL",
+      "role": "incumbent",
+      "what": "World's largest EV cell maker spanning LFP (Shenxing fast-charge), NMC (Qilin), sodium-ion and condensed-matter chemistries",
+      "signal": "39.2% global share of 1,187 GWh EV battery installs in 2025; only maker above 30%",
+      "status": "operating",
+      "source": "https://cnevpost.com/2026/02/04/global-ev-battery-market-share-2025/"
+     },
+     {
+      "name": "BYD FinDreams",
+      "role": "incumbent",
+      "what": "In-house cell arm of BYD producing Blade LFP cells for its own EVs and external customers (Tesla, Toyota)",
+      "signal": "16.4% global share in 2025; 194.8 GWh installed, up 27.7% YoY",
+      "status": "operating",
+      "source": "https://cnevpost.com/2026/02/04/global-ev-battery-market-share-2025/"
+     },
+     {
+      "name": "LG Energy Solution",
+      "role": "incumbent",
+      "what": "Largest non-Chinese cell maker; high-nickel pouch/cylindrical plus new LFP and LMR lines via US JVs (Ultium with GM, plants with Honda, Hyundai, Stellantis)",
+      "signal": "#3 globally; 12.8% YoY growth in 2025 though Korean makers' combined share fell to 16%",
+      "status": "operating",
+      "source": "https://www.electrive.com/2026/02/04/sne-research-catl-continues-to-dominate-global-battery-market/"
+     },
+     {
+      "name": "Panasonic Energy",
+      "role": "incumbent",
+      "what": "Tesla's longtime cylindrical-cell partner (2170, 4680) with Nevada and Kansas gigafactories",
+      "signal": "#7 globally with 3.7% share in 2025; De Soto, Kansas plant ramping",
+      "status": "operating",
+      "source": "https://cnevpost.com/2026/02/04/global-ev-battery-market-share-2025/"
+     },
+     {
+      "name": "Samsung SDI",
+      "role": "incumbent",
+      "what": "Prismatic NMC/NCA cells for BMW, Audi, Rivian and a Stellantis US JV (StarPlus), plus an all-solid-state pilot line",
+      "signal": "Top-10 globally; part of Korean trio whose combined 2025 share was 16%",
+      "status": "operating",
+      "source": "https://www.electrive.com/2026/02/04/sne-research-catl-continues-to-dominate-global-battery-market/"
+     },
+     {
+      "name": "SK On",
+      "role": "incumbent",
+      "what": "High-nickel pouch cells for Ford (BlueOval SK), Hyundai and VW; merged with SK trading/enmove units to shore up finances",
+      "signal": "Top-6 globally; multiple US JV plants started production 2024-2025",
+      "status": "operating",
+      "source": "https://www.electrive.com/2026/02/04/sne-research-catl-continues-to-dominate-global-battery-market/"
+     },
+     {
+      "name": "CALB",
+      "role": "incumbent",
+      "what": "China's #3 independent cell maker supplying LFP and NMC to GAC, Xpeng, Leapmotor and others",
+      "signal": "Top-5 globally by 2025 installs; HK-listed",
+      "status": "operating",
+      "source": "https://cnevpost.com/2026/02/04/global-ev-battery-market-share-2025/"
+     },
+     {
+      "name": "EVE Energy",
+      "role": "incumbent",
+      "what": "Chinese maker of large cylindrical (46-series) and LFP cells; technology partner (10% owner) of the US Amplify truck-cell JV",
+      "signal": "Top-10 globally; partner in $2-3B 21 GWh Mississippi plant",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20240701093920/en/Amplify-Cell-Technologies-Begins-Construction-of-Mississippi-Battery-Cell-Factory"
+     },
+     {
+      "name": "Gotion High-Tech",
+      "role": "incumbent",
+      "what": "VW-backed Chinese maker pushing LFP/LMFP innovation (Astroinno L600 LMFP cell) with US and Europe plant plans",
+      "signal": "Top-10 globally in 2025 installs; VW is largest shareholder",
+      "status": "operating",
+      "source": "https://carboncredits.com/china-now-controls-69-of-the-global-ev-battery-market-as-catl-and-byd-surge-in-2025/"
+     },
+     {
+      "name": "Sunwoda",
+      "role": "incumbent",
+      "what": "Chinese consumer-battery giant that broke into the EV top-10 with fast-charging LFP cells for Li Auto and others",
+      "signal": "Top-10 global EV battery maker in 2025, among the fastest-growing",
+      "status": "operating",
+      "source": "https://cnevpost.com/2026/02/04/global-ev-battery-market-share-2025/"
+     }
+    ]
+   },
+   {
+    "name": "Challenger & regional cell manufacturers",
+    "description": "New entrants and OEM-backed ventures build gigafactories outside the China-Korea-Japan oligopoly to localize EV cell supply in Europe and North America \u2014 a capital-intensive race where several flagship players have already failed.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Northvolt",
+      "role": "scaleup",
+      "what": "Europe's flagship independent cell maker (Northvolt Ett, Sweden) that raised ~$15B before collapsing under ramp-up and quality problems",
+      "signal": "Filed for bankruptcy in Sweden March 2025 \u2014 Sweden's largest-ever bankruptcy",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.globalconstructionreview.com/european-battery-champion-northvolt-files-for-bankruptcy/"
+     },
+     {
+      "name": "Lyten",
+      "role": "startup",
+      "what": "US lithium-sulfur developer that bought Northvolt's Swedish gigafactory and labs out of bankruptcy to run dual-track Li-ion and Li-S production",
+      "signal": "~$5B deal for Northvolt Ett + Labs (16 GWh capacity) closed 2025-26; production restart planned H2 2026; ~170 ex-Northvolt staff rehired",
+      "status": "operating",
+      "source": "https://www.eenewseurope.com/en/lyten-to-buy-northvolt-assets-out-of-bankruptcy/"
+     },
+     {
+      "name": "PowerCo (Volkswagen)",
+      "role": "incumbent",
+      "what": "VW's in-house cell company building a standardized 'unified cell' across plants in Salzgitter, Valencia and St. Thomas (Canada)",
+      "signal": "Launched production in Salzgitter in 2025 after VW wrote down its Northvolt stake",
+      "status": "operating",
+      "source": "https://www.eurofound.europa.eu/en/publications/all/battery-manufacturing-in-the-eu-from-hope-to-crisis-to-hope-again"
+     },
+     {
+      "name": "ACC (Automotive Cells Company)",
+      "role": "scaleup",
+      "what": "Stellantis-Mercedes-TotalEnergies JV producing NMC cells in Douvrin, France, now pivoting toward cheaper chemistries",
+      "signal": "Europe's #2 cell maker; halted construction of German and Italian gigafactories June 2024 amid slowing EV demand",
+      "status": "operating",
+      "source": "https://www.eurofound.europa.eu/en/publications/all/battery-manufacturing-in-the-eu-from-hope-to-crisis-to-hope-again"
+     },
+     {
+      "name": "Verkor",
+      "role": "scaleup",
+      "what": "French cell maker backed by Renault producing high-nickel cells for Renault's premium EVs",
+      "signal": "Raised ~$2.15B; Dunkirk gigafactory began operations in 2025",
+      "status": "operating",
+      "source": "https://fortune.com/europe/2025/08/05/what-can-northvolts-failure-can-teach-us-about-europes-competitive-future/"
+     },
+     {
+      "name": "AESC",
+      "role": "incumbent",
+      "what": "Envision-owned former Nissan battery unit running plants in Japan, UK, Tennessee and building in Kentucky for BMW/Mercedes/Nissan",
+      "signal": "Tennessee operating and Kentucky on track, but paused its $1.6B South Carolina plant June 2025 citing policy and market uncertainty",
+      "status": "operating",
+      "source": "https://www.electrive.com/2025/06/06/aesc-halts-battery-factory-construction-in-south-carolina/"
+     },
+     {
+      "name": "Amplify Cell Technologies",
+      "role": "scaleup",
+      "what": "Accelera (Cummins)-Daimler Truck-PACCAR JV building a 21 GWh LFP cell plant in Mississippi for commercial trucks, with EVE Energy as technology partner",
+      "signal": "$2-3B committed; production pushed from 2027 to 2028 on weak electric-truck demand",
+      "status": "operating",
+      "source": "https://www.ttnews.com/articles/amplify-delays-battery-2028"
+     },
+     {
+      "name": "Britishvolt",
+      "role": "startup",
+      "what": "UK gigafactory venture that planned a 38 GWh plant in Blyth but never reached production funding",
+      "signal": "Collapsed into administration January 2023; successor rescue attempts failed",
+      "status": "bankrupt-shutdown",
+      "source": "https://fortune.com/europe/2025/08/05/what-can-northvolts-failure-can-teach-us-about-europes-competitive-future/"
+     },
+     {
+      "name": "FREYR Battery (now T1 Energy)",
+      "role": "startup",
+      "what": "Norwegian-US venture that licensed 24M semi-solid cell technology, then abandoned battery manufacturing entirely",
+      "signal": "Exited cells and rebranded as solar manufacturer T1 Energy in early 2025; Georgia battery plans dropped",
+      "status": "operating",
+      "source": "https://www.energy-storage.news/us-battery-gigafactories-face-delays-and-cancellations-amid-market-uncertainty/"
+     }
+    ],
+    "white_space": "Northvolt, Britishvolt and FREYR show that standalone Western cell startups rarely survive the capital intensity and Chinese cost curve; the openings that remain are OEM-anchored ventures with guaranteed offtake (PowerCo, Amplify) and distressed-asset plays like Lyten's Northvolt takeover."
+   },
+   {
+    "name": "Solid-state batteries",
+    "description": "Replacing the flammable liquid electrolyte with a solid (sulfide, oxide-ceramic or polymer) promises higher energy density and safety, and is now moving from lab to B-samples in demo vehicles and first giga-level plants.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "QuantumScape",
+      "role": "startup",
+      "what": "Anode-free lithium-metal cell with ceramic separator; licensing model with VW's PowerCo rather than self-manufacturing",
+      "signal": "Shipped QSE-5 B1 samples 2025; higher-throughput Cobra separator process and 'Eagle Line' inaugurated Feb 2026",
+      "status": "operating",
+      "source": "https://eepower.com/tech-insights/solid-state-batteries-race-to-mass-production/"
+     },
+     {
+      "name": "Solid Power",
+      "role": "startup",
+      "what": "Sulfide solid-electrolyte developer selling electrolyte material and licensing cell designs (BMW, SK On)",
+      "signal": "BMW i7 demo vehicle running its cells; joint evaluation agreement with Samsung SDI + BMW; electrolyte pilot line commissioning 2026",
+      "status": "operating",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001844862/000110465926019117/tm266994d1_ex99-1.htm"
+     },
+     {
+      "name": "Factorial Energy",
+      "role": "startup",
+      "what": "Quasi-solid FEST and all-solid-state Solstice cells designed to run on existing lithium-ion production equipment",
+      "signal": "Backed by Mercedes-Benz, Stellantis and Hyundai; Mercedes EQS road-tested its solid-state pack in 2025",
+      "status": "operating",
+      "source": "https://eepower.com/tech-insights/solid-state-batteries-race-to-mass-production/"
+     },
+     {
+      "name": "ProLogium",
+      "role": "scaleup",
+      "what": "Taiwanese maker of lithium-ceramic oxide cells running the world's first giga-level solid-state factory (Taoyuan) and building a \u20ac5.2B Dunkirk plant",
+      "signal": "Dunkirk groundbreaking done, mass production targeted 2028 ramping to 4 GWh by 2029; unveiled 'superfluidized' all-inorganic cell at CES 2026",
+      "status": "operating",
+      "source": "https://prologium.com/prologium-breaks-ground-on-dunkirk-gigafactory-in-france/"
+     },
+     {
+      "name": "Toyota",
+      "role": "incumbent",
+      "what": "Largest corporate solid-state program (with Idemitsu on sulfide electrolyte), targeting first production vehicles around 2027-28",
+      "signal": "Re-confirmed 2027 rollout target on its battery roadmap",
+      "status": "operating",
+      "source": "https://eepower.com/tech-insights/solid-state-batteries-race-to-mass-production/"
+     },
+     {
+      "name": "Samsung SDI",
+      "role": "incumbent",
+      "what": "Sulfide all-solid-state (ASB) pilot line in Suwon producing samples for automakers",
+      "signal": "Targeting 2027 mass production of all-solid-state cells",
+      "status": "operating",
+      "source": "https://eepower.com/tech-insights/solid-state-batteries-race-to-mass-production/"
+     },
+     {
+      "name": "WeLion New Energy",
+      "role": "scaleup",
+      "what": "Chinese maker of semi-solid (hybrid electrolyte) cells already shipping in NIO's 150 kWh swappable pack",
+      "signal": "Semi-solid packs in commercial use with NIO since 2024 \u2014 the first road-going 'solid-state-adjacent' EV cells",
+      "status": "operating",
+      "source": "https://sustainableskies.org/even-more-solid-state-batteries/"
+     },
+     {
+      "name": "Blue Solutions (Bollor\u00e9)",
+      "role": "incumbent",
+      "what": "Only company with years of commercial polymer solid-state cells in service (Mercedes eCitaro buses), now developing a gen-4 EV cell",
+      "signal": "Decade of fleet deployment in buses and car-sharing; gen-4 plant planned in France",
+      "status": "operating",
+      "source": "https://en.wikipedia.org/wiki/Solid-state_battery"
+     }
+    ]
+   },
+   {
+    "name": "Lithium-metal & anode-free cells",
+    "description": "Replacing the graphite anode with thin lithium metal \u2014 or no anode at all \u2014 can boost energy density 50-100%, but dendrite growth and manufacturing yield have killed or redirected most ventures.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "SES AI",
+      "role": "startup",
+      "what": "MIT spinout whose Li-metal EV A-sample program morphed into an AI materials-discovery platform (Molecular Universe) plus drone and ESS battery sales",
+      "signal": "NYSE-listed; pivoted factories to drones; ~10x sales growth with 2025 revenue guidance of $15-25M \u2014 EV li-metal effectively deprioritized",
+      "status": "operating",
+      "source": "https://www.stocktitan.net/news/SES/ses-ai-reports-fourth-quarter-and-full-year-2025-k7p7atr3lj0a.html"
+     },
+     {
+      "name": "Ion Storage Systems",
+      "role": "startup",
+      "what": "Anode-free, compression-free ceramic solid-state cell using a 3D garnet electrolyte structure (University of Maryland spinout)",
+      "signal": "First multilayer cells off semi-automated Beltsville line March 2025; $20M ARPA-E SCALEUP award; first customer qualification with production starting 2025",
+      "status": "operating",
+      "source": "https://chargedevs.com/newswire/ion-storage-systems-qualifies-its-solid-state-battery-cells-with-a-customer-production-to-start-this-year/"
+     },
+     {
+      "name": "Pure Lithium",
+      "role": "startup",
+      "what": "Vertically integrated lithium-metal-on-LFP cell with a brine-to-anode extraction process that skips conventional lithium refining",
+      "signal": "150+ patents/applications; claims Gen-1 Li-LFP cell with 2x LFP energy density and 6,500+ cycles",
+      "status": "operating",
+      "source": "https://purelithium.io/"
+     },
+     {
+      "name": "Sion Power",
+      "role": "startup",
+      "what": "Arizona developer of large-format Licerion lithium-metal cells for EV and defense applications",
+      "signal": "Long-running program (ex Li-S pioneer); current commercial traction unclear as of 2026",
+      "status": "uncertain",
+      "source": "https://sionpower.com/"
+     }
+    ],
+    "white_space": "This space is thinning, not crowding: Northvolt shut its Cuberg li-metal unit (2024) and SES pivoted to software/drones, evidence that dendrite suppression plus manufacturable yield remains unsolved economics; the opening is defense- and aviation-funded niches where $/kWh matters less than Wh/kg, and anode-free architectures that piggyback on solid-state separators (Ion Storage, QuantumScape)."
+   },
+   {
+    "name": "Silicon-anode cell makers",
+    "description": "Swapping graphite for silicon-dominant anodes stores far more lithium per gram, yielding 20-80% higher energy density and faster charge \u2014 first commercialized in drones, defense and wearables where buyers pay premiums.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Amprius Technologies",
+      "role": "startup",
+      "what": "Highest-energy-density commercial cells (SiCore/SiMaxx, up to 450-500 Wh/kg) built on a silicon nanowire/silicon-dominant platform for UAVs, e-aviation and defense",
+      "signal": "NYSE-listed; $15M UAV purchase order Feb 2025; GWh-scale contract-manufacturing network; 450 Wh/kg SiCore launched May 2025",
+      "status": "operating",
+      "source": "https://dronelife.com/2025/05/05/amprius-launches-450-wh-kg-sicore-lithium-ion-battery-targeting-aviation-and-defense/"
+     },
+     {
+      "name": "Enovix",
+      "role": "startup",
+      "what": "3D-stacked cell architecture with 100% active silicon anode, ramping in Malaysia (Fab2) for smartphones/wearables with EV as a later market",
+      "signal": "AI-1 smartphone cell (900+ Wh/L) in commercial qualification; raised $232M via warrants in 2025 to accelerate Fab2",
+      "status": "operating",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001828318/000182831825000293/envx8-kxq3x90525exh991pr.htm"
+     },
+     {
+      "name": "Ionblox",
+      "role": "startup",
+      "what": "Pre-lithiated silicon-oxide pouch cells delivering both high power and fast charge, aimed at eVTOL aircraft and extreme-fast-charge EVs",
+      "signal": "Series B expanded to $32M with Temasek, Applied Ventures and Lilium; ~$60M total raised",
+      "status": "operating",
+      "source": "https://www.evcandi.com/news/ionblox-receives-us32m-funding-high-power-battery-cells"
+     },
+     {
+      "name": "NanoGraf",
+      "role": "startup",
+      "what": "Chicago maker of silicon-anode 18650 cells (M38, 3.8 Ah) for US military radios and equipment, onshoring the full cell supply chain",
+      "signal": "~$45M cumulative DoD funding incl. $15M Army contract; tens of thousands of M38 cells produced 2024, scaling to hundreds of thousands in 2025; Thales design win",
+      "status": "operating",
+      "source": "https://www.batterytechonline.com/battery-manufacturing/nanograf-s-silicon-anode-technology-powers-critical-defense-equipment"
+     }
+    ],
+    "white_space": "Full silicon-anode cells at EV scale remain open territory \u2014 current players profitably serve drones/defense/consumer niches while EV silicon arrives mainly as anode-material blends from suppliers (Sila, Group14, in the Components bucket); whoever cracks automotive-grade cycle life and GWh cost first inherits a large premium-EV and eVTOL market."
+   },
+   {
+    "name": "Lithium-sulfur cells",
+    "description": "Sulfur cathodes are dirt-cheap, abundant and free of nickel/cobalt, with 2-3x theoretical energy density of lithium-ion, but polysulfide shuttling has historically destroyed cycle life \u2014 a physics problem several startups now claim to have engineered around.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Lyten",
+      "role": "startup",
+      "what": "3D-graphene-caged sulfur cathode Li-S cells; now also owns Northvolt's Swedish plants for dual lithium-ion/Li-S production",
+      "signal": "A-samples shipped to US/EU automakers from San Jose pilot line; >$1B Reno gigafactory (10 GWh) planned with phase 1 targeted 2027; Stellantis strategic investor",
+      "status": "operating",
+      "source": "https://cleantechnica.com/2025/08/07/us-startup-lyten-is-still-determined-to-make-a-lithium-sulfur-ev-battery-happen/"
+     },
+     {
+      "name": "Zeta Energy",
+      "role": "startup",
+      "what": "Houston startup pairing a sulfurized-carbon cathode with a lithium-metal anode, claiming ~3x energy density at half the cost of li-ion",
+      "signal": "Joint development agreement with Stellantis (Dec 2024) targeting EV application by 2030",
+      "status": "operating",
+      "source": "https://www.electrive.com/2024/12/06/stellantis-and-zeta-energy-develop-lithium-sulfur-batteries/"
+     },
+     {
+      "name": "Theion",
+      "role": "startup",
+      "what": "Berlin startup using monoclinic sulfur crystal cathodes grown directly, targeting 3x energy density at a fraction of cell cost",
+      "signal": "Founded 2020; venture-stage with aerospace/mobility sample ambitions",
+      "status": "operating",
+      "source": "https://battery-tech.net/lithium-sulfur-battery-companies/"
+     },
+     {
+      "name": "Li-S Energy",
+      "role": "startup",
+      "what": "ASX-listed Australian developer of semi-solid-state Li-S cells with boron-nitride nanotube stabilization, focused on drones and defense aviation",
+      "signal": "ASX:LIS; 45 Ah cells produced on its Geelong pilot line",
+      "status": "operating",
+      "source": "https://battery-tech.net/lithium-sulfur-battery-companies/"
+     },
+     {
+      "name": "OXIS Energy",
+      "role": "startup",
+      "what": "UK Li-S pioneer with aviation and marine programs that ran out of cash before commercialization",
+      "signal": "Entered administration May 2021; IP sold (largely to Gelion) \u2014 the sector's cautionary tale",
+      "status": "bankrupt-shutdown",
+      "source": "https://en.wikipedia.org/wiki/Lithium%E2%80%93sulfur_battery"
+     },
+     {
+      "name": "Stellantis",
+      "role": "incumbent",
+      "what": "Only major automaker betting on Li-S twice over \u2014 strategic investor in Lyten (2023) and JDA partner of Zeta Energy",
+      "signal": "Targets Li-S EV batteries around 2030 to cut pack cost and weight",
+      "status": "operating",
+      "source": "https://sustainableskies.org/stellantis-zeta-and-lytens-lithium-sulfur-battery/"
+     }
+    ],
+    "white_space": "Barely a handful of credible players because polysulfide shuttle and lithium-metal anodes compound two unsolved problems; OXIS's collapse and Lyten's pivot toward conventional li-ion (via Northvolt assets) show the funding gap \u2014 the opening is weight-critical aviation, drone and defense markets that tolerate 200-500 cycle lives while cycle life improves."
+   },
+   {
+    "name": "Sodium-ion for mobility",
+    "description": "Sodium-ion cells swap lithium for abundant sodium, promising lower cost, no lithium/cobalt/copper exposure and excellent cold-weather and fast-charge behavior at ~10-20% lower energy density \u2014 now entering first mass production for cars in China.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "CATL",
+      "role": "incumbent",
+      "what": "Naxtra sodium-ion brand (175 Wh/kg, -40\u00b0C operation) plus hybrid sodium-lithium packs via dual-power architecture",
+      "signal": "Naxtra launched April 2025, mass production from Dec 2025; first sodium EV (Changan Nevo A06) due mid-2026",
+      "status": "operating",
+      "source": "https://carnewschina.com/2025/12/28/catl-confirms-2026-large-scale-sodium-ion-battery-deployment-in-multiple-sectors/"
+     },
+     {
+      "name": "HiNa Battery",
+      "role": "startup",
+      "what": "Chinese Academy of Sciences spinout that put sodium-ion cells in the first test EV (Sehol E10X) and supplies low-speed vehicles and ESS",
+      "signal": "Small-batch production since 2023; among China's sodium-ion leaders",
+      "status": "operating",
+      "source": "https://www.blackridgeresearch.com/blog/list-of-global-top-sodium-na-ion-sib-battery-manufacturers-makers-companies-producers-suppliers-in-the-world"
+     },
+     {
+      "name": "BYD",
+      "role": "incumbent",
+      "what": "Building a dedicated sodium-ion plant (Xuzhou) targeting small EVs and micromobility alongside its LFP empire",
+      "signal": "Confirmed sodium-ion development; deployment expected in select models behind CATL's timeline",
+      "status": "operating",
+      "source": "https://www.blackridgeresearch.com/blog/list-of-global-top-sodium-na-ion-sib-battery-manufacturers-makers-companies-producers-suppliers-in-the-world"
+     },
+     {
+      "name": "Faradion",
+      "role": "startup",
+      "what": "UK sodium-ion pioneer with layered-oxide cathode chemistry now owned by Reliance Industries for the Indian market",
+      "signal": "Acquired by Reliance Industries 2022 (~\u00a3100M); no automotive-scale production announced",
+      "status": "acquired",
+      "source": "https://en.wikipedia.org/wiki/Sodium-ion_battery"
+     },
+     {
+      "name": "Tiamat Energy",
+      "role": "startup",
+      "what": "French CNRS spinout making high-power polyanionic sodium-ion cells (power tools first, mobility next) with a planned Amiens gigafactory",
+      "signal": "Backed by Stellantis Ventures, Arkema, MBDA; third funding round closed June 2025; 5 GWh plant construction starting late 2025, output ~2027",
+      "status": "operating",
+      "source": "https://www.tiamat-energy.com/"
+     },
+     {
+      "name": "Farasis Energy",
+      "role": "incumbent",
+      "what": "Chinese pouch-cell maker that put first-gen sodium-ion cells into JMEV city EVs and is shipping gen-2",
+      "signal": "Sodium-ion EVs on Chinese roads since 2023; gen-2 cells at ~160 Wh/kg",
+      "status": "operating",
+      "source": "https://www.blackridgeresearch.com/blog/list-of-global-top-sodium-na-ion-sib-battery-manufacturers-makers-companies-producers-suppliers-in-the-world"
+     },
+     {
+      "name": "Natron Energy",
+      "role": "startup",
+      "what": "US Prussian-blue sodium-ion maker (industrial/data-center power, adjacent to mobility) that could not bridge to scale",
+      "signal": "Ceased all operations Sept 2025; 95 laid off; $1.4B North Carolina gigafactory cancelled",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.manufacturingdive.com/news/sodium-ion-battery-natron-energy-shutters-halts-NC-factory-plans/759479/"
+     }
+    ],
+    "white_space": "Outside China the field is nearly empty \u2014 Natron's liquidation and Faradion's quiet absorption into Reliance show sodium-ion's cost advantage only materializes at giga-scale when lithium prices are high; the opening is Western low-cost regional EVs, two/three-wheelers and cold-climate fleets if anyone can finance a plant before CATL's exports set the price floor."
+   },
+   {
+    "name": "LFP/LMFP & manganese-rich cell innovation",
+    "description": "Iron- and manganese-based cathodes trade some energy density for major cost, safety and longevity gains; adding manganese (LMFP, LMR) claws back 15-33% energy density, making this the chemistry battleground for mass-market EVs.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "CATL",
+      "role": "incumbent",
+      "what": "Shenxing superfast-charge LFP family (4C, later 800 km/12C peak versions) mass-produced for dozens of Chinese models",
+      "signal": "Shenxing in volume production since 2024 across major Chinese OEMs",
+      "status": "operating",
+      "source": "https://www.batterytechonline.com/lithium-ion-batteries/latest-lfp-battery-projects-driving-safety-sustainability-and-savings"
+     },
+     {
+      "name": "BYD FinDreams",
+      "role": "incumbent",
+      "what": "Blade 2.0 LFP cells and the Super e-Platform claiming 10C megawatt 'flash charging' (~400 km in 5 minutes)",
+      "signal": "1,000 kW flash-charge platform unveiled March 2025, rolling out on Han L/Tang L",
+      "status": "operating",
+      "source": "https://www.batterytechonline.com/lithium-ion-batteries/latest-lfp-battery-projects-driving-safety-sustainability-and-savings"
+     },
+     {
+      "name": "Gotion High-Tech",
+      "role": "incumbent",
+      "what": "First mover in LMFP with the Astroinno L600 cell (240 Wh/kg, ~1000 km pack range) headed for series production",
+      "signal": "Astroinno LMFP validated and slated for volume production; VW-backed",
+      "status": "operating",
+      "source": "https://en.gotion.com.cn/"
+     },
+     {
+      "name": "Ultium Cells (GM + LG Energy Solution)",
+      "role": "incumbent",
+      "what": "First Western program to commercialize lithium-manganese-rich (LMR) prismatic cells \u2014 33% higher energy density than best LFP at comparable cost \u2014 for electric trucks/SUVs",
+      "signal": "Pre-production at LG facility late 2027, US commercial production 2028",
+      "status": "operating",
+      "source": "https://news.gm.com/home.detail.html/Pages/news/us/en/2025/may/0513-GM-LG-Energy-Solution-pioneer-LMR-battery-cell-technology.html"
+     },
+     {
+      "name": "Ford",
+      "role": "incumbent",
+      "what": "Ion Park team developing its own LMR chemistry and licensing CATL LFP tech for the BlueOval Battery Park Michigan plant",
+      "signal": "Declared intent to put LMR cells in EVs this decade; Michigan LFP plant ramping 2026",
+      "status": "operating",
+      "source": "https://www.techbrew.com/stories/2025/05/15/gm-lg-energy-solution-emerging-battery-cell-chemistry"
+     },
+     {
+      "name": "Our Next Energy (ONE)",
+      "role": "startup",
+      "what": "Michigan startup behind Aries LFP packs and the Gemini dual-chemistry (LFP + anode-free range extender) architecture",
+      "signal": "Lost key EV contract; 45% workforce cut Jan 2026; abandoned automotive to focus on rail, defense and grid storage with $35M in new contracts",
+      "status": "operating",
+      "source": "https://www.autonews.com/technology/an-our-next-energy-abandons-auto-batteries-rail-and-defense-0108/"
+     },
+     {
+      "name": "Integrals Power",
+      "role": "startup",
+      "what": "UK developer of high-manganese (up to 80% Mn) LMFP cathode materials and prototype cells for automotive customers",
+      "signal": "Seed/early-stage; supplying LMFP samples to OEM and cell-maker evaluations",
+      "status": "operating",
+      "source": "https://integralspower.com/"
+     }
+    ],
+    "white_space": "Chinese incumbents own LFP innovation end-to-end; the Western gap is stark \u2014 ONE's retreat from automotive leaves GM/LG's 2028 LMR program as the main non-Chinese bet, so an opening exists for US/EU LFP-LMFP cell capacity insulated by tariffs and defense/rail demand rather than head-on EV price competition."
+   },
+   {
+    "name": "Extreme-fast-charge & niobium/LTO cells",
+    "description": "Niobium- and titanium-oxide anodes (and silicon-dominant XFC designs) charge in under 10 minutes and survive tens of thousands of cycles, targeting vehicles and machines where uptime beats energy density.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "StoreDot",
+      "role": "startup",
+      "what": "Israeli silicon-dominant '100in5' XFC cells (100 miles in 5 minutes), with prismatic samples produced with Flex|N|Gate and EVE Energy as manufacturing partner",
+      "signal": "15 OEM test programs incl. 5 of top-10 automakers; Andretti SPAC merger signed Dec 2025 then cancelled in 2026 over a $30M cash shortfall \u2014 reportedly months of runway left",
+      "status": "uncertain",
+      "source": "https://en.wikipedia.org/wiki/StoreDot"
+     },
+     {
+      "name": "Nyobolt",
+      "role": "startup",
+      "what": "Cambridge (UK) niobium-tungsten-oxide anode cells charging in under 5 minutes with very long cycle life, first commercialized in warehouse robotics",
+      "signal": "$60M Series C led by Symbotic at ~$1B valuation (2025); ~$160M total raised; EV demonstrator charged 10-80% in 4m37s",
+      "status": "operating",
+      "source": "https://techfundingnews.com/nyobolt-60m-series-c-1b-valuation-symbotic-battery-tech/"
+     },
+     {
+      "name": "Echion Technologies",
+      "role": "startup",
+      "what": "Cambridge maker of XNO niobium-oxide anode materials that drop into partner cells for 6-minute-charge mining trucks, buses and industrial EVs",
+      "signal": "GWh-scale XNO supply partnership with niobium giant CBMM; commercial cells shipping via partners",
+      "status": "operating",
+      "source": "https://echiontech.com/"
+     },
+     {
+      "name": "Toshiba",
+      "role": "incumbent",
+      "what": "SCiB lithium-titanate (LTO) cells with 20,000+ cycle life powering buses, trains, ships and grid buffers for nearly two decades; next-gen NTO (niobium-titanium-oxide) cell with CBMM/Sojitz",
+      "signal": "SCiB commercially deployed since 2008 across transport fleets; NTO samples demonstrated",
+      "status": "operating",
+      "source": "https://www.global.toshiba/ww/products-solutions/battery/scib.html"
+     },
+     {
+      "name": "Microvast",
+      "role": "scaleup",
+      "what": "Fast-charging cell and pack maker for commercial vehicles (buses, trucks, port equipment) with plants in China, Germany and Tennessee",
+      "signal": "NASDAQ-listed; thousands of commercial fleets equipped; >$300M annual revenue scale",
+      "status": "operating",
+      "source": "https://microvast.com/"
+     }
+    ],
+    "white_space": "Standalone XFC startups are being squeezed from above \u2014 CATL's 4C-6C Shenxing and BYD's 10C flash-charge LFP now ship at giga-scale, which is exactly why StoreDot is on the brink; the surviving opening is high-cycle-count niche duty cycles (robotics, mining, ports, charging buffers) where niobium/LTO chemistry's 10x cycle life justifies its $/kWh premium, as Nyobolt and Echion are proving."
+   },
+   {
+    "name": "High-power specialty cells for e-aviation & performance",
+    "description": "Electric aircraft, eVTOLs and motorsport need cells that discharge at 10-20C (and recharge between flights) without overheating \u2014 a low-volume, high-margin niche dominated by one Taiwanese supplier after the leading startup died.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Molicel (E-One Moli Energy)",
+      "role": "incumbent",
+      "what": "Taiwan Cement subsidiary whose P45B/P50B/P60 21700 cells (up to 100 A continuous, 250-300 Wh/kg) are the de facto standard for eVTOL, motorsport and high-end drones",
+      "signal": "P60 released 2025; supplies multiple eVTOL and electric-aviation programs (e.g. Dovetail Electric Aviation); new Kaohsiung capacity online",
+      "status": "operating",
+      "source": "https://www.batterydesign.net/molicels-21700-high-power-roadmap/"
+     },
+     {
+      "name": "Cuberg",
+      "role": "startup",
+      "what": "Berkeley lithium-metal cell startup focused on aviation, acquired by Northvolt in 2021 as its advanced-technology arm",
+      "signal": "Shut down October 2024 (196 laid off) as Northvolt retrenched; li-metal R&D moved to Sweden and died with Northvolt's bankruptcy",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.pv-magazine.com/2024/08/21/northvolt-closes-cubergs-ops-shifts-lithium-metal-battery-rd-to-sweden/"
+     },
+     {
+      "name": "Amprius Technologies",
+      "role": "startup",
+      "what": "Silicon-anode cells with the highest specific energy in flight use \u2014 powering HAPS (high-altitude pseudo-satellites), military UAVs and eVTOL prototypes",
+      "signal": "Airbus Zephyr heritage; $15M UAV order 2025; SiCore 450 Wh/kg launched for aviation/defense",
+      "status": "operating",
+      "source": "https://dronelife.com/2025/05/05/amprius-launches-450-wh-kg-sicore-lithium-ion-battery-targeting-aviation-and-defense/"
+     },
+     {
+      "name": "EaglePicher Technologies",
+      "role": "incumbent",
+      "what": "US defense/aerospace battery house (Missouri) building qualified high-power and thermal cells for missiles, aircraft and space programs",
+      "signal": "Decades of DoD/NASA flight heritage; expanding lithium-ion aviation lines",
+      "status": "operating",
+      "source": "https://www.eaglepicher.com/"
+     },
+     {
+      "name": "Saft (TotalEnergies)",
+      "role": "incumbent",
+      "what": "French specialty-cell maker supplying certified high-power lithium cells for aviation, satellites, rail and defense",
+      "signal": "Cells flying on commercial aircraft (A350 backup), satellites and rail fleets worldwide",
+      "status": "operating",
+      "source": "https://www.saftbatteries.com/"
+     }
+    ],
+    "white_space": "Cuberg's shutdown and the insolvency of anchor customers like Lilium left e-aviation cell supply concentrated in Molicel; aerospace certification costs and tiny volumes deter giga-scale incumbents, so the opening is defense- and certification-funded specialty lines (the Amprius/NanoGraf playbook) selling Wh/kg and C-rate at 5-10x automotive cell prices."
+   }
+  ],
+  "sources": [
+   "https://cnevpost.com/2026/02/04/global-ev-battery-market-share-2025/",
+   "https://www.electrive.com/2026/02/04/sne-research-catl-continues-to-dominate-global-battery-market/",
+   "https://www.eurofound.europa.eu/en/publications/all/battery-manufacturing-in-the-eu-from-hope-to-crisis-to-hope-again",
+   "https://fortune.com/europe/2025/08/05/what-can-northvolts-failure-can-teach-us-about-europes-competitive-future/",
+   "https://www.eenewseurope.com/en/lyten-to-buy-northvolt-assets-out-of-bankruptcy/",
+   "https://www.electrive.com/2025/06/06/aesc-halts-battery-factory-construction-in-south-carolina/",
+   "https://www.ttnews.com/articles/amplify-delays-battery-2028",
+   "https://eepower.com/tech-insights/solid-state-batteries-race-to-mass-production/",
+   "https://www.sec.gov/Archives/edgar/data/0001844862/000110465926019117/tm266994d1_ex99-1.htm",
+   "https://prologium.com/prologium-breaks-ground-on-dunkirk-gigafactory-in-france/",
+   "https://www.stocktitan.net/news/SES/ses-ai-reports-fourth-quarter-and-full-year-2025-k7p7atr3lj0a.html",
+   "https://chargedevs.com/newswire/ion-storage-systems-qualifies-its-solid-state-battery-cells-with-a-customer-production-to-start-this-year/",
+   "https://dronelife.com/2025/05/05/amprius-launches-450-wh-kg-sicore-lithium-ion-battery-targeting-aviation-and-defense/",
+   "https://www.sec.gov/Archives/edgar/data/0001828318/000182831825000293/envx8-kxq3x90525exh991pr.htm",
+   "https://www.evcandi.com/news/ionblox-receives-us32m-funding-high-power-battery-cells",
+   "https://www.batterytechonline.com/battery-manufacturing/nanograf-s-silicon-anode-technology-powers-critical-defense-equipment",
+   "https://cleantechnica.com/2025/08/07/us-startup-lyten-is-still-determined-to-make-a-lithium-sulfur-ev-battery-happen/",
+   "https://www.electrive.com/2024/12/06/stellantis-and-zeta-energy-develop-lithium-sulfur-batteries/",
+   "https://battery-tech.net/lithium-sulfur-battery-companies/",
+   "https://carnewschina.com/2025/12/28/catl-confirms-2026-large-scale-sodium-ion-battery-deployment-in-multiple-sectors/",
+   "https://www.blackridgeresearch.com/blog/list-of-global-top-sodium-na-ion-sib-battery-manufacturers-makers-companies-producers-suppliers-in-the-world",
+   "https://www.manufacturingdive.com/news/sodium-ion-battery-natron-energy-shutters-halts-NC-factory-plans/759479/",
+   "https://www.tiamat-energy.com/",
+   "https://www.autonews.com/technology/an-our-next-energy-abandons-auto-batteries-rail-and-defense-0108/",
+   "https://news.gm.com/home.detail.html/Pages/news/us/en/2025/may/0513-GM-LG-Energy-Solution-pioneer-LMR-battery-cell-technology.html",
+   "https://en.wikipedia.org/wiki/StoreDot",
+   "https://techfundingnews.com/nyobolt-60m-series-c-1b-valuation-symbotic-battery-tech/",
+   "https://www.pv-magazine.com/2024/08/21/northvolt-closes-cubergs-ops-shifts-lithium-metal-battery-rd-to-sweden/",
+   "https://www.batterydesign.net/molicels-21700-high-power-roadmap/",
+   "https://www.globalconstructionreview.com/european-battery-champion-northvolt-files-for-bankruptcy/"
+  ]
+ }
+}

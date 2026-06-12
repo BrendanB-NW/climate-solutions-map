@@ -1,0 +1,456 @@
+{
+ "sector": "industry",
+ "bucket": "Green Ammonia & Fertilizers",
+ "census": {
+  "bucket": "Green Ammonia & Fertilizers",
+  "variations": [
+   {
+    "name": "Gigascale green ammonia (electrolytic H2 + Haber-Bosch)",
+    "description": "Couples large renewable-powered water electrolysis to conventional Haber-Bosch synthesis to make fossil-free ammonia at million-tonne scale for fertilizer, shipping fuel, and hydrogen export, decarbonizing the single largest chemical CO2 source.",
+    "maturity": "demonstration",
+    "white_space": "Economics, not physics: green ammonia lands at roughly 2-3x grey cost, so projects live or die on subsidized offtake and dedicated shipping. A wave of 2025-26 FID failures (BP exiting AREH, Fortescue abandoning Queensland, Murchison's shipping deal collapsing) shows the bottleneck is bankable long-term buyers and logistics, not technology. Opening: aggregated demand/offtake vehicles (H2Global-style auctions) and merchant import terminals that de-risk the buyer side.",
+    "companies": [
+     {
+      "name": "NEOM Green Hydrogen Company (ACWA Power / Air Products / NEOM)",
+      "role": "scaleup",
+      "what": "Building the world's largest single-site green ammonia plant (1.2 Mtpa) on ~4 GW of solar+wind+storage with thyssenkrupp electrolyzers; Air Products is exclusive offtaker.",
+      "signal": "~$8.4B financed; under construction, commissioning slipped from 2025 to 2027",
+      "status": "operating",
+      "source": "https://acwapower.com/en/projects/neom-green-hydrogen-project/"
+     },
+     {
+      "name": "AM Green (Greenko)",
+      "role": "scaleup",
+      "what": "Retrofitting India's Nagarjuna/Kakinada fertilizer complex with electrolytic H2/ammonia backed by pumped-hydro-firmed renewables; 1 Mtpa phase one.",
+      "signal": "FID reached on first 1 Mtpa; Uniper offtake up to 500k tpy + Yara/Keppel; first shipments now targeted 2028",
+      "status": "operating",
+      "source": "https://ammoniaenergy.org/articles/am-green-production-nears-at-indias-first-renewable-ammonia-mega-project/"
+     },
+     {
+      "name": "ACME Group",
+      "role": "scaleup",
+      "what": "Developing green ammonia in India (Tamil Nadu) and Oman for export and domestic fertilizer auctions.",
+      "signal": "Won ~370k tpy of India's fertilizer-producer auction volume; secured ~INR 40B for Oman; Yara offtake 100k tpa from Oman phase 1 (start 2027)",
+      "status": "operating",
+      "source": "https://www.mercomindia.com/acme-secures-%E2%82%B940-billion-for-green-project-in-oman"
+     },
+     {
+      "name": "Fertiglobe / Scatec (Egypt Green Hydrogen)",
+      "role": "incumbent",
+      "what": "100 MW electrolyzer feeding renewable H2 into Fertiglobe's existing Ain Sokhna ammonia plant \u2014 Africa's first integrated green H2 plant.",
+      "signal": "Phase one commissioned 2022; 20-year H2Global-backed offtake at EUR1000/ton; FID on full project targeted H1 2025",
+      "status": "operating",
+      "source": "https://oci-global.com/news-stories/press-releases/fertiglobe-partners-with-scatec-and-the-sovereign-fund-of-egypt-to-develop-green-ammonia-project-in-egypt/"
+     },
+     {
+      "name": "Yara International",
+      "role": "incumbent",
+      "what": "World's largest ammonia trader/producer; operating green ammonia at Porsgrunn (Heroya) and signing binding offtakes (ACME, AM Green) to green its fertilizer book.",
+      "signal": "Heroya renewable ammonia unit operating; multiple long-term green NH3 offtake agreements",
+      "status": "operating",
+      "source": "https://www.yara.com/corporate-releases/yara-and-acme-signed-a-binding-agreement-for-supply-of-green-ammonia/"
+     },
+     {
+      "name": "CF Industries",
+      "role": "incumbent",
+      "what": "Largest North American ammonia producer; ran an electrolytic green ammonia project at Donaldsonville but pivoted capital to blue (CCS).",
+      "signal": "Dec 2025 management dropped the incremental electrolyzer investment for inadequate returns, favoring CCS",
+      "status": "operating",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001324404/000132440426000003/cf-02182026_ex991xearnings.htm"
+     },
+     {
+      "name": "Australian Renewable Energy Hub (BP / InterContinental Energy / CWP Global)",
+      "role": "incumbent",
+      "what": "Up to 26 GW Pilbara renewables for green hydrogen/ammonia export \u2014 emblem of the gigascale thesis.",
+      "signal": "BP exited as operator and equity holder July 2025 from the ~$55B hub; project's lead developer gone",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.pv-magazine.com/2025/07/28/bp-backs-out-of-26-gw-green-hydrogen-plan-in-australia/"
+     },
+     {
+      "name": "Murchison Green Hydrogen (CIP / Mineral Resources)",
+      "role": "scaleup",
+      "what": "~$15B Western Australia green ammonia export project.",
+      "signal": "Effectively paused after NYK shipping deal collapsed (2026); FID now pushed to 2027",
+      "status": "uncertain",
+      "source": "https://politics-government.news-articles.net/content/2026/03/02/murchison-green-ammonia-plant-paused-by-shipping-deal-collapse.html"
+     }
+    ]
+   },
+   {
+    "name": "Modular & distributed ammonia synthesis (relaxed Haber-Bosch)",
+    "description": "Shrinks Haber-Bosch into containerized, intermittency-tolerant units running at lower temperature/pressure via advanced catalysts or sorbent-enhanced loops, so farmers and ports can make green ammonia on-site instead of shipping it from gigafactories.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Talus Renewables (TalusAg)",
+      "role": "scaleup",
+      "what": "Containerized 'talusOne' (~1.4 t/day) and 'talusTen' (~20 t/day) green ammonia systems sold with long-term farmer offtakes.",
+      "signal": "$22M Series A (Material Impact, Xora/Temasek); commercial units running in Kenya (Kenya Nut Co.) and Iowa (Landus); Angola project to 2028",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/talus-renewables-announces-22-million-raised-in-series-a-financing-301974223.html"
+     },
+     {
+      "name": "Tsubame BHB",
+      "role": "scaleup",
+      "what": "Low-temperature/low-pressure Haber-Bosch using Hosono's ruthenium-on-electride (C12A7:e-) catalyst for distributed plants.",
+      "signal": "Series C ~JPY5.3B; 2025 Global Cleantech 100; tech running at INPEX Kashiwazaki Hydrogen Park (~500 t/yr) and a Brazil (Atvos) LOI",
+      "status": "operating",
+      "source": "https://tsubame-bhb.co.jp/en/news-en/4552/"
+     },
+     {
+      "name": "Starfire Energy",
+      "role": "startup",
+      "what": "'Rapid Ramp' modular ammonia plants designed to follow variable renewable power, plus an integrated ammonia-cracking path.",
+      "signal": "$24M Series B; transitioned from grant- to investment-funded; scaling pilot plants",
+      "status": "operating",
+      "source": "https://www.einnews.com/pr_news/594551189/starfire-energy-raises-24-million-series-b-funding-for-modular-carbon-free-ammonia-fuel-technology"
+     },
+     {
+      "name": "Ammobia",
+      "role": "startup",
+      "what": "'Haber-Bosch 2.0' loop pairing low-temperature catalyst with solid sorbents to cut synthesis-loop cost up to 50% (10x lower pressure, ~150C lower temp).",
+      "signal": "$7.5M seed (total $13.5M); backers include Shell Ventures, ALIAD (Air Liquide), MOL Switch; building pilot",
+      "status": "operating",
+      "source": "https://www.energy-pedia.com/news/usa/ammobia-raises-usd7-5m-to-scale-low-cost-ammonia-production-technology-critical-to-energy-resilience-202554"
+     }
+    ]
+   },
+   {
+    "name": "Electrochemical & lithium-mediated nitrogen reduction",
+    "description": "Skips Haber-Bosch entirely by reducing N2 to ammonia in an electrolyzer at ambient conditions \u2014 often via a lithium-mediated cycle (Li metal -> Li3N -> NH3) \u2014 promising direct coupling to renewable electricity but still fighting low efficiency and selectivity.",
+    "maturity": "lab",
+    "white_space": "Physics-limited: lithium-mediated and direct N2 reduction still post low Faradaic efficiency, modest rates, and energy use that trails optimized Haber-Bosch, so all credible players remain lab-to-bench. The opening is a continuous, high-current-density, stable electrolyzer (especially Li recovery/regeneration) \u2014 whoever cracks durability at industrially relevant rates first leapfrogs the field.",
+    "companies": [
+     {
+      "name": "Jupiter Ionics",
+      "role": "startup",
+      "what": "Australian modular reactor doing continuous lithium-mediated electrochemical N2 reduction from water, air and renewable power.",
+      "signal": "Raised ~US$9M (incl. A$2.5M seed led by Tenacious Ventures + ~$2M government); reactor scale-up, pre-commercial",
+      "status": "operating",
+      "source": "https://www.hydrocarbonprocessing.com/news/2024/03/jupiter-ionics-raises-9-mm-to-progress-their-electrochemical-green-ammonia-technology/"
+     },
+     {
+      "name": "NitroVolt (formerly NitroFix / Nitrofix Solutions)",
+      "role": "startup",
+      "what": "Danish continuous-flow lithium-mediated electrolyzer aimed at on-farm distributed green ammonia/fertilizer.",
+      "signal": "EUR3.5M seed (EUR750K pre-seed before); investors incl. EIFO, EQT Foundation; moving lab tech to a farm demo unit",
+      "status": "operating",
+      "source": "https://www.esgtoday.com/nitrovolt-raises-e3-5-million-to-produce-green-fertilizers-for-farmers/"
+     },
+     {
+      "name": "Atmonia",
+      "role": "startup",
+      "what": "Icelandic one-step electrochemical ammonia synthesis from air/water using a proprietary precious-metal-free catalyst (co-developed catalyst search with Fujitsu HPC/AI).",
+      "signal": "~$16.7M raised (ReykVC, Landvaettir); achieved lab-scale ammonia production Oct 2025; further funding scheduled 2026-27",
+      "status": "operating",
+      "source": "https://ammoniaenergy.org/organization/atmonia/"
+     }
+    ]
+   },
+   {
+    "name": "Plasma nitrogen fixation & on-farm nitrate",
+    "description": "Uses non-thermal plasma to split air's N2 and O2 into NOx that dissolves into water as plant-available nitrate (or enriches manure/slurry), enabling electricity-and-air fertilizer made at the farm with no Haber-Bosch and no CO2.",
+    "maturity": "pilot",
+    "white_space": "Energy efficiency is the wall: plasma N-to-NOx still consumes far more energy per kg N than Haber-Bosch, which is why Nitricity pivoted from plasma nitrate to waste-derived organic fertilizer. Plasma survives where the value isn't bulk N but logistics/co-benefits (slurry enrichment, on-site liquid nitrate, ammonia-emission abatement); the opening is selling the avoided-transport and manure-management value, not commodity N.",
+    "companies": [
+     {
+      "name": "N2 Applied",
+      "role": "scaleup",
+      "what": "Norwegian on-farm plasma units that fix air N into nitrate and lock nitrogen into livestock slurry/digestate, cutting ammonia emissions while boosting fertilizer value.",
+      "signal": "~15 years of development; commercial-pilot units across European farms",
+      "status": "operating",
+      "source": "https://n2applied.com/"
+     },
+     {
+      "name": "VitalFluid",
+      "role": "startup",
+      "what": "Dutch plasma-activated-water (PLAN2FIX) units extracting N from air directly into irrigation water as nitrate.",
+      "signal": "EU Horizon (Plan2fix) supported; field pilots",
+      "status": "operating",
+      "source": "https://cordis.europa.eu/project/id/836896"
+     },
+     {
+      "name": "Nitricity",
+      "role": "startup",
+      "what": "US firm that built plasma-activated-water nitrate pilots, then pivoted to electrified organic fertilizer from almond-shell waste.",
+      "signal": "$50M raised; Delhi, California plant (~100x scale-up) breaking ground, sold out through 2028 \u2014 but now organic-fertilizer, not plasma nitrate",
+      "status": "operating",
+      "source": "https://www.esgtoday.com/nitricity-raises-50-million-to-scale-sustainable-low-carbon-fertilizer-technology/"
+     }
+    ]
+   },
+   {
+    "name": "Biological nitrogen fixation displacing synthetic N",
+    "description": "Engineers or formulates soil microbes (often gene-edited to keep fixing nitrogen even when synthetic fertilizer is present) that colonize roots and convert atmospheric N2 into ammonia in-field, shaving synthetic fertilizer use and N2O emissions.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Pivot Bio",
+      "role": "scaleup",
+      "what": "Gene-edited nitrogen-fixing microbes (corn, small grains, and now cotton via CERT-N) applied to seed/soil to replace part of synthetic N at yield parity.",
+      "signal": "$430M Series D (DCVC, Temasek), ~$2B valuation, ~$618M total; 2025 field data shows ~37 lb/acre N reduction across 172 fields; targets $1B revenue by 2030",
+      "status": "operating",
+      "source": "https://news.mit.edu/2025/pivot-bio-uses-microbial-nitrogen-sustainable-agriculture-0213"
+     },
+     {
+      "name": "Kula Bio",
+      "role": "startup",
+      "what": "Energizes a naturally occurring microbe (Xanthobacter) into a high-output nitrogen biofertilizer applied to the root zone.",
+      "signal": "~$86.7M raised across 6 rounds (incl. $50M Series A); latest round Nov 2025",
+      "status": "operating",
+      "source": "https://agfundernews.com/kula-bio-closes-50m-series-a-to-further-develop-its-low-emission-biofertilizer"
+     },
+     {
+      "name": "Switch Bioworks",
+      "role": "startup",
+      "what": "Engineers microbes to win root colonization first, then switch on nitrogen production \u2014 tackling the persistence problem that limits biofertilizer performance.",
+      "signal": "~$26.9M raised (incl. $17M seed led by Change Forces Capital) plus $2M ARPA-E grant (Jan 2025); pre-commercial field work",
+      "status": "operating",
+      "source": "https://www.prnewswire.com/news-releases/switch-bioworks-raises-17m-in-series-seed-financing-to-bring-new-biological-fertilizer-technology-to-the-field-302238725.html"
+     },
+     {
+      "name": "Corteva Agriscience",
+      "role": "incumbent",
+      "what": "Markets biological nitrogen products (e.g., Utrisha N, and assets from its Symborg acquisition) through its global ag-input channel.",
+      "signal": "Large-cap incumbent embedding N-fixing biologicals into mainstream distribution",
+      "status": "operating",
+      "source": "https://www.startus-insights.com/innovators-guide/biofertilizer-companies/"
+     }
+    ]
+   },
+   {
+    "name": "Blue ammonia with CCS (retrofit and new-build)",
+    "description": "Keeps natural-gas-based ammonia but captures and sequesters the process CO2 (via autothermal reforming or capture on existing steam reformers), giving a lower-carbon, lower-cost-than-green bridge molecule that monetizes US 45Q credits.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "CF Industries",
+      "role": "incumbent",
+      "what": "Operating CO2 capture/sequestration at Donaldsonville and building an ATR low-carbon ammonia plant (Blue Point) with JERA and Mitsui.",
+      "signal": "Donaldsonville CCS began generating 45Q credits July 2025; Blue Point JV civil construction 2026, ammonia start-up ~2029",
+      "status": "operating",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001324404/000132440425000028/cf-11052025_ex991xearnings.htm"
+     },
+     {
+      "name": "Woodside Energy (ex-OCI Beaumont)",
+      "role": "incumbent",
+      "what": "Owns and is expanding the Beaumont, Texas low-carbon (blue) ammonia complex acquired from OCI.",
+      "signal": "Acquired OCI's clean ammonia project for ~$2.35B (2024); blue ammonia train commissioning phase",
+      "status": "operating",
+      "source": "https://oci-global.com/news-stories/press-releases/fertiglobe-partners-with-scatec-and-the-sovereign-fund-of-egypt-to-develop-green-ammonia-project-in-egypt/"
+     },
+     {
+      "name": "ExxonMobil",
+      "role": "incumbent",
+      "what": "Provides CO2 transport-and-storage offtake underpinning third-party blue ammonia (incl. CF Industries) and its own Baytown low-carbon hydrogen/ammonia plans.",
+      "signal": "Landmark CO2 offtake/transport-storage agreements signed with ammonia producers",
+      "status": "operating",
+      "source": "https://ammoniaenergy.org/organization/cf-industries/"
+     },
+     {
+      "name": "Air Products",
+      "role": "incumbent",
+      "what": "Developing large blue hydrogen/ammonia at its Louisiana Clean Energy Complex with CCS.",
+      "signal": "Multi-billion-dollar Louisiana blue project; scope rationalized amid 2025 capex discipline",
+      "status": "operating",
+      "source": "https://www.airproducts.com/energy-transition/neom-green-hydrogen-complex"
+     }
+    ]
+   },
+   {
+    "name": "N2O abatement & low-carbon nitric acid",
+    "description": "Installs tertiary/secondary catalysts in nitric acid plants that destroy nitrous oxide (a ~265x-CO2 greenhouse gas) and NOx, the cheapest large-scale lever to cut the fertilizer industry's non-CO2 climate footprint.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Clariant",
+      "role": "incumbent",
+      "what": "EnviCat N2O-S tertiary catalyst removing >95% of N2O from nitric acid tail gas.",
+      "signal": "50+ installs over ~20 years; GNFC India site cutting ~44,000 t/month CO2e since late 2024",
+      "status": "operating",
+      "source": "https://www.hydrocarbonprocessing.com/news/2025/03/clariants-envicat-n2o-s-catalyst-significantly-mitigates-n2o-emissions-at-gnfcs-nitric-acid-plant-in-india/"
+     },
+     {
+      "name": "thyssenkrupp Uhde",
+      "role": "incumbent",
+      "what": "EnviNOx combined N2O/NOx abatement system (with BASF-made catalyst) for nitric acid plants.",
+      "signal": "CSBP (Australia) NAAN3 plant achieving >98% N2O removal, <1 ppmv outlet (2026)",
+      "status": "operating",
+      "source": "https://www.hydrocarbonprocessing.com/news/2026/03/thyssenkrupp-uhde-delivers-technology-to-csbp-for-nitric-acid-emissions-reduction/"
+     },
+     {
+      "name": "Topsoe",
+      "role": "incumbent",
+      "what": "NShield monolith catalyst for combined N2O/NOx abatement at abatement cost below typical CO2 prices.",
+      "signal": "Commercial product line deployed globally",
+      "status": "operating",
+      "source": "https://www.topsoe.com/processes/nitrous-oxide-removal"
+     },
+     {
+      "name": "Yara International",
+      "role": "incumbent",
+      "what": "In-house N2O abatement catalyst technology deployed across its own and licensed nitric acid plants.",
+      "signal": ">90% N2O cut in fertilizer production; ~30 Mt CO2e/yr abated globally; CF's Verdigris project (2025) alone cuts >600k t/yr",
+      "status": "operating",
+      "source": "https://beta.yara.com/knowledge-grows/yaras-catalyst-technology-reduces-emissions-worldwide/"
+     }
+    ]
+   },
+   {
+    "name": "Green urea & alternative nitrogen products (green AN, CO2-to-urea)",
+    "description": "Takes green/low-carbon ammonia downstream into the actual products farmers and miners use \u2014 urea (made with captured or direct-air-captured CO2), low-carbon ammonium nitrate for fertilizer and explosives \u2014 closing the loop on finished-product, not just feedstock, decarbonization.",
+    "maturity": "pilot",
+    "white_space": "Green urea carries a double penalty \u2014 it needs both green ammonia AND a clean CO2 source \u2014 so levelized costs (~$1000/t with DAC) sit far above grey until ~2030, leaving almost no pure-play. Green ammonium nitrate is further along because miners/explosives buyers (Orica) will pay a green premium and volumes are smaller. Opening: green AN for mining and civil works as the beachhead, with green urea waiting on cheap captured CO2 co-located with green ammonia.",
+    "companies": [
+     {
+      "name": "Fertiberia",
+      "role": "incumbent",
+      "what": "Produces the world's first low-carbon technical ammonium nitrate from green-hydrogen ammonia at Puertollano, Spain.",
+      "signal": "First industrial-scale low-carbon TAN blast (with Orica) June 2024; targeting EMEA mining/civil markets",
+      "status": "operating",
+      "source": "https://www.fertiberia.com/en/fertiberia-launches-the-worlds-first-low-carbon-technical-ammonium-nitrate-produced-with-green-hydrogen-and-announces-a-collaboration-with-orica-for-its-application-in-mining-and-civil-infrastructure/"
+     },
+     {
+      "name": "Orica",
+      "role": "incumbent",
+      "what": "Global explosives maker buying low-carbon AN to offer decarbonized blasting products to mining customers.",
+      "signal": "Completed first low-carbon AN blast in Spain (2024); building low-emission ammonia feedstock supply",
+      "status": "operating",
+      "source": "https://www.orica.com/news-media/2024/first-low-carbon-ammonium-nitrate-blast"
+     },
+     {
+      "name": "Yara International",
+      "role": "incumbent",
+      "what": "Markets Low-Carbon Footprint Ammonium Nitrate and develops green urea pathways off its renewable ammonia output.",
+      "signal": "Low-carbon AN product line launched; green NH3 feedstock from Heroya",
+      "status": "operating",
+      "source": "https://www.yara.com/industrial-nitrogen/civil-explosives/low-carbon-footprint-ammonium-nitrate/"
+     },
+     {
+      "name": "CSIRO (green urea synthesis program)",
+      "role": "incumbent",
+      "what": "Public-research effort developing carbon-neutral green urea routes coupling green ammonia with DAC/captured CO2 (Australia perspective).",
+      "signal": "Research/techno-economic stage; base-case green urea ~US$989/t with renewables at $71/MWh",
+      "status": "operating",
+      "source": "https://research.csiro.au/sct/mineralization/green-urea-synthesis/"
+     }
+    ]
+   },
+   {
+    "name": "Ammonia cracking & ammonia-as-hydrogen-carrier",
+    "description": "Ships hydrogen as easy-to-liquefy ammonia, then 'cracks' it back into hydrogen at the destination (or burns/runs it directly), unlocking long-distance clean-energy trade and zero-carbon ship/data-center power using the existing ~20 Mt/yr ammonia shipping base.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Amogy",
+      "role": "scaleup",
+      "what": "Integrated ammonia cracking + fuel cell powertrain for ships and distributed/data-center power; also licensing a low-ruthenium cracking catalyst.",
+      "signal": ">$270M raised (+$23M extension to ~$700M valuation, 2025); sailed ammonia-powered tugboat (2024); JGC pilot + 40 MW Pohang power deployment (2028-29)",
+      "status": "operating",
+      "source": "https://techcrunch.com/2025/07/15/amogy-raises-80m-to-power-ships-and-data-centers-with-ammonia/"
+     },
+     {
+      "name": "H2SITE",
+      "role": "startup",
+      "what": "Palladium-membrane reactors that crack ammonia and separate high-purity hydrogen in one unit, including the first onboard-ship cracker.",
+      "signal": "EUR36M Series B; EIC Accelerator funding for a flagship 1 TPD cracker at a NW-Europe port; commissioned first on-board cracker + PEM fuel cell system",
+      "status": "operating",
+      "source": "https://www.morningstar.com/news/business-wire/20250702142283/h2site-secures-eic-accelerator-funding-to-deploy-a-flagship-1-tpd-ammonia-cracker-using-membrane-reactor-technology-at-a-port-in-north-west-europe"
+     },
+     {
+      "name": "thyssenkrupp Uhde",
+      "role": "incumbent",
+      "what": "Licensed large-scale ammonia cracking technology for hydrogen import terminals.",
+      "signal": "Building 28 t/day demo cracker with Uniper (Scholven, online ~end 2026); framework for up to six plants totaling 7,200 t/day for Wilhelmshaven",
+      "status": "operating",
+      "source": "https://www.uniper.energy/news/global-hydrogen-market-uniper-and-thyssenkrupp-uhde-sign-framework-agreement-on-the-use-of-ammonia-cracking-technology"
+     },
+     {
+      "name": "Uniper",
+      "role": "incumbent",
+      "what": "Energy major standing up ammonia import + cracking infrastructure to supply ~10-20% of Germany's 2030 hydrogen demand via Wilhelmshaven.",
+      "signal": "Demo cracker under construction; licensed thyssenkrupp tech for commercial terminal",
+      "status": "operating",
+      "source": "https://ammoniaenergy.org/articles/uniper-thyssenkrupp-uhde-demonstration-scale-ammonia-cracker-plant-under-construction-in-germany/"
+     }
+    ]
+   },
+   {
+    "name": "Low-carbon phosphate/potash processing & recovered-nutrient fertilizers",
+    "description": "Recovers phosphorus (and nitrogen) from wastewater, manure and process streams as struvite or calcium phosphate, and valorizes phosphogypsum waste, reducing reliance on mined, energy-intensive phosphate/potash and the eutrophication footprint of nutrient runoff.",
+    "maturity": "scaling",
+    "white_space": "Recovered nutrients are real but tiny against mined phosphate/potash, and phosphogypsum valorization is mostly still research; struvite economics depend on wastewater-plant gate fees and local fertilizer offtake. Opening: regulatory tailwinds (EU nutrient-recovery mandates, P-runoff limits) plus rare-earth co-recovery from phosphogypsum could turn waste liabilities into byproduct revenue.",
+    "companies": [
+     {
+      "name": "Ostara Nutrient Recovery Technologies",
+      "role": "scaleup",
+      "what": "Recovers phosphorus from municipal/industrial wastewater as struvite, sold as Crystal Green slow-release fertilizer; also treats phosphogypsum pond water.",
+      "signal": "Deployed at wastewater plants worldwide since 2005; launched next-gen Crystal Green (CG P2X) and EU-organic-approved struvite (2025)",
+      "status": "operating",
+      "source": "https://www.ostara.com/nutrient-recovery/nutrient-recovery-solutions/"
+     },
+     {
+      "name": "Schwing Bioset",
+      "role": "incumbent",
+      "what": "Biosolids handling and nutrient-recovery (struvite/Bioset) systems for municipal and industrial sludge.",
+      "signal": "Acquired by Metawater (Apr 2025), folding into a larger water-tech platform",
+      "status": "acquired",
+      "source": "https://pitchbook.com/profiles/company/229483-18"
+     },
+     {
+      "name": "NPHarvest",
+      "role": "startup",
+      "what": "Aalto-spinout membrane system that extracts pure ammonia and calcium phosphate from wastewater without heat or high pressure.",
+      "signal": "Commercializing energy-efficient nutrient recovery; integrates with existing WWTPs",
+      "status": "operating",
+      "source": "https://www.startus-insights.com/innovators-guide/new-fertilizer-solutions/"
+     },
+     {
+      "name": "Seraplant",
+      "role": "startup",
+      "what": "Produces recycled phosphorus fertilizer from sewage-sludge ash via reactive-bonding, granulation and fractionation.",
+      "signal": "Operating recycled-P fertilizer production",
+      "status": "operating",
+      "source": "https://www.startus-insights.com/innovators-guide/new-fertilizer-solutions/"
+     },
+     {
+      "name": "Mosaic / OCP (phosphate-potash majors)",
+      "role": "incumbent",
+      "what": "Mined-phosphate/potash incumbents pursuing lower-carbon processing and phosphogypsum reuse rather than nutrient recovery.",
+      "signal": "Global reuse of phosphogypsum ~35% (2024 IFA report); majors exploring valorization and rare-earth co-recovery",
+      "status": "operating",
+      "source": "https://www.fertilizer.org/wp-content/uploads/2025/05/2025_IFA_Phosphogypsum_From_Waste_to_Inventory.pdf"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   "https://ammoniaenergy.org/articles/am-green-production-nears-at-indias-first-renewable-ammonia-mega-project/",
+   "https://acwapower.com/en/projects/neom-green-hydrogen-project/",
+   "https://www.sec.gov/Archives/edgar/data/0001324404/000132440426000003/cf-02182026_ex991xearnings.htm",
+   "https://oci-global.com/news-stories/press-releases/fertiglobe-partners-with-scatec-and-the-sovereign-fund-of-egypt-to-develop-green-ammonia-project-in-egypt/",
+   "https://www.pv-magazine.com/2025/07/28/bp-backs-out-of-26-gw-green-hydrogen-plan-in-australia/",
+   "https://politics-government.news-articles.net/content/2026/03/02/murchison-green-ammonia-plant-paused-by-shipping-deal-collapse.html",
+   "https://www.prnewswire.com/news-releases/talus-renewables-announces-22-million-raised-in-series-a-financing-301974223.html",
+   "https://tsubame-bhb.co.jp/en/news-en/4552/",
+   "https://www.einnews.com/pr_news/594551189/starfire-energy-raises-24-million-series-b-funding-for-modular-carbon-free-ammonia-fuel-technology",
+   "https://www.energy-pedia.com/news/usa/ammobia-raises-usd7-5m-to-scale-low-cost-ammonia-production-technology-critical-to-energy-resilience-202554",
+   "https://www.hydrocarbonprocessing.com/news/2024/03/jupiter-ionics-raises-9-mm-to-progress-their-electrochemical-green-ammonia-technology/",
+   "https://www.esgtoday.com/nitrovolt-raises-e3-5-million-to-produce-green-fertilizers-for-farmers/",
+   "https://ammoniaenergy.org/organization/atmonia/",
+   "https://n2applied.com/",
+   "https://www.esgtoday.com/nitricity-raises-50-million-to-scale-sustainable-low-carbon-fertilizer-technology/",
+   "https://news.mit.edu/2025/pivot-bio-uses-microbial-nitrogen-sustainable-agriculture-0213",
+   "https://agfundernews.com/kula-bio-closes-50m-series-a-to-further-develop-its-low-emission-biofertilizer",
+   "https://www.prnewswire.com/news-releases/switch-bioworks-raises-17m-in-series-seed-financing-to-bring-new-biological-fertilizer-technology-to-the-field-302238725.html",
+   "https://www.hydrocarbonprocessing.com/news/2025/03/clariants-envicat-n2o-s-catalyst-significantly-mitigates-n2o-emissions-at-gnfcs-nitric-acid-plant-in-india/",
+   "https://www.fertiberia.com/en/fertiberia-launches-the-worlds-first-low-carbon-technical-ammonium-nitrate-produced-with-green-hydrogen-and-announces-a-collaboration-with-orica-for-its-application-in-mining-and-civil-infrastructure/",
+   "https://techcrunch.com/2025/07/15/amogy-raises-80m-to-power-ships-and-data-centers-with-ammonia/",
+   "https://www.morningstar.com/news/business-wire/20250702142283/h2site-secures-eic-accelerator-funding-to-deploy-a-flagship-1-tpd-ammonia-cracker-using-membrane-reactor-technology-at-a-port-in-north-west-europe",
+   "https://www.uniper.energy/news/global-hydrogen-market-uniper-and-thyssenkrupp-uhde-sign-framework-agreement-on-the-use-of-ammonia-cracking-technology",
+   "https://www.ostara.com/nutrient-recovery/nutrient-recovery-solutions/",
+   "https://www.fertilizer.org/wp-content/uploads/2025/05/2025_IFA_Phosphogypsum_From_Waste_to_Inventory.pdf",
+   "https://rmi.org/seeding-a-new-pathway-the-opportunity-for-distributed-green-ammonia/"
+  ]
+ }
+}

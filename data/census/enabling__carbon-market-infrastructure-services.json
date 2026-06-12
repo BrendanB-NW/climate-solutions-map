@@ -1,0 +1,804 @@
+{
+ "sector": "enabling",
+ "bucket": "Carbon Market Infrastructure & Services",
+ "census": {
+  "bucket": "Carbon Market Infrastructure & Services",
+  "variations": [
+   {
+    "name": "Carbon credit registries (legacy standards bodies & next-gen digital registries)",
+    "description": "Standards bodies set crediting methodologies and run the registries where credits are issued, tracked and retired \u2014 the foundational ledger of integrity for the entire market.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "Verra",
+      "role": "incumbent",
+      "what": "Runs the Verified Carbon Standard (VCS), the world's largest VCM crediting program and registry",
+      "signal": "2,300+ projects, 1.2B+ tonnes issued; rebuilding trust after 2023 REDD+ over-crediting scandals; CCP-eligible",
+      "status": "operating",
+      "source": "https://verra.org/programs/verified-carbon-standard/"
+     },
+     {
+      "name": "Gold Standard",
+      "role": "incumbent",
+      "what": "Swiss nonprofit standard emphasizing SDG co-benefits; overhauled its assurance model in 2024",
+      "signal": "ICVCM CCP-eligible; widely used for cookstove/community projects and Article 6 pilots",
+      "status": "operating",
+      "source": "https://www.goldstandard.org"
+     },
+     {
+      "name": "ACR (American Carbon Registry)",
+      "role": "incumbent",
+      "what": "First private voluntary GHG registry (founded 1996); strong in US industrial/IFM methodologies",
+      "signal": "ICVCM CCP-eligible program; registry tech historically powered by APX",
+      "status": "operating",
+      "source": "https://acrcarbon.org"
+     },
+     {
+      "name": "Climate Action Reserve",
+      "role": "incumbent",
+      "what": "North America-focused offset registry whose protocols seeded California's compliance program",
+      "signal": "ICVCM CCP-eligible; expanding into Mexico and soil enrichment protocols",
+      "status": "operating",
+      "source": "https://www.climateactionreserve.org"
+     },
+     {
+      "name": "ART (Architecture for REDD+ Transactions)",
+      "role": "incumbent",
+      "what": "Jurisdictional REDD+ standard (TREES) crediting whole countries/states rather than projects",
+      "signal": "CCP-eligible; the standard behind the LEAF Coalition's sovereign forest deals",
+      "status": "operating",
+      "source": "https://www.artredd.org"
+     },
+     {
+      "name": "Puro.earth",
+      "role": "scaleup",
+      "what": "First registry dedicated to engineered carbon removal (biochar, BECCS, mineralized carbon)",
+      "signal": "Majority-owned by Nasdaq since 2021; confirmed CCP-eligible by ICVCM in 2025",
+      "status": "operating",
+      "source": "https://icvcm.org/integrity-council-confirms-carbon-crediting-program-puro-earth-as-ccp-eligible/"
+     },
+     {
+      "name": "Isometric",
+      "role": "startup",
+      "what": "Science-first digital registry for durable (1,000-year) CDR with in-house scientific review and free-to-buyer model",
+      "signal": "$25M seed (Lowercarbon, Plural, 2023); first registry endorsed by ICROA, CORSIA and ICVCM; used by Frontier/Google buyers",
+      "status": "operating",
+      "source": "https://tech.eu/2023/07/18/isometric-raises-25-million-and-launches-collaborative-public-science-platform/"
+     },
+     {
+      "name": "Equitable Earth",
+      "role": "startup",
+      "what": "New community-centered REDD+/forest standard built to fix benefit-sharing flaws of legacy REDD",
+      "signal": "Achieved ICVCM CCP-eligibility in 2025 alongside the legacy programs",
+      "status": "operating",
+      "source": "https://icvcm.org/integrity-council-confirms-carbon-crediting-program-puro-earth-as-ccp-eligible/"
+     },
+     {
+      "name": "International Carbon Registry (ICR)",
+      "role": "startup",
+      "what": "Iceland-based all-digital registry platform serving independent crediting programs and national pilots",
+      "signal": "Approved SustainCERT as VVB in Feb 2025; growing methodology catalog",
+      "status": "operating",
+      "source": "https://www.sustaincert.com/news/sustaincert-approved-as-a-validation-and-verification-body-vvb-under-the-international-carbon-registry-icr"
+     },
+     {
+      "name": "Global Carbon Council",
+      "role": "incumbent",
+      "what": "Qatar-based (GORD) crediting program focused on Global South energy and industrial projects",
+      "signal": "CORSIA-approved program; positioning for Article 6 host-country supply",
+      "status": "operating",
+      "source": "https://www.gccouncil.org"
+     }
+    ]
+   },
+   {
+    "name": "Spot/futures exchanges, marketplaces & brokerage desks",
+    "description": "Exchanges and brokers provide price discovery, standardized contracts and execution for carbon credits and allowances \u2014 compliance futures venues are deep and liquid while VCM spot venues are consolidating after the 2022-23 integrity crisis.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Xpansiv (CBL)",
+      "role": "scaleup",
+      "what": "Operates CBL, the largest spot exchange for voluntary credits, plus IATA's Aviation Carbon Exchange and market data (XSignals); also owns APX registry infrastructure",
+      "signal": "Blackstone-backed ($400M, 2022); launched CBL GEO CORSIA Phase 1 spot contract April 2025",
+      "status": "operating",
+      "source": "https://carboncredits.com/xpansiv-to-launch-new-carbon-credit-contract-to-support-corsia-compliance/"
+     },
+     {
+      "name": "Intercontinental Exchange (ICE)",
+      "role": "incumbent",
+      "what": "Dominant venue for compliance carbon futures (EUA, UKA, California CCA, RGGI) plus VCM futures",
+      "signal": "Hosts the bulk of the ~\u20ac700B+/yr traded EU carbon derivatives market",
+      "status": "operating",
+      "source": "https://www.ice.com/energy/environmental-markets"
+     },
+     {
+      "name": "CME Group",
+      "role": "incumbent",
+      "what": "Lists GEO/N-GEO voluntary carbon futures and North American compliance contracts via NYMEX",
+      "signal": "VCM futures volumes fell sharply post-2022 but compliance complex remains active",
+      "status": "operating",
+      "source": "https://www.cmegroup.com/markets/energy/emissions.html"
+     },
+     {
+      "name": "ACX (AirCarbon Exchange)",
+      "role": "startup",
+      "what": "Digital carbon exchange using commodity-trading architecture; first fully regulated carbon exchange and clearing house (ADGM, Abu Dhabi)",
+      "signal": "Cited among major platforms in 2025 market studies; Abu Dhabi and Singapore operations",
+      "status": "operating",
+      "source": "https://www.mordorintelligence.com/industry-reports/carbon-credit-trading-platform-market"
+     },
+     {
+      "name": "Climate Impact X (CIX)",
+      "role": "scaleup",
+      "what": "Singapore exchange/marketplace running auctions, standardized contracts and CIX Intelligence price benchmarks",
+      "signal": "Backed by Temasek, DBS, SGX and Standard Chartered; still operating in 2025 despite thin VCM volumes",
+      "status": "operating",
+      "source": "https://climateimpactx.com/"
+     },
+     {
+      "name": "STX Group",
+      "role": "scaleup",
+      "what": "Amsterdam-based environmental commodities trader and brokerage spanning VCM, biofuels, RECs and ETS (owns broker Vertis)",
+      "signal": "Cut staff in 2024-25 amid VCM slowdown but refinanced a \u20ac290M borrowing-base facility; executed >$1B US tax-credit transfer",
+      "status": "operating",
+      "source": "https://carbon-pulse.com/343200/"
+     },
+     {
+      "name": "Carbon Trade Exchange (CTX)",
+      "role": "startup",
+      "what": "Long-running electronic spot exchange for voluntary credits with direct registry integrations",
+      "signal": "Operating since 2009 but low public traction signals in 2024-26",
+      "status": "uncertain",
+      "source": "https://www.mordorintelligence.com/industry-reports/carbon-credit-trading-platform-market"
+     }
+    ]
+   },
+   {
+    "name": "API-based credit retail & embedded offsetting for consumer apps",
+    "description": "API platforms let any company embed credit purchase and retirement into checkout flows, travel bookings or fintech products, aggregating small-ticket demand that registries were never built to serve.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Patch",
+      "role": "scaleup",
+      "what": "Started as the offset API; now a full platform for sourcing, buying and managing credit portfolios",
+      "signal": "$55M Series B; relaunched enterprise procurement platform in April 2025",
+      "status": "operating",
+      "source": "https://www.esgtoday.com/patch-launches-new-platform-to-ease-purchasing-and-management-of-carbon-credits/"
+     },
+     {
+      "name": "Cloverly",
+      "role": "startup",
+      "what": "API pioneer (Southern Company spinout) now also selling commerce software to carbon project developers; powers Salesforce's marketplace",
+      "signal": "$19M Series A (2023); 200+ enterprise customers",
+      "status": "operating",
+      "source": "https://carboncredits.com/first-api-for-carbon-credits-cloverly-raises-19m-series-a-round/"
+     },
+     {
+      "name": "Lune",
+      "role": "startup",
+      "what": "London API embedding emission calculations plus vetted credits into fintech, logistics and payments products",
+      "signal": "Seed-funded (2022); clients across European fintech/logistics",
+      "status": "operating",
+      "source": "https://lune.co/fund-climate-projects"
+     },
+     {
+      "name": "Chooose",
+      "role": "scaleup",
+      "what": "Oslo platform powering airline and travel-brand climate programs spanning credits, CDR and SAF",
+      "signal": "Powers programs for major airlines and brands like Lonely Planet; VC-backed (Gen Catalyst among investors)",
+      "status": "operating",
+      "source": "https://www.chooose.today/resources"
+     },
+     {
+      "name": "CNaught",
+      "role": "startup",
+      "what": "API selling pre-diversified, science-weighted carbon credit portfolios at a single price",
+      "signal": "Seed-stage; positions as the 'index fund' of carbon credits",
+      "status": "operating",
+      "source": "https://www.cnaught.com"
+     },
+     {
+      "name": "Wren",
+      "role": "startup",
+      "what": "Consumer climate-subscription app funding a vetted project portfolio",
+      "signal": "Tens of thousands of subscribers; YC-backed",
+      "status": "operating",
+      "source": "https://www.wren.co"
+     },
+     {
+      "name": "Ecologi",
+      "role": "startup",
+      "what": "UK consumer/SME climate subscriptions (trees + credits), expanding into footprint software",
+      "signal": "Tens of millions of trees funded; pivoted toward SME carbon tooling as consumer offsetting cooled",
+      "status": "operating",
+      "source": "https://ecologi.com"
+     }
+    ]
+   },
+   {
+    "name": "Buyer-side procurement & credit portfolio management platforms",
+    "description": "Software and managed services that help corporate buyers screen, purchase, manage and retire credit portfolios across registries, replacing opaque broker-by-broker buying with data-driven procurement.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "CEEZER",
+      "role": "startup",
+      "what": "Berlin enterprise platform aggregating 3.5M+ data points to build and manage cross-registry credit portfolios",
+      "signal": "\u20ac10.3M Series A led by HV Capital (Jan 2024); 50+ corporate clients, 150+ developers",
+      "status": "operating",
+      "source": "https://www.ceezer.earth/insights/series-a-funding"
+     },
+     {
+      "name": "Abatable",
+      "role": "startup",
+      "what": "Procurement intelligence and RFP marketplace; publishes VCM developer surveys and country policy rankings",
+      "signal": "~$13.5M raised (2023); used by corporates and governments for sourcing diligence",
+      "status": "operating",
+      "source": "https://www.abatable.com"
+     },
+     {
+      "name": "goodcarbon",
+      "role": "startup",
+      "what": "Berlin platform for nature-based credit portfolios with forward offtake structures",
+      "signal": "Seed/Series A-stage; focused on high-integrity nature portfolios",
+      "status": "operating",
+      "source": "https://www.goodcarbon.earth"
+     },
+     {
+      "name": "South Pole",
+      "role": "incumbent",
+      "what": "World's largest carbon credit retailer/advisor managing corporate portfolios end-to-end",
+      "signal": "Hit by 2023 Kariba over-crediting scandal (CEO exit, layoffs) but continues operating globally",
+      "status": "operating",
+      "source": "https://www.southpole.com"
+     },
+     {
+      "name": "ClimatePartner",
+      "role": "incumbent",
+      "what": "Munich full-service provider combining footprinting, credit portfolios and consumer-facing labels",
+      "signal": "Thousands of corporate clients across Europe",
+      "status": "operating",
+      "source": "https://www.climatepartner.com"
+     },
+     {
+      "name": "3Degrees",
+      "role": "incumbent",
+      "what": "US environmental-markets firm handling renewable energy and carbon credit procurement and portfolio advisory",
+      "signal": "Long-standing US corporate client base across RECs and carbon",
+      "status": "operating",
+      "source": "https://3degreesinc.com"
+     },
+     {
+      "name": "Salesforce Net Zero Marketplace",
+      "role": "incumbent",
+      "what": "Carbon credit marketplace embedded in Salesforce's Net Zero Cloud, powered by Cloverly",
+      "signal": "Launched Oct 2022; still listed as active but low public traction since launch",
+      "status": "operating",
+      "source": "https://www.salesforce.com/news/press-releases/2022/09/20/salesforce-announces-carbon-credit-marketplace/"
+     }
+    ]
+   },
+   {
+    "name": "CDR-specific procurement platforms & advance market commitments",
+    "description": "Dedicated buyer coalitions and marketplaces channel forward purchase commitments to early carbon-removal suppliers, providing the demand certainty engineered CDR needs to scale.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Frontier",
+      "role": "incumbent",
+      "what": "Stripe-run advance market commitment pooling buyer funds (Alphabet, Shopify, Meta, McKinsey et al.) for durable CDR offtakes and prepurchases",
+      "signal": ">$1B in commitments toward 2030; the benchmark AMC for engineered removals",
+      "status": "operating",
+      "source": "https://frontierclimate.com"
+     },
+     {
+      "name": "Symbiosis Coalition",
+      "role": "incumbent",
+      "what": "Google/Meta/Microsoft/Salesforce AMC for high-integrity nature-based removals",
+      "signal": "Pledged 20M tonnes of nature-based removal credits by 2030 (launched May 2024)",
+      "status": "operating",
+      "source": "https://trellis.net/article/how-google-meta-salesforce-and-other-companies-are-joining-forces-fund-climate-action/"
+     },
+     {
+      "name": "NextGen CDR Facility",
+      "role": "incumbent",
+      "what": "South Pole\u2013Mitsubishi joint venture aggregating corporate demand for high-durability CDR at fixed prices",
+      "signal": "Targets ~1Mt of durable removals; buyers include major financial institutions",
+      "status": "operating",
+      "source": "https://nextgencdr.com"
+     },
+     {
+      "name": "Milkywire",
+      "role": "startup",
+      "what": "Runs the Climate Transformation Fund pooling corporate money (Klarna et al.) into vetted CDR and decarbonization portfolios",
+      "signal": "Multi-year corporate commitments; popular with tech brands as a Frontier alternative",
+      "status": "operating",
+      "source": "https://www.milkywire.com"
+     },
+     {
+      "name": "Supercritical",
+      "role": "startup",
+      "what": "CDR marketplace for tech companies that sources, contracts and guarantees delivery of removal tonnes",
+      "signal": "$13M Series A led by Lightspeed; new funding secured to expand supply development",
+      "status": "operating",
+      "source": "https://www.businessgreen.com/news/4529357/supercritical-secures-funding-expand-carbon-removal-marketplace"
+     },
+     {
+      "name": "CUR8",
+      "role": "startup",
+      "what": "Removals intelligence and market-making platform building buyer portfolios and supplier finance access",
+      "signal": "$6.5M raised from Google Ventures and Airbus Ventures",
+      "status": "operating",
+      "source": "https://www.cur8.earth/"
+     },
+     {
+      "name": "Carbonfuture",
+      "role": "startup",
+      "what": "CDR marketplace plus digital tracking (MRV+) platform, strongest in biochar supply chains",
+      "signal": "Series A-stage; trusted delivery layer for Microsoft and other large CDR buyers",
+      "status": "operating",
+      "source": "https://www.carbonfuture.earth/"
+     },
+     {
+      "name": "Terraset",
+      "role": "startup",
+      "what": "Nonprofit channeling philanthropic donations into durable CDR purchases",
+      "signal": "Small but growing donor base; complements corporate AMCs",
+      "status": "operating",
+      "source": "https://www.terraset.org"
+     },
+     {
+      "name": "Nori",
+      "role": "startup",
+      "what": "Soil-carbon removal marketplace with blockchain-tracked retirement",
+      "signal": "Raised $17.25M over 7 years; shut down September 2024 citing stagnant VCM demand and funding drought",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.geekwire.com/2024/nori-a-seattle-based-carbon-removal-marketplace-that-raised-17m-shuts-down-after-7-years/"
+     }
+    ]
+   },
+   {
+    "name": "Credit ratings & risk-scoring agencies",
+    "description": "Independent agencies score the integrity and over-crediting risk of individual credits and projects, giving buyers a quality signal the registries themselves don't provide \u2014 increasingly embedded in regulation and procurement.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "BeZero Carbon",
+      "role": "scaleup",
+      "what": "Largest ratings coverage on an 8-point scale; expanding into CORSIA and compliance-market ratings with AI-assisted workflows",
+      "signal": "$32M Series C (Jan 2025, led by GenZero with Japan Airlines); 100+ corporate subscribers; appointed to Singapore's NEA eligibility panel Nov 2025",
+      "status": "operating",
+      "source": "https://tech.eu/2025/01/16/bezero-carbon-raises-32m-series-c-to-expand-global-carbon-ratings-services/"
+     },
+     {
+      "name": "Sylvera",
+      "role": "scaleup",
+      "what": "ML- and geospatial-data-driven ratings plus market data; pushing toward 5,000 'estimated ratings' coverage",
+      "signal": "$57M Series B (Balderton, 2023; ~$96M total); appointed to Singapore's NEA ratings panel Nov 2025",
+      "status": "operating",
+      "source": "https://techcrunch.com/2023/07/17/sylvera-series-b/"
+     },
+     {
+      "name": "Calyx Global",
+      "role": "startup",
+      "what": "Independent ratings covering both GHG integrity and SDG impact across thousands of projects",
+      "signal": "Appointed alongside BeZero and Sylvera to Singapore's International Carbon Credit framework panel (Nov 2025)",
+      "status": "operating",
+      "source": "https://senecaesg.com/insights/singapore-appoints-carbon-rating-firms-to-strengthen-integrity-of-international-carbon-credit-framework/"
+     },
+     {
+      "name": "Renoster",
+      "role": "startup",
+      "what": "Deep-dive, openly published reviews of forest carbon projects used in pre-purchase diligence",
+      "signal": "Small specialist; publishes free ratings to pressure market transparency",
+      "status": "operating",
+      "source": "https://www.renoster.co"
+     },
+     {
+      "name": "MSCI Carbon Markets (ex-Trove Research)",
+      "role": "incumbent",
+      "what": "Investor-grade VCM project quality scores, price forecasts and market analytics inside MSCI's data stack",
+      "signal": "Trove Research acquired by MSCI in late 2023 \u2014 the first major consolidation of carbon intelligence into mainstream financial data",
+      "status": "acquired",
+      "source": "https://www.msci.com/data-and-analytics/carbon-markets"
+     },
+     {
+      "name": "CarbonPlan",
+      "role": "startup",
+      "what": "Nonprofit publishing open-source data, offset databases and critiques of crediting methods",
+      "signal": "Influential watchdog whose analyses have triggered methodology reforms",
+      "status": "operating",
+      "source": "https://carbonplan.org"
+     }
+    ]
+   },
+   {
+    "name": "Carbon credit insurance & buffer-pool alternatives",
+    "description": "Insurers underwrite delivery failure, reversal, invalidation and political risk on carbon credits, replacing crude registry buffer pools with priced, capitalized risk transfer that unlocks institutional buying.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Kita",
+      "role": "startup",
+      "what": "First Lloyd's coverholder dedicated to carbon: delivery-risk, reversal and non-payment insurance covers",
+      "signal": "Underwriting capacity up 450% to \u00a322.5M for 2025, backed by Chaucer, Munich Re Specialty, RenaissanceRe and Tokio Marine Kiln",
+      "status": "operating",
+      "source": "https://www.kita.earth/blog/kita-expands-capacity-responding-to-growing-global-demand-for-carbon-insurance-solutions"
+     },
+     {
+      "name": "Oka, The Carbon Insurance Company",
+      "role": "startup",
+      "what": "Lloyd's syndicate-in-a-box (launched Jan 2024) insuring post-issuance risks: invalidation, reversal and clawback",
+      "signal": "~$10M seed (Aquiline); first syndicate dedicated to carbon credit risk",
+      "status": "operating",
+      "source": "https://www.cbinsights.com/company/oka-1"
+     },
+     {
+      "name": "CarbonPool",
+      "role": "startup",
+      "what": "Zurich insurer founded by ex-Allianz executives that pays claims in-kind with carbon credits \u2014 a capitalized buffer-pool replacement",
+      "signal": "$12M seed (Feb 2024) from climate-focused investors",
+      "status": "operating",
+      "source": "https://carboncredits.com/carbonpool-raises-12m-in-seed-funding-from-climate-focused-investors/"
+     },
+     {
+      "name": "Howden",
+      "role": "incumbent",
+      "what": "Insurance broker that launched the first carbon credit invalidation cover (2022, with Respira and Nephila capacity) and brokers carbon covers globally",
+      "signal": "Multiple distinct carbon product categories now live across its book",
+      "status": "operating",
+      "source": "https://www.slipcase.com/view/sustainable-insurer-in-full-carbon-insurance-distinct-product-categories-emerge-as-market-expands/3"
+     },
+     {
+      "name": "Chaucer",
+      "role": "incumbent",
+      "what": "Lloyd's (re)insurer providing underwriting capacity behind Kita's carbon policies since 2022",
+      "signal": "Part of the expanding reinsurance panel (with Munich Re Specialty, RenRe, TMK) backing carbon risk",
+      "status": "operating",
+      "source": "https://www.reinsurancene.ws/kita-expands-underwriting-capacity-amid-growing-demand-for-carbon-insurance-solutions/"
+     }
+    ],
+    "white_space": "Total insured capacity (~tens of \u00a3M) is trivial versus a multi-billion-dollar market because actuarial loss data barely exists; openings include rated buffer-pool replacements at registry scale, Article 6 political-risk cover (only MIGA-style instruments exist), and portfolio-level covers that let pension-grade capital hold credits."
+   },
+   {
+    "name": "Tokenized carbon & blockchain registry infrastructure",
+    "description": "Blockchain rails tokenize credits for transparent, fractional, programmable trading and settlement \u2014 a wave that crashed after registry bans and crypto winter, now rebuilding as registry-sanctioned digital infrastructure.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "Toucan Protocol",
+      "role": "startup",
+      "what": "Bridged 20M+ tonnes of credits on-chain and created the BCT/NCT liquidity pools; pivoted to registry-sanctioned tokenization after Verra's 2022 ban",
+      "signal": "Survived the crash; volumes a fraction of 2021-22 peak",
+      "status": "operating",
+      "source": "https://toucan.earth"
+     },
+     {
+      "name": "KlimaDAO",
+      "role": "startup",
+      "what": "DAO that accumulated millions of tokenized credits in its treasury and runs on-chain carbon liquidity/retirement",
+      "signal": "Activity far below 2021 peak; relaunched automated market infrastructure (Klima 2.0)",
+      "status": "operating",
+      "source": "https://www.klimadao.finance"
+     },
+     {
+      "name": "Flowcarbon",
+      "role": "startup",
+      "what": "Adam Neumann-cofounded venture to tokenize nature-based credits via the Goddess Nature Token",
+      "signal": "Raised $70M (a16z-led, 2022); token never launched; quietly refunded investors and wound down by 2024",
+      "status": "bankrupt-shutdown",
+      "source": "https://bravenewcoin.com/insights/flowcarbon-returning-70m-to-investors-as-gnt-token-project-fails-to-launch"
+     },
+     {
+      "name": "Carbonplace",
+      "role": "scaleup",
+      "what": "Bank-built DLT settlement network (BNP Paribas, UBS, NatWest, Standard Chartered et al.) linking registries for instant credit transfer/retirement",
+      "signal": "$45M from nine global banks (2023); partnerships continuing into 2025 but transaction traction modest",
+      "status": "operating",
+      "source": "https://www.marketsmedia.com/bank-consortium-invests-45m-in-carbonplace/"
+     },
+     {
+      "name": "Moss.earth",
+      "role": "startup",
+      "what": "Brazilian issuer of the MCO2 token backed by Amazon forest credits",
+      "signal": "Little verifiable activity in 2024-26",
+      "status": "uncertain",
+      "source": "https://moss.earth"
+     },
+     {
+      "name": "Thallo",
+      "role": "startup",
+      "what": "Built a two-way registry bridge and 'carbon-as-a-service' API for embedding tokenized credits",
+      "signal": "$2.5M raised (2022); no substantive public activity since 2024",
+      "status": "uncertain",
+      "source": "https://www.thallo.io/why-thallo-doesnt-focus-exclusively-on-carbon-dioxide-removals/"
+     },
+     {
+      "name": "Regen Network",
+      "role": "startup",
+      "what": "Purpose-built blockchain and standard for on-chain ecological credits",
+      "signal": "Niche but operating; issues its own eco-credit classes",
+      "status": "operating",
+      "source": "https://www.regen.network"
+     }
+    ],
+    "white_space": "Wave one died when Verra banned tokenization of retired credits (2022) and crypto liquidity evaporated \u2014 proving the registry, not the chain, is the choke point; the live opening is boring, registry-blessed infrastructure (digital custody, settlement, corresponding-adjustment tracking) sold to banks and registries rather than public token pools."
+   },
+   {
+    "name": "Compliance market software & services (ETS allowance management, trading & cap-and-trade tooling)",
+    "description": "Brokers, auction platforms and software that help obligated emitters procure, hedge, manage and surrender allowances across the EU ETS, UK ETS and North American cap-and-trade programs.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "EEX (European Energy Exchange)",
+      "role": "incumbent",
+      "what": "Operates the EU ETS primary auctions on behalf of member states plus secondary derivatives and German national ETS sales",
+      "signal": "Core public infrastructure of the world's largest carbon market",
+      "status": "operating",
+      "source": "https://www.eex.com/en/markets/environmental-markets"
+     },
+     {
+      "name": "Vertis Environmental Finance",
+      "role": "scaleup",
+      "what": "Budapest-based EU ETS broker/advisor serving 1,000+ industrial emitters across Central/Eastern Europe",
+      "signal": "Voted Best Trading Company and Best OTC/spot Broker for EU ETS and UK ETS (Environmental Finance 2025 rankings); now an STX Group company",
+      "status": "acquired",
+      "source": "https://www.environmental-finance.com/content/awards/environmental-market-rankings-2024-2025/?pf=print"
+     },
+     {
+      "name": "ClearBlue Markets",
+      "role": "startup",
+      "what": "Carbon market advisory plus a market-intelligence platform spanning EU ETS and North American programs",
+      "signal": "Voted Best Advisory/Consultancy for both EU ETS and North America (Environmental Finance 2025)",
+      "status": "operating",
+      "source": "https://www.environmental-finance.com/content/awards/environmental-market-rankings-2024-2025/?pf=print"
+     },
+     {
+      "name": "Redshaw Advisors",
+      "role": "startup",
+      "what": "Independent London carbon risk-management firm running hedging and buying programs for industrial compliance entities",
+      "signal": "Long-standing specialist desk for EUA/UKA procurement",
+      "status": "operating",
+      "source": "https://redshawadvisors.com"
+     },
+     {
+      "name": "Homaio",
+      "role": "startup",
+      "what": "French fintech opening EU allowance (EUA/UKA) investment to individuals and smaller institutions",
+      "signal": "Seed-funded (2024); first retail-facing EUA investment platform",
+      "status": "operating",
+      "source": "https://www.homaio.com/"
+     },
+     {
+      "name": "IncubEx",
+      "role": "startup",
+      "what": "Designs and develops environmental futures/options products with Nodal Exchange (EEX group) for North American carbon and REC markets",
+      "signal": "Founded by the former Climate Exchange/CCX team; products live on Nodal",
+      "status": "operating",
+      "source": "https://www.theincubex.com"
+     }
+    ],
+    "white_space": "Trading and brokerage are well served, but software is thin: EU ETS2 (from 2027) pulls tens of thousands of fuel suppliers and SMEs into compliance with no fit-for-purpose allowance-management SaaS \u2014 an opening analogous to what tax-compliance software did for VAT."
+   },
+   {
+    "name": "Article 6 / sovereign carbon infrastructure",
+    "description": "Registries, meta-data layers and transaction services that let countries authorize, track and trade ITMOs under Paris Agreement Article 6 with corresponding adjustments \u2014 the plumbing of the emerging sovereign carbon market.",
+    "maturity": "pilot",
+    "companies": [
+     {
+      "name": "KliK Foundation",
+      "role": "incumbent",
+      "what": "Swiss CO2-Act compliance buyer financing mitigation abroad and importing ITMOs for Switzerland's NDC",
+      "signal": "22 new ITMO purchase agreements signed in 2025; received first-ever African ITMOs (11,733 from Ghana cookstoves, July 2025); expects ~CHF27/t average cost 2025-30",
+      "status": "operating",
+      "source": "https://www.klik.ch/en/news/news-article/first-itmo-transfer-switzerland-ghana"
+     },
+     {
+      "name": "UNDP (National Carbon Registry / Carbon Cooperation)",
+      "role": "incumbent",
+      "what": "Open-source national carbon registry software (an accredited Digital Public Good) plus an ITMO cooperation platform for host countries",
+      "signal": "Registry codebase informs infrastructure in 10+ countries with World Bank/UNFCCC/EBRD partners",
+      "status": "operating",
+      "source": "https://www.undp.org/news/newly-accredited-digital-public-good-national-carbon-registry-will-help-countries-meet-their-climate-targets"
+     },
+     {
+      "name": "Climate Action Data Trust (CAD Trust)",
+      "role": "incumbent",
+      "what": "World Bank/IETA/Singapore-founded meta-registry harmonizing credit data across registries to prevent double counting",
+      "signal": "Data Model v2.0 consultation in 2025; v1.0 already baselines national registries in 10+ countries",
+      "status": "operating",
+      "source": "https://climateactiondata.org/cad-trust-announces-data-model-v2-0-now-open-for-consultation/"
+     },
+     {
+      "name": "APX / Xpansiv Connect",
+      "role": "incumbent",
+      "what": "The registry-technology provider operating the back-end ledgers for multiple major crediting programs and environmental markets",
+      "signal": "Acquired by Xpansiv (2023), concentrating much of the market's registry infrastructure in one owner",
+      "status": "acquired",
+      "source": "https://xpansiv.com/"
+     },
+     {
+      "name": "Perspectives Climate Group",
+      "role": "incumbent",
+      "what": "Specialist advisory structuring Article 6.2 frameworks and ITMO transactions for governments and buyers",
+      "signal": "Involved in the Swiss-led bilateral pilot ecosystem (Ghana, Vanuatu and others)",
+      "status": "operating",
+      "source": "https://www.perspectives.cc"
+     },
+     {
+      "name": "Gold Standard (Article 6 services)",
+      "role": "incumbent",
+      "what": "Provides crediting, registry and authorization-tracking services adapted for Article 6 labelled units",
+      "signal": "Standard of choice for several first-mover Article 6.2 cookstove deals",
+      "status": "operating",
+      "source": "https://www.goldstandard.org"
+     }
+    ],
+    "white_space": "Almost no private companies exist here: infrastructure is built by UN bodies, the World Bank and consultancies, while first ITMOs only began flowing in 2024-25; as CORSIA Phase 1 demand collides with scarce authorized supply, there is an opening for ITMO transaction management, escrow/settlement, corresponding-adjustment tracking and sovereign-risk analytics as commercial SaaS."
+   },
+   {
+    "name": "Market intelligence & price data providers",
+    "description": "Price reporting agencies, analytics firms and news services that create the reference prices, forecasts and transaction data an opaque, OTC-heavy market needs to function.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Veyt",
+      "role": "startup",
+      "what": "Oslo analytics firm (ex-Point Carbon/Refinitiv team) covering EU ETS, UK ETS, North American and voluntary markets with price data and forecasts",
+      "signal": "Partnered with Carbon Pulse (Mar 2025); named Climate Risk Advisory Firm of the Year three years running",
+      "status": "operating",
+      "source": "https://veyt.com/about-veyt/"
+     },
+     {
+      "name": "AlliedOffsets",
+      "role": "startup",
+      "what": "Largest aggregated database of VCM projects, prices and transactions used by traders, researchers and governments",
+      "signal": "Tracks tens of thousands of projects across all major registries",
+      "status": "operating",
+      "source": "https://alliedoffsets.com/"
+     },
+     {
+      "name": "Quantum Commodity Intelligence",
+      "role": "startup",
+      "what": "Price reporting agency founded by ex-Platts/Argus staff publishing daily voluntary and CORSIA carbon assessments",
+      "signal": "Established PRA for VCM benchmarks alongside its oil/biofuels coverage",
+      "status": "operating",
+      "source": "https://www.qcintel.com/carbon/"
+     },
+     {
+      "name": "Carbon Pulse",
+      "role": "startup",
+      "what": "Subscription newswire dedicated to carbon pricing, ETS policy and market intelligence",
+      "signal": "The de facto trade press of carbon markets; Veyt data partnership (2025)",
+      "status": "operating",
+      "source": "https://carbon-pulse.com/378146/"
+     },
+     {
+      "name": "OPIS (Dow Jones)",
+      "role": "incumbent",
+      "what": "Publishes daily carbon price assessments across VCM, RGGI, California and global compliance markets",
+      "signal": "Part of Dow Jones since 2022, mainstreaming carbon price data distribution",
+      "status": "operating",
+      "source": "https://www.opisnet.com"
+     },
+     {
+      "name": "S&P Global Commodity Insights (Platts)",
+      "role": "incumbent",
+      "what": "Platts carbon assessments (CEC, CNC, etc.) extend the world's main energy PRA into carbon",
+      "signal": "Carbon benchmarks referenced in physical and derivative contracts",
+      "status": "operating",
+      "source": "https://www.spglobal.com/commodityinsights"
+     },
+     {
+      "name": "Argus Media",
+      "role": "incumbent",
+      "what": "PRA publishing voluntary and compliance carbon assessments plus Article 6/ITMO cost analysis",
+      "signal": "Covers emerging sovereign carbon pricing (e.g., Swiss ITMO cost expectations)",
+      "status": "operating",
+      "source": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2581802-switzerland-expects-falling-costs-for-itmos"
+     },
+     {
+      "name": "Ecosystem Marketplace",
+      "role": "incumbent",
+      "what": "Forest Trends nonprofit publishing the benchmark State of the Voluntary Carbon Markets transaction surveys since 2006",
+      "signal": "Its annual survey remains the most-cited VCM volume/price dataset",
+      "status": "operating",
+      "source": "https://www.ecosystemmarketplace.com"
+     }
+    ]
+   },
+   {
+    "name": "Third-party validation & verification bodies (VVBs)",
+    "description": "Accredited auditors validate project designs and verify claimed emission reductions/removals before registries issue credits \u2014 the human assurance layer every credit depends on, and a chronic capacity bottleneck.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "DNV",
+      "role": "incumbent",
+      "what": "One of the largest global VVBs auditing projects across Verra, Gold Standard, CDM and Article 6 pipelines",
+      "signal": "Decades of accreditation across all major programs",
+      "status": "operating",
+      "source": "https://www.dnv.com"
+     },
+     {
+      "name": "T\u00dcV S\u00dcD",
+      "role": "incumbent",
+      "what": "German certification giant with a major carbon validation/verification practice",
+      "signal": "Accredited across CDM and leading voluntary standards",
+      "status": "operating",
+      "source": "https://www.tuvsud.com"
+     },
+     {
+      "name": "SCS Global Services",
+      "role": "incumbent",
+      "what": "US certifier verifying forestry and land-use carbon projects alongside its sustainability certification business",
+      "signal": "Long-standing VVB for North American forest carbon",
+      "status": "operating",
+      "source": "https://www.scsglobalservices.com"
+     },
+     {
+      "name": "Earthood",
+      "role": "scaleup",
+      "what": "India-headquartered VVB that became one of the busiest auditors in the global VCM on cost and turnaround speed",
+      "signal": "Among the highest project-audit volumes of any VVB",
+      "status": "operating",
+      "source": "https://earthood.in"
+     },
+     {
+      "name": "SustainCERT",
+      "role": "startup",
+      "what": "Gold Standard spinout repositioned as a digital-first VVB after GS changed its assurance model; also approved under ICR and Isometric",
+      "signal": "Raised $37M (2022); discontinued legacy GS certification services and re-approved as independent VVB in 2024-25",
+      "status": "operating",
+      "source": "https://www.sustaincert.com/news/sustaincert-announces-the-discontinuation-of-certification-services-for-gold-standard"
+     },
+     {
+      "name": "Aster Global Environmental Solutions",
+      "role": "incumbent",
+      "what": "US specialist VVB focused on forestry/agriculture project audits",
+      "signal": "Niche but active across ACR/CAR/Verra projects",
+      "status": "operating",
+      "source": "https://asterglobal.com"
+     }
+    ],
+    "white_space": "Verification queues stretch many months because accreditation takes years and the auditor pool is tiny relative to project volume; ICVCM/CORSIA quality bars raise workloads further \u2014 an opening for dMRV-integrated, AI-assisted audit platforms that accredited bodies adopt, or for new VVBs purpose-built for digital registries like Isometric and Puro."
+   }
+  ],
+  "sources": [
+   "https://icvcm.org/integrity-council-confirms-carbon-crediting-program-puro-earth-as-ccp-eligible/",
+   "https://verra.org/programs/verified-carbon-standard/",
+   "https://carboncredits.com/xpansiv-to-launch-new-carbon-credit-contract-to-support-corsia-compliance/",
+   "https://www.mordorintelligence.com/industry-reports/carbon-credit-trading-platform-market",
+   "https://carbon-pulse.com/343200/",
+   "https://www.esgtoday.com/patch-launches-new-platform-to-ease-purchasing-and-management-of-carbon-credits/",
+   "https://carboncredits.com/first-api-for-carbon-credits-cloverly-raises-19m-series-a-round/",
+   "https://www.ceezer.earth/insights/series-a-funding",
+   "https://www.geekwire.com/2024/nori-a-seattle-based-carbon-removal-marketplace-that-raised-17m-shuts-down-after-7-years/",
+   "https://trellis.net/article/how-google-meta-salesforce-and-other-companies-are-joining-forces-fund-climate-action/",
+   "https://www.businessgreen.com/news/4529357/supercritical-secures-funding-expand-carbon-removal-marketplace",
+   "https://tech.eu/2025/01/16/bezero-carbon-raises-32m-series-c-to-expand-global-carbon-ratings-services/",
+   "https://techcrunch.com/2023/07/17/sylvera-series-b/",
+   "https://senecaesg.com/insights/singapore-appoints-carbon-rating-firms-to-strengthen-integrity-of-international-carbon-credit-framework/",
+   "https://sifted.eu/articles/isometric-sylvera-carbon-credit-raise",
+   "https://www.kita.earth/blog/kita-expands-capacity-responding-to-growing-global-demand-for-carbon-insurance-solutions",
+   "https://carboncredits.com/carbonpool-raises-12m-in-seed-funding-from-climate-focused-investors/",
+   "https://www.slipcase.com/view/sustainable-insurer-in-full-carbon-insurance-distinct-product-categories-emerge-as-market-expands/3",
+   "https://bravenewcoin.com/insights/flowcarbon-returning-70m-to-investors-as-gnt-token-project-fails-to-launch",
+   "https://www.marketsmedia.com/bank-consortium-invests-45m-in-carbonplace/",
+   "https://www.environmental-finance.com/content/awards/environmental-market-rankings-2024-2025/?pf=print",
+   "https://www.homaio.com/",
+   "https://www.undp.org/news/newly-accredited-digital-public-good-national-carbon-registry-will-help-countries-meet-their-climate-targets",
+   "https://climateactiondata.org/cad-trust-announces-data-model-v2-0-now-open-for-consultation/",
+   "https://www.klik.ch/en/news/news-article/first-itmo-transfer-switzerland-ghana",
+   "https://veyt.com/about-veyt/",
+   "https://carbon-pulse.com/378146/",
+   "https://www.msci.com/data-and-analytics/carbon-markets",
+   "https://alliedoffsets.com/",
+   "https://www.qcintel.com/carbon/",
+   "https://www.sustaincert.com/news/sustaincert-announces-the-discontinuation-of-certification-services-for-gold-standard",
+   "https://climateimpactx.com/"
+  ]
+ }
+}

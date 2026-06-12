@@ -1,0 +1,701 @@
+{
+ "sector": "buildings",
+ "bucket": "Retrofit Delivery, Electrification Platforms & Financing",
+ "census": {
+  "bucket": "Retrofit Delivery, Electrification Platforms & Financing (Buildings)",
+  "sources": [
+   "https://www.pv-magazine.com/2025/06/09/us-residential-solar-lender-mosaic-files-for-bankruptcy-amid-policy-uncertainty/",
+   "https://sifted.eu/articles/enpal-1komma5-zolar-solar-giants",
+   "https://www.pv-magazine.com/2025/08/11/swedish-heat-pump-maker-aira-raises-e150-million-plans-production-capacity-expansion/",
+   "https://www.finsmes.com/2026/02/zero-homes-raises-16-8m-in-series-a-funding.html",
+   "https://techcrunch.com/2025/12/08/heat-pump-startup-quilt-raises-20m-series-b-to-expand-sales/",
+   "https://www.thomabravo.com/press-releases/servicetitan-to-empower-hvac-contractors-with-acquisition-of-conduit-tech",
+   "https://pv-magazine-usa.com/2026/03/26/budderfly-raises-550-million-to-scale-its-energy-as-a-service-platform/",
+   "https://www.cppinvestments.com/newsroom/cpp-investments-invests-us200-million-in-redaptive/",
+   "https://www.ftc.gov/news-events/news/press-releases/2022/10/ftc-california-act-stop-ygrene-energy-fund-deceiving-consumers-about-pace-financing-placing-liens",
+   "https://pv-magazine-usa.com/2023/10/31/sunlight-financial-files-bankruptcy-acquired-by-industry-consortium/",
+   "https://www.wskg.org/regional-news/2025-01-29/blocpower-promised-to-help-electrify-ithaca-now-it-has-ended-its-support",
+   "https://sacra.com/c/runwise/",
+   "https://www.eu-startups.com/2026/03/e23-million-backs-ecoworks-in-rolling-out-germanys-largest-serial-building-renovation/",
+   "https://energiesprong.org/breakthrough-for-serial-renovation-of-residential-buildings/",
+   "https://tech.eu/2025/07/18/thermondo-secures-eur50m-to-expand-heat-pump-financing-across-germany/",
+   "https://pv-magazine-usa.com/2025/01/21/palmetto-secures-1-2-billion-for-residential-solar-financing/",
+   "https://www.franklinenergy.com/press-releases/franklin-energy-acquires-snugg-home-adding-industry-leading-energy-audit-tool-to-technology-suite",
+   "https://www.canarymedia.com/articles/electrification/the-climate-laws-8-8b-in-home-energy-rebates-are-starting-to-roll-out",
+   "https://www.alleywatch.com/2024/03/sealed-residential-home-energy-electrification-weatherization-rebate-platform-contractors-lauren-salz/",
+   "https://www.eu-startups.com/2025/06/enter-secures-e16-million-for-energy-efficiency-in-the-real-estate-sector/",
+   "https://en.wikipedia.org/wiki/GoodLeap",
+   "https://www.nyserda.ny.gov/All-Programs/Empire-Building-Challenge/Empire-Building-Challenge-Projects",
+   "https://techcrunch.com/2023/03/29/after-bootstrapping-for-15-years-energy-renovation-company-effy-raises-22-million/",
+   "https://www.businesswire.com/news/home/20230518005220/en/Kelvin-Receives-%2430-Million-in-Series-A-Funding-to-Decarbonize-Legacy-Building-Stock-Globally"
+  ],
+  "variations": [
+   {
+    "name": "Panelized / prefabricated deep energy retrofit (Energiesprong model)",
+    "description": "Factory-built insulated facade and roof panels \u2014 often with integrated windows, ventilation or HVAC pods \u2014 are scanned-to-fit and clipped onto existing buildings in days, cutting the cost and disruption of net-zero renovation enough to make whole-portfolio social-housing retrofits repeatable.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Energiesprong Foundation",
+      "role": "incumbent",
+      "what": "Dutch-born market-development organization that standardizes performance-guaranteed panelized net-zero retrofits and aggregates social-housing demand across NL/DE/FR/UK/US.",
+      "signal": "10,000+ buildings retrofitted across Europe and North America with 70-80% energy reduction",
+      "status": "operating",
+      "source": "https://energiesprong.org/breakthrough-for-serial-renovation-of-residential-buildings/"
+     },
+     {
+      "name": "ecoworks",
+      "role": "scaleup",
+      "what": "Berlin general contractor that digitally plans and robot-prefabricates facade elements plus rooftop PV to take apartment blocks to net zero in roughly 7-10 days of on-site work.",
+      "signal": "\u20ac40M Series A (2024) plus \u20ac23M (Mar 2026) to deliver Germany's largest cooperative serial renovation",
+      "status": "operating",
+      "source": "https://www.eu-startups.com/2026/03/e23-million-backs-ecoworks-in-rolling-out-germanys-largest-serial-building-renovation/"
+     },
+     {
+      "name": "Renowate",
+      "role": "startup",
+      "what": "Joint venture of listed German landlord LEG Immobilien and builder Rhomberg industrializing serial refurbishment for housing portfolios in NRW and beyond.",
+      "signal": "JV backed by a major listed landlord; growing serial-renovation pipeline in Germany",
+      "status": "operating",
+      "source": "https://energiesprong.org/breakthrough-for-serial-renovation-of-residential-buildings/"
+     },
+     {
+      "name": "Factory Zero",
+      "role": "startup",
+      "what": "Dutch manufacturer of integrated energy modules (heat pump, ventilation, PV electronics in one rooftop pod) and prefab roofs used in Energiesprong renovations.",
+      "signal": "Core component supplier in the Netherlands, the model's most industrialized market",
+      "status": "operating",
+      "source": "https://factoryzero.nl/"
+     },
+     {
+      "name": "Q-Bot",
+      "role": "startup",
+      "what": "UK robots crawl under suspended floors and spray-apply insulation, retrofitting hard-to-treat homes without ripping up floors.",
+      "signal": "Thousands of UK homes insulated via partners including utilities and councils; BBA-certified process",
+      "status": "operating",
+      "source": "https://www.q-bot.co/"
+     },
+     {
+      "name": "Hydronic Shell Technologies",
+      "role": "startup",
+      "what": "Facade-integrated mechanical systems: overclad panels carry hydronic HVAC distribution so multifamily towers electrify without entering apartments.",
+      "signal": "NYSERDA-backed demonstrations including a Bronx overclad project and a Syracuse pilot",
+      "status": "operating",
+      "source": "https://www.nyserda.ny.gov/All-Programs/Empire-Building-Challenge/Empire-Building-Challenge-Projects"
+     },
+     {
+      "name": "Dextall",
+      "role": "startup",
+      "what": "NYC startup making software-designed prefabricated unitized wall panels for recladding and deep-retrofit projects as well as new builds.",
+      "signal": "Venture-backed; panels cut facade installation time dramatically on NYC multifamily projects",
+      "status": "operating",
+      "source": "https://dextall.com/"
+     },
+     {
+      "name": "Melius Homes",
+      "role": "startup",
+      "what": "UK design-build contractor that delivered Britain's first Energiesprong-style whole-house retrofits for social landlords (Nottingham's Destination Zero).",
+      "signal": "Pioneer Energiesprong UK delivery partner since 2017",
+      "status": "operating",
+      "source": "https://www.meliushomes.co.uk/"
+     }
+    ],
+    "white_space": "Outside Dutch/German social housing the field is nearly empty \u2014 the US has no at-scale panelized-retrofit vendor (NYSERDA's RetrofitNY struggled to get bids that pencil) because fragmented ownership, custom facades and cheap gas stretch paybacks; building-performance-standard fines (LL97/BERDO) plus scan-to-fab mass customization create the opening for a US serial-retrofit integrator."
+   },
+   {
+    "name": "Whole-home electrification platforms & tech-enabled installers",
+    "description": "One-stop platforms plan, finance and install heat pumps, heat-pump water heaters, panel upgrades and EV chargers \u2014 using remote assessment, instant quoting and incentive capture to compress a fragmented multi-contractor journey into a single offer, which is why they dominate heat-pump growth in Europe.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Aira",
+      "role": "scaleup",
+      "what": "Swedish direct-to-consumer heat-pump installer (founded by Northvolt's Vargas) selling monthly clean-energy plans across UK, Germany and Italy with its own Wroclaw factory.",
+      "signal": "\u20ac150M equity (Aug 2025) on top of ~\u20ac145M Series B and \u20ac200M BNP Paribas debt (2024)",
+      "status": "operating",
+      "source": "https://www.pv-magazine.com/2025/08/11/swedish-heat-pump-maker-aira-raises-e150-million-plans-production-capacity-expansion/"
+     },
+     {
+      "name": "Enpal",
+      "role": "scaleup",
+      "what": "German solar-and-heat-pump installer that rents systems with zero upfront cost and refinances customer contracts via securitization.",
+      "signal": "\u20ac1.1B ABS facility (Mar 2025, Barclays/BofA/CACIB); ~5,000 heat pumps in 18 months making it Germany's #1 installer; >\u20ac5B debt raised; profitable",
+      "status": "operating",
+      "source": "https://sifted.eu/articles/enpal-1komma5-zolar-solar-giants"
+     },
+     {
+      "name": "1KOMMA5\u00b0",
+      "role": "scaleup",
+      "what": "Roll-up of dozens of local installers across DACH/Nordics/Australia selling solar + heat pump + storage unified by its Heartbeat energy-management OS.",
+      "signal": "\u20ac150M pre-IPO round (Dec 2025); ~\u20ac400M equity raised; IPO targeted 2026",
+      "status": "operating",
+      "source": "https://sifted.eu/articles/enpal-1komma5-zolar-solar-giants"
+     },
+     {
+      "name": "Elephant Energy",
+      "role": "startup",
+      "what": "Denver/Boston climate-comfort general contractor: builds homeowners an Electrification Roadmap then manages heat-pump installs through vetted subcontractors.",
+      "signal": "$3.5M seed led by Building Ventures (Mar 2025) plus $2.38M follow-on (2026)",
+      "status": "operating",
+      "source": "https://www.proptechbuzz.com/news/elephant-energy-seed-funding-home-electrification"
+     },
+     {
+      "name": "QuitCarbon",
+      "role": "startup",
+      "what": "Free electrification advisor for Bay Area homeowners \u2014 builds phased plans, navigates incentives and matches vetted contractors, monetizing via contractor fees.",
+      "signal": "~$2M raised (Precursor, Braemar, Climate Capital); thousands of electrification plans delivered",
+      "status": "operating",
+      "source": "https://www.crunchbase.com/organization/quitcarbon"
+     },
+     {
+      "name": "Zero Homes",
+      "role": "startup",
+      "what": "Phone-LiDAR digital-twin assessments generate fixed-price electrification quotes without truck rolls; sells delivery through utilities and cities.",
+      "signal": "$16.8M Series A (Feb 2026, Prelude Ventures, Watsco Ventures); selected by Xcel Energy to lead Denver/Aurora neighborhood retrofit program",
+      "status": "operating",
+      "source": "https://www.finsmes.com/2026/02/zero-homes-raises-16-8m-in-series-a-funding.html"
+     },
+     {
+      "name": "Quilt",
+      "role": "startup",
+      "what": "Vertically integrated heat-pump company: designs its own premium ductless hardware and sells/installs direct with in-house design software.",
+      "signal": "$20M Series B (Dec 2025, Energy Impact Partners/Galvanize) eight months after $33M Series A; ~1,000 units across 16 states and 5 Canadian provinces",
+      "status": "operating",
+      "source": "https://techcrunch.com/2025/12/08/heat-pump-startup-quilt-raises-20m-series-b-to-expand-sales/"
+     },
+     {
+      "name": "Octopus Energy",
+      "role": "incumbent",
+      "what": "UK utility manufacturing its own Cosy heat pump, training in-house installers at scale and bundling smart heat-pump tariffs via its Kraken platform.",
+      "signal": "Thousands of installs and large training academies; global energy retailer with 7M+ customers",
+      "status": "operating",
+      "source": "https://octopus.energy/heat-pumps/"
+     },
+     {
+      "name": "BOXT",
+      "role": "scaleup",
+      "what": "UK online fixed-price, next-day boiler installation platform now expanding the same instant-quote model to heat pumps and AC.",
+      "signal": "Profitable online installer; one of UK's largest digital heating retailers",
+      "status": "operating",
+      "source": "https://www.boxt.co.uk/"
+     }
+    ]
+   },
+   {
+    "name": "HVAC contractor software: load calculation, design & sales enablement",
+    "description": "Software that lets HVAC contractors scan a home, run accurate Manual J/S/D load calculations and generate right-sized heat-pump designs and sales proposals on-site \u2014 the workflow choke point that determines whether a furnace replacement becomes an electrification job.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Conduit Tech",
+      "role": "startup",
+      "what": "LiDAR phone scans produce floor plans, ACCA-approved load calcs and visual sales tools purpose-built for heat-pump conversions.",
+      "signal": "$2.35M seed led by Breakthrough Energy Ventures (2023); acquired by ServiceTitan (Oct 2025)",
+      "status": "acquired",
+      "source": "https://www.thomabravo.com/press-releases/servicetitan-to-empower-hvac-contractors-with-acquisition-of-conduit-tech"
+     },
+     {
+      "name": "ServiceTitan",
+      "role": "incumbent",
+      "what": "Dominant field-service operating system for HVAC/plumbing/electrical contractors, now folding in load-calc (via Conduit) and AI sales tooling.",
+      "signal": "IPO Dec 2024 (NASDAQ: TTAN); acquired Conduit Tech 2025",
+      "status": "operating",
+      "source": "https://www.thomabravo.com/press-releases/servicetitan-to-empower-hvac-contractors-with-acquisition-of-conduit-tech"
+     },
+     {
+      "name": "Wrightsoft",
+      "role": "incumbent",
+      "what": "Right-Suite Universal, the long-standing Manual J/D/S desktop standard for residential HVAC design, now part of building-products group MiTek.",
+      "signal": "De-facto incumbent design tool; acquired by MiTek (2021)",
+      "status": "acquired",
+      "source": "https://www.wrightsoft.com/"
+     },
+     {
+      "name": "CoolCalc",
+      "role": "startup",
+      "what": "Free web-based ACCA-approved Manual J load calculator widely used by contractors and DIY electrification programs.",
+      "signal": "Among the most-used free residential load-calc tools in the US",
+      "status": "operating",
+      "source": "https://www.coolcalc.com/"
+     },
+     {
+      "name": "measureQuick",
+      "role": "startup",
+      "what": "Phone app that turns smart-probe readings into HVAC commissioning and diagnostics scores so installed heat pumps actually deliver rated performance.",
+      "signal": "Integrated with major test-instrument makers (Fieldpiece, Testo); embedded in utility quality-install programs",
+      "status": "operating",
+      "source": "https://measurequick.com/"
+     }
+    ],
+    "white_space": "The category leader was absorbed by ServiceTitan within two years of seed, signaling consolidation into field-service suites; a standalone wedge remains in automated heat-pump design-to-permit (room-by-room sizing, duct mods, electrical load calc, and rebate paperwork in one pass), which furnace-swap-oriented incumbents still don't serve."
+   },
+   {
+    "name": "Heat-as-a-service & subscription comfort models",
+    "description": "Customers pay a flat monthly fee, instalment or lease covering heat-pump hardware, installation and maintenance \u2014 shifting the \u20ac15-25k upfront barrier onto institutional balance sheets, the way third-party ownership unlocked rooftop solar.",
+    "maturity": "demonstration",
+    "companies": [
+     {
+      "name": "Aira",
+      "role": "scaleup",
+      "what": "Monthly comfort-guarantee subscription covering heat pump, install and service in UK/Italy/Germany \u2014 the flagship European heat-as-a-service offer.",
+      "signal": "\u20ac150M raise (Aug 2025); factory expansion in Wroclaw",
+      "status": "operating",
+      "source": "https://www.pv-magazine.com/2025/08/11/swedish-heat-pump-maker-aira-raises-e150-million-plans-production-capacity-expansion/"
+     },
+     {
+      "name": "Thermondo",
+      "role": "scaleup",
+      "what": "Germany's largest heating installer; 'thermondo flex' instalment plans put households into heat pumps for a monthly payment instead of upfront capex.",
+      "signal": "\u20ac50M special-purpose-vehicle financing (Jul 2025) funding ~1,600 instalment heat pumps",
+      "status": "operating",
+      "source": "https://tech.eu/2025/07/18/thermondo-secures-eur50m-to-expand-heat-pump-financing-across-germany/"
+     },
+     {
+      "name": "Hometree",
+      "role": "scaleup",
+      "what": "UK home-energy services group combining boiler/heat-pump care-plan subscriptions with Hometree Finance monthly-payment installs; rolled up regional installers.",
+      "signal": "$65M debt round (Oct 2024) with CPP Investments on top of earlier \u00a3250M asset-finance facility",
+      "status": "operating",
+      "source": "https://tracxn.com/d/companies/hometree/__tMaVyAa3PaoFPuQCbEq21Xrl6vhnUi7LE5GkMyPGp5g"
+     },
+     {
+      "name": "E.ON",
+      "role": "incumbent",
+      "what": "European utility selling monthly-subscription sustainable heating (heat pump install + service bundled into one payment) in its retail markets.",
+      "signal": "Major utility validation of the subscription-heating model",
+      "status": "operating",
+      "source": "https://news.eonenergy.com/news/monthly-subscription-model-sustainable-heating-systems"
+     },
+     {
+      "name": "Palmetto (LightReach)",
+      "role": "scaleup",
+      "what": "Extends solar-style third-party-ownership leases to heat pumps and HVAC so US homeowners electrify for $0 down through 600+ partner installers.",
+      "signal": "$1.2B for LightReach (Jan 2025, Morgan Stanley/Truist); $420M ABS closed Oct 2025",
+      "status": "operating",
+      "source": "https://pv-magazine-usa.com/2025/01/21/palmetto-secures-1-2-billion-for-residential-solar-financing/"
+     },
+     {
+      "name": "Sealed",
+      "role": "startup",
+      "what": "US pioneer of pay-for-savings comfort plans (weatherization + heat pumps repaid out of energy savings); abandoned the consumer model in late 2023 and pivoted B2B to contractor rebate/measured-savings software.",
+      "signal": "$30M raise (Mar 2024, Keyframe Capital) funding the pivot after shedding most of its consumer business",
+      "status": "operating",
+      "source": "https://www.alleywatch.com/2024/03/sealed-residential-home-energy-electrification-weatherization-rebate-platform-contractors-lauren-salz/"
+     }
+    ],
+    "white_space": "True 'heat by the month' barely exists outside boiler-rental cultures (Germany/UK): homeowner credit risk, weather-dependent savings and long service tails killed US pioneer Sealed's pay-for-savings model, and US TPO leases are only now reaching HVAC via Palmetto \u2014 an opening for utility tariffed-on-bill heat or insurer-grade comfort subscriptions in North America."
+   },
+   {
+    "name": "Efficiency-as-a-service & next-generation ESCOs for commercial portfolios",
+    "description": "Providers fund and install efficiency and electrification upgrades across commercial portfolios and are repaid from metered savings or by taking over the utility bill entirely \u2014 collapsing the capex and split-incentive barriers that stall C&I retrofits.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Redaptive",
+      "role": "scaleup",
+      "what": "Meter-level EaaS: funds and installs lighting/HVAC/solar across hundreds of sites per corporate customer and bills per verified unit of energy saved.",
+      "signal": "$650M+ raised: $200M CPPIB (2022), $250M Series E (2023, Linse Capital), +$100M CPPIB (Oct 2024); used by 40+ Fortune 500 companies",
+      "status": "operating",
+      "source": "https://www.cppinvestments.com/newsroom/cpp-investments-invests-us200-million-in-redaptive/"
+     },
+     {
+      "name": "Budderfly",
+      "role": "scaleup",
+      "what": "Takes over franchise/SMB utility bills outright, then keeps the spread from HVAC, refrigeration and solar upgrades it installs at no cost to the operator.",
+      "signal": "Partners Group $500M majority stake (2022); debt facility expanded to $550M (Mar 2026, GIP/BlackRock); >$1B total capital; thousands of restaurant/retail sites",
+      "status": "operating",
+      "source": "https://pv-magazine-usa.com/2026/03/26/budderfly-raises-550-million-to-scale-its-energy-as-a-service-platform/"
+     },
+     {
+      "name": "Metrus Energy",
+      "role": "startup",
+      "what": "Pioneer of the Efficiency Services Agreement \u2014 off-balance-sheet financing of deep C&I retrofits repaid per unit of saved energy since 2009.",
+      "signal": "Long-running ESA portfolio with large corporate, healthcare and university customers",
+      "status": "operating",
+      "source": "https://www.metrusenergy.com/"
+     },
+     {
+      "name": "Sparkfund",
+      "role": "startup",
+      "what": "Partners with utilities to deliver subscription-based equipment upgrades and decarbonization programs to the utilities' own C&I customers.",
+      "signal": "Venture/growth-backed; repositioned around utility partnership channel",
+      "status": "operating",
+      "source": "https://www.sparkfund.com/"
+     },
+     {
+      "name": "Ameresco",
+      "role": "incumbent",
+      "what": "One of the largest independent ESCOs \u2014 energy savings performance contracts, federal ESPCs and owned energy assets.",
+      "signal": "NYSE: AMRC; multi-billion-dollar project backlog",
+      "status": "operating",
+      "source": "https://www.ameresco.com/"
+     },
+     {
+      "name": "Willdan Group",
+      "role": "incumbent",
+      "what": "Public engineering and program-implementation firm delivering utility efficiency programs and municipal performance contracting.",
+      "signal": "NASDAQ: WLDN; major utility efficiency program contractor",
+      "status": "operating",
+      "source": "https://www.willdan.com/"
+     },
+     {
+      "name": "Carbon Lighthouse",
+      "role": "startup",
+      "what": "Sold 'Efficiency Production' contracts using sensor analytics to extract savings from commercial buildings without major capex.",
+      "signal": "Raised roughly $70M in venture funding; public activity appears to have wound down since ~2023",
+      "status": "uncertain",
+      "source": "https://www.carbonlighthouse.com/"
+     }
+    ]
+   },
+   {
+    "name": "Retrofit financing: PACE, on-bill/tariffed, and green home-improvement lending",
+    "description": "Specialized lenders move efficiency and electrification upgrades off the credit-card tier \u2014 property-assessed (PACE) liens repaid via taxes, tariffed on-bill repayment through the utility meter, and point-of-sale green home-improvement loans \u2014 because monthly-payment parity, not payback math, is what closes retrofit sales.",
+    "maturity": "mature",
+    "companies": [
+     {
+      "name": "GoodLeap",
+      "role": "scaleup",
+      "what": "Largest US point-of-sale lender for sustainable home upgrades (solar, heat pumps, efficiency) embedded in contractor sales apps.",
+      "signal": "$30B+ in loans to 1M+ homeowners; ~$12B valuation (2021); $523M raised Dec 2025",
+      "status": "operating",
+      "source": "https://en.wikipedia.org/wiki/GoodLeap"
+     },
+     {
+      "name": "Mosaic (Solar Mosaic)",
+      "role": "scaleup",
+      "what": "Fintech that funded $15B+ of residential solar and sustainable home-improvement loans through contractor networks.",
+      "signal": "Filed Chapter 11 June 2025 amid high rates and solar downturn; ~$8B portfolio transferred; assets acquired by Solar Servicing LLC Sept 2025",
+      "status": "bankrupt-shutdown",
+      "source": "https://www.pv-magazine.com/2025/06/09/us-residential-solar-lender-mosaic-files-for-bankruptcy-amid-policy-uncertainty/"
+     },
+     {
+      "name": "Sunlight Financial",
+      "role": "scaleup",
+      "what": "Point-of-sale solar and home-improvement lender that went public via SPAC before rate shock broke its originate-to-sell model.",
+      "signal": "Chapter 11 Oct 2023; acquired by Greenbacker/Sunstone Credit/Cross River consortium and emerged Dec 2023",
+      "status": "acquired",
+      "source": "https://pv-magazine-usa.com/2023/10/31/sunlight-financial-files-bankruptcy-acquired-by-industry-consortium/"
+     },
+     {
+      "name": "Nuveen Green Capital",
+      "role": "incumbent",
+      "what": "C-PACE origination leader (formerly Greenworks Lending) writing fixed-rate, long-tenor retrofit and green-construction loans repaid via property-tax assessments.",
+      "signal": "Acquired by Nuveen/TIAA in 2021; multi-billion-dollar C-PACE originations",
+      "status": "operating",
+      "source": "https://propmodo.com/c-pace-lending-flourishes-in-some-communities-while-others-fall-behind/"
+     },
+     {
+      "name": "PACE Equity",
+      "role": "startup",
+      "what": "National C-PACE lender whose CIRRUS Low Carbon program prices a rate discount for verified low-carbon building specs.",
+      "signal": "First lender to tie C-PACE pricing to carbon performance",
+      "status": "operating",
+      "source": "https://www.pace-equity.com/"
+     },
+     {
+      "name": "Home Run Financing",
+      "role": "startup",
+      "what": "One of the few remaining residential PACE originators (rebranded PACE Funding Group) operating in CA/FL/MO.",
+      "signal": "Continues res-PACE origination after the sector's consolidation",
+      "status": "operating",
+      "source": "https://www.homerunfinancing.com/"
+     },
+     {
+      "name": "Ygrene Energy Fund",
+      "role": "scaleup",
+      "what": "Was a top-two US residential PACE lender across FL/CA/MO before consumer-protection enforcement.",
+      "signal": "FTC/California action over deceptive practices and unauthorized liens (2022, $3M consumer relief); halted new residential PACE funding and shed most staff",
+      "status": "uncertain",
+      "source": "https://www.ftc.gov/news-events/news/press-releases/2022/10/ftc-california-act-stop-ygrene-energy-fund-deceiving-consumers-about-pace-financing-placing-liens"
+     },
+     {
+      "name": "Renovate America",
+      "role": "scaleup",
+      "what": "Ran HERO, once the largest US residential PACE program.",
+      "signal": "Chapter 11 (2020) after California ability-to-repay rules collapsed origination volume; assets sold to Finance of America",
+      "status": "bankrupt-shutdown",
+      "source": "https://ohiocapitaljournal.com/2021/07/14/cities-in-ohio-want-to-use-the-same-clean-energy-financing-company-that-saddled-missouri-homeowners-with-debt/"
+     },
+     {
+      "name": "Inclusive Prosperity Capital",
+      "role": "startup",
+      "what": "Nonprofit spinout of the Connecticut Green Bank scaling Smart-E low-rate home energy loans through community lenders nationwide.",
+      "signal": "Channeling green-bank/GGRF-era capital into LMI home upgrades across states",
+      "status": "operating",
+      "source": "https://www.inclusiveprosperitycapital.org/"
+     },
+     {
+      "name": "EEtility",
+      "role": "startup",
+      "what": "Administers tariffed on-bill (Pay As You Save) programs where utilities recover upgrade costs through a meter-attached tariff rather than consumer debt.",
+      "signal": "Operates PAYS programs for rural co-ops and municipal utilities across the Southeast",
+      "status": "operating",
+      "source": "https://www.eetility.com/"
+     }
+    ]
+   },
+   {
+    "name": "Incentive navigation & rebate processing software",
+    "description": "Calculators, APIs and back-office platforms that match projects to stacked federal/state/utility incentives and automate rebate paperwork, measurement and payment \u2014 the friction layer that decides whether IRA-style subsidies actually reach households and contractors.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Rewiring America",
+      "role": "startup",
+      "what": "Nonprofit behind the de-facto consumer IRA savings calculator and incentive APIs that states, utilities and installers embed.",
+      "signal": "Calculator/API widely embedded; tracks HEAR/HEEHRA rollout (electrification rebates live in ~13 states by Dec 2025)",
+      "status": "operating",
+      "source": "https://homes.rewiringamerica.org/federal-incentives/home-electrification-appliance-rebates"
+     },
+     {
+      "name": "Enter",
+      "role": "startup",
+      "what": "German one-stop renovation platform: app-based digital audit, then handles BEG/KfW subsidy applications and contractor coordination end-to-end.",
+      "signal": "\u20ac20M+ Series B (2025); >\u20ac40M raised since 2022",
+      "status": "operating",
+      "source": "https://www.eu-startups.com/2025/06/enter-secures-e16-million-for-energy-efficiency-in-the-real-estate-sector/"
+     },
+     {
+      "name": "Effy",
+      "role": "scaleup",
+      "what": "France's largest home-energy-renovation platform, monetizing CEE certificates and navigating MaPrimeR\u00e9nov' for customers across 3,600+ partner artisans.",
+      "signal": "~100,000 renovation projects per year; first external raise of \u20ac20M (Felix Capital, 2023) after 15 bootstrapped years",
+      "status": "operating",
+      "source": "https://techcrunch.com/2023/03/29/after-bootstrapping-for-15-years-energy-renovation-company-effy-raises-22-million/"
+     },
+     {
+      "name": "EnergySage",
+      "role": "scaleup",
+      "what": "Quote-comparison marketplace for solar and heat pumps with embedded incentive data, now also running state/utility marketplace programs.",
+      "signal": "Acquired by Schneider Electric (2022); expanded from solar into heat-pump quoting",
+      "status": "acquired",
+      "source": "https://www.energysage.com/"
+     },
+     {
+      "name": "CLEAResult",
+      "role": "incumbent",
+      "what": "Largest US energy-efficiency program implementer \u2014 designs, administers and processes rebates for hundreds of utility and state programs including IRA rebate delivery.",
+      "signal": "PE-owned; hundreds of utility program contracts",
+      "status": "operating",
+      "source": "https://www.clearesult.com/"
+     },
+     {
+      "name": "Resource Innovations",
+      "role": "incumbent",
+      "what": "Utility and state program implementer selected to administer multiple states' IRA Home Energy Rebates (HER/HEAR) back office.",
+      "signal": "Won several state HEAR/HOMES administration contracts 2024-25",
+      "status": "operating",
+      "source": "https://www.resource-innovations.com/"
+     },
+     {
+      "name": "IncentiFind",
+      "role": "startup",
+      "what": "Database-plus-concierge that matches commercial and residential projects to green-building incentives nationwide.",
+      "signal": "Long-running Houston startup with database of thousands of incentives",
+      "status": "operating",
+      "source": "https://www.incentifind.com/"
+     },
+     {
+      "name": "Recurve",
+      "role": "startup",
+      "what": "Open-source measured-savings (M&V 2.0) platform powering pay-for-performance programs such as California's FLEXmarket.",
+      "signal": "Runs CA FLEXmarket; steward of the OpenEEmeter standard",
+      "status": "operating",
+      "source": "https://www.recurve.com/"
+     }
+    ]
+   },
+   {
+    "name": "Digital energy audits, benchmarking & retrofit planning software",
+    "description": "Software replaces clipboard audits and spreadsheet benchmarking \u2014 phone-scan or utility-data-driven models rate homes (HERS), benchmark portfolios and generate investment-grade decarbonization plans at a fraction of the cost of engineering studies.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Ekotrope",
+      "role": "startup",
+      "what": "RESNET-accredited cloud engine behind roughly 85% of US HERS ratings (~300,000 homes/year) for code, ENERGY STAR and 45L compliance.",
+      "signal": "Dominant HERS rating platform with API embedded in builder workflows",
+      "status": "operating",
+      "source": "https://www.ekotrope.com/"
+     },
+     {
+      "name": "Snugg Pro (Snugg Home)",
+      "role": "startup",
+      "what": "Cloud home-energy-audit and BPI-2400-compliant modeling app used by residential efficiency and low-income programs.",
+      "signal": "Acquired by program implementer Franklin Energy (Feb 2024)",
+      "status": "acquired",
+      "source": "https://www.franklinenergy.com/press-releases/franklin-energy-acquires-snugg-home-adding-industry-leading-energy-audit-tool-to-technology-suite"
+     },
+     {
+      "name": "Audette",
+      "role": "startup",
+      "what": "AI retrofit capital planning for commercial real estate \u2014 auto-generates costed net-zero measure packages portfolio-wide without on-site audits.",
+      "signal": "US$9.5M seed (2022) to build a net-zero plan for every building in North America",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20221103006037/en/Audette-secures-US%249.5-million-to-create-a-net-zero-plan-for-every-building-in-North-America"
+     },
+     {
+      "name": "Measurabl",
+      "role": "scaleup",
+      "what": "ESG and carbon data platform for real estate in 90+ countries feeding benchmarking, building-performance-standard compliance and retrofit targeting.",
+      "signal": "$93M Series D (2023); ~18B sq ft under management",
+      "status": "operating",
+      "source": "https://www.measurabl.com/optimize/"
+     },
+     {
+      "name": "Cambio",
+      "role": "startup",
+      "what": "AI building-operations and carbon platform automating data collection, compliance reporting and retrofit planning for CRE portfolios.",
+      "signal": "Venture-backed (JLL Spark among investors); AI decarbonization copilot for landlords",
+      "status": "operating",
+      "source": "https://www.crunchbase.com/organization/cambio-0fb5"
+     },
+     {
+      "name": "Brightly Software",
+      "role": "incumbent",
+      "what": "Asset and energy management suite (ex-Dude Solutions) used for public-sector benchmarking and capital planning, now inside Siemens Smart Infrastructure.",
+      "signal": "Acquired by Siemens (2022) in a ~$1.6B deal",
+      "status": "acquired",
+      "source": "https://www.brightlysoftware.com/"
+     }
+    ]
+   },
+   {
+    "name": "Multifamily/commercial retrofit program delivery & building-performance-standard compliance",
+    "description": "Specialist firms bundle engineering, incentives, financing and ongoing monitoring so multifamily and commercial owners can get under building-performance-standard caps (NYC LL97, Boston BERDO) \u2014 converting compliance fines into retrofit demand.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "BlocPower",
+      "role": "startup",
+      "what": "Tech-enabled electrification of small/mid multifamily buildings via equipment leases; ran city-scale programs including Ithaca's Green New Deal.",
+      "signal": "Raised ~$150M+ equity/debt (Goldman Sachs, Microsoft); quietly exited the Ithaca program (Nov 2024) and Wefunder investors reported missed payments in 2025",
+      "status": "uncertain",
+      "source": "https://www.wskg.org/regional-news/2025-01-29/blocpower-promised-to-help-electrify-ithaca-now-it-has-ended-its-support"
+     },
+     {
+      "name": "Bright Power",
+      "role": "scaleup",
+      "what": "Energy and water management, EnergyScoreCards benchmarking and retrofit engineering for over a million apartments; go-to LL97 compliance shop.",
+      "signal": "25+ year NYC multifamily energy specialist",
+      "status": "operating",
+      "source": "https://www.brightpower.com/"
+     },
+     {
+      "name": "Logical Buildings",
+      "role": "startup",
+      "what": "SmartKit AI and GridRewards turn multifamily buildings into virtual-power-plant participants while tracking LL97 compliance and tenant payouts.",
+      "signal": "$110M VPP project facility (2023); 13,800+ GridRewards enrollees cut ~15MW of demand in the 2024 season",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20250320570201/en/Logical-Buildings-Sets-Enrollment-Record-Providing-NYC-and-Westchester-Customers-Cash-Payments-for-Energy-Savings-and-Helping-Building-Owners-Comply-with-Local-Law-97-by-Reducing-Carbon-Emissions"
+     },
+     {
+      "name": "Kelvin",
+      "role": "startup",
+      "what": "Cozy smart radiator enclosures plus hybrid electrification kits cut steam-heated building emissions at roughly 10% of full-electrification cost.",
+      "signal": "$30M Series A (2023); rebranded from Radiator Labs and expanded to Europe",
+      "status": "operating",
+      "source": "https://www.businesswire.com/news/home/20230518005220/en/Kelvin-Receives-%2430-Million-in-Series-A-Funding-to-Decarbonize-Legacy-Building-Stock-Globally"
+     },
+     {
+      "name": "Runwise",
+      "role": "startup",
+      "what": "Wireless boiler/heating controls and ops platform cutting fuel use 20-25% across thousands of older multifamily buildings \u2014 the cheapest LL97 first step.",
+      "signal": "$55M Series B (Jun 2025, Menlo Ventures); $79M total raised",
+      "status": "operating",
+      "source": "https://sacra.com/c/runwise/"
+     },
+     {
+      "name": "Cadence OneFive",
+      "role": "startup",
+      "what": "Decarbonization project software standardizing retrofit scopes, specs and workflows for affordable-housing portfolios facing BPS deadlines.",
+      "signal": "Seed-backed; focused on affordable multifamily decarbonization delivery",
+      "status": "operating",
+      "source": "https://www.cadenceonefive.com/"
+     },
+     {
+      "name": "Parity",
+      "role": "startup",
+      "what": "Remote HVAC optimization-as-a-service with guaranteed savings for multifamily and hotels in NYC/Toronto.",
+      "signal": "ArcTern-backed; hundreds of buildings under management",
+      "status": "operating",
+      "source": "https://www.paritygo.com/"
+     },
+     {
+      "name": "Steven Winter Associates",
+      "role": "incumbent",
+      "what": "Decades-old building-performance consultancy doing LL97/BERDO compliance studies, Passive House certification and electrification engineering.",
+      "signal": "Standard-setting consultancy for NYC decarbonization retrofits since 1972",
+      "status": "operating",
+      "source": "https://www.swinter.com/"
+     }
+    ]
+   },
+   {
+    "name": "Electrification workforce training & contractor staffing tech",
+    "description": "VR/mobile training, certification and hiring marketplaces attack the binding constraint on electrification \u2014 hundreds of thousands of missing heat-pump and HVAC installers \u2014 by compressing time-to-competency and routing demand to qualified crews.",
+    "maturity": "scaling",
+    "companies": [
+     {
+      "name": "Interplay Learning",
+      "role": "scaleup",
+      "what": "VR/3D simulation training (SkillMill) for HVAC, electrical and plumbing used by employers, utilities and colleges.",
+      "signal": "~600,000 trained across ~2,000 organizations; $25M+ raised plus Goldman Sachs Alternatives growth investment",
+      "status": "operating",
+      "source": "https://www.interplaylearning.com/solutions/workforce-development/"
+     },
+     {
+      "name": "SkillCat",
+      "role": "startup",
+      "what": "Mobile-first free trades training with fully in-app proctored EPA 608 certification, reaching entry-level techs employers can't find.",
+      "signal": "Hundreds of thousands of app-based certifications/courses delivered",
+      "status": "operating",
+      "source": "https://www.skillcatapp.com/"
+     },
+     {
+      "name": "BlueRecruit",
+      "role": "startup",
+      "what": "Matching marketplace pairing skilled-trades workers directly with HVAC/electrical/plumbing employers.",
+      "signal": "Early-stage trades hiring marketplace",
+      "status": "operating",
+      "source": "https://www.bluerecruit.us/"
+     },
+     {
+      "name": "UpSmith",
+      "role": "startup",
+      "what": "Staffing and AI productivity tools that add qualified capacity to HVAC and mechanical contractors.",
+      "signal": "Seed-backed Dallas startup partnering with contractor networks",
+      "status": "operating",
+      "source": "https://www.upsmith.com/"
+     },
+     {
+      "name": "HeatSpring",
+      "role": "startup",
+      "what": "Online clean-energy course marketplace (heat pump design, BPI, NABCEP continuing education) for working professionals.",
+      "signal": "Long-running bootstrapped training marketplace central to heat-pump upskilling",
+      "status": "operating",
+      "source": "https://www.heatspring.com/"
+     },
+     {
+      "name": "Heat Geek",
+      "role": "startup",
+      "what": "UK heat-pump engineer training academy plus consumer marketplace that routes installs to its 'Heat Geek Elite' graduates.",
+      "signal": "~$4.7M raised; Carrier Ventures investment (Mar 2026) to scale across Europe",
+      "status": "operating",
+      "source": "https://www.cbinsights.com/company/heat-geek"
+     },
+     {
+      "name": "Penn Foster Group",
+      "role": "incumbent",
+      "what": "Legacy online career school training thousands of HVAC/electrical technicians annually through accredited self-paced programs.",
+      "signal": "One of the largest US online trades-education providers",
+      "status": "operating",
+      "source": "https://www.pennfoster.edu/"
+     }
+    ],
+    "white_space": "Training content is abundant but throughput isn't: the real bottleneck is paid on-the-job hours and employer sponsorship, which software alone doesn't fund \u2014 an opening for earn-while-you-learn staffing models (OEM- or utility-subsidized apprenticeships) tied to verified install-quality data, especially as Europe's installer academies (Octopus, Aira, Heat Geek) have no US equivalent at scale."
+   }
+  ]
+ }
+}
