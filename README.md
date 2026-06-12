@@ -12,7 +12,12 @@ This project began as a simple question about that claim: **okay — what are al
 
 This map is the answer. It is a census of every climate solution we could find, every distinct technical variation of each one, and the companies implementing them — with a verdict on the claim itself in [chapter 1](01-does-the-claim-hold.md). It was compiled on June 11, 2026 by a fleet of ~130 AI research agents (Anthropic's Claude) using live web search, orchestrated and reviewed by a human. Every company entry links to a source you can check yourself.
 
-**New to GitHub?** You don't need an account — this is just a collection of linked pages. Click any blue link to open a chapter, and use the `← / 🏠 / →` links at the top of every page (or your browser's Back button) to get around. Suggested path: chapter 1 for the verdict, then whichever sector you're curious about, then the white-space index if you want to know what *isn't* being built yet.
+**How to use this info** I envision 3 major ways to use this information:
+1. Those looking for work in climate but don't know what suits them may find this a helpful resource for places to apply, sectors to look in, etc.
+2. Finding gaps & new ideas. There are some technologies that exist but don't have a lot of business momentum. Those entrepreneurial spirits out there may seek those gaps on this page (classified as "white space") as opportunities to stake their own claim in the industry. Additionally, having a strong list of today's existing technologies/solutions can help inform and ideate tomorrow's technologies/solutions.
+3. Investment opportunities.
+
+**New to GitHub?** This is just a collection of linked pages. Click any blue link to open a chapter, and use the `← / 🏠 / →` links at the top of every page (or your browser's Back button) to get around. Suggested path: chapter 1 for the verdict, then whichever sector you're curious about, then the white-space index if you want to know what *isn't* being built yet.
 
 **4069 company entries** (3267 unique companies) across **63 solution areas** and **638 distinct technical variations** in 7 sectors — including 166 documented failures and 153 acquisitions kept as market evidence.
 
