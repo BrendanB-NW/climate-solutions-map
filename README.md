@@ -8,9 +8,9 @@ You may have heard some version of this claim:
 
 > *"All of the climate solutions we need already exist — we just need to start implementing them WAY faster."*
 
-This project began as a simple question about that claim: **okay — what are all of these solutions, and who is actually building them?**
+**Okay — what are all of these solutions, and who is actually building them?**
 
-This map is the answer. It is a census of every climate solution we could find, every distinct technical variation of each one, and the companies implementing them — with a verdict on the claim itself in [chapter 1](01-does-the-claim-hold.md). It was compiled on June 11, 2026 by a fleet of ~130 AI research agents (Anthropic's Claude) using live web search, orchestrated and reviewed by a human. Every company entry links to a source you can check yourself.
+This map is the answer. It is a census of every climate solution Claude (Fable 5) could find, every distinct technical variation of each one, and the companies implementing them — with a verdict on the claim itself in [chapter 1](01-does-the-claim-hold.md). It was compiled on June 11, 2026 by a fleet of ~130 AI research agents (Anthropic's Claude) using live web search, orchestrated by a human. Every company entry links to a source you can check yourself.
 
 **How to use this info** I envision 3 major ways to use this information:
 1. Those looking for work in climate but don't know what suits them may find this a helpful resource for places to apply, sectors to look in, etc.
@@ -20,6 +20,8 @@ This map is the answer. It is a census of every climate solution we could find, 
 **New to GitHub?** This is just a collection of linked pages. Click any blue link to open a chapter, and use the `← / 🏠 / →` links at the top of every page (or your browser's Back button) to get around. Suggested path: chapter 1 for the verdict, then whichever sector you're curious about, then the white-space index if you want to know what *isn't* being built yet.
 
 **4069 company entries** (3267 unique companies) across **63 solution areas** and **638 distinct technical variations** in 7 sectors — including 166 documented failures and 153 acquisitions kept as market evidence.
+
+**Gotchas** This data is not updated regularly. It was compiled one time by an AI and may have flaws. In fact, I notice that each "sector" of solution contains exactly 9 areas of solution, which is suspicious. There are probably more areas and more companies that are not included in this list. Alas, we are imperfect. Be careful when reviewing not to fall prey to Greenwashing -- a company's branding/marketing that makes them sound like good actors while they're actually doing harm or nothing for the environment.
 
 **Legend:** 🟢 mature · 🟡 scaling · 🟠 demonstration · 🔵 pilot · ⚪ lab — rated per variation. ⚠️/☠ = shut down or bankrupt (kept as data). *(audit add)* = added by verification pass.
 
@@ -62,5 +64,5 @@ Company statuses drift fast — the graveyard chapter is proof. This repo ships 
 - Failed companies (⚠️ / ☠) are kept deliberately — they are white-space evidence, not noise. See [the graveyard](10-graveyard.md).
 - Only Clean Energy received a dedicated second-pass verification audit; other sectors rely on each researcher's own status checks. Treat any single company fact as unverified until you check the linked source — this is AI-compiled research, not investment advice.
 - A company may legitimately appear under several variations (e.g., diversified incumbents). "Company entries" counts rows; "unique companies" deduplicates by name.
-- Text and data are licensed [CC BY 4.0](LICENSE) — share and adapt freely with attribution. Not investment advice.
+- Text and data are licensed [CC BY 4.0](LICENSE) — you may share and adapt freely with attribution. Not investment advice.
 
